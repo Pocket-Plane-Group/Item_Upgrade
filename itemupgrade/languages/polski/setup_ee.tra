@@ -1,0 +1,1256 @@
+/*
+Translator note:
+
+Since BGIIEE uses slightly different formatting and conventions than vBG2, this file allows you to override strings for *only* BGIIEE.
+When Item Upgrade is installed on vBG2, only strings from setup.tra are used. On BGIIEE, strings defined here will override the strings
+from setup.tra. This does not need to be a complete copy of setup.tra, ONLY for the strings that are different between vBG2 and BGIIEE.
+This file is also formatted in utf-8 since it's only used on BGIIEE games. setup.tra will be converted on the fly for BGIIEE.
+*/
+
+@1 = ~Ulepszenia przedmiotów dla Cieni Amn~
+@2 = ~Ulepszenia przedmiotów dla Tronu Bhaala~
+@3 = ~Nie mozna odnalezc [Data\25Dialog.bif], co wskazuje na to, ze nie masz aktualnie zainstalowanego Tronu Bhaala. Wybacz!~
+
+@100 = ~Pierścień zachowywania +1~
+@101 = ~Pierścień zachowywania +1: 'Pierścień Księcia Trolli'
+Pierścień ten został magicznie wykuty specjalnie dla ciebie. Zawiera w sobie połączone moce pierścienia ochronnego króla Casttera i pieścienia regeneracji Huhhusa. W dodatku pierścień jest bardzo gustowny.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1
+– Rzuty obronne: +1
+– Regeneracja Punktów Życia: 1/rundę
+
+Waga: 0~
+
+@102 = ~Pierścień zachowywania +2~
+@103 = ~Pierścień zachowywania +2: 'Pierścień Strażnika Trolli'
+Pierścień ten został magicznie wykuty specjalnie dla ciebie. Zawiera w sobie połączone moce pierścienia ochronnego `Pierścienia Strażnika` i pieścienia regeneracji Huhhusa. W dodatku pierścień jest bardzo gustowny.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +2
+– Rzuty obronne: +2
+– Regeneracja Punktów Życia: 1/rundę
+
+Waga: 0~
+
+@104 = ~Pierścień kontroli nad żywiołami~
+@105 = ~Pierścień ten łączy w sobie potęgę żywiołów ziemi, powietrza i ognia i zezwala użytkownikowi dominować nad istotami pochodzącymi z tych sfer. Pierścień został stworzony dla ciebie i jego sława będzie niewątpliwie rosnąć z twoją. 
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1
+– Rzuty obronne: +1
+– Odporność na ogień: +50%
+- Odporność na elektryczność: +50%
+
+Właściwości ładunków:
+– Zauroczenie żywiołaka, trzy razy dziennie (bez rzutu obronnego)
+Zasięg: dotyk 
+Czas działania: 45 sekund 
+Obszar działania: dotknięty żywiołak
+
+– Sprowadzenie żywiołaka ziemi, powietrza i ognia, raz dziennie (przyzwany żywiołak jest przyjazny)
+Zasięg: pole widzenia
+Czas działania: 5 tur 
+
+– Ulepszona niewidzialność, raz dziennie 
+Zasięg: dotyk 
+Czas działania: 1 tura 
+Obszar działania: dotknięta istota
+
+Waga: 0~
+
+@106 = ~Kostur władzy nad żywiołami +5~
+@107 = ~Połączony trzema płaszczyznami żywiołów, ten potężny kostur został wykuty dla ciebie. To jest potężna broń sama w sobie, ale także posiada moc życia i śmierci związaną z istotami żywiołów. Ten szczególny kij jest zimny w dotyku i jest pokryty wypalonymi znakami oraz małymi wyżłobieniami. Wieść niesie, że sekret tej specyficznej konstrukcji został pierwotnie odkryty przez Rakshasa, która to stworzyła go do stworzenia Cepa bojowego wieków.
+
+PARAMETRY:
+
+Specjalne:
+– Zniszczenie żywiołaka ziemi, powietrza lub ognia, po trafieniu (bez rzutu obronnego)
+
+Właściwości ładunków:
+– Sprowadzenie żywiołaka ziemi, powietrza i ognia, raz dziennie (przyzwany żywiołak jest przyjazny)
+Zasięg: pole widzenia
+Czas działania: 5 tur
+
+– Ognista tarcza (czerwona), dwa razy dziennie
+Odporność na ogień: +50% 
+Specjalne: Każdy, kto trafi użytkownika będąc w promieniu 1,5 metra od niego, otrzyma 1k8 +2 obrażeń od ognia 
+Czas działania: 13 rund 
+Obszar działania: użytkownik
+
+– Usypiająca chmura, dwa razy dziennie (rzut obronny przeciw truciznom neguje)
+Specjalne: Ofiara zasypia na 3 rundy
+Zasięg: 12 metrów
+
+Obrażenia: 1k6 +5
+Trak0: +5
+Typ obrażeń: obuchowe
+Opóźnienie: 0
+Rodzaj biegłości: kij
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 5
+
+Waga: 3~
+
+@108 = ~Kołczan obfitości +3~
+@109 = ~Pieniądze i surowce zainwestowane w Kołczan obfitości sprawiły, że przedmiot ten zyskał zadziwiające magiczne właściwości. 
+ 
+PARAMETRY:
+ 
+Specjalne:
+– Nieograniczona liczba strzał +3
+
+Waga: 0~
+
+@110 = ~Futerał obfitości +3~
+@111 = ~Pieniądze i surowce zainwestowane w Futerał obfitości sprawiły, że przedmiot ten zyskał zadziwiające magiczne właściwości. 
+ 
+PARAMETRY:
+ 
+Specjalne:
+– Nieograniczona liczba bełtów +3
+
+Waga: 0~
+
+@112 = ~Torba obfitości +3~
+@113 = ~Pieniądze i surowce zainwestowane w Torbę obfitości sprawiły, że przedmiot ten zyskał zadziwiające magiczne właściwości. Aczolwiek jakoś nie są one zadowalające. Czy kiedykolwiek zainwestowałeś pieniądze i surowce w magiczny objekt tylko po to, by przekonać się, że jest on bezużyteczny? To znaczy, z wyjątkiem Wyrównywacza i Fali. Myślę, że nie. 
+
+PARAMETRY:
+ 
+Specjalne:
+– Nieograniczona liczba pocisków do procy +3
+
+Waga: 0~
+
+@114 = ~Buty przyspieszonego ukrycia~
+@115 = ~Doskonałe dla zwiadowców, którzy pragną zostać niewykryci, Buty przyspieszonego ukrycia łączą w sobie moce Butów szybkości i Butów ukrycia. Zostały zrobione na twoje zamówienie. 
+
+PARAMETRY:
+
+Specjalne:
+– Dwukrotnie zwiększają prędkość poruszania się
+– Ciche chodzenie: +20%
+– Krycie się w cieniu: +15%
+
+Waga: 4~
+
+@116 = ~Buty zamieci~
+@117 = ~Doskonałe dla poszukiwacza przygód podróżującego po jaskini lodowych trollów lub innym chłodnym obszarze, Buty zamieci łączą w sobie moce Butów szybkości i Butów Północy, które zostały połączone specjalnie dla ciebie. 
+
+PARAMETRY:
+
+Specjalne:
+– Dwukrotnie zwiększają prędkość poruszania się
+– Odporność na zimno: +50%
+
+Waga: 4~
+
+@118 = ~Buty szerszenia~
+@119 = ~Buty szerszenia są nieprześcignione w przyspieszaniu ruchów ich nosiciela. Poprzez kombinację Butów uników i Butów szybkości, te buty doskonale chronią przed pociskami.
+
+PARAMETRY:
+
+Specjalne:
+– Dwukrotnie zwiększają prędkość poruszania się
+– Klasa Pancerza: +5 przeciw pociskom
+
+Waga: 4~
+
+@120 = ~Pięty Pana Burz~
+@121 = ~Doskonałe podczas odprężającego dnia spędzonego na najeżdżaniu świątyni Talosa lub walki przeciwko Żywiołakom powietrza, gdyż buty te łączą w sobie moce Butów uziemienia i Butów szybkości. Zostały one zszyte na twoje zamówienie.
+
+PARAMETRY:
+
+Specjalne:
+– Dwukrotnie zwiększają prędkość poruszania się
+– Odporność na elektryczność: +50%
+
+Waga: 4~
+
+@122 = ~Niewierna żona +5~
+@123 = ~Maczuga +5: Niewierna żona
+Stworzona na twoje zamówienie poprzez połączenie maczug: Czarnej krwi i Zgniatacza, Niewierna żona pulsuje destrukcyjną mocą. Pokryta jest substancją podobną do kwasu, która pali ciało przy zetknięciu. Niewierna żona zadaje potężne rany także miażdząc kręgosłup. 
+
+PARAMETRY:
+
+Specjalne:
+– Odporność na kwas: +25%
+
+Obrażenia: 1k6 +5, +5 obrażeń od kwasu, drzazgi zadają 3 obrażenia co rundę przez 4 rundy
+Trak0: +5
+Typ obrażeń: obuchowe
+Opóźnienie: 1 
+Rodzaj biegłości: maczuga
+Typ broni: 1-ręczna
+
+Wymagania:
+– Siła: 5
+
+Waga: 3~
+
+@124 = ~Rozłupywacz czaszek +5~
+@125 = ~Wekiera +5: Rozłupywacz czaszek
+Ta wekiera jest na stałe splamiona krwią, znak wielu lat poświęconych na rozłupywanie głów. Broń ta mogła w przeszłości przynosić zagładę humanoidom, ale jej właściciele zostali prawdopodobnie celowo usunięci ze źródeł historycznych. Ostatnio za twoim pośrednictwem została przemieniona w jeszcze bardziej budzącą grozę broń. 
+
+PARAMETRY:
+
+Specjalne:
+– Obniża maksymalną ilość punktów życia ofiary o 2 na okres 10 rund, po trafieniu
+
+Obrażenia: 1k6 +6, +6 obrażeń przeciw humanoidom
+TraK0: +5
+Typ obrażeń: obuchowe
+Opóźnienie: 2
+Rodzaj biegłości: wekiera
+Typ broni: 1-ręczna
+Wymagania:
+– Siła: 10
+
+Waga: 6~
+
+@126 = ~Teleomortis +4~
+@127 = ~Stworzony w twoim imieniu używając mrocznych i strasznych rytuałów, Teleomortis jest długim łukiem o niezrównanej potędze. Kiedy cięciwa jest naciągana formuje się duchowa strzała, zdająca się migotać i kręcić w świetle. Łuk nie wymaga żadnej dodatkowej amunicji (chociaż może on używać również innych strzał). Duchowe strzały powstają z niewiadomych przyczyn, pozostając tajemnicą tego łuku. 
+
+PARAMETRY:
+
+Specjalne:
+– Tworzy własne upiorne strzały +4, w związku z czym nie potrzebuje amunicji 
+– 5% szans, że cel znajdzie się pod wpływem Zamętu, po trafieniu
+
+Obrażenia: 1k6 +4
+TraK0: +4
+Opóźnienie: 1
+Rodzaj biegłości: długi łuk
+Typ broni: 2-ręczna
+
+Wymagania: 
+– Siła: 18
+
+Waga: 7~
+
+@128 = ~Rodowa zbroja Corthalów~
+@129 = ~Ta kolczuga, od dawien dawna własność rodu Corthala, chroni noszącego ją przed wszystkimi rodzajami ataków. Widać jednakże, że musiała być niedawno modernizowana. Zbroja jest magiczna i zapewnia premię +5 do klasy pancerza Valygara. Daje też premię do odporności na kwas, ogień i obrażenia magiczne. Dopóki Valygar ma na sobie tę zbroję, jest też odporny na zauroczenia. W końcu noszącego zbroję nie można wykryć. Niewiele osób może ją na siebie założyć, gdyż dopasowano ją specjalnie do sylwetki Valygara.
+
+PARAMETRY:
+
+Specjalne:
+– Odporność na ogień: +50%
+– Odporność na kwas: +50%
+- Odporność na magiczne obrażenia: +50%
+- Niewrażliwość na zauroczenie
+- Niewykrywalność
+
+Klasa Pancerza: 0 (-2 przeciw broniom siecznym, 2 przeciw broniom obuchowym)
+
+Waga: 9~
+
+@130 = ~Wzmocniona szata dobrego arcymaga~
+@131 = ~Ta potężna szata oferuje ochronę ochronę przed wszystkimi fizycznymi atakami, zarazem podwyższając magiczną odporność i rzuty obronne. Zgodnie z naturą zaczarowania szaty, może być noszona tylko przez dobre charaktery. Tę szczególną szatę umagicznił<PRO_HESHE> <CHARNAME>.
+
+PARAMETRY:
+
+Specjalne:
+– Rzuty obronne: +2
+– Odporność na magię: +10%
+– Pozwala zapamiętać po 1 dodatkowym zaklęciu maga z poziomów 1-4
+
+Klasa Pancerza: 3
+
+Waga: 6~
+
+@132 = ~Wzmocniona szata neutralnego arcymaga~
+@133 = ~Ta potężna szata oferuje ochronę ochronę przed wszystkimi fizycznymi atakami, zarazem podwyższając magiczną odporność i rzuty obronne. Zgodnie z naturą zaczarowania szaty, może być noszona tylko przez neutralne charaktery. Tę szczególną szatę umagicznił<PRO_HESHE> <CHARNAME>.
+
+PARAMETRY:
+
+Specjalne:
+– Rzuty obronne: +2
+– Odporność na magię: +10%
+– Pozwala zapamiętać po 1 dodatkowym zaklęciu maga z poziomów 1-4
+
+Klasa Pancerza: 3
+
+Waga: 6~
+
+@134 = ~Wzmocniona szata złego arcymaga~
+@135 = ~Ta potężna szata oferuje ochronę ochronę przed wszystkimi fizycznymi atakami, zarazem podwyższając magiczną odporność i rzuty obronne. Zgodnie z naturą zaczarowania szaty, może być noszona tylko przez złe charaktery. Tę szczególną szatę umagicznił<PRO_HESHE> <CHARNAME>.
+
+PARAMETRY:
+
+Specjalne:
+– Rzuty obronne: +2
+– Odporność na magię: +10%
+– Pozwala zapamiętać po 1 dodatkowym zaklęciu maga z poziomów 1-4
+
+Klasa Pancerza: 3
+
+Waga: 6~
+
+@136 = ~Hełm Cytadeli~
+@137 = ~Wykuty na twoje życzenie, Hełm Cytadeli chroni noszącą go osobę przed fizycznymi, magicznymi i umysłowymi atakami. Łączy on w sobie defensywną moc Hełmu ochrony i Hełmu ochrony przed urokami. W dodatku wygląda wyzywająco. 
+
+PARAMETRY:
+
+Specjalne: 
+– Rzuty obronne: +1
+– Odporność na elektryczność: +20%
+– Odporność na zimno: +20%
+– Odporność na ogień: +20%
+– Niewrażliwość na Zauroczenie
+– Chroni przed trafieniami krytycznymi
+
+Waga: 3~
+
+@138 = ~Wieża żelaznej woli~
+@139 = ~Wykuta jak tego życzył<PRO_HESHE> sobie <CHARNAME>, Wieża żelaznej woli ochroni noszącą osobę przed mentalnymi atakami. Dostarcza całej standardowej ochrony podobnie jak Hełm ochrony przed urokami, a także sprawia, że nosząca go osoba jest odporna na ataki psioniczne. Należy zauważyć, że nie chroni on przed wysysającymi inteligencję atakami illithidów.
+
+PARAMETRY:
+
+Specjalne:
+- Niewrażliwość na Zauroczenie i psionikę
+– Chroni przed trafieniami krytycznymi
+
+Waga: 3~
+
+@140 = ~Skóra Aegera +5~
+@141 = ~Ta ciężka i gruba niedźwiedzia skóra jest wszystkim co zostało ze słynnego Aegera. Kilkaset lat temu Aeger, olbrzymi niedźwiedź, terroryzował setki wiosek wzdłuż całego Wybrzeża Mieczy. Niedźwiedź był niewrażliwy na ogień, zimno i kwas. Wreszcie zebrali się młodzi mężczyźni i kobiety z kilku wiosek, tworząc grupę liczącą prawie dwieście osób. Aeger został otoczony i zgładzony. Przeżył mniej niż tuzin ludzi, którzy podzielili między siebie skórę Aegera. Zbroja została wykonana z jednego z tych kawałków.
+<CHARNAME> ulepszył<PRO_HESHE> ją jeszcze bardziej dodatkowymi umagicznieniami. Obecnie zapewnia jeszcze większą ochronę na obrażenia fizyczne i ataki bazujące na żywiołach.
+
+PARAMETRY:
+
+Specjalne:
+- Odporność na ogień: +25%
+- Odporność na zimno: +25%
+- Odporność na kwas: +25%
+- Niewrażliwość na Zamęt
+
+Klasa Pancerza: 1 (3 przeciw broniom kłutym i pociskom)
+
+Wymagania: 
+- Siła: 6
+
+Waga: 35~
+
+@142 = ~Ulepszona Ludzka Skóra~
+@143 = ~Ta zbroja jest wykonana z ludzkiej skóry i oblana krwią szlachetnego smoka. Wydziela ostry odór śmierci. Ta nikczemna zbroja może być używana tylko przez naprawdę złą osobę.
+
+PARAMETRY:
+
+Specjalne:
+- Zręczność: +1
+- Kondycja: +1
+- Rzuty obronne: +4
+- Odporność na magię: +20%
+- Niewrażliwość na trucizny
+- Ochrona przed dobrem
+
+Klasa Pancerza: 0 (2 przeciw broniom kłutym i pociskom)
+
+Wymagania: 
+- Siła: 3
+
+Waga: 5~
+
+@144 = ~Ulepszona pełna zbroja płytowa Firecama~
+@145 = ~Ta zbroja została zaprojektowana specjalnie dla Keldorna. Zbroja została później umagiczniona, gdy zażyczył sobie tego <CHARNAME>, aby zapewniała Keldornowi lepszą ochronę. Będąc na wyposażeniu zapewnia właścicielowi premię +2 do wszystkich rzutów obronnych oraz pozwala na Swobodę działania (np. przechodzenie przez pajęczyny) oraz odporność na strach. Poza byciem niesamowicie silną, zbroja prawie nic nie waży. 
+
+PARAMETRY:
+
+Specjalne:
+- Rzuty obronne: +2
+- Swoboda działania
+- Niewrażliwość na strach
+
+Klasa Pancerza: -2 (-6 przeciw broniom siecznym, -5 przeciw broniom kłutym i pociskom)
+
+Waga: 10~
+
+@146 = ~Zbroja płytowa z ankhega~
+@147 = ~Ta zbroja płytowa to istne cacko. Powleczona chitynową łuską ankhega zapewnia lepszą ochronę niż pancerz wykonany z metalu i nie jest podatna na rdzę. Jednakże, jak powie ci to każdy doświadczony poszukiwacz przygód, jej największą zaletą jest niewielka waga. Potwory przychodzą i odchodzą, wyczerpanie natomiast jest stałym zagrożeniem. 
+Ta szczególna zbroja została przekuta na twoją prośbę. Zapewnia ona teraz dodatkową ochronę i pozwala noszącemu ją na naśladowanie ataków plującego kwasem ankhega.
+
+PARAMETRY:
+
+Specjalne:
+- Odporność na kwas: +50%
+
+Właściwości ładunków:
+– Kwasowa strzała Melfa, trzy razy dziennie (bez rzutu obronnego)
+Zasięg: 20 metrów
+Czas działania: 7 rund
+
+Klasa Pancerza: -1 (-4 przeciw broniom siecznym, -2 przeciw broniom kłutym i pociskom)
+
+Wymagania:
+- Siła: 8
+
+Waga: 25~
+
+@148 = ~Tarcza harmonii +3~
+@149 = ~Audn z Pola, rycerz i czempion czarodzieja Kekkima, nosił tę tarczę przez większość swojego życia. Chroni ona nosiciela przed większością form kontroli umysłu, co jest zaletą dla czarodzieja, który potrzebował przyjaznych mu wojowników, aby stali wiernie po jego stronie. Zarówno Kekkim, jak i Audn dawno już gryzą ziemię, pozostawiwszy tarczę temu, kto wydostanie ją z wieży czarodzieja.
+Niedawno tarcza ta została dodatkowo umagiczniona przez ciebie. Zapewnia teraz dodatkową fizyczną ochronę i sprawia, że noszący ją jest odporny na psionikę (ale nie przed wysysającymi inteligencję atakami illithidów). 
+
+PARAMETRY: 
+
+Specjalne:
+- Niewrażliwość na Zauroczenie, Zamęt, Dominację, Unieruchomienie osoby i psionikę
+
+Klasa Pancerza: +4
+
+Wymagania:
+- Siła: 4
+
+Waga: 2~
+
+@150 = ~Rzucana włócznia +3~
+@151 = ~Włócznia to jeden z najwcześniejszych rodzajów broni, którymi zaczął posługiwać się człowiek. Pierwsze egzemplarze tej broni były wykonane z drewna i zaostrzone na końcu. Kiedy człowiek nauczył się wytapiać metale, groty włóczni były wytwarzane z żelaza i stali. Ta włócznia drży od potężnej magii wykorzystanej do jej stworzenia.
+W przeciwieństwie do prawie wszystkich włóczni, które znasz, tą można rzucać. Została wykuta dla ciebie przy użyciu kamienia łotrzyków. Kiedy jest rzucana, włócznia natychmiast wraca do rąk właściciela. (Włócznia może być wykorzystywana jako broń ręczna: wybierz wtedy drugą zdolność broni, aby tak zrobić.) 
+
+PARAMETRY:
+
+Specjalne:
+- 1 dodatkowy atak na rundę (można nią rzucać z częstotliwością strzału z długiego łuku)
+
+Obrażenia: 1k6 +3
+TraK0: +3
+Typ obrażeń (walka wręcz): kłute
+Typ obrażeń (rzucona): pocisk (kłute)
+Opóźnienie: 3
+Rodzaj biegłości: włócznia
+Typ broni: 2-ręczna
+
+Wymagania:
+- Siła: 5
+
+Waga: 3~
+
+@152 = ~Rzucana włócznia jednorożca +3~
+@153 = ~Ta zgrabna włócznia kształtem przypomina róg jednorożca. Władający ta bronią jest niewrażliwy na czary Unieruchomienie i Zauroczenie, tak samo jak jednorożec. Nie wiadomo czy ten róg jest prawdziwym rogiem jednorożca.
+Oryginalna Włócznia jednorożca została przekuta tak, by można jej używać jako broni dystansowej. Kiedy jest rzucana, włócznia natychmiast wraca do rąk właściciela. (Włócznia może być wykorzystywana jako broń ręczna: wybierz wtedy drugą zdolność broni, aby tak zrobić.) 
+
+PARAMETRY:
+
+Specjalne:
+- Rzuty obronne: +3 przeciw śmierci
+- Niewrażliwość na Unieruchomienie osoby i Zauroczenie
+
+Obrażenia: 1k6 +3, +2 obrażenia od ognia
+Trak0: +3
+Typ obrażeń (walka wręcz): kłute
+Typ obrażeń (rzucona): pocisk (kłute)
+Opóźnienie: 3
+Rodzaj biegłości: włócznia
+Typ broni: 2-ręczna
+
+Wymagania: 
+- Siła: 5
+
+Waga: 3~
+
+@154 = ~Rzucana Włócznia +4, Przebijacz~
+@155 = ~Rzucana Włócznia +4, Przebijacz
+Przebijacz posiada namacalną aurę magiczną wskazującą na złośliwą naturę tej broni i dlatego była ona w przeszłości ulubioną bronią wielu potężnych wodzów orków. Trafiona ofiara zostaje, jak można się domyślać, prawie przebita, gdy magiczna zdolność broni dokonuje dzieła zniszczenia.
+Po tym jak <CHARNAME> uzyskał<PRO_HESHE> Przebijacza w mieście Sahuaginów, przekuł<PRO_HESHE> ją później na broń dystansową. Kiedy jest rzucana, włócznia natychmiast wraca do rąk właściciela. (Włócznia może być wykorzystywana jako broń ręczna: wybierz wtedy drugą zdolność broni, aby tak zrobić.
+
+PARAMETRY:
+
+Specjalne:
+- 1 dodatkowy atak na rundę (można nią rzucać z częstotliwością strzału z długiego łuku)
+
+Obrażenia: 1k6 +4, +10 obrażeń kłutych
+TraK0: +4
+Typ obrażeń (walka wręcz): kłute
+Typ obrażeń (rzucona): pocisk (kłute)
+Opóźnienie: 2
+Rodzaj biegłości: włócznia
+Typ broni: 2-ręczna
+
+Wymagania:
+- Siła: 5
+
+Waga: 3~
+
+@156 = ~Kostur Lasów +5~
+@157 = ~Kostur Lasów
+Człowiek, który go posiadał, znany jako "Dziki mąż z lasu", był w okolicach Targowa postacią legendarną do chwili, kiedy umarł i powrócił do ziemi. Ci, którzy go widzieli pamiętają jego ciemną, podobną do kory skórę, która znikała, gdy odkładał swój kostur. Osobnik ten nękał nieodpowiedzialnych drwali i przechodniów, a starcy opowiadają, jak kiedyś wybrali się na niego najemnicy z tuzinem psów myśliwskich. Zwierzęta były gotowe rozerwać biednego druida na strzępy, ale on szybko zwrócił je przeciwko ich własnym panom. Ruszywszy do przodu w nadziei przerwania tego wpływu, zbrojni ujrzeli ostatnią moc kostura, gdy roślinność zadrżała od magicznego wezwania "Dzikiego męża". Uformowała się zielona, gnijąca mieszanina życia i śmierci, która opadła na przerażonych żołnierzy, zabijając ich wszystkich.
+Niedawno <CHARNAME> zlecił<PRO_HESHE> ulepszenie kostura, dzięki czemu można skorzystać z nowych zdolności. 
+
+PARAMETRY:
+
+Specjalne:
+- Korowa skóra: Klasa Pancerza: 3 
+- Klasa Pancerza: +3
+- 5% szans, że cel, oraz jego sojusznicy, znajdą się pod wpływem czaru Pełzająca zagłada, po trafieniu
+
+Właściwości ładunków:
+- Wezwanie Pokracznego kopca o 8 Kostkach, sześć razy dziennie
+Zasięg: 13 metrów
+Czas działania: 100 sekund
+
+– Wzmocnione zauroczenie zwierząt, sześć razy dziennie (bez rzutu obronnego) 
+Zasięg: 13 metrów
+Czas działania: 300 sekund
+
+Obrażenia: 1k6 +5
+TraK0: +5
+Typ obrażeń: obuchowe
+Opóźnienie: 0
+Rodzaj biegłości: kij
+Typ broni: 2-ręczna
+
+Wymagania:
+- Siła: 5
+
+Waga: 2~
+
+@158 = ~Dzienna Gwiazda +4~
+@159 = ~Słoneczne ostrze: Dzienna Gwiazda +4
+Niezależnie od tego czy miecz został stworzony specjalnie by służyć Tormowi, czy też zaczęto wykorzystywać go w tym celu później, to Paladyni Lojalnej Furii dobrze używali go w swej walce z nieumarłymi. Dzięki magii, bądź błogosławieństwu obdarzony jest Promieniem słońca, energią czystej siły życiowej tak potężną, że niszczy zarówno żywych jak i nieumarłych.
+<CHARNAME> odzyskał<PRO_HESHE> ten miecz z rąk lisza niedaleko bram miasta Athkatli i zlecił<PRO_HESHE> jego przekucie tworząc jeszcze bardziej potężną broń w rękach sprawiedliwości. 
+
+PARAMETRY:
+
+Specjalne:
+- Ochrona przed złem
+
+Właściwości ładunków:
+- Promień słońca, dwa razy dziennie
+Obrażenia: 3k6 (rzut obronny przeciw czarom lub oślepienie na 10 rund), +10k6 przeciw nieumarłym
+Nieumarli: zniszczenie (rzut obronny przeciw czarom neguje)
+Zasięg: 6 metrów
+Obszar działania: w promieniu 6 metrów
+
+Obrażenia: 1k8 +4, +8 przeciw złym istotom, podwójne obrażenia przeciw nieumarłym 
+TraK0: +4, +8 przeciw złym istotom
+Typ obrażeń: sieczne
+Opóźnienie: 3
+Rodzaj biegłości: długi miecz
+Typ broni: 1-ręczna
+
+Wymagania:
+- Siła: 6
+
+Waga: 2~
+
+@160 = ~Furia Niebios +5~
+@161 = ~Katana +5: Furia Niebios
+W przeciwieństwie do konwencjonalnych broni, katana jest już z założenia niemal doskonałym mieczem do walki. Trzeba ogromnych poświęceń, aby jeszcze ją ulepszyć, np. umierający samuraj może ubłagać Wu Jena aby jego waleczny duch został przelany na katanę. Osoba władająca zaczarowaną kataną, taką jak ta, musi szanować obyczaje Kara-Tur oraz samuraja, który niegdyś dzierżył to ostrze w boju. Nieprzestrzeganie tego nakazu może spowodować gwałtowną odmianę losu na gorsze.
+Umagicznienie katany nie jest prostą sprawą. Tak przynajmniej myślał<PRO_HESHE> <CHARNAME>, zanim sam<PRO_HESHE> tego po raz pierwszy nie uczynił<PRO_HESHE>. W rzeczywistości najtrudniejszą częścią przekuwania już boskiej mocy katany znanej jako Furia Niebios było zebranie potrzebnych do tego rzeczy. Furia Niebios dobrze j<PRO_HIMHER> służyła, odkąd <CHARNAME> zabrał<PRO_HESHE> ją z rąk kensaia Koshi w Dzielnicy Świątynnej w Athkatli.
+
+PARAMETRY:
+
+Specjalne:
+- Huk gromu: Ogłuszenie na 1 rundę, po trafieniu (rzut obronny przeciw czarom neguje) 
+– Porażające uderzenie: 5% szans na dodatkowe 20 obrażeń od elektryczności, po trafieniu
+
+Właściwości ładunków:
+– Uderzenie błyskawicy, raz dziennie 
+Obrażenia: 10k6 obrażeń od elektryczności (połowa po rzucie obronnym przeciw czarom) 
+Zasięg: 16 metrów 
+Obszar działania: 1 istota
+
+– Ociemniałość, raz dziennie (rzut obronny przeciw czarom neguje) 
+Zasięg: 13 metrów 
+Czas działania: 2 rundy 
+Obszar działania: 1 istota
+
+Obrażenia: 1k10 +5 
+TraK0: +5
+Typ obrażeń: sieczne
+Opóźnienie: 1
+Rodzaj biegłości: katana
+Typ broni: 1-ręczna
+
+Wymagania:
+– Siła: 6
+
+Waga: 3~
+
+@162 = ~Miecz Arvoreen +5~
+@163 = ~Miecz Arvoreen +5
+Oręż ten jest kolejnym darem Arvoreen dla Mazzy, dlatego mogą go używać wyłącznie niziołki. Dzięki magii, którą w nim zawarto, miecz ten potrafi zwolnić ruchy każdego przeciwnika, którego dosięgnie.
+Z twoją pomocą i błogosławieństwem Arvoreen, miecz ten stał się jeszcze silniejszy. 
+
+PARAMETRY:
+
+Specjalne:
+– Siła: +1 (plus dodatkowa premia 75% za wyjątkową Siłę)
+– Swoboda działania
+– Cel musi wykonać rzut obronny przeciw różdżkom, albo jego ruchy zostaną spowolnione o 2 na okres 45 sekund
+
+Obrażenia: 1k6 +5
+TraK0: +5
+Typ obrażeń: kłute
+Opóźnienie: 1
+Rodzaj biegłości: krótki miecz
+Typ broni: 1-ręczna
+
+Waga: 3~
+
+@164 = ~Uświęcony Odkupiciel +5~
+@165 = ~Uświęcony Odkupiciel +5
+Keldorn odznaczył się w swojej wczesnej karierze paladyna i otrzymał ten miecz w darze od Torma. Jest niezwykle precyzyjny, ale chroni go również w bitwie specjalną Ognistą tarczą i każdy kto go spróbuje uderzyć, doświadczy gniewu Torma w postaci magicznych obrażeń. Nikt oprócz Keldorna nie może używać tego miecza.
+Z twoją pomocą i błogosławieństwem Torma miecz ten stał się jeszcze bardziej potężny.
+
+PARAMETRY:
+
+Specjalne:
+– 5 magicznych obrażeń dla każdego, kto zrani dzierżącego ten miecz
+- Rozproszenie magii, po trafieniu
+- Cel zostaje uciszony na 2 rundy, po trafieniu
+
+Obrażenia: 1k12 +5
+TraK0: +5
+Typ obrażeń: sieczne
+Opóźnienie: 8
+Rodzaj biegłości: miecz oburęczny
+Typ broni: 2-ręczna
+
+Waga: 8~
+
+@166 = ~Tarcza rodziny Delrynów +4~
+@167 = ~Tarcza Rodziny Delrynów +4
+To jest rodzinna tarcza Anomena, podarowana mu przez jego ojca. Oprócz magicznej ochrony tarcza promieniuje aurą, którą zapewnia osobie, która jej używa, odporność na ogień i zimno. W celu ochrony przed atakami z dystansu, Anomen może użyć tej tarczy, żeby wznieść pole energetyczne. Taka ochrona przed pociskami może być użyta 3 razy na dzień.
+Dość niedawno <CHARNAME> wzmocnił<PRO_HESHE> tarczę ochronną magią płynącą z Łaski ocalenia, uzyskanej podczas spotkania z awatarem Amaunatora, co spowodowało, że stała się ona jeszcze potężniejsza.
+
+PARAMETRY:
+
+Specjalne:
+- Klasa Pancerza: +5
+– Odporność na ogień: +30%
+– Odporność na zimno: +30%
+
+Właściwości ładunków: 
+– Ochrona przed pociskami, trzy razy dziennie 
+Czas działania: 1 godzina 
+Obszar działania: użytkownik
+
+Waga: 7~
+
+@168 = ~Lilarcor +5~
+@169 = ~Lawrence Lilarcor był znany, nie z odwagi, ale z głupoty. Jak mówi opowieść, chełpliwy Lilarcor opuścił swoją wioskę za namową swych przyjaciół, aby pokazać, że tylko "wielki bohater" może zmierzyć się z przebiegłym Treantem. Wędrował zimą przez wiele dni, aż w końcu, w gorączce, znalazł swój cel i rozpoczęły się epickie zapasy. Niestety (a raczej na szczęście), "Treant" był niczym więcej jak tylko zwykłym, starym dębem. To mogłoby zakończyć tę historię, ale Lilarcor, który wyruszając nie wiedział, czym jest Treant, nie zdołał domyślić się prawdy. W końcu wyrwał dąb z korzeniami i dumnie maszerując w kierunku domu ogłosił się bohaterem. Tak narodziła się epickich rozmiarów komedia, a z czasem nazwisko Lilarcor stało się synonimem głupca w wielu opowieściach.
+Nie wiadomo, czy ta magiczna broń to sam Lilarcor, być może uwięziony przez złego maga lub inne zrządzenie losu, ale pewne jest to, że działa na poziomie jego zdolności. Jeśli to on, to nigdy nie narzekał na swoje uwięzienie. Może nie zdaje sobie sprawy, albo nie dba o to, że nie jest już człowiekiem.
+Jako broń, Lilarcor ma swoje zastosowania, ale wielu wojowników zrezygnowało z niego. Komentarze takie jak "Auć, to musiało boleć", "O tak! Rany, ale dobry jestem" i "Uważaj bo moje ukąszenie może... może... może zranić albo coś" są udręką dla umysłu wojownika.
+Teraz, gdy <CHARNAME> go ulepszył<PRO_HESHE> (a raczej go uciszył<PRO_HESHE>), ten kto dzierży ten miecz w dłoni nie może utracić swej inteligencji z jakiegokolwiek powodu. Broń ta chroni przed wysysaniem inteligencji przez illithidów, lecz także dobroczynnymi skutkami wypicia mikstury geniuszu. 
+
+PARAMETRY:
+
+Specjalne:
+– Niewrażliwość na Zauroczenie, Zamęt i zmiany Inteligencji
+
+Obrażenia: 1k12 +5
+TraK0: +5
+Typ obrażeń: sieczne
+Opóźnienie: 6
+Rodzaj biegłości: miecz oburęczny
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 14
+
+Waga: 10~
+
+@170 = ~Rozpruwacz Dusz +6~
+@171 = ~Przeklęty Mściciel: Rozpruwacz Dusz +6
+Potężne ostrze Rozpruwacza Dusz zostało przekute pod twoim mrocznym przewodnictwem. Święta esencja Karsomira została wchłonięta by pomóc stworzyć tę odrażającą potworność. Rozpruwacz Dusz jest narzędziem niewyobrażalnej potęgi i niewyobrażalnego zła. 
+
+PARAMETRY:
+
+Specjalne:
+– Odporność na magię: +50%
+– Rozproszenie magii, po trafieniu
+– TraK0 przeciwnika: -2, po trafieniu, kumulatywne, efekt działa przez 2 tury
+
+Obrażenia: 1k12 +6, +1k6 magicznych obrażeń
+TraK0: +6
+Typ obrażeń: sieczne
+Opóźnienie: 4
+Rodzaj biegłości: miecz oburęczny
+Typ broni: 2-ręczna
+
+Wymagania: 
+– Siła: 14
+
+Waga: 10~
+
+@172 = ~Punkt podparcia +4~
+@173 = ~Maczuga +4: Punkt podparcia
+Wykuta na twoją prośbę, stanowi połączenie Kościanej maczugi i Zgniatacza. Duchy zmarłych wojowników prowadzą rękę tego, kto ją dzierży zwiększając celność, a każde trafienie zsyła ból w kościach. W dodatku maczuga zadaje dodatkowe obrażenia, dla nie-neutralnych istot. 
+
+PARAMETRY:
+
+Specjalne:
+- Osoba dzierżąca tę broń otrzymuje status wielkiego mistrza w posługiwaniu się maczugami
+
+Obrażenia: 1k6 +4, +4 przeciw istotom dobrym, złym, praworządnym lub chaotycznym (kumulatywne), kościane ostrza zadają 2 obrażenia co rundę przez 4 rundy
+TraK0: +4
+Typ obrażeń: obuchowe
+Opóźnienie: 1 
+Rodzaj biegłości: maczuga
+Typ broni: 1-ręczna
+
+Wymagania:
+– Siła: 5
+
+Waga: 3~
+
+@174 = ~Quietus +4~
+@175 = ~<CHARNAME> zaaranżował<PRO_HESHE> stworzenie tego sztyletu z zatrutego z Kolca Chochlika oraz z zabójczej Kościanej Klingi. W rezultacie otrzymał<PRO_HESHE> on<PRO_HESHE> broń wartą każdego zabójcy. Wzbogacony jad z Kolca Chochlika teraz może oślepiać przeciwnika, a mroczna wiedza płynąca z Kościanej Klingi pozwala wytrenowanemu złodziejowi wyprowadzać ciosy w plecy z iście zabójczą skutecznością.
+
+Specjalne:
+– Cios w plecy: mnożnik zwiększony o 1
+– Cel zasypia lub zostaje oślepiony na 2 rundy, po trafieniu (rzut obronny przeciw truciznom z modyfikatorem -2 neguje oba efekty, oślepione istoty otrzymują modyfikator -10 do TraK0)
+
+Obrażenia: 2k3 +4
+TraK0: +4
+Typ obrażeń: sieczne
+Opóźnienie: 0 
+Rodzaj biegłości: sztylet
+Typ broni: 1-ręczna
+
+Wymagania:
+– Siła: 3
+
+Waga: 3~
+
+@176 = ~Święty Puklerz Amaunatora +2~
+@177 = ~Święty Puklerz Amaunatora +2
+<CHARNAME> mając święty symbol Amaunatora, dawno umarłego Boga Słońca, wkuł<PRO_HESHE> go do swego puklerza. Jest on teraz potencjalną barierą przeciwko tym, którzy podkradają się w nocy i wysysają życie z żywych. 
+
+PARAMETRY:
+  
+Specjalne:
+– Klasa Pancerza: +3
+– Niewrażliwość na wyssanie poziomów
+ 
+Właściwości ładunków:
+– Fałszywy świt, dwa razy dziennie (bez rzutu obronnego)
+Czas działania: 5 rund
+Obszar działania: w promieniu 10 metrów
+ 
+Wymagania:
+– Siła: 4
+
+Waga: 2~
+
+@178 = ~Rękawice mistrza złodziei~
+@179 = ~Rękawice mistrza złodziei: Dwunastopalcy
+<CHARNAME> uformował<PRO_HESHE> te rękawice z rozlicznych przydających rozmaitych premii złodziejom i rozsianych po całym świecie przedmiotów. Kiedy założy je złodziej, na każdej rękawicy pojawia się dodatkowy magiczny palec wspierający tego kochanka fortuny w jego unikalnych zdolnościach. W dodatku są bardzo gustowne, aczkolwiek ich deseń wygląda niemal na ... gnomi. 
+
+PARAMETRY:
+
+Specjalne:
+– Rzuty obronne: +1
+– Wykrywanie pułapek: +25%
+– Otwieranie zamków: +25%
+– Kradzież kieszonkowa: +20%
+
+Klasa Pancerza: 3
+
+Waga: 2~
+
+@180 = ~Amulet Ilmatera~
+@181 = ~Amulet Ilmatera
+Ten amulet łączy w sobie defensywne właściwości Amuletu ochrony, Amuletu ochrony przed trucizną i Naszyjnika stabilności kształtu, a także Amuletu blokowania czarów, aby zapewnić temu kto go nosi jak najlepszą ochronę. W dodatku amulet zawiera w sobie pomniejsze błogosławieństwo wiecznie cierpiącego Ilmatera. Amulet wyprodukował<PRO_HESHE> <CHARNAME>. 
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1
+– Rzuty obronne: +3
+– Niewrażliwość na trucizny
+
+Właściwości ładunków:
+– Uzdrowienie, raz dziennie
+
+Waga: 1~
+
+@182 = ~Szpon wody +4~
+@183 = ~Klinga tej zaprojektowanej przez ciebie broni zdaje się lśnić, odsłaniając ostrą niczym brzytwa, płynną krawędź, przypominającą nieco szpon drapieżnego ptaka. Szpon wody zawiera przepotężną moc zabójczych płynów, a każde jego trafienie wysysa z ofiery życie, przekazując je władającemu; samo ostrze zaś jest zatrute po kres świata. Podobnie, jak jeden z substratów, także i Szpon chroni przed urokami, a ponadto, z uwagi na panowanie nad żywiołem wody, chroni przed skutkami Plugawego uwiądu Abi-Dalzima. Najbardziej niezwykłe jest jednak to, że płynna natura ostrza pozwala mu na wydłużanie się i rozbryzgiwanie w czasie walki, zwiększając zasięg uderzenia do wartości przewyższajacej typowe dla większości mieczy oburęcznych. Skutkiem tego posiadacz może wykonywać niemożliwe w inny sposób ataki z tylnych szeregów, bądź spróbować pokusić się o unik po trafieniu, licząc na zatrucie celu już przy pierwszym trafieniu.
+
+PARAMETRY:
+
+Specjalne:
+– Niewrażliwość na Zauroczenie, Dominację i Plugawy uwiąd Abi-Dalzima
+– Zwiększa maksymalną ilość punktów życia właściciela o 2 na okres 3 tur, po trafieniu
+– Zwiększony zasięg uderzenia
+
+Obrażenia: 1k8 +4, +2 obrażenia od trucizny na sekundę (kumulatywne)
+TraK0: +4
+Typ obrażeń: sieczne
+Opóźnienie: 1
+Rodzaj biegłości: sejmitar/wakizashi/ninja-to 
+Typ broni: 1-ręczna
+
+Wymagania:
+– Siła: 8
+
+Waga: 3~
+
+@184 = ~Lazurowe ostrze +4~
+@185 = ~Toporek +4: Lazurowe Ostrze
+Gulen Skalny Ogień, Zabójca Nieumarłych, stworzył ten potężny toporek by wzmocnić swe imię. Pobłogosławiony przez różnych bogów, topór ten zadaje niesamowite obrażenia istotom niemądrze buntującym się przeciwko swojemu statusowi zmarłych i może zniszczyć je pojedynczym ciosem. Najwyraźniej Gulen już nie używa Lazurowego ostrza, a plotka mówi, że lata temu zginął w walce z potężnym wampirem, po czym sam stał się takim. To mogło spowodować zmianę jego stanowiska wobec nieumarłych, a przynajmniej zmianę przydomku.
+Dzięki tobie, ostrze uzyskało jeszcze większe możliwości.
+
+PARAMETRY:
+
+Specjalne:
+– Po rzucie wraca do właściciela
+– Nieumarli ulegają zniszczeniu, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -4 neguje)
+– Niewrażliwość na wyssanie poziomów
+
+Obrażenia: 1k6 +4, +4 obrażenia przeciw nieumarłym
+TraK0: +4
+Typ obrażeń (walka wręcz): sieczne
+Typ obrażeń (rzucony): pocisk (kłute)
+Opóźnienie: 0
+Rodzaj biegłości: topór
+Typ broni:  1-ręczna
+
+Wymagania:
+– Siła: 4
+
+Waga: 2~
+
+@186 = ~Pierścień Czarownika~
+@187 = ~Pierścień Czarownika: 'Ściskająca Potęga'
+Pierścień jest niewątpliwie szczytem mnemonicznej lukubracji. Złożnony przez <CHARNAME> z Pierścienia Czarów, Pierścienia Ostrości, Amuletu Metaczarów oraz Pierścienia Ochrony, co uwieńczone zostało stworzeniem wspaniałego pierścienia pozwalającemu noszącej go osobie zapamiętać dodatkowe zaklecie dla wszystkich poziomów czarów - od pierwszego do siódmego. W dodatku założony na palcu zapewnia dodatkową ochronę przed fizycznymi i magicznymi atakami.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1
+– Rzuty obronne: +1
+– Pozwala zapamiętać po 1 dodatkowym zaklęciu z poziomów 1-7
+
+Waga: 0~
+
+@188 = ~Pas chwały~
+@189 = ~Stworzony przez ciebie, w celu ochrony noszącej go osoby przed obrażeniami siecznymi, kłutymi i obuchowymi, pas ten jest całkiem użyteczny w starciach wręcz. Jego potężna magia paruje wszelkie typy ciosów, a wąski kształt nie krępuje ruchów. W dodatku pas ten jest wykonany zgodnie z obowiązującą modą. 
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +3
+
+Waga: 2~
+
+@190 = ~Ulepszona figurka Kitthixa~
+@191 = ~Ulepszona figurka Kitthixa
+Przekuta dla ciebie, by przyzywać potężniejszego pająka, figurka Kitthixa nie stanowi już opóźniającej ostateczne starcie taktyki, jak niegdyś. Minęły dni, kiedy Kitthix był instruowany do rzucenia się w wir walki, aby choć na moment odwrócić uwagę przeciwnika. Teraz sieci i trucizna Kitthixa zostały ulepszone, a sam pająk jest mniej podatny na ciosy przeciwników.
+
+PARAMETRY:
+
+Specjalne:
+– Przyzwanie ulepszonego Kitthix'a, raz dziennie
+Zasięg: 6 metrów
+Czas działania: 40 tur
+Pająk potrafi w trakcie walki pojawiać się i znikać. Posiada także umiejętność Zaplątanie w Pajęczynę, dzięki której może wystrzelić strumień sieci w stronę jednego celu, więżąc go na 2 rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje). Atak Kitthixa zadaje 2k4 +2 obrażenia kłute, liczba ataków wynosi 4 na rundę i są one trujące (rzut obronny przeciw truciznom z modyfikatorem -3 neguje) oraz powodują paraliż przez 2 rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje). 
+
+Waga: 0~
+
+@192 = ~Ulepszony Kitthix~
+
+@193 = ~Nieuchronna Entropia~
+@194 = ~Nieuchronna Entropia
+To zielone ostrze zostało ulepszone, jak zaproponował<PRO_HESHE> <CHARNAME>. To ostrze z zielonej stali pochodzącej z Otchłani jest jedną z ulubionych broni Haer'dalisa. Tylko diabelstwa mogą używać tej broni.
+
+PARAMETRY:
+
+Specjalne:
+– 5% szans na to, że cel znajdzie się pod wpływem Większego osłabienia, po trafieniu (bez rzutu obronnego)
+
+Obrażenia: 1k6 +3, +1 obrażenie od trucizny co sekundę przez 1 rundę (bez rzutu obronnego)
+TraK0: +3
+Typ obrażeń: kłute
+Opóźnienie: 0
+Rodzaj biegłości: krótki miecz
+Typ broni: 1-ręczna
+
+Waga: 2~
+
+@195 = ~Upiorne Ostrze Chaosu~
+@196 = ~Upiorne Ostrze Chaosu
+Ostrze Chaosu to krótki miecz, którego używać mogą tylko diabelstwa. Za każdym razem, kiedy ta broń trafia w cel, atakowany traci na 30 sekund 2 punkty zręczności. Haer'dalis lubi korzystać z Ostrza Chaosu w parze z inną bronią, Entropią. Kiedy Haer'dalis włada tymi mieczami jednocześnie, staje się bardzo groźnym przeciwnikiem w walce.
+
+PARAMETRY:
+
+Specjalne:
+– 5% szans na to, że cel znajdzie się pod wpływem Zamętu na okres 8 rund, po trafieniu (rzut obronny przeciw czarom z modyfikatorem -4 neguje)
+– Cel traci 2 punkty Zręczności na okres 5 rund, po trafieniu (bez rzutu obronnego)
+
+Obrażenia: 1k6 +3 
+TraK0: +3
+Typ obrażeń: kłute
+Opóźnienie: 0
+Rodzaj biegłości: krótki miecz
+Typ broni: 1-ręczna
+
+Waga: 2~
+
+@197 = ~Karminowa kolczuga elfów~
+@198 = ~Wykuta na twoją prośbę z łusek czerwonego smoka i Sylvańskiej kolczugi, Karminowa kolczuga elfów zapewnia noszącej ją osobie niezwykłą kombinację obrony i swobody ruchu. Łotrzykowie i czarodzieje zachowują swe zdolności, kiedy noszą tę zbroję.
+
+PARAMETRY:
+
+Specjalne:
+– Odporność na ogień: +25%
+- Kradzież kieszonkowa: -20%
+- Krycie się w cieniu: -10%
+- Otwieranie zamków: -5%
+- Wykrywanie pułapek: - 5%
+
+Klasa Pancerza: 0 (-2 przeciw broniom siecznym, +2 przeciw broniom obuchowym)
+
+Wymagania:
+- Siła: 5
+
+Waga: 15~
+
+
+
+
+
+
+
+
+
+
+
+
+
+@12340 = ~Zatem zajmijmy się tym.~
+@12341 = ~Świetnie. Zaraz się do tego zabiorę ...~
+@12342 = ~Czy możesz zrobić coś z tym Pierścieniem ochrony?~
+@12343 = ~Czy możesz wykuć coś z tego potężnego Pierścienia ochrony?~
+@12344 = ~Czy możesz zrobić cokolwiek z tego Pierścienia kontroli nad żywiołem?~
+@12345 = ~Czy możesz umagicznić Kostur władzy nad żywiołami?~
+@12346 = ~Czy możesz stworzyć coś z tych Butów ukrycia?~
+@12347 = ~Czy możesz odnowić moje Buty Północy?~
+@12348 = ~Jest jakaś szansa na ulepszenie moich Butów uziemienia?~
+@12349 = ~Czy możesz stworzyć coś z tych Butów uników?~
+@123410 = ~Czy jesteś w stanie ulepszyć Czarną krew?~
+@123411 = ~Czy możesz uczynić tę Kościaną maczugę potężniejszą?~ 
+@123412 = ~Chciałbym uczynić mój Rozłupywacz czaszek potężniejszym. Możesz mi w tym pomóc?~ ~Chciałabym uczynić mój Rozłupywacz czaszek potężniejszym. Możesz mi w tym pomóc?~
+@123413 = ~Co możesz zrobić, by ulepszyć Poszukiwacza serc?~
+@123414 = ~Czy możesz przekuć rodową zbroję mego przyjaciela Valygara?~
+@123415 = ~Czy możesz ulepszyć tę szatę arcymaga?~
+@123416 = ~Chciałbym, by mój Hełm ochrony lepiej mnie chronił. Możesz coś z nim zrobić?~ ~Chciałabym, by mój Hełm ochrony lepiej mnie chronił. Możesz coś z nim zrobić?~
+@123417 = ~Czy możesz uczynić mój Hełm ochrony przed urokami bardziej wszechstronnym?~
+@123418 = ~Jesteś w stanie uzyskać coś z tej Skóry Aegera?~
+@123419 = ~Czy możesz przekuć rodową zbroję Sir Keldorna Firecama?~
+@123420 = ~Czy możesz wzmocnić tę Zbroję płytową z ankhega?~
+@123421 = ~Tarcza Harmonii -- czy możesz ulepszyć jej właściwości?~
+@123422 = ~Szukam rzucanej włóczni. Mógłbyś wykonać jakąś?~
+@123423 = ~Co możesz zrobić z tą Włócznią jednorożca?~
+@123424 = ~Jest jakaś szansa, aby Przebijacz zadawał większe obrażenia?~
+@123425 = ~Czy możesz umagicznić ten Kostur lasów?~
+@123426 = ~Dzienna gwiazda? Ona musi być potężniejsza.~
+@123427 = ~Czy możesz ulepszyć Furię Niebios?~
+@123428 = ~Czy możesz ulepszyć Miecz Arvoreen?~
+@123429 = ~Czy możemy zwiększyć stopień pobłogosławienia Uświęconego Odkupiciela Keldorna?~
+@123430 = ~Chciałbym ulepszyć Rodową tarczę Delrynów.~ ~Chciałabym ulepszyć Rodową tarczę Delrynów.~
+@123431 = ~Czy możesz zrobić coś, by uciszyć Lilarcora?~
+@123432 = ~Naprawdę kocham zabójcze sztylety. Czy mógłbyś ulepszyć któryś z moich?~
+@123433 = ~Co można zrobić z tym puklerzem?~
+@123434 = ~Jest jakaś szansa na ulepszenie Rękawic kieszonkowca?~
+
+@123435 = ~Nie teraz.~
+@123436 = ~Tak, zróbmy to!~
+
+@123437 = ~Czy możesz cokolwiek zrobić z tym amuletem?~
+@123438 = ~Chciałbym ulepszyć ten sejmitar.~ ~Chciałabym ulepszyć ten sejmitar.~
+@123439 = ~Czy możesz sprawić, by Lazurowe Ostrze było potężniejsze?~
+
+@123440 = ~Mogę połączyć Pierścień ochrony +1 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 10000 sztuk złota. Zainteresowany?~ ~Mogę połączyć Pierścień ochrony +1 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 10000 sztuk złota. Zainteresowana?~
+@123441 = ~Mogę połączyć Pierścień ochrony +2 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 20000 sztuk złota. Zainteresowany?~ ~Mogę połączyć Pierścień ochrony +2 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 20000 sztuk złota. Zainteresowana?~
+@123442 = ~Mogę połączyć pierścienie kontroli nad powietrzem, ziemią i ogniem w Pierścień kontroli nad żywiołami. Potrzebuję zwojów ochronnych ochrony przed petryfikacją, ogniem oraz elektrycznością jako reagenty. To będzie także kosztować 20000 sztuk złota.~
+@123443 = ~Mogę połączyć kostury powietrza, ziemi oraz ognia w Kostur władzy nad żywiołami. To będzie też kosztowało cię 20000 sztuk złota, ale jestem pewien, że się opłaci.~
+@123444 = ~Jakżeby inaczej, mogę złączyć razem Buty szybkości i ukrycia. Potrzebuję kamienia łotrzyków jako reagenta i 10000 sztuk złota jako zapłatę za pracę.~
+@123445 = ~Jakżeby inaczej, mogę złączyć razem Buty szybkości i Północy. Potrzebuję kamienia łotrzyków jako reagenta i 10000 sztuk złota jako zapłatę za pracę.~
+@123446 = ~Jakżeby inaczej, mogę złączyć razem Buty szybkości i uziemienia. Potrzebuję kamienia łotrzyków jako reagenta i 10000 sztuk złota jako zapłatę za pracę.~
+@123447 = ~Jakżeby inaczej, mogę złączyć razem Buty szybkości i uników. W nowych butach będziesz szybki jak błyskawica! Potrzebuję kamienia łotrzyków jako reagenta i 20000 sztuk złota jako zapłatę za pracę.~
+@123448 = ~Mogę połączyć Czarną krew i Zgniatacza w potężną maczugę. To będzie kosztowało 15000 sztuk złota. Co ty na to?~
+@123449 = ~Mogę połączyć Kościaną maczugę i Zgniatacza w potężną maczugę ... perfekcyjną dla służby równowagi. To będzie kosztować 15000 sztuk złota.~
+@123450 = ~Razem ze zwojem palca śmierci, przeklętą miksturą uzdrawiania i 15000 sztukami złota mogę przekuć Rozłupywacza czaszek dla ciebie. Zainteresowany?~ ~Razem ze zwojem palca śmierci, przeklętą miksturą uzdrawiania i 15000 sztukami złota mogę przekuć Rozłupywacza czaszek dla ciebie. Zainteresowana?~
+@123451 = ~Poszukiwacz serc może być połączony z cięciwą Gesena lub z cięciwą Gonda. Wraz z czterema Łzami Laeral i miksturą mocy mogę stworzyć dla ciebie długi łuk nie wymagający żadnych strzał.~
+  @123452 = ~Pewnie, użyj cięciwy Gesena.~
+  @123453 = ~Pewnie, użyj cięciwy Gonda.~
+@123454 = ~Ach, znać ród magów. Używając zwoju ochrony przed magią jako katalizatora mogę skuć razem Rodową zbroję Corthalów i Łuskę Smoka Cieni. To jednak będzie kosztować 10000 sztuk złota.~
+// @123455 = ~Tak, mogę dokonać kilku ulepszeń Szaty arcymaga. Wraz z Płaszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentów mogę zrobić szatę godną Elminstera. To będzie kosztować 20000 sztuk złota.~
+@12349955 = ~Tak, mogę dokonać kilku ulepszeń Szaty arcymaga. Wraz z Płaszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentów mogę zrobić szatę godną Elminstera. To będzie kosztować 20000 sztuk złota.~
+  @123456 = ~Pewnie, ulepsz tę Szatę dobrego arcymaga.~
+  @123457 = ~Pewnie, ulepsz tę Szatę neutralnego arcymaga.~
+  @123458 = ~Pewnie, ulepsz tę Szatę złego arcymaga.~
+@123459 = ~Jak najbardziej. Mogę połączyć defensywne moce Hełmu ochrony i Hełmu ochrony przed urokami. Potrzebuję 4 perły jako reagenty i 10000 sztuk złota za pracę.~
+@123460 = ~Hmm. Jeśli uda ci się zdobyć dwie butelki Solnej mikstury i dostarczyć je mi, mogę wtedy użyć ich do umagicznienia Hełmu ochrony przed urokami przeciw psionice. Muszę też otrzymać 10000 sztuk złota za pracę.~
+@123461 = ~Wraz ze zwojem ochrony przed żywiołami użytym jako katalizator, mógłbym sprawić, że ta stara niedźwiedzia skóra byłaby mocniejsza, ale i bardziej cuchnąca niż jest obecnie. Muszę też otrzymać 15000 sztuk złota za pracę.~
+@123462 = ~Razem z wybranymi elementami Zbroi Jelenia mogę przekuć Pełną zbroję płytową Firecama. Ale za jakość trzeba słono płacić: muszę otrzymać 20000 sztuk złota za pracę.~
+@123463 = ~Z dwoma różnymi zwojami ochrony przed kwasem, mogę przekuć Zbroję płytową z ankhega. To będzie kosztować cię kolejne 5000 sztuk złota.~
+@123464 = ~Ach, Tarcza Harmonii. Jest piękna, muszę przyznać. Jeśli będziesz mieć dwie butelki Solnej mikstury, Obrożę niewolnika i Beljuryl będę mógł przekuć je ze sobą. Potrzebuję również 10000 sztuk złota, będzie za to zapewniała silniejszą i pełniejszą ochronę.~
+@123465 = ~Jasne, z kamieniem łotrzyków i 10000 sztuk złota mogę przekuć twoją Włócznię +3 w rzucaną.~
+@123466 = ~Jasne, z kamieniem łotrzyków i 10000 sztuk złota mogę przekuć twoją Włócznię jednorożca w rzucaną.~
+@123467 = ~Ach, to Przebijacz. Jeśli jest coś, co Sahuagini mogą dobrze zrobić, to jest to harpun. Wraz z kamieniem łotrzyków i 15000 sztuk złota mogę zrobić z tego rzucaną włócznię.~
+@123468 = ~Szlag. Te leśne kostury nigdy nie były moją specjalnością, ale wraz z pierścieniami ochrony i druida mogę ulepszyć ten Kostur lasów. Potrzebuję jednak 20000 sztuk złota za tę robotę.~
+@123469 = ~Wraz z czterema zwojami ochrony przed nieumarłymi, dwoma fiolkami święconej wody elfów i dwoma szafirami gwiaździstymi mogę obrócić Dzienną gwiazdę w najstraszliwszy koszmar dla podziemnego świata. Muszę otrzymać 15000 sztuk złota za pracę.~
+@123470 = ~Furia Niebios? Nie jestem z Kara-Tur, a umagicznienie katany nie jest łatwym zadaniem, ale za pomocą Serca demona i Różdżki błyskawic mogę to zrobić. Jednak nie za darmo, powiedzmy, że wezmę 20000 sztuk złota.~
+@123471 = ~Jasne, mogę przekuć Miecz Arvoreen. Ale nie bez błogosławieństwa samej Bogini: mogę podjąć się tego zadania tylko dla drużyny o najczystszych sercach i najwyższej reputacji. Wezmę 15000 sztuk złota.~
+@123472 = ~Ach, Uświęcony Odkupiciel. Święte ostrze, jest narzędziem o mocy ustalonej przez miejscowe standardy. Z sercem demona i pięcioma zwojami rozproszenia magii mogę powiększyć moc tego miecza. Ale potrzebuję do tego błogosławieństwa Torma, dlatego też mogę podjąć się tego zadania tylko dla grupy o najwyższej cnocie i reputacji. Poza tym chcę 15000 sztuk złota.~
+@123473 = ~Tak. Mogę połączyć płyty z tarczy Anomena z Łaską ocalenia. Chcę jednak za to 15000 sztuk złota.~
+@123474 = ~Ach, nudziarz zwany 'Myślącym Mieczem'. Nie pomnę już, ilu poszukiwaczy przygód przybyło do mnie z prośbą, abym sprawił, by zamknął się on na zawsze... Jeśli będziesz miał Obrożę niewolnika mogę nie tylko mogę go uciszyć, ale również za jednym zamachem sprawić, by był bardziej użyteczny. Jednakże muszę dostać 20000 sztuk złota.~ ~Ach, nudziarz zwany 'Myślącym Mieczem'. Nie pomnę już, ilu poszukiwaczy przygód przybyło do mnie z prośbą, abym sprawił, by zamknął się on na zawsze... Jeśli będziesz miała Obrożę niewolnika mogę nie tylko mogę go uciszyć, ale również za jednym zamachem sprawić, by był bardziej użyteczny. Jednakże muszę dostać 20000 sztuk złota.~
+@123475 = ~Tak, to całkiem niezły nóż, który tu masz. Mogę skuć razem Kościaną klingę i Kolec chochlika używając czterech Mikstur złodziejskiego mistrzostwa i zrobić prawdziwe ostrze specjalnie dla złodzieja. Wezmę za to 15000 sztuk złota.~
+
+@123476 = ~Tak. Mogę wkuć Święty Symbol Amaunatora w twój puklerz, przez co zapewniałby jeszcze lepszą ochronę. Lecz potrzebowałbym także 5 kamieni słonecznych i 10000 sztuk złota za pracę. Zainteresowany?~ ~Tak. Mogę wkuć Święty Symbol Amaunatora w twój puklerz, przez co zapewniałby jeszcze lepszą ochronę. Lecz potrzebowałbym także 5 kamieni słonecznych i 10000 sztuk złota za pracę. Zainteresowana?~
+
+@123477 = ~Ach. Jeśli będziesz miał Rękawice kieszonkowca, Bransolety ochrony, pierścienie: wyczucia zagrożenia i wytrychów oraz dwa ochrony, mogę wtedy połączyć je wszystkie dla ciebie. 5000 sztuk złota pokryłoby wszystkie wydatki.~
+
+@123478 = ~Z dwóch Amuletów ochrony, Amuletu ochrony przed trucizną i Naszyjnika stabilności kształtu, a także Amuletu blokowania czarów mogę wykuć dla ciebie Amulet Ilmatera. Będziesz w stanie zapłacić 10000 sztuk złota za to?~
+
+@123479 = ~Jakżeby inaczej, z Ostrza wody, Adjathy Wysysacza i Szponu Rashada możemy zrobić zakrzywione ostrze, które spowodowałoby, że sam Pan Burz zzieleniałby z zazdrości. Takie wodne ostrze będzie kosztowało cię 15000 sztuk złota.~
+
+@123480 = ~Ach. Mogę dołączyć grudkę czystego ilitu do Lazurowego Ostrza, dając mu lepsze ofensywne i defensywne moce przeciwko złu nieumarłych. Za 20000 sztuk złota zrobię to dla ciebie.~
+
+@123481 = ~Jasne, mogę połączyć Pierścień czarów, Pierścień ostrości, Amulet metaczarów oraz Pierścień ochrony w potencjalną pomoc dla czarodzieja. Za 20000 sztuk złota mógłbym to zrobić. Zainteresowany?~ ~Jasne, mogę połączyć Pierścień czarów, Pierścień ostrości, Amulet metaczarów oraz Pierścień ochrony w potencjalną pomoc dla czarodzieja. Za 20000 sztuk złota mógłbym to zrobić. Zainteresowana?~
+
+@123482 = ~Możesz ulepszyć ten pas?~
+
+@123483 = ~Tak, jeśli masz pasy: tłumienia, przebić i złoty, mogę je połączyć tworząc przedmiot zapewniający naprawdę dobrą ochronę. Potrzebuję także trzy krwawniki jako reagenty i 10000 sztuk złota jako zapłatę.~
+
+@123484 = ~Chciałbym, by mój Pierścień czarów zyskał jeszcze więcej mocy.~ ~Chciałabym, by mój Pierścień czarów zyskał jeszcze więcej mocy.~
+
+@123495 = ~Czy możesz ulepszyć tę Figurkę Czarnego Pająka?~
+@123496 = ~Lepiej by było, gdybyś zapytał o to maga drowów niż krasnoluda, ale mogę to zrobić.~ ~Lepiej by było, gdybyś zapytała o to maga drowów niż krasnoluda, ale mogę to zrobić.~
+@1234996 = ~Będę potrzebował kilku specjalnych reagentów: zwojów pajęczego pomiotu i pajęczyny, pięciu zatrutych rzucanych sztyletów, no i oczywiście 5000 sztuk złota.~
+
+@123497 = ~Czy Chaos i Entropia mogą zostać ulepszone?~
+@123498 = ~Ach, nigdym jeszcze nie próbował ulepszać planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. Jeśli nie będziesz miał nic przeciwko poświęceniu mieczy Ilbratha i Arbane'a, mogę przekuć krótkie miecze Haer'dalisa, aby zadawały więcej obrażeń i uzyskają podobne do zaklęć moce. To będzie kosztowało cię 25000 sztuk złota, dodatkowo kamień łotrzyków i zwoje chaosu oraz wielkiego osłabienia. Jesteś zainteresowany?~ ~Ach, nigdym jeszcze nie próbował ulepszać planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. Jeśli nie będziesz miał nic przeciwko poświęceniu mieczy Ilbratha i Arbane'a, mogę przekuć krótkie miecze Haer'dalisa, aby zadawały więcej obrażeń i uzyskają podobne do zaklęć moce. To będzie kosztowało cię 25000 sztuk złota, dodatkowo kamień łotrzyków i zwoje chaosu oraz wielkiego osłabienia. Jesteś zainteresowana?~
+
+@123499 = ~Czy możesz przekuć dla mnie elfią zbroję?~
+@1234100 = ~Tak, mogę skuć Sylvańską kolczugę wraz z Łuską czerwonego smoka. Z trzema andradytami i trzema agatami ognistymi, i co najważniejsze za 25000 sztuk złota, mogę stworzyć potężną zbroję. Zainteresowany?~ ~Tak, mogę skuć Sylvańską kolczugę wraz z Łuską czerwonego smoka. Z trzema andradytami i trzema agatami ognistymi, i co najważniejsze za 25000 sztuk złota, mogę stworzyć potężną zbroję. Zainteresowana?~
+
+
+
+
+
+
+
+
+
+
+/* From kelseynpc@5678attbi.com Sat Jan 11 17:19:18 2003
+Date: Sun, 05 Jan 2003 02:49:10 -0600
+From: Your pal Kelsey <kelseynpc@5678attbi.com>
+To: weimer@5678cs.berkeley.edu
+Subject: Item Upgrade: Audio-tagged TRA
+
+Can you work this into the next IU release so that people can be 
+subjected to... er, that is, enjoy my Cespenar audio without having to 
+go through a reinstall with a separate TRA? Taken from the latest 
+version, I just added the tags, changed nothing.
+*/
+
+@56780 = ~Zabieraj się do pracy, Cespenarze.~
+@56781 = ~Czy nie masz wpierw żadnych pytań? Czy mam już zacząć szukać?~
+
+@56782 = ~Czy możesz zrobić coś z tym Pierścieniem ochrony?~
+@56783 = ~Czy możesz wykuć coś z tego potężnego Pierścienia ochrony?~
+@56784 = ~Czy możesz zrobić coś z tym Pierścieniem kontroli nad żywiołem?~
+@56785 = ~Czy możesz umagicznić ten Kostur władzy nad żywiołem?~
+@56786 = ~Czy możesz stworzyć coś z tych Butów ukrycia?~
+@56787 = ~Czy możesz przekształcić te Buty Północy?~
+@56788 = ~Jest jakaś szansa na ulepszenie tych Butów uziemienia?~
+@56789 = ~Czy możesz stworzyć coś z tych Butów uników?~
+@567810 = ~Czy jesteś w stanie ulepszyć Czarną krew?~
+@567811 = ~Czy możesz uczynić tę Kościaną maczugę potężniejszą?~ 
+@567812 = ~Chciałbym uczynić mój Rozłupywacz czaszek potężniejszym. Czy możesz mi pomóc?~ ~Chciałabym uczynić mój Rozłupywacz czaszek potężniejszym. Czy możesz mi pomóc?~
+@567813 = ~Co możesz zrobić, by ulepszyć Poszukiwacza serc?~
+@567814 = ~Czy możesz przekuć rodową zbroję mojego przyjaciela Valygara?~
+@567815 = ~Czy możesz ulepszyć tę szatę arcymaga?~
+@567816 = ~Chciałbym, by mój Hełm ochrony lepiej mnie chronił. Możesz coś z nim zrobić?~ ~Chciałabym, by mój Hełm ochrony lepiej mnie chronił. Możesz coś z nim zrobić?~
+@567817 = ~Czy możesz uczynić mój Hełm ochrony przed urokami bardziej wszechstronnym?~
+@567818 = ~Jesteś w stanie uzyskać coś z tej Skóry Aegera?~
+@567819 = ~Czy możesz przekuć rodową zbroję Sir Keldorna Firecama?~
+@567820 = ~Czy możesz wzmocnić tę Zbroję płytową z ankhega?~
+@567821 = ~Tarcza Harmonii -- czy możesz ulepszyć jej właściwości?~
+@567822 = ~Szukam rzucanej włóczni. Mógłbyś wykonać jakąś?~
+@567823 = ~Co możesz zrobić z tą Włócznią jednorożca?~
+@567824 = ~Jest jakaś szansa, aby Przebijacz zadawał większe obrażenia?~
+@567825 = ~Czy możesz umagicznić ten Kostur lasów?~
+@567826 = ~Dzienna Gwiazda? Ona musi być potężniejsza.~
+@567827 = ~Czy możesz ulepszyć Furię Niebios?~
+@567828 = ~Czy możesz ulepszyć Miecz Arvoreen?~
+@567829 = ~Czy możemy zwiększyć stopień pobłogosławienia Uświęconego Odkupiciela Keldorna?~
+@567830 = ~Chciałbym ulepszyć Rodową tarczę Delrynów.~ ~Chciałabym ulepszyć Rodową tarczę Delrynów.~
+@567831 = ~Czy możesz zrobić coś, by uciszyć Lilarcora?~
+@567832 = ~Naprawdę kocham zabójcze sztylety. Czy mógłbyś ulepszyć któryś z moich?~
+@567833 = ~Co można zrobić z tym puklerzem?~
+@567834 = ~Jest jakaś szansa na ulepszenie Rękawic kieszonkowca?~
+@567837 = ~Czy możesz cokolwiek zrobić z tym amuletem?~
+@567838 = ~Chciałbym ulepszyć ten sejmitar.~ ~Chciałabym ulepszyć ten sejmitar.~
+@567839 = ~Czy możesz sprawić, by Lazurowe Ostrze było potężniejsze?~
+@567891 = ~Chciałbym zwiększyć umagicznienie mojego Pierścienia czarów.~
+
+@567835 = ~Nie teraz.~
+@567836 = ~Tak, zróbmy to!~
+
+
+
+// ....
+
+@567876 = ~Co możesz zrobić z tą amunicją?~
+@567877 = ~Czy masz jakiś szalony przepis na tę Ludzką skórę?~
+@567878 = ~Czy możesz przekuć tego Rozpruwacza Dusz?~
+
+// ....
+
+@567840 = ~Dlaczego masz tak wiele pierścieni? Zbyt dużo zaobrączkowanych na boku? Wstydź się, Cespenar ZNA TWE IMIĘ!!!~ [FWCESP00]
+@5678940 = ~Jakkolwiek, możemy wziąć Pierścień regeneracji i Pierścień ochrony +1 i zrobić z nich jeden. Oszczędzisz dzięki temu trochę miejsca. Potrzebują tylko zatopić w nie 10 000 sztuk złota i diament! Podoba ci się?~
+
+@567841 = ~Och, chłopcze, nosisz wiele świecuszków na palcach. Cespenar lubi takie coś, słyszał, że to jest w modzie.~ [FWCESP01]
+@5678941 = ~Jakkolwiek, możemy wziąć Pierścień regeneracji i Pierścień ochrony +2 i zrobić z nich jeden. Oszczędzisz dzięki temu trochę miejsca. Potrzebują tylko zatopić w nie 20 000 sztuk złota i diament! Podoba ci się?~
+
+@567842 = ~Ty nie potrzebujesz pudełka na biżuterię, ty potrzebujesz cały kufer! A może chcesz mieć jeden wielki pierścień na jednym palcu zamiast kilku, co?!?~ [FWCESP02]
+@5678942 = ~Co ty na to, że Cespenar weźmie pierścienie kontroli nad powietrzem, ziemią i ogniem aby zrobić jeden duży Pierścień kontroli nad żywiołami? Łatwiej jest zachować jeden pierścień niż trzy. Przepis mówi, że potrzebne są zwoje ochrony przed petryfikacją, ogniem i elektrycznością, no i 20 000 sztuk złota. Cespenar nie ustala cen, takie już są zasady.~
+
+@567843 = ~Czy kiedykolwiek zauważyłeś, że żywiołaki nigdy się nie kontrolują? Przysięgam, czasami chciałbym mieć jeden z tych kijów, które im na to pozwalają ... hej! Ty masz wszystkie trzy?~ [FWCESP03] ~Czy kiedykolwiek zauważyłaś, że żywiołaki nigdy się nie kontrolują? Przysięgam, czasami chciałbym mieć jeden z tych kijów, które im na to pozwalają ... hej! Ty masz wszystkie trzy?~ [FWCESP03]
+@5678943 = ~Kostury ziemi, ognia i powietrza nie są dla ciebie niczym szczególnym, ale Cespenar może zrobić z nich jeden wielki Kostur władzy nad żywiołami, a wtedy wszystkie żywiołaki będą chciały ci kupić śniadanie, albo same cię zjedzą!!!! Kosztuje także 20 000 sztuk złota, ale Cespenar musi opłacić rachunki. Tak?~
+
+@567844 = ~AAAAAAAAAAA! Podszedłeś Cespenara! Na pomoc! He he he, Cespenar tylko żartował!~ [FWCESP04] ~AAAAAAAAAAA! Podeszłaś Cespenara! Na pomoc! He he he, Cespenar tylko żartował!~ [FWCESP04]
+@5678944 = ~Dobra, Cespenar weźmie Buty ukrycia i szybkości i sprawi ci z nich Buty przyspieszonego ukrycia. Prawda, że nie są to odpowiednie słowa na określenie tego przedmiotu, ale Bhaal nigdy nie pozwalał Cespenarowi czytać zbyt dużo książek. (westchnienie) Jakkolwiek, mam nadzieję, że oszczędzałeś kamienie łotrzyków, bo to będzie kosztować 10 000 plus jeden z tych kamyczków.~
+
+@567845 = ~Hmmm. Buty Zamieci? Chcesz w nich przechowywać jajka czy coś innego? A może wolisz grać w Icewind Dale?~ [FWCESP05]
+@5678945 = ~Jeśli nie planujesz wyhodować sobie więcej nóg, Cespenar weźmie Buty Północy oraz Buty szybkości i zrobi ci Buty zamieci. Daje to samo, co te buty, ale w jednym. C'est la vie. Dasz mi może 10 000 sztuk złota i kamień łotrzyków?~
+
+@567846 = ~Fuuuuj! Magiczne czy nie, kalosze zazwyczaj śmierdzą spoconymi stopami. Wiesz, że najlepszym sposobem ominięcia błyskawicy jest, być gdzie indziej, kiedy piorun uderzy? Dokładnie tak.~ [FWCESP06]
+@5678946 = ~Cespenar zna kapłana Talosa, który może zrobić Pięty Pana Burz z Butów szybkości i uziemienia. Nie bądź głupcem, na śmiertelniku też będą dobrze wyglądać. On potrzebuje 10 000 sztuk złota i kamienia łotrzyków za zapłatę.~
+
+@567847 = ~Cespenar wie, co dać swemu panu na urodziny: chodaki! Jesteś pewien, że nie chcesz być kimś innym? Na przykład szewcem czy kowalem? Nie ma nic złego w zmianie zajęcia, pókiś młody!~ [FWCESP07] ~Cespenar wie, co dać swej pani na urodziny: chodaki! Jesteś pewna, że nie chcesz być kimś innym? Na przykład krawcową czy gospodynią domową? Nie ma nic złego w zmianie zajęcia, pókiś młoda!~ [FWCESP07]
+@5678947 = ~Masz dobry gust jeśli chodzi o buty. Bardzo dobry przepis na Buty szerszenia: weź Buty szybkości i uników, co sprawi, że bardzo trudno będzie cię trafić z dystansu. Lepsze to niż dać się pchnąć w oko za pomocą strzały, bełtu lub kamienia czy strzałki... łapiesz o co chodzi. Przepis kosztuje 20 000 sztuk złota i kamień łotrzyków, które nie rosną na drzewach. Tak?~
+
+@567848 = ~Ooooooccchhhh... ty masz naprawdę przerażające maczugi! Hi hi hi! Musisz mieć przyjaciela druida czy coś. Zawsze lepiej mieć dla nich jakiegoś drąga. Myślisz, że drzewa, z których robi się pałki, mogą być szalone?~ [FWCESP08]
+@5678948 = ~Masz może kwasem przepełnioną Czarną Krew lub Zgniatacza, którego KTOŚ zapomniał wypolerować. Mam przepis na Niewierną żonę, byś mógł wypłacać niegrzecznym chłopcom plaskacze, które PAAAALĄ! Niska, niska cena 15 000 sztuk złota. Chyba, że chcesz by Cespenar przerobił je na papier ścierny.~
+
+@567849 = ~Uch! Dlaczego wszystkie maczugi muszą być takie kłujące? Cespenar myśli, że ma coś, co może na to poradzić...~ [FWCESP09]
+@5678949 = ~A może po prostu chcesz mieć lepszą maczugę? Mogę wziąć Kościaną maczugę i Zgniatacza i stworzyć Punkt podparcia. Krzywdzi ludzi, którzy nie lubią "równowagi" Cespenar stara się nie wtrącać do polityki, dlatego weźmie tylko 15 000 sztuk złota, zrobi maczugę i zapomni o tym, dobrze?~
+
+@567850 = ~Cespenar nigdy nie rozumiał, dlaczego kapłanom pozwala się na zrobienie z twojej głowy krwawej miazgi, a nie mogą użyć noża do masła. Dziiiiiiiiwne.~ [FWCESP10]
+@5678950 = ~Ooochhh, masz Rozłupywacza czaszek i zwój palca śmierci. Teraz wszystkim czego potrzebujemy jest... ach, przeklęta mikstura lecznicza. Aha, jeśli chcesz tę błyszczącą nową wekierę, musisz mieć jeszcze 15 000 sztuk złota. Chcesz ją?~
+
+// newby
+
+@567851 = ~Yyyyhh... yyyyhh... aaaaaaa! Oooch, ależ ten łuk ciężko naciągnąć! Cespenar zaproponowałby strzelić nad głową swojego pana, pamięta jednak, co się stało, kiedy spudłował i zamiast jabłka trafił w nos Bhaala. Cespenar nie był w stanie siedzieć przez następny dziesięciodzień!~ [FWCESP11] ~Yyyyhh... yyyyhh... aaaaaaa! Oooch, ależ ten łuk ciężko naciągnąć! Cespenar zaproponowałby strzelić nad głową swojej pani, pamięta jednak, co się stało, kiedy spudłował i zamiast jabłka trafił w nos Bhaala. Cespenar nie był w stanie siedzieć przez następny dziesięciodzień!~ [FWCESP11]
+@5678951 = ~Masz niezły łuk, ale może stać się jeszcze lepszy, dzięki przepisowi na Teleomortis. Strzały pojawiają się w twej dłoni, zadziwiając twych przyjaciół i wrogów. Potrzeba wiele ważnych materiałów: Cięciwę Gesena lub Gonda, cztery Łzy Laeral i Miksturę mocy do wyparzenia.~
+
+@567854 = ~Oooch! Bardzo szykowne wdzianko. Ostrożnie, panie, Cespenar dziś go jeszcze nie odkurzał ... jeśli zdarzy ci się kichnąć, twarz może ci przymarznąć. Hi hi hi! Wiesz, niektórzy ludzie mówią, że Valygar jest wrednym suk... zamknąć buzię ma Cespenar? Cespenar po prostu mówił o Valygarze!~ [FWCESP12]
+@5678954 = ~Mogę wiele zrobić z tymi dwoma dobrymi wdziankami, mogę na przykład zrobić jedno naprawdę dobre! Wiele różnych ochron od złych rzeczy jak ogień i kwas! Spinek do mankietów nie trzeba, daj tylko Cespenarowi 10 000 sztuk złota i zwój ochrony przed magią. No i nie zapomnij o Łusce Smoka Cieni...~
+
+@567855 = ~Cespenar miał raz dymiącą kamizelkę ... to był prezent od bardzo dobrego przyjaciela, zgubił się w pralni. Może ty masz coś z tym wspólnego? To wygląda bardzo znajomo...~ [FWCESP13]
+@5678955 = ~Och, to tylko Szata arcymaga. Dobry przepis mam na to. Cespenar potrzebuje Płaszcza ochrony +1, zwojów eteralnego pancerza i warunkowania oraz 20 000 sztuk złota. Można rzucać więcej zaklęć, być jak PRAWDZIWY ARCYMAG!~
+
+@567859 = ~Nigdy nie miałeś dzbanka, by doń sikać? Nie wiedziałeś, co wtedy zrobić? Cespenar sugeruje użyć wtedy hełmu. Kogoś innego.~ [FWCESP14] ~Nigdy nie miałaś dzbanka, by doń sikać? Nie wiedziałaś, co wtedy zrobić? Cespenar sugeruje użyć wtedy hełmu. Kogoś innego.~ [FWCESP14]
+@5678959 = ~Jeśli masz jakieś zbędne dzbanki, może Cespenar połączy je dla ciebie! Dobry przepis łączący Hełm ochrony i Hełm ochrony przed urokami. Potrzebuję 4 pereł i 10 000 sztuk złota. Brzmi nieźle, no nie?~
+
+@567860 = ~Oooch! Cespenar może użyć tego hełmu jako miski, jeśli już więcej go nie potrzebujesz.~ [FWCESP15]
+@5678960 = ~Co byś powiedział na przepis o Wieży żelaznej woli? Użyć Hełmu ochrony przed urokami, dwóch Solnych mikstur (nie mów Cespenarowi, jak je zdobyłeś) i 10 000 sztuk złota. To utwardza głowę, hi hi hi..~
+
+@567861 = ~Może chcesz powiesić to na ścianę? Wielu ludzi nie chce kominków w piekle, ale może sprawimy sobie jakiś i położymy to przed nim.~ [FWCESP16]
+@5678961 = ~A może chcesz, by bardziej błyszczała. Weź Skórę Aegera, zwój ochrony przed żywiołami i 15 000 sztuk złota, co sprawi, że będzie ona o wiele silniejsza niż jest. Cespenarowi nigdy nie pozwolono być NAPRAWDĘ kreatywnym.~
+
+@567862 = ~Jak zdobyłeś tę pomarańczową dobroczynną zbroję? Była zbyt długo na słońcu? Hi hi hi...~ [FWCESP17]
+@5678962 = ~Może Cespenar mógłby ją uczynić lepszą przez połączenie Pełnej zbroi płytowej Firecama ze Zbroją Jelenia i dołożenie do tego 20 000 sztuk złota. Mogłoby być mniej, ale Cespenar nie ma zamiaru rujnować swej reputacji, zajmując się działalnością dobroczynną.~
+
+@567863 = ~Wciąż nosisz zbroję z tego wielkiego robaka na sobie? Poznajesz przez to więcej ludzi, czy co?~ [FWCESP18]
+@5678963 = ~Dasz Cespenarowi oba rodzaje zwoju ochrony przed kwasem i 5 000 sztuk złota, a Cespenar uczyni Zbroję płytową z ankhega mocniejszą. Będzie nawet strzelać kwasowymi strzałami w ludzi!~
+
+@567864 = ~Ach, to najbardziej zachwycająca tarcza, jaką Cespenar kiedykolwiek widział! Może użyje jej jako tacy, kiedy drużyna się rozpadnie?~ [FWCESP19]
+@5678964 = ~Trudno jest zrobić dobrą rzecz lepszą, ale jeśli będziesz mieć dwie Solne mikstury, Obręcz kontrolną z siedziby ośmiornicołbych i beljuryl oraz 10 000 sztuk złota, Cespenar może sprawić by Tarcza harmonii chroniła także przed psioniką.~
+
+@567865 = ~To przypomina Cespenarowi baaaaaardzo długi ząb. Cespenar jest dobrym sługą, on nawet może czyścić ci zęby! Hi hi hi!~ [FWCESP20]
+@5678965 = ~Jak sprawić by przytwierdzić Włócznię +3 do dłoni? Boisz się, że nigdy nie wróci? Prosty przepis: 10 000 sztuk złota i kamień łotrzyków, a włócznia zawsze wróci, kiedy rzucisz nią daaaaaleko.~
+
+@567866 = ~Co to jest? Wielki lizak na patyku? Dlaczego Cespenar nigdy takiego nie dostanie?~ [FWCESP21]
+@5678966 = ~Och, to jest Włócznia jednorożca. Dlaczego nie zaczniesz rzucać tą włócznią? Daj tylko Cespenarowi kamień łotrzyków i 10 000 sztuk złota, a będziesz jak dziki rzucający włócznią bandyta!~
+
+@567867 = ~Lubisz łowić ryby? Może pójdziesz łowić z wielką przynętą na tym. Wtedy musiałbyś ją mocno przywiązać, ale to nie Cespenara problem.~ [FWCESP22] ~Lubisz łowić ryby? Może pójdziesz łowić z wielką przynętą na tym. Wtedy musiałabyś ją mocno przywiązać, ale to nie Cespenara problem.~ [FWCESP22]
+@5678967 = ~Sprawię, by Przebijacz krzywdził równie dobrze z bardzo, bardzo daleka. Potrzebujesz 15 000 sztuk złota i kamienia łotrzyków. Nie mówię o tym dla rozrywki, naprawdę zużywam te rzeczy. Ostrożnie, kiedy włócznia powróci ... jeśli spudłujesz będzie BOLAŁO! Au!!~
+
+@567868 = ~Miły, duży kij. Czy szczeka więcej niż gryzie? Hi hi hi...~ [FWCESP23]
+@5678968 = ~Cespenar może użyć wspaniałego nowego przepisu na nowy Kostur lasów. Dajesz Cespenarowi Pierścień ochrony +1, Pierścień druida i 20 000 sztuk złota, a dostajesz nowy o wiele lepszy kijaszek!~
+
+@567869 = ~Ooooch! Masz najbardziej świecący ze wszystkich świecących długich mieczy! Założę się, że zabiłeś wampira lub dwóch tą dziecinką! En garde, krwiopijco! Cespenar cię zmiażdży!~ [FWCESP24]
+@5678969 = ~Może chciałbyś ulepszyć Dzienną Gwiazdę? Dasz mi dobry towar, taki jak cztery zwoje ochrony przed nieumarłymi, dwie fiolki Święconej wody elfów, dwa szafiry gwiaździste oraz 15 000 sztuk złota, ale Cespenar nieomal wprowadził pana w błąd! Otrzymasz więcej Promieni słońca oraz ochronę przed złem. Mam zaczynać?~ ~Może chciałabyś ulepszyć Dzienną Gwiazdę? Dasz mi dobry towar, taki jak cztery zwoje ochrony przed nieumarłymi, dwie fiolki Święconej wody elfów, dwa szafiry gwiaździste oraz 15 000 sztuk złota, ale Cespenar nieomal wprowadził panią w błąd! Otrzymasz więcej Promieni słońca oraz ochronę przed złem. Mam zaczynać?~
+
+@567870 = ~Och, honorowy <CHARNAME>-san! Możesz uwierzyć, że Furia Niebios nie wygląda już tak wspaniale?~ [FWCESP25]
+@5678970 = ~Cespenar ma miły, szybki przepis aby naprawić to! No, może nie tak szybki. Masz Różdżkę błyskawic? Co sądzisz o pozbyciu się Serca demona? Cuuuchnąca rzecz, wiem, ale są przydatne do najdziwniejszych rzeczy. Aha, i 20 000 sztuk złota, które będą potrzebne.~
+
+@567871 = ~Masz najmniejsze paladyńskie dobrodziejstwo pod słońcem? Cespenar ma książkę z historyjkami na strychu, w której jest coś o tym napisane.~ [FWCESP26]
+@5678971 = ~Można zrobić o wiele lepszy miecz Arvoreen. Specjalna wyprzedaż dla nie tak dużego ludu, musisz tylko dobrze myśleć i dać Cespenarowi 15 000 sztuk złota! Nie znajdziesz lepszego sposobu po tej stronie Otchłani!~
+
+@567872 = ~Cespenar jest pod wielkim, wielkim wrażeniem, że z panem są bardzo porządni ludzie! Może chcesz użyć jakiejś oznaczonej broni, by pomóc panu?~ [FWCESP27] ~Cespenar jest pod wielkim, wielkim wrażeniem, że z panią są bardzo porządni ludzie! Może chcesz użyć jakiejś oznaczonej broni, by pomóc pani?~ [FWCESP27]
+@5678972 = ~Cespenar zna Kapłana Torma, który może pobłogosławić Uświęconego odkupiciela i dać mu możliwość rozpraszania magii i uciszania innych ludzi. Potrzebuje dodatkowo Serca demona, pięciu zwojów rozproszenia magii i 15 000 sztuk złota, oraz złotego serca. Mogłoby być mniej, ale Cespenar musi zapłacić za licencję użytkowania przepisu.~
+
+@567873 = ~Och, chłopie! Więcej tac! Cespenarowi już zaczynały się one wyczerpywać, a chciał on zrobić bankiet!~ [FWCESP28]
+@5678973 = ~Chwila ... znam przepis na wielką tacę, czy tam tarczę, czy takie tam rzeczy. Weź Rodową tarczę Delrynów i Łaskę ocalenia, użyj też 15 000 sztuk złota, a otrzymasz nową, lepiej chroniącą Tarczę Delrynów! Ale chyba lepiej będzie jak zachowamy je na ten bankiet.~
+
+@567874 = ~Co? Nie lubisz gadających mieczy? A co jeśli zostaniesz pogrzebany żywcem w ciemnej głębokiej dziurze i będziesz mógł rozmawiać tylko z mieczem? Wtedy będziesz dziękował za taki miecz!~ [FWCESP29]
+@5678974 = ~Ale, hmmmm, Cespenar widzi Obręcz kontrolną, czym może uczynić Lilarcora silniejszym, a i utrzyma z dala tych obrzydliwych łupieżców umysłów, którzy wsysają się w twój mózg! A Larry już nie będzie mógł z tobą rozmawiać. To będzie smutne i to będzie kosztowało także 20 000 sztuk złota.~
+
+@567875 = ~Myślałeś kiedyś o miłości, a nie o wojnie? Z pewnością masz tu dużo noży...~ [FWCESP30] ~Myślałaś kiedyś o miłości, a nie o wojnie? Z pewnością masz tu dużo noży...~ [FWCESP30]
+@5678975 = ~Achhhh, Cespenar ma świetny pomysł! Zrobić dobry sztylet dla skradających się ludzi. Weź Kościaną klingę i Kolec chochlika i zrób sztylet, który potrafi bardzo dobrze zadawać cios w plecy! Potrzebuję jednak czterech Mikstur złodziejskiego mistrzostwa i zapłaty 15 000 sztuk złota, ale wtedy wrogowie nie będą nawet wiedzieć, co ich trafiło!~
+
+// ....
+
+@567879 = ~Oooch, ktoś mówił ci o Pojemniku obfitości? Jest jak zły szeląg... chyba Cespenar musi znów wrzucić to do rzeki, ale tym razem z dopiętym cięższym balastem!~ [FWCESP31]
+@5678979 = ~A może spróbujemy czegoś innego tym razem i użyjemy nowego przepisu. Jeśli masz 40 sztuk danej amunicji +3 i 40 000 sztuk złota, możemy ulepszyć posiadany przez ciebie pojemnik do +3. Pomyśl o tych wszystkich pieniądzach, które oszczędzisz na amunicji! Chyba, że nie używasz broni dystansowej.~
+
+@567880 = ~Tak, ulepsz Kołczan.~
+@567881 = ~Tak, ulepsz Futerał.~
+@567882 = ~Tak, ulepsz Torbę.~
+
+@567883 = ~Wygląda to jak duzi ludzie noszeni jako ubranie. Witajcie duzi ludzie! Pomachajcie Cespenarowi, jesteście bowiem teraz noszeni przez mojego pana!~ [FWCESP32] ~Wygląda to jak duzi ludzie noszeni jako ubranie. Witajcie duzi ludzie! Pomachajcie Cespenarowi, jesteście bowiem teraz noszeni przez moją panią!~ [FWCESP32]
+@5678983 = ~Cespenar nie jest co prawda preparatorem, ale może połączyć Ludzką skórę z Kamieniem z duszą Malii i zwojem ochrony przed magią oraz 20 000 sztukami złota dla połysku. Co sprawi, że będziesz silniejszy i zdrowszy, czego nie można będzie powiedzieć o tych dużych ludziach, których będziesz nosił.~ ~Cespenar nie jest co prawda preparatorem, ale może połączyć Ludzką skórę z Kamieniem z duszą Malii i zwojem ochrony przed magią oraz 20 000 sztukami złota dla połysku. Co sprawi, że będziesz silniejsza i zdrowsza, czego nie można będzie powiedzieć o tych dużych ludziach, których będziesz nosiła.~
+
+@567884 = ~Gdzie to znalazłeś? Bhaal szukał tego wszędzie, ale nigdy nie znalazł! Chciał on powiesić to nad drzwiami jako dekorację... Cespenar przekonał go wtedy do róż, ale było z tym troooochę zachodu...~ [FWCESP33]
+@5678984 = ~Bardzo, bardzo dobry przepis na Rozpruwacza Dusz. Weź Serce Potępieńca i przepotężny święty miecz Karsomirem zwany oraz 20 000 sztuk złota, co uczyni Rozpruwacza Dusz niezwykle zabójczym! Kiedy ktoś będzie pytał, nie mów, że to był pomysł Cespenara!~
+
+@567885 = ~Ooch, świecący symbol starego Boga Słońca! Amaunator i Bhaal nigdy się zbytnio nie lubili. Stary spór, w który wplątane były demony, światło słoneczne i błogosławiona koza. Bardzo smutna historia. Po śmierci kozy, Ammy nigdy już nie przyszedł na herbatkę.~ [FWCESP34]
+@5678985 = ~To bez znaczenia, za to mogę umieścić ten święty symbol na twoim puklerzu. Dodaj jeden kamień słoneczny za każdy palec i 10 000 sztuk złota, za straszenie nieumarłych. Chcesz?~
+
+@567886 = ~Złodziejskie zacięcie, jak widzę. Chcesz opróżnić kieszenie Cespenara? Czekaj! Cespenar nie ma kieszeni. Ha! Nie bądź zły. Jestem pewien, że później spotkasz wielu bandziorów, których będziesz mógł okraść.~ [FWCESP35]
+@5678986 = ~W międzyczasie, mam przepis na złodziejskie akcesoria. Całkiem modny zestaw: Rękawice kieszonkowca i Bransolety ochrony, pierścienie wyczucia zagrożenia i wytrychów oraz dwa pierścienie ochrony. Za 5 000 sztuk złota mogę zrobić jedno wielkie świecuszko.~
+
+@567887 = ~Ach, świecącą biżuterię tam masz. Aczkolwiek bardzo zły dobór kolorów. Być może Cespenar będzie mógł później coś na to pomóc. Niektóre naprawdę pasowałyby do koloru twoich oczu? Nie?~ [FWCESP36]
+@5678987 = ~W każdym razie, Cespenar może ugnieść razem dwa amulety ochrony, po amulecie ochrony przed trucizną i blokowania czarów oraz Naszyjnik stabilności kształtu. To całkiem sporo łańcuszków z klejnotami! Wymaga też pobłogosławienia dobrego przyjaciela Ilmatera (z jakiegoś powodu, Ilmater ma miękkie serce dla biednego Cespenara)! Może z 10 000 sztuk złota za usługę będzie najwłaściwsze, co?~
+
+@567888 = ~Plusk-Plask! Ostrze wody mogłoby dostarczać więcej rozrywki niż tylko poprzez rozbryzgiwanie tu i tam. Cespenar ma przepis, który doskonale sprawdzi się w tym przypadku~ [FWCESP37]
+@5678988 = ~Z Ostrzem Wody, Szponem Rashada i Adjathą Wysysaczem można zrobić naprawdę wodny miecz. Może nie tak duży, ale naprawdę wciąż bardzo miły. Mam nadzieję, że lubisz trucizny! Masz 15 000 sztuk złota za robotę?~
+
+@567889 = ~Oooch, świecący topór, który zabija złe rzeczy. Próbujesz zabić Cespenara? Ale zaczekaj, to działa tylko na nieumarłych, nie na demony. Ale w pierwszej chwili bardzo się przestraszyłem. Cespenar widzi swoje życie przesuwające się przed oczyma: za dużo kłaniania się, za mało wycierania. Trzeba to poprawić.~ [FWCESP38]
+@5678989 = ~W każdym razie, różowy to nie jest naprawdę twój kolor. Można by dodać grudkę ilitu do Lazurowego ostrza, sprawiając, że będzie bardziej purpurowe. Doda to także jakieś dodatkowe moce niszczące nieumarłych oraz ochronę przed nimi. Aha, 20 000 sztuk złota. Chciałbyś?~ ~W każdym razie, różowy to nie jest naprawdę twój kolor. Można by dodać grudkę ilitu do Lazurowego ostrza, sprawiając, że będzie bardziej purpurowe. Doda to także jakieś dodatkowe moce niszczące nieumarłych oraz ochronę przed nimi. Aha, 20 000 sztuk złota. Chciałabyś?~
+
+@567890 = ~Właśnie obserwowałem pierścień na twoim palcu! Za dużo pierścieni na twoich palcach? To wielki problem, Cespenar wie. Tak dużo świecuszków, a tak mało pazurków.~ [FWCESP39]
+@5678990 = ~Ale powiem ci coś. Cespenar może złączyć razem twoje pierścienie czarów i ostrości razem z dawno zapomnianym Amuletem metaczarów i standardowym Pierścieniem ochrony, by uformować Pierścień czarownika. Bardzo miły dla magów. Chcesz taki za 20 000 sztuk złota?~
+
+@567892 = ~Możesz ulepszyć ten pas?~
+
+@567893 = ~Ooch, pasy są całkiem modne w tym sezonie. Zastanawiam się dlaczego wszystkie one mają odcień beżowy? To musi być przez to okropne światło sfery kieszeniowej. Zawsze sprawia, że Cespenar wygląda na zmęczonego.~ [FWCESP40]
+// @5678993 = ~W każdym razie, jeśli masz trzy pasy ochrony, mam przepis na połączenie ich w naprawdę fajny pas. Jeśli schowasz się za niego, wrogowie nie będą mogli cię zranić. Taka jest umowa. Chcesz więc za 10 000 sztuk złota?~
+@5678993 = ~W każdym razie, jeśli masz trzy pasy ochrony, mam przepis na połączenie ich w naprawdę fajny pas. Jeśli schowasz się za niego, wrogowie nie będą mogli cię zranić. Taka jest umowa, ale potrzebuję trzy krwawniki tego samego typu. Chcesz więc za 10 000 sztuk złota?~
+
+@567895 = ~Możesz ulepszyć tę Figurkę czarnego pająka?~
+@567896 = ~Ooch, oj, ty skradaczysko! Chcesz, by Cespenar zrobił tę figurkę zaprzyjaźnionego z tobą pająka bardziej zadziwiającą? Dodać jakieś nowe pajęczyny, może? Chcesz terroryzować jakiegoś szczególnego goblina?~ [FWCESP41]
+@5678996 = ~Cespenar wyczuwa łaskotanie myśli. Aczkolwiek potrzebuje specjalnych materiałów, aby ulepszyć tego ściennego pełzacza. Musisz mieć zwoje pajęczego pomiotu i pajęczyny, plus pięć zatrutych rzucanych sztyletów. A także 5 000 sztuk złota. Chcesz?~
+
+@567897 = ~Czy Chaos i Entropia mogą być ulepszone?~
+@5678898 = ~Krótkie miecze? Weź pewniejszego gościa do ich obsługi, jeśli łapiesz Cespenarową aluzję. Ale potrzebujesz bardziej uderzającej potęgi, co? Dobra, oto co Cespenar może zrobić. Zdobądź zwoje chaosu i wielkiego osłabienia, zmieszaj z Ilbrathą i Arbanem, a nawet te krótkie miecze będą bardziej wartościowe niż te dotychczas zwane broniami Otchłani! Och, Cespenar także potrzebuje 25 000 sztuk złota. I kamienia łotrzyków, chyba, że chcesz zbierać cząstki Cespenara po całej sferze kieszonkowej. Aha, to nie była sugestia.~ [FWCESP42]
+
+@567899 = ~Możesz wykuć dla mnie jakąś elfią zbroję?~
+@56789100 = ~Oooch! Tak! Lubisz rzeczy gorące i pikantne? Cespenar może złączyć elfią zbroję razem z Łuską czerwonego smoka. A także dodać muchomory, andradytowe przyprawy i pieprz z agatu ognistego (oba po trzy): bardzo jasne, bardzo gorące, bardzo tuczące. Cespenar jest całkiem niezłym kowalem ... ale czekaj, to jest przepis kulinarny. Niestety, specjalna patelnia i olej z orzeszków będzie kosztował cię 25 000 sztuk złota. Chcesz tego?~ [FWCESP43]

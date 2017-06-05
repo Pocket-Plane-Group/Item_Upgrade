@@ -1,0 +1,272 @@
+BACKUP ~itemupgrade/backup~
+AUTHOR ~weimer@cs.berkeley.edu or pcamagna@yahoo.com~
+
+ALWAYS
+
+  ACTION_IF NOT VARIABLE_IS_SET cd_always THEN BEGIN
+
+    OUTER_SET cd_always = 1 // just do this once per install
+
+    ACTION_DEFINE_ARRAY cdreload BEGIN setup lolwot END
+    LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR default_language = american tra_path = EVAL ~%MOD_FOLDER%/languages~ reload_array = cdreload END
+
+  END
+
+END
+
+VERSION ~v41~
+
+README ~itemupgrade/readme-itemupgrades.txt~
+
+LANGUAGE ~American English~ 
+  ~american~
+  ~itemupgrade/languages/american/setup.tra~
+
+LANGUAGE ~Francais (traduction de Artemidore et Cocobard et Sanctifer, (d'Oghmatiques))~
+  ~french~
+  ~itemupgrade/languages/american/setup.tra~
+  ~itemupgrade/languages/french/setup.tra~
+
+LANGUAGE ~Deutsche (Übersetzung durch Maus & Frischauf & Lainer)~ 
+  ~german~
+  ~itemupgrade/languages/american/setup.tra~
+  ~itemupgrade/languages/german/setup.tra~
+
+LANGUAGE ~Español (hecha por Clan DLAN, Ancalagon del Negro por Clan REO & ...)~ 
+  ~spanish~
+  ~itemupgrade/languages/american/setup.tra~
+  ~itemupgrade/languages/spanish/setup.tra~
+
+LANGUAGE ~Polish (by Nastian & SoM - part of CoB Clan; Cahir)~
+  ~polski~
+  ~itemupgrade/languages/american/setup.tra~
+  ~itemupgrade/languages/polski/setup.tra~
+
+LANGUAGE ~Russian (Iogan, prowler, hawkmoon & AERIE.RU)~ 
+  ~russian~
+  ~itemupgrade/languages/american/setup.tra~
+  ~itemupgrade/languages/russian/setup.tra~
+
+LANGUAGE ~Korean (web2air)~ 
+  ~korean~
+  ~itemupgrade/languages/american/setup.tra~
+  ~itemupgrade/languages/korean/setup.tra~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Item Upgrade - SoA                               \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+/////                                                  \\\\\
+///// Original list version                            \\\\\
+/////                                                  \\\\\
+
+BEGIN @4 DESIGNATED 0
+SUBCOMPONENT @1
+
+ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+
+  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
+
+END
+  
+// shared code between options
+INCLUDE ~itemupgrade/lib/soa.tpa~
+
+// unconventional, but it works: the two R_Ts intercept all calls to state 13 and
+// send them to the new IU 'menu' state instead. The new states are all in the
+// appended file
+COPY_EXISTING ~wsmith01.dlg~ ~override~
+  DECOMPILE_DLG_TO_D
+    REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)GOTO 13\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
+    REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)EXTERN ~WSMITH01~ 13\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
+    APPEND_FILE ~itemupgrade/dlg/crom.d~
+  COMPILE_D_TO_DLG
+
+/////                                                  \\\\\
+///// like other upgrades                              \\\\\
+/////                                                  \\\\\
+  
+BEGIN @5 DESIGNATED 10
+REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "french" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "polish" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "russian" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
+SUBCOMPONENT @1
+
+// shared code between options
+INCLUDE ~itemupgrade/lib/soa.tpa~
+
+ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+
+  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
+  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/fl#utf8_lolwot.tra~
+
+END ELSE BEGIN
+
+  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/lolwot.tra~
+
+END
+
+// compile these serially, not all at once
+COMPILE ~itemupgrade/crom/c2amul01.d~
+COMPILE ~itemupgrade/crom/c2anom01.d~ 
+COMPILE ~itemupgrade/crom/c2ax1h01.d~ 
+COMPILE ~itemupgrade/crom/c2belt01.d~ 
+COMPILE ~itemupgrade/crom/c2blun01.d~ 
+COMPILE ~itemupgrade/crom/c2blun02.d~ 
+COMPILE ~itemupgrade/crom/c2blun03.d~ 
+COMPILE ~itemupgrade/crom/c2boot01.d~ 
+COMPILE ~itemupgrade/crom/c2boot02.d~ 
+COMPILE ~itemupgrade/crom/c2boot03.d~ 
+COMPILE ~itemupgrade/crom/c2boot04.d~ 
+COMPILE ~itemupgrade/crom/c2bow01.d~  
+COMPILE ~itemupgrade/crom/c2brac01.d~ 
+COMPILE ~itemupgrade/crom/c2chan01.d~ 
+COMPILE ~itemupgrade/crom/c2dagg01.d~ 
+COMPILE ~itemupgrade/crom/c2hd1.d~    
+COMPILE ~itemupgrade/crom/c2helm01.d~ 
+COMPILE ~itemupgrade/crom/c2helm02.d~ 
+COMPILE ~itemupgrade/crom/c2hide01.d~ 
+COMPILE ~itemupgrade/crom/c2keld01.d~ 
+COMPILE ~itemupgrade/crom/c2keld02.d~ 
+COMPILE ~itemupgrade/crom/c2kit.d~    
+COMPILE ~itemupgrade/crom/c2mazz01.d~ 
+COMPILE ~itemupgrade/crom/c2plat01.d~ 
+COMPILE ~itemupgrade/crom/c2ring01.d~ 
+COMPILE ~itemupgrade/crom/c2ring02.d~ 
+COMPILE ~itemupgrade/crom/c2ring03.d~ 
+COMPILE ~itemupgrade/crom/c2ring04.d~ 
+COMPILE ~itemupgrade/crom/c2robe01.d~ 
+COMPILE ~itemupgrade/crom/c2robe02.d~ 
+COMPILE ~itemupgrade/crom/c2robe03.d~ 
+COMPILE ~itemupgrade/crom/c2shld01.d~ 
+COMPILE ~itemupgrade/crom/c2shld02.d~ 
+COMPILE ~itemupgrade/crom/c2sper01.d~ 
+COMPILE ~itemupgrade/crom/c2sper02.d~ 
+COMPILE ~itemupgrade/crom/c2sper03.d~ 
+COMPILE ~itemupgrade/crom/c2staf01.d~ 
+COMPILE ~itemupgrade/crom/c2staf02.d~ 
+COMPILE ~itemupgrade/crom/c2sw1h01.d~ 
+COMPILE ~itemupgrade/crom/c2sw1h02.d~ 
+COMPILE ~itemupgrade/crom/c2sw1h03.d~ 
+COMPILE ~itemupgrade/crom/c2sw2h01.d~
+COMPILE ~itemupgrade/crom/c2valy01.d~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Item Upgrade - ToB                               \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+/////                                                  \\\\\
+///// Original list version                            \\\\\
+/////                                                  \\\\\
+  
+BEGIN @4 DESIGNATED 1
+REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee~ @3 // ToB
+SUBCOMPONENT @2
+
+ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+
+  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
+
+END
+  
+// shared code between options
+INCLUDE ~itemupgrade/lib/tob.tpa~
+
+// unconventional, but it works: the two R_Ts intercept all calls to state 4 and
+// send them to the new IU 'menu' state instead. The new states are all in the
+// appended file
+COPY_EXISTING ~botsmith.dlg~ ~override~
+  DECOMPILE_DLG_TO_D
+    REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)GOTO 4\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
+    REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)EXTERN ~BOTSMITH~ 4\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
+    APPEND_FILE ~itemupgrade/dlg/cespy.d~
+  COMPILE_D_TO_DLG
+
+/////                                                  \\\\\
+///// like other upgrades                              \\\\\
+/////                                                  \\\\\
+
+BEGIN @5 DESIGNATED 11
+REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee~ @3 // ToB
+REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "french" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "polish" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "russian" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
+SUBCOMPONENT @2
+
+ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+
+  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
+  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/fl#utf8_lolwot.tra~
+
+END ELSE BEGIN
+
+  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/lolwot.tra~
+
+END
+  
+// shared code between options
+INCLUDE ~itemupgrade/lib/tob.tpa~
+
+// compile these serially, not all at once
+COMPILE ~itemupgrade/cespy/c2amul01.d~
+COMPILE ~itemupgrade/cespy/c2anom01.d~	
+COMPILE ~itemupgrade/cespy/c2ax1h01.d~	
+COMPILE ~itemupgrade/cespy/c2belt01.d~	
+COMPILE ~itemupgrade/cespy/c2blun01.d~
+COMPILE ~itemupgrade/cespy/c2blun02.d~	
+COMPILE ~itemupgrade/cespy/c2blun03.d~	
+COMPILE ~itemupgrade/cespy/c2boot01.d~	
+COMPILE ~itemupgrade/cespy/c2boot02.d~	
+COMPILE ~itemupgrade/cespy/c2boot03.d~	
+COMPILE ~itemupgrade/cespy/c2boot04.d~	
+COMPILE ~itemupgrade/cespy/c2bow01.d~	
+COMPILE ~itemupgrade/cespy/c2brac01.d~	
+COMPILE ~itemupgrade/cespy/c2chan01.d~	
+COMPILE ~itemupgrade/cespy/c2dagg01.d~	
+COMPILE ~itemupgrade/cespy/c2hd1.d~	
+COMPILE ~itemupgrade/cespy/c2helm01.d~	
+COMPILE ~itemupgrade/cespy/c2helm02.d~	
+COMPILE ~itemupgrade/cespy/c2hide01.d~	
+COMPILE ~itemupgrade/cespy/c2keld01.d~	
+COMPILE ~itemupgrade/cespy/c2keld02.d~	
+COMPILE ~itemupgrade/cespy/c2kit.d~	
+COMPILE ~itemupgrade/cespy/c2leat01.d~	
+COMPILE ~itemupgrade/cespy/c2mazz01.d~
+COMPILE ~itemupgrade/cespy/c2plat01.d~	
+COMPILE ~itemupgrade/cespy/c2quiv01.d~	
+COMPILE ~itemupgrade/cespy/c2quiv02.d~	
+COMPILE ~itemupgrade/cespy/c2quiv03.d~	
+COMPILE ~itemupgrade/cespy/c2ring01.d~	
+COMPILE ~itemupgrade/cespy/c2ring02.d~	
+COMPILE ~itemupgrade/cespy/c2ring03.d~	
+COMPILE ~itemupgrade/cespy/c2ring04.d~	
+COMPILE ~itemupgrade/cespy/c2robe01.d~	
+COMPILE ~itemupgrade/cespy/c2robe02.d~	
+COMPILE ~itemupgrade/cespy/c2robe03.d~	
+COMPILE ~itemupgrade/cespy/c2shld01.d~	
+COMPILE ~itemupgrade/cespy/c2shld02.d~	
+COMPILE ~itemupgrade/cespy/c2sper01.d~	
+COMPILE ~itemupgrade/cespy/c2sper02.d~	
+COMPILE ~itemupgrade/cespy/c2sper03.d~	
+COMPILE ~itemupgrade/cespy/c2staf01.d~	
+COMPILE ~itemupgrade/cespy/c2staf02.d~	
+COMPILE ~itemupgrade/cespy/c2sw1h01.d~	
+COMPILE ~itemupgrade/cespy/c2sw1h02.d~	
+COMPILE ~itemupgrade/cespy/c2sw1h03.d~	
+COMPILE ~itemupgrade/cespy/c2sw2h01.d~	
+COMPILE ~itemupgrade/cespy/c2sw2h02.d~
+COMPILE ~itemupgrade/cespy/c2valy01.d~
+
+EXTEND_BOTTOM ~BOTSMITH.BCS~ ~itemupgrade/cespy/BOTSMITH.baf~

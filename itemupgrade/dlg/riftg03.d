@@ -1,0 +1,4 @@
+ADD_TRANS_ACTION RIFTG03
+BEGIN 30 END
+BEGIN  END
+~GiveItemCreate("misc18",Player1,3,3,3)~

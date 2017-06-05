@@ -1,0 +1,10 @@
+// shared soa-tob code
+INCLUDE ~itemupgrade/lib/items_common.tpa~
+
+EXTEND_BOTTOM ~AR0334.bcs~ ~itemupgrade/crom/AR0334.baf~
+
+// grants player extra sunstone in UE quest
+COMPILE ~itemupgrade/dlg/riftg03.d~
+
+// prompts random StringHeads if Lil +5 is being used
+EXTEND_BOTTOM ~baldur.bcs~ ~itemupgrade/bcs/lilarcor.baf~

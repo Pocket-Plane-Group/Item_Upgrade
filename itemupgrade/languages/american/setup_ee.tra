@@ -1,0 +1,566 @@
+/*
+Translator note:
+
+Since BGIIEE uses slightly different formatting and conventions than vBG2, this file allows you to override strings for *only* BGIIEE.
+When Item Upgrade is installed on vBG2, only strings from setup.tra are used. On BGIIEE, strings defined here will override the strings
+from setup.tra. This does not need to be a complete copy of setup.tra, ONLY for the strings that are different between vBG2 and BGIIEE.
+This file is also formatted in utf-8 since it's only used on BGIIEE games. setup.tra will be converted on the fly for BGIIEE.
+*/
+
+@107 = ~Staff of Elemental Mastery +5
+Linked to three of the Elemental Planes, this powerful staff was forged at <CHARNAME>'s behest. It is a potent weapon in its own right, but it also possess the power of life and death over Elemental creatures. This particular staff is cold to the touch and is covered with burn marks and small gouges. Rumor has it that the secret for this sort of construction was originally discovered by the Rakshasa, who first used it to create the Flail of Ages. 
+
+STATISTICS
+
+Combat Abilities: If an Earth, Air or Fire Elemental is hit it will be destroyed.
+Summon an Earth, an Air and a Fire Elemental (once per day, 300 seconds, always friendly). 
+Cast Fireshield: Red (twice per day, 78 seconds).
+Sleep Cloud (twice per day, range 40, save vs. poison or sleep for 18 seconds).
+
+THAC0: +5 bonus
+Damage: 1D6 +5
+Damage type: crushing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Quarterstaff
+Type: 2-handed
+Requires: 5 Strength~
+@123 = ~Club +5: Pitchwife
+Forged for <CHARNAME> by amalgamating the oaken, acidic club Blackblood and the splintered club Gnasher, Pitchwife pulses with destructive power. Covered in a tar-like pitchy substance that burns flesh on contact, Pitchwife also drives aggravating spines and splinters into the wound. 
+
+Equipped Abilities: 25% acid resistance
+THAC0: +5 bonus
+Damage: 1D6 + 5, +5 acid damage, slivers add 3 points of extra damage each round for four rounds
+Damage type: crushing
+Weight: 3
+Speed Factor: 1 
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength
+~
+@125 = ~Mace +5: Skullcrusher
+This mace is permanently bloodstained; a telltale trace of its many years spent bashing heads. The weapon would have been the bane of humanoids throughout its history, but those that wielded it seem to have been purposely left out of historic record. Recently Skullcrusher was reforged into an even more awesome weapon by <CHARNAME>.
+
+STATISTICS:
+
+THAC0: +5 bonus
+Damage: 1D6 + 6, +6 extra damage to humanoid creatures, lowers target's maximum hit points by 2 for 10 rounds
+Damage type: crushing
+Weight: 6
+Speed Factor: 2
+Proficiency Type: Mace
+Type: 1-handed
+Requires: 10 Strength
+~
+
+@127 = ~Assembled on behalf of <CHARNAME> using a dark and dire ritual, Teleomortis is a composite longbow of unparalleled power. When the string is drawn back a ghostly arrow forms, seeming to flicker and bend in the light. The bow thus requires no extra ammunition (although it can make use of more mundane arrows as well). The ghostly arrows associated with Teleomortis tear at the mind in some unknowable fashion, hinting at secrets not meant to be unearthed on this Plane.
+
+STATISTICS:
+
+Combat Abilities: Creates its own ghostly +4 arrows. A target struck by such an arrow has a 5% chance of being confused for 30 seconds. 
+THAC0: +4
+Damage: 1d6 +4
+Weight: 7
+Speed Factor: 1
+Proficiency Type: Longbow
+Type: 2-handed
+Requires: 18 Strength
+~
+@129 = ~Corthala Family Armor
+This armor, long in the Corthala bloodline, protects the user against all forms of attacks. The armor has been combined with the Shadow Dragon Armor and is now even better at protecting Valygar. The armor is enchanted so that it grants a +5 bonus to Valygar's armor class. It also adds a bonus to resisting acid, fire and magical damage. The armor also makes Valygar immune to charm while he wears it. Finally, the armor grants Valygar non-detection while equipped. As it is specially fitted for Valygar, few other than he may wear it.
+
+STATISTICS:
+
+Equipped Abilities: Immune to Charm, Non-Detection
+Bonuses: +50% Resistance to fire, acid, and magic damage
+Armor Class: 0
+Weight: 9
+~
+
+@131 = ~Enhanced Robe of the Good Archmagi
+This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of good alignment. This particular robe has been further enchanted by <CHARNAME>.
+
+STATISTICS:
+
+Equipped Abilities: Memorize one extra first, second, third and fourth level wizard spell. 
+Armor Class: 3
+Magic Resistance: 10%
+Saving Throw: +2 bonus
+Weight: 6 
+~
+
+@133 = ~Enhanced Robe of the Neutral Archmagi
+This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of neutral alignment. This particular robe has been further enchanted by <CHARNAME>.
+
+STATISTICS:
+
+Equipped Abilities: Memorize one extra first, second, third and fourth level wizard spell. 
+Armor Class: 3
+Magic Resistance: 10%
+Saving Throw: +2 bonus
+Weight: 6 
+~
+
+@135 = ~Enhanced Robe of the Evil Archmagi
+This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of evil alignment. This particular robe has been further enchanted by <CHARNAME>.
+
+STATISTICS:
+
+Equipped Abilities: Memorize one extra first, second, third and fourth level wizard spell. 
+Armor Class: 3
+Magic Resistance: 10%
+Saving Throw: +2 bonus
+Weight: 6 
+~
+
+@137 = ~Citadel Helmet
+Forged at <CHARNAME>'s request, the Citadel Helmet protects its wearer from physical, magical and mental assaults. It combines all of the defensive powers of the Helm of Charm Protection and the Helm of Defense. In addition, it looks vaguely imposing. 
+
+STATISTICS:
+
+Armor Class Bonus: none
+Special: Wearer is immune to charm
+Saving Throws: +1 bonus
+Electrical resistance: +20%
+Cold resistance: +20%
+Fire resistance: +20%
+Special: Protects Against Critical Hits
+Weight: 3
+~
+
+@139 = ~Tower of Iron Will
+Forged at <CHARNAME>'s request, the Tower of Iron Will protects its wearer from mental assaults. It provides all of the standard defenses associated with a Helm of Charm Protection and also makes the wearer immune to Psionics. Note that the wearer is not protected from the intelligence-draining attacks of the Illithid.
+
+STATISTICS:
+
+Special: Wearer is immune to charm and psionics
+Special: Protects Against Critical Hits
+Weight: 3
+~
+
+@141 = ~Aeger's Hide +5
+This heavy and thick bear hide is all that remains of the fabled Aeger. Several hundred years ago the Aeger, a giant bear, terrorized hundreds of small villages up and down the Sword Coast. The bear was invulnerable to fire, cold or acid. Finally the young men and women of several villages banded together, forming a militia almost two hundred people strong. The Aeger was surrounded and finally slain. Less than a dozen villagers survived, and they carved the Aeger's hide amongst themselves. Out of one of the pieces this armor was created.
+
+More recently, <CHARNAME> arranged for Aeger's Hide to be improved with additional enchantments. It now provides a greater resistance to physical blows and elemental attacks.
+
+STATISTICS:
+
+Bonuses: +25% resistance to fire, cold, and acid
+Immune to Confusion
+Armor Class: 1
+Weight: 35
+Requires: 6 Strength
+~
+
+@143 = ~Improved Human Flesh
+Made from human skin and treated with the blood of a noble dragon and combined with the soul of an innocent girl and powerful protective magic, this armor emits the stench of bitter death. The malevolent armor can only be used by a truly evil person. This is the pinnacle of dastardly protection. 
+
+STATISTICS:
+
+Armor Class: 0 
+Saving Throws: +4 bonus
+Magic Resistance: 20% bonus
+Equipped Abilities: +1 DEX bonus, +1 CON bonus, immunity to poison, protection from Good
+Weight: 5 
+Requires: 3 Strength
+~
+
+@145 = ~Improved Firecam Full-Plate Armor
+This suit of armor was originally designed for Keldorn and few others may wear it. The suit was later enchanted again at <CHARNAME>'s request and it now provides Keldorn with even more protection. While equipped the suit provides the wearer with a +2 bonus to all saving throws and grants the wearer with free action (able to pass through webs and other effects) and immunity to fear. Despite being incredibly strong, the armor is almost weightless. 
+
+STATISTICS:
+
+Armor Class: -2
+Saving Throw Bonus: +2
+Equipped Abilities: Free Action, Immunity to Fear
+Weight: 10
+~
+@147 = ~Improved Ankheg Plate Mail
+This plate mail has been expertly crafted. Sheathed in the chitinous scales of the ankheg, it provides a greater degree of protection than traditional plate mail and is not susceptible to rust. As any world-weary adventurer will tell you, however, the best appreciated aspect of ankheg mail is its light weight and low encumbrance. Monsters come and go but fatigue is a constant enemy.
+
+This particular suit of Ankheg Plate Mail was reforged for <CHARNAME>. It now provides additional protection against melee and acid attacks and allows the wearer to mimic the acid-spitting attack of the Ankheg.
+
+STATISTICS:
+
+Armor Class: -1
+Equipped Abilities: 50% acid resistance
+Combat Abilities: Cast Melf's Acid Arrow three times per day
+Weight: 25
+Requires: 8 Strength
+~
+
+@149 = ~Shield of Harmony +3
+Audn of the Field, Knight-Champion for the wizard Kekkim, carried this shield for most of his life. It protects the bearer from most forms of mind control, a benefit for a wizard who needed warrior allies to stay faithfully at his side. Both Kekkim and Audn have long since returned to the earth, leaving the shield to whomever might recover it from Kekkim's tower.
+
+More recently the shield was re-enchanted by <CHARNAME>. It now provides extra physical defenses and makes the bearer immune to psionics (but not the intelligence drain of the Illithid). 
+
+STATISTICS: 
+
+Abilities: Immunity to charm, psionics, confusion, domination, and hold person
+Armor Class Bonus: 4
+Weight: 2
+Requires: 4 Strength
+~
+
+@151 = ~Throwing Spear +3
+One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When man mastered metals, spearheads were made from iron and steel. This spear trembles from the powerful magic used in its creation.
+
+Unlike almost every other spear you have encountered, this spear can be thrown. It was forged for <CHARNAME> with the help of a magical Rogue Stone. When thrown, the spear immediately returns to the hand of the wielder. (The spear may also be used as a melee weapon: select the second item ability to do so.) 
+
+STATISTICS:
+
+Equipped Abilities: 1 additional attack per round (the same rate-of-fire as a longbow)
+THAC0: +3 bonus
+Damage: 1D6 +3
+Damage type: piercing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Spear
+Type: 2-handed
+Requires: 5 Strength
+~
+
+@153 = ~Throwing Unicorn Spear +3
+This graceful spear is carved to resemble the elongated horn of the unicorn. Wielders of this spear are immune to charm and hold spells, just as a unicorn might be. Whether the horn is or isn't an actual unicorn horn is the subject of much debate.
+
+The original Unicorn Spear was reforged by <CHARNAME> to serve as a ranged weapon. When thrown, the spear immediately returns to the hand of the wielder. The immediacy of the return may explain how a throwing weapon can confer continuous effects on its wielder. Or maybe it's just magic. (The spear may also be used as a melee weapon: select the second item ability to do so.) 
+
+STATISTICS
+
+Equipped Abilities:
+Immunity to charm and hold person
++3 to all saves vs. death
+THAC0: +3 bonus
+Damage: 1D6 +3, +2 fire damage
+Damage type: piercing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Spear
+Type: 2-handed
+Requires: 5 Strength
+~
+
+@155 = ~Throwing Impaler +4
+The Impaler has a palpable aura of magic that hints at the vicious nature of the weapon and why it has been a favorite of several powerful orc chieftains in the past. When a victim is struck they are, as one would guess, very nearly impaled, run through as the massive enchantment does its dirty work.
+
+After <CHARNAME> "liberated" the Impaler from the Sahuagin City-of-Caverns <PRO_HESHE> later had it reforged into a ranged weapon. When thrown, the spear immediately returns to the hand of the wielder. (The spear may also be used as a melee weapon: select the second item ability to do so.) 
+
+STATISTICS:
+
+Equipped Abilities: 1 additional attack per round (the same rate-of-fire as a longbow)
+THAC0: +4 bonus
+Damage: 1D6 +4, +10 piercing damage
+Damage type: piercing
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Spear
+Type: 2-handed
+Requires: 5 Strength
+~
+
+@157 = ~Staff of the Woodlands +5
+Known only as the "Wild Man of the Wood", the man that carried this staff was a legendary figure near Trademeet until the day he died and returned to the soil. Those who saw him remember his dark, bark-like skin, a feature that would fade if the staff were set aside. He would harass irresponsible loggers and poachers, and old-timers tell of mercenaries chasing him with a dozen hunting dogs or more. The animals seemed ready to rip the poor druid to pieces, but he quickly turned them on their former masters. Rushing forward in hopes of ending his influence, the men-at-arms saw the final power of the staff, and as the vegetation trembled with the "Wild Man's" magical calling, there formed a green, rotting mix of life and death that shambled overtop of the terrified soldiers, killing them all.
+
+Recently the Staff was re-enchanted by <CHARNAME> to give it slightly better melee abilities. 
+
+STATISTICS
+
+AC: +3 bonus
+Equipped Abilities: Barkskin (AC 3)
+
+Use Abilities:
+Summon Shambling Mound (six times per day)
+Duration: 100 seconds
+
+Enhanced Charm Animal (six times per day)
+Duration: 5 minutes (no saving throw)
+
+Combat Abilities: When the Staff strikes a target there is a 5% change that the target (and its allies) will be plagued by Creeping Doom. 
+
+THAC0: +5 bonus
+Damage: 1D6 +5
+Damage type: crushing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Quarterstaff
+Type: 2-handed
+Requires: 5 Strength
+~
+
+@159 = ~Sunblade: Daystar +4
+Whether created specifically for use in the service of Torm or appropriated at some point in the long history of the church, Paladins of the Loyal Fury have made good use of Daystar in their battles against evil undead. Through magic or blessing it is empowered with the Sunray, a force of pure life energy so potent that it slays both living and unliving.
+
+<CHARNAME> appropriated this blade from a Lich near the city gates of Athkatla and has since reforged it into an even more powerful instrument of holy justice. 
+
+STATISTICS:
+
+Equipped Abilities: Protection From Evil
+
+Special Abilities (twice per day):
+Sunray
+Damage: 3D6 (save vs. spells or be blinded for 10 rounds)
+Undead: an additional 10d6 points of damage (save vs. spells or be destroyed)
+Range: 20 ft
+Area: 20 ft radius
+
+THAC0: +4 bonus, +8 vs. evil creatures
+Damage: 1D8 +4, +8 vs. evil creatures
+Combat Ability: Any Undead creature struck by Daystar takes double damage. 
+Damage type: slashing
+Weight: 2
+Speed Factor: 3
+Proficiency Type: Long sword
+Type: 1-handed
+Requires: 6 Strength
+~
+
+@161 = ~Celestial Fury +5
+To enchant a katana is no simple process. At least, that's what <CHARNAME> thought before <PRO_HESHE> first had it attempted on <PRO_HISHER> behalf. In reality, the most difficult part of reforging the already-godlike katana known as Celestial Fury was gathering the myriad ingredients required. Celestial Fury has served <CHARNAME> well since it was taken from the kensai Koshi in the Temple District of Athkatla. Its provenance before that point is as follows:
+
+Many years ago, fierce tempests and fires ignited by lightning ravished the province administered by daimyo Hoshi Katahiroi. The daimyo's advisers, all respected wizards, soon divined that Nature was not to blame, but a powerful dragon of an unknown order. Some of the wise men suggested that the creature was an abomination; others believed that it was born of Primal Chaos before Kara-Tur was formed. All the advisers agreed to name it Celestial Fury.
+
+Yet Daimyo Hoshi did not want to categorize the scourge of his province; he wanted to destroy it. He commissioned the famed Chigatta (a reclusive artisan, master of mystic arts), to construct a weapon that might sunder the dragon's spirit as well as cleave its scaled body. Chigatta's labors resulted in the finest katana imaginable, dubbed Celestial Fury after the beast it was fashioned to destroy, and enchanted with the power of flight.
+
+With this weapon, Hoshi sought his province's bane among the storm clouds. Shouts and roars resounded through the heavens for days, and forked fire lit up the nights. At long last, Hoshi destroyed the dragon's body and trapped its spirit within his sword, merging the two Celestial Furies and impressing order over chaos. To finalize his victory, Hoshi had Chigatta fashion a scabbard from the dragon's hide and embed its magic pearl in the hilt.
+
+Yet the dragon had its revenge. Hoshi was skilled in battle but weak of will. Celestial Fury's spirit took control of Hoshi, forcing him to slay Chigatta and then slay himself. The katana subsequently disappeared (most likely, Hoshi's grieving family discarded the traitorous weapon) and has perhaps changed many hands in the years since.
+
+Celestial Fury is a katana of excellent construction -- a flexible but unbreakable blade of razor sharpness, a hilt covered with comfortable leather, and a huge pearl fixed at its end. The magical characters for Celestial Fury are inscribed on the blade, which glows pale violet and crackles with electricity when drawn. The sword is sheathed in a scabbard of dragon hide, the slate-grey scales of which constantly flash with streaks of silver, blue, and violet.
+
+STATISTICS: 
+
+Equipped Abilities:
+ Lightning Strike: Once per day
+ Blindness: Once per day
+Combat Abilities:
+ Booming Thunder whenever the sword strikes an opponent
+ (Stun, Save vs. Spell) 
+ Shocking Blow chance when sword strikes an opponent
+ (5% chance of 20 additional electrical damage)
+THAC0: +5 bonus
+Damage: 1D10 +5
+Damage type: slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Katana
+Type: 1-handed
+Requires: 6 Strength
+~
+
+@163 = ~Sword of Arvoreen +5
+Another gift to Mazzy Fentan from Arvoreen, this short sword may only be used by halflings. The enchantments that exist within this sword give it the ability to slow any opponent struck by it.
+
+With <CHARNAME>'s help and the blessing of Arvoreen, the sword was recently re-enchanted to become even more powerful. 
+
+STATISTICS:
+
+Combat Abilities: Target must save vs. wand or be slowed (for 45 seconds). 
+Equipped Abilities: Free Action, +1 STR bonus, +75 exceptional STR bonus.
+THAC0: +5 bonus
+Damage: 1D6 +5
+Damage type: piercing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: 1-handed
+~
+
+@165 = ~Hallowed Redeemer +5
+Keldorn distinguished himself early in his career as a paladin, and received this blade as a boon from Torm. It is exceptionally accurate, but also protects him in battle with a special Fireshield, and any that strike him while he wields it suffer Torm's wrath in the form of magical damage. None but Keldorn may use this sword.
+
+With <CHARNAME>'s help and the blessing of Torm, the sword was recently re-enchanted to become even more powerful. 
+
+STATISTICS:
+
+Equipped Abilities: 5 points of magic damage to any who deal out any damage to the wielder.
+   
+THAC0: +5 bonus
+Damage: 1D12 + 5
+Combat Abilities: Dispel Magic on every hit, target is also silenced for 2 rounds
+Damage type: slashing
+Weight: 8
+Speed Factor: 5
+Proficiency Type: Two Handed Sword
+Type: 2-handed
+~
+
+@167 = ~Delryn Family Shield +4
+This is Anomen's family shield, given to him by his father. In addition to the magical protection the shield radiates an aura that grants the wielder fire and cold resistance. To protect against ranged attacks, Anomen can use the shield to erect a field of energy. This protection from normal missiles can be used three times per day.
+
+Recently <CHARNAME> had the shield strengthened with protective magics of the Saving Grace shield, recovered from the fading avatar of Amaunator, dramatically improving its raw defensive abilities.
+
+STATISTICS
+
+AC Bonus : +5
+Fire Resistance: + 30%
+Cold Resistance: + 30% 
+
+Abilities: 3 times per day can cast protection from missiles on bearer
+~
+
+@169 = ~Lilarcor +5
+Lilarcor is not quite as lovable (or annoying, depending on your viewpoint) as it was before <CHARNAME> had it upgraded. When the Mind Flayer Control Circlet was embedded in its hilt, Lilarcor seemed to lose the ability to consciously converse with those nearby and was reduced to making occasional quips. However, Lilarcor's peculiar intelligence (or lack thereof) now serves as a boon (or a blight) to the wielder: the one holding Lilarcor cannot have its intelligence adjusted for any reason. This protects against the intelligence drain associated with the Illithid and the beneficial effects of a potion of Genius. 
+
+STATISTICS:
+
+Equipped Abilities: Immunity to Charm, Confusion, Intelligence Changes
+THAC0: +5 bonus
+Damage: 1d12 +5
+Damage type: slashing
+Weight: 10
+Speed Factor: 6
+Proficiency Type: Two-Handed Sword
+Type: 2-handed
+Requires: 14 Strength
+~
+
+@171 = ~Soul Reaver +6 : Unholy Avenger
+The powerful Soul Reaver blade has been reforged under the dark guidance of <CHARNAME>. The holy essence of Carsomyr was perverted to help create this abhorrent monstrosity. Soul Reaver is a tool of incredible power and incredible evil. Those who pick it up rarely put it down while still living. 
+
+STATISTICS
+
+Equipped Abilities: 50% Magic Resistance
+Combat Abilities: Dispel Magic on every hit. Target suffers a -2 THAC0 penalty for 120 seconds. 
+THAC0: +6 bonus
+Damage: 1d12 +6, +1d6 magic damage
+Damage type: slashing
+Weight: 10
+Speed Factor: 4
+Proficiency Type: Two-Handed Sword
+Type: 2-handed
+Requires: 14 Strength
+~
+
+@173 = ~Club +4: The Fulcrum
+Forged for <CHARNAME> by amalgamating the Bone Club and the splintered club Gnasher, The Fulcrum's powers lie in preserving balance. The spirits of the dead warriors guide the hand of the wielder to unerring accuracy and every hit from the club itself sends painful bone shards into the target. In addition, the Club does additional damage against non-neutral opponents. 
+
+Equipped Abilities: Wielder becomes proficient to the point of Grand Mastery in Clubs.
+THAC0: +4 bonus
+Damage: 1D6 + 4, +4 if target is Good, Evil, Lawful or Chaotic (cumulative)
+Extra Damage: bone shards add 2 points of extra damage each round for four rounds
+Damage type: crushing
+Weight: 3
+Speed Factor: 1 
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength
+~
+
+@175 = ~Quietus +4
+<CHARNAME> arranged to have this dagger constructed out of the poisonous Pixie Prick and the deadly Boneblade. The result is a weapon worthy of any assassin. The newly refined venom from the Pixie Prick now blinds the victim and the dark lore of the Boneblade makes for deadly backstabs in the hands of a trained thief.
+
+Equipped Abilities: Backstab Multiple increased by 1
+THAC0: +4 bonus
+Damage: 2D3 + 4
+Combat Abilities: Target is either blinded or put to sleep for 12 seconds. A save versus poison at -2 negates both effects. (Blind creature are at -10 to their THAC0)
+Damage type: piercing
+Weight: 3
+Speed Factor: 0 
+Proficiency Type: Dagger
+Type: 1-handed
+Requires: 3 Strength
+~
+
+@177 = ~Holy Buckler of Amaunator +2
+<CHARNAME> had a holy symbol of Amaunator, the long-dead Sun God, forged into this buckler. It is now a potent barrier against those that would stalk the night and drain the life of the living. 
+
+STATISTICS:
+  
+Armor Class Bonus:  3
+Special:  May cast False Dawn twice per day. Bearer is immune to level drain.
+Weight:  2 
+Requires: 4 Strength
+~
+
+@179 = ~Gloves of the Master Thief: Twelve Fingers
+<CHARNAME> had these gloves formed from a number of more mundane items that benefit the rogue. When these gloves are worn by a thief, each glove appears to have an extra magical finger that aids the fortune-hunter in performing their unique skills. In addition, the gloves are stylish. They look almost ... gnomish in design. 
+
+STATISTICS:
+
+Armor Class: 3
+Saving Throws: +1 bonus
+Find and Remove Traps: +25% bonus
+Open Locks: +25% bonus
+Pick Pocketing: +20% bonus
+Weight: 2
+~
+
+@183 = ~Water's Talon +4
+The blade of this weapon seems to shimmer, revealing a fluid, razor-sharp edge shaped somewhat like the talon of a bird of prey. Water's Talon was commissioned by <CHARNAME> and holds vast power over damaging liquids. Each hit sucks some of the life out of the target and confers it to the wielder.  In addition, the water-like edge of the blade is forever envenomed. Much like one of its predecessors, Water's Talon provides immunity to charm. In addition, however, its mastery over water protects the user from the harmful effects of Abi-Dalzim's Horrid Wilting. Most uniquely, the liquid nature of the blade allows it to extend and splash during combat, improving the strike range granted by the weapon to a range beyond that of most two-handed swords. This allows the wielder to make otherwise-impossible attacks from the back rows of a formation or try for daring hit-and-run tactics, counting on the poison from the first hit to disable foes.
+
+STATISTICS:
+
+Equipped Abilities: Wielder immune to charm, domination and horrid wilting spells
+Special Abilities: Each hit raises the wielder's maximum hit points by 2 for 3 minutes
+Special Properties: Extended Strike Range
+Damage:  1D8 +4, +2 points of poison damage per second (cumulative)
+THAC0: +4
+Damage type: slashing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninja-To 
+Type:  1-handed
+Requires: 8 Strength
+~
+
+@185 = ~Azuredge +4
+The already potent undead-bane Azuredge was further enhanced by <CHARNAME> when <PRO_HESHE> had it coated with a veneer of pure illithium. The axe first forged by Gulen Rockfire still returns to its wielder's hand when thrown and still smites undead with a holy fervor, but now it also protects the wielder from the level-draining assaults of the more powerful graveborn. On a more decorative note, the illithium seems to have shifted the color of the weapon slightly away from its namesake. 
+
+STATISTICS
+
+Combat Ability: +4 extra damage to undead, plus they must make a saving throw vs. death (-4 penalty) or be utterly destroyed
+Equipped Ability:  Immunity to Level Drain
+Damage: 1d6+4
+THAC0: +4
+Damage type (melee):  slashing
+Damage type (thrown):  missile (piercing)
+Special:  Returns to user's hand once thrown
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 4 Strength
+~
+@194 = ~This abyssal greensteel blade has been improved at <CHARNAME>'s behest. The blade deals poison damage and its victims seem to lose their ability to resist harmful magics as they are sliced by the blade. 
+
+STATISTICS:
+
+Combat Abilities: On a successful hit this blade has a 5% chance of casting Greater Malison on its target. 
+
+THAC0: +3 bonus
+Damage: 1D6 +3 +1 point of poison damage each second for one round. 
+Damage Type: piercing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: 1-handed
+~
+
+@196 = ~Creeping Chaos is a short sword usable only by tieflings. Every time it strikes an opponent, he or she loses 2 points of dexterity (for 30 seconds). Upgraded at the request of <CHARNAME>, this improved blade has a chance of bewildering any opponent struck by it.
+
+STATISTICS:
+
+Combat Abilities: On a successful hit this blade has a 5% chance of Confusing its victim for 48 seconds if a save vs. spells at -4 is failed. In addition, each successful hit drains 2 points of dexterity from the victim for 30 seconds. 
+
+THAC0: +3 bonus
+Damage: 1D6 +3 
+Damage Type: piercing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: 1-handed
+~
+
+@198 = ~Forged at <CHARNAME>'s request by interlocking red dragon scales with a suit of enchanted elven chain mail, the Incarnadine Elven Chain provides a superior combination of protection and freedom of movement. Rogues and wizards can still practice their trades while wearing this light suit of armor.
+
+STATISTICS:
+
+Fire Resistance: 25% bonus
+Stealth: 10% Penalty
+Lockpicking: 5% Penalty
+Find/Remove Traps: 5% Penalty
+Pick Pockets: 20% Penalty
+Armor Class: 0
+Weight: 15
+Requires: 5 Strength
+~

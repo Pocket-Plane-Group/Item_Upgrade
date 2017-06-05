@@ -1,0 +1,56 @@
+// shared soa-tob code
+INCLUDE ~itemupgrade/lib/items_common.tpa~
+
+COPY ~itemupgrade/itm/c2leat01.itm~ ~override~
+  SAY NAME2     @142
+  SAY DESC      @143
+
+COPY ~itemupgrade/itm/c2quiv01.itm~ ~override~
+  SAY NAME2     @108
+  SAY DESC      @109
+
+COPY ~itemupgrade/itm/c2quiv02.itm~ ~override~
+  SAY NAME2     @110
+  SAY DESC      @111
+
+COPY ~itemupgrade/itm/c2quiv03.itm~ ~override~
+  SAY NAME2     @112
+  SAY DESC      @113
+
+COPY ~itemupgrade/itm/c2sw2h02.itm~ ~override~
+  SAY NAME2     @170
+  SAY DESC      @171
+  PATCH_IF FILE_EXISTS_IN_GAME ~cditmdm0.spl~ THEN BEGIN // if Fixpack's item dispel magic spell is installed
+    LPF ALTER_EFFECT INT_VAR match_opcode = 58 opcode = 146 parameter1 = 0 parameter2 = 1 STR_VAR resource = ~cditmdm0~ END // change dispel to cast spell
+    // delete associated dispel magic effects
+    LPF DELETE_EFFECT INT_VAR match_opcode =  77 END // cure feeblemind
+    LPF DELETE_EFFECT INT_VAR match_opcode =  81 END // cure deafness
+    LPF DELETE_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 14056 END // 'dispel effects' string
+    LPF DELETE_EFFECT INT_VAR match_opcode = 177 match_parameter1 = 7 match_parameter2 = 7 STR_VAR match_resource = destself END // destroy illusionary creatures
+    LPF DELETE_EFFECT INT_VAR match_opcode = 215 STR_VAR match_resource = spdispma END // DM visuals
+    LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 =  48 END // remove icon: feeblemind
+    LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 112 END // remove icon: deaf
+  END
+
+COPY ~itemupgrade/bam/c2leat01.bam~ ~override~
+     ~itemupgrade/bam/c2quiv01.bam~ ~override~
+     ~itemupgrade/bam/c2quiv02.bam~ ~override~
+     ~itemupgrade/bam/c2quiv03.bam~ ~override~
+     ~itemupgrade/bam/c2sw2h02.bam~ ~override~
+
+APPEND ~itemexcl.2da~ ~c2leat01 1~ // add to magic ring/magic armor exclusion list
+
+// prompts random StringHeads if Lil +5 is being used
+EXTEND_BOTTOM ~baldur25.bcs~ ~itemupgrade/bcs/lilarcor.baf~
+
+// Restored Quiver of Plenty icons
+COPY_EXISTING ~quiver01.itm~ ~override~
+              ~quiver03.itm~ ~override~
+  WRITE_ASCII 0x3a ~iquiver0~
+  WRITE_ASCII 0x44 ~gquiver0~
+  BUT_ONLY
+
+COPY_EXISTING ~quiver02.itm~ ~override~
+              ~quiver04.itm~ ~override~
+  WRITE_ASCII 0x44 ~gquiver0~
+  BUT_ONLY

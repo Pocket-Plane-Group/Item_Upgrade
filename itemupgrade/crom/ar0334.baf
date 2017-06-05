@@ -1,0 +1,473 @@
+IF
+  Global("XO#ItemUp","ar0334",1)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2ring01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",2)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2ring02",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",3)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2ring03",Player1,3,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",4)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2staf01",Player1,2,1,2)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",5)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2boot01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",6)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2boot02",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",7)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2boot04",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",8)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2boot03",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",9)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2blun01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",10)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2blun03",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",11)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2blun02",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",12)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2bow01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",13)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2valy01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",14)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2robe01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",15)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2robe02",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",16)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2robe03",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",17)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2helm01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",18)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2helm02",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",19)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2hide01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",20)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2keld01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",21)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2plat01",Player1,3,3,3)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",22)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2shld01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",23)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2sper01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",24)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2sper02",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",25)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2sper03",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",26)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2staf02",Player1,6,6,6)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",27)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2sw1h01",Player1,2,2,2)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",28)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2mazz01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",29)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2keld02",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",30)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2anom01",Player1,2,2,2)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",31)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2sw2h01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",32)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2dagg01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",33)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2shld02",Player1,2,2,2)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",34)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2brac01",Player1,2,2,2)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",35)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",36)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2sw1h03",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",37)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2ax1h01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",38)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2ring04",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",39)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2chan01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",40)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2kit",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",41)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2sw1h02",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",42)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2belt01",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+
+IF
+  Global("XO#ItemUp","ar0334",43)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2hd1",Player1,1,1,1)
+    GiveItemCreate("c2hd2",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END

@@ -1,0 +1,22 @@
+* {padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+body {color:#BABABA; font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10px; background:#000; height: 100%; width: 100%;}
+.container {margin-right: auto; margin-left: auto; width: 950px;}
+.header {background-image: url(../readme/logo.jpg); background-repeat: no-repeat; width: 950px; height: 286px; margin-right: auto; margin-left: auto;}
+
+.center {width:950px;  height: 100%; margin: 0px 0px 0px 0px; /*border: red 2px solid;*/ display:block; position: relative;}
+.left {width: 175px; height: 100%; background-image: url(../readme/m_tlo_lbok.gif); background-repeat: repeat-y; margin-left: 0px; margin-right: 775px; /*border:blue 2px solid;*/ top: 0px; bottom: auto; position: absolute;}
+.ltop {width: 175px; height: 65px; background-image: url(../readme/m_top3.png);}
+
+
+.content { background-image: url(../readme/tlo_center.gif); background-repeat: repeat-y; width: 600px; height: 100%; margin-left: 175px; margin-right: 175px; margin-top: 0px; margin-bottom: 0px; /*border: white 2px solid;*/ top: 0px; bottom: auto;}
+.top {background-image: url(../readme/s_top.gif); width: 600px; height: 60px;}
+div#toplevel {width: 594px; height: 100%; display:block; margin-left:auto; margin-right:auto;} p {text-align:justify; margin: 2px;}
+
+.right {width: 175px; height: 100%; background-image: url(../readme/m_tlo_pbok.gif); background-repeat: repeat-y; margin-left: 775px; margin-right: 0px; margin-top: 0px; /*border: yellow 2px solid;*/ top: 0px; position:absolute;}
+.rtop {width: 175px; height: 65px; background-image: url(../readme/m_top4.png);}
+
+
+.footer { width: 950 px; height: 115px; background-image: url(../readme/dol1.gif); margin-bottom: 0px; margin-left: 0px; /*border: green 2px solid;*/}
+
+.ebold {font-variant: small-caps; font-weight:bold; font-size: small;}
+.bold {font-weight:bold; font-size:small;}

@@ -1,0 +1,480 @@
+IF
+  Global("XO#TOBItemUp","GLOBAL",1)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2ring01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",2)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2ring02",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",3)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2ring03",Player1,3,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",4)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2staf01",Player1,2,1,2)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",5)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2boot01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",6)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2boot02",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",7)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2boot04",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",8)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2boot03",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",9)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2blun01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",10)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2blun03",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",11)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2blun02",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",12)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2bow01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",13)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2valy01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",14)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2robe01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",15)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2robe02",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",16)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2robe03",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",17)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2helm01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",18)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2helm02",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",19)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2hide01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",20)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2keld01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",21)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2plat01",Player1,3,3,3)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",22)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2shld01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",23)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2sper01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",24)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2sper02",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",25)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2sper03",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",26)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2staf02",Player1,6,6,6)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",27)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2sw1h01",Player1,2,2,2)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",28)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2mazz01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",29)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2keld02",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",30)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2anom01",Player1,2,2,2)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",31)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2sw2h01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",32)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2dagg01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",33)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2shld02",Player1,2,2,2)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",34)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2brac01",Player1,2,2,2)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",35)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",36)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2sw1h03",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",37)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2ax1h01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",38)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2ring04",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",39)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2chan01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",40)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2kit",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",41)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2sw1h02",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",42)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2belt01",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",43)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2hd1",Player1,1,1,1)
+    GiveItemCreate("c2hd2",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",44)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+	GiveItemCreate("c2quiv01",Player1,1,1,1)
+	StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",45)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+	GiveItemCreate("c2quiv02",Player1,1,1,1)
+	StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",46)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+	GiveItemCreate("c2quiv03",Player1,1,1,1)
+	StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",47)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+	GiveItemCreate("c2leat01",Player1,1,1,1)
+	StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",48)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+	GiveItemCreate("c2sw2h02",Player1,1,1,1)
+	StartDialogueNoSet(Player1)
+END

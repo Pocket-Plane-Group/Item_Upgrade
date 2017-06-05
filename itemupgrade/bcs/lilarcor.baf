@@ -1,0 +1,134 @@
+IF
+    Delay(600)
+    CombatCounter(0)
+    OR(6)
+        HasItemEquipedReal("c2sw2h01",Player1) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player2) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player3) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player4) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player5) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player6) // Lilarcor
+THEN
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",20580) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",20779) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",20780) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",20956) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",24939) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",25349) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31258) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31259) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31260) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31638) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31639) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31640) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31641) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31646) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31649) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31651) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31652) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31654) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31655) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31656) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",6433) // Lilarcor
+END
+
+IF
+    Delay(125)
+    !CombatCounter(0)
+    OR(6)
+        HasItemEquipedReal("c2sw2h01",Player1) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player2) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player3) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player4) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player5) // Lilarcor
+        HasItemEquipedReal("c2sw2h01",Player6) // Lilarcor
+THEN
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",839) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",844) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",849) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",869) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",2308) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",2389) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",4393) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31659) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31660) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",7908) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",8480) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",9687) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",9800) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",10725) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",11255) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",12671) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31662) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31663) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",32426) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",19304) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",19441) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",19638) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",20059) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",20396) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",20457) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",31658) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",34689) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",36145) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",41815) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",6434) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",6435) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",6441) // Lilarcor
+    RESPONSE #10
+        DisplayStringHeadOwner("c2sw2h01",6442) // Lilarcor
+END
+

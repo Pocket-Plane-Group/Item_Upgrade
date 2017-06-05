@@ -1,0 +1,567 @@
+// load up ee-specific tra files on BG2EE
+ACTION_IF ((GAME_IS bg2ee) AND 
+           (FILE_EXISTS ~itemupgrade/%LANGUAGE%/lolwot.tra~)) THEN BEGIN
+  LOAD_TRA ~itemupgrade/%LANGUAGE%/setup_ee.tra~
+END
+
+COPY_EXISTING ~ar0202.are~ ~override~ // UE quest, cult hideout
+  LPF ALTER_AREA_DOOR INT_VAR flag_uses_key = 0 STR_VAR door_name = "DOORDRAG" END
+  BUT_ONLY
+
+// in case Fixpack is installed, change shadow temple to not consume Symbol of Amaunator as a key
+COPY_EXISTING ~ar1401.are~ ~override~
+  LPF ALTER_AREA_DOOR INT_VAR flag_uses_key = 0 STR_VAR door_name = "DOORDRAG" END
+  BUT_ONLY
+
+// by Bioware naming convention, this item should be 4 enchantment
+COPY_EXISTING ~p3-12m4.itm~ ~override~
+  WRITE_LONG 0x60 4
+  BUT_ONLY
+  
+COPY_EXISTING ~sw2h10.itm~ ~override~
+              ~sw2h19.itm~ ~override~
+  LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 166 parameter2 = 0 END // adds 50% MR instead of setting it
+  LPF ALTER_EFFECT INT_VAR silent = 1 check_globals = 0 header_type = 1 match_opcode = 58 power = 0 parameter2 = 0 END // dm always dispels on hit
+  LPF ALTER_ITEM_HEADER INT_VAR header_type = 1 dicesize = 12 END  // sets dice size to 12
+  BUT_ONLY IF_EXISTS
+
+// change MoD +5 to use MoD +1 BAMs instead of generic mace
+COPY_EXISTING ~blun25.itm~ ~override~
+  WRITE_ASCII 0x3a ~iblun12~ #8 // use MoD BAM
+  WRITE_ASCII 0x44 ~gblun06~ #8 // use MoD BAM
+  WRITE_ASCII 0x58 ~cblun12~ #8 // use MoD BAM
+  LPF ALTER_ITEM_HEADER INT_VAR match_type = 1 STR_VAR icon = iblun12 END // update MoD icon on melee headers
+  BUT_ONLY
+
+// why wrap every one of these in an ACTION_IF? so SoA and ToB ones won't install them more than once
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2amul01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2amul01.itm~ ~override~
+    SAY NAME2     @180
+    SAY DESC      @181
+
+  COPY ~itemupgrade/bam/c2amul01.bam~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2amul01 8786 -1 -1~ // tooltip stuff
+
+  APPEND ~itemexcl.2da~ ~c2amul01 1~ // add to magic ring/magic armor exclusion list
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2anom01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2anom01.itm~ ~override~
+    SAY NAME2     @166
+    SAY DESC      @167
+
+  COPY ~itemupgrade/bam/c2anom01.bam~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2anom01 12028 -1 -1~ // tooltip stuff
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2ax1h01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2ax1h01.itm~ ~override~
+    SAY NAME2     @184
+    SAY DESC      @185
+
+  COPY ~itemupgrade/bam/c2ax1h01.bam~ ~override~
+       ~itemupgrade/eff/c2ax1h1a.eff~ ~override~
+       ~itemupgrade/eff/c2ax1h1b.eff~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2ax1h01 15527 15529 -1~ // tooltip stuff
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2belt01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2belt01.itm~ ~override~
+    SAY NAME2     @188
+    SAY DESC      @189
+
+  COPY ~itemupgrade/bam/c2belt01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2blun01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2blun01.itm~ ~override~
+    SAY NAME2     @122
+    SAY DESC      @123
+
+  COPY ~itemupgrade/bam/c2blun01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2blun02.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2blun02.itm~ ~override~
+    SAY NAME2     @124
+    SAY DESC      @125
+
+  COPY ~itemupgrade/bam/c2blun02.bam~ ~override~
+       ~itemupgrade/eff/c2blun02.eff~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2blun03.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2blun03.itm~ ~override~
+    SAY NAME2     @172
+    SAY DESC      @173
+
+  COPY ~itemupgrade/bam/c2blun03.bam~ ~override~
+       ~itemupgrade/eff/c2blun03.eff~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2boot01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2boot01.itm~ ~override~
+    SAY NAME2     @114
+    SAY DESC      @115
+
+  COPY ~itemupgrade/bam/c2boot01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2boot02.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2boot02.itm~ ~override~
+    SAY NAME2     @116
+    SAY DESC      @117
+
+  COPY ~itemupgrade/bam/c2boot02.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2boot03.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2boot03.itm~ ~override~
+    SAY NAME2     @118
+    SAY DESC      @119
+
+  COPY ~itemupgrade/bam/c2boot03.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2boot04.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2boot04.itm~ ~override~
+    SAY NAME2     @120
+    SAY DESC      @121
+
+  COPY ~itemupgrade/bam/c2boot04.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2bow01.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2bow01.itm~ ~override~
+    SAY NAME2     @126
+    SAY DESC      @127
+
+  COPY ~itemupgrade/bam/c2bow01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2brac01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2brac01.itm~ ~override~
+    SAY NAME2     @178
+    SAY DESC      @179
+
+  COPY ~itemupgrade/bam/c2brac01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2chan01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2chan01.itm~ ~override~
+    SAY NAME2     @197
+    SAY DESC      @198
+
+  COPY ~itemupgrade/bam/c2chan01.bam~ ~override~
+
+  APPEND ~itemexcl.2da~ ~c2chan01 1~ // add to magic ring/magic armor exclusion list
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2dagg01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2dagg01.itm~ ~override~
+    SAY NAME2     @174
+    SAY DESC      @175
+
+  COPY ~itemupgrade/bam/c2dagg01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd1.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2hd1.itm~ ~override~
+    SAY NAME2     @193
+    SAY DESC      @194
+
+  COPY ~itemupgrade/bam/c2hd1.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd2.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2hd2.itm~ ~override~
+    SAY NAME2     @195
+    SAY DESC      @196
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2helm01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2helm01.itm~ ~override~
+    SAY NAME2     @136
+    SAY DESC      @137
+
+  COPY ~itemupgrade/bam/c2helm01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2helm02.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2helm02.itm~ ~override~
+    SAY NAME2     @138
+    SAY DESC      @139
+
+  COPY ~itemupgrade/bam/c2helm02.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2hide01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2hide01.itm~ ~override~
+    SAY NAME2     @140
+    SAY DESC      @141
+
+  COPY ~itemupgrade/bam/c2hide01.bam~ ~override~
+  
+  APPEND ~itemexcl.2da~ ~c2hide01 1~ // add to magic ring/magic armor exclusion list
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld01.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2keld01.itm~ ~override~
+    SAY NAME2     @144
+    SAY DESC      @145
+    PATCH_IF MOD_IS_INSTALLED ~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ ~114~  BEGIN // add immunity to stun for free acrion if OBC fixpack stuff installed
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 =   210 timing = 2 END // immunity to pw: stun
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 =    45 timing = 2 END // immunity to stun
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 =    55 timing = 2 END // prevent stun icon
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 =  1280 timing = 2 END // prevent 'stunned' string
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14043 timing = 2 END // prevent 'stun' string
+    END
+
+  COPY ~itemupgrade/bam/c2keld01.bam~ ~override~
+  
+  APPEND ~itemexcl.2da~ ~c2keld01 1~ // add to magic ring/magic armor exclusion list
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld02.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2keld02.itm~ ~override~
+    SAY NAME2     @164
+    SAY DESC      @165
+    PATCH_IF FILE_EXISTS_IN_GAME ~cditmdm0.spl~ THEN BEGIN // if Fixpack's item dispel magic spell is installed
+      LPF ALTER_EFFECT INT_VAR match_opcode = 58 opcode = 146 parameter1 = 0 parameter2 = 1 STR_VAR resource = ~cditmdm0~ END // change dispel to cast spell
+      // delete associated dispel magic effects
+      LPF DELETE_EFFECT INT_VAR match_opcode =  77 END // cure feeblemind
+      LPF DELETE_EFFECT INT_VAR match_opcode =  81 END // cure deafness
+      LPF DELETE_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 14056 END // 'dispel effects' string
+      LPF DELETE_EFFECT INT_VAR match_opcode = 177 match_parameter1 = 7 match_parameter2 = 7 STR_VAR match_resource = destself END // destroy illusionary creatures
+      LPF DELETE_EFFECT INT_VAR match_opcode = 215 STR_VAR match_resource = spdispma END // DM visuals
+      LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 =  48 END // remove icon: feeblemind
+      LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 112 END // remove icon: deaf
+    END
+
+  COPY ~itemupgrade/bam/c2keld02.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2kit.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2kit.itm~ ~override~
+    SAY NAME2     @190
+    SAY DESC      @191
+  
+  COPY ~itemupgrade/itm/c2kit.cre~ ~override~
+    SAY NAME1     @192
+    SAY NAME2     @192
+
+  COPY ~itemupgrade/itm/c2kita.itm~ ~override~
+       ~itemupgrade/bam/c2kit.bam~  ~override~
+       ~itemupgrade/eff/c2kit.eff~  ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2mazz01.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2mazz01.itm~ ~override~
+    SAY NAME2     @162
+    SAY DESC      @163
+    PATCH_IF MOD_IS_INSTALLED ~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ ~114~  BEGIN // add immunity to stun for free acrion if OBC fixpack stuff installed
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 =   210 timing = 2 END // immunity to pw: stun
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 =    45 timing = 2 END // immunity to stun
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 =    55 timing = 2 END // prevent stun icon
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 =  1280 timing = 2 END // prevent 'stunned' string
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14043 timing = 2 END // prevent 'stun' string
+    END
+
+  COPY ~itemupgrade/bam/c2mazz01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2plat01.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2plat01.itm~ ~override~
+    SAY NAME2     @146
+    SAY DESC      @147
+
+  APPEND ~tooltip.2da~ ~c2plat01 12033 -1 -1~ // tooltip stuff
+  
+  APPEND ~itemexcl.2da~ ~c2plat01 1~ // add to magic ring/magic armor exclusion list
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring01.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2ring01.itm~ ~override~
+    SAY NAME2     @100
+    SAY DESC      @101
+
+  COPY ~itemupgrade/bam/c2ring01.bam~ ~override~
+  
+  APPEND ~itemexcl.2da~ ~c2ring01 1~ // add to magic ring/magic armor exclusion list
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring02.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2ring02.itm~ ~override~
+    SAY NAME2     @102
+    SAY DESC      @103
+
+  COPY ~itemupgrade/bam/c2ring02.bam~ ~override~
+  
+  APPEND ~itemexcl.2da~ ~c2ring02 1~ // add to magic ring/magic armor exclusion list
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring03.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2ring03.itm~ ~override~
+    SAY NAME2     @104
+    SAY DESC      @105
+
+  COPY ~itemupgrade/bam/c2ring03.bam~ ~override~
+       ~itemupgrade/eff/c2ring03.eff~ ~override~
+       ~itemupgrade/cre/elairpr3.cre~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2ring03 63746 14033 12021~ // tooltip stuff
+
+  ACTION_IF NOT FILE_EXISTS_IN_GAME sppr724b.bam THEN BEGIN
+
+    COPY ~itemupgrade/bam/sppr724b.bam~ ~override~
+
+  END
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring04.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2ring04.itm~ ~override~
+    SAY NAME2     @186
+    SAY DESC      @187
+
+  COPY ~itemupgrade/bam/c2ring04.bam~ ~override~
+  
+  COPY_EXISTING ~ring08.itm~  ~override~
+                ~ring08a.itm~ ~override~
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 180 target = 1 parameter1 = 53012 timing = 2 resist_dispel = 2 STR_VAR resource = c2ring04 END
+    BUT_ONLY IF_EXISTS
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2robe01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2robe01.itm~ ~override~
+    SAY NAME2     @130
+    SAY DESC      @131
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2robe02.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2robe02.itm~ ~override~
+    SAY NAME2     @132
+    SAY DESC      @133
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2robe03.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2robe03.itm~ ~override~
+    SAY NAME2     @134
+    SAY DESC      @135
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2shld01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2shld01.itm~ ~override~
+    SAY NAME2     @148
+    SAY DESC      @149
+
+  COPY ~itemupgrade/bam/c2shld01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2shld02.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2shld02.itm~ ~override~
+    SAY NAME2     @176
+    SAY DESC      @177
+
+  COPY ~itemupgrade/bam/c2shld02.bam~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2shld02 38569 -1 -1~ // tooltip stuff
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2sper01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2sper01.itm~ ~override~
+    SAY NAME2     @150
+    SAY DESC      @151
+
+  COPY ~itemupgrade/bam/c2sper01.bam~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2sper01 15527 15529 -1~ // tooltip stuff
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2sper02.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2sper02.itm~ ~override~
+    SAY NAME2     @152
+    SAY DESC      @153
+
+  COPY ~itemupgrade/bam/c2sper02.bam~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2sper02 15527 15529 -1~ // tooltip stuff
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2sper03.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2sper03.itm~ ~override~
+    SAY NAME2     @154
+    SAY DESC      @155
+
+  COPY ~itemupgrade/bam/c2sper03.bam~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2sper03 15527 15529 -1~ // tooltip stuff
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2staf01.itm~ ~override~
+    SAY NAME2     @106
+    SAY DESC      @107
+
+  COPY ~itemupgrade/bam/c2staf01.bam~ ~override~
+       ~itemupgrade/cre/elairpr3.cre~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2staf01 15529 63746 25880~ // tooltip stuff
+
+  ACTION_IF NOT FILE_EXISTS_IN_GAME sppr724b.bam THEN BEGIN
+
+    COPY ~itemupgrade/bam/sppr724b.bam~ ~override~
+
+  END
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf02.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2staf02.itm~ ~override~
+    SAY NAME2     @156
+    SAY DESC      @157
+
+  COPY ~itemupgrade/bam/c2staf02.bam~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2staf02 15529 20678 3899~ // tooltip stuff
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2sw1h01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2sw1h01.itm~ ~override~
+    SAY NAME2     @158
+    SAY DESC      @159
+
+  COPY ~itemupgrade/bam/c2sw1h01.bam~ ~override~
+       ~itemupgrade/eff/c2sw1h1a.eff~ ~override~ // +4 thac0 vs. evil
+       ~itemupgrade/eff/c2sw1h1b.eff~ ~override~ // +4 damage (slashing) vs. evil
+       ~itemupgrade/eff/c2sw1h1c.eff~ ~override~ // filter so that c2sw1hd gets applied appropriately
+       ~itemupgrade/eff/c2sw1h1d.eff~ ~override~ // +4 damage (magic) vs. evil undead
+       ~itemupgrade/eff/c2sw1h1e.eff~ ~override~ // 1d8+4 extra damage (magic) vs. undead
+
+  APPEND ~tooltip.2da~ ~c2sw1h01 15529 2664 -1~ // tooltip stuff
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2sw1h02.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2sw1h02.itm~ ~override~
+    SAY NAME2     @160
+    SAY DESC      @161
+
+  COPY ~itemupgrade/bam/c2sw1h02.bam~ ~override~
+
+  APPEND ~tooltip.2da~ ~c2sw1h02 8637 12015 3804~ // tooltip stuff
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2sw1h03.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2sw1h03.itm~ ~override~
+    SAY NAME2     @182
+    SAY DESC      @183
+
+  COPY ~itemupgrade/bam/c2sw1h03.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2sw2h01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2sw2h01.itm~ ~override~
+    SAY NAME2     @168
+    SAY DESC      @169
+
+  COPY ~itemupgrade/bam/c2sw2h01.bam~ ~override~
+
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2valy01.itm THEN BEGIN
+  
+  COPY ~itemupgrade/itm/c2valy01.itm~ ~override~
+    SAY NAME2     @128
+    SAY DESC      @129
+
+  COPY ~itemupgrade/bam/c2valy01.bam~ ~override~
+  
+  APPEND ~itemexcl.2da~ ~c2valy01 1~ // add to magic ring/magic armor exclusion list
+
+END

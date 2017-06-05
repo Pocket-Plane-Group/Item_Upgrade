@@ -1,0 +1,9 @@
+/*
+Translator note:
+
+Since BGIIEE uses slightly different formatting and conventions than vBG2, this file allows you to override strings for *only* BGIIEE.
+When Item Upgrade is installed on vBG2, only strings from setup.tra are used. On BGIIEE, strings defined here will override the strings
+from setup.tra. This does not need to be a complete copy of setup.tra, ONLY for the strings that are different between vBG2 and BGIIEE.
+This file is also formatted in utf-8 since it's only used on BGIIEE games. setup.tra will be converted on the fly for BGIIEE.
+*/
+

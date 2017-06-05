@@ -1,0 +1,1140 @@
+@1 = ~Shadows Of Amn Item Upgrades~
+@2 = ~Throne Of Bhaal Item Upgrades~
+@3 = ~I couldn't find [Data\25Dialog.bif], which leads me to believe that you don't actually have the Throne of Bhaal expansion installed. Sorry!~
+@4 = ~Original Version (new upgrades in a list)~
+@5 = ~Revised Version (new upgrades presented in the same style as existing upgrades)~
+@6 = ~This is not available yet in your language~
+
+@100 = ~Ring of Preservation +1~
+@101 = ~Ring of Preservation +1: 'Ring of the Troll Prince'
+This ring was magically forged for <CHARNAME>. It combines the abjurative powers of King Castter De'wess' rings of protection with the recuperative powers of Huhhus' troll-fueled rings of regeneration. In addition, the ring is stylish.
+
+STATISTICS:
+
+Wearer regenerates 1 hit point every 6 seconds
+Armor Class: +1 bonus
+Saving Throws: +1 bonus~
+
+@102 = ~Ring of Preservation +2~
+@103 = ~Ring of Preservation +2: 'Ring of the Troll Guardian'
+This ring was magically forged for <CHARNAME>. It combines the abjurative powers of Princess Akanal's guardian's ring of protection with the recuperative powers of Huhhus' troll-fueled rings of regeneration. In addition, the ring is stylish.
+
+STATISTICS:
+
+Wearer regenerates 1 hit point every 6 seconds
+Armor Class: +2 bonus
+Saving Throws: +2 bonus~
+
+@104 = ~Ring of Elemental Mastery~
+@105 = ~Ring of Elemental Mastery
+This ring combines the might of elements of Earth, Air and Fire and grants the user dominion over the creatures that hail from those planes. This ring was created for <CHARNAME> and its fame will no doubt grow with <PRO_HIMHER>. 
+
+STATISTICS:
+
+Charm Elemental three times per day for 60 seconds (no save).
+Summon an Earth, an Air and a Fire Elemental (once per day, 300 seconds, always friendly). 
+Improved Invisibility one per day for 60 seconds. 
+Fire Resistance: 50% bonus
+Electrical Resistance: 50% bonus
+Armor Class: +1 bonus
+Saving Throws: +1 bonus~
+
+@106 = ~Staff of Elemental Mastery~
+@107 = ~Staff of Elemental Mastery +5
+Linked to three of the Elemental Planes, this powerful staff was forged at <CHARNAME>'s behest. It is a potent weapon in its own right, but it also possess the power of life and death over Elemental creatures. This particular staff is cold to the touch and is covered with burn marks and small gouges. Rumor has it that the secret for this sort of construction was originally discovered by the Rakshasa, who first used it to create the Flail of Ages. 
+
+STATISTICS
+
+Combat Abilities: If an Earth, Air or Fire Elemental is hit it will be destroyed.
+Summon an Earth, an Air and a Fire Elemental (once per day, 300 seconds, always friendly). 
+Cast Fireshield: Red (twice per day, 78 seconds).
+Sleep Cloud (twice per day, range 40, save vs. poison or sleep for 18 seconds).
+
+THAC0: +5 bonus
+Damage: 1D6 +5
+Damage type: crushing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Quarterstaff
+Type: 2-handed
+Requires: 5 Strength
+Unusable By: Monk~
+
+@108 = ~Quiver of Plenty +3~
+@109 = ~Quiver of Plenty +3
+The money and resources you invested in the Quiver of Plenty have resulted in an item of truly amazing magical properties. You might even hit something with these arrows. 
+ 
+STATISTICS:
+ 
+Unlimited +3 arrows~
+
+@110 = ~Case of Plenty +3~
+@111 = ~Case of Plenty +3
+The money and resources you invested in the Case of Plenty have resulted in an item of truly amazing magical properties. 
+ 
+STATISTICS:
+ 
+Unlimited +3 bolts~
+
+@112 = ~Bag of Plenty +3~
+@113 = ~Bag of Plenty +3
+The money and resources you invested in the Bag of Plenty have resulted in an item of truly amazing magical properties. Somehow, this is unsurprising. Have you ever invested money and resources into a magical object only to discover that it is useless? Beyond the Equalizer and the Wave Halberd, I mean. I didn't think so. 
+
+STATISTICS:
+ 
+Unlimited +3 sling bullets~
+
+@114 = ~Boots of Celeritous Stealth~
+@115 = ~Boots of Celeritous Stealth
+Perfect for the far-ranging scout who wishes to remain undetected, the Boots of Celeritous Stealth combine all of the powers of the Boots of Speed and the Boots of Stealth. They were commissioned for <CHARNAME>. 
+
+Equipped Ability: increases movement rate
+Move Silently Bonus: +20%
+Hide in Shadows Bonus: +15%
+Weight: 4~
+
+@116 = ~Blizzard Boots~
+@117 = ~Blizzard Boots
+Perfect for an adventurous assault on an ice-troll lair or other chilly area, the Blizzard Boots combine all of the powers of the Boots of Speed and the Boots of the North. They were commissioned for <CHARNAME>. 
+
+STATISTICS:
+
+Equipped Ability: increases movement rate
+Cold resistance: +50%
+Weight: 4~
+
+@118 = ~Boots of the Hornet~
+@119 = ~Boots of the Hornet
+The Boots of the Hornet are unsurpassed at increased the speed of their wearer. Combining all of the powers of the Boots of Avoidance and the Boots of Speed, these boots make it very difficult to strike the bearer indeed.
+
+STATISTICS:
+
+Armor Class bonus: +5 vs. missiles
+Equipped Ability: increases movement rate
+Weight: 4~
+
+@120 = ~Stormlord's Heels~
+@121 = ~Stormlord's Heels
+Perfect for a relaxing day spent raiding a Temple of Talos or fighting against air elementals, the Stormlord's Heels combine all of the powers of the Boots of Grounding and the Boots of Speed. They were commissioned for <CHARNAME>.
+
+STATISTICS:
+
+Equipped Ability: increases movement rate
+Electricity resistance: +50%
+Weight: 4~
+
+@122 = ~Club +5: Pitchwife~
+@123 = ~Club +5: Pitchwife
+Forged for <CHARNAME> by amalgamating the oaken, acidic club Blackblood and the splintered club Gnasher, Pitchwife pulses with destructive power. Covered in a tar-like pitchy substance that burns flesh on contact, Pitchwife also drives aggravating spines and splinters into the wound. 
+
+Equipped Abilities: 25% acid resistance
+THAC0: +5 bonus
+Damage: 1D6 + 5, +5 acid damage, slivers add 3 points of extra damage each round for four rounds
+Damage type: crushing
+Weight: 3
+Speed Factor: 1 
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength
+Not Usable By:
+Mage~
+
+@124 = ~Mace +5: Skullcrusher~
+@125 = ~Mace +5: Skullcrusher
+This mace is permanently bloodstained; a telltale trace of its many years spent bashing heads. The weapon would have been the bane of humanoids throughout its history, but those that wielded it seem to have been purposely left out of historic record. Recently Skullcrusher was reforged into an even more awesome weapon by <CHARNAME>. 
+
+STATISTICS:
+
+THAC0: +5 bonus
+Damage: 1D6 + 6, +6 extra damage to humanoid creatures, lowers target's maximum hit points by 2 for 10 rounds
+Damage type: crushing
+Weight: 6
+Speed Factor: 2
+Proficiency Type: Mace
+Type: 1-handed
+Requires: 10 Strength
+Not Usable By:
+Druid
+Mage
+Thief~
+
+@126 = ~Teleomortis +4~
+@127 = ~Assembled on behalf of <CHARNAME> using a dark and dire ritual, Teleomortis is a composite longbow of unparalleled power. When the string is drawn back a ghostly arrow forms, seeming to flicker and bend in the light. The bow thus requires no extra ammunition (although it can make use of more mundane arrows as well). The ghostly arrows associated with Teleomortis tear at the mind in some unknowable fashion, hinting at secrets not meant to be unearthed on this Plane. 
+
+STATISTICS:
+
+Combat Abilities: Creates its own ghostly +4 arrows. A target struck by such an arrow has a 5% chance of being confused for 30 seconds. 
+THAC0: +4
+Damage: 1d6 +4
+Weight: 7
+Speed Factor: 1
+Proficiency Type: Longbow
+Type: 2-handed
+Requires: 18 Strength
+Not Usable By:
+Druid
+Cleric
+Mage
+Thief
+Bard~
+
+@128 = ~Corthala Family Armor~
+@129 = ~Corthala Family Armor
+This armor, long in the Corthala bloodline, protects the user against all forms of attacks. The armor has been combined with the Shadow Dragon Armor and is now even better at protecting Valygar. The armor is enchanted so that it grants a +5 bonus to Valygar's armor class. It also adds a bonus to resisting acid, fire and magical damage. The armor also makes Valygar immune to charm while he wears it. Finally, the armor grants Valygar non-detection while equipped. As it is specially fitted for Valygar, few other than he may wear it.
+
+STATISTICS:
+
+Equipped Abilities: Immune to Charm, Non-Detection
+Bonuses: +50% Resistance to fire, acid, and magic damage
+Armor Class: 0
+Weight: 9
+Usable By: 
+Valygar~
+
+@130 = ~Enhanced Robe of the Good Archmagi~
+@131 = ~Enhanced Robe of the Good Archmagi
+This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of good alignment. This particular robe has been further enchanted by <CHARNAME>.
+
+STATISTICS:
+
+Equipped Abilities: Memorize one extra first, second, third and fourth level wizard spell. 
+Armor Class: 3
+Magic Resistance: 10%
+Saving Throw: +2 bonus
+Weight: 6 
+Only usable by:
+Mage (single, dual, & multi-class)
+Good-aligned characters~
+
+@132 = ~Enhanced Robe of the Neutral Archmagi~
+@133 = ~Enhanced Robe of the Neutral Archmagi
+This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of neutral alignment. This particular robe has been further enchanted by <CHARNAME>.
+
+STATISTICS:
+
+Equipped Abilities: Memorize one extra first, second, third and fourth level wizard spell. 
+Armor Class: 3
+Magic Resistance: 10%
+Saving Throw: +2 bonus
+Weight: 6 
+Only usable by:
+Mage (single, dual, & multi-class)
+Neutral-aligned characters~
+
+@134 = ~Enhanced Robe of the Evil Archmagi~
+@135 = ~Enhanced Robe of the Evil Archmagi
+This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of evil alignment. This particular robe has been further enchanted by <CHARNAME>.
+
+STATISTICS:
+
+Equipped Abilities: Memorize one extra first, second, third and fourth level wizard spell. 
+Armor Class: 3
+Magic Resistance: 10%
+Saving Throw: +2 bonus
+Weight: 6 
+Only usable by:
+Mage (single, dual, & multi-class)
+Evil-aligned characters~
+
+@136 = ~Citadel Helmet~
+@137 = ~Citadel Helmet
+Forged at <CHARNAME>'s request, the Citadel Helmet protects its wearer from physical, magical and mental assaults. It combines all of the defensive powers of the Helm of Charm Protection and the Helm of Defense. In addition, it looks vaguely imposing. 
+
+STATISTICS:
+
+Armor Class Bonus: none
+Special: Wearer is immune to charm
+Saving Throws: +1 bonus
+Electrical resistance: +20%
+Cold resistance: +20%
+Fire resistance: +20%
+Special: Protects Against Critical Hits
+Weight: 3
+Not Usable By:
+Mage
+Bard
+Thief~
+
+@138 = ~Tower of Iron Will~
+@139 = ~Tower of Iron Will 
+Forged at <CHARNAME>'s request, the Tower of Iron Will protects its wearer from mental assaults. It provides all of the standard defenses associated with a Helm of Charm Protection and also makes the wearer immune to Psionics. Note that the wearer is not protected from the intelligence-draining attacks of the Illithid.
+
+STATISTICS:
+
+Special: Wearer is immune to charm and psionics
+Special: Protects Against Critical Hits
+Weight: 3
+Not Usable By:
+Mage
+Bard
+Thief~
+
+@140 = ~Aeger's Hide +5~
+@141 = ~Aeger's Hide +5
+This heavy and thick bear hide is all that remains of the fabled Aeger. Several hundred years ago the Aeger, a giant bear, terrorized hundreds of small villages up and down the Sword Coast. The bear was invulnerable to fire, cold or acid. Finally the young men and women of several villages banded together, forming a militia almost two hundred people strong. The Aeger was surrounded and finally slain. Less than a dozen villagers survived, and they carved the Aeger's hide amongst themselves. Out of one of the pieces this armor was created.
+
+More recently, <CHARNAME> arranged for Aeger's Hide to be improved with additional enchantments. It now provides a greater resistance to physical blows and elemental attacks.
+
+STATISTICS:
+
+Bonuses: +25% resistance to fire, cold, and acid
+Immune to Confusion
+Armor Class: 1
+Weight: 35
+Requires: 6 Strength
+Not Usable By:
+Mage~
+
+@142 = ~Improved Human Flesh~
+@143 = ~Improved Human Flesh
+Made from human skin and treated with the blood of a noble dragon and combined with the soul of an innocent girl and powerful protective magic, this armor emits the stench of bitter death. The malevolent armor can only be used by a truly evil person. This is the pinnacle of dastardly protection. 
+
+STATISTICS:
+
+Armor Class: 0 
+Saving Throws: +4 bonus
+Magic Resistance: 20% bonus
+Equipped Abilities: +1 DEX bonus, +1 CON bonus, immunity to poison, protection from Good
+Weight: 5 
+Requires: 3 Strength
+Not usable by:
+Mage
+Non-Evil Characters~
+
+@144 = ~Improved Firecam Full-Plate Armor~
+@145 = ~Improved Firecam Full-Plate Armor
+This suit of armor was originally designed for Keldorn and few others may wear it. The suit was later enchanted again at <CHARNAME>'s request and it now provides Keldorn with even more protection. While equipped the suit provides the wearer with a +2 bonus to all saving throws and grants the wearer with free action (able to pass through webs and other effects) and immunity to fear. Despite being incredibly strong, the armor is almost weightless. 
+
+STATISTICS:
+
+Armor Class: -2
+Saving Throw Bonus: +2
+Equipped Abilities: Free Action, Immunity to Fear
+Weight: 10
+Requires: Only wearable by Keldorn~
+
+@146 = ~Improved Ankheg Plate Mail~
+@147 = ~Improved Ankheg Plate Mail
+This plate mail has been expertly crafted. Sheathed in the chitinous scales of the ankheg, it provides a greater degree of protection than traditional plate mail and is not susceptible to rust. As any world-weary adventurer will tell you, however, the best appreciated aspect of ankheg mail is its light weight and low encumbrance. Monsters come and go but fatigue is a constant enemy. 
+
+This particular suit of Ankheg Plate Mail was reforged for <CHARNAME>. It now provides additional protection against melee and acid attacks and allows the wearer to mimic the acid-spitting attack of the Ankheg.
+
+STATISTICS:
+
+Armor Class: -1
+Equipped Abilities: 50% acid resistance
+Combat Abilities: Cast Melf's Acid Arrow three times per day
+Weight: 25
+Requires: 8 Strength
+Not Usable By:
+Bard
+Mage
+Thief~
+
+@148 = ~Shield of Harmony +3~
+@149 = ~Shield of Harmony +3
+Audn of the Field, Knight-Champion for the wizard Kekkim, carried this shield for most of his life. It protects the bearer from most forms of mind control, a benefit for a wizard who needed warrior allies to stay faithfully at his side. Both Kekkim and Audn have long since returned to the earth, leaving the shield to whomever might recover it from Kekkim's tower.
+
+More recently the shield was re-enchanted by <CHARNAME>. It now provides extra physical defenses and makes the bearer immune to psionics (but not the intelligence drain of the Illithid). 
+
+STATISTICS: 
+
+Abilities: Immunity to charm, psionics, confusion, domination, and hold person
+Armor Class Bonus: 4
+Weight: 2
+Requires: 4 Strength
+Not Usable By:
+Bard
+Druid
+Mage
+Thief~
+
+@150 = ~Throwing Spear +3~
+@151 = ~Throwing Spear +3
+One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When man mastered metals, spearheads were made from iron and steel. This spear trembles from the powerful magic used in its creation.
+
+Unlike almost every other spear you have encountered, this spear can be thrown. It was forged for <CHARNAME> with the help of a magical Rogue Stone. When thrown, the spear immediately returns to the hand of the wielder. (The spear may also be used as a melee weapon: select the second item ability to do so.) 
+
+STATISTICS:
+
+Equipped Abilities: 1 additional attack per round (the same rate-of-fire as a longbow)
+THAC0: +3 bonus
+Damage: 1D6 +3
+Damage type: piercing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Spear
+Type: 2-handed
+Requires: 5 Strength
+Not Usable By:
+Cleric
+Mage
+Thief~
+
+@152 = ~Throwing Unicorn Spear +3~
+@153 = ~Throwing Unicorn Spear +3
+This graceful spear is carved to resemble the elongated horn of the unicorn. Wielders of this spear are immune to charm and hold spells, just as a unicorn might be. Whether the horn is or isn't an actual unicorn horn is the subject of much debate.
+
+The original Unicorn Spear was reforged by <CHARNAME> to serve as a ranged weapon. When thrown, the spear immediately returns to the hand of the wielder. The immediacy of the return may explain how a throwing weapon can confer continuous effects on its wielder. Or maybe it's just magic. (The spear may also be used as a melee weapon: select the second item ability to do so.) 
+
+STATISTICS
+
+Equipped Abilities:
+Immunity to charm and hold person
++3 to all saves vs. death
+THAC0: +3 bonus
+Damage: 1D6 +3, +2 fire damage
+Damage type: piercing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Spear
+Type: 2-handed
+Requires: 5 Strength
+Not Usable By:
+Cleric
+Mage
+Thief~
+
+@154 = ~Throwing Impaler +4~
+@155 = ~Throwing Impaler +4
+The Impaler has a palpable aura of magic that hints at the vicious nature of the weapon and why it has been a favorite of several powerful orc chieftains in the past. When a victim is struck they are, as one would guess, very nearly impaled, run through as the massive enchantment does its dirty work.
+
+After <CHARNAME> "liberated" the Impaler from the Sahuagin City-of-Caverns <PRO_HESHE> later had it reforged into a ranged weapon. When thrown, the spear immediately returns to the hand of the wielder. (The spear may also be used as a melee weapon: select the second item ability to do so.) 
+
+STATISTICS:
+
+Equipped Abilities: 1 additional attack per round (the same rate-of-fire as a longbow)
+THAC0: +4 bonus
+Damage: 1D6 +4, +10 piercing damage
+Damage type: piercing
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Spear
+Type: 2-handed
+Requires: 5 Strength
+Not Usable By:
+Cleric
+Mage
+Thief~
+
+@156 = ~Staff of the Woodlands +5~
+@157 = ~Staff of the Woodlands +5
+Known only as the "Wild Man of the Wood", the man that carried this staff was a legendary figure near Trademeet until the day he died and returned to the soil. Those who saw him remember his dark, bark-like skin, a feature that would fade if the staff were set aside. He would harass irresponsible loggers and poachers, and old-timers tell of mercenaries chasing him with a dozen hunting dogs or more. The animals seemed ready to rip the poor druid to pieces, but he quickly turned them on their former masters. Rushing forward in hopes of ending his influence, the men-at-arms saw the final power of the staff, and as the vegetation trembled with the "Wild Man's" magical calling, there formed a green, rotting mix of life and death that shambled overtop of the terrified soldiers, killing them all.
+
+Recently the Staff was re-enchanted by <CHARNAME> to give it slightly better melee abilities. 
+
+STATISTICS
+
+AC: +3 bonus
+Equipped Abilities: Barkskin (AC 3)
+
+Use Abilities:
+Summon Shambling Mound (six times per day)
+Duration: 100 seconds
+
+Enhanced Charm Animal (six times per day)
+Duration: 5 minutes (no saving throw)
+
+Combat Abilities: When the Staff strikes a target there is a 5% change that the target (and its allies) will be plagued by Creeping Doom. 
+
+THAC0: +5 bonus
+Damage: 1D6 +5
+Damage type: crushing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Quarterstaff
+Type: 2-handed
+Requires: 5 Strength
+Usable By
+Druids
+Beast-Masters~
+
+@158 = ~Sunblade: Daystar +4~
+@159 = ~Sunblade: Daystar +4
+Whether created specifically for use in the service of Torm or appropriated at some point in the long history of the church, Paladins of the Loyal Fury have made good use of Daystar in their battles against evil undead. Through magic or blessing it is empowered with the Sunray, a force of pure life energy so potent that it slays both living and unliving.
+
+<CHARNAME> appropriated this blade from a Lich near the city gates of Athkatla and has since reforged it into an even more powerful instrument of holy justice. 
+
+STATISTICS:
+
+Equipped Abilities: Protection From Evil
+
+Special Abilities (twice per day):
+Sunray
+Damage: 3D6 (save vs. spells or be blinded for 10 rounds)
+Undead: an additional 10d6 points of damage (save vs. spells or be destroyed)
+Range: 20 ft
+Area: 15-foot radius
+
+THAC0: +4 bonus, +8 vs. evil creatures
+Damage: 1D8 +4, +8 vs. evil creatures
+Combat Ability: Any Undead creature struck by Daystar takes double damage. 
+Damage type: slashing
+Weight: 2
+Speed Factor: 3
+Proficiency Type: Long sword
+Type: 1-handed
+Requires: 6 Strength
+Not Usable By:
+Druid
+Cleric
+Mage~
+
+@160 = ~Celestial Fury +5~
+@161 = ~Celestial Fury +5
+To enchant a katana is no simple process. At least, that's what <CHARNAME> thought before <PRO_HESHE> first had it attempted on <PRO_HISHER> behalf. In reality, the most difficult part of reforging the already-godlike katana known as Celestial Fury was gathering the myriad ingredients required. Celestial Fury has served <CHARNAME> well since it was taken from the kensai Koshi in the Temple District of Athkatla. Its provenance before that point is as follows:
+
+Many years ago, fierce tempests and fires ignited by lightning ravished the province administered by daimyo Hoshi Katahiroi. The daimyo's advisers, all respected wizards, soon divined that Nature was not to blame, but a powerful dragon of an unknown order. Some of the wise men suggested that the creature was an abomination; others believed that it was born of Primal Chaos before Kara-Tur was formed. All the advisers agreed to name it Celestial Fury.
+
+Yet Daimyo Hoshi did not want to categorize the scourge of his province; he wanted to destroy it. He commissioned the famed Chigatta (a reclusive artisan, master of mystic arts), to construct a weapon that might sunder the dragon's spirit as well as cleave its scaled body. Chigatta's labors resulted in the finest katana imaginable, dubbed Celestial Fury after the beast it was fashioned to destroy, and enchanted with the power of flight.
+
+With this weapon, Hoshi sought his province's bane among the storm clouds. Shouts and roars resounded through the heavens for days, and forked fire lit up the nights. At long last, Hoshi destroyed the dragon's body and trapped its spirit within his sword, merging the two Celestial Furies and impressing order over chaos. To finalize his victory, Hoshi had Chigatta fashion a scabbard from the dragon's hide and embed its magic pearl in the hilt.
+
+Yet the dragon had its revenge. Hoshi was skilled in battle but weak of will. Celestial Fury's spirit took control of Hoshi, forcing him to slay Chigatta and then slay himself. The katana subsequently disappeared (most likely, Hoshi's grieving family discarded the traitorous weapon) and has perhaps changed many hands in the years since.
+
+Celestial Fury is a katana of excellent construction -- a flexible but unbreakable blade of razor sharpness, a hilt covered with comfortable leather, and a huge pearl fixed at its end. The magical characters for Celestial Fury are inscribed on the blade, which glows pale violet and crackles with electricity when drawn. The sword is sheathed in a scabbard of dragon hide, the slate-grey scales of which constantly flash with streaks of silver, blue, and violet.
+
+STATISTICS: 
+
+Equipped Abilities:
+ Lightning Strike: Once per day
+ Blindness: Once per day
+Combat Abilities:
+ Booming Thunder whenever the sword strikes an opponent
+ (Stun, Save vs. Spell) 
+ Shocking Blow chance when sword strikes an opponent
+ (5% chance of 20 additional electrical damage)
+THAC0: +5 bonus
+Damage: 1D10 +5
+Damage type: slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Katana
+Type: 1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+
+@162 = ~Sword of Arvoreen +5~
+@163 = ~Sword of Arvoreen +5
+Another gift to Mazzy Fentan from Arvoreen, this short sword may only be used by halflings. The enchantments that exist within this sword give it the ability to slow any opponent struck by it.
+
+With <CHARNAME>'s help and the blessing of Arvoreen, the sword was recently re-enchanted to become even more powerful. 
+
+STATISTICS:
+
+Combat Abilities: Target must save vs. wand or be slowed (for 45 seconds). 
+Equipped Abilities: Free Action, +1 STR bonus, +75 exceptional STR bonus.
+THAC0: +5 bonus
+Damage: 1D6 +5
+Damage type: piercing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: 1-handed
+Usable By:
+Halflings~
+
+@164 = ~Hallowed Redeemer +5~
+@165 = ~Hallowed Redeemer +5
+Keldorn distinguished himself early in his career as a paladin, and received this blade as a boon from Torm. It is exceptionally accurate, but also protects him in battle with a special Fireshield, and any that strike him while he wields it suffer Torm's wrath in the form of magical damage. None but Keldorn may use this sword.
+
+With <CHARNAME>'s help and the blessing of Torm, the sword was recently re-enchanted to become even more powerful. 
+
+STATISTICS:
+
+Equipped Abilities: 5 points of magic damage to any who deal out any damage to the wielder.
+   
+THAC0: +5 bonus
+Damage: 1D12 + 5
+Combat Abilities: Dispel Magic on every hit, target is also silenced for 2 rounds
+Damage type: slashing
+Weight: 8
+Speed Factor: 5
+Proficiency Type: Two Handed Sword
+Type: 2-handed
+Usable By:
+ Keldorn~
+
+@166 = ~Delryn Family Shield +4~
+@167 = ~Delryn Family Shield +4
+This is Anomen's family shield, given to him by his father. In addition to the magical protection the shield radiates an aura that grants the wielder fire and cold resistance. To protect against ranged attacks, Anomen can use the shield to erect a field of energy. This protection from normal missiles can be used three times per day.
+
+Recently <CHARNAME> had the shield strengthened with protective magics of the Saving Grace shield, recovered from the fading avatar of Amaunator, dramatically improving its raw defensive abilities.
+
+STATISTICS
+
+AC Bonus : +5
+Fire Resistance: + 30%
+Cold Resistance: + 30% 
+
+Abilities: 3 times per day can cast protection from missiles on bearer
+
+Usable By: Anomen~
+
+@168 = ~Lilarcor +5~
+@169 = ~Lilarcor +5
+Lilarcor is not quite as lovable (or annoying, depending on your viewpoint) as it was before <CHARNAME> had it upgraded. When the Mind Flayer Control Circlet was embedded in its hilt, Lilarcor seemed to lose the ability to consciously converse with those nearby and was reduced to making occasional quips. However, Lilarcor's peculiar intelligence (or lack thereof) now serves as a boon (or a blight) to the wielder: the one holding Lilarcor cannot have its intelligence adjusted for any reason. This protects against the intelligence drain associated with the Illithid and the beneficial effects of a potion of Genius. 
+
+STATISTICS:
+
+Equipped Abilities: Immunity to Charm, Confusion, Intelligence Changes
+THAC0: +5 bonus
+Damage: 1d12 +5
+Damage type: slashing
+Weight: 10
+Speed Factor: 6
+Proficiency Type: Two-Handed Sword
+Type: 2-handed
+Requires: 14 Strength
+Not Usable By:
+Druid
+Cleric
+Mage
+Thief~
+
+@170 = ~Soul Reaver +6~
+@171 = ~Soul Reaver +6 : Unholy Avenger
+The powerful Soul Reaver blade has been reforged under the dark guidance of <CHARNAME>. The holy essence of Carsomyr was perverted to help create this abhorrent monstrosity. Soul Reaver is a tool of incredible power and incredible evil. Those who pick it up rarely put it down while still living. 
+
+STATISTICS
+
+Equipped Abilities: 50% Magic Resistance
+Combat Abilities: Dispel Magic on every hit. Target suffers a -2 THAC0 penalty for 120 seconds. 
+THAC0: +6 bonus
+Damage: 1d12 +6, +1d6 magic damage
+Damage type: slashing
+Weight: 10
+Speed Factor: 4
+Proficiency Type: Two-Handed Sword
+Type: 2-handed
+Requires: 14 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Non-Evil Characters~
+
+@172 = ~Club +4: The Fulcrum~
+@173 = ~Club +4: The Fulcrum
+Forged for <CHARNAME> by amalgamating the Bone Club and the splintered club Gnasher, The Fulcrum's powers lie in preserving balance. The spirits of the dead warriors guide the hand of the wielder to unerring accuracy and every hit from the club itself sends painful bone shards into the target. In addition, the Club does additional damage against non-neutral opponents.
+
+Equipped Abilities: Wielder becomes proficient to the point of Grand Mastery in Clubs.
+THAC0: +4 bonus
+Damage: 1D6 + 4, +4 if target is Good, Evil, Lawful or Chaotic (cumulative)
+Extra Damage: bone shards add 2 points of extra damage each round for four rounds
+Damage type: crushing
+Weight: 3
+Speed Factor: 1 
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 Strength
+Not Usable By:
+Mage~
+
+@174 = ~Quietus +4~
+@175 = ~Quietus +4
+<CHARNAME> arranged to have this dagger constructed out of the poisonous Pixie Prick and the deadly Boneblade. The result is a weapon worthy of any assassin. The newly refined venom from the Pixie Prick now blinds the victim and the dark lore of the Boneblade makes for deadly backstabs in the hands of a trained thief.
+
+Equipped Abilities: Backstab Multiple increased by 1
+THAC0: +4 bonus
+Damage: 2D3 + 4
+Combat Abilities: Target is either blinded or put to sleep for two rounds. A save versus poison at -2 negates both effects. (Blind creature are at -10 to their THAC0)
+Damage type: piercing
+Weight: 3
+Speed Factor: 0 
+Proficiency Type: Dagger
+Type: 1-handed
+Requires: 3 Strength
+Not Usable By:
+Cleric~
+
+@176 = ~Holy Buckler of Amaunator +2~
+@177 = ~Holy Buckler of Amaunator +2
+<CHARNAME> had a holy symbol of Amaunator, the long-dead Sun God, forged into this buckler. It is now a potent barrier against those that would stalk the night and drain the life of the living. 
+
+STATISTICS:
+  
+Armor Class Bonus:  3
+Special:  May cast False Dawn twice per day. Bearer is immune to level drain.
+Weight:  2 
+Requires: 4 Strength
+Unusable By:
+ Mage~
+
+@178 = ~Gloves of the Master Thief~
+@179 = ~Gloves of the Master Thief: Twelve Fingers
+<CHARNAME> had these gloves formed from a number of more mundane items that benefit the rogue. When these gloves are worn by a thief, each glove appears to have an extra magical finger that aids the fortune-hunter in performing their unique skills. In addition, the gloves are stylish. They look almost ... gnomish in design. 
+
+STATISTICS:
+
+Armor Class: 3
+Saving Throws: +1 bonus
+Find and Remove Traps: +25% bonus
+Open Locks: +25% bonus
+Pick Pocketing: +20% bonus
+Weight: 2
+Usable By: Thieves~
+
+@180 = ~Amulet of Ilmater~
+@181 = ~Amulet of Ilmater
+This amulet combines the defensive power of an Amulet of Protection, a Periapt of Proof against Poison, the Necklace of Form Stability and the Amulet of Spell Warding to provide potent protection upon its wearer. In addition, the Amulet holds a minor blessing from the long-suffering Ilmater. The amulet was commissioned by <CHARNAME>. 
+
+STATISTICS:
+
+Wearer is Immune to Poison
+Casts Heal once per Day
+Armor Class Bonus:  1
+Saving Throw Bonus:  3~
+
+@182 = ~Water's Talon +4~
+@183 = ~Water's Talon +4
+The blade of this weapon seems to shimmer, revealing a fluid, razor-sharp edge shaped somewhat like the talon of a bird of prey. Water's Talon was commissioned by <CHARNAME> and holds vast power over damaging liquids. Each hit sucks some of the life out of the target and confers it to the wielder.  In addition, the water-like edge of the blade is forever envenomed. Much like one of its predecessors, Water's Talon provides immunity to charm. In addition, however, its mastery over water protects the user from the harmful effects of Abi-Dalzim's Horrid Wilting. Most uniquely, the liquid nature of the blade allows it to extend and splash during combat, improving the strike range granted by the weapon to a range beyond that of most two-handed swords. This allows the wielder to make otherwise-impossible attacks from the back rows of a formation or try for daring hit-and-run tactics, counting on the poison from the first hit to disable foes.
+
+STATISTICS:
+
+Equipped Abilities: Wielder immune to charm, domination and horrid wilting spells
+Special Abilities: Each hit raises the wielder's maximum hit points by 2 for 3 minutes
+Special Properties: Extended Strike Range
+Damage:  1D8 +4, +2 points of poison damage per second (cumulative)
+THAC0: +4
+Damage type: slashing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninja-To 
+Type:  1-handed
+Requires: 8 Strength
+Not Usable By:
+ Cleric
+ Mage
+ Thief~
+
+@184 = ~Azuredge +4~
+@185 = ~Azuredge +4
+The already potent undead-bane Azuredge was further enhanced by <CHARNAME> when <PRO_HESHE> had it coated with a veneer of pure illithium. The axe first forged by Gulen Rockfire still returns to its wielder's hand when thrown and still smites undead with a holy fervor, but now it also protects the wielder from the level-draining assaults of the more powerful graveborn. On a more decorative note, the illithium seems to have shifted the color of the weapon slightly away from its namesake. 
+
+STATISTICS
+
+Combat Ability: +4 extra damage to undead, plus they must make a saving throw vs. death (-4 penalty) or be utterly destroyed
+Equipped Ability:  Immunity to Level Drain
+Damage: 1d6+4
+THAC0: +4
+Damage type (melee):  slashing
+Damage type (thrown):  missile (piercing)
+Special:  Returns to user's hand once thrown
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 4 Strength
+Not Usable By:
+ Any Neutral or Evil Character
+ Druid
+ Cleric
+ Mage
+ Thief~
+
+
+@186 = ~Sorcerian Ring~
+@187 = ~Sorcerian Ring:  'Grasping Power'
+This ring is undoubtedly the pinnacle of mnemonic lucubration. Crafted at <CHARNAME>'s request from rings of Wizardry, Acuity and Metaspell Influence Amulet it allows the bearer to memorize an extra spell each day for all spell levels from one to seven. In addition, a ring of protection has been melted into the band, providing minor physical and magical defenses.
+
+STATISTICS:
+
+Spells: Gives one extra first, second, third, fourth, fifth, sixth and seventh level spell. 
+Armor Class: +1 bonus
+Saving Throws: +1 bonus~
+
+@188 = ~Girdle of Glory~
+@189 = ~Girdle of Glory
+Created by <CHARNAME> to protect the wearer against slashing, piercing and blunt weapons, this belt is quite useful to anyone involved in a melee.  Its potent magic turns all types of offensive blows, and yet its slim form does not inhibit movement. In addition, the belt is stylish. 
+
+STATISTICS:
+
+Armor Class: +3 bonus
+Weight:  2~
+
+@190 = ~Improved Kitthix Figurine~
+@191 = ~Improved Kitthix Figurine
+Reforged by <CHARNAME> to summon forth an even more powerful spider, the Kitthix figurine is no longer the last-ditch delaying tactic it once was. Gone are the days when Kitthix would be instructed to throw itself in front of a vastly superior foe in the hopes of momentarily distracting it. Kitthix's web-spinning and poisoning abilities have been upgraded, and the spider itself is less likely to be crushed by every passing foe.
+
+STATISTICS:
+
+Summons a phasing sword spider named Kitthix for 2400 seconds, once each day. The spider can Phase to far-away foes. Kitthix's attack webs and poisons its foes if they fail various saving throws.~
+@192 = ~Improved Kitthix~
+
+@193 = ~Inevitable Entropy~
+@194 = ~This abyssal greensteel blade has been improved at <CHARNAME>'s behest. The blade deals poison damage and its victims seem to lose their ability to resist harmful magics as they are sliced by the blade. 
+
+STATISTICS:
+
+Combat Abilities: On a successful hit this blade has a 5% chance of casting Greater Malison on its target. 
+
+THAC0: +3 bonus
+Damage: 1D6 +3 +1 point of poison damage each second for one round. 
+Damage Type: piercing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: 1-handed
+Usable By: Tieflings~
+
+@195 = ~Creeping Chaos~
+@196 = ~Creeping Chaos is a short sword usable only by tieflings. Every time it strikes an opponent, he or she loses 2 points of dexterity (for 30 seconds). Upgraded at the request of <CHARNAME>, this improved blade has a chance of bewildering any opponent struck by it. 
+
+STATISTICS:
+
+Combat Abilities: On a successful hit this blade has a 5% chance of Confusing its victim for 48 seconds if a save vs. spells at -4 is failed. In addition, each successful hit drains 2 points of dexterity from the victim for 30 seconds. 
+
+THAC0: +3 bonus
+Damage: 1D6 +3
+Damage Type: piercing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: 1-handed
+Usable By: Tieflings~
+
+@197 = ~Incarnadine Elven Chain~
+@198 = ~Forged at <CHARNAME>'s request by interlocking red dragon scales with a suit of enchanted elven chain mail, the Incarnadine Elven Chain provides a superior combination of protection and freedom of movement. Rogues and wizards can still practice their trades while wearing this light suit of armor. 
+
+STATISTICS:
+
+Fire Resistance: 25% bonus
+Stealth: 10% Penalty
+Lockpicking: 5% Penalty
+Find/Remove Traps: 5% Penalty
+Pick Pockets: 20% Penalty
+Armor Class: 0
+Weight: 15
+Requires: 5 Strength
+Not Usable By:
+Druid~
+
+
+
+@12340 = ~Get on with it, then.~
+@12341 = ~Very well. I'll just get to rummagin' ...~
+@12342 = ~Can you do anything with this Ring of Protection?~
+@12343 = ~Can forge anything from this powerful Ring of Protection?~
+@12344 = ~Can you make something with this Elemental Ring?~
+@12345 = ~Can you enchant this Elemental Staff?~
+@12346 = ~Can you cobble something together with these Boots of Stealth?~
+@12347 = ~Can you revamp my Boots of the North?~
+@12348 = ~Any chance you could improve my Boots of Grounding?~
+@12349 = ~What can you do with these Boots of Avoidance?~
+@123410 = ~Might you be able to improve on Blackblood, here?~
+@123411 = ~Can you make this Bone Club any more powerful?~
+@123412 = ~I'd like to make Skullcrusher even deadlier. Can you help?~
+@123413 = ~What can you do to improve the Heartseeker?~
+@123414 = ~Can you reforge the family armor of my friend Valygar?~
+@123415 = ~Can you improve on this magical robe?~
+@123416 = ~I'd like more protection from my Helm of Defense. What can you do?~
+@123417 = ~Can you make my Helm of Charm Protection more versatile?~
+@123418 = ~Might you be able to spruce up Aeger's Hide?~
+@123419 = ~Can you reforge the family armor of Sir Keldorn Firecam?~
+@123420 = ~Can you reinforce this Ankheg Plate Mail?~
+@123421 = ~The Shield of Harmony -- can you increase its powers?~
+@123422 = ~I'm looking for a throwing spear. Can you make one?~
+@123423 = ~What can you do to my Spear of the Unicorn?~
+@123424 = ~Any possibility of making the Impaler even more damaging?~
+@123425 = ~Can you enchant this Staff of the Woodlands?~
+@123426 = ~Daystar. It must be made more powerful.~
+@123427 = ~Can you make a daikatana out of Celestial Fury?~
+@123428 = ~Might we upgrade the Sword of Arvoreen?~
+@123429 = ~Can we further bless Keldorn's Hallowed Redeemer?~
+@123430 = ~I wish to improve the Delryn Family Shield.~
+@123431 = ~Can you do something to shut Lilarcor up?~
+@123432 = ~I'd love a truly deadly dagger. Can you improve one of mine?~
+@123433 = ~What can we do for this forlorn buckler?~
+@123434 = ~Any chance of improving these stealthy gauntlets?~
+
+@123435 = ~Not right now.~
+@123436 = ~Yes, let's do it!~
+
+@123437 = ~Can you do anything with this amulet?~
+@123438 = ~I'd like to improve this Scimitar.~
+@123439 = ~Can you make Azuredge more powerful?~
+
+@123440 = ~I could combine a Ring of Protection +1 with a Ring of Regeneration. I'd need to melt a diamond into the mixture and it would cost you 10,000 gold. Interested?~
+@123441 = ~I could combine a Ring of Protection +2 with a Ring of Regeneration. I'd need to melt a diamond into the mixture and it would cost you 20,000 gold. Interested?~
+@123442 = ~I could combine the Rings of Air, Earth and Fire into a Ring of Elemental Mastery. I would need defensive scrolls of Protection from Petrification, Fire and Electricity as reagents. It will also cost you 20,000 gold.~
+@123443 = ~I could combine a the Staves of Air, Earth and Fire into a Staff of Elemental Mastery. It will also cost ya 20,000 gold, but I'm sure it'd be glorious.~
+@123444 = ~Aye, I could cobble together Boots of Speed and Boots of Stealth. I'd need a Rogue Stone as a reagent and 10,000 gold for the job.~
+@123445 = ~Aye, I could cobble together Boots of Speed and Boots of the North. I'd need a Rogue Stone as a reagent and 10,000 gold for the job.~
+@123446 = ~Aye, I could cobble together Boots of Speed and Boots of Grounding. I'd need a Rogue Stone as a reagent and 10,000 gold for the job.~
+@123447 = ~Aye, I could cobble together Boots of Speed and Boots of Avoidance. You'd be fast as lightning with that footwear! I'd need a Rogue Stone as a reagent and 20,000 gold for the job.~
+@123448 = ~I could combine Blackblood and Gnasher into a powerful club of acid-coated splinters. It would cost you 15,000 gold.~
+@123449 = ~I could combine the Bone Club and Gnasher into a powerful club ... just perfect for servants of Balance. It would cost you 15,000 gold.~
+@123450 = ~With a Finger of Death scroll, a cursed potion of healing and 15,000 gold I could reforge Skullcrusher for ye. Interested?~
+@123451 = ~Heartseeker could be restrung with the bowstring of Gesen or the bowstring of Gond. With 4 Laeral's Tears and a Potion of Power as reagents I could make for ye a longbow that did not require earthly arrows.~
+  @123452 = ~Sure, use the bowstring of Gesen.~
+  @123453 = ~Sure, use the bowstring of Gond.~
+@123454 = ~Ah, there's a mageborn family. Using a Protection From Magic Scroll as a catalyst I could forge together the Corthala Family Armor and armor from a Shadow Dragon. It would cost you 10,000 gold.~
+// @123455 = ~Yes, I could make some improvements to a Robe of the Archmagi. With a Ring of Protection +1 and scrolls of Spirit Armor and Contingency as reagents I could make a mantle worthy of Elminster. It would cost you 20,000 gold.~
+@12349955 = ~Yes, I could make some improvements to a Robe of the Archmagi. With a Cloak of Protection +1 and scrolls of Spirit Armor and Contingency as reagents I could make a mantle worthy of Elminster. It would cost you 20,000 gold.~
+  @123456 = ~Sure, upgrade this Robe of the Good Archmagi.~
+  @123457 = ~Sure, upgrade this Robe of the Neutral Archmagi.~
+  @123458 = ~Sure, upgrade this Robe of the Evil Archmagi.~
+@123459 = ~Certainly. I could combine the defensive powers of a Helm of Defense and a Helm of Charm Protection. I'd need four pearls as reagents and 10,000 gold for the job.~
+@123460 = ~Hmm. If you managed to procure two flasks of Mind Flayer birthing brine I could use them to enchant a Helm of Charm Protection against Psionics. I'd charge 10,000 for the job.~
+@123461 = ~With a Scroll of Protection from the Elements to use as a catalyst, I could make that old bear's hide even tougher and smellier than it already is. I'd charge 15,000 for me labour.~
+@123462 = ~With some choice plates from the Armor of the Hart I could reforge the Firecam Full-Plate. But quality doesn't come cheap: I'd ask 20,000 gold for the work.~
+@123463 = ~With two distinct kinds of scrolls of Protection from Acid to use for the rune-work, I could reforge a suit of Ankheg Plate Mail. It would cost you another 5,000 gold, though.~
+@123464 = ~Ah, the Shield of Harmony. She's a beaut, I'll admit. If you had two flasks worth of Mind Flayer birthing brine, a Mind Flayer control circlet and a Beljuril I could forge up a storm with her. I'd charge you 10,000 gold as well, but she'd be stronger and more protective in the end.~
+@123465 = ~Aye, with a Rogue Stone and 10,000 gold I could make a rapid throwing spear from your Spear +3.~
+@123466 = ~Aye, with a Rogue Stone and 10,000 gold I could make a throwing spear from your Spear of the Unicorn.~
+@123467 = ~Ah, the Impaler. If there's anything those Sahuagin can make, it's a harpoon. With a Rogue Stone and 15,000 gold I could make it into a rapid throwing spear for you.~
+@123468 = ~Harumph. These foresty staves have never been me favourites, but with rings of Protection and Animal friendship I could improve the Staff of the Woodlands. I'd charge 20,000 gold for the act.~
+@123469 = ~With four scrolls of Protection from Undead, two vials of Holy Water and two star sapphires I could turn Daystar into the underworld's worst nightmare. I'd charge 15,000 for the job.~
+@123470 = ~Celestial Fury? I'm nay from Kara-Tur, and enchanting a Katana is no easy task, but with a Demon Heart and a Wand of Lightning I could just about do it. I'd charge you 20,000 for me sweat.~
+@123471 = ~Aye, I could reforge the Sword of Arvoreen. But not without the blessing of the Goddess herself: I could only do the task for a party of the purest heart and highest reputation. I'd charge 15,000 for the job.~
+@123472 = ~Ah, the Hallowed Redeemer. A holy blade, if a minor one by local standards. With a Demon Heart and five scrolls that Dispel Magic I could reforge it into something stronger still. But I'd need Torm's blessing for the task, so I could only undertake the job for a group of the highest virtue and reputation. I'd charge 15,000 gold.~
+@123473 = ~Yes. I could combine the armor plating from Anomen's shield with that of the famous shield Saving Grace. I'd charge 15,000 for the work.~
+@123474 = ~Ah, the blighted so-called 'Sentient Sword'. I cannae tell you how many times I've had adventurers come in here and ask me to dull it for good. If you had a Mind Flayer Control Circlet I could put a damper on its chatter and make it more useful at the same time. I'd charge 20,000 gold for the task.~
+@123475 = ~Yes, that's quite a knife you have there. I could forge Bone Blade and Pixie Prick together using four potions of Master Thievery as reagents and make a truly wicked blade for a thief. Would it be worth 15,000 gold to you?~
+
+@123476 = ~Yes. I could forge yon Holy Symbol of Amaunator into your buckler, granting it the protection of that long-forgotten deity. I'd also need 5 Sunstone gems and 10,000 gold for the job. Interested?~
+
+@123477 = ~Ah. Should you manage to acquire the Gloves of Pick Pocketing, Bracers of Defense, Rings of Danger Sense and Lock Picking, and two Rings of Protection, I could cobble them all together for ye. 5,000 gold would cover me expenses.~
+
+@123478 = ~With two Amulets of Protection, a Periapt of Proof against Poison, a Necklace of Form Stability and an Amulet of Spell Warding I could forge for ye an Amulet of Ilmater. Would you be willin' to pay 10,000 gold for it?~
+
+@123479 = ~Aye, with Water's Edge, Adjatha the Drinker and Rashad's Talon we could forge a curved blade that would make the Stormlord himself green with envy. Such a water-based blade would cost ye 15,000 gold. Interested?~
+
+@123480 = ~Ah. I could apply a coating of pure illithium to Azuredge, granting further offensive and defensive powers against the evils of the undead. For 20,000 gold I'd do the work for you.~
+
+@123481 = ~Aye, though magery be not my craft, I could forge a Ring of Acuity, a Ring of Wizardry and an Amulet of Metaspell Influence into a potent memory aid for an enchanter. A Ring of Protection and 20,000 gold would finish the job. Interested?~
+
+@123482 = ~Can you improve on this girdle?~
+
+@123483 = ~Aye, if you had a matched set of girdle: blunt, piercing and slashing, I could forge them all together into a truly protective item. I'd need three bloodstones for reagents, and 10,000 gold as a commission.~
+
+@123484 = ~I'd like more enchantments on my Ring of Wizardry.~
+
+@123495 = ~Might you upgrade this Black Spider Figurine?~
+@123496 = ~Ye'd be better off asking a drow magician than this dwarf to reforge a spider for ye, but I can do it. I won't enjoy it, but I can do it.~
+@1234996 = ~I'll need some special reagents for the reforging: scrolls of Spider Spawn and Web; five poisoned throwing daggers; and 5,000 gold. Are ye still interested?~
+
+@123497 = ~Can Chaos and Entropy be improved?~
+@123498 = ~Ah, you want me to upgrade Planar weapons. Very dangerous work, that. Hmmm, let's see. If you don't mind sacrificing the swords of Ilbratha and Arbane, I can reforge Haer'Dalis' short swords so that they will inflict more damage and gain some spell-like powers. It will cost you 25,000 in gold, plus a Rogue Stone and scrolls of Chaos and Greater Malison. Are ye interested?~
+
+@123499 = ~Can you forge me some elven chain?~
+@1234100 = ~Yes, I might forge together a suit of Sylvan Chain with the scales of a beast of the dread flame. With three gems of Andar and 3 Fire Agates to contain the inferno and 25,000 for reagents and labor, I could make ye a mighty powerful suit. Interested?~
+
+
+
+/* From kelseynpc@5678attbi.com Sat Jan 11 17:19:18 2003
+Date: Sun, 05 Jan 2003 02:49:10 -0600
+From: Your pal Kelsey <kelseynpc@5678attbi.com>
+To: weimer@5678cs.berkeley.edu
+Subject: Item Upgrade: Audio-tagged TRA
+
+Can you work this into the next IU release so that people can be 
+subjected to... er, that is, enjoy my Cespenar audio without having to 
+go through a reinstall with a separate TRA? Taken from the latest 
+version, I just added the tags, changed nothing.
+*/
+
+@56780 = ~Get to work, Cespenar.~
+@56781 = ~Does youse have any questions first? Or shall I start looking?~
+
+@56782 = ~Can you do anything with this Ring of Protection?~
+@56783 = ~Can you forge anything from this powerful Ring of Protection?~
+@56784 = ~Can you make something from this Elemental Ring?~
+@56785 = ~Can you enchant this Elemental Staff?~
+@56786 = ~Can you cobble something together with these Boots of Stealth?~
+@56787 = ~Can you revamp my Boots of the North?~
+@56788 = ~Any chance you could improve my Boots of Grounding?~
+@56789 = ~What can you do with these Boots of Avoidance?~
+@567810 = ~Might you be able to improve on Blackblood, here?~
+@567811 = ~Can you make this Bone Club any more powerful?~ 
+@567812 = ~I'd like to make Skullcrusher even deadlier. Can you help?~
+@567813 = ~What can you do to improve the Heartseeker?~
+@567814 = ~Can you reforge the family armor of my friend Valygar?~
+@567815 = ~Can you improve on this magical robe?~
+@567816 = ~I'd like more protection from my Helm of Defense. What can you do?~
+@567817 = ~Can you make my Helm of Charm Protection more versatile?~
+@567818 = ~Might you be able to spruce up Aeger's Hide?~
+@567819 = ~Can you reforge the family armor of Sir Keldorn Firecam?~
+@567820 = ~Can you reinforce this Ankheg Plate Mail?~
+@567821 = ~The Shield of Harmony -- can you increase its powers?~
+@567822 = ~I'm looking for a throwing spear. Can you make one?~
+@567823 = ~What can you do to my Spear of the Unicorn?~
+@567824 = ~Any possibility of making the Impaler even more damaging?~
+@567825 = ~Can you enchant this Staff of the Woodlands?~
+@567826 = ~Daystar. It must be made more powerful.~
+@567827 = ~Can you make a daikatana out of Celestial Fury?~
+@567828 = ~Might we upgrade the Sword of Arvoreen?~
+@567829 = ~Can we further bless Keldorn's Hallowed Redeemer?~
+@567830 = ~I wish to improve the Delryn Family Shield.~
+@567831 = ~Can you do something to shut Lilarcor up?~
+@567832 = ~I'd love a truly deadly dagger. Can you improve one of mine?~
+@567833 = ~What can we do for this forlorn buckler?~
+@567834 = ~Any chance of improving these stealthy gauntlets?~
+@567837 = ~Can you do anything with this amulet?~
+@567838 = ~I'd like to improve this Scimitar.~
+@567839 = ~Can you make Azuredge more powerful?~
+@567891 = ~I'd like more enchantments on my Ring of Wizardry.~
+
+@567835 = ~Not right now.~
+@567836 = ~Yes, let's do it!~
+
+
+
+// ....
+
+@567876 = ~What can you do with this ammunition?~
+@567877 = ~Do you have a nefarious recipe for this Human Flesh?~
+@567878 = ~Can you reforge this Unholy Reaver?~
+
+// ....
+
+@567840 = ~Why you gots so many rings? You have lots of spouseses on the side? Shame, shame, Cespenar KNOWS YOUR NAME!!!~ [FWCESP00]
+@5678940 = ~Anyhow, we can take Ring of Regeneration and Ring of Protection +1 and do both in one. Saves room on hand. Only need 10,000 gold and melt a diamond in, too! You like?~
+
+@567841 = ~Oh boy, you sure wears a lot of shinies on your fingers. Cespenar likes the look, heard it was in this season.~ [FWCESP01]
+@5678941 = ~Anyhow, we can take Ring of Regeneration and Ring of Protection +2 and do both in one. Saves room on hand. Only need 20,000 gold and melt a diamond in, too! You like?~
+
+@567842 = ~You don't needs jewelry box, you needs jewelry trunk! You maybe like having one on each big toe, too?!?~ [FWCESP02]
+@5678942 = ~How about Cespenar take these Rings of Air, Earth, and Fire and make one big Ring of Elemental Mastery? Cheaper to insure one ring than three. Recipe needs scrolls of Protection from Stonyface, Hot Stuff, and Zappings, and 20,000 gold. Cespenar no set the prices, just union rules.~
+
+@567843 = ~You ever notice that elementals never pick up a check? I swears, sometimes I wish I have one of those sticks that give them such a beating... hey! You gots all three?~ [FWCESP03]
+@5678943 = ~Sticks of Beating Earth, Fire, and Air elementals no big deal to you now, but Cespenar make one big Staff of Elemental Mastery and then all elementals want to buy you lunch, or BLAMMO!!!! Costs 20,000, too, but Cespenar gots high fixed costs. Yes?~
+
+@567844 = ~AAAAAHHHHH! You snuck up on Cespenar! Tee hee hee, just kiddings!~ [FWCESP04]
+@5678944 = ~Hokay, Cespenar can take sneaky boots and Boots of Speed and make you Celeritous Stealth footies. Pretty sure that be the right word, but Bhaal never let Cespenar read much books. (sniff) Anyways, hope you been saving Rogue Stones, because it will cost 10,000 plus one of those shinies.~
+
+@567845 = ~Hmmm. Insulated boots? You need to lay eggs in here or something? Or maybe you rather be playing Icewind Dale?~ [FWCESP05]
+@5678945 = ~Unless you plans on growing more feets, Cespenar will take Boots of North and Boots of Speed and make you Blizzard Boots. Does same stuff as separate boots. Say la Vee. You got 10,000 and one of them Rogue Stones to shell out, maybe?~
+
+@567846 = ~Phheeeewww! Rubber boots get stinky with the Great One's sweaty feets, magic or no. You know that best way to avoid lightning bolt is to be somewheres else? It's true.~ [FWCESP06]
+@5678946 = ~Cespenar knows a Priest of Talos who can makes you Stormlord's Heels out of Boots of Speed and Grounding. Don't let name fool you, will look good on men, too. He needs 10,000 gold and Rogue Stone, though.~
+
+@567847 = ~Cespenar know what to get the Great One for birthday: shoe trees! You sure you not in the wrong business? Maybe prefer to be cobbler or blacksmith or something? Nothing wrong with career change, you still young <PRO_MANWOMAN>!~ [FWCESP07]
+@5678947 = ~Still, you gots nice taste in footwear. Very good recipe for Boots of the Hornet, take your Boots of Speed and Avoidance and make you real hard to hit with arrows. Better than poke in the eye with sharp stick, or bolt, or stone, or dart... you gets the idea. Recipe costs 20,000 gold and Rogue Stone, which does not grow on most trees. Yes?~
+
+@567848 = ~Oooooohhhh... you gots some scary sticks! Hee hee hee! You must have druid friend or something. Always have to have sticks for them. You think trees the sticks came from are mad?~ [FWCESP08]
+@5678948 = ~Maybe you got acid stick Blackblood and Gnasher, stick that SOMEBODY forgot to polish. Have recipe for Pitchwife, so now youse can give bad guys splinters that BUUUUUURN! Low low price of 15,000 gold. Unless you want Cespenar to get out sandpaper instead.~
+
+@567849 = ~Ouch! How come all your clubses be so spikey? Cespenar think he has cheesecloth somewhere to help with that...~ [FWCESP09]
+@5678949 = ~Or maybe you just want better club? Can take Bone Club and Gnashers and make Fulcrum. Hurts people who don't like "the balance." Cespenar try to stay away from politics, though, so he just takes 15,000 gold and makes the club and forgets about it, okay?~
+
+@567850 = ~Cespenar never understand why clerics allowed to make your head a bloody pulp but can't use butter knife. Weeeeeeeeeird.~ [FWCESP10]
+@5678950 = ~Anyway, you got good Skullcrusher mace. Cespenar can make much better with Finger of Death scroll, CURSED potion of healing (good cocktail mixer!) and 15,000 gold. And 3 clothespins from Matron Mother's undies drawer. Cespenar kidding about that part.~
+
+// newby
+
+@567851 = ~Hrrrrruuuhhh... hrrrruuuuhhh... hyyyyaaaaaaahhhhh! Oooh, this bow hard to bend! Cespenar would offer to shoot arrow off the Great One's head, but remember what happened when missed apple and hit Bhaal's nose. Cespenar not able to sit down for a tenday!~ [FWCESP11]
+@5678951 = ~You gots a nice bow, but can make much better with recipe for Teleomortis. Arrows appear in your hand, amazes your friends and enemieses. Needs lots of important materials: Gesen String or Gond String, four Laeral's Tears and Potion of Power for brewing, though.~
+
+@567854 = ~Oooh! Very sharp suits. Careful, mister, Cespenar not dusted yet today... if you sneeze, face may freeze that way. Tee hee hee! You know, some people say that Valygar is a bad mother... shut Cespenar's mouth? Cespenar just talking about Valygar!~ [FWCESP12]
+@5678954 = ~Can do a lot with two good suits, can make one really good suit! Lots of protections from most bad things like fire and acid! No need for matching cufflinks, just give Cespenar 10,000 gold and Scroll of Protection from Magic.~
+
+@567855 = ~Cespenar once have smoking jacket... was gift from very good friend, got lost at cleaners. You maybe have somethings to do with it? This lookings very familiar...~ [FWCESP13]
+// @5678955 = ~Oh, is just Robe of Archmage Peoples. Good recipe so name not be so silly. Cespenar needs Ring of Protection +1, Scrolls of Spirit Armor and Contingency and 20,000 gold. Cast more spells, be like REAL ARCHMAGE!~
+@56789955 = ~Oh, is just Robe of Archmage Peoples. Good recipe so name not be so silly. Cespenar needs Cloak of Protection +1, Scrolls of Spirit Armor and Contingency and 20,000 gold. Cast more spells, be like REAL ARCHMAGE!~
+
+@567859 = ~You ever not have pot to piss in? Youse know that saying? Cespenar suggest you use helmet, then. Someone else's helmet.~ [FWCESP14]
+@5678959 = ~If you does have extra pots, maybe Cespenar combine your big head pots for you! Good recipe smushes Helm of Defense and Helm of Charm Protection together. Need 4 pearls and 10,000 gold. Sounds good, yes?~
+
+@567860 = ~Oooh! Cespenar could use for mixing bowl, if you no need this helmet anymore.~ [FWCESP15]
+@5678960 = ~How about recipe of Tower of Iron Will? Use Helm of Charm Protection, two Brine Love Juices potions from Mind Flayers (don't tell Cespenar how you gots them) and 10,000 gold. Keeps big people's heads even safer.~
+
+@567861 = ~You maybe want this hung on the wall? Most peoples don't want fireplace in Hell but maybe we can get one and make into floor rug.~ [FWCESP16]
+@5678961 = ~Or maybe you just want made shinier. Take Aeger's Hide, Scroll of Protection from the Elements, and 15,000 gold, and make stronger and make weather stuff hurt less. Cespenar never allowed to REALLY be creative.~
+
+@567862 = ~How you get orange goody two-shoes armor, anyway? Armor out in sun too long? Tee hee hee...~ [FWCESP17]
+@5678962 = ~Maybe Cespenar can make better by smelting down with Armor of the Hart and throwing in 20,000 gold. Could be less but Cespenar had to discontinue goody two-shoes discount, bad for reputation.~
+
+@567863 = ~You still wearing big bug on shoulders? You meets lots of new peoples that way?~ [FWCESP18]
+@5678963 = ~You give Cespenar both kinds of Protection From Acid scrolls and 5,000 gold and Cespenar make bug work harder. Even shoot acid arrows at peoples!~
+
+@567864 = ~Awww, this is most adorable shield Cespenar ever see! Can maybe use for serving tray when company comes over?~ [FWCESP19]
+@5678964 = ~Hard to make good thing better, but if you gots two Mind Flayer brine drinks, weird control circles from same octopus-heads, and beljuril gem and 10,000 gold, Cespenar make you immune to Psionics, too.~
+
+@567865 = ~This reminds Cespenar of veeeeery long toothpick. Open wide, Cespenar is good servant, even clean your molars! Tee hee hee!~ [FWCESP20]
+@5678965 = ~How come you keep glued to your hand? Afraid it never comes back? Simple recipe: 10,000 gold and rogue stone, and spear will always come back if you throw it a looooooong way.~
+
+@567866 = ~What is this? Big lollipop on a stick? How come Cespenar never gets a lick?~ [FWCESP21]
+@5678966 = ~Oh, is unicorn horn. And pointy, too. Why don't youse start throwing this spear? Just give Cespenar Rogue Stone and 10,000 gold and you makes out like a wild spear-chucking bandit!~
+
+@567867 = ~You likes fishing? Maybe go fishing for big whale with this. Then you needs place to tie it, but that not Cespenar's problem.~ [FWCESP22]
+@5678967 = ~Make Impaler hurt so good from a very long way away. Needs just 15,000 gold and Rogue Stone. I really uses those things, I don't just ask for them for fun. Careful when spear comes back...if you miss, it will HURT! Ow!~
+
+@567868 = ~Nice big staff. Is bark worse than its bite? Tee hee hee...~ [FWCESP23]
+@5678968 = ~Cespenar can swing great new recipe for new Staff of the Woodlands. You gives Cespenar Ring of Protection +1, Ring of Animal Friendship and 20,000 gold, and we gets new staff that recharges and even does big nasties when you hit peoples!~
+
+@567869 = ~Ooooh! You got shiniest of all shiny longswords! I bet you killed a vampire or two with this baby! En garde, bloodsuckers! Cespenar will smite thee!~ [FWCESP24]
+@5678969 = ~Maybe you like better Daystar? You gots to give me good stuff, like four scrolls of Protection from Undead, two vials of elven holy water, two star sapphires and 15,000 gold, but Cespenar can hardly steer the Great One wrong! You gets more Sunrays and Protection from Evil. Needs must I begin?~
+
+@567870 = ~Oh, most honorable Great One-san! Can youse believe that Celestial Fury not looking so good anymore?~ [FWCESP25]
+@5678970 = ~Cespenar have nice quick recipe to fix that! Well, is maybe not so quick. You gots Wand of Lightning? How about spare demon heart? Stiiiinky, I know, but they comes in handy for strangest things. Oh, and 20,000 gold be needed as well.~
+
+@567871 = ~You got the littlest paladin goody two-shoes? Cespenar got storybook in his attic that mention something like that.~ [FWCESP26]
+@5678971 = ~Can make sword much better. Special discount for not so big peoples, just need to think good thoughts and give Cespenar 15,000 gold! You not find better deal this side of Limbo!~
+
+@567872 = ~Cespenar very very impressed to have goody two-shoes peoples with the Great One! You maybe want to still be using signature weapon to help the Great One?~ [FWCESP27]
+@5678972 = ~Cespenar knows Priest of Torm who will re-Hallow the Redeemer and give neatness like dispelling magic and silencing other peoples. Need extra demon heart (Cespenar fresh out), five scrolls of Dispel Magic and 15,000 gold, plus heart of gold. Would be less money, but Cespenar have to pay per-use license on recipe to goody two-shoes lawyer peoples. They strongarm poor Cespenar.~
+
+@567873 = ~Oh boy! More serving platters! Cespenar running out of table settings for Great One's banquets!~ [FWCESP28]
+@5678973 = ~Wait... I knows recipe for big serving platters shield things. Take Delryn Family Shield and Saving Grace platter, and use 15,000 gold to make Delryn Shield protect more! Or we just keeps extra trays for company.~
+
+@567874 = ~What? You no like talking sword? What if you gets buried in deep dark hole and only gots sword to talk to? You be grateful, then!~ [FWCESP29]
+@5678974 = ~But, hmmmm, Cespenar sees Mind Flayer Control Circlet, can use to make Lilarcor stronger, keep nasty mind flayers from suckings your brains out through straw, too! And Larry can't talk to youse no more. It would be sad, and it woulds costs you 20,000 gold, too.~
+
+@567875 = ~You ever think of making love, not war? You sure gots lots of knives here... ~ [FWCESP30]
+@5678975 = ~Ahhhh, Cespenar have good idea! Make good dagger for sneaky peoples. Take Bone Blade and Pixie Prick and make dagger of very very good backstabbing and sleepiness! Needs must add four potions of Master Thievery and pay 15,000 gold, but then enemies never know what hit them, POW!~
+
+// ....
+
+@567879 = ~Oooh, someone talk you into Ammunition of Plenty? Is like bad penny... guess Cespenar needs must throw this in river again, this time with bigger weight attached!~ [FWCESP31]
+@5678979 = ~Or maybe we try something different this time and use new recipe. You gots 40 +3 missiles and 40,000 gold and then we make Ammunitions of Plenty +3. Think of all the money you be saving on missiles! Unless youse invested in fancy long-term bonds, then youse probably make out even better.~
+
+
+@567880 = ~Yes, upgrade the Quiver.~
+@567881 = ~Yes, upgrade the Case.~
+@567882 = ~Yes, upgrade the Bag.~
+
+@567883 = ~Looks like big peoples on clothes hanger. Hello, big peoples! Wave to Cespenar, you gets worn around now by the Great One!~ [FWCESP32]
+@5678983 = ~Cespenar no taxidermist but can take Human Flesh and combine with Soulstone and Scroll of Protection from Magic and 20,000 gold and make much shinier. Make you healthier and stronger. Can't say same for big peoples you wearing.~
+
+@567884 = ~Where you find this? Bhaal look all over for this, never find it! Him wanted to hang over doorway as decoration... Cespenar talk him into roses, but that was soooooome fight...~ [FWCESP33]
+@5678984 = ~Very very devious recipe for Soul Reaver. Take Heart of the Damned and ultimate sword of goody two-shoesness and 20,000 gold, make Soul Reaver super-super deadly! When goody two-shoes come asking, you no tell them it was Cespenar's idea!~
+
+@567885 = ~Ooh, shiny symbol of old Sun God! Amaunator and Bhaal never really got along. Old dispute involving demons, sunlight and this one blessed goat. Very sad story. After goat died, Ammy never came back over for tea.~ [FWCESP34]
+@5678985 = ~Anyway, can puts holy symbol into buckler. Add one Sunstone Gem for each finger and 10,000 gold, make shiny shield for scaring undead nasties. You want?~
+
+@567886 = ~Thiefy sneakings, I see. Youse going to pick Cespenar's pockets? Wait! Cespenar has no pockets. Ha! Don't feel bad. I'm sure there will be lots of baddies for you to loot later.~ [FWCESP35]
+@5678986 = ~In the mean-time, I have a recipe for thiefy accesories. Quite the fashion plate: gloveses of pick pocketing and defense, rings of danger senses and lock picking, two rings of protection. With 5,000 gold I can make one big shiny one.~
+
+@567887 = ~Ah, sparkly jewels you haves. Very poor color coordination, however.  Perhaps Cespenar can help you with that later. Some mauve would really bring out your eyes? No?~ [FWCESP36]
+@5678987 = ~Anyway, Cespenar can smash together two Amulets of Protection, a Periapt of Proof against Poison, a Necklace of Form Stability and an Amulet of Spell Warding. That's a lot of chains an jewels! Obtain minor blessing from good friend Ilmater (for some reason, Ilmater have soft-spot for poor Cespenar) and presto! Youse wants for 10,000 gold?~
+
+@567888 = ~Swish-swash! Blade of water would be much more fun than just splashing around. Youse a fencer, perhaps? Cespenar have recipe that work very well for speedy lunges.~ [FWCESP37]
+@5678988 = ~With Water's Edge, Rashad's Talon and Adjatha the Drinker, can make big water-themed sword. Not so big, really, but still very nice. Hope you likes poison! Have 15,000 gold for the job?~
+
+@567889 = ~Oooh, shiny axe that kills evil things. You trying to kill Cespenar? Oh wait, only works on undead, not demons. Very scary for a moment. Cespenar sees life pass before eyes: too much bowing, not enough scraping. Must rectify.~ [FWCESP38]
+@5678989 = ~Anyway, pink not really your color. Could apply coating of illithium to Azuredge, make it a much more refined purple. Also grant some extra undead-smiting powers and protections. 20,000 gold. You like?~
+
+@567890 = ~I spy a ring clinking on your finger! Too many rings for youse fingers? Is big problem, Cespenar know. Soo many sparklies, so few claws.~ [FWCESP39]
+@5678990 = ~Tell you what. Cespenar can merge together your rings of Wizardy and Acuity, along with old-forgotten Metaspell Amulet and standard Ring of Protection to form Sorcerian Ring. Very nice for the mages. You like, for 20,000 gold?~
+
+@567892 = ~Can you improve on this girdle?~
+
+@567893 = ~Ooh, belts are quite the fashion this season. Wonder why all of these look sort of beige? Must be this horrid pocket-plane lighting. Always make Cespenar look tired.~ [FWCESP40]
+// @5678993 = ~Anyway, if youse have three belts of protection, I have recipe for combining them into one really thick belt. If you hide behind it, enemies cannot hurt you. Such a deal. You like, for 10,000 gold?~
+@56789993 = ~Anyway, if youse have three belts of protection, I have recipe for combining them into one really thick belt. If you hide behind it, enemies cannot hurt you. Such a deal, but need three bloodstones all of same type. You like, for 10,000 gold?~
+
+@567895 = ~Might you upgrade this Black Spider Figurine?~
+@567896 = ~Ooh, sneaky-sneaky! You want Cespenar to make your friendly neighborhood spider figurine more amazing? Add some web spinners, maybe? You want to terrorize a certain goblin?~ [FWCESP41]
+@5678996 = ~Cesepnar's senses are tingling at the thought. However, need special materials to upgrade this wall-crawler. Must have scrolls of Spider Spawn and Web, plus five poisoned throwing daggers. Also 5,000 gold. You want?~
+
+@567897 = ~Can Chaos and Entropy be improved?~
+@567898 = ~Short swords? Takes secure guy to use short swords, if you catch Cespenar's drift. But need more thwacking power, eh? Okay, here's what Cespenar can do. Get bewilderment scroll and malison scroll, mix with Ilbratha and Arbane, and short swords will be even more worthy of being called Abyssal Weapons! Oh, Cespenar also needs 25,000 gold. And a Rogue stone, unless you want to be picking up pieces of Cespenar all over pocket plane. Um, that not suggestion.~ [FWCESP42]
+
+@567899 = ~Can you forge me some elven chain?~
+@5678100 = ~Oooh Yes! You likes things hot and spicy? Cespenar stir-fry together some elven chain with some red dragon scales. Add shiitake mushrooms, some andar spices and fire agate peppers and presto: very light, very hot, very filling. Cespenar quite the iron chef ... or perhaps the culinary forger. Unfortunately, special wok and peanut oil will set you back 25,000 gold. You still want?~ [FWCESP43]

@@ -1,0 +1,1050 @@
+@1       = ~Item Upgrade para Shadows of Amn~
+@2       = ~Item Upgrade para Trone of Bhaal~
+@3       = ~No se pudo encontrar [Data\25Dialog.bif], lo cual lleva a suponer que actualmente no tienes instalado el Trone of Bhaal. ¡Lo siento!.~ 
+@100     = ~Anillo de Conservación +1~
+@101     = ~Anillo de Conservación +1: 'Anillo del príncipe Troll'
+
+Este anillo fue forjado mágicamente para <CHARNAME>. Combina los poderes de abjuración de los anillos de protección del Rey Castter De'wess'con los poderes regenerativos de los anillos de regeneración basados en trolls. En suma, un anillo muy elegante.
+
+ESTADÍSTICAS:
+
+El portador regenera 1 punto de vida cada 6 segundos
+Clase de Armadura: Bonificador +1
+Tiradas de Salvación: Bonificador +1~ 
+@102     = ~Anillo de Conservación +2~
+@103     = ~Anillo de Conservación +2: 'Anillo del Troll Guardián'
+
+Este anillo fue mágicamente creado para <CHARNAME>. Combina los poderes de abjuración del anillo de protección del guardián de la Princesa Akanal con los poderes de regeneración de los anillos basados en los trolls. En suma, es un anillo muy elegante.
+
+ESTADÍSTICAS:
+
+El portador regenera 1 punto de vida cada 6 segundos
+Clase de Armadura: Bonificador +2
+Tiradas de Salvación: Bonificador +2~
+@104     = ~Anillo de Maestría Elemental~ 
+@105     = ~Anillo de Maestría Elemental
+
+Este anillo contiene la fuerza de los elementos de la Tierra, el Aire y el Fuego y garantiza al usuario el dominio de todas las criaturas que provengan de esos planos. Este anillo fue creado para <CHARNAME> y no hay duda de que su fama no tardará en crecer con <PRO_HIMHER>. 
+
+ESTADÍSTICAS:
+
+Dominar Elemental tres veces por día por 60 segundos (sin tirada de salvación).
+Convocar un elemental de Tierra, Aire y Fuego (una vez por día, 300 segundos, siempre aliado). 
+Invisibilidad Mejorada una vez por día por 60 segundos. 
+Resistencia al fuego: Bonificador de 50%
+Resistencia a la Electricidad: Bonificador de 50%
+Clase de Armadura: Bonificador +1
+Tiradas de Salvación: Bonificador +1~
+@106     = ~Bastón de Maestría Elemental~ 
+@107     = ~Bastón de Maestría Elemental +5
+
+Conectado a tres de los planos elementales, este poderoso bastón fue forjado a pedido de <CHARNAME>. Es un arma potente por sí misma, pero también posee el poder de la vida o la muerte sobre las criaturas elementales. Este bastón particular está frío al tacto y está cubierto con marcas incinerantes y pequeños trazos. Los rumores dicen que el secreto de este tipo de construcción fue originalmente descubierto por los Rakshasa, quienes fueron los primeros en usarlo para crear el Mayal de las Edades. 
+
+ESTADÍSTICAS:
+
+Habilidades de Combate: Si un elemental de Tierra, Fuego o Aire es golpeado será destruido.
+Convoca un elemental de Tierra, Aire o Fuego (una vez por día, 300 segundos, siempre aliado). 
+Lanza Escudo Ígneo: Rojo (Dos veces por día, 78 segundos).
+Nube de Sueño (dos veces por día, alcance 40, salvación contra veneno o duerme por 18 segundos).
+
+THAC0: Bonificador +5
+Daño: 1D6 +5
+Tipo de daño: Contundente
+Peso: 3
+Factor de Velocidad: 0
+Tipo de Talento: Bastón
+Clase: 2 manos
+Requerimientos: Fuerza 5~
+@108     = ~Carcaj de la Plenitud +3~
+@109     = ~Carcaj de la Plenitud +3
+
+El dinero y los recursos que invertisteis en el Carcaj de la Plenitud resultaron en un objeto con propiedades mágicas realmente asombrosas. 
+ 
+ESTADÍSTICAS:
+ 
+Flechas +3 ilimitadas~ 
+@110     = ~Estuche de la Plenitud +3~
+@111     = ~Estuche de la Plenitud +3
+
+El dinero y los recursos que invertisteis en el Estuche de la Plenitud resultaron en un objeto con propiedades mágicas realmente asombrosas. 
+ 
+ESTADÍSTICAS:
+ 
+Saetas +3 ilimitadas~ 
+@112     = ~Mochila de la Plenitud +3~
+@113     = ~Mochila de la Plenitud +3
+
+El dinero y los recursos que invertisteis en el Carcaj de la Plenitud resultaron en un objeto con propiedades mágicas realmente asombrosas. De algún modo, esto no es sorpresa. ¿Alguna vez habéis invertido dinero y recursos en un objeto mágico sólo para descubrir que no os sirve para nada? No lo creo. 
+
+ESTADÍSTICAS:
+ 
+Balas de honda +3 ilimitadas~
+@114     = ~Botas de Velocidad Sigilosa~
+@115     = ~Botas de Velocidad Sigilosa
+
+Perfectas para las personas que exploran grandes distancias y que desean permanecer sin ser detectados, las Botas del Velocidad Sigilosa combina todos los poderes de las Botas de Velocidad y las Botas del Sigilo. Fueron hechas a pedido para <CHARNAME>. 
+
+Habilidades equipadas: Incrementa el índice de movimiento
+Bonificador a moverse silenciosamente: +20%
+Bonificador a esconderse en las sombras: +15%
+Peso: 4~ 
+@116     = ~Botas de la Tormenta~
+@117     = ~Botas de la Tormenta
+
+Perfectas para un aventurero dispuesto a asaltar la guarida de trolls de hielo o algún otro lugar helado, las Botas de la Tormenta combina los poderes de las Botas de Velocidad y las Botas del Norte. Fueron encargadas por <CHARNAME>. 
+
+ESTADÍSTICAS:
+
+Habilidad equipada: Incrementa el índice de movimiento
+Resistencia al frió: +50%
+Peso: 4~ 
+@118     = ~Botas del Avispón~ 
+@119     = ~Botas del Avispón
+
+Las Botas del Avispón aún no han sido superadas en incrementar la velocidad de la persona que las usa. Combinando los poderes de las Botas de Evasión y las Botas de Velocidad, estas botas hacen my difícil acertarle a su afortunado portador.
+
+ESTADÍSTICAS:
+
+Bonificador a la Clase de Armadura: +5 contra Proyectiles
+Habilidad equipada: Incrementa el índice de movimiento
+Peso: 4~
+@120     = ~Talones del Señor de la Tormenta~ 
+@121     = ~Talones del Señor de la Tormenta
+
+Perfectos para un día de relajación asaltando un templo de Talos o luchando contra elementales de aire, los Talones del Señor de la Tormenta combinan los poderes de las Botas de Contacto con la Tierra y las Botas de Velocidad. Fueron encargadas por <CHARNAME>.
+
+ESTADÍSTICAS:
+
+Habilidad equipada: Incrementa el índice de movimiento
+Resistencia a la electricidad: +50%
+Peso: 4~
+@122     = ~Garrote +5: Pitchwife~
+@123     = ~Garrote +5: Pitchwife
+
+Forjada para <CHARNAME> con una aleación de amalgama, el garrote ácido Blackblood y el garrote espinoso Gnasher, Pitchwife vibra con un poder destructivo. Cubierto con una sustancia como alquitrán que quema la carne al contacto, Pitchwife también deja astillas o espinas venenosas en la herida. 
+
+Habilidades equipadas: 25% de resistencia al ácido
+THAC0: Bonificador +5
+Daño: 1D6 + 5, +5 por ácido, las astillas añaden 3 puntos de daño extra por asalto durante cuatro asaltos.
+Tipo de daño: Contundente
+Peso: 3
+Factor de Velocidad: 1 
+Tipo de Talento: Garrote
+Clase: 1 mano
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El mago~
+@124     = ~Maza +5: Aplastacráneos~
+@125     = ~Maza +5: Aplastacráneos
+
+Esta maza está permanentemente ensangrentada; un detalle por estar tantos años aplastando cabezas. El arma ha sido la maldición de varias personas a lo largo de su historia, pero aquellos que la portaron quedaron marcados en los récords históricos. Recientemente Aplastacráneos fue reforjada en un arma aún más aterradora por <CHARNAME>. 
+
+ESTADÍSTICAS:
+
+THAC0: Bonificador +5
+Daño: 1D6 + 6, +6 daño extra a humanoides, baja los puntos de golpe máximos del objetivo en 2 por 10 asaltos
+Tipo de daño: contundente
+Peso: 6
+Factor de Velocidad: 2
+Tipo de Talento: Maza
+Clase: 1 mano
+Requerimientos: Fuerza 10
+No lo puede usar:
+ El druida
+ El mago
+ El ladrón~
+@126     = ~Teleomortis +4~
+@127     = ~Teleomortis +4
+
+Armado en nombre de <CHARNAME> empleado en un oscuro y horrible ritual, Teleomortis es un arco largo compuesto con un poder incomparable. Cuando la cuerda es tensada, la fantasmal forma de una flecha, parecería parpadear y fondearse en la luz. Así este arco no necesita munición extra (aunque puede usar lo más bien las flechas mundanas). Las flechas fantasmales asociadas con Teleomortis desgarran la mente en una manera inescrutable, dando a entender los secretos que no han sido desenterrados en este plano. 
+
+ESTADÍSTICAS:
+
+Habilidades de combate: Crea sus propias fechas fantasmales +4. Un objetivo golpeado con una de estas tiene un 5% de probabilidades de confundir a su objetivo por 30 segundos. 
+THAC0: +4
+Daño: 1D6 +4
+Peso: 7
+Factor de Velocidad: 1
+Tipo de Talento: Arco largo
+Clase: 2 manos
+Requerimientos: Fuerza 18
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago
+ El ladón
+ El bardo~
+@128     = ~Armadura de la familia Corthala~
+@129     = ~Armadura de la familia Corthala
+
+Esta armadura, antigua en la descendencia Corthala, protege al usuario contra todas las formas de ataque. La armadura fue combinada con la Armadura de escamas de Dragón de las Sombras y ahora es aún mejor protegiendo a Valygar. Esta armadura está encantada para que le conceda a Valygar un bonificador de +5 en su Clase de Armadura. También añade un bonificador de resistencia al ácido, al fuego y al daño mágico. También hace a Valygar inmune al dominio o hechizar mientras la usa. Finalmente, la armadura da a Valygar la no-detección mientras está equipada. Como está especialmente diseñada para Valygar, pocos más pueden usarla.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Inmune a hechizar, No-detección
+Bonificadores: +50% de resistencia al fuego, ácido, y daño mágico
+Clase de Armadura: 0
+Peso: 9
+Sólo lo puede usar: 
+ Valygar~
+@130     = ~Manto encantado del Buen Archimago~
+@131     = ~Manto encantado del Buen Archimago
+
+Este poderoso manto de mago ofrece protección contra todas las formas de ataque psíquico mientras al mismo tiempo incrementa la resistencia mágica y las tiradas de salvación del que lo usa. Debido a la naturaleza de sus encantamientos, éste sólo puede ser usado por magos de alineamiento bueno. Este manto en particular fue encantado por <CHARNAME>.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Memorizar un conjuro extra de mago de primer, segundo, tercer y cuarto nivel. 
+Clase de Armadura: 3
+Resistencia mágica: 10%
+Tirada de salvación: Bonificador +2
+Peso: 6 
+Sólo lo puede usar:
+ El mago (simple, dual o multiclase)
+ Personajes de alineamiento bueno~
+@132     = ~Manto encantado del Archimago Neutral~
+@133     = ~Manto encantado del Archimago Neutral
+
+Este poderoso manto de mago ofrece protección contra todas las formas de ataque psíquico mientras al mismo tiempo incrementa la resistencia mágica y las tiradas de salvación del que lo usa. Debido a la naturaleza de sus encantamientos, éste sólo puede ser usado por magos de alineamiento neutral. Este manto en particular fue encantado por <CHARNAME>.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Memorizar un conjuro de mago extra de primer, segundo, tercer y cuarto nivel. 
+Clase de Armadura: 3
+Resistencia mágica: 10%
+Tirada de salvación: Bonificador +2
+Peso: 6 
+Sólo lo puede usar:
+ El mago (simple, dual o multiclase)
+ Personajes de alineamiento neutral~
+@134     = ~Manto encantado del Archimago Maligno~
+@135     = ~Manto encantado del Archimago Maligno
+
+Este poderoso manto de mago ofrece protección contra todas las formas de ataque psíquico mientras al mismo tiempo incrementa la resistencia mágica y las tiradas de salvación del que lo usa. Debido a la naturaleza de sus encantamientos, éste sólo puede ser usado por magos de alineamiento maligno. Este manto en particular fue encantado por <CHARNAME>.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Memorizar un conjuro de mago extra de primer, segundo, tercer y cuarto nivel. 
+Clase de Armadura: 3
+Resistencia mágica: 10%
+Tirada de salvación: Bonificador +2
+Peso: 6 
+Sólo lo puede usar:
+ El mago (simple, dual o multiclase)
+ Personajes de alineamiento maligno~
+@136     = ~Casco Citadino~
+@137     = ~Casco Citadino
+
+Forjado a pedido de <CHARNAME>, el Helmo Citadino protege a su portador contra asaltos psíquicos, mágicos y mentales. Combina los poderes defensivos del Yelmo de Protección contra Hechizar y del Yelmo de la Defensa. En suma, se ve vagamente imponente. 
+
+ESTADÍSTICAS:
+
+Bonificación a la clase de armadura: ninguna
+Especial: El portador es inmune al Dominio
+Tiradas de Salvación: Bonificador +1
+Resistencia a la Electricidad: +20%
+Resistencia al frío: +20%
+Resistencia al fuego: +20%
+Especial: Protege contra golpes críticos
+Peso: 3
+No lo puede usar:
+ El mago 
+ El bardo
+ El ladrón~
+@138     = ~Torre de la Voluntad de Hierro~
+@139     = ~Torre de la Voluntad de Hierro 
+
+Forjado a pedido de <CHARNAME>, la Torre de la Voluntad de Hierro protege a su portador contra ataques mentales. Este proporciona todas las defensas estándar asociadas con el Yelmo de Protección contra Hechizar y también hace al portador inmune a los ataques psíquicos. Nótese que el portador no está protegido contra los ataques que drenan la inteligencia de los Ilícidos.
+
+ESTADÍSTICAS:
+
+Especial: El portador es inmune a Dominar y ataques psíquicos
+Especial: Protege contra golpes críticos
+Peso: 3
+No lo puede usar:
+ El mago
+ El bardo
+ El ladrón~
+@140     = ~Piel de Aeger +5~
+@141     = ~Piel de Aeger +5
+
+Esta pesada y gruesa piel de oso es todo lo que quedó del legendario Aeger. Cientos de años atrás el Aeger, un oso gigante, aterrorizó cientos de pequeñas villas a lo largo de la Costa de la Espada. El oso era invulnerable al fuego, frío o ácido. Finalmente los jóvenes de muchas aldeas se agruparon, formando una milicia de casi doscientos jóvenes fuertes. El Aeger fue cercado y finalmente asesinado. Sobrevivieron menos de una docena de aldeanos, y cortaron la piel de Aegis ellos mismos. De una de esas piezas fue creada esta armadura.
+
+Más recientemente, <CHARNAME> dispuso de la piel de Aeger para ser mejorada con encantamientos adicionales. Esta ahora concede una gran resistencia a ataques psíquicos y elementales.
+
+ESTADÍSTICAS:
+
+Bonificadores: +25% de resistencia al fuego, frío y ácido
+Inmune a confusión
+Clase de Armadura: 1
+Peso: 35
+Requerimientos: Fuerza 6
+No lo puede usar:
+ El mago~
+@142     = ~Carne humana mejorada~
+@143     = ~Carne humana mejorada
+
+Hecha de piel humana y tratada con la sangre de un dragón noble y combinada con el alma de una chica inocente y poderosa magia protectora, esta armadura emite el hedor de una amarga muerte. Esta armadura malévola sólo puede ser usada por una persona verdaderamente maligna. Este es el pináculo de la protección vil. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 0 
+Tiradas de Salvación: Bonificador +4
+Resistencia mágica: Bonificador +20%
+Habilidades equipadas: Bonificador +1 a la destreza y constitución, inmunidad al veneno, protección contra el bien.
+Peso: 5 
+Requerimientos: Fuerza 3
+No lo puede usar:
+ El mago
+ Personajes sin alineamiento maligno~
+@144     = ~Armadura de Placas Completa Levafuego mejorada~
+@145     = ~Armadura de Placas Completa Levafuego mejorada
+
+Este equipo de armadura fue designada originalmente para Keldorn y pocos más pueden usarla. Luego fue encantada de nuevo a pedido de <CHARNAME> y ahora proporciona a Keldorn aún más protección. Mientras está equipada proporciona al portador un bonificador de +2 a todas las tiradas de salvación y le concede acción libre (puede pasar a través de la telaraña y otros efectos similares) e inmunidad al miedo. A pesar de ser increíblemente fuerte, esta armadura es casi eterea. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: -2
+Bonificador a las tiradas de salvación: +2
+Habilidades equipadas: Acción libre, inmunidad al miedo
+Peso: 10
+Sólo la puede usar:
+  Keldorn~
+@146     = ~Cota de láminas de Ankheng mejorada~
+@147     = ~Cota de láminas de Ankheng mejorada
+
+Esta armadura fue hecha por una mano experta. Enfundado en las duras escamas del Ankheng, proporciona una protección muy superior a la cota de láminas tradicional y no es vulnerable al óxido. Sin embargo, como cualquier aventurero que haya visto mundo os diría, el aspecto más apreciado de esta armadura es su peso liviano y que casi no estorba. Los monstruos vienen y van, pero la fatiga es un enemigo constante. 
+
+Esta armadura de Ankheng en particular fue reforjada para <CHARNAME>. Ahora proporciona protección adicional contra los ataques en refriega o de ácido y permite al portador copiar el ataque de escupir ácido del Ankheng.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: -1
+Habilidades equipadas: +50% de resistencia al ácido
+Habilidades de combate: Lanza Flecha ácida de Melf tres veces por día
+Peso: 25
+Requerimientos: Fuerza 8
+No lo puede usar:
+ El bardo
+ El druida
+ El mago
+ El ladrón~
+@148     = ~Escudo de la Armonía +3~
+@149     = ~Escudo de la Armonía +3
+
+Audn del Campo, Campeón del mago Kekkim, llevó este escudo la mayor parte de su vida. Este protege al que lo lleva de la mayoría de las formas de control mental, un beneficio para un mago quien necesita aliados guerreros para mantenerlos fielmente a su lado. Kekkim y Audn tuvieron desde entonces que regresar a la tierra, dejando el escudo en la torre de Kekkim.
+
+Más recientemente este escudo fue redescubierto por <CHARNAME>. Ahora proporciona defensas psíquicas extra y hace a su usuario inmune a los psiónicos (Pero no a la drenada de inteligencia de los Ilícidos). 
+
+ESTADÍSTICAS: 
+
+Habilidades: Inmunidad a dominar, paralizar, psiónicos y confusión
+Bonificador a la clase de armadura: 4
+Peso: 2
+Requerimientos: Fuerza 4
+No lo puede usar:
+ El bardo
+ El druida
+ El mago
+ El ladrón~
+@150     = ~Lanza arrojadiza +3~
+@151     = ~Lanza arrojadiza +3
+
+Una de las armas más antiguas del hombre, usada desde los tiempos primitivos. Las primeras lanzas fueron simples varas de madera afiladas en la punta. Cuando el hombre comenzó a trabajar el metal, las cabezas de la lanza fueron hechas de hierro y acero. Esta lanza vibra con la poderosa magia que fue usada en su creación.
+
+A diferencia de casi todas las otras lanzas que hayáis visto, esta lanza puede ser arrojada. Fue fraguada para <CHARNAME> con la ayuda de una Piedra del Bribón. Luego de arrojarla, la lanza inmediatamente regresa a las manos del portador. (La lanza también puede ser usada como un arma de refriega: para eso seleccionad la segunda habilidad del objeto.) 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: 1 ataque adicional por asalto (el mismo alcance que un arco largo)
+THAC0: Bonificador +3
+Daño: 1D6 +3
+Tipo de daño: Perforante
+Peso: 3
+Factor de Velocidad: 3
+Tipo de Talento: Lanza
+Clase: 2 manos
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El clérigo
+ El mago
+ El ladrón~
+@152     = ~Lanza arrojadiza +3 del unicornio~
+@153     = ~Lanza arrojadiza +3 del unicornio
+
+Esta graciosa lanza fue tallada para asemejarse al largo cuerno de un unicornio. Los portadores de esta lanza son inmunes a los conjuros de dominio o parálisis, justo como un unicornio debe serlo. Si el cuerno es o no es de un unicornio real es un tema muy discutido.
+
+La lanza del Unicornio original fue reconstruida por <CHARNAME> para servir como un arma de alcance. Cuando es arrojada, la lanza vuelve inmediatamente a la mano del usuario. La proximidad del retorno puede explicar como un arma arrojadiza puede tener efectos continuos en su portador. O quizás es sólo magia. (La lanza también puede ser usada como arma de refriega: para eso seleccionad la segunda habilidad del objeto.) 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Inmunidad a hechizar y paralizar, +3 a todas las tiradas de salvación contra la muerte
+THAC0: Bonificador +3
+Daño: 1D6 +3, +2 por daño de fuego
+Tipo de daño: Perforante
+Peso: 3
+Factor de Velocidad: 3
+Tipo de Talento: Lanza
+Clase: 2 manos
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El clérigo
+ El mago
+ El ladrón~
+@154     = ~Empaladora Arrojadiza +4~
+@155     = ~Empaladora Arrojadiza +4
+
+La Empaladora tiene un aura palpable de magia que sugiere la naturaleza cruel de esta arma y de por qué fue la favorita de numerosos caciques orcos muy poderosos en el pasado. Cuando la víctima es golpeada es, como suponéis, gravemente empalada, y una gran cantidad de encantamientos terminan de hacer el trabajo.
+
+Luego de que <CHARNAME> "liberó" la Empaladora de la ciudad Sahuagin, <PRO_HESHE> luego que rediseñarla en un arma arrojadiza. Cuando es arrojada, la lanza regresa inmediatamente a las manos del portador. (También puede ser usada como un arma de refriega: Para hacer eso, seleccionad la segunda habilidad del objeto.) 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: 1 ataque adicional por asalto (el mismo alcance que un arco largo)
+THAC0: Bonificador +4
+Daño: 1D6 +4, +10 por daño perforante
+Tipo de daño: Perforante
+Peso: 3
+Factor de Velocidad: 2
+Tipo de Talento: Lanza
+Clase: 2 manos
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El clérigo
+ El mago
+ El ladrón~
+@156     = ~Bastón de los Bosques +5~
+@157     = ~Bastón de los Bosques +5
+
+Conocido como el "salvaje hombre de los bosques", el hombre que llevó este bastón fue una figura legendaria cerca de Caravasar hasta el día que murió y regresó a la tierra. Aquellos que lo conocieron recuerdan su piel oscura y como un ladrillo, una característica que se desvanecería si el bastón lo abandonara. El acosaría a leñadores y cazadores irresponsables, y los veteranos cuentan de mercenarios que lo perseguían con más de una docena de perros de caza. Los animales parecían estar listos para reducir al pobre druida a pedazos, pero él rápidamente se volvió y los transformó en sus vasallos. Apresurándose y esperando que terminara su influencia, los hombres armados finalmente vieron el poder del bastón, y como la vegetación vibraba ante el llamado del "Salvaje hombre de los Bosques", allí formaron una verde y podrida mezcla de vida y muerte que se abalanzó sobre los aterrorizados soldados, matándolos a todos.
+
+Recientemente el bastón fue reencantado por <CHARNAME> para darle unas habilidades en refriega ligeramente mejoradas. 
+
+ESTADÍSTICAS:
+
+AC: Bonificador +3
+Habilidades equipadas: Piel de Corteza (AC 3)
+
+Habilidades de uso:
+Convocar Montículo Arrastrante (seis veces por día)
+Duración: 100 segundos
+
+Realiza Dominar Animal (seis veces por día)
+Duración: 5 minutos (sin tirada de salvación)
+
+Habilidades de combate: Cuando golpea a un objetico hay un 5% de probabilidades de que el objetivo (y sus aliados) sean infectados por la Maldición arrastrante. 
+
+THAC0: Bonificador +5
+Daño: 1D6 +5
+Tipo de daño: Contundente
+Peso: 2
+Factor de Velocidad: 0
+Tipo de Talento: Bastón
+Clase: 2 manos
+Requerimientos: Fuerza 5
+Sólo lo puede usar:
+ El druida
+ Amo de las Bestias~
+@158     = ~Espada solar: 'Estrella diurna +4'~
+@159     = ~Espada solar: 'Estrella diurna +4'
+
+Creado específicamente para el uso en servicio de Torm o asignado a algún punto en la larga historia de la iglesia, los Paladines de la Furia Noble hicieron buen uso de Estrella Diurna en sus batallas contra los muertos vivientes. A través de la magia o las bendiciones, esta espada fue concedida con el Rayo de Sol, una fuerza de pura energía de vida tan potente que mata tanto a vivos como a no-vivos.
+
+<CHARNAME> tomó esta espada de un liche cerca de las Alcantarillas de Athkatla y fue luego rediseñada en un aún más poderoso instrumento de justicia sagrada. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Protección contra el mal
+
+Habilidades especiales: (dos veces por día): Rayo de sol
+Daño: 3D6 (El objetivo debe superar una tirada de salvación contra conjuros o será cegada por 10 asaltos)
+Muertos vivientes: 10d6 de daño adicional (si no superan una tirada de salvación contra conjuros serán destruidos)
+Alcance: 20 pies
+Área: 20 radio de 20 pies
+
+THAC0: Bonificador +4, +8 contra criaturas malignas
+Daño: 1D8 +4, +8 contra criaturas malignas
+Habilidad de combate: Cualquier muerto viviente golpeado por Estrella diurna recibe el doble de daño. 
+Tipo de daño: Cortante
+Peso: 2
+Factor de Velocidad: 3
+Tipo de Talento: Espada larga
+Clase: 1 mano
+Requerimientos: Fuerza 6
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago~
+@160     = ~Furia Celestial +5~
+@161     = ~Furia Celestial +5
+
+Encantar una katana no es un proceso sencillo. Al menos, eso es lo que <CHARNAME> pensaba. En realidad, la parte más difícil de reforzar una katana ya muy buena como la Furia Celestial fue recoger el montón de ingredientes requeridos. Furia Celestial sirvió bien a <CHARNAME> desde que la tomó de Koshi el Kensai en el Distrito del Templo de Athkatla. Su procedencia es la siguiente:
+
+Muchos años atrás, feroces tormentas e incendios provocados por relámpagos devastaron la provincia administrada por el jefe Hoshi Katahiroi. Los consejeros del jefe, todos respetados magos, pronto adivinaron que la naturaleza no tenía la culpa, sino un poderoso dragón de orden desconocido. Algunos de los consejeros insinuaban que la criatura era una abominación; otros creían que había nacido del Caos Primordial antes que Kara-Tur hubiera sido construida. Pero todos coincidieron en llamarle Furia Celestial.
+
+A pesar de eso, Daimyo Hoshi no quería que el dragón azotara el pueblo; quería destruirlo. El comisionó al célebre Chigatta (un artesano solitario, maestro en las artes místicas), para construir una arma que pudiera tanto partir el alma del dragón como hendir su escamoso cuerpo. El trabajo de Chigatta resultó en la katana de mayor calidad imaginable, apodada Furia Celestial como la bestia que estaba forjada para destruir, y encantada con el poder del vuelo.
+
+Con esta arma, Hoshi buscó la maldición de su provincia en medio de las nubes de tormenta. Gritos y rugidos resonaron a través del cielo durante días, y fuego bifurcado iluminaba las noches. Al final, Hoshi destruyó el cuerpo del dragón y atrapó su espíritu dentro de la espada, fusionando las dos Furias Celestiales y marcando el Orden sobre el Caos. Para finalizar su victoria, Hoshi hizo que Chigatta hiciera una vaina en forma de la cabeza de un dragón e incrustara su perla mágica en la empuñadura.
+
+A pesar de eso el dragón tuvo su venganza. Hoshi era experto en la batalla pero débil de voluntad. El espíritu de Furia Celestial tomó control sobre Hoshi, forzándolo a matar a Chigatta y luego matarse a sí mismo. Posteriormente la katana desapareció (lo más probable es que la afligida familia de Hoshi descartara la traicionera arma) y quizás ha pasado por muchas manos en los años siguientes.
+
+Furia Celestial es una katana de excelente construcción -- una hoja flexible pero indestructible con un filo excelente, una empuñadura cubierta de un confortable cuero, y una gigantesca perla fijada en su terminación. Las características mágicas de la Furia Celestial están inscriptas en la hoja, en la cual resplandece un pálido violeta y estrepita con electricidad cuando la giráis. La espada está envainada en una vaina con forma de cabeza de dragón, las escamas que brillan constantemente con destellos de plata, azul y violeta.
+
+ESTADÍSTICAS: 
+
+Habilidades equipadas:
+ Golpe de Rayo: Una vez por día
+ Ceguera: Una vez por día
+Habilidades de combate:
+ Trueno tronante cada vez que golpea a un oponente
+ (Atontamiento, tirada de salvación contra conjuros) 
+ Probabilidad de Estallido electrizante cada vez que la espada golpea a un oponente
+ (5% de probabilidades de infringir 20 puntos de daño eléctrico adicionales)
+THAC0: Bonificador +5
+Daño: 1D10 +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de Velocidad: 0
+Tipo de Talento: Katana
+Clase: 1 mano
+Requerimientos: Fuerza 6
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago~
+@162     = ~Espada de Arvoreen +5~
+@163     = ~Espada de Arvoreen +5
+
+Otro regalo para Mazzy Fentan de Arvoreen, esta espada corta sólo puede ser usada por medianos. Los encantamientos que existen dentro de esta espada le dan la habilidad de enlentecer a cualquier oponente que sea golpeado.
+
+Con la ayuda de <CHARNAME> y la bendición de Arvoreen, la espada fue reencantada recientemente para ser aún más poderosa. 
+
+ESTADÍSTICAS:
+
+Habilidades de combate: El objetivo debe superar una tirada de salvación contra varitas o será ralentizado  (por 45 segundos). 
+Habilidades equipadas: Acción libre, Bonificador +1 a la fuerza, +75 de bonificador a la fuerza excepcional.
+THAC0: Bonificador +5
+Daño: 1D6 +5
+Tipo de daño: Perforante
+Peso: 3
+Factor de Velocidad: 0
+Tipo de Talento: Espada corta
+Clase: 1 mano
+Sólo lo puede usar:
+ Los medianos~
+@164     = ~Santo Redentor +5~
+@165     = ~Santo Redentor +5
+
+Keldorn se distingue muy bien en su carrera de paladín, y recibió esta espada como gracia de Torm. Es excepcionalmente certero, pero también lo protege en batalla con un escudo de fuego especial, y lo que le pegue mientras porta esta espada sufrirá la cólera de Torm en forma de daño mágico. Nadie sino Keldorn puede usar esta espada.
+
+Con la ayuda de <CHARNAME> y la bendición de Torm, la espada fue reencantada recientemente para volverla aún más poderosa. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: 5 puntos de daño mágico para cualquiera que haga daño a su portador.
+   
+THAC0: Bonificador +5
+Daño: 1D12 + 5
+Habilidades de combate: Disipar magia en cada golpe, el objetivo también es silenciado por 2 asaltos
+Tipo de daño: Cortante
+Peso: 8
+Factor de Velocidad: 5
+Tipo de Talento: Espada de dos puños
+Clase: 2 manos
+Sólo lo puede usar:
+ Keldorn~
+@166     = ~Escudo familiar Delryn +4~
+@167     = ~Escudo familiar Delryn +4
+
+Este es el escudo familiar de Anomen, que le fue obsequiado por su padre. En adición a la protección mágica el escudo irradia un aura que concede al portador resistencia al fuego y al frío. Para protegerse de los ataques a distancia, Anomen puede usar el escudo para erigir un campo de energía. Esta protección contra los proyectiles normales puede ser usada tres veces al día.
+
+Recientemente <CHARNAME> fortaleció el escudo con la magia protectora del escudo Gracia Salvadora, recuperado del mortecino avatar de Amaunator, mejorando dramáticamente sus capacidades defensivas naturales.
+
+ESTADÍSTICAS
+
+Bonificador a la Clase de Armadura: +5
+Resistencia al fuego: + 30%
+Resistencia al frío: + 30% 
+
+Habilidades: Puede lanzar protección contra misiles normales 3 veces al día en el portador
+
+Sólo lo puede usar: 
+ Anomen~
+@168     = ~Lilarcor +5~
+@169     = ~Lilarcor +5
+
+Lilarcor ya no es tan adorable (o enojosa, dependiendo de vuestro punto de vista) como lo fue antes de que <CHARNAME> la mejorara. Cuando el Anillo de Control de los Azotamentes fue incrustado en su empuñadura, Lilarcor pareció haber perdido la habilidad de hablar conscientemente con las personas cercanas y fue reducida a hacer comentarios ocasionales. Sin embargo, la peculiar inteligencia de Lilarcor (o algo así) ahora sirve como beneficio (o desgracia) para el portador: el que mantiene a Lilarcor no puede tener su afinada inteligencia por alguna razón. Protege contra la drenada de inteligencia asociada con los Ilícidos y los efectos benéficos de una poción de genio. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Inmunidad a Dominar, Confusión y Cambios en la inteligencia
+THAC0: Bonificador +5
+Daño: 1D12 +5
+Tipo de daño: Cortante
+Peso: 10
+Factor de Velocidad: 6
+Tipo de Talento: Espada de dos puños
+Clase: 2 manos
+Requerimientos: Fuerza 14
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago
+ El ladrón~
+@170     = ~Vengadora Perversa +6~
+@171     = ~Vengadora Perversa +6
+
+La poderosa Vengadora Perversa fue reforjada bajo la oscura guía de <CHARNAME>. La esencia sagrada de Carsomyr fue pervertida para ayudar a crear esta abominable atrocidad. Vengadora Perversa es una herramienta de increíble poder y maldad invencible. Aquellos que la tienen raramente la sueltan en toda su vida. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: 50% de resistencia mágica
+Habilidades de combate: Disipa magia con cada impacto. El objetivo sufre una penalización de -2 al THAC0 por 120 segundos. 
+THAC0: Bonificador +6
+Daño: 1D12 +6, +1D6 por daño mágico
+Tipo de daño: Cortante
+Peso: 10
+Factor de Velocidad: 4
+Tipo de Talento: Espada de dos puños
+Clase: 2 manos
+Requerimientos: Fuerza 14
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago
+ El ladrón
+ Personajes no malignos~
+@172     = ~Garrote +4: 'El fulcro'~
+@173     = ~Garrote +4: 'El fulcro'
+
+Forjado para <CHARNAME> en una mezcla del Garrote de Hueso y el garrote astillado Gnasher, los poderes del Fulcro se basan en conservar el equilibrio. Los espíritus de los guerreros muertos guían la mano del portador con certeza y cada vez que golpea al objetivo libera una dolorosa astilla de hueso en la herida. En suma, el Garrote hace daño adicional contra los oponentes no neutrales. 
+
+Habilidades equipadas: El portador gana Gran Maestría con el garrote.
+THAC0: Bonificador +4
+Daño: 1D6 + 4, +4 si el objetivo es bueno, malvado, legal o caótico (acumulativo)
+Daño extra: Las astillas de hueso hacen 2 puntos de daño extra cada asalto durante 4 asaltos
+Tipo de daño: Contundente
+Peso: 3
+Factor de Velocidad: 1 
+Tipo de Talento: Garrote
+Clase: 1 mano
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El mago~
+@174     = ~Golpe de Gracia +4~
+@175     = ~Golpe de Gracia +4
+
+<CHARNAME> arregló tener esta daga construida con el Aguijón de Hada y la mortal Espada de Hueso. El resultado es un arma digna de cualquier asesino. El veneno recién refinado del Aguijón de Hada ahora ciega a la víctima y el conocimiento oscuro de la Espada de Hueso la hace mortal para el apuñalamiento por la espalda en manos de un asesino experto.
+
+Habilidades equipadas: El multiplicador de apuñalar por la espalda se incrementa en 1
+THAC0: Bonificador +4
+Daño: 2D3 + 4
+Habilidades de combate: El objetivo es cegado o puesto a dormir por 12 segundos. Una tirada de salvación contra veneno (-2 de penalización) niega el efecto. (Cegar a la criatura modifica en -10 su THAC0)
+Tipo de daño: Cortante
+Peso: 3
+Factor de Velocidad: 0 
+Tipo de Talento: Daga
+Clase: 1 mano
+Requerimientos: Fuerza 3
+No lo puede usar:
+ El clérigo~
+@176     = ~Escudo Sagrado de Amaunator +2~
+@177     = ~Escudo Sagrado de Amaunator +2
+
+<CHARNAME> tenía el símbolo sagrado de Amaunator, el dios del Sol, y lo introdujo en este escudo. Este es ahora una potente barrera contra aquellos que acechan en la noche y drenan la fuerza de la vida. 
+
+ESTADÍSTICAS:
+  
+Bonificador a la Clase de Armadura:  3
+Especial: Puede lanzar Falso Amanecer dos veces por día. El portador es inmune a la consunción de niveles.
+Peso:  2 
+Requerimientos: Fuerza 4
+No lo puede usar:
+ El mago~
+@178     = ~Guantes del Maestro Ladrón: 'Doce dedos'~
+@179     = ~Guantes del Maestro Ladrón: 'Doce dedos'
+
+<CHARNAME> tuvo que formar estos guantes a partir de unos cuantos objetos mundanos benéficos para el ladrón. Cuando estos guantes son usados por un ladrón, aparece un dedo mágico extra en cada guante que ayuda a los cazadores de fortunas a utilizar sus habilidades únicas. En suma, estos guantes tienen estilo. Se ven casi... como el diseño de un gnomo. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 3
+Tiradas de Salvación: Bonificador +1
+Encontrar y desactivar trampas: Bonificador +25%
+Abrir cerraduras: Bonificador +25%
+Robar bolsillos: Bonificador +20%
+Peso: 2
+Sólo lo puede usar:
+ El ladrón~
+@180     = ~Amuleto de Ilmater~
+@181     = ~Amuleto de Ilmater
+
+Este amuleto combina el poder defensivo de un amuleto de protección, un amuleto de resistencia al veneno, el amuleto de estabilidad de forma y el amuleto de guarda contra conjuros para proveer una potente protección a su portador. En suma, el amuleto tiene una bendición menor de Ilmater. El amuleto fue encargado por <CHARNAME>. 
+
+ESTADÍSTICAS:
+
+El portador es inmune al veneno
+Lanza Sanar una vez por día
+Bonificador a la Clase de Armadura:  1
+Bonificación a las tiradas de salvación:  3~
+@182     = ~Garra de agua +4~
+@183     = ~Garra de agua +4
+
+La hoja de esta arma parece brillar, revelando un fluido, el borde afilado se ve algo así como una garra de un ave de rapiña. La Garra de Agua fue encargada por <CHARNAME> y mantiene un vasto poder sobre los líquidos dañinos. Cada golpe aspira algo de la vida del objetivo y se la confiere a su portador. En adición, el filo como agua de la espada está siempre envenenada. Como uno de sus predecesores, la Garra de agua provee inmunidad a hechizar. Además, sin embargo, su maestría sobre el agua protege al usuario de los efectos horribles del Horrible marchitamiento de Abi-Dalzim. Aún más excepcionalmente, la naturaleza del líquido de la hoja le permite extenderse y salpicar en combate, mejorando el alcance del golpe y garantizando un alcance mayor que el de un mandoble. Esto permite al portador realizar ataques "imposibles" contra las líneas de atrás en una formación, o intentar atreverse a utilizar la táctica de golpear-y-correr, contando con el veneno del primer impacto para deshabilitar al enemigo.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: El portador es inmune a hechizar, dominación y el horrible marchitamiento
+Habilidades especiales: Cada golpe eleva los puntos de golpe máximos del portador en 2 por 3 minutos
+Propiedades especiales: Alcance del golpe extendido
+Daño:  1D8 +4, +2 puntos de daño por veneno por segundo (acumulativo)
+THAC0: +4
+Tipo de daño: Cortante
+Peso: 3
+Factor de Velocidad: 1
+Tipo de Talento: Cimitarra/Wakizashi/Ninja-To 
+Clase:  1 mano
+Requerimientos: Fuerza 8
+No lo puede usar:
+ El clérigo
+ El mago
+ El ladrón~
+@184     = ~Azuredge +4~
+@185     = ~Azuredge +4
+
+La ya potente maldición de los muertos vivientes, Azuredge, fue reencantada por <CHARNAME> cuando <PRO_HESHE> la recubrió con un enchapado de ilitio puro. El hacha forjada primero por Gulen Roca de Fuego aún regresa a las manos de su dueño cuando es arrojada y golpea a los muertos vivientes con sagrado fervor, pero ahora también protege al portador contra ataques que drenen niveles de hasta el más poderoso vampiro. En una nota decorativa, el ilitio parece cambiar ligeramente el color del arma a lo largo de su tocayo. 
+
+ESTADÍSTICAS:
+
+Habilidad de combate: +4 puntos de daño extra a los muertos vivientes, además deben salvar una tirada de salvación contra la muerte (penalización de -4) o ser destruidos
+Habilidad equipada: Inmune a la consunción de niveles
+Daño: 1D6+4
+THAC0: +4
+Tipo de daño (refriega): Cortante
+Tipo de daño (lanzando): Proyectil (perforante)
+Especial: Regresa a las manos del lanzador una vez arrojada
+Peso: 2
+Factor de Velocidad: 0
+Tipo de Talento: Hacha
+Clase:  1 mano
+Requerimientos: Fuerza 4
+No lo puede usar:
+ Cualquier personaje neutral o maligno
+ El druida
+ El clérigo
+ El mago
+ El ladrón~
+@186     = ~Anillo del Hechicero:  'Poder Codicioso'~
+@187     = ~Anillo del Hechicero:  'Poder Codicioso'
+
+Este anillo es sin duda el pináculo de los estudios en nemotécnica. Forjado a pedido de <CHARNAME> a partir el anillo de la hechicería, el de la agudeza y el Amuleto de influencia del metaconjuro, permite al portador cada día memorizar un conjuro extra de todos los niveles del uno hasta el siete. En adición, un anillo de protección fue fundido en la banda, suministrando defensas psíquicas y mágicas menores.
+
+ESTADÍSTICAS:
+
+Conjuros: Concede un conjuro extra de mago de nivel 1 al 7. 
+Clase de Armadura: Bonificador +1
+Tiradas de Salvación: Bonificador +1~
+@188     = ~Cinturón de la Gloria~
+@189     = ~Cinturón de la Gloria
+
+Creado por <CHARNAME> para proteger al portador contra los ataques de las armas cortantes, perforantes y contundentes, este cinturón le es muy útil a cualquiera implicado en una refriega. Su potente magia repele todos los tipos de ataque, y además su delgadez permite movilidad al usuario. En conclusión, es un cinturón genial.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: Bonificador +3
+Peso:  2~
+@190     = ~Figura de Kitthix mejorada~
+@191     = ~Figura de Kitthix mejorada
+
+Reforjada por <CHARNAME> para convocar una araña más poderosa que cuatro juntas. Pasados están ya los días en que Kitthix sería instruida para lanzarse por delante de un enemigo muy superior con la esperanza de distraerlo momentáneamente. Las habilidades venenosas y de telaraña de Kitthix han sido muy mejoradas, así como sus capacidades defensivas.
+
+ESTADÍSTICAS:
+
+Conjura una araña espada llamada Kitthix por 2400 segundos, una vez por día.~
+@192     = ~Kitthix mejorada~
+@193     = ~Entropía inevitable~
+@194     = ~Entropía inevitable
+
+Esta espada abismal de acero verde ha sido mejorada por requerimiento de <CHARNAME>. La espada reparte veneno y su víctima parece perder su habilidad de resistir la magia dañina mientras son rebanados por la espada. 
+
+ESTADÍSTICAS:
+
+Habilidades de combate: Un golpe con esta espada tiene 5% de probabilidades de lanzar Malison Mayor en su objetivo. 
+
+THAC0: Bonificador +3
+Daño: 1D6 +3 +1 de daño por veneno cada segundo durante un asalto. 
+Tipo de daño: Perforante
+Peso: 2
+Factor de Velocidad: 0
+Tipo de Talento: Espada corta
+Clase: 1 mano
+Sólo lo puede usar:
+ El ladrón~
+@195     = ~Caos Rastrero~
+@196     = ~Caos Rastrero es una espada corta utilizable solamente por los ladrones. Cada vez que golpea un oponente, él o ella pierde dos puntos de destreza (por 30 segundos). Rediseñada a pedido de <CHARNAME>, esta hoja mejorada tiene la posibilidad de aturdir a cualquier oponente golpeado con ella. 
+
+ESTADÍSTICAS:
+
+Habilidades de combate: Un golpe exitoso con esta espada tiene un 5% de probabilidades de confundir a la víctima por 48 segundos si falla una tirada de salvación con penalizador de -4. Además, cada golpe exitoso drena 2 puntos de destreza de la víctima por 30 segundos. 
+
+THAC0: Bonificador +3
+Daño: 1D6 +3 
+Tipo de daño: Perforante
+Peso: 2
+Factor de Velocidad: 0
+Tipo de Talento: Espada corta
+Clase: 1 mano
+Sólo lo puede usar:
+ El ladrón~
+@197     = ~Malla Élfica Roja~
+@198     = ~Malla Élfica Roja
+
+Forjada a pedido de <CHARNAME> con escamas de dragón rojo interbloqueadas con un equipo de malla élfica, La Malla Élfica Roja provee una combinación superior de protección y libertad de movimiento. Ladrones y magos aún pueden practicar sus habilidades mientras usan esta liviana armadura. 
+
+ESTADÍSTICAS:
+
+Resistencia al fuego: Bonificador de 25%
+Sigilo: Penalizador -10%
+Abrir cerraduras: Penalización -5%
+Encontrar y desactivar trampas: Penalización -5%
+Robar bolsillos: Penalización -20%
+Clase de Armadura: 0
+Peso: 15
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El druida
+ El mago~
+@12340   = ~Entonces, continuemos.~
+@12341   = ~Muy bien. Así que lo único que conseguí es tener que salir a buscar cosas...~
+@12342   = ~¿Podéis hacer algo con este Anillo de Protección?.~
+@12343   = ~¿Podéis forjar algo a partir de este poderoso Anillo de Protección?.~
+@12344   = ~¿Podéis hacerme algo con este Anillo Elemental?.~
+@12345   = ~¿Podéis encantar este Bastón Elemental?.~
+@12346   = ~¿Podríais hacer algo con estas Botas de Sigilo?.~
+@12347   = ~¿Podéis remodelar mis Botas del Norte?.~
+@12348   = ~¿Hay alguna posibilidad de que podáis mejorar mis Botas del Contacto con la tierra?.~
+@12349   = ~¿Qué podéis hacer con estas Botas de la Evasión?.~
+@123410  = ~¿Tal vez podáis mejorar el Blackblood?.~
+@123411  = ~¿Podéis hacer más poderoso este Garrote de Hueso?.~
+@123412  = ~Me gustaría hacer este Aplastacráneos aún más terrible. ¿Podéis ayudarme?.~
+@123413  = ~¿Qué podéis hacer para mejorar el Buscador de Corazones?.~
+@123414  = ~¿Podéis reconstruir la armadura familiar de mi amigo Valygar?.~
+@123415  = ~¿Podéis mejorar este manto mágico?.~
+@123416  = ~Quisiera que el Yelmo de Defensa me protegiera más. ¿Qué podéis hacer al respecto?.~
+@123417  = ~¿Podéis hacer más versátil mi Yelmo de Protección contra hechizar?.~
+@123418  = ~¿Tal vez seáis capaz de limpiar la Piel de Aeger?.~
+@123419  = ~¿Podéis reconstruir la armadura familiar de Sir Keldorn Levafuego?.~
+@123420  = ~¿Podéis fortalecer esta armadura de placas de Ankheng?.~
+@123421  = ~El Escudo de la armonía. ¿Podéis incrementar sus poderes?.~
+@123422  = ~Estoy buscando una lanza arrojadiza. ¿Podéis hacerme una?.~
+@123423  = ~¿Qué podéis hacer con mi Lanza del Unicornio?.~
+@123424  = ~¿Hay alguna posibilidad de hacer al Empalador aún más peligroso?.~
+@123425  = ~¿Podéis encantar este bastón de los bosques?.~
+@123426  = ~Estrella Diurna. Debe ser hecha aún más poderosa.~
+@123427  = ~¿Podéis hacer una daikatana de la Furia Celestial?.~
+@123428  = ~¿Tal vez podamos mejorar la Espada de Arvoreen?.~
+@123429  = ~¿Podríamos bendecir aún más el Santo Redentor de Keldorn?.~
+@123430  = ~Quiero mejorar el escudo familiar de Delryn.~
+@123431  = ~¿Podéis hacer algo para que Lilarcor se calle?.~
+@123432  = ~Me encantaría una daga verdaderamente mortal. ¿Podéis hacerme una?.~
+@123433  = ~¿Qué podemos hacer con este lastimoso escudo?.~
+@123434  = ~¿Hay alguna posibilidad de mejorar estos guanteletes de sigilo?.~
+@123435  = ~Ahora no.~
+@123436  = ~Sí. ¡Hagámoslo!.~
+@123437  = ~¿Podéis hacer algo con este amuleto?.~
+@123438  = ~Me gustaría perfeccionar esta cimitarra.~
+@123439  = ~¿Podéis hacer a Azuredge aún más poderoso?.~
+@123440  = ~Podría combinar el Anillo de Protección + 1 con el Anillo de Regeneración. Necesitaría disolver un diamante en la mezcla. Os costará 10.000 monedas de oro. ¿Interesado?.~ ~Podría combinar el Anillo de Protección + 1 con el Anillo de Regeneración. Necesitaría disolver un diamante en la mezcla. Os costará 10.000 monedas de oro. ¿Interesada?.~
+@123441  = ~Podría combinar el Anillo de Protección +2 con el Anillo de Regeneración. Necesitaría disolver un diamante en la mezcla. Os costará 20.000 monedas de oro. ¿Interesado?.~ ~Podría combinar el Anillo de Protección +2 con el Anillo de Regeneración. Necesitaría disolver un diamante en la mezcla. Os costará 20.000 monedas de oro. ¿Interesada?.~
+@123442  = ~Podría combinar los Anillos del Aire, Tierra y Fuego en un Anillo de Maestría Elemental. Necesitaría pergaminos de Protección contra la Petrificación, Fuego y Electricidad como reactivos. Os costará 20.000 piezas de oro.~
+@123443  = ~Podría combinar los bastones del Aire, Tierra y fuego en un Bastón de Maestría Elemental. También os costará 20.000 monedas de oro, pero estoy seguro de que será glorioso.~
+@123444  = ~Claro, podría adoquinar juntas las Botas de Velocidad y las Botas del sigilo. Necesitaré una piedra de Bribón como reactivo y 10.000 monedas de oro por el trabajo.~
+@123445  = ~Claro, podría adoquinar juntas las Botas de Velocidad y las Botas del Norte. Necesitaré una piedra de Bribón como reactivo y 10.000 monedas de oro por el trabajo.~
+@123446  = ~Claro, podría adoquinar juntas las Botas de Velocidad y las Botas del Contacto con la tierra. Necesitaré una piedra de Bribón como reactivo y 10.000 monedas de oro por el trabajo.~
+@123447  = ~Claro, podría adoquinar juntas las Botas de Velocidad y las Botas de Evasión. ¡Seríais rápido como el relámpago con este calzado! Necesitaría un piedra de Bribón como Reactivo y 20.000 monedas de oro por el trabajo.~ ~Claro, podría adoquinar juntas las Botas de Velocidad y las Botas de Evasión. ¡Seríais rápida como el relámpago con este calzado! Necesitaría un piedra de Bribón como Reactivo y 20.000 monedas de oro por el trabajo.~
+@123448  = ~Podría combinar el Blackblood y el Gnasher en un poderoso garrote con astillas cubiertas de ácido. Os costará 15.000 monedas de oro.~
+@123449  = ~Podría combinar el Garrote de Hueso y el Gnasher en un garrote muy poderoso... maravilloso para los sirvientes del Equilibrio. Os costará 15.000 monedas de oro.~
+@123450  = ~Con un pergamino de Dedo de la Muerte, una poción de sanación maldita y 15.000 monedas de oro podría reconstruir el Aplastacráneos para vos. ¿Os interesa?.~
+@123451  = ~El Buscador de Corazones podría ser reforzado con la Cuerda del Arco de Gesen o la Cuerda del Arco de Gond. Con 4 Lágrimas de 4 Laeral y una poción de poder como reactivos podría haceros un arco largo que no requiera flechas terrenales.~
+@123452  = ~Seguro, usad la Cuerda del Arco de Gesen.~
+@123453  = ~Seguro, usad la Cuerda del Arco de Gond.~
+@123454  = ~Ah, una familia de magos. Usando un pergamino de Protección contra la Magia como catalizador podría forjar la Armadura de la familia de Corthala con una Armadura de un Dragón de las Sombras. Os costará 10.000 monedas de oro.~
+@123455  = ~Sí, podría hacerle algunas mejoras al Manto del Archimago. Con un Anillo de Protección +1 pergaminos de Armadura Espiritual y Contingencia como reactivos podría fabricar un manto digno de Elminster. Os costará 20.000 monedas de oro.~
+@123456  = ~Seguro, mejoradlo a la capa del Buen Archimago.~
+@123457  = ~Seguro, mejoradlo a la capa del Archimago Neutral.~
+@123458  = ~Seguro, mejoradlo a la capa del Archimago Maligno.~
+@123459  = ~Ciertamente. Podría combinar los poderes defensivos del Yelmo de la Defensa y el Yelmo de Protección contra hechizar. Necesitaré cuatro perlas como reactores y 10.000 monedas de oro por el trabajo.~
+@123460  = ~Mmmmmmmh. Si lograseis procuraros de dos frascos de salmuera de Azotamentes, podría encantar el Yelmo de Protección contra Hechizar contra ataques psíquicos. Os encargaré 10.000 monedas de oro por el trabajo.~
+@123461  = ~Con un pergamino de Protección contra los Elementos para usar de catalizador, podría hacer esta Piel de Oso más resistente y hedionda de lo que es ahora. Tendréis que pagarme 15.000 monedas de oro por la labor.~
+@123462  = ~Con algunas placas especiales de la Armadura del Ciervo, podría reconstruir esta armadura. Pero la calidad no os saldrá barata: Os pediré 20.000 monedas de oro por el trabajo.~
+@123463  = ~Con dos tipos distintos de pergaminos de Protección contra el ácido para hacer de runas, podría reforjar la Armadura de Placas de Ankheng. Esto además os costaría otras 5.000 monedas de oro.~
+@123464  = ~Ah, el Escudo de la Armonía. Es una belleza, lo admitiré. Si tenéis dos frascos de salmuera de Azotamentes, un anillo de control de azotamentes y una Beljuril podría hacer una tormenta con ella. Os pediré solamente 10.000 monedas de oro, pero será más fuerte y será mayor su defensa al final.~
+@123465  = ~Claro, con una Piedra de Bribón y 10.000 monedas de oro podría hacer una veloz lanza arrojadiza de vuestra Lanza +3.~
+@123466  = ~Claro, con una Piedra de Bribón y 10.000 monedas de oro podría hacer una veloz lanza arrojadiza de vuestra Lanza del Unicornio.~
+@123467  = ~Ah, el Empalador. Sí, no hay nada que aquellos Sahuagin puedan hacer, esto es un arpón. Con una Piedra de Bribón y 15.000 monedas de oro podría convertirlo en una veloz lanza arrojadiza para vos.~
+@123468  = ~Harumph. Estos bastones de los bosques nunca fueron mis favoritos, pero con anillos de protección y de Empatía Animal podría mejorar el Bastón de los Bosques. Os costaría 20.000 monedas de oro por el acto.~
+@123469  = ~Con cuatro pergaminos de Protección contra los Muertos Vivientes, dos viales de agua sagrada y dos Zafiros Estrella podría transformar la Estrella del Día en la peor pesadilla del inframundo. Os costaría 15.000 monedas de oro por el trabajo.~
+@123470  = ~¿Furia Celestial? Y más aún de Kara-Tur, y encantar una Katana no es una tarea fácil, pero con un Corazón de Demonio y una Varita de Relámpago quizá podría hacerlo. Os costará 20.000 monedas de oro por mi sudor.~
+@123471  = ~Claro, podría reforjar la Espada de Arvoreen. Pero no sin la bendición de su diosa: Solamente podría hacer este trabajo para un grupo de buen corazón y con excelente reputación. Os costaría 15.000 monedas de oro por el trabajo.~
+@123472  = ~Ah, el Santo Redentor. Una hoja sagrada. Con un Corazón de Demonio y cinco pergaminos que disipen magia podría remodelarlo en algo más poderoso. Pero para la tarea necesitaré la bendición de Torm, por eso sólo podría hacerlo para un grupo con alta reputación y virtud. Os costaría 15.000 monedas de oro.~
+@123473  = ~Sí. Podría combinar el revestimiento del escudo de Anomen con el escudo de la Gracia Salvadora. Os cobraría 15.000 monedas de oro por el trabajo.~
+@123474  = ~Ah, el desperdicio así llamado: Lilarcor  'La espada que siente'. No podría deciros cuantas veces he tenido aventureros que han venido aquí a pedirme que lo haga. Si tenéis un Anillo de Control de los Azotamentes podría colocarle un amortiguador a su charla y hacérosla más útil al mismo tiempo. Os costaría 20.000 monedas de oro por la tarea.~
+@123475  = ~Sí, eso que tenéis ahí sí que es un cuchillo. Podría forjar una Espada de Hueso y una Picadura de Hada al mismo tiempo usando cuatro pociones de robo maestro como reactivos y hacer una espada verdaderamente malvada para un ladrón. Para vos serían 15.000 monedas de oro.~
+@123476  = ~Sí, podría forjar ese símbolo sagrado de Amaunator en vuestro escudo, concediéndole la protección de la deidad olvidada hace tiempo. Necesitaría también 5 gemas 'Piedra solar' y 10.000 monedas de oro para este trabajo. ¿Interesado?.~ ~Sí, podría forjar ese símbolo sagrado de Amaunator en vuestro escudo, concediéndole la protección de la deidad olvidada hace tiempo. Necesitaría también 5 gemas 'Piedra solar' y 10.000 monedas de oro para este trabajo. ¿Interesada?.~
+@123477  = ~Ah. Debéis conseguir los Guantes de Robar Bolsillos, Brazales de Defensa, Anillos de Detectar Peligro y Abrir Cerraduras, y dos anillos de protección, podría empedrar ambos para vos. 5,000 monedas de oro cubrirían bien los costos.~
+@123478  = ~Con dos Amuletos de Protección, un Amuleto de Resistencia al Veneno, un Amuleto de Estabilidad de Forma y un Amuleto de Guarda contra Conjuros, podría forjaros un Amuleto de Ilmater. ¿Os gustaría pagar 10.000 monedas de oro por él?.~
+@123479  = ~Claro, con un Reborde de Agua, Adjatha la Bebedora y la Garra de Rashad podríamos forjar una espada curvada que dejaría al Señor de las Tormentas verde de la envidia. Tal espada basada en agua os costaría 15.000 monedas de oro. ~ ~~
+@123480  = ~Ah. Podría aplicarle a Azuredge un baño en ilitio puro, concediéndole más poderes ofensivos y defensivos contra el mal de los muertos vivientes. Por 20.000 monedas de oro haría el trabajo para vos.~
+@123481  = ~Claro, sin embargo la hechicería no es mi arte, podría forjar un Anillo de Agudeza, con un Anillo de la Hechicería y un Amuleto de Metaconjuro, siendo una potente ayuda para un hechicero. Un Anillo de Protección y 20.000 monedas de oro terminarían el trabajo. ~ ~~
+@123482  = ~¿Podéis mejorar este cinturón?.~
+@123483  = ~Claro, si es que tenéis un grupo de cinturones que le hagan juego: golpear, perforar y cortar, podría transformarlos en un objeto verdaderamente protector. Necesitaría tres piedras de sangre como reactivos, y 10.000 monedas de oro de comisión.~
+@123484  = ~Me gustarían más encantamientos para mi Anillo de la Hechicería.~
+@123495  = ~¿Tal vez podríais mejorar esta Figura de Araña negra?.~
+@123496  = ~Le hubiera convenido más pedírselo a un mago drow, más que a este enano para reconstruir la araña para vos, pero puedo hacerlo. No lo disfrutaré, pero puedo hacerlo.~
+@1234996 = ~Necesitaré algunos reactivos especiales para el trabajo: Pergaminos de Engendros Arácnidos y Telaraña; cinco dagas arrojadizas envenenadas, y 5.000 monedas de oro.~
+@123497  = ~¿Pueden Caos y Entropía ser mejoradas?.~
+@123498  = ~Ah queréis mejorar armas Planares. Ese es un trabajo muy peligroso. Hmmm, veamos. Si no os importa sacrificar las espadas de Ilbratha y Arbane, puedo reconstruir las espadas cortas de Haer'Dalis para que infrinjan mayor daño y gane algunos poderes de conjuros. Os costará 25.000 monedas de oro, más una Piedra de Bribón y pergaminos de Caos y de Malison Mayor. ~ ~~
+@123499  = ~¿Podéis construirme una cota élfica?.~
+@1234100 = ~Sí, quizás forje conjuntamente un equipo de Cota Silvana con Escamas de Bestia con Temor a las Llamas. Con tres gemas de Ándar y 3 ágatas ígneas  que contengan el infierno y 25.000 monedas de oro como reactivo y labor, podría construirle un equipo muy poderoso. ¿Os interesa?.~
+@56780   = ~Vamos a trabajar, Cespenar.~
+@56781   = ~¿Tenéis alguna pregunta primero? ¿o puedo empezar a buscar?.~
+@56782   = ~¿Podéis hacer algo con este Anillo de Protección?.~
+@56783   = ~¿Podéis construir algo con este poderoso Anillo de Protección?.~
+@56784   = ~¿Podéis hacer algo de este Anillo Elemental?.~
+@56785   = ~¿Podéis encantar este Bastón Elemental?.~
+@56786   = ~¿Podéis empedrar algo junto con estas Botas de Sigilo?.~
+@56787   = ~¿Podéis modernizar mis Botas del Norte?.~
+@56788   = ~¿Alguna posibilidad de que podáis mejorar mis Botas de Contacto con la Tierra?.~
+@56789   = ~¿Qué podéis hacer con estas Botas de Evasión?.~
+@567810  = ~¿Tal vez vos podéis mejorar el Blackblood?.~
+@567811  = ~¿Podéis hacer más poderoso a este Garrote de Hueso?.~
+@567812  = ~Me gustaría hacer al Aplastacráneos aún más mortal. ¿Podéis ayudarme?.~
+@567813  = ~¿Qué podéis hacer para mejorar el Buscador de Corazones?.~
+@567814  = ~¿Podéis reconstruir la Armadura Familiar de mi amigo Valygar?.~
+@567815  = ~¿Podéis mejorar este manto mágico?.~
+@567816  = ~Quisiera una mejor protección para mi Yelmo de la Defensa. ¿Qué podéis hacer?.~
+@567817  = ~¿Podéis hacer más versátil mi Yelmo de Protección contra Hechizar?.~
+@567818  = ~¿Tal vez vos podáis 'limpiar' la piel de Aeger?.~
+@567819  = ~¿Podéis reconstruir la Armadura Familiar de Sir Keldorn Levafuego?.~
+@567820  = ~¿Podéis reforzar esta Armadura de Placas de Ankheng?.~
+@567821  = ~El Escudo de Armonía. ¿Podéis incrementar sus poderes?.~
+@567822  = ~Estoy buscando una lanza arrojadiza. ¿Me podéis hacer una?.~
+@567823  = ~¿Qué podéis hacerle a mi Lanza del Unicornio?.~
+@567824  = ~¿Hay alguna posibilidad de hacer aún más dañino al Empalador?.~
+@567825  = ~¿Podéis encantar este Bastón de los Bosques?.~
+@567826  = ~Estrella Diurna. Debe ser hecha más poderosa.~
+@567827  = ~¿Podéis hacer una daikatana de Furia Celestial?.~
+@567828  = ~Quizás podríamos mejorar la Espada de Arvoreen.~
+@567829  = ~¿Podemos bendecir aún más el Santo Redentor de Keldorn?.~
+@567830  = ~Quiero mejorar el Escudo Familiar Delryn.~
+@567831  = ~¿Podéis hacer algo que calle a Lilarcor?.~
+@567832  = ~Me encantaría una daga verdaderamente mortal. ¿Podéis inventar una para mí?.~
+@567833  = ~¿Qué podéis hacer con este escudo inútil?.~
+@567834  = ~¿Hay alguna oportunidad de mejorar estos Guanteletes Sigilosos?.~
+@567837  = ~¿Podéis hacer algo con este amuleto?.~
+@567838  = ~Me gustaría mejorar esta Cimitarra.~
+@567839  = ~¿Podéis hacer más poderosa a Azuredge?.~
+@567891  = ~Me gustarían más encantamientos para mi Anillo de la Hechicería.~
+@567835  = ~Ahora no.~
+@567836  = ~¡Sí, hagámoslo!.~
+@567876  = ~¿Qué podéis hacer con esta munición?.~
+@567877  = ~¿Tenéis alguna receta para esta carne humana?.~
+@567878  = ~¿Podéis reconstruir esta Vengadora Perversa?.~
+@567840  = ~¿Por qué tenéis tantos anillos? ¿Tenéis montones de esposas en otro lado? ¡¡¡Vergüenza, vergüenza, Cespenar CONOCE VUESTRO NOMBRE!!!.~ [FWCESP00] ~¿Por qué tenéis tantos anillos? ¿Tenéis montones de esposos en otro lado? ¡¡¡Vergüenza, vergüenza, Cespenar CONOCE VUESTRO NOMBRE!!!.~ [FWCESP00]
+@5678940 = ~Como sea, podemos tomar un Anillo de Regeneración y un Anillo de Protección +1 y hacer dos en uno. Ahorra espacio en vuestra mano. Sólo necesito 10.000 monedas de oro y derretir un diamante. ¿Queréis hacerlo?.~
+@567841  = ~Oh chico, seguro usáis un montón de brillantes en vuestros dedos. A Cespenar le gusta el aspecto, oyó que eso estaba en esta temporada.~ [FWCESP01] ~Oh chica, seguro usáis un montón de brillantes en vuestros dedos. A Cespenar le gusta el aspecto, oyó que eso estaba en esta temporada.~ [FWCESP01]
+@5678941 = ~Como sea, podemos tomar el Anillo de Regeneración y el Anillo de Protección +2 y hacer dos en uno. Ahorra espacio en vuestra mano. Sólo necesito 20.000 monedas de oro y derretir un diamante. ¿Queréis hacerlo?.~
+@567842  = ~Vos no necesitáis un estuche de joyas. ¡Necesitáis un baúl de joyas!. ¿¡Tal vez también os guste tener uno en cada dedo del pie!?.~ [FWCESP02]
+@5678942 = ~¿Acerca de cómo Cespenar toma esos anillos de Aire, Tierra y Fuego y los convierte en un gran Anillo de Maestría Elemental? Hacer un anillo de tres es mezquino. La receta necesita Pergaminos de protección contra la Petrificación, algo excelente, y Desintegrar, y 20.000 monedas de oro. Cespenar no fija los precios, sólo sigue las reglas.~
+@567843  = ~¿Habéis notado que los elementales no toman un chequeo? Lo juro, a veces quiero tener una de aquellas varas que les dan una paliza... ¡hey! ¿Vos las tenéis a las tres?.~ [FWCESP03]
+@5678943 = ~Las varas para golpear elementales de tierra, fuego y aire no son gran cosa para vos ahora, pero Cespenar hace un gran bastón de Maestría Elemental y luego los elementales quieren hacerlo su almuerzo, ¡¡¡oh BLAMMO!!!! También os costará 20.000, Cespenar tiene precios algo altos. ¿Sí?.~
+@567844  = ~¡AAAAAHHHHH! ¡Vos le robasteis a Cespenar! Jee je je, ¡sólo bromeaba!.~ [FWCESP04]
+@5678944 = ~Por supuesto, Cespenar puede tomar las Botas de Evasión y las Botas de Velocidad y haceros un calzado de Velocidad y Sigilo. Bonito creo que es la palabra correcta, pero Baal nunca permitió a Cespenar leer muchos libros. (sniff) De cualquier forma, espero que hayáis guardado Piedras de Bribón, porque os costará 10.000 monedas de oro más una de esas piedras.~
+@567845  = ~Hmmm. ¿Botas aisladoras? ¿Necesitáis poner huevos o algo aquí dentro? ¿O tal vez estéis jugando Icewind Dale?.~ [FWCESP05]
+@5678945 = ~A menos de que planeéis crecer muchos pies, Cespenar tomará las Botas del Norte y las Botas de Velocidad y os hará unas Botas de la Tormenta. Hacen las mismas cosas como botas separadas. ¿Acaso tenéis 10.000 monedas de oro y una de esas Piedras del Bribón?.~
+@567846  = ~¡Phheeeewww! Mágicas o no, esas botas de caucho apestan con los sudorosos pies del Gran Señor. ¿Sabéis que la mejor manera para evitar un relámpago es estando en otro lado? Es verdad.~ [FWCESP06] ~~ [FWCESP06]
+@5678946 = ~Cespenar conoce a un Sacerdote de Talos que puede haceros Los Talones del Señor de la Tormenta a partir de las Botas de Velocidad y de Contacto con la Tierra. No le daré su nombre a un tonto como vos. El necesita 10.000 monedas de oro y además una Piedra de Bribón.~ ~Cespenar conoce a un Sacerdote de Talos que puede haceros Los Talones del Señor de la Tormenta a partir de las Botas de Velocidad y de Contacto con la Tierra. No le daré su nombre a una tonta como vos. El necesita 10.000 monedas de oro y además una Piedra de Bribón.~
+@567847  = ~Cespenar sabe que recibió el Gran Señor para su cumpleaños: ¡árboles de zapatos! ¿Estáis seguro de que no os equivocasteis de profesión? ¿Tal vez prefiráis ser zapatero o herrero o algo de eso? ¡No hay nada de malo en un cambio de carrera, serenaos, joven <PRO_MANWOMAN>!.~ [FWCESP07] ~Cespenar sabe que recibió la Gran Señora para su cumpleaños: ¡árboles de zapatos! ¿Estáis segura de que no os equivocasteis de profesión? ¿Tal vez prefiráis ser zapatera o herrera o algo de eso? ¡No hay nada de malo en un cambio de carrera, serenaos, joven <PRO_MANWOMAN>!.~ [FWCESP07]
+@5678947 = ~Calmaos, tenéis un buen gusto para los calzados. Muy buena receta para las Botas del Avispón, tomad vuestras Botas de Velocidad y de Evasión y se os hará realmente difícil que os acierten con flechas. Mejor un pinchazo en el ojo con una madera afilada, o un cerrojo, o una piedra, o un dardo... ¿captáis la idea?. La receta os costará 20.000 monedas de oro y una Piedra de Bribón, las cuales no crecen en árboles. ¿Sí?.~
+@567848  = ~Oooooohhhh... ¡tenéis algunos bastones temibles! ­Hee hee hee! Debéis tener un amigo druida o algo. Siempre tengo que hacer bastones para ellos. ¿Pensáis que los árboles de donde vienen estos bastones se habrán enojado?.~ [FWCESP08]
+@5678948 = ~Tal vez consigáis insertarle ácido a Blackblood y Gnasher, superficies que ALGUIEN olvidó lijar. Tengo una receta para Pitchwife, ¡de manera que ahora podéis darle a los malos astillas que QUEEEEEEMAN! El precio es bajo, bajo, sólo 15.000 monedas de oro. A menos que queráis que Cespenar lo lije.~
+@567849  = ~¡Ouch!  ¿Cómo es posible que todos vuestros garrotes sean tan espinosos? Cespenar piensa que tiene una estopilla en algún lugar para ayudar con eso...~ [FWCESP09]
+@5678949 = ~¿O quizás vos sólo queréis un mejor garrote? Puedo tomar el Garrote de Hueso y Gnashers y fabricar a Fulcro. Hiere a la gente a quien no le gusta "el Equilibrio". Sin embargo, Cespenar intentará mantenerse fuera de la política, así que él sólo tomará 15.000 monedas de oro y hará el garrote y se olvidará de lo otro. ¿De acuerdo?.~
+@567850  = ~Cespenar nunca entendió por qué los clérigos tienen permiso para dejar vuestra cabeza hecha un bulbo ensangrentado pero no para usar un cuchillo para la mantequilla. Es extraaaaaaño.~ [FWCESP10]
+@5678950 = ~De todas formas, conseguisteis una buena maza Aplastacráneos. Cespenar puede hacerla mucho mejor con un pergamino de Dedo de la Muerte, una poción MALDITA de curación (¡una buena mezcla de cocktel!) y 15.000 monedas de oro. Y 3 alfileres para ropa del cajón de la ropa interior de la Madre Matriarca. Cespenar sólo bromeaba con esa parte.~
+@567851  = ~­Hrrrrruuuhhh... hrrrruuuuhhh... hyyyyaaaaaaahhhhh! ­ ¡Oooh, este arco es difícil de flexionar! Cespenar ofrecería disparar una flecha a la cabeza del Gran Señor, pero recuerda lo que pasó cuando erró a la manzana y le pegó a la nariz de Baal. ¡Cespenar aún no puede sentarse!.~ [FWCESP11] ~­Hrrrrruuuhhh... hrrrruuuuhhh... hyyyyaaaaaaahhhhh! ­ ¡Oooh, este arco es difícil de flexionar! Cespenar ofrecería disparar una flecha a la cabeza de la Gran Señora, pero recuerda lo que pasó cuando erró a la manzana y le pegó a la nariz de Baal. ¡Cespenar aún no puede sentarse!.~ [FWCESP11]
+@5678951 = ~Tenéis un buen arco, pero Cespenar puede hacerlo mucho mejor con la receta de Teleomortis. Las flechas aparecerán en vuestra mano, asombrando a vuestros amigos y enemigos. Aunque necesitaré cantidad de materiales importantes: La Cuerda del Arco de Gesen o de Gond, cuatro Lágrimas de Laeral y una poción de poder para empezar.~
+@567854  = ~¡Oooh! Un traje muy fino. Cuidado, Señor, Cespenar aún no lo ha desempolvado... si estornudáis, vuestra cara puede congelarse. ¡Tee hee hee! Sabéis, algunas personas dicen que Valygar es un hijo... ¿Cerrad la boca de Cespenar? ¡Cespenar sólo hablaba de Valygar!.~ [FWCESP12] ~¡Oooh! Un traje muy fino. Cuidado, Señora, Cespenar aún no lo ha desempolvado... si estornudáis, vuestra cara puede congelarse. ¡Tee hee hee! Sabéis, algunas personas dicen que Valygar es un hijo... ¿Cerrad la boca de Cespenar? ¡Cespenar sólo hablaba de Valygar!.~ [FWCESP12]
+@5678954 = ~Puedo hacer muchísimo: con dos buenos equipos, ¡puedo hacer un equipo genial!. ¡Montón de protecciones contra las peores cosas, como el fuego o el ácido! Sólo dadle a Cespenar 10.000 monedas de oro y un Pergamino de Protección contra la Magia.~
+@567855  = ~Cespenar tuvo una vez una chaqueta casera... le fue regalada por un muy buen amigo, perdido en los limpiadores. ¿Tal vez tengáis cosas que hacer con esto? Se ve muy familiar...~ [FWCESP13]
+@5678955 = ~Oh, es sólo un manto de esos Archimagos. Una buena receta aunque no tiene un buen nombre. Cespenar necesita un Anillo de Protección +1, pergaminos de Armadura Espiritual y Contingencia y 20.000 monedas de oro. ¡Lanzar más conjuros, ser como un VERDADERO ARCHIMAGO!.~ ~Oh, es sólo un manto de esos Archimagos. Una buena receta aunque no tiene un buen nombre. Cespenar necesita un Anillo de Protección +1, pergaminos de Armadura Espiritual y Contingencia y 20.000 monedas de oro. ¡Lanzar más conjuros, ser como una VERDADERA ARCHIMAGA!.~
+@567859  = ~¿Aún no tenéis un tarro para orinar? ¿Sabéis lo que estáis diciendo? Entonces Cespenar os recomienda un casco más pequeño. El casco de alguien más.~ [FWCESP14]
+@5678959 = ~Si tenéis tarros extras,  ¡tal vez Cespenar combine los tarros de vuestra gran cabeza para vos! Una buena receta involucra al Yelmo de la Defensa y al Yelmo de Protección contra Hechizar a la vez. Necesito 4 perlas y 10.000 monedas de oro. Suena bien, ¿verdad?.~
+@567860  = ~¡Oooh! Cespenar podría usar este casco para jugar a los bolos, si es que ya no lo necesitáis más.~ [FWCESP15]
+@5678960 = ~¿Acerca de la receta de la Torre de Voluntad de Hierro? Usad el Yelmo de Protección contra Hechizar, dos pociones de salmuera de extractos de amor de los Azotamentes (no le digáis a Cespenar cómo las conseguisteis) y 10.000 monedas de oro. Mantiene las cabezas de la gente grande bien seguras.~
+@567861  = ~¿Tal vez queráis esto colgado en la pared? La mayoría de la gente no quiere una chimenea en el infierno, pero quizás podríamos conseguir una y hacer de esta piel una alfombra de piso.~ [FWCESP16]
+@5678961 = ~O tal vez sólo queráis hacer un brillante. Tomad la Piel de Aeger, un Pergamino de Protección contra los Elementos, y 15.000, y hacerla más fuerte y aclimatadora, además de resistir mayor daño. Cespenar nunca tuvo permitido a ser REALMENTE creativo.~
+@567862  = ~¿Como habéis hecho para poner vuestra armadura de buenitos naranja? ¿En el sol? Tee hee hee...~ [FWCESP17]
+@5678962 = ~Tal vez Cespenar puede mejorarla fundiéndola con Armadura del Corazón y metiéndole 20,000 de oro. Puede ser menos pero Cespenar tuvo que dejar de hacer descuentos a los buenitos, malo para la reputación.~
+@567863  = ~¿Estáis tan calmado aunque carguéis con un gran insecto en los hombros? ¿Acaso conocéis muchas personas de esa forma?.~ ~¿Estáis tan calmada aunque carguéis con un gran insecto en los hombros? ¿Acaso conocéis muchas personas de esa forma?.~ [FWCESP18]
+@5678963 = ~Dadle a Cespenar ambos tipos de Pergaminos de Protección contra el ácido y 5.000 monedas de oro y Cespenar trabajará duro. ¡Aún dispara flechas de ácido a la gente!.~
+@567864  = ~¡Awww, este es el escudo más adorable que Cespenar nunca vio! ¿Tal vez pueda ser usado para servir de bandeja para cuando lleguen visitantes?.~ [FWCESP19]
+@5678964 = ~Es difícil hacer a un buen objeto mejor, pero si conseguís dos bebidas de salmuera de Azotamentes, y esos extraños anillos de control, y una gema beljuril y 10,000 monedas de oro, Cespenar os hará inmune a los ataques psíquicos.~
+@567865  = ~Esto le recuerda a Cespenar a un escarbadiente muuuuuy largo. Abierto del todo, Cespenar es un buen sirviente, ¡hasta el punto de limpiar vuestros molares! ¡Tee hee hee!.~ [FWCESP20]
+@5678965 = ~Una receta simple: 10.000 monedas de oro y una Piedra de Bribón, y la lanza siempre regresará aunque la arrojéis muuuuy lejos.~
+@567866  = ~¿Qué es esto? ¿Una gran piruleta en una vara? ¿Cómo puede ser que Cespenar nunca le echó una lambida?.~ [FWCESP21]
+@5678966 = ~Oh, es un cuerno de unicornio. Y además puntiagudo. ¿Por qué no empezáis arrojando esta lanza? Sólo dadle a Cespenar una Piedra de Bribón y 10.000 monedas de oro y comprenderéis cómo debe ser una lanza arrojadiza.~
+@567867  = ~¿Os gusta pescar? Tal vez podáis pescar una gran ballena con esto. Luego necesitaréis espacio para amarrarla, pero eso no es problema de Cespenar.~ [FWCESP22]
+@5678967 = ~Cespenar necesita sólo 15.000 monedas de oro y una Piedra de Bribón. Realmente uso esas cosas, no las pido solamente por diversión. Cuidado cuando la lanza regrese... si le erráis, ¡os HERIRÁ!  ¡Ow!.~
+@567868  = ~Buen bastón largo. ¿La descortezaron a mordidas? Tee hee hee...~ [FWCESP23]
+@5678968 = ~Cespenar puede usar una gran receta nueva para un Bastón de los Bosques nuevo. ¡Le dais a Cespenar un Anillo de Protección +1, un Anillo de Empatía Animal y 20.000 monedas de oro, y conseguiremos un nuevo bastón que se recarga y le será aún más fácil golpear a la gente!.~
+@567869  = ~¡Ooooh! ¡Encontrasteis la más brillante de las espadas largas brillantes! ¡Apuesto a que matasteis a un vampiro o dos con esta bebé! ¡En guardia, chupasangres! ¡Cespenar los derribará a todos!.~ [FWCESP24]
+@5678969 = ~¿Quizás queráis mejorar la Estrella Diurna? Tendréis que conseguir buenos objetos y traérmelos, como cuatro Pergaminos de Protección contra los Muertos Vivientes, dos potes de agua sagrada élfica, dos zafiros estrella y 15.000 monedas de oro, ¡Pero Cespenar apenas puede dirigir lo que le pide el Gran Señor! Conseguirá más Rayos solares y Protección contra el Mal. ¿Necesitáis que comience ya?.~ ~¿Quizás queráis mejorar la Estrella Diurna? Tendréis que conseguir buenos objetos y traérmelos, como cuatro Pergaminos de Protección contra los Muertos Vivientes, dos potes de agua sagrada élfica, dos zafiros estrella y 15.000 monedas de oro, ¡Pero Cespenar apenas puede dirigir lo que le pide la Gran Señora! Conseguirá más Rayos solares y Protección contra el Mal. ¿Necesitáis que comience ya?.~
+@567870  = ~¡Oh, el más honorable Gran Señor-san! ¿Podéis siquiera considerar que la Furia Celestial no se ve buena?.~ [FWCESP25] ~¡Oh, la más honorable Gran Señora-san! ¿Podéis siquiera considerar que la Furia Celestial no se ve buena?.~ [FWCESP25]
+@5678970 = ~¡Cespenar tiene una receta rápida y buena para arreglar eso! Bueno, quizás no es tan rápida. ¿Tenéis una Vara de Relámpago? ¿Y qué tal un Corazón de Demonio? Apestan, lo sé, pero son adecuados para las cosas más raras. Oh, y 20,000 monedas de oro también.~
+@567871  = ~¿Conseguisteis al más pequeño de los paladines? Cespenar tiene un libro de historia en su ático que menciona algo de eso.~ [FWCESP26]
+@5678971 = ~Puedo hacer esta espada mucho mejor. Descuento especial para la gente no muy grande, sólo necesitáis pensar bien acerca de eso y darle a Cespenar 15.000 monedas de oro. ¡No encontraréis mejor oferta de este lado del Limbo!.~
+@567872  = ~¡Cespenar está muy muy impresionado de que haya gente como esa con el Gran Señor! ¿Tal vez queráis quedaros en calma y usar vuestra arma firmada para ayudar al Gran Señor?.~ [FWCESP27] ~¡Cespenar está muy muy impresionado de que haya gente como esa con la Gran Señora! ¿Tal vez queráis quedaros en calma y usar vuestra arma firmada para ayudar a la Gran Señora?.~ [FWCESP27]
+@5678972 = ~Cespenar conoce a un sacerdote de Torm quien re-consagrará al Redentor y le dará pulcritud con habilidades como disipar magia y silenciar otras personas. Necesito un Corazón de Demonio extra (Cespenar escupe), cinco pergaminos de Disipar Magia y 15.000  monedas de oro, más un corazón de oro. Deberían estar bajos en dinero, pero Cespenar tiene que pagar por uso, la licencia de una receta para los buenos para nada de los servidores de la ley. Ellos oprimen al pobre Cespenar.~
+@567873  = ~¡Oh chico! ¡Más bandejas de servicio! ¡Cespenar se está quedando sin accesorios de mesa para los banquetes del Gran Señor!.~ [FWCESP28] ~¡Oh chica! ¡Más bandejas de servicio! ¡Cespenar se está quedando sin accesorios de mesa para los banquetes de la Gran Señora!.~ [FWCESP28]
+@5678973 = ~Esperad... Conozco una receta para los cosas como escudos y bandejas de servicio. Tomad el Escudo Familiar Delryn y la bandeja de Mantener Gracia, y 15.000  monedas de oro para hacer que el Escudo Familiar Delryn proteja más. O si no tendremos bandejas extra para las visitas.~
+@567874  = ~¿Qué? ¿No os gusta la espada habladora? ¿Y si quedáis enterrado en un agujero oscuro y tenéis a la espada como única compañía? ¡Entonces estaréis agradecido!.~ [FWCESP29] ~¿Qué? ¿No os gusta la espada habladora? ¿Y si quedáis enterrada en un agujero oscuro y tenéis a la espada como única compañía? ¡Entonces estaréis agradecida!.~ [FWCESP29]
+@5678974 = ~Pero, hmmmm, Cespenar ve un Anillo de control de los Azotamentes, pude ser usado para hacer más fuerte a Lilarcor, ¡y también mantener a raya a los sucios azotamentes que vienen a chuparos el cerebro! Y Larry no podrá hablar más con vos. Eso sería triste, y os costaría 20.000  monedas de oro.~
+@567875  = ~¿Aún pensáis en el amor y no en la guerra? Seguro que tenéis montones de cuchillos aquí... ~ [FWCESP30]
+@5678975 = ~¡Ahhhh, Cespenar tiene una buena idea! Hacer una buena Daga de los Hombres Furtivos. Tomad la Espada de Hueso y el Aguijón de Hada y podré hacer una daga muy pero muy buena para apuñalar por la espalda y adormecer a la víctima. Necesitaréis cuatro Pociones de Robo Maestro y pagar 15.000 monedas de oro, ¡pero luego los enemigos nunca sabrán qué les golpeó ­PAF!.~
+@567879  = ~¿Oooh, Alguien os habló de la Munición de la Abundancia? Es como un penique sin importancia... supongo que Cespenar tendrá que tirarla al río de nuevo, ¡esta vez con un gran peso atado!.~ [FWCESP31]
+@5678979 = ~O quizás podamos intentar algo diferente esta vez y usar una nueva receta. Vos conseguís 40 misiles +3 y 40.000 monedas de oro y luego haremos la Munición de la Abundancia +3. ¡Pensad en todo el dinero que estaréis ahorrando en proyectiles!.~
+@567880  = ~Sí, hacedme un Carcaj (Flechas).~
+@567881  = ~Sí, hacedme un Estuche (Saetas).~
+@567882  = ~Sí, hacedme una Mochila (Balas).~
+@567883  = ~Se ve como gente grande en una percha. ¡Hola gente grande! Saluden a Cespenar.~ [FWCESP32]
+@5678983 = ~Cespenar no es un taxidermista pero puede tomar la Carne Humana y combinarla con una Piedra del alma y un Pergamino de protección contra la Magia y 20.000 monedas de oro y sacar mucho brillo. Haceros más saludable y fuerte.~
+@567884  = ~¿Dónde encontrasteis esto? ¡Baal lo buscó por todos lados y nunca lo encontró! El quería colgarlo en la entrada como decoración... Cespenar le sugirió rosas, pero eso fue un graaaaaan error...~ [FWCESP33]
+@5678984 = ~Una receta muy muy vil para la Vengadora Perversa . Tomad el Corazón del Condenado y la última espada del bueno para nada y 20.000 monedas de oro, ¡haré a la Vengadora Perversa super-super mortal! Cuando el bueno para nada pregunte, ¡no le digáis que fue idea de Cespenar!,~
+@567885  = ~¡Ooh, el brillante símbolo del viejo dios del sol! Amaunator y Baal realmente nunca consiguieron aguantarse. Una vieja disputa los separaba, luz solar y una vieja cabra bendita. Una historia muy triste. Luego de que la cabra murió, Ammy nunca regresó a tomar el té.~ [FWCESP34]
+@5678985 = ~De todas formas, puedo insertar el símbolo sagrado en el escudo. Añadir una piedra solar por cada dedo y 10.000 monedas de oro, harán este brillante escudo perfecto para ahuyentar las tropas de los muertos vivientes. ¿Queréis?.~
+@567886  = ~Pasos de ladrón, ya veo. ¿Vais a hurgar en los bolsillos de Cespenar? ¡Esperad! Cespenar no tiene bolsillos. ¡Ja! No os sintáis mal. Estoy seguro que más tarde encontraréis montones de bolsillos que saquear.~ [FWCESP35]
+@5678986 = ~Tengo una receta para los accesorios de ladrón. Enchapado muy a la moda: guanteletes de robar bolsillos y defensa, anillos de intuir el peligro y abrir cerraduras, dos anillos de protección. Con 5.000 monedas de oro puedo haceros alguno de esos.~
+@567887  = ~Ah, tenéis una joyas centelleantes. Aunque con una coordinación de colores muy pobre. Quizás Cespenar pueda ayudaros con eso más tarde. Algo de malva realmente combinaría con vuestros ojos, ¿no creéis?.~ [FWCESP36]
+@5678987 = ~De cualquier forma, Cespenar puede juntar dos Amuletos de Protección, un amuleto de Resistencia al veneno, un amuleto de Estabilidad de forma y un amuleto de Guarda contra Conjuros. ¡Eso son un montón de joyas colgantes! Obtiene una bendición menor de mi buen amigo Ilmater (por alguna razón, Ilmater tiene alguna clase de "cariño" por el pobre Cespenar) y ¡presto! ¿Lo queréis por 10.000 monedas de oro?.~
+@567888  = ~¡Swish-swash! La Espada de agua sería mucho más divertida que sólo salpicar alrededor vuestro. ¿Quizás sois un esgrimidor? Cespenar tiene una receta que funciona muy bien para las estocadas rápidas.~ [FWCESP37] ~¡Swish-swash! La Espada de agua sería mucho más divertida que sólo salpicar alrededor vuestro. ¿Quizás sois una esgrimidora? Cespenar tiene una receta que funciona muy bien para las estocadas rápidas.~ [FWCESP37]
+@5678988 = ~Con un Filo de Agua, Talón de Rashad y Adjatha la bebedora, puedo hacer una gran espada hecha de agua. En realidad no es tan grande, pero suena muy bien. ¡Espero que os guste el veneno! ¿Tenéis 15.000 monedas de oro por el trabajo?.~
+@567889  = ~Oooh, una brillante hacha que mata las cosas malignas. ¿Intentáis matar a Cespenar? Oh esperad, sólo funciona con muertos vivientes, no con demonios. ¡Fue espeluznante por un momento!. Cespenar vio su vida pasar frente a sus ojos: demasiado inclinada, no lo suficientemente abrupta. Debo rectificarlo.~ [FWCESP38]
+@5678989 = ~De todas formas, el rosado en verdad no es vuestro color. Podría aplicarle un baño en Ilitio, y hacerla de un púrpura mucho más refinado. También dará algunos poderes y protecciones extra anti-muertos vivientes. 20,000 monedas de oro. ¿La queréis?.~
+@567890  = ~¡Espío un anillo sonando en vuestro dedo! ¿Demasiados anillos para vuestros dedos? Es un gran problema, Cespenar lo sabe.~ [FWCESP39]
+@5678990 = ~Os diré que hacer. Cespenar puede combinar vuestros anillos de la Hechicería y Agudeza, Junto con un Amuleto del Metaconjuro y un anillo de protección común para formar el Anillo del Hechicero. Muy bueno para los magos. ¿Lo queréis por 20.000 monedas de oro?.~
+@567892  = ~¿Podéis mejorar este cinturón?.~
+@567893  = ~Ooh, los cinturones están muy a la moda en esta época. ¿Me pregunto por qué todos son beige? Debe de ser por la iluminación de este horrible y pequeño plano. Siempre hace que Cespenar se vea cansado.~ [FWCESP40]
+@5678993 = ~Da igual, Si tenéis tres cinturones de protección, tengo una receta para combinarlos en un cinturón realmente recio. Si os ocultáis detrás de él, vuestros enemigos no pueden lastimaros. Todo un trato. ¿Lo queréis por 10.000 monedas de oro?.~
+@567895  = ~¿Tal vez podríais mejorar esta Figura de Araña Negra?.~
+@567896  = ~¡Ooh, engañoso-engañoso! ¿Queréis que Cespenar haga a vuestra amigable figura de araña aún más asombrosa? ¿Añadirle alguna máquina para crear telaraña quizás? ¿Vos queréis verme aterrorizado como un goblin?.~ [FWCESP41]
+@5678996 = ~La intuición de Cespenar está captando la idea. Sin embargo, necesita materiales especiales para mejorar a esta escala-paredes. Necesito pergaminos de Engendros Arácnidos y Telaraña, más cinco dagas arrojadizas venenosas. También 5.000 monedas de oro. ¿Queréis?.~
+@567897  = ~¿Pueden Caos y Entropía ser mejoradas?.~
+@567898  = ~¿Espadas cortas? Sois una persona segura si lleváis esas espadas, si captáis lo que Cespenar quiere decir. ¿Pero necesitáis más poder de golpes, eh? De acuerdo, esto es lo que Cespenar puede hacer. Conseguir un pergamino de aturdimiento y uno de Malison, combinarlos con Ilbratha y Arbane, ¡y las espadas cortas serán aún más merecedoras del nombre de "Armas Abismales"! Oh, Cespenar también necesita 25.000 monedas de oro. Y una Piedra de Bribón, a menos que queráis estar levantando piezas por Cespenar por todo este pequeño plano. Um, no os lo recomiendo.~ [FWCESP42]
+@567899  = ~¿Podéis construirme una malla élfica?.~
+@5678100 = ~¡Oooh Sí! ¿Os gustan las cosas bien cocinadas? Cespenar batirá algunas cadenas élficas con escamas de dragón rojo. Añadirle hongos shiitake, algunas especias ándar y pimienta de ágatas de fuego y presto: muy liviana, muy ardiente, muy hastiante. Cespenar es un verdadero chef del hierro... o quizás un fraguador culinario. Desafortunadamente, una sartén especial y aceite de cacahuate os costará 25.000 monedas de oro. ¿La quieres?.~ [FWCESP43]
+@56789955 = ~Oh, es la túnica de los Archimagos. Buena receta, así que no seáis tonto. Cespenar necesitar Capa de la Protección +1, Pergaminos de Armadura Espíritu, Contingencia y 20,000 monedas. ¡Y luego a lanzar hechizos como los Archimagos REALES!~
+@56789993 = ~De todas formas, si vos tenéis tres cinturones de protección, tengo receta para combinarlos en un gran cinturón. Si os escondéis detrás de él, los enemigos no podrán golpearos. Buen negocio, pero necesitar gemas de sangre del mismo tipo. ¿Tenéis además 10000 monedas?~
+@12349955 = ~Sí, yo poder hacer mejora para la Túnica del Archmagi. Con túnica de protección +1 y Pergaminos de Armadura Espíritu y Contingencia, puedo hacer un manto como para Elminster. Os costaría 20,000 monedas.~
+
+
