@@ -5,6 +5,8 @@
 
                    http://www.weidu.org/item.html
 
+Francais ? Lisez "c2\readme-itemupgrades.french.txt" !
+Polski ? Lisez "c2\readme-itemupgrades.polski.html" ! 
 
 		Sommaire
 		~~~~~~~~
@@ -788,3 +790,8 @@ Version 40: (updated by CamDawg)
         * Other minor fixes, such as a few items with incorrect weights or usability flags
         * Minor description fixes, such as multiple THACO > THAC0 typos
         * Future-proofed descriptions for BG2EE
+Version 41: (updated by CamDawg)
+        * Revised French translation - thanks to Sanctifer, of the d'Oghmatiques
+        * Added EE-specific Polish translation - thanks to Cahir
+        * Character sets will now be converted as appropriate for EE games
+        * Suppressed 'Revised versions' options for languages that do not have the translation

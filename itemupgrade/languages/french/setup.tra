@@ -1,6 +1,9 @@
 @1 = ~Shadows Of Amn Item Upgrades~
 @2 = ~Throne Of Bhaal Item Upgrades~
 @3 = ~Je n'ai pas pu trouver [Data\25Dialog.bif], ce qui me fait penser que vous n'avez pas installe l'extension Throne of Bhaal. Desole !~
+@4 = ~Version d'origine (les nouvelles ameliorations sont proposees dans une liste)~
+@5 = ~Version revisee (les nouvelles ameliorations sont proposees dans le meme style que les ameliorations du jeu de base)~
+@6 = ~Ce n'est pas disponible dans votre langue~
 
 @100 = ~Anneau de Préservation +1~
 @101 = ~Anneau de Préservation +1 : "Anneau du Prince Troll"

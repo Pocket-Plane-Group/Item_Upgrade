@@ -1,6 +1,9 @@
 @1 = ~Ulepszenia przedmiotów dla Cienii Amn~
 @2 = ~Ulepszenia przedmiotów dla Tronu Bhaala~
 @3 = ~Nie mozna odnalezc [Data\25Dialog.bif], co wskazuje na to, ze nie masz aktualnie zainstalowanego Tronu Bhaala. Wybacz!~
+@4 = ~Wersja oryginalna (nowe ulepszenia na liscie)~
+@5 = ~Wersja poprawiona (nowe ulepszenia przedstawione w podobnym stylu, co dotychczasowe)~
+@6 = ~Opcja ta nie jest jeszcze dostepna w twoim jezyku~
 
 @100 = ~Pierœcieñ zachowywania +1~
 @101 = ~Pierœcieñ zachowywania +1: 'Pierœcieñ Ksiêcia Trolli'
@@ -39,7 +42,7 @@ Specjalne:
  +50% do odpornoœci na elektrycznoœæ~
 
 @106 = ~Kostur w³adzy nad ¿ywio³ami +5~
-@107 = ~Po³¹czony trzema p³aszczyznami ¿ywio³ów, ten potê¿ny kostur zosta³ wykuty dla ciebie. To jest potê¿na broñ sama w sobie, ale tak¿e posiada moc ¿ycia i œmierci zwi¹zan¹ z istotami ¿ywio³ów. Ten szczególny kij jest zimny w dotyku i jest pokryty wypalonymi znakami oraz ma³ymi wy¿³obieniami. Wieœæ niesie, ¿e sekret tej specyficznej konstrukcji zosta³ pierwotnie odkryty przez Rakshasa, która to stworzy³a go do stworzenia Cepa bojowego wieków.
+@107 = ~Po³¹czony trzema p³aszczyznami ¿ywio³ów, ten potê¿ny kostur zosta³ wykuty dla ciebie. To jest potê¿na broñ sama w sobie, ale tak¿e posiada moc ¿ycia i œmierci zwi¹zan¹ z istotami ¿ywio³ów. Ten szczególny kij jest zimny w dotyku i jest pokryty wypalonymi znakami oraz ma³ymi wy¿³obieniami. Wieœæ niesie, ¿e sekret tej specyficznej konstrukcji zosta³ pierwotnie odkryty przez Rakshasa, która to stworzy³a go do stworzenia Cepa bojowego Wieków.
 
 PARAMETRY:
 
@@ -111,7 +114,7 @@ Specjalne:
 Waga: 4~
 
 @120 = ~Piêty Pana Burz~
-@121 = ~Doskona³e podczas odprê¿aj¹cego dnia spêdzonego na naje¿d¿aniu œwi¹tyni Talosa lub walki przeciwko ¯ywio³akom powietrza, gdy¿ buty te ³¹cz¹ w sobie moce Butów uziemienia i Butów szybkoœci. Zosta³y one zszyte na twoje zamówienie.
+@121 = ~Doskona³e podczas odprê¿aj¹cego dnia spêdzonego na naje¿d¿aniu œwi¹tyni Talosa lub walki przeciwko ¯ywio³akom powietrza, buty te ³¹cz¹ w sobie moce Butów uziemienia i Butów szybkoœci. Zosta³y one uszyte na twoje zamówienie.
 
 PARAMETRY:
 
@@ -272,7 +275,7 @@ Nie mo¿e u¿ywaæ:
 
 @140 = ~Skóra Aegera +5~
 @141 = ~Ta ciê¿ka i gruba niedŸwiedzia skóra jest wszystkim co zosta³o ze s³ynnego Aegera. Kilkaset lat temu Aeger, olbrzymi niedŸwiedŸ, terroryzowa³ setki wiosek wzd³u¿ ca³ego Wybrze¿a Mieczy. NiedŸwiedŸ by³ niewra¿liwy na ogieñ, zimno i kwas. Wreszcie zebrali siê m³odzi mê¿czyŸni i kobiety z kilku wiosek, tworz¹c grupê licz¹c¹ prawie dwieœcie osób. Aeger zosta³ otoczony i zg³adzony. Prze¿y³ mniej ni¿ tuzin ludzi, którzy podzielili miêdzy siebie skórê Aegera. Zbroja zosta³a wykonana z jednego z tych kawa³ków.
-<CHARNAME> ulepszy³<PRO_HESHE> j¹ jeszcze bardziej dodatkowymi umagicznieniami. Obecnie zapewnia jeszcze wiêksz¹ ochronê na obra¿enia fizyczne i ataki bazuj¹ce na ¿ywio³ach.
+<CHARNAME> wzmocni³<PRO_HESHE> j¹ jeszcze bardziej dodatkowymi umagicznieniami. Obecnie zapewnia jeszcze wiêksz¹ ochronê na obra¿enia fizyczne i ataki bazuj¹ce na ¿ywio³ach.
 
 PARAMETRY:
 
@@ -286,7 +289,7 @@ Nie mo¿e u¿ywaæ:
  Mag~
 
 @142 = ~Ulepszona Ludzka Skóra~
-@143 = ~Ta zbroja jest wykonana z ludzkiej skóry i oblana krwi¹ szlachetnego smoka. Wydziela ostry odór œmierci. Ta nikczemna zbroja mo¿e byæ u¿ywana tylko przez naprawdê z³¹ osobê.
+@143 = ~Zbroja ta zosta³a wykonana z ludzkiej skóry i oblana krwi¹ szlachetnego smoka. Dodatkowo zaklêto w niej duszê niewinnej dziewczyny i wpleciono w ni¹ potê¿n¹ ochronn¹ magiê. Ten z³owrogi pancerz wydziela ostry odór œmierci i mo¿e byæ u¿ywany tylko przez naprawdê z³¹ osobê. To zaprawdê szczyt nikczemnej ochrony.
 
 PARAMETRY:
 
@@ -317,7 +320,7 @@ Waga: 10
 Mo¿e u¿ywaæ:
  Keldorn~
 
-@146 = ~Zbroja p³ytowa z ankhega~
+@146 = ~Ulepszona zbroja p³ytowa z ankhega~
 @147 = ~Ta zbroja p³ytowa to istne cacko. Powleczona chitynow¹ ³usk¹ ankhega zapewnia lepsz¹ ochronê ni¿ pancerz wykonany z metalu i nie jest podatna na rdzê. Jednak¿e, jak powie ci to ka¿dy doœwiadczony poszukiwacz przygód, jej najwiêksz¹ zalet¹ jest niewielka waga. Potwory przychodz¹ i odchodz¹, wyczerpanie natomiast jest sta³ym zagro¿eniem. 
 Ta szczególna zbroja zosta³a przekuta na twoj¹ proœbê. Zapewnia ona teraz dodatkow¹ ochronê i pozwala nosz¹cemu j¹ na naœladowanie ataków pluj¹cego kwasem ankhega.
 
@@ -354,7 +357,7 @@ Nie mo¿e u¿ywaæ:
 
 @150 = ~Rzucana w³ócznia +3~
 @151 = ~W³ócznia to jeden z najwczeœniejszych rodzajów broni, którymi zacz¹³ pos³ugiwaæ siê cz³owiek. Pierwsze egzemplarze tej broni by³y wykonane z drewna i zaostrzone na koñcu. Kiedy cz³owiek nauczy³ siê wytapiaæ metale, groty w³óczni by³y wytwarzane z ¿elaza i stali. Ta w³ócznia dr¿y od potê¿nej magii wykorzystanej do jej stworzenia.
-W przeciwieñstwie do prawie wszystkich w³óczni, które znasz, t¹ mo¿na rzucaæ. Zosta³a wykuta dla ciebie przy u¿yciu kamienia ³otrzyków. Kiedy jest rzucana, w³ócznia natychmiast wraca do r¹k w³aœciciela. (W³ócznia mo¿e byæ wykorzystywana jako broñ rêczna: wybierz wtedy drug¹ zdolnoœæ broni, aby tak zrobiæ.) 
+W przeciwieñstwie do niemal wszystkich w³óczni, które znasz, t¹ mo¿na rzucaæ. Zosta³a wykuta dla ciebie przy u¿yciu kamienia ³otrzyków. Kiedy jest rzucana, w³ócznia natychmiast wraca do r¹k w³aœciciela. (W³ócznia mo¿e byæ wykorzystywana jako broñ rêczna: wybierz wtedy drug¹ zdolnoœæ broni, aby tak zrobiæ.) 
 
 PARAMETRY:
 
@@ -470,8 +473,12 @@ Nie mo¿e u¿ywaæ:
 
 @160 = ~Furia Niebios +5~
 @161 = ~Katana +5: Furia Niebios
-W przeciwieñstwie do konwencjonalnych broni, katana jest ju¿ z za³o¿enia niemal doskona³ym mieczem do walki. Trzeba ogromnych poœwiêceñ, aby jeszcze j¹ ulepszyæ, np. umieraj¹cy samuraj mo¿e ub³agaæ Wu Jena aby jego waleczny duch zosta³ przelany na katanê. Osoba w³adaj¹ca zaczarowan¹ katan¹, tak¹ jak ta, musi szanowaæ obyczaje Kara-Tur oraz samuraja, który niegdyœ dzier¿y³ to ostrze w boju. Nieprzestrzeganie tego nakazu mo¿e spowodowaæ gwa³town¹ odmianê losu na gorsze.
-Umagicznienie katany nie jest prost¹ spraw¹. Tak przynajmniej myœla³<PRO_HESHE> <CHARNAME>, zanim sam<PRO_HESHE> tego po raz pierwszy nie uczyni³<PRO_HESHE>. W rzeczywistoœci najtrudniejsz¹ czêœci¹ przekuwania ju¿ boskiej mocy katany znanej jako Furia Niebios by³o zebranie potrzebnych do tego rzeczy. Furia Niebios dobrze j<PRO_HIMHER> s³u¿y³a, odk¹d <CHARNAME> zabra³<PRO_HESHE> j¹ z r¹k kensaia Koshi w Dzielnicy Œwi¹tynnej w Athkatli.
+Umagicznienie katany nie jest proste, a przynajmniej nie tak, jak <CHARNAME> s¹dzi³<PRO_HESHE>, nim zleci³<PRO_HESHE> innym to zadanie. Okaza³o siê, ¿e najtrudniejsz¹ rzecz¹ w ca³ym procesie przekuwania posiadaj¹cej niemal boskie moce katany, zwanej Furi¹ Niebios, by³o zebranie niezliczonej iloœci niezbêdnych do tego sk³adników. Odk¹d <CHARNAME> zabra³<PRO_HESHE> j¹ z martwych r¹k Koshiego w Dzielnicy Œwi¹tynnej, w Athkatli, Furia Niebios nie raz sprawdzi³a siê w boju. Nim to jednak nast¹pi³o, jej historia przedstawia³a siê nastêpuj¹co:
+Wiele lat temu, prowincjê zarz¹dzan¹ przez daimyo Hoshiego Katahiroi nawiedzi³y gwa³towne burze i po¿ary, wywo³ane przez b³yskawice. Doradcy daimyo, bêd¹c szanowanymi czarodziejami, wkrótce wywró¿yli, i¿ katastrofa nie by³a dzie³em Natury, lecz potê¿nego smoka o nieznanym pochodzeniu. Niektórzy z owych mêdrców spekulowali, ¿e istota ta by³a wynaturzeniem, inni zaœ wierzyli, i¿ narodzi³a siê z Pierwotnego Chaosu, jeszcze przed narodzinami Kara-Tur. Wszyscy zgodzili siê, by nazywaæ j¹ Furi¹ Niebios. 
+Daimyo Hoshi nie chcia³ jednak klasyfikowaæ plagi nêkaj¹cej jego prowincjê, chcia³ j¹ zniszczyæ. Zleci³ wiêc os³awionemu Chigaccie (mieszkaj¹cemu na odludziu rzemieœlnikowi i mistrzowi sztuk mistycznych) stworzenie broni mog¹cej strzaskaæ duszê i ³uskowate cielsko smoka. Wysi³ki Chigatty zaowocowa³y powstaniem najwspanialszej z katan, nazwanej Furi¹ Niebios od imienia bestii, któr¹ mia³a zniszczyæ. Broñ nasycono moc¹ obdarzaj¹c¹ jej w³aœciciela zdolnoœci¹ latania.
+Dzier¿¹c ow¹ broñ, Hoshi rozpocz¹³, w k³êbach burzowych chmur, poszukiwania nêkaj¹cej jego prowincjê bestii. Przez wiele dni krzyki i ryki walcz¹cych rozdziera³y przestworza, noce zaœ rozœwietlane by³y przez jêzory ognia. Wreszcie nadesz³a d³ugo oczekiwana chwila, gdy Hoshi zniszczy³ cia³o smoka, wiê¿¹c we wnêtrzu miecza duszê stworzenia. Dwie Furie Niebios po³¹czy³y siê w jednoœæ, przywracaj¹c porz¹dek nad panuj¹cym chaosem. By zwieñczyæ to zwyciêstwo, Hoshi i Chigatta wykonali pochwê ze smoczej skóry, zaœ w rêkojeœci katany umieœcili magiczn¹ per³ê.
+Smok dokona³ jednak swej zemsty. Hoshi zgin¹³ w bitwie, a zgubi³a go os³abiona wola. Duch uwiêziony w Furii Niebios przej¹³ bowiem kontrolê nad Hoshim, zmuszaj¹c go do zabicia Chigatty, a nastêpnie samego siebie. Po tym zdarzeniu katana zniknê³a (op³akuj¹ca Hoshiego rodzina pozby³a siê najpewniej zdradzieckiej broni), zmieniaj¹c od tego czasu wielokrotnie w³aœciciela.
+Furia Niebios to katana o wyj¹tkowej konstrukcji. Jej giêtka lecz niezniszczalna klinga jest ostra niczym brzytwa, rêkojeœæ zaœ wy³o¿ona zosta³a przyjemn¹ w dotyku skór¹, w któr¹ wprawiono niezwyk³ej urody per³ê. Na ostrzu wyryto magiczne znaki symbolizuj¹ce Furiê Niebios, b³yszcz¹ce fioletem i trzaskaj¹ce elektrycznoœci¹, gdy broñ jest wyci¹gniêta. Miecz schowany jest w pochwie ze smoczej skóry, której ciemnoszare ³uski rozb³yskuj¹ nieustannie srebrnymi, b³êkitnymi i fioletowymi wstêgami.
 
 PARAMETRY:
 
@@ -550,10 +557,7 @@ Mo¿e u¿ywaæ:
  Anomen~
 
 @168 = ~Lilarcor +5~
-@169 = ~Lawrence Lilarcor by³ znany, nie z odwagi, ale z g³upoty. Jak mówi opowieœæ, che³pliwy Lilarcor opuœci³ swoj¹ wioskê za namow¹ swych przyjació³, aby pokazaæ, ¿e tylko "wielki bohater" mo¿e zmierzyæ siê z przebieg³ym Treantem. Wêdrowa³ zim¹ przez wiele dni, a¿ w koñcu, w gor¹czce, znalaz³ swój cel i rozpoczê³y siê epickie zapasy. Niestety (a raczej na szczêœcie), "Treant" by³ niczym wiêcej jak tylko zwyk³ym, starym dêbem. To mog³oby zakoñczyæ tê historiê, ale Lilarcor, który wyruszaj¹c nie wiedzia³, czym jest Treant, nie zdo³a³ domyœliæ siê prawdy. W koñcu wyrwa³ d¹b z korzeniami i dumnie maszeruj¹c w kierunku domu og³osi³ siê bohaterem. Tak narodzi³a siê epickich rozmiarów komedia, a z czasem nazwisko Lilarcor sta³o siê synonimem g³upca w wielu opowieœciach.
-Nie wiadomo, czy ta magiczna broñ to sam Lilarcor, byæ mo¿e uwiêziony przez z³ego maga lub inne zrz¹dzenie losu, ale pewne jest to, ¿e dzia³a na poziomie jego zdolnoœci. Jeœli to on, to nigdy nie narzeka³ na swoje uwiêzienie. Mo¿e nie zdaje sobie sprawy, albo nie dba o to, ¿e nie jest ju¿ cz³owiekiem.
-Jako broñ, Lilarcor ma swoje zastosowania, ale wielu wojowników zrezygnowa³o z niego. Komentarze takie jak "Auæ, to musia³o boleæ", "O tak! Rany, ale dobry jestem" i "Uwa¿aj bo moje uk¹szenie mo¿e... mo¿e... mo¿e zraniæ albo coœ" s¹ udrêk¹ dla umys³u wojownika.
-Teraz, gdy <CHARNAME> go ulepszy³<PRO_HESHE> (a raczej go uciszy³<PRO_HESHE>), ten kto dzier¿y ten miecz w d³oni nie mo¿e utraciæ swej inteligencji z jakiegokolwiek powodu. Broñ ta chroni przed wysysaniem inteligencji przez illithidów, lecz tak¿e dobroczynnymi skutkami wypicia mikstury geniuszu. 
+@169 = ~Lilarcor nie jest ju¿ tak rozkoszny (lub nieznoœny, w zale¿noœci od punktu widzenia), jakim by³, nim <CHARNAME> go ulepszy³<PRO_HESHE>. Po umieszczeniu w nim obrêczy kontrolnej ³upie¿ców umys³u, Lilarcor straci³ najwyraŸniej mo¿liwoœæ œwiadomej konwersacji z pobliskimi istotami, ograniczaj¹c siê do sporadycznych dowcipnych komentarzy. Jednak¿e, osobliwa inteligencja Lilarcora (b¹dŸ te¿ jej brak) mo¿e byæ teraz dla u¿ytkownika b³ogos³awieñstwem (lub kl¹tw¹), ten bowiem kto go dzier¿y jest ca³kowicie niewra¿liwy na jakiekolwiek próby zmiany inteligencji. Chroni go to przez zgubnym wp³ywem zdolnoœci wyssania intelektu u¿ywanej przez ilithidy, lecz równie¿ uniemo¿liwia mu korzystanie z po¿¹danego efektu dzia³ania mikstury geniuszu.
 
 PARAMETRY:
 
@@ -575,7 +579,7 @@ Nie mo¿e u¿ywaæ:
 
 @170 = ~Rozpruwacz Dusz +6~
 @171 = ~Przeklêty Mœciciel: Rozpruwacz Dusz +6
-Potê¿ne ostrze Rozpruwacza Dusz zosta³o przekute pod twoim mrocznym przewodnictwem. Œwiêta esencja Karsomira zosta³a wch³oniêta by pomóc stworzyæ tê odra¿aj¹c¹ potwornoœæ. Rozpruwacz Dusz jest narzêdziem niewyobra¿alnej potêgi i niewyobra¿alnego z³a. 
+Potê¿ne ostrze Rozpruwacza Dusz zosta³o przekute pod twoim mrocznym przewodnictwem. Œwiêta esencja Karsomira zosta³a wch³oniêta by pomóc stworzyæ tê odra¿aj¹c¹ potwornoœæ. Rozpruwacz Dusz jest narzêdziem niewyobra¿alnej potêgi i niewyobra¿alnego z³a. Ci, którzy go dzier¿¹, rzadko kiedy odk³adaj¹ go za ¿ycia.
 
 PARAMETRY:
 
@@ -699,9 +703,8 @@ Nie mo¿e u¿ywaæ:
  Z³odziej~
 
 @184 = ~Lazurowe ostrze +4~
-@185 = ~Toporek +4: Lazurowe Ostrze
-Gulen Skalny Ogieñ, Zabójca Nieumar³ych, stworzy³ ten potê¿ny toporek by wzmocniæ swe imiê. Pob³ogos³awiony przez ró¿nych bogów, topór ten zadaje niesamowite obra¿enia istotom niem¹drze buntuj¹cym siê przeciwko swojemu statusowi zmar³ych i mo¿e zniszczyæ je pojedynczym ciosem. NajwyraŸniej Gulen ju¿ nie u¿ywa Lazurowego ostrza, a plotka mówi, ¿e lata temu zgin¹³ w walce z potê¿nym wampirem, po czym sam sta³ siê takim. To mog³o spowodowaæ zmianê jego stanowiska wobec nieumar³ych, a przynajmniej zmianê przydomku.
-Dziêki tobie, ostrze uzyska³o jeszcze wiêksze mo¿liwoœci.
+@185 = ~Lazurowe ostrze +4
+<CHARNAME> ulepszy³<PRO_HESHE> tê potê¿n¹ zgubê nieumar³ych, zwan¹ Lazurowym ostrzem, ka¿¹c pokryæ je czystym ilitem. Wykuty pierwotnie przez Gulena Skaly Ogieñ topór wci¹¿ potrafi wracaæ do rêki w³aœciciela, gdy zostanie rzucony, i nadal niszczy nieumar³ych z gorliwoœci¹ godn¹ œwiêtego. Teraz jednak, chroni równie¿ przed wysysaj¹cymi poziomy atakami co potê¿niejszych umarlaków. Z dekoracyjnego punktu widzenia warto zauwa¿yæ, i¿ dodatek ilitu zmieni³ nieco barwê ostrza, oddalaj¹c j¹ lekko od tej, któr¹ sugeruje nazwa broni. 
 
 PARAMETRY:
 
@@ -759,7 +762,7 @@ Specjalne:
 
 @193 = ~Ulepszona Entropia~
 @194 = ~Ulepszona Entropia
-To zielone ostrze zosta³o ulepszone, jak zaproponowa³<PRO_HESHE> <CHARNAME>. To ostrze z zielonej stali pochodz¹cej z Otch³ani jest jedn¹ z ulubionych broni Haer'dalisa. Tylko diabelstwa mog¹ u¿ywaæ tej broni.
+To zielone ostrze zosta³o ulepszone wed³ug wskazówek, jakie zaproponowa³<PRO_HESHE> <CHARNAME>. Miecz ten zadaje obra¿enia od trucizny, a trafione nim istoty zdaj¹ siê z ka¿dym celnym ciosem traciæ zdolnoœæ do opierania siê szkodliwej magii.
 
 PARAMETRY:
 
@@ -777,7 +780,7 @@ Mo¿e u¿ywaæ:
 
 @195 = ~Upiorne Ostrze Chaosu~
 @196 = ~Upiorne Ostrze Chaosu
-Ostrze Chaosu to krótki miecz, którego u¿ywaæ mog¹ tylko diabelstwa. Za ka¿dym razem, kiedy ta broñ trafia w cel, atakowany traci na 30 sekund 2 punkty zrêcznoœci. Haer'dalis lubi korzystaæ z Ostrza Chaosu w parze z inn¹ broni¹, Entropi¹. Kiedy Haer'dalis w³ada tymi mieczami jednoczeœnie, staje siê bardzo groŸnym przeciwnikiem w walce.
+Ostrze Chaosu to krótki miecz, którego u¿ywaæ mog¹ tylko diabelstwa. Za ka¿dym razem, kiedy ta broñ trafia w cel, atakowany traci na 30 sekund 2 punkty Zrêcznoœci. Ulepszone wed³ug wskazówek, jakie zaproponowa³<PRO_HESHE> <CHARNAME>, ostrze to jest w stanie wywo³aæ zamêt w g³owie trafionej nim istoty.
 
 PARAMETRY:
 

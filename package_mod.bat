@@ -1,5 +1,5 @@
-REM Please note this uses a modified conf file and batch file (not on Github) from Mike1072's 
-REM excellent packaing tool since this is a WeiDU.org mod, not a G3 one.
+REM Please note this uses a modified conf file and batch file (not on Github) from Mike1072's
+REM excellent packaging tool since this is a WeiDU.org mod, not a G3 one.
 
 
 @echo off
@@ -10,12 +10,12 @@ call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 set "mod_name=Item Upgrade"
-set mod_version=v41
+set mod_version=v42a
 set mod_folder=itemupgrade
 
 REM /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
 REM /* %bg1%, %bg2%, %bgt%, %tutu%, %bgee%, %bgiiee%, %iwd1%, %iwdee%, %iwd2%, %iwd2ee%, %iwd-in-bg2%, %pst%, %pstee% */
-set "compatible_games=%bg2%, %bgt%, %bgiiee%"
+set "compatible_games=%bg2%, %bgt%, %bgiiee%, %eet%"
 
 REM /* MODIFY: these variables have sensible default values but they may need to be tweaked to match your particular mod */
 REM /* the ico_folder is where your .ico files are stored, which is usually the mod's backup or style folder */

@@ -1,9 +1,3 @@
-// load up ee-specific tra files on BG2EE
-ACTION_IF ((GAME_IS bg2ee) AND 
-           (FILE_EXISTS ~itemupgrade/%LANGUAGE%/lolwot.tra~)) THEN BEGIN
-  LOAD_TRA ~itemupgrade/%LANGUAGE%/setup_ee.tra~
-END
-
 COPY_EXISTING ~ar0202.are~ ~override~ // UE quest, cult hideout
   LPF ALTER_AREA_DOOR INT_VAR flag_uses_key = 0 STR_VAR door_name = "DOORDRAG" END
   BUT_ONLY

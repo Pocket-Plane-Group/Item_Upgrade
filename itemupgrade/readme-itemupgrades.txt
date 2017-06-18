@@ -1,12 +1,12 @@
                              Baldur's Gate II
                            Item Upgrade Mod Pack
 		  Westley Weimer <weimer@cs.berkeley.edu>
-                             \/ Release 41 \/
+                             \/ Release 42 \/
 
                       http://www.weidu.org/item.html
 
-Francais? Lisez "c2\readme-itemupgrades.french.txt"!
-Polski? Read "c2\readme-itemupgrades.polski.html"! 
+Francais? Lisez "itemupgrade\readme-itemupgrades.french.txt"!
+Polski? Read "itemupgrade\readme-itemupgrades.polski.html"!
 
 		Table of Contents
 		~~~~~~~~~~~~~~~~~
@@ -43,14 +43,16 @@ First, pick your favorite language. Currently available:
   American English 
   French Translation by Artemidore (artemidore@caramail.com)
                      &  Cocobard (bardbards@planetis.com)
+                     & Graoumf (D'Oghmatiques)
   German Translation by Maus (maus@fphfslinux.physik.uni-karlsruhe.de)
                      &  Norbert Frishcauf
                      &  Patrick Lainer
   Spanish Translation by Clan DLAN ( http://www.clandlan.cjb.net )
-                     & Bhasbuto 
+                     & Bhasbuto
                      & Immortality
                      & Neil Sharp (FWP)
   Polish Translation by Damian Staniszewski
+                     & Cahir
   Russian Translation by Iogan 
                      & AERIE.RU
   Korean Translation by web2air
@@ -63,6 +65,18 @@ installed.
 
 The components should install correctly for international players who have
 both DIALOG.TLK and DIALOGF.TLK. 
+
+As of v42, Jason Compton's Cespenar audio is available in the main mod for
+English-speaking players instead of a separate download. From the original
+Cepsenar Audio readme:
+
+  I enjoyed writing many of the lines you see for Cespenar in Westley
+  Weimer's Item Upgrade mod. So I decided to have even more fun and breathe
+  life into those lines with my best crack at a voice for our favorite imp
+  butler.
+  
+  So, here it is. All 44 "intro" lines to the items that can be upgraded, as
+  of IU v42, are here.
 
 
 		Section III. Items
@@ -752,7 +766,7 @@ Version 41: (updated by CamDawg)
           * Corrected speed factor of Inevitable Entropy and Daystar +4
           * Creatures of 4 HD or less were not getting a save chance against Creeping Chaos' 
             confusion effect
-          * Tower of Iron Will and Shield of Harmony +3  were missing a handful of psionic 
+          * Tower of Iron Will and Shield of Harmony +3  were missing a handful of psionic
             protections
           * Free action effect on the Improved Firecam Full-Plate Armor and the Sword of 
             Arvoreen +5 needed some touchups
@@ -761,3 +775,12 @@ Version 41: (updated by CamDawg)
           * Celestial Fury +5's stun effect now provides combat feedback
           * Fixed power levels on Water's Talon +4
           * Ring of Wizardry upgrade now accounts for the alternate introduced by EE/Fixpack v11
+Version 42: (updated by CamDawg)
+          * The mod now accounts for EET games
+          * v41 was using an outdated version of the Polish translation (Cam's fault) which was
+            causing text issues (at best) or crashes (at worst) for Polish players
+          * Cam was also using an older French translation.   
+          * The Cespenar audio, previously available as a separate download, is now integrated
+            into the mainline mod. The audio is English-only.
+          * The English item descriptions for EE games have been revised to better fit in with
+            the EE style  

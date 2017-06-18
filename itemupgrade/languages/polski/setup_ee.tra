@@ -7,751 +7,766 @@ from setup.tra. This does not need to be a complete copy of setup.tra, ONLY for 
 This file is also formatted in utf-8 since it's only used on BGIIEE games. setup.tra will be converted on the fly for BGIIEE.
 */
 
-@1 = ~Ulepszenia przedmiotÃ³w dla Cieni Amn~
-@2 = ~Ulepszenia przedmiotÃ³w dla Tronu Bhaala~
+@1 = ~Ulepszenia przedmiotów dla Cieni Amn~
+@2 = ~Ulepszenia przedmiotów dla Tronu Bhaala~
 @3 = ~Nie mozna odnalezc [Data\25Dialog.bif], co wskazuje na to, ze nie masz aktualnie zainstalowanego Tronu Bhaala. Wybacz!~
 
-@100 = ~PierÅ›cieÅ„ zachowywania +1~
-@101 = ~PierÅ›cieÅ„ zachowywania +1: 'PierÅ›cieÅ„ KsiÄ™cia Trolli'
-PierÅ›cieÅ„ ten zostaÅ‚ magicznie wykuty specjalnie dla ciebie. Zawiera w sobie poÅ‚Ä…czone moce pierÅ›cienia ochronnego krÃ³la Casttera i pieÅ›cienia regeneracji Huhhusa. W dodatku pierÅ›cieÅ„ jest bardzo gustowny.
+@100 = ~Pierœcieñ zachowywania +1~
+@101 = ~Pierœcieñ zachowywania +1: Pierœcieñ Ksiêcia Trolli
+Pierœcieñ ten zosta³ magicznie wykuty specjalnie dla ciebie. Zawiera w sobie po³¹czone moce pierœcienia ochronnego króla Casttera i pieœcienia regeneracji Huhhusa. W dodatku pierœcieñ jest bardzo gustowny.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Klasa Pancerza: +1
-â€“ Rzuty obronne: +1
-â€“ Regeneracja PunktÃ³w Å»ycia: 1/rundÄ™
+– Klasa Pancerza: +1
+– Rzuty obronne: +1
+– Regeneracja punktów ¿ycia: 1/rundê
 
 Waga: 0~
 
-@102 = ~PierÅ›cieÅ„ zachowywania +2~
-@103 = ~PierÅ›cieÅ„ zachowywania +2: 'PierÅ›cieÅ„ StraÅ¼nika Trolli'
-PierÅ›cieÅ„ ten zostaÅ‚ magicznie wykuty specjalnie dla ciebie. Zawiera w sobie poÅ‚Ä…czone moce pierÅ›cienia ochronnego `PierÅ›cienia StraÅ¼nika` i pieÅ›cienia regeneracji Huhhusa. W dodatku pierÅ›cieÅ„ jest bardzo gustowny.
+@102 = ~Pierœcieñ zachowywania +2~
+@103 = ~Pierœcieñ zachowywania +2: Pierœcieñ Stra¿nika Trolli
+Pierœcieñ ten zosta³ magicznie wykuty specjalnie dla ciebie. Zawiera w sobie po³¹czone moce pierœcienia ochronnego „Pierœcienia Stra¿nika” i pieœcienia regeneracji Huhhusa. W dodatku pierœcieñ jest bardzo gustowny.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Klasa Pancerza: +2
-â€“ Rzuty obronne: +2
-â€“ Regeneracja PunktÃ³w Å»ycia: 1/rundÄ™
+– Klasa Pancerza: +2
+– Rzuty obronne: +2
+– Regeneracja punktów ¿ycia: 1/rundê
 
 Waga: 0~
 
-@104 = ~PierÅ›cieÅ„ kontroli nad Å¼ywioÅ‚ami~
-@105 = ~PierÅ›cieÅ„ ten Å‚Ä…czy w sobie potÄ™gÄ™ Å¼ywioÅ‚Ã³w ziemi, powietrza i ognia i zezwala uÅ¼ytkownikowi dominowaÄ‡ nad istotami pochodzÄ…cymi z tych sfer. PierÅ›cieÅ„ zostaÅ‚ stworzony dla ciebie i jego sÅ‚awa bÄ™dzie niewÄ…tpliwie rosnÄ…Ä‡ z twojÄ…. 
+@104 = ~Pierœcieñ kontroli nad ¿ywio³ami~
+@105 = ~Pierœcieñ ten ³¹czy w sobie potêgê ¿ywio³ów ziemi, powietrza i ognia i zezwala u¿ytkownikowi dominowaæ nad istotami pochodz¹cymi z tych sfer. Pierœcieñ zosta³ stworzony dla ciebie i jego s³awa bêdzie niew¹tpliwie rosn¹æ z twoj¹. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ Klasa Pancerza: +1
-â€“ Rzuty obronne: +1
-â€“ OdpornoÅ›Ä‡ na ogieÅ„: +50%
-- OdpornoÅ›Ä‡ na elektrycznoÅ›Ä‡: +50%
+– Klasa Pancerza: +1
+– Rzuty obronne: +1
+– Odpornoœæ na ogieñ: +50%
+- Odpornoœæ na elektrycznoœæ: +50%
 
-WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w:
-â€“ Zauroczenie Å¼ywioÅ‚aka, trzy razy dziennie (bez rzutu obronnego)
-ZasiÄ™g: dotyk 
-Czas dziaÅ‚ania: 45 sekund 
-Obszar dziaÅ‚ania: dotkniÄ™ty Å¼ywioÅ‚ak
+W³aœciwoœci ³adunków:
+– Zauroczenie ¿ywio³aka, trzy razy dziennie (bez rzutu obronnego)
+Zasiêg: dotyk 
+Czas dzia³ania: 45 sekund 
+Obszar dzia³ania: dotkniêty ¿ywio³ak
 
-â€“ Sprowadzenie Å¼ywioÅ‚aka ziemi, powietrza i ognia, raz dziennie (przyzwany Å¼ywioÅ‚ak jest przyjazny)
-ZasiÄ™g: pole widzenia
-Czas dziaÅ‚ania: 5 tur 
+– Sprowadzenie ¿ywio³aka ziemi, powietrza i ognia, raz dziennie (przyzwany ¿ywio³ak jest przyjazny)
+Zasiêg: pole widzenia
+Czas dzia³ania: 5 tur 
 
-â€“ Ulepszona niewidzialnoÅ›Ä‡, raz dziennie 
-ZasiÄ™g: dotyk 
-Czas dziaÅ‚ania: 1 tura 
-Obszar dziaÅ‚ania: dotkniÄ™ta istota
+– Ulepszona niewidzialnoœæ, raz dziennie 
+Zasiêg: dotyk 
+Czas dzia³ania: 1 tura 
+Obszar dzia³ania: dotkniêta istota
 
 Waga: 0~
 
-@106 = ~Kostur wÅ‚adzy nad Å¼ywioÅ‚ami +5~
-@107 = ~PoÅ‚Ä…czony trzema pÅ‚aszczyznami Å¼ywioÅ‚Ã³w, ten potÄ™Å¼ny kostur zostaÅ‚ wykuty dla ciebie. To jest potÄ™Å¼na broÅ„ sama w sobie, ale takÅ¼e posiada moc Å¼ycia i Å›mierci zwiÄ…zanÄ… z istotami Å¼ywioÅ‚Ã³w. Ten szczegÃ³lny kij jest zimny w dotyku i jest pokryty wypalonymi znakami oraz maÅ‚ymi wyÅ¼Å‚obieniami. WieÅ›Ä‡ niesie, Å¼e sekret tej specyficznej konstrukcji zostaÅ‚ pierwotnie odkryty przez Rakshasa, ktÃ³ra to stworzyÅ‚a go do stworzenia Cepa bojowego wiekÃ³w.
+@106 = ~Kostur w³adzy nad ¿ywio³ami +5~
+@107 = ~Po³¹czony trzema p³aszczyznami ¿ywio³ów, ten potê¿ny kostur zosta³ wykuty dla ciebie. To jest potê¿na broñ sama w sobie, ale tak¿e posiada moc ¿ycia i œmierci zwi¹zan¹ z istotami ¿ywio³ów. Ten szczególny kij jest zimny w dotyku i jest pokryty wypalonymi znakami oraz ma³ymi wy¿³obieniami. Wieœæ niesie, ¿e sekret tej specyficznej konstrukcji zosta³ pierwotnie odkryty przez Rakshasa, która to stworzy³a go do stworzenia Cepa bojowego wieków.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Zniszczenie Å¼ywioÅ‚aka ziemi, powietrza lub ognia, po trafieniu (bez rzutu obronnego)
+– Zniszczenie ¿ywio³aka ziemi, powietrza lub ognia, po trafieniu (bez rzutu obronnego)
 
-WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w:
-â€“ Sprowadzenie Å¼ywioÅ‚aka ziemi, powietrza i ognia, raz dziennie (przyzwany Å¼ywioÅ‚ak jest przyjazny)
-ZasiÄ™g: pole widzenia
-Czas dziaÅ‚ania: 5 tur
+W³aœciwoœci ³adunków:
+– Sprowadzenie ¿ywio³aka ziemi, powietrza i ognia, raz dziennie (przyzwany ¿ywio³ak jest przyjazny)
+Zasiêg: pole widzenia
+Czas dzia³ania: 5 tur
 
-â€“ Ognista tarcza (czerwona), dwa razy dziennie
-OdpornoÅ›Ä‡ na ogieÅ„: +50% 
-Specjalne: KaÅ¼dy, kto trafi uÅ¼ytkownika bÄ™dÄ…c w promieniu 1,5 metra od niego, otrzyma 1k8 +2 obraÅ¼eÅ„ od ognia 
-Czas dziaÅ‚ania: 13 rund 
-Obszar dziaÅ‚ania: uÅ¼ytkownik
+– Ognista tarcza (czerwona), dwa razy dziennie
+Odpornoœæ na ogieñ: +50% 
+Specjalne: Ka¿dy, kto trafi u¿ytkownika bêd¹c w promieniu 1,5 metra od niego, otrzyma 1k8 +2 obra¿eñ od ognia 
+Czas dzia³ania: 13 rund 
+Obszar dzia³ania: u¿ytkownik
 
-â€“ UsypiajÄ…ca chmura, dwa razy dziennie (rzut obronny przeciw truciznom neguje)
-Specjalne: Ofiara zasypia na 3 rundy
-ZasiÄ™g: 12 metrÃ³w
+– Usypiaj¹ca chmura, dwa razy dziennie (rzut obronny przeciw truciznom neguje)
+Specjalne: Ofiara zasypia na trzy rundy
+Zasiêg: 12 metrów
 
-ObraÅ¼enia: 1k6 +5
+Obra¿enia: 1k6 +5
 Trak0: +5
-Typ obraÅ¼eÅ„: obuchowe
-OpÃ³Åºnienie: 0
-Rodzaj biegÅ‚oÅ›ci: kij
-Typ broni: 2-rÄ™czna
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 0
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna
 
 Wymagania:
-â€“ SiÅ‚a: 5
+– Si³a: 5
 
 Waga: 3~
 
-@108 = ~KoÅ‚czan obfitoÅ›ci +3~
-@109 = ~PieniÄ…dze i surowce zainwestowane w KoÅ‚czan obfitoÅ›ci sprawiÅ‚y, Å¼e przedmiot ten zyskaÅ‚ zadziwiajÄ…ce magiczne wÅ‚aÅ›ciwoÅ›ci. 
+@108 = ~Ko³czan obfitoœci +3~
+@109 = ~Pieni¹dze i surowce zainwestowane w Ko³czan obfitoœci sprawi³y, ¿e przedmiot ten zyska³ zadziwiaj¹ce magiczne w³aœciwoœci. 
  
 PARAMETRY:
  
 Specjalne:
-â€“ Nieograniczona liczba strzaÅ‚ +3
+– Nieograniczona liczba strza³ +3
 
 Waga: 0~
 
-@110 = ~FuteraÅ‚ obfitoÅ›ci +3~
-@111 = ~PieniÄ…dze i surowce zainwestowane w FuteraÅ‚ obfitoÅ›ci sprawiÅ‚y, Å¼e przedmiot ten zyskaÅ‚ zadziwiajÄ…ce magiczne wÅ‚aÅ›ciwoÅ›ci. 
+@110 = ~Futera³ obfitoœci +3~
+@111 = ~Pieni¹dze i surowce zainwestowane w Futera³ obfitoœci sprawi³y, ¿e przedmiot ten zyska³ zadziwiaj¹ce magiczne w³aœciwoœci. 
  
 PARAMETRY:
  
 Specjalne:
-â€“ Nieograniczona liczba beÅ‚tÃ³w +3
+– Nieograniczona liczba be³tów +3
 
 Waga: 0~
 
-@112 = ~Torba obfitoÅ›ci +3~
-@113 = ~PieniÄ…dze i surowce zainwestowane w TorbÄ™ obfitoÅ›ci sprawiÅ‚y, Å¼e przedmiot ten zyskaÅ‚ zadziwiajÄ…ce magiczne wÅ‚aÅ›ciwoÅ›ci. Aczolwiek jakoÅ› nie sÄ… one zadowalajÄ…ce. Czy kiedykolwiek zainwestowaÅ‚eÅ› pieniÄ…dze i surowce w magiczny objekt tylko po to, by przekonaÄ‡ siÄ™, Å¼e jest on bezuÅ¼yteczny? To znaczy, z wyjÄ…tkiem WyrÃ³wnywacza i Fali. MyÅ›lÄ™, Å¼e nie. 
+@112 = ~Torba obfitoœci +3~
+@113 = ~Pieni¹dze i surowce zainwestowane w Torbê obfitoœci sprawi³y, ¿e przedmiot ten zyska³ zadziwiaj¹ce magiczne w³aœciwoœci. Aczolwiek jakoœ nie s¹ one zadowalaj¹ce. Czy kiedykolwiek zainwestowa³eœ pieni¹dze i surowce w magiczny objekt tylko po to, by przekonaæ siê, ¿e jest on bezu¿yteczny? To znaczy, z wyj¹tkiem Wyrównywacza i Fali. Myœlê, ¿e nie. 
 
 PARAMETRY:
  
 Specjalne:
-â€“ Nieograniczona liczba pociskÃ³w do procy +3
+– Nieograniczona liczba pocisków do procy +3
 
 Waga: 0~
 
 @114 = ~Buty przyspieszonego ukrycia~
-@115 = ~DoskonaÅ‚e dla zwiadowcÃ³w, ktÃ³rzy pragnÄ… zostaÄ‡ niewykryci, Buty przyspieszonego ukrycia Å‚Ä…czÄ… w sobie moce ButÃ³w szybkoÅ›ci i ButÃ³w ukrycia. ZostaÅ‚y zrobione na twoje zamÃ³wienie. 
+@115 = ~Doskona³e dla zwiadowców, którzy pragn¹ zostaæ niewykryci, Buty przyspieszonego ukrycia ³¹cz¹ w sobie moce Butów szybkoœci i Butów ukrycia. Zosta³y zrobione na twoje zamówienie. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ Dwukrotnie zwiÄ™kszajÄ… prÄ™dkoÅ›Ä‡ poruszania siÄ™
-â€“ Ciche chodzenie: +20%
-â€“ Krycie siÄ™ w cieniu: +15%
+– Dwukrotnie zwiêkszaj¹ prêdkoœæ poruszania siê
+– Ciche chodzenie: +20%
+– Krycie siê w cieniu: +15%
 
 Waga: 4~
 
 @116 = ~Buty zamieci~
-@117 = ~DoskonaÅ‚e dla poszukiwacza przygÃ³d podrÃ³Å¼ujÄ…cego po jaskini lodowych trollÃ³w lub innym chÅ‚odnym obszarze, Buty zamieci Å‚Ä…czÄ… w sobie moce ButÃ³w szybkoÅ›ci i ButÃ³w PÃ³Å‚nocy, ktÃ³re zostaÅ‚y poÅ‚Ä…czone specjalnie dla ciebie. 
+@117 = ~Doskona³e dla poszukiwacza przygód podró¿uj¹cego po jaskini lodowych trollów lub innym ch³odnym obszarze, Buty zamieci ³¹cz¹ w sobie moce Butów szybkoœci i Butów Pó³nocy, które zosta³y po³¹czone specjalnie dla ciebie. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ Dwukrotnie zwiÄ™kszajÄ… prÄ™dkoÅ›Ä‡ poruszania siÄ™
-â€“ OdpornoÅ›Ä‡ na zimno: +50%
+– Dwukrotnie zwiêkszaj¹ prêdkoœæ poruszania siê
+– Odpornoœæ na zimno: +50%
 
 Waga: 4~
 
 @118 = ~Buty szerszenia~
-@119 = ~Buty szerszenia sÄ… nieprzeÅ›cignione w przyspieszaniu ruchÃ³w ich nosiciela. Poprzez kombinacjÄ™ ButÃ³w unikÃ³w i ButÃ³w szybkoÅ›ci, te buty doskonale chroniÄ… przed pociskami.
+@119 = ~Buty szerszenia s¹ nieprzeœcignione w przyspieszaniu ruchów ich nosiciela. Poprzez kombinacjê Butów uników i Butów szybkoœci, te buty doskonale chroni¹ przed pociskami.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Dwukrotnie zwiÄ™kszajÄ… prÄ™dkoÅ›Ä‡ poruszania siÄ™
-â€“ Klasa Pancerza: +5 przeciw pociskom
+– Dwukrotnie zwiêkszaj¹ prêdkoœæ poruszania siê
+– Klasa Pancerza: +5 przeciw pociskom
 
 Waga: 4~
 
-@120 = ~PiÄ™ty Pana Burz~
-@121 = ~DoskonaÅ‚e podczas odprÄ™Å¼ajÄ…cego dnia spÄ™dzonego na najeÅ¼dÅ¼aniu Å›wiÄ…tyni Talosa lub walki przeciwko Å»ywioÅ‚akom powietrza, gdyÅ¼ buty te Å‚Ä…czÄ… w sobie moce ButÃ³w uziemienia i ButÃ³w szybkoÅ›ci. ZostaÅ‚y one zszyte na twoje zamÃ³wienie.
+@120 = ~Piêty Pana Burz~
+@121 = ~Doskona³e podczas odprê¿aj¹cego dnia spêdzonego na naje¿d¿aniu œwi¹tyni Talosa lub walki przeciwko ¿ywio³akom powietrza, gdy¿ buty te ³¹cz¹ w sobie moce Butów uziemienia i Butów szybkoœci. Zosta³y one zszyte na twoje zamówienie.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Dwukrotnie zwiÄ™kszajÄ… prÄ™dkoÅ›Ä‡ poruszania siÄ™
-â€“ OdpornoÅ›Ä‡ na elektrycznoÅ›Ä‡: +50%
+– Dwukrotnie zwiêkszaj¹ prêdkoœæ poruszania siê
+– Odpornoœæ na elektrycznoœæ: +50%
 
 Waga: 4~
 
-@122 = ~Niewierna Å¼ona +5~
-@123 = ~Maczuga +5: Niewierna Å¼ona
-Stworzona na twoje zamÃ³wienie poprzez poÅ‚Ä…czenie maczug: Czarnej krwi i Zgniatacza, Niewierna Å¼ona pulsuje destrukcyjnÄ… mocÄ…. Pokryta jest substancjÄ… podobnÄ… do kwasu, ktÃ³ra pali ciaÅ‚o przy zetkniÄ™ciu. Niewierna Å¼ona zadaje potÄ™Å¼ne rany takÅ¼e miaÅ¼dzÄ…c krÄ™gosÅ‚up. 
+@122 = ~Niewierna ¿ona +5~
+@123 = ~Maczuga +5: Niewierna ¿ona
+Stworzona na twoje zamówienie poprzez po³¹czenie maczug: Czarnej krwi i Zgniatacza, Niewierna ¿ona pulsuje destrukcyjn¹ moc¹. Pokryta jest substancj¹ podobn¹ do kwasu, która pali cia³o przy zetkniêciu. Niewierna ¿ona zadaje potê¿ne rany tak¿e mia¿dz¹c krêgos³up. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ OdpornoÅ›Ä‡ na kwas: +25%
+– Odpornoœæ na kwas: +25%
 
-ObraÅ¼enia: 1k6 +5, +5 obraÅ¼eÅ„ od kwasu, drzazgi zadajÄ… 3 obraÅ¼enia co rundÄ™ przez 4 rundy
+Obra¿enia: 1k6 +5, +5 obra¿eñ od kwasu, drzazgi zadaj¹ 3 obra¿enia co rundê przez cztery rundy
 Trak0: +5
-Typ obraÅ¼eÅ„: obuchowe
-OpÃ³Åºnienie: 1 
-Rodzaj biegÅ‚oÅ›ci: maczuga
-Typ broni: 1-rÄ™czna
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 1 
+Rodzaj bieg³oœci: maczuga
+Typ broni: 1-rêczna
 
 Wymagania:
-â€“ SiÅ‚a: 5
+– Si³a: 5
 
 Waga: 3~
 
-@124 = ~RozÅ‚upywacz czaszek +5~
-@125 = ~Wekiera +5: RozÅ‚upywacz czaszek
-Ta wekiera jest na staÅ‚e splamiona krwiÄ…, znak wielu lat poÅ›wiÄ™conych na rozÅ‚upywanie gÅ‚Ã³w. BroÅ„ ta mogÅ‚a w przeszÅ‚oÅ›ci przynosiÄ‡ zagÅ‚adÄ™ humanoidom, ale jej wÅ‚aÅ›ciciele zostali prawdopodobnie celowo usuniÄ™ci ze ÅºrÃ³deÅ‚ historycznych. Ostatnio za twoim poÅ›rednictwem zostaÅ‚a przemieniona w jeszcze bardziej budzÄ…cÄ… grozÄ™ broÅ„. 
+@124 = ~Roz³upywacz czaszek +5~
+@125 = ~Wekiera +5: Roz³upywacz czaszek
+Ta wekiera jest na sta³e splamiona krwi¹, znak wielu lat poœwiêconych na roz³upywanie g³ów. Broñ ta mog³a w przesz³oœci przynosiæ zag³adê humanoidom, ale jej w³aœciciele zostali prawdopodobnie celowo usuniêci ze Ÿróde³ historycznych. Ostatnio za twoim poœrednictwem zosta³a przemieniona w jeszcze bardziej budz¹c¹ grozê broñ. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ ObniÅ¼a maksymalnÄ… iloÅ›Ä‡ punktÃ³w Å¼ycia ofiary o 2 na okres 10 rund, po trafieniu
+– Obni¿a maksymaln¹ iloœæ punktów ¿ycia ofiary o 2 na okres dziesiêciu rund, po trafieniu
 
-ObraÅ¼enia: 1k6 +6, +6 obraÅ¼eÅ„ przeciw humanoidom
+Obra¿enia: 1k6 +6, +6 obra¿eñ przeciw humanoidom
 TraK0: +5
-Typ obraÅ¼eÅ„: obuchowe
-OpÃ³Åºnienie: 2
-Rodzaj biegÅ‚oÅ›ci: wekiera
-Typ broni: 1-rÄ™czna
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 2
+Rodzaj bieg³oœci: wekiera
+Typ broni: 1-rêczna
 Wymagania:
-â€“ SiÅ‚a: 10
+– Si³a: 10
 
 Waga: 6~
 
 @126 = ~Teleomortis +4~
-@127 = ~Stworzony w twoim imieniu uÅ¼ywajÄ…c mrocznych i strasznych rytuaÅ‚Ã³w, Teleomortis jest dÅ‚ugim Å‚ukiem o niezrÃ³wnanej potÄ™dze. Kiedy ciÄ™ciwa jest naciÄ…gana formuje siÄ™ duchowa strzaÅ‚a, zdajÄ…ca siÄ™ migotaÄ‡ i krÄ™ciÄ‡ w Å›wietle. Åuk nie wymaga Å¼adnej dodatkowej amunicji (chociaÅ¼ moÅ¼e on uÅ¼ywaÄ‡ rÃ³wnieÅ¼ innych strzaÅ‚). Duchowe strzaÅ‚y powstajÄ… z niewiadomych przyczyn, pozostajÄ…c tajemnicÄ… tego Å‚uku. 
+@127 = ~Stworzony w twoim imieniu u¿ywaj¹c mrocznych i strasznych rytua³ów, Teleomortis jest d³ugim ³ukiem o niezrównanej potêdze. Kiedy ciêciwa jest naci¹gana formuje siê duchowa strza³a, zdaj¹ca siê migotaæ i krêciæ w œwietle. £uk nie wymaga ¿adnej dodatkowej amunicji (chocia¿ mo¿e on u¿ywaæ równie¿ innych strza³). Duchowe strza³y powstaj¹ z niewiadomych przyczyn, pozostaj¹c tajemnic¹ tego ³uku. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ Tworzy wÅ‚asne upiorne strzaÅ‚y +4, w zwiÄ…zku z czym nie potrzebuje amunicji 
-â€“ 5% szans, Å¼e cel znajdzie siÄ™ pod wpÅ‚ywem ZamÄ™tu, po trafieniu
+– Tworzy w³asne upiorne strza³y +4, w zwi¹zku z czym nie potrzebuje amunicji 
+– 5% szans, ¿e cel znajdzie siê pod wp³ywem Zamêtu, po trafieniu
 
-ObraÅ¼enia: 1k6 +4
+Obra¿enia: 1k6 +4
 TraK0: +4
-OpÃ³Åºnienie: 1
-Rodzaj biegÅ‚oÅ›ci: dÅ‚ugi Å‚uk
-Typ broni: 2-rÄ™czna
+OpóŸnienie: 1
+Rodzaj bieg³oœci: d³ugi ³uk
+Typ broni: 2-rêczna
 
 Wymagania: 
-â€“ SiÅ‚a: 18
+– Si³a: 18
 
 Waga: 7~
 
-@128 = ~Rodowa zbroja CorthalÃ³w~
-@129 = ~Ta kolczuga, od dawien dawna wÅ‚asnoÅ›Ä‡ rodu Corthala, chroni noszÄ…cego jÄ… przed wszystkimi rodzajami atakÃ³w. WidaÄ‡ jednakÅ¼e, Å¼e musiaÅ‚a byÄ‡ niedawno modernizowana. Zbroja jest magiczna i zapewnia premiÄ™ +5 do klasy pancerza Valygara. Daje teÅ¼ premiÄ™ do odpornoÅ›ci na kwas, ogieÅ„ i obraÅ¼enia magiczne. DopÃ³ki Valygar ma na sobie tÄ™ zbrojÄ™, jest teÅ¼ odporny na zauroczenia. W koÅ„cu noszÄ…cego zbrojÄ™ nie moÅ¼na wykryÄ‡. Niewiele osÃ³b moÅ¼e jÄ… na siebie zaÅ‚oÅ¼yÄ‡, gdyÅ¼ dopasowano jÄ… specjalnie do sylwetki Valygara.
+@128 = ~Rodowa zbroja Corthalów~
+@129 = ~Ta kolczuga, od dawien dawna w³asnoœæ rodu Corthala, chroni nosz¹cego j¹ przed wszystkimi rodzajami ataków. Widaæ jednak¿e, ¿e musia³a byæ niedawno modernizowana. Zbroja jest magiczna i zapewnia premiê +5 do klasy pancerza Valygara. Daje te¿ premiê do odpornoœci na kwas, ogieñ i obra¿enia magiczne. Dopóki Valygar ma na sobie tê zbrojê, jest te¿ odporny na zauroczenia. W koñcu nosz¹cego zbrojê nie mo¿na wykryæ. Niewiele osób mo¿e j¹ na siebie za³o¿yæ, gdy¿ dopasowano j¹ specjalnie do sylwetki Valygara.
 
 PARAMETRY:
 
 Specjalne:
-â€“ OdpornoÅ›Ä‡ na ogieÅ„: +50%
-â€“ OdpornoÅ›Ä‡ na kwas: +50%
-- OdpornoÅ›Ä‡ na magiczne obraÅ¼enia: +50%
-- NiewraÅ¼liwoÅ›Ä‡ na zauroczenie
-- NiewykrywalnoÅ›Ä‡
+– Odpornoœæ na ogieñ: +50%
+– Odpornoœæ na kwas: +50%
+- Odpornoœæ na magiczne obra¿enia: +50%
+- Niewra¿liwoœæ na zauroczenie
+- Niewykrywalnoœæ
 
 Klasa Pancerza: 0 (-2 przeciw broniom siecznym, 2 przeciw broniom obuchowym)
 
 Waga: 9~
 
 @130 = ~Wzmocniona szata dobrego arcymaga~
-@131 = ~Ta potÄ™Å¼na szata oferuje ochronÄ™ ochronÄ™ przed wszystkimi fizycznymi atakami, zarazem podwyÅ¼szajÄ…c magicznÄ… odpornoÅ›Ä‡ i rzuty obronne. Zgodnie z naturÄ… zaczarowania szaty, moÅ¼e byÄ‡ noszona tylko przez dobre charaktery. TÄ™ szczegÃ³lnÄ… szatÄ™ umagiczniÅ‚<PRO_HESHE> <CHARNAME>.
+@131 = ~Ta potê¿na szata oferuje ochronê ochronê przed wszystkimi fizycznymi atakami, zarazem podwy¿szaj¹c magiczn¹ odpornoœæ i rzuty obronne. Zgodnie z natur¹ zaczarowania szaty, mo¿e byæ noszona tylko przez dobre charaktery. Tê szczególn¹ szatê umagiczni³<PRO_HESHE> <CHARNAME>.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Rzuty obronne: +2
-â€“ OdpornoÅ›Ä‡ na magiÄ™: +10%
-â€“ Pozwala zapamiÄ™taÄ‡ po 1 dodatkowym zaklÄ™ciu maga z poziomÃ³w 1-4
+– Rzuty obronne: +2
+– Odpornoœæ na magiê: +10%
+– Pozwala zapamiêtaæ po 1 dodatkowym zaklêciu maga z poziomów 1-4
 
 Klasa Pancerza: 3
 
 Waga: 6~
 
 @132 = ~Wzmocniona szata neutralnego arcymaga~
-@133 = ~Ta potÄ™Å¼na szata oferuje ochronÄ™ ochronÄ™ przed wszystkimi fizycznymi atakami, zarazem podwyÅ¼szajÄ…c magicznÄ… odpornoÅ›Ä‡ i rzuty obronne. Zgodnie z naturÄ… zaczarowania szaty, moÅ¼e byÄ‡ noszona tylko przez neutralne charaktery. TÄ™ szczegÃ³lnÄ… szatÄ™ umagiczniÅ‚<PRO_HESHE> <CHARNAME>.
+@133 = ~Ta potê¿na szata oferuje ochronê ochronê przed wszystkimi fizycznymi atakami, zarazem podwy¿szaj¹c magiczn¹ odpornoœæ i rzuty obronne. Zgodnie z natur¹ zaczarowania szaty, mo¿e byæ noszona tylko przez neutralne charaktery. Tê szczególn¹ szatê umagiczni³<PRO_HESHE> <CHARNAME>.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Rzuty obronne: +2
-â€“ OdpornoÅ›Ä‡ na magiÄ™: +10%
-â€“ Pozwala zapamiÄ™taÄ‡ po 1 dodatkowym zaklÄ™ciu maga z poziomÃ³w 1-4
+– Rzuty obronne: +2
+– Odpornoœæ na magiê: +10%
+– Pozwala zapamiêtaæ po 1 dodatkowym zaklêciu maga z poziomów 1-4
 
 Klasa Pancerza: 3
 
 Waga: 6~
 
-@134 = ~Wzmocniona szata zÅ‚ego arcymaga~
-@135 = ~Ta potÄ™Å¼na szata oferuje ochronÄ™ ochronÄ™ przed wszystkimi fizycznymi atakami, zarazem podwyÅ¼szajÄ…c magicznÄ… odpornoÅ›Ä‡ i rzuty obronne. Zgodnie z naturÄ… zaczarowania szaty, moÅ¼e byÄ‡ noszona tylko przez zÅ‚e charaktery. TÄ™ szczegÃ³lnÄ… szatÄ™ umagiczniÅ‚<PRO_HESHE> <CHARNAME>.
+@134 = ~Wzmocniona szata z³ego arcymaga~
+@135 = ~Ta potê¿na szata oferuje ochronê ochronê przed wszystkimi fizycznymi atakami, zarazem podwy¿szaj¹c magiczn¹ odpornoœæ i rzuty obronne. Zgodnie z natur¹ zaczarowania szaty, mo¿e byæ noszona tylko przez z³e charaktery. Tê szczególn¹ szatê umagiczni³<PRO_HESHE> <CHARNAME>.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Rzuty obronne: +2
-â€“ OdpornoÅ›Ä‡ na magiÄ™: +10%
-â€“ Pozwala zapamiÄ™taÄ‡ po 1 dodatkowym zaklÄ™ciu maga z poziomÃ³w 1-4
+– Rzuty obronne: +2
+– Odpornoœæ na magiê: +10%
+– Pozwala zapamiêtaæ po 1 dodatkowym zaklêciu maga z poziomów 1-4
 
 Klasa Pancerza: 3
 
 Waga: 6~
 
-@136 = ~HeÅ‚m Cytadeli~
-@137 = ~Wykuty na twoje Å¼yczenie, HeÅ‚m Cytadeli chroni noszÄ…cÄ… go osobÄ™ przed fizycznymi, magicznymi i umysÅ‚owymi atakami. ÅÄ…czy on w sobie defensywnÄ… moc HeÅ‚mu ochrony i HeÅ‚mu ochrony przed urokami. W dodatku wyglÄ…da wyzywajÄ…co. 
+@136 = ~He³m Cytadeli~
+@137 = ~Wykuty na twoje ¿yczenie, He³m Cytadeli chroni nosz¹c¹ go osobê przed fizycznymi, magicznymi i umys³owymi atakami. £¹czy on w sobie defensywn¹ moc He³mu ochrony i He³mu ochrony przed urokami. W dodatku wygl¹da wyzywaj¹co. 
 
 PARAMETRY:
 
 Specjalne: 
-â€“ Rzuty obronne: +1
-â€“ OdpornoÅ›Ä‡ na elektrycznoÅ›Ä‡: +20%
-â€“ OdpornoÅ›Ä‡ na zimno: +20%
-â€“ OdpornoÅ›Ä‡ na ogieÅ„: +20%
-â€“ NiewraÅ¼liwoÅ›Ä‡ na Zauroczenie
-â€“ Chroni przed trafieniami krytycznymi
+– Rzuty obronne: +1
+– Odpornoœæ na elektrycznoœæ: +20%
+– Odpornoœæ na zimno: +20%
+– Odpornoœæ na ogieñ: +20%
+– Niewra¿liwoœæ na Zauroczenie
+– Chroni przed trafieniami krytycznymi
 
 Waga: 3~
 
-@138 = ~WieÅ¼a Å¼elaznej woli~
-@139 = ~Wykuta jak tego Å¼yczyÅ‚<PRO_HESHE> sobie <CHARNAME>, WieÅ¼a Å¼elaznej woli ochroni noszÄ…cÄ… osobÄ™ przed mentalnymi atakami. Dostarcza caÅ‚ej standardowej ochrony podobnie jak HeÅ‚m ochrony przed urokami, a takÅ¼e sprawia, Å¼e noszÄ…ca go osoba jest odporna na ataki psioniczne. NaleÅ¼y zauwaÅ¼yÄ‡, Å¼e nie chroni on przed wysysajÄ…cymi inteligencjÄ™ atakami illithidÃ³w.
+@138 = ~Wie¿a ¿elaznej woli~
+@139 = ~Wykuta jak tego ¿yczy³<PRO_HESHE> sobie <CHARNAME>, Wie¿a ¿elaznej woli ochroni nosz¹c¹ osobê przed mentalnymi atakami. Dostarcza ca³ej standardowej ochrony podobnie jak He³m ochrony przed urokami, a tak¿e sprawia, ¿e nosz¹ca go osoba jest odporna na ataki psioniczne. Nale¿y zauwa¿yæ, ¿e nie chroni on przed wysysaj¹cymi inteligencjê atakami illithidów.
 
 PARAMETRY:
 
 Specjalne:
-- NiewraÅ¼liwoÅ›Ä‡ na Zauroczenie i psionikÄ™
-â€“ Chroni przed trafieniami krytycznymi
+- Niewra¿liwoœæ na Zauroczenie i psionikê
+– Chroni przed trafieniami krytycznymi
 
 Waga: 3~
 
-@140 = ~SkÃ³ra Aegera +5~
-@141 = ~Ta ciÄ™Å¼ka i gruba niedÅºwiedzia skÃ³ra jest wszystkim co zostaÅ‚o ze sÅ‚ynnego Aegera. Kilkaset lat temu Aeger, olbrzymi niedÅºwiedÅº, terroryzowaÅ‚ setki wiosek wzdÅ‚uÅ¼ caÅ‚ego WybrzeÅ¼a Mieczy. NiedÅºwiedÅº byÅ‚ niewraÅ¼liwy na ogieÅ„, zimno i kwas. Wreszcie zebrali siÄ™ mÅ‚odzi mÄ™Å¼czyÅºni i kobiety z kilku wiosek, tworzÄ…c grupÄ™ liczÄ…cÄ… prawie dwieÅ›cie osÃ³b. Aeger zostaÅ‚ otoczony i zgÅ‚adzony. PrzeÅ¼yÅ‚ mniej niÅ¼ tuzin ludzi, ktÃ³rzy podzielili miÄ™dzy siebie skÃ³rÄ™ Aegera. Zbroja zostaÅ‚a wykonana z jednego z tych kawaÅ‚kÃ³w.
-<CHARNAME> ulepszyÅ‚<PRO_HESHE> jÄ… jeszcze bardziej dodatkowymi umagicznieniami. Obecnie zapewnia jeszcze wiÄ™kszÄ… ochronÄ™ na obraÅ¼enia fizyczne i ataki bazujÄ…ce na Å¼ywioÅ‚ach.
+@140 = ~Skóra Aegera +5~
+@141 = ~Ta ciê¿ka i gruba niedŸwiedzia skóra jest wszystkim co zosta³o ze s³ynnego Aegera. Kilkaset lat temu Aeger, olbrzymi niedŸwiedŸ, terroryzowa³ setki wiosek wzd³u¿ ca³ego Wybrze¿a Mieczy. NiedŸwiedŸ by³ niewra¿liwy na ogieñ, zimno i kwas. Wreszcie zebrali siê m³odzi mê¿czyŸni i kobiety z kilku wiosek, tworz¹c grupê licz¹c¹ prawie dwieœcie osób. Aeger zosta³ otoczony i zg³adzony. Prze¿y³ mniej ni¿ tuzin ludzi, którzy podzielili miêdzy siebie skórê Aegera. Zbroja zosta³a wykonana z jednego z tych kawa³ków.
+
+<CHARNAME> ulepszy³<PRO_HESHE> j¹ jeszcze bardziej dodatkowymi umagicznieniami. Obecnie zapewnia jeszcze wiêksz¹ ochronê na obra¿enia fizyczne i ataki bazuj¹ce na ¿ywio³ach.
 
 PARAMETRY:
 
 Specjalne:
-- OdpornoÅ›Ä‡ na ogieÅ„: +25%
-- OdpornoÅ›Ä‡ na zimno: +25%
-- OdpornoÅ›Ä‡ na kwas: +25%
-- NiewraÅ¼liwoÅ›Ä‡ na ZamÄ™t
+- Odpornoœæ na ogieñ: +25%
+- Odpornoœæ na zimno: +25%
+- Odpornoœæ na kwas: +25%
+- Niewra¿liwoœæ na Zamêt
 
-Klasa Pancerza: 1 (3 przeciw broniom kÅ‚utym i pociskom)
+Klasa Pancerza: 1 (3 przeciw broniom k³utym i pociskom)
 
 Wymagania: 
-- SiÅ‚a: 6
+- Si³a: 6
 
 Waga: 35~
 
-@142 = ~Ulepszona Ludzka SkÃ³ra~
-@143 = ~Ta zbroja jest wykonana z ludzkiej skÃ³ry i oblana krwiÄ… szlachetnego smoka. Wydziela ostry odÃ³r Å›mierci. Ta nikczemna zbroja moÅ¼e byÄ‡ uÅ¼ywana tylko przez naprawdÄ™ zÅ‚Ä… osobÄ™.
+@142 = ~Ulepszona ludzka skóra~
+@143 = ~Ta zbroja jest wykonana z ludzkiej skóry i oblana krwi¹ szlachetnego smoka. Wydziela ostry odór œmierci. Ta nikczemna zbroja mo¿e byæ u¿ywana tylko przez naprawdê z³¹ osobê.
 
 PARAMETRY:
 
 Specjalne:
-- ZrÄ™cznoÅ›Ä‡: +1
+- Zrêcznoœæ: +1
 - Kondycja: +1
 - Rzuty obronne: +4
-- OdpornoÅ›Ä‡ na magiÄ™: +20%
-- NiewraÅ¼liwoÅ›Ä‡ na trucizny
+- Odpornoœæ na magiê: +20%
+- Niewra¿liwoœæ na trucizny
 - Ochrona przed dobrem
 
-Klasa Pancerza: 0 (2 przeciw broniom kÅ‚utym i pociskom)
+Klasa Pancerza: 0 (2 przeciw broniom k³utym i pociskom)
 
 Wymagania: 
-- SiÅ‚a: 3
+- Si³a: 3
 
 Waga: 5~
 
-@144 = ~Ulepszona peÅ‚na zbroja pÅ‚ytowa Firecama~
-@145 = ~Ta zbroja zostaÅ‚a zaprojektowana specjalnie dla Keldorna. Zbroja zostaÅ‚a pÃ³Åºniej umagiczniona, gdy zaÅ¼yczyÅ‚ sobie tego <CHARNAME>, aby zapewniaÅ‚a Keldornowi lepszÄ… ochronÄ™. BÄ™dÄ…c na wyposaÅ¼eniu zapewnia wÅ‚aÅ›cicielowi premiÄ™ +2 do wszystkich rzutÃ³w obronnych oraz pozwala na SwobodÄ™ dziaÅ‚ania (np. przechodzenie przez pajÄ™czyny) oraz odpornoÅ›Ä‡ na strach. Poza byciem niesamowicie silnÄ…, zbroja prawie nic nie waÅ¼y. 
+@144 = ~Ulepszona pe³na zbroja p³ytowa Firecama~
+@145 = ~Ta zbroja zosta³a zaprojektowana specjalnie dla Keldorna. Zbroja zosta³a póŸniej umagiczniona, gdy za¿yczy³ sobie tego <CHARNAME>, aby zapewnia³a Keldornowi lepsz¹ ochronê. Bêd¹c na wyposa¿eniu zapewnia w³aœcicielowi premiê +2 do wszystkich rzutów obronnych oraz pozwala na Swobodê dzia³ania (np. przechodzenie przez pajêczyny) oraz odpornoœæ na strach. Poza byciem niesamowicie siln¹, zbroja prawie nic nie wa¿y. 
 
 PARAMETRY:
 
 Specjalne:
 - Rzuty obronne: +2
-- Swoboda dziaÅ‚ania
-- NiewraÅ¼liwoÅ›Ä‡ na strach
+- Swoboda dzia³ania
+- Niewra¿liwoœæ na strach
 
-Klasa Pancerza: -2 (-6 przeciw broniom siecznym, -5 przeciw broniom kÅ‚utym i pociskom)
+Klasa Pancerza: -2 (-6 przeciw broniom siecznym, -5 przeciw broniom k³utym i pociskom)
 
 Waga: 10~
 
-@146 = ~Zbroja pÅ‚ytowa z ankhega~
-@147 = ~Ta zbroja pÅ‚ytowa to istne cacko. Powleczona chitynowÄ… Å‚uskÄ… ankhega zapewnia lepszÄ… ochronÄ™ niÅ¼ pancerz wykonany z metalu i nie jest podatna na rdzÄ™. JednakÅ¼e, jak powie ci to kaÅ¼dy doÅ›wiadczony poszukiwacz przygÃ³d, jej najwiÄ™kszÄ… zaletÄ… jest niewielka waga. Potwory przychodzÄ… i odchodzÄ…, wyczerpanie natomiast jest staÅ‚ym zagroÅ¼eniem. 
-Ta szczegÃ³lna zbroja zostaÅ‚a przekuta na twojÄ… proÅ›bÄ™. Zapewnia ona teraz dodatkowÄ… ochronÄ™ i pozwala noszÄ…cemu jÄ… na naÅ›ladowanie atakÃ³w plujÄ…cego kwasem ankhega.
+@146 = ~Zbroja p³ytowa z ankhega~
+@147 = ~Ta zbroja p³ytowa to istne cacko. Powleczona chitynow¹ ³usk¹ ankhega zapewnia lepsz¹ ochronê ni¿ pancerz wykonany z metalu i nie jest podatna na rdzê. Jednak¿e, jak powie ci to ka¿dy doœwiadczony poszukiwacz przygód, jej najwiêksz¹ zalet¹ jest niewielka waga. Potwory przychodz¹ i odchodz¹, wyczerpanie natomiast jest sta³ym zagro¿eniem.
+ 
+Ta szczególna zbroja zosta³a przekuta na twoj¹ proœbê. Zapewnia ona teraz dodatkow¹ ochronê i pozwala nosz¹cemu j¹ na naœladowanie ataków pluj¹cego kwasem ankhega.
 
 PARAMETRY:
 
 Specjalne:
-- OdpornoÅ›Ä‡ na kwas: +50%
+- Odpornoœæ na kwas: +50%
 
-WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w:
-â€“ Kwasowa strzaÅ‚a Melfa, trzy razy dziennie (bez rzutu obronnego)
-ZasiÄ™g: 20 metrÃ³w
-Czas dziaÅ‚ania: 7 rund
+W³aœciwoœci ³adunków:
+– Kwasowa strza³a Melfa, trzy razy dziennie (bez rzutu obronnego)
+Zasiêg: 20 metrów
+Czas dzia³ania: 7 rund
 
-Klasa Pancerza: -1 (-4 przeciw broniom siecznym, -2 przeciw broniom kÅ‚utym i pociskom)
+Klasa Pancerza: -1 (-4 przeciw broniom siecznym, -2 przeciw broniom k³utym i pociskom)
 
 Wymagania:
-- SiÅ‚a: 8
+- Si³a: 8
 
 Waga: 25~
 
 @148 = ~Tarcza harmonii +3~
-@149 = ~Audn z Pola, rycerz i czempion czarodzieja Kekkima, nosiÅ‚ tÄ™ tarczÄ™ przez wiÄ™kszoÅ›Ä‡ swojego Å¼ycia. Chroni ona nosiciela przed wiÄ™kszoÅ›ciÄ… form kontroli umysÅ‚u, co jest zaletÄ… dla czarodzieja, ktÃ³ry potrzebowaÅ‚ przyjaznych mu wojownikÃ³w, aby stali wiernie po jego stronie. ZarÃ³wno Kekkim, jak i Audn dawno juÅ¼ gryzÄ… ziemiÄ™, pozostawiwszy tarczÄ™ temu, kto wydostanie jÄ… z wieÅ¼y czarodzieja.
-Niedawno tarcza ta zostaÅ‚a dodatkowo umagiczniona przez ciebie. Zapewnia teraz dodatkowÄ… fizycznÄ… ochronÄ™ i sprawia, Å¼e noszÄ…cy jÄ… jest odporny na psionikÄ™ (ale nie przed wysysajÄ…cymi inteligencjÄ™ atakami illithidÃ³w). 
+@149 = ~Audn z Pola, rycerz i czempion czarodzieja Kekkima, nosi³ tê tarczê przez wiêkszoœæ swojego ¿ycia. Chroni ona nosiciela przed wiêkszoœci¹ form kontroli umys³u, co jest zalet¹ dla czarodzieja, który potrzebowa³ przyjaznych mu wojowników, aby stali wiernie po jego stronie. Zarówno Kekkim, jak i Audn dawno ju¿ gryz¹ ziemiê, pozostawiwszy tarczê temu, kto wydostanie j¹ z wie¿y czarodzieja.
+
+Niedawno tarcza ta zosta³a dodatkowo umagiczniona przez ciebie. Zapewnia teraz dodatkow¹ fizyczn¹ ochronê i sprawia, ¿e nosz¹cy j¹ jest odporny na psionikê (ale nie przed wysysaj¹cymi inteligencjê atakami illithidów). 
 
 PARAMETRY: 
 
 Specjalne:
-- NiewraÅ¼liwoÅ›Ä‡ na Zauroczenie, ZamÄ™t, DominacjÄ™, Unieruchomienie osoby i psionikÄ™
+- Niewra¿liwoœæ na Zauroczenie, Zamêt, Dominacjê, Unieruchomienie osoby i psionikê
 
 Klasa Pancerza: +4
 
 Wymagania:
-- SiÅ‚a: 4
+- Si³a: 4
 
 Waga: 2~
 
-@150 = ~Rzucana wÅ‚Ã³cznia +3~
-@151 = ~WÅ‚Ã³cznia to jeden z najwczeÅ›niejszych rodzajÃ³w broni, ktÃ³rymi zaczÄ…Å‚ posÅ‚ugiwaÄ‡ siÄ™ czÅ‚owiek. Pierwsze egzemplarze tej broni byÅ‚y wykonane z drewna i zaostrzone na koÅ„cu. Kiedy czÅ‚owiek nauczyÅ‚ siÄ™ wytapiaÄ‡ metale, groty wÅ‚Ã³czni byÅ‚y wytwarzane z Å¼elaza i stali. Ta wÅ‚Ã³cznia drÅ¼y od potÄ™Å¼nej magii wykorzystanej do jej stworzenia.
-W przeciwieÅ„stwie do prawie wszystkich wÅ‚Ã³czni, ktÃ³re znasz, tÄ… moÅ¼na rzucaÄ‡. ZostaÅ‚a wykuta dla ciebie przy uÅ¼yciu kamienia Å‚otrzykÃ³w. Kiedy jest rzucana, wÅ‚Ã³cznia natychmiast wraca do rÄ…k wÅ‚aÅ›ciciela. (WÅ‚Ã³cznia moÅ¼e byÄ‡ wykorzystywana jako broÅ„ rÄ™czna: wybierz wtedy drugÄ… zdolnoÅ›Ä‡ broni, aby tak zrobiÄ‡.) 
+@150 = ~Rzucana w³ócznia +3~
+@151 = ~W³ócznia to jeden z najwczeœniejszych rodzajów broni, którymi zacz¹³ pos³ugiwaæ siê cz³owiek. Pierwsze egzemplarze tej broni by³y wykonane z drewna i zaostrzone na koñcu. Kiedy cz³owiek nauczy³ siê wytapiaæ metale, groty w³óczni by³y wytwarzane z ¿elaza i stali. Ta w³ócznia dr¿y od potê¿nej magii wykorzystanej do jej stworzenia.
+
+W przeciwieñstwie do prawie wszystkich w³óczni, które znasz, t¹ mo¿na rzucaæ. Zosta³a wykuta dla ciebie przy u¿yciu kamienia ³otrzyków. Kiedy jest rzucana, w³ócznia natychmiast wraca do r¹k w³aœciciela. (W³ócznia mo¿e byæ wykorzystywana jako broñ rêczna: wybierz wtedy drug¹ zdolnoœæ broni, aby tak zrobiæ.) 
 
 PARAMETRY:
 
 Specjalne:
-- 1 dodatkowy atak na rundÄ™ (moÅ¼na niÄ… rzucaÄ‡ z czÄ™stotliwoÅ›ciÄ… strzaÅ‚u z dÅ‚ugiego Å‚uku)
+- 1 dodatkowy atak na rundê (mo¿na ni¹ rzucaæ z czêstotliwoœci¹ strza³u z d³ugiego ³uku)
 
-ObraÅ¼enia: 1k6 +3
+Obra¿enia: 1k6 +3
 TraK0: +3
-Typ obraÅ¼eÅ„ (walka wrÄ™cz): kÅ‚ute
-Typ obraÅ¼eÅ„ (rzucona): pocisk (kÅ‚ute)
-OpÃ³Åºnienie: 3
-Rodzaj biegÅ‚oÅ›ci: wÅ‚Ã³cznia
-Typ broni: 2-rÄ™czna
+Typ obra¿eñ (walka wrêcz): k³ute
+Typ obra¿eñ (rzucona): pocisk (k³ute)
+OpóŸnienie: 3
+Rodzaj bieg³oœci: w³ócznia
+Typ broni: 2-rêczna
 
 Wymagania:
-- SiÅ‚a: 5
+- Si³a: 5
 
 Waga: 3~
 
-@152 = ~Rzucana wÅ‚Ã³cznia jednoroÅ¼ca +3~
-@153 = ~Ta zgrabna wÅ‚Ã³cznia ksztaÅ‚tem przypomina rÃ³g jednoroÅ¼ca. WÅ‚adajÄ…cy ta broniÄ… jest niewraÅ¼liwy na czary Unieruchomienie i Zauroczenie, tak samo jak jednoroÅ¼ec. Nie wiadomo czy ten rÃ³g jest prawdziwym rogiem jednoroÅ¼ca.
-Oryginalna WÅ‚Ã³cznia jednoroÅ¼ca zostaÅ‚a przekuta tak, by moÅ¼na jej uÅ¼ywaÄ‡ jako broni dystansowej. Kiedy jest rzucana, wÅ‚Ã³cznia natychmiast wraca do rÄ…k wÅ‚aÅ›ciciela. (WÅ‚Ã³cznia moÅ¼e byÄ‡ wykorzystywana jako broÅ„ rÄ™czna: wybierz wtedy drugÄ… zdolnoÅ›Ä‡ broni, aby tak zrobiÄ‡.) 
+@152 = ~Rzucana w³ócznia jednoro¿ca +3~
+@153 = ~Ta zgrabna w³ócznia kszta³tem przypomina róg jednoro¿ca. W³adaj¹cy ta broni¹ jest niewra¿liwy na czary Unieruchomienie i Zauroczenie, tak samo jak jednoro¿ec. Nie wiadomo czy ten róg jest prawdziwym rogiem jednoro¿ca.
+
+Oryginalna W³ócznia jednoro¿ca zosta³a przekuta tak, by mo¿na jej u¿ywaæ jako broni dystansowej. Kiedy jest rzucana, w³ócznia natychmiast wraca do r¹k w³aœciciela. (W³ócznia mo¿e byæ wykorzystywana jako broñ rêczna: wybierz wtedy drug¹ zdolnoœæ broni, aby tak zrobiæ.) 
 
 PARAMETRY:
 
 Specjalne:
-- Rzuty obronne: +3 przeciw Å›mierci
-- NiewraÅ¼liwoÅ›Ä‡ na Unieruchomienie osoby i Zauroczenie
+- Rzuty obronne: +3 przeciw œmierci
+- Niewra¿liwoœæ na Unieruchomienie osoby i Zauroczenie
 
-ObraÅ¼enia: 1k6 +3, +2 obraÅ¼enia od ognia
+Obra¿enia: 1k6 +3, +2 obra¿enia od ognia
 Trak0: +3
-Typ obraÅ¼eÅ„ (walka wrÄ™cz): kÅ‚ute
-Typ obraÅ¼eÅ„ (rzucona): pocisk (kÅ‚ute)
-OpÃ³Åºnienie: 3
-Rodzaj biegÅ‚oÅ›ci: wÅ‚Ã³cznia
-Typ broni: 2-rÄ™czna
+Typ obra¿eñ (walka wrêcz): k³ute
+Typ obra¿eñ (rzucona): pocisk (k³ute)
+OpóŸnienie: 3
+Rodzaj bieg³oœci: w³ócznia
+Typ broni: 2-rêczna
 
 Wymagania: 
-- SiÅ‚a: 5
+- Si³a: 5
 
 Waga: 3~
 
-@154 = ~Rzucana WÅ‚Ã³cznia +4, Przebijacz~
-@155 = ~Rzucana WÅ‚Ã³cznia +4, Przebijacz
-Przebijacz posiada namacalnÄ… aurÄ™ magicznÄ… wskazujÄ…cÄ… na zÅ‚oÅ›liwÄ… naturÄ™ tej broni i dlatego byÅ‚a ona w przeszÅ‚oÅ›ci ulubionÄ… broniÄ… wielu potÄ™Å¼nych wodzÃ³w orkÃ³w. Trafiona ofiara zostaje, jak moÅ¼na siÄ™ domyÅ›laÄ‡, prawie przebita, gdy magiczna zdolnoÅ›Ä‡ broni dokonuje dzieÅ‚a zniszczenia.
-Po tym jak <CHARNAME> uzyskaÅ‚<PRO_HESHE> Przebijacza w mieÅ›cie SahuaginÃ³w, przekuÅ‚<PRO_HESHE> jÄ… pÃ³Åºniej na broÅ„ dystansowÄ…. Kiedy jest rzucana, wÅ‚Ã³cznia natychmiast wraca do rÄ…k wÅ‚aÅ›ciciela. (WÅ‚Ã³cznia moÅ¼e byÄ‡ wykorzystywana jako broÅ„ rÄ™czna: wybierz wtedy drugÄ… zdolnoÅ›Ä‡ broni, aby tak zrobiÄ‡.
+@154 = ~Rzucana w³ócznia +4: Przebijacz~
+@155 = ~Rzucana w³ócznia +4: Przebijacz
+Przebijacz posiada namacaln¹ aurê magiczn¹ wskazuj¹c¹ na z³oœliw¹ naturê tej broni i dlatego by³a ona w przesz³oœci ulubion¹ broni¹ wielu potê¿nych wodzów orków. Trafiona ofiara zostaje, jak mo¿na siê domyœlaæ, prawie przebita, gdy magiczna zdolnoœæ broni dokonuje dzie³a zniszczenia.
+
+Po tym jak <CHARNAME> uzyska³<PRO_HESHE> Przebijacza w mieœcie Sahuaginów, przeku³<PRO_HESHE> j¹ póŸniej na broñ dystansow¹. Kiedy jest rzucana, w³ócznia natychmiast wraca do r¹k w³aœciciela. (W³ócznia mo¿e byæ wykorzystywana jako broñ rêczna: wybierz wtedy drug¹ zdolnoœæ broni, aby tak zrobiæ.
 
 PARAMETRY:
 
 Specjalne:
-- 1 dodatkowy atak na rundÄ™ (moÅ¼na niÄ… rzucaÄ‡ z czÄ™stotliwoÅ›ciÄ… strzaÅ‚u z dÅ‚ugiego Å‚uku)
+- 1 dodatkowy atak na rundê (mo¿na ni¹ rzucaæ z czêstotliwoœci¹ strza³u z d³ugiego ³uku)
 
-ObraÅ¼enia: 1k6 +4, +10 obraÅ¼eÅ„ kÅ‚utych
+Obra¿enia: 1k6 +4, +10 obra¿eñ k³utych
 TraK0: +4
-Typ obraÅ¼eÅ„ (walka wrÄ™cz): kÅ‚ute
-Typ obraÅ¼eÅ„ (rzucona): pocisk (kÅ‚ute)
-OpÃ³Åºnienie: 2
-Rodzaj biegÅ‚oÅ›ci: wÅ‚Ã³cznia
-Typ broni: 2-rÄ™czna
+Typ obra¿eñ (walka wrêcz): k³ute
+Typ obra¿eñ (rzucona): pocisk (k³ute)
+OpóŸnienie: 2
+Rodzaj bieg³oœci: w³ócznia
+Typ broni: 2-rêczna
 
 Wymagania:
-- SiÅ‚a: 5
+- Si³a: 5
 
 Waga: 3~
 
-@156 = ~Kostur LasÃ³w +5~
-@157 = ~Kostur LasÃ³w
-CzÅ‚owiek, ktÃ³ry go posiadaÅ‚, znany jako "Dziki mÄ…Å¼ z lasu", byÅ‚ w okolicach Targowa postaciÄ… legendarnÄ… do chwili, kiedy umarÅ‚ i powrÃ³ciÅ‚ do ziemi. Ci, ktÃ³rzy go widzieli pamiÄ™tajÄ… jego ciemnÄ…, podobnÄ… do kory skÃ³rÄ™, ktÃ³ra znikaÅ‚a, gdy odkÅ‚adaÅ‚ swÃ³j kostur. Osobnik ten nÄ™kaÅ‚ nieodpowiedzialnych drwali i przechodniÃ³w, a starcy opowiadajÄ…, jak kiedyÅ› wybrali siÄ™ na niego najemnicy z tuzinem psÃ³w myÅ›liwskich. ZwierzÄ™ta byÅ‚y gotowe rozerwaÄ‡ biednego druida na strzÄ™py, ale on szybko zwrÃ³ciÅ‚ je przeciwko ich wÅ‚asnym panom. Ruszywszy do przodu w nadziei przerwania tego wpÅ‚ywu, zbrojni ujrzeli ostatniÄ… moc kostura, gdy roÅ›linnoÅ›Ä‡ zadrÅ¼aÅ‚a od magicznego wezwania "Dzikiego mÄ™Å¼a". UformowaÅ‚a siÄ™ zielona, gnijÄ…ca mieszanina Å¼ycia i Å›mierci, ktÃ³ra opadÅ‚a na przeraÅ¼onych Å¼oÅ‚nierzy, zabijajÄ…c ich wszystkich.
-Niedawno <CHARNAME> zleciÅ‚<PRO_HESHE> ulepszenie kostura, dziÄ™ki czemu moÅ¼na skorzystaÄ‡ z nowych zdolnoÅ›ci. 
+@156 = ~Kostur Lasów +5~
+@157 = ~Kostur Lasów
+Cz³owiek, który go posiada³, znany jako „Dziki m¹¿ z lasu”, by³ w okolicach Targowa postaci¹ legendarn¹ do chwili, kiedy umar³ i powróci³ do ziemi. Ci, którzy go widzieli pamiêtaj¹ jego ciemn¹, podobn¹ do kory skórê, która znika³a, gdy odk³ada³ swój kostur. Osobnik ten nêka³ nieodpowiedzialnych drwali i przechodniów, a starcy opowiadaj¹, jak kiedyœ wybrali siê na niego najemnicy z tuzinem psów myœliwskich. Zwierzêta by³y gotowe rozerwaæ biednego druida na strzêpy, ale on szybko zwróci³ je przeciwko ich w³asnym panom. Ruszywszy do przodu w nadziei przerwania tego wp³ywu, zbrojni ujrzeli ostatni¹ moc kostura, gdy roœlinnoœæ zadr¿a³a od magicznego wezwania „Dzikiego mê¿a”. Uformowa³a siê zielona, gnij¹ca mieszanina ¿ycia i œmierci, która opad³a na przera¿onych ¿o³nierzy, zabijaj¹c ich wszystkich.
+
+Niedawno <CHARNAME> zleci³<PRO_HESHE> ulepszenie kostura, dziêki czemu mo¿na skorzystaæ z nowych zdolnoœci. 
 
 PARAMETRY:
 
 Specjalne:
-- Korowa skÃ³ra: Klasa Pancerza: 3 
+- Korowa skóra: Klasa Pancerza: 3 
 - Klasa Pancerza: +3
-- 5% szans, Å¼e cel, oraz jego sojusznicy, znajdÄ… siÄ™ pod wpÅ‚ywem czaru PeÅ‚zajÄ…ca zagÅ‚ada, po trafieniu
+- 5% szans, ¿e cel, oraz jego sojusznicy, znajd¹ siê pod wp³ywem czaru Pe³zaj¹ca zag³ada, po trafieniu
 
-WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w:
-- Wezwanie Pokracznego kopca o 8 Kostkach, szeÅ›Ä‡ razy dziennie
-ZasiÄ™g: 13 metrÃ³w
-Czas dziaÅ‚ania: 100 sekund
+W³aœciwoœci ³adunków:
+- Wezwanie Pokracznego kopca o 8 Kostkach, szeœæ razy dziennie
+Zasiêg: 13 metrów
+Czas dzia³ania: 100 sekund
 
-â€“ Wzmocnione zauroczenie zwierzÄ…t, szeÅ›Ä‡ razy dziennie (bez rzutu obronnego) 
-ZasiÄ™g: 13 metrÃ³w
-Czas dziaÅ‚ania: 300 sekund
+– Wzmocnione zauroczenie zwierz¹t, szeœæ razy dziennie (bez rzutu obronnego) 
+Zasiêg: 13 metrów
+Czas dzia³ania: 300 sekund
 
-ObraÅ¼enia: 1k6 +5
+Obra¿enia: 1k6 +5
 TraK0: +5
-Typ obraÅ¼eÅ„: obuchowe
-OpÃ³Åºnienie: 0
-Rodzaj biegÅ‚oÅ›ci: kij
-Typ broni: 2-rÄ™czna
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 0
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna
 
 Wymagania:
-- SiÅ‚a: 5
+- Si³a: 5
 
 Waga: 2~
 
-@158 = ~Dzienna Gwiazda +4~
-@159 = ~SÅ‚oneczne ostrze: Dzienna Gwiazda +4
-NiezaleÅ¼nie od tego czy miecz zostaÅ‚ stworzony specjalnie by sÅ‚uÅ¼yÄ‡ Tormowi, czy teÅ¼ zaczÄ™to wykorzystywaÄ‡ go w tym celu pÃ³Åºniej, to Paladyni Lojalnej Furii dobrze uÅ¼ywali go w swej walce z nieumarÅ‚ymi. DziÄ™ki magii, bÄ…dÅº bÅ‚ogosÅ‚awieÅ„stwu obdarzony jest Promieniem sÅ‚oÅ„ca, energiÄ… czystej siÅ‚y Å¼yciowej tak potÄ™Å¼nÄ…, Å¼e niszczy zarÃ³wno Å¼ywych jak i nieumarÅ‚ych.
-<CHARNAME> odzyskaÅ‚<PRO_HESHE> ten miecz z rÄ…k lisza niedaleko bram miasta Athkatli i zleciÅ‚<PRO_HESHE> jego przekucie tworzÄ…c jeszcze bardziej potÄ™Å¼nÄ… broÅ„ w rÄ™kach sprawiedliwoÅ›ci. 
+@158 = ~Dzienna gwiazda +4~
+@159 = ~S³oneczne ostrze: Dzienna gwiazda +4
+Niezale¿nie od tego czy miecz zosta³ stworzony specjalnie by s³u¿yæ Tormowi, czy te¿ zaczêto wykorzystywaæ go w tym celu póŸniej, to Paladyni Lojalnej Furii dobrze u¿ywali go w swej walce z nieumar³ymi. Dziêki magii, b¹dŸ b³ogos³awieñstwu obdarzony jest Promieniem s³oñca, energi¹ czystej si³y ¿yciowej tak potê¿n¹, ¿e niszczy zarówno ¿ywych jak i nieumar³ych.
+
+<CHARNAME> odzyska³<PRO_HESHE> ten miecz z r¹k lisza niedaleko bram miasta Athkatli i zleci³<PRO_HESHE> jego przekucie tworz¹c jeszcze bardziej potê¿n¹ broñ w rêkach sprawiedliwoœci. 
 
 PARAMETRY:
 
 Specjalne:
-- Ochrona przed zÅ‚em
+- Ochrona przed z³em
 
-WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w:
-- PromieÅ„ sÅ‚oÅ„ca, dwa razy dziennie
-ObraÅ¼enia: 3k6 (rzut obronny przeciw czarom lub oÅ›lepienie na 10 rund), +10k6 przeciw nieumarÅ‚ym
+W³aœciwoœci ³adunków:
+- Promieñ s³oñca, dwa razy dziennie
+Obra¿enia: 3k6 (rzut obronny przeciw czarom lub oœlepienie na dziesiêæ rund), +10k6 przeciw nieumar³ym
 Nieumarli: zniszczenie (rzut obronny przeciw czarom neguje)
-ZasiÄ™g: 6 metrÃ³w
-Obszar dziaÅ‚ania: w promieniu 6 metrÃ³w
+Zasiêg: 6 metrów
+Obszar dzia³ania: w promieniu 6 metrów
 
-ObraÅ¼enia: 1k8 +4, +8 przeciw zÅ‚ym istotom, podwÃ³jne obraÅ¼enia przeciw nieumarÅ‚ym 
-TraK0: +4, +8 przeciw zÅ‚ym istotom
-Typ obraÅ¼eÅ„: sieczne
-OpÃ³Åºnienie: 3
-Rodzaj biegÅ‚oÅ›ci: dÅ‚ugi miecz
-Typ broni: 1-rÄ™czna
+Obra¿enia: 1k8 +4, +8 przeciw z³ym istotom, podwójne obra¿enia przeciw nieumar³ym 
+TraK0: +4, +8 przeciw z³ym istotom
+Typ obra¿eñ: sieczne
+OpóŸnienie: 3
+Rodzaj bieg³oœci: miecz d³ugi
+Typ broni: 1-rêczna
 
 Wymagania:
-- SiÅ‚a: 6
+- Si³a: 6
 
 Waga: 2~
 
-@160 = ~Furia Niebios +5~
-@161 = ~Katana +5: Furia Niebios
-W przeciwieÅ„stwie do konwencjonalnych broni, katana jest juÅ¼ z zaÅ‚oÅ¼enia niemal doskonaÅ‚ym mieczem do walki. Trzeba ogromnych poÅ›wiÄ™ceÅ„, aby jeszcze jÄ… ulepszyÄ‡, np. umierajÄ…cy samuraj moÅ¼e ubÅ‚agaÄ‡ Wu Jena aby jego waleczny duch zostaÅ‚ przelany na katanÄ™. Osoba wÅ‚adajÄ…ca zaczarowanÄ… katanÄ…, takÄ… jak ta, musi szanowaÄ‡ obyczaje Kara-Tur oraz samuraja, ktÃ³ry niegdyÅ› dzierÅ¼yÅ‚ to ostrze w boju. Nieprzestrzeganie tego nakazu moÅ¼e spowodowaÄ‡ gwaÅ‚townÄ… odmianÄ™ losu na gorsze.
-Umagicznienie katany nie jest prostÄ… sprawÄ…. Tak przynajmniej myÅ›laÅ‚<PRO_HESHE> <CHARNAME>, zanim sam<PRO_HESHE> tego po raz pierwszy nie uczyniÅ‚<PRO_HESHE>. W rzeczywistoÅ›ci najtrudniejszÄ… czÄ™Å›ciÄ… przekuwania juÅ¼ boskiej mocy katany znanej jako Furia Niebios byÅ‚o zebranie potrzebnych do tego rzeczy. Furia Niebios dobrze j<PRO_HIMHER> sÅ‚uÅ¼yÅ‚a, odkÄ…d <CHARNAME> zabraÅ‚<PRO_HESHE> jÄ… z rÄ…k kensaia Koshi w Dzielnicy ÅšwiÄ…tynnej w Athkatli.
+@160 = ~Furia niebios +5~
+@161 = ~Katana +5: Furia niebios
+W przeciwieñstwie do konwencjonalnych broni, katana jest ju¿ z za³o¿enia niemal doskona³ym mieczem do walki. Trzeba ogromnych poœwiêceñ, aby jeszcze j¹ ulepszyæ, np. umieraj¹cy samuraj mo¿e ub³agaæ Wu Jena aby jego waleczny duch zosta³ przelany na katanê. Osoba w³adaj¹ca zaczarowan¹ katan¹, tak¹ jak ta, musi szanowaæ obyczaje Kara-Tur oraz samuraja, który niegdyœ dzier¿y³ to ostrze w boju. Nieprzestrzeganie tego nakazu mo¿e spowodowaæ gwa³town¹ odmianê losu na gorsze.
+
+Umagicznienie katany nie jest prost¹ spraw¹. Tak przynajmniej myœla³<PRO_HESHE> <CHARNAME>, zanim sam<PRO_HESHE> tego po raz pierwszy nie uczyni³<PRO_HESHE>. W rzeczywistoœci najtrudniejsz¹ czêœci¹ przekuwania ju¿ boskiej mocy katany znanej jako Furia Niebios by³o zebranie potrzebnych do tego rzeczy. Furia Niebios dobrze j<PRO_HIMHER> s³u¿y³a, odk¹d <CHARNAME> zabra³<PRO_HESHE> j¹ z r¹k kensaia Koshi w Dzielnicy Œwi¹tynnej w Athkatli.
 
 PARAMETRY:
 
 Specjalne:
-- Huk gromu: OgÅ‚uszenie na 1 rundÄ™, po trafieniu (rzut obronny przeciw czarom neguje) 
-â€“ PoraÅ¼ajÄ…ce uderzenie: 5% szans na dodatkowe 20 obraÅ¼eÅ„ od elektrycznoÅ›ci, po trafieniu
+- Huk gromu: Og³uszenie na jedn¹ rundê, po trafieniu (rzut obronny przeciw czarom neguje) 
+– Pora¿aj¹ce uderzenie: 5% szans na dodatkowe 20 obra¿eñ od elektrycznoœci, po trafieniu
 
-WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w:
-â€“ Uderzenie bÅ‚yskawicy, raz dziennie 
-ObraÅ¼enia: 10k6 obraÅ¼eÅ„ od elektrycznoÅ›ci (poÅ‚owa po rzucie obronnym przeciw czarom) 
-ZasiÄ™g: 16 metrÃ³w 
-Obszar dziaÅ‚ania: 1 istota
+W³aœciwoœci ³adunków:
+– Uderzenie b³yskawicy, raz dziennie 
+Obra¿enia: 10k6 obra¿eñ od elektrycznoœci (po³owa po rzucie obronnym przeciw czarom) 
+Zasiêg: 16 metrów 
+Obszar dzia³ania: 1 istota
 
-â€“ OciemniaÅ‚oÅ›Ä‡, raz dziennie (rzut obronny przeciw czarom neguje) 
-ZasiÄ™g: 13 metrÃ³w 
-Czas dziaÅ‚ania: 2 rundy 
-Obszar dziaÅ‚ania: 1 istota
+– Ociemnia³oœæ, raz dziennie (rzut obronny przeciw czarom neguje) 
+Zasiêg: 13 metrów 
+Czas dzia³ania: 2 rundy 
+Obszar dzia³ania: 1 istota
 
-ObraÅ¼enia: 1k10 +5 
+Obra¿enia: 1k10 +5 
 TraK0: +5
-Typ obraÅ¼eÅ„: sieczne
-OpÃ³Åºnienie: 1
-Rodzaj biegÅ‚oÅ›ci: katana
-Typ broni: 1-rÄ™czna
+Typ obra¿eñ: sieczne
+OpóŸnienie: 1
+Rodzaj bieg³oœci: katana
+Typ broni: 1-rêczna
 
 Wymagania:
-â€“ SiÅ‚a: 6
+– Si³a: 6
 
 Waga: 3~
 
-@162 = ~Miecz Arvoreen +5~
-@163 = ~Miecz Arvoreen +5
-OrÄ™Å¼ ten jest kolejnym darem Arvoreen dla Mazzy, dlatego mogÄ… go uÅ¼ywaÄ‡ wyÅ‚Ä…cznie nizioÅ‚ki. DziÄ™ki magii, ktÃ³rÄ… w nim zawarto, miecz ten potrafi zwolniÄ‡ ruchy kaÅ¼dego przeciwnika, ktÃ³rego dosiÄ™gnie.
-Z twojÄ… pomocÄ… i bÅ‚ogosÅ‚awieÅ„stwem Arvoreen, miecz ten staÅ‚ siÄ™ jeszcze silniejszy. 
+@162 = ~Miecz Arvoreena +5~
+@163 = ~Miecz Arvoreena +5
+Orê¿ ten jest kolejnym darem Arvoreena dla Mazzy, dlatego mog¹ go u¿ywaæ wy³¹cznie nizio³ki. Dziêki magii, któr¹ w nim zawarto, miecz ten potrafi zwolniæ ruchy ka¿dego przeciwnika, którego dosiêgnie.
+
+Z twoj¹ pomoc¹ i b³ogos³awieñstwem Arvoreena, miecz ten sta³ siê jeszcze silniejszy. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ SiÅ‚a: +1 (plus dodatkowa premia 75% za wyjÄ…tkowÄ… SiÅ‚Ä™)
-â€“ Swoboda dziaÅ‚ania
-â€“ Cel musi wykonaÄ‡ rzut obronny przeciw rÃ³Å¼dÅ¼kom, albo jego ruchy zostanÄ… spowolnione o 2 na okres 45 sekund
+– Si³a: +1 (plus dodatkowa premia 75% za wyj¹tkow¹ Si³ê)
+– Swoboda dzia³ania
+– Cel musi wykonaæ rzut obronny przeciw ró¿d¿kom, albo jego ruchy zostan¹ spowolnione o 2 na okres 45 sekund
 
-ObraÅ¼enia: 1k6 +5
+Obra¿enia: 1k6 +5
 TraK0: +5
-Typ obraÅ¼eÅ„: kÅ‚ute
-OpÃ³Åºnienie: 1
-Rodzaj biegÅ‚oÅ›ci: krÃ³tki miecz
-Typ broni: 1-rÄ™czna
+Typ obra¿eñ: k³ute
+OpóŸnienie: 1
+Rodzaj bieg³oœci: miecz krótki
+Typ broni: 1-rêczna
 
 Waga: 3~
 
-@164 = ~UÅ›wiÄ™cony Odkupiciel +5~
-@165 = ~UÅ›wiÄ™cony Odkupiciel +5
-Keldorn odznaczyÅ‚ siÄ™ w swojej wczesnej karierze paladyna i otrzymaÅ‚ ten miecz w darze od Torma. Jest niezwykle precyzyjny, ale chroni go rÃ³wnieÅ¼ w bitwie specjalnÄ… OgnistÄ… tarczÄ… i kaÅ¼dy kto go sprÃ³buje uderzyÄ‡, doÅ›wiadczy gniewu Torma w postaci magicznych obraÅ¼eÅ„. Nikt oprÃ³cz Keldorna nie moÅ¼e uÅ¼ywaÄ‡ tego miecza.
-Z twojÄ… pomocÄ… i bÅ‚ogosÅ‚awieÅ„stwem Torma miecz ten staÅ‚ siÄ™ jeszcze bardziej potÄ™Å¼ny.
+@164 = ~Uœwiêcony odkupiciel +5~
+@165 = ~Uœwiêcony odkupiciel +5
+Keldorn odznaczy³ siê w swojej wczesnej karierze paladyna i otrzyma³ ten miecz w darze od Torma. Jest niezwykle precyzyjny, ale chroni go równie¿ w bitwie specjaln¹ Ognist¹ tarcz¹ i ka¿dy kto go spróbuje uderzyæ, doœwiadczy gniewu Torma w postaci magicznych obra¿eñ. Nikt oprócz Keldorna nie mo¿e u¿ywaæ tego miecza.
+
+Z twoj¹ pomoc¹ i b³ogos³awieñstwem Torma miecz ten sta³ siê jeszcze bardziej potê¿ny.
 
 PARAMETRY:
 
 Specjalne:
-â€“ 5 magicznych obraÅ¼eÅ„ dla kaÅ¼dego, kto zrani dzierÅ¼Ä…cego ten miecz
+– 5 magicznych obra¿eñ dla ka¿dego, kto zrani dzier¿¹cego ten miecz
 - Rozproszenie magii, po trafieniu
-- Cel zostaje uciszony na 2 rundy, po trafieniu
+- Cel zostaje uciszony na dwie rundy, po trafieniu
 
-ObraÅ¼enia: 1k12 +5
+Obra¿enia: 1k12 +5
 TraK0: +5
-Typ obraÅ¼eÅ„: sieczne
-OpÃ³Åºnienie: 8
-Rodzaj biegÅ‚oÅ›ci: miecz oburÄ™czny
-Typ broni: 2-rÄ™czna
+Typ obra¿eñ: sieczne
+OpóŸnienie: 8
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
 
 Waga: 8~
 
-@166 = ~Tarcza rodziny DelrynÃ³w +4~
-@167 = ~Tarcza Rodziny DelrynÃ³w +4
-To jest rodzinna tarcza Anomena, podarowana mu przez jego ojca. OprÃ³cz magicznej ochrony tarcza promieniuje aurÄ…, ktÃ³rÄ… zapewnia osobie, ktÃ³ra jej uÅ¼ywa, odpornoÅ›Ä‡ na ogieÅ„ i zimno. W celu ochrony przed atakami z dystansu, Anomen moÅ¼e uÅ¼yÄ‡ tej tarczy, Å¼eby wznieÅ›Ä‡ pole energetyczne. Taka ochrona przed pociskami moÅ¼e byÄ‡ uÅ¼yta 3 razy na dzieÅ„.
-DoÅ›Ä‡ niedawno <CHARNAME> wzmocniÅ‚<PRO_HESHE> tarczÄ™ ochronnÄ… magiÄ… pÅ‚ynÄ…cÄ… z Åaski ocalenia, uzyskanej podczas spotkania z awatarem Amaunatora, co spowodowaÅ‚o, Å¼e staÅ‚a siÄ™ ona jeszcze potÄ™Å¼niejsza.
+@166 = ~Tarcza rodziny Delrynów +4~
+@167 = ~Tarcza rodziny Delrynów +4
+To jest rodzinna tarcza Anomena, podarowana mu przez jego ojca. Oprócz magicznej ochrony tarcza promieniuje aur¹, któr¹ zapewnia osobie, która jej u¿ywa, odpornoœæ na ogieñ i zimno. W celu ochrony przed atakami z dystansu, Anomen mo¿e u¿yæ tej tarczy, ¿eby wznieœæ pole energetyczne. Taka ochrona przed pociskami mo¿e byæ u¿yta trzy razy na dzieñ.
+
+Doœæ niedawno <CHARNAME> wzmocni³<PRO_HESHE> tarczê ochronn¹ magi¹ p³yn¹c¹ z £aski ocalenia, uzyskanej podczas spotkania z awatarem Amaunatora, co spowodowa³o, ¿e sta³a siê ona jeszcze potê¿niejsza.
 
 PARAMETRY:
 
 Specjalne:
 - Klasa Pancerza: +5
-â€“ OdpornoÅ›Ä‡ na ogieÅ„: +30%
-â€“ OdpornoÅ›Ä‡ na zimno: +30%
+– Odpornoœæ na ogieñ: +30%
+– Odpornoœæ na zimno: +30%
 
-WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w: 
-â€“ Ochrona przed pociskami, trzy razy dziennie 
-Czas dziaÅ‚ania: 1 godzina 
-Obszar dziaÅ‚ania: uÅ¼ytkownik
+W³aœciwoœci ³adunków: 
+– Ochrona przed pociskami, trzy razy dziennie 
+Czas dzia³ania: 1 godzina 
+Obszar dzia³ania: u¿ytkownik
 
 Waga: 7~
 
 @168 = ~Lilarcor +5~
-@169 = ~Lawrence Lilarcor byÅ‚ znany, nie z odwagi, ale z gÅ‚upoty. Jak mÃ³wi opowieÅ›Ä‡, cheÅ‚pliwy Lilarcor opuÅ›ciÅ‚ swojÄ… wioskÄ™ za namowÄ… swych przyjaciÃ³Å‚, aby pokazaÄ‡, Å¼e tylko "wielki bohater" moÅ¼e zmierzyÄ‡ siÄ™ z przebiegÅ‚ym Treantem. WÄ™drowaÅ‚ zimÄ… przez wiele dni, aÅ¼ w koÅ„cu, w gorÄ…czce, znalazÅ‚ swÃ³j cel i rozpoczÄ™Å‚y siÄ™ epickie zapasy. Niestety (a raczej na szczÄ™Å›cie), "Treant" byÅ‚ niczym wiÄ™cej jak tylko zwykÅ‚ym, starym dÄ™bem. To mogÅ‚oby zakoÅ„czyÄ‡ tÄ™ historiÄ™, ale Lilarcor, ktÃ³ry wyruszajÄ…c nie wiedziaÅ‚, czym jest Treant, nie zdoÅ‚aÅ‚ domyÅ›liÄ‡ siÄ™ prawdy. W koÅ„cu wyrwaÅ‚ dÄ…b z korzeniami i dumnie maszerujÄ…c w kierunku domu ogÅ‚osiÅ‚ siÄ™ bohaterem. Tak narodziÅ‚a siÄ™ epickich rozmiarÃ³w komedia, a z czasem nazwisko Lilarcor staÅ‚o siÄ™ synonimem gÅ‚upca w wielu opowieÅ›ciach.
-Nie wiadomo, czy ta magiczna broÅ„ to sam Lilarcor, byÄ‡ moÅ¼e uwiÄ™ziony przez zÅ‚ego maga lub inne zrzÄ…dzenie losu, ale pewne jest to, Å¼e dziaÅ‚a na poziomie jego zdolnoÅ›ci. JeÅ›li to on, to nigdy nie narzekaÅ‚ na swoje uwiÄ™zienie. MoÅ¼e nie zdaje sobie sprawy, albo nie dba o to, Å¼e nie jest juÅ¼ czÅ‚owiekiem.
-Jako broÅ„, Lilarcor ma swoje zastosowania, ale wielu wojownikÃ³w zrezygnowaÅ‚o z niego. Komentarze takie jak "AuÄ‡, to musiaÅ‚o boleÄ‡", "O tak! Rany, ale dobry jestem" i "UwaÅ¼aj bo moje ukÄ…szenie moÅ¼e... moÅ¼e... moÅ¼e zraniÄ‡ albo coÅ›" sÄ… udrÄ™kÄ… dla umysÅ‚u wojownika.
-Teraz, gdy <CHARNAME> go ulepszyÅ‚<PRO_HESHE> (a raczej go uciszyÅ‚<PRO_HESHE>), ten kto dzierÅ¼y ten miecz w dÅ‚oni nie moÅ¼e utraciÄ‡ swej inteligencji z jakiegokolwiek powodu. BroÅ„ ta chroni przed wysysaniem inteligencji przez illithidÃ³w, lecz takÅ¼e dobroczynnymi skutkami wypicia mikstury geniuszu. 
+@169 = ~Lawrence Lilarcor by³ znany, nie z odwagi, ale z g³upoty. Jak mówi opowieœæ, che³pliwy Lilarcor opuœci³ swoj¹ wioskê za namow¹ swych przyjació³, aby pokazaæ, ¿e tylko „wielki bohater” mo¿e zmierzyæ siê z przebieg³ym Drzewcem. Wêdrowa³ zim¹ przez wiele dni, a¿ w koñcu, w gor¹czce, znalaz³ swój cel i rozpoczê³y siê epickie zapasy. Niestety (a raczej na szczêœcie), „Drzewiec” by³ niczym wiêcej jak tylko zwyk³ym, starym dêbem. To mog³oby zakoñczyæ tê historiê, ale Lilarcor, który wyruszaj¹c nie wiedzia³, czym jest Drzewiec, nie zdo³a³ domyœliæ siê prawdy. W koñcu wyrwa³ d¹b z korzeniami i dumnie maszeruj¹c w kierunku domu og³osi³ siê bohaterem. Tak narodzi³a siê epickich rozmiarów komedia, a z czasem nazwisko Lilarcor sta³o siê synonimem g³upca w wielu opowieœciach.
+
+Nie wiadomo, czy ta magiczna broñ to sam Lilarcor, byæ mo¿e uwiêziony przez z³ego maga lub inne zrz¹dzenie losu, ale pewne jest to, ¿e dzia³a na poziomie jego zdolnoœci. Jeœli to on, to nigdy nie narzeka³ na swoje uwiêzienie. Mo¿e nie zdaje sobie sprawy, albo nie dba o to, ¿e nie jest ju¿ cz³owiekiem.
+
+Jako broñ, Lilarcor ma swoje zastosowania, ale wielu wojowników zrezygnowa³o z niego. Komentarze takie jak „Auæ, to musia³o boleæ”, „O tak! Rany, ale dobry jestem” i „Uwa¿aj bo moje uk¹szenie mo¿e... mo¿e... mo¿e zraniæ albo coœ” s¹ udrêk¹ dla umys³u wojownika.
+
+Teraz, gdy <CHARNAME> go ulepszy³<PRO_HESHE> (a raczej go uciszy³<PRO_HESHE>), ten kto dzier¿y ten miecz w d³oni nie mo¿e utraciæ swej inteligencji z jakiegokolwiek powodu. Broñ ta chroni przed wysysaniem inteligencji przez illithidów, lecz tak¿e dobroczynnymi skutkami wypicia mikstury geniuszu. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ NiewraÅ¼liwoÅ›Ä‡ na Zauroczenie, ZamÄ™t i zmiany Inteligencji
+– Niewra¿liwoœæ na Zauroczenie, Zamêt i zmiany Inteligencji
 
-ObraÅ¼enia: 1k12 +5
+Obra¿enia: 1k12 +5
 TraK0: +5
-Typ obraÅ¼eÅ„: sieczne
-OpÃ³Åºnienie: 6
-Rodzaj biegÅ‚oÅ›ci: miecz oburÄ™czny
-Typ broni: 2-rÄ™czna
+Typ obra¿eñ: sieczne
+OpóŸnienie: 6
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
 
 Wymagania:
-â€“ SiÅ‚a: 14
+– Si³a: 14
 
 Waga: 10~
 
-@170 = ~Rozpruwacz Dusz +6~
-@171 = ~PrzeklÄ™ty MÅ›ciciel: Rozpruwacz Dusz +6
-PotÄ™Å¼ne ostrze Rozpruwacza Dusz zostaÅ‚o przekute pod twoim mrocznym przewodnictwem. ÅšwiÄ™ta esencja Karsomira zostaÅ‚a wchÅ‚oniÄ™ta by pomÃ³c stworzyÄ‡ tÄ™ odraÅ¼ajÄ…cÄ… potwornoÅ›Ä‡. Rozpruwacz Dusz jest narzÄ™dziem niewyobraÅ¼alnej potÄ™gi i niewyobraÅ¼alnego zÅ‚a. 
+@170 = ~Rozpruwacz dusz +6~
+@171 = ~Przeklêty mœciciel: Rozpruwacz dusz +6
+Potê¿ne ostrze Rozpruwacza dusz zosta³o przekute pod twoim mrocznym przewodnictwem. Œwiêta esencja Karsomira zosta³a wch³oniêta by pomóc stworzyæ tê odra¿aj¹c¹ potwornoœæ. Rozpruwacz dusz jest narzêdziem niewyobra¿alnej potêgi i niewyobra¿alnego z³a. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ OdpornoÅ›Ä‡ na magiÄ™: +50%
-â€“ Rozproszenie magii, po trafieniu
-â€“ TraK0 przeciwnika: -2, po trafieniu, kumulatywne, efekt dziaÅ‚a przez 2 tury
+– Odpornoœæ na magiê: +50%
+– Rozproszenie magii, po trafieniu
+– TraK0 przeciwnika: -2, po trafieniu, kumulatywne, efekt dzia³a przez dwie tury
 
-ObraÅ¼enia: 1k12 +6, +1k6 magicznych obraÅ¼eÅ„
+Obra¿enia: 1k12 +6, +1k6 magicznych obra¿eñ
 TraK0: +6
-Typ obraÅ¼eÅ„: sieczne
-OpÃ³Åºnienie: 4
-Rodzaj biegÅ‚oÅ›ci: miecz oburÄ™czny
-Typ broni: 2-rÄ™czna
+Typ obra¿eñ: sieczne
+OpóŸnienie: 4
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
 
 Wymagania: 
-â€“ SiÅ‚a: 14
+– Si³a: 14
 
 Waga: 10~
 
 @172 = ~Punkt podparcia +4~
 @173 = ~Maczuga +4: Punkt podparcia
-Wykuta na twojÄ… proÅ›bÄ™, stanowi poÅ‚Ä…czenie KoÅ›cianej maczugi i Zgniatacza. Duchy zmarÅ‚ych wojownikÃ³w prowadzÄ… rÄ™kÄ™ tego, kto jÄ… dzierÅ¼y zwiÄ™kszajÄ…c celnoÅ›Ä‡, a kaÅ¼de trafienie zsyÅ‚a bÃ³l w koÅ›ciach. W dodatku maczuga zadaje dodatkowe obraÅ¼enia, dla nie-neutralnych istot. 
+Wykuta na twoj¹ proœbê, stanowi po³¹czenie Koœcianej maczugi i Zgniatacza. Duchy zmar³ych wojowników prowadz¹ rêkê tego, kto j¹ dzier¿y zwiêkszaj¹c celnoœæ, a ka¿de trafienie zsy³a ból w koœciach. W dodatku maczuga zadaje dodatkowe obra¿enia, dla nie-neutralnych istot. 
 
 PARAMETRY:
 
 Specjalne:
-- Osoba dzierÅ¼Ä…ca tÄ™ broÅ„ otrzymuje status wielkiego mistrza w posÅ‚ugiwaniu siÄ™ maczugami
+- Osoba dzier¿¹ca tê broñ otrzymuje status wielkiego mistrza w pos³ugiwaniu siê maczugami
 
-ObraÅ¼enia: 1k6 +4, +4 przeciw istotom dobrym, zÅ‚ym, praworzÄ…dnym lub chaotycznym (kumulatywne), koÅ›ciane ostrza zadajÄ… 2 obraÅ¼enia co rundÄ™ przez 4 rundy
+Obra¿enia: 1k6 +4, +4 przeciw istotom dobrym, z³ym, praworz¹dnym lub chaotycznym (kumulatywne), koœciane ostrza zadaj¹ 2 obra¿enia co rundê przez cztery rundy
 TraK0: +4
-Typ obraÅ¼eÅ„: obuchowe
-OpÃ³Åºnienie: 1 
-Rodzaj biegÅ‚oÅ›ci: maczuga
-Typ broni: 1-rÄ™czna
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 1 
+Rodzaj bieg³oœci: maczuga
+Typ broni: 1-rêczna
 
 Wymagania:
-â€“ SiÅ‚a: 5
+– Si³a: 5
 
 Waga: 3~
 
 @174 = ~Quietus +4~
-@175 = ~<CHARNAME> zaaranÅ¼owaÅ‚<PRO_HESHE> stworzenie tego sztyletu z zatrutego z Kolca Chochlika oraz z zabÃ³jczej KoÅ›cianej Klingi. W rezultacie otrzymaÅ‚<PRO_HESHE> on<PRO_HESHE> broÅ„ wartÄ… kaÅ¼dego zabÃ³jcy. Wzbogacony jad z Kolca Chochlika teraz moÅ¼e oÅ›lepiaÄ‡ przeciwnika, a mroczna wiedza pÅ‚ynÄ…ca z KoÅ›cianej Klingi pozwala wytrenowanemu zÅ‚odziejowi wyprowadzaÄ‡ ciosy w plecy z iÅ›cie zabÃ³jczÄ… skutecznoÅ›ciÄ….
+@175 = ~<CHARNAME> zaaran¿owa³<PRO_HESHE> stworzenie tego sztyletu z zatrutego z Kolca Chochlika oraz z zabójczej Koœcianej klingi. W rezultacie otrzyma³<PRO_HESHE> on<PRO_HESHE> broñ wart¹ ka¿dego zabójcy. Wzbogacony jad z Kolca chochlika teraz mo¿e oœlepiaæ przeciwnika, a mroczna wiedza p³yn¹ca z Koœcianej klingi pozwala wytrenowanemu z³odziejowi wyprowadzaæ ciosy w plecy z iœcie zabójcz¹ skutecznoœci¹.
 
 Specjalne:
-â€“ Cios w plecy: mnoÅ¼nik zwiÄ™kszony o 1
-â€“ Cel zasypia lub zostaje oÅ›lepiony na 2 rundy, po trafieniu (rzut obronny przeciw truciznom z modyfikatorem -2 neguje oba efekty, oÅ›lepione istoty otrzymujÄ… modyfikator -10 do TraK0)
+– Cios w plecy: mno¿nik zwiêkszony o 1
+– Cel zasypia lub zostaje oœlepiony na dwie rundy, po trafieniu (rzut obronny przeciw truciznom z modyfikatorem -2 neguje oba efekty, oœlepione istoty otrzymuj¹ modyfikator -10 do TraK0)
 
-ObraÅ¼enia: 2k3 +4
+Obra¿enia: 2k3 +4
 TraK0: +4
-Typ obraÅ¼eÅ„: sieczne
-OpÃ³Åºnienie: 0 
-Rodzaj biegÅ‚oÅ›ci: sztylet
-Typ broni: 1-rÄ™czna
+Typ obra¿eñ: sieczne
+OpóŸnienie: 0 
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
 
 Wymagania:
-â€“ SiÅ‚a: 3
+– Si³a: 3
 
 Waga: 3~
 
-@176 = ~ÅšwiÄ™ty Puklerz Amaunatora +2~
-@177 = ~ÅšwiÄ™ty Puklerz Amaunatora +2
-<CHARNAME> majÄ…c Å›wiÄ™ty symbol Amaunatora, dawno umarÅ‚ego Boga SÅ‚oÅ„ca, wkuÅ‚<PRO_HESHE> go do swego puklerza. Jest on teraz potencjalnÄ… barierÄ… przeciwko tym, ktÃ³rzy podkradajÄ… siÄ™ w nocy i wysysajÄ… Å¼ycie z Å¼ywych. 
+@176 = ~Œwiêty puklerz Amaunatora +2~
+@177 = ~Œwiêty puklerz Amaunatora +2
+<CHARNAME> maj¹c œwiêty symbol Amaunatora, dawno umar³ego Boga S³oñca, wku³<PRO_HESHE> go do swego puklerza. Jest on teraz potencjaln¹ barier¹ przeciwko tym, którzy podkradaj¹ siê w nocy i wysysaj¹ ¿ycie z ¿ywych. 
 
 PARAMETRY:
   
 Specjalne:
-â€“ Klasa Pancerza: +3
-â€“ NiewraÅ¼liwoÅ›Ä‡ na wyssanie poziomÃ³w
+– Klasa Pancerza: +3
+– Niewra¿liwoœæ na wyssanie poziomów
  
-WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w:
-â€“ FaÅ‚szywy Å›wit, dwa razy dziennie (bez rzutu obronnego)
-Czas dziaÅ‚ania: 5 rund
-Obszar dziaÅ‚ania: w promieniu 10 metrÃ³w
+W³aœciwoœci ³adunków:
+– Fa³szywy œwit, dwa razy dziennie (bez rzutu obronnego)
+Czas dzia³ania: 5 rund
+Obszar dzia³ania: w promieniu 10 metrów
  
 Wymagania:
-â€“ SiÅ‚a: 4
+– Si³a: 4
 
 Waga: 2~
 
-@178 = ~RÄ™kawice mistrza zÅ‚odziei~
-@179 = ~RÄ™kawice mistrza zÅ‚odziei: Dwunastopalcy
-<CHARNAME> uformowaÅ‚<PRO_HESHE> te rÄ™kawice z rozlicznych przydajÄ…cych rozmaitych premii zÅ‚odziejom i rozsianych po caÅ‚ym Å›wiecie przedmiotÃ³w. Kiedy zaÅ‚oÅ¼y je zÅ‚odziej, na kaÅ¼dej rÄ™kawicy pojawia siÄ™ dodatkowy magiczny palec wspierajÄ…cy tego kochanka fortuny w jego unikalnych zdolnoÅ›ciach. W dodatku sÄ… bardzo gustowne, aczkolwiek ich deseÅ„ wyglÄ…da niemal na ... gnomi. 
+@178 = ~Rêkawice mistrza z³odziei~
+@179 = ~Rêkawice mistrza z³odziei: Dwunastopalcy
+<CHARNAME> uformowa³<PRO_HESHE> te rêkawice z rozlicznych przydaj¹cych rozmaitych premii z³odziejom i rozsianych po ca³ym œwiecie przedmiotów. Kiedy za³o¿y je z³odziej, na ka¿dej rêkawicy pojawia siê dodatkowy magiczny palec wspieraj¹cy tego kochanka fortuny w jego unikalnych zdolnoœciach. W dodatku s¹ bardzo gustowne, aczkolwiek ich deseñ wygl¹da niemal na... gnomi. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ Rzuty obronne: +1
-â€“ Wykrywanie puÅ‚apek: +25%
-â€“ Otwieranie zamkÃ³w: +25%
-â€“ KradzieÅ¼ kieszonkowa: +20%
+– Rzuty obronne: +1
+– Wykrywanie pu³apek: +25%
+– Otwieranie zamków: +25%
+– Kradzie¿ kieszonkowa: +20%
 
 Klasa Pancerza: 3
 
@@ -759,101 +774,102 @@ Waga: 2~
 
 @180 = ~Amulet Ilmatera~
 @181 = ~Amulet Ilmatera
-Ten amulet Å‚Ä…czy w sobie defensywne wÅ‚aÅ›ciwoÅ›ci Amuletu ochrony, Amuletu ochrony przed truciznÄ… i Naszyjnika stabilnoÅ›ci ksztaÅ‚tu, a takÅ¼e Amuletu blokowania czarÃ³w, aby zapewniÄ‡ temu kto go nosi jak najlepszÄ… ochronÄ™. W dodatku amulet zawiera w sobie pomniejsze bÅ‚ogosÅ‚awieÅ„stwo wiecznie cierpiÄ…cego Ilmatera. Amulet wyprodukowaÅ‚<PRO_HESHE> <CHARNAME>. 
+Ten amulet ³¹czy w sobie defensywne w³aœciwoœci Amuletu ochrony, Amuletu ochrony przed trucizn¹ i Naszyjnika stabilnoœci kszta³tu, a tak¿e Amuletu blokowania czarów, aby zapewniæ temu kto go nosi jak najlepsz¹ ochronê. W dodatku amulet zawiera w sobie pomniejsze b³ogos³awieñstwo wiecznie cierpi¹cego Ilmatera. Amulet wyprodukowa³<PRO_HESHE> <CHARNAME>. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ Klasa Pancerza: +1
-â€“ Rzuty obronne: +3
-â€“ NiewraÅ¼liwoÅ›Ä‡ na trucizny
+– Klasa Pancerza: +1
+– Rzuty obronne: +3
+– Niewra¿liwoœæ na trucizny
 
-WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w:
-â€“ Uzdrowienie, raz dziennie
+W³aœciwoœci ³adunków:
+– Uzdrowienie, raz dziennie
 
 Waga: 1~
 
 @182 = ~Szpon wody +4~
-@183 = ~Klinga tej zaprojektowanej przez ciebie broni zdaje siÄ™ lÅ›niÄ‡, odsÅ‚aniajÄ…c ostrÄ… niczym brzytwa, pÅ‚ynnÄ… krawÄ™dÅº, przypominajÄ…cÄ… nieco szpon drapieÅ¼nego ptaka. Szpon wody zawiera przepotÄ™Å¼nÄ… moc zabÃ³jczych pÅ‚ynÃ³w, a kaÅ¼de jego trafienie wysysa z ofiery Å¼ycie, przekazujÄ…c je wÅ‚adajÄ…cemu; samo ostrze zaÅ› jest zatrute po kres Å›wiata. Podobnie, jak jeden z substratÃ³w, takÅ¼e i Szpon chroni przed urokami, a ponadto, z uwagi na panowanie nad Å¼ywioÅ‚em wody, chroni przed skutkami Plugawego uwiÄ…du Abi-Dalzima. Najbardziej niezwykÅ‚e jest jednak to, Å¼e pÅ‚ynna natura ostrza pozwala mu na wydÅ‚uÅ¼anie siÄ™ i rozbryzgiwanie w czasie walki, zwiÄ™kszajÄ…c zasiÄ™g uderzenia do wartoÅ›ci przewyÅ¼szajacej typowe dla wiÄ™kszoÅ›ci mieczy oburÄ™cznych. Skutkiem tego posiadacz moÅ¼e wykonywaÄ‡ niemoÅ¼liwe w inny sposÃ³b ataki z tylnych szeregÃ³w, bÄ…dÅº sprÃ³bowaÄ‡ pokusiÄ‡ siÄ™ o unik po trafieniu, liczÄ…c na zatrucie celu juÅ¼ przy pierwszym trafieniu.
+@183 = ~Klinga tej zaprojektowanej przez ciebie broni zdaje siê lœniæ, ods³aniaj¹c ostr¹ niczym brzytwa, p³ynn¹ krawêdŸ, przypominaj¹c¹ nieco szpon drapie¿nego ptaka. Szpon wody zawiera przepotê¿n¹ moc zabójczych p³ynów, a ka¿de jego trafienie wysysa z ofiery ¿ycie, przekazuj¹c je w³adaj¹cemu; samo ostrze zaœ jest zatrute po kres œwiata. Podobnie, jak jeden z substratów, tak¿e i Szpon chroni przed urokami, a ponadto, z uwagi na panowanie nad ¿ywio³em wody, chroni przed skutkami Plugawego uwi¹du Abi-Dalzima. Najbardziej niezwyk³e jest jednak to, ¿e p³ynna natura ostrza pozwala mu na wyd³u¿anie siê i rozbryzgiwanie w czasie walki, zwiêkszaj¹c zasiêg uderzenia do wartoœci przewy¿szajacej typowe dla wiêkszoœci mieczy oburêcznych. Skutkiem tego posiadacz mo¿e wykonywaæ niemo¿liwe w inny sposób ataki z tylnych szeregów, b¹dŸ spróbowaæ pokusiæ siê o unik po trafieniu, licz¹c na zatrucie celu ju¿ przy pierwszym trafieniu.
 
 PARAMETRY:
 
 Specjalne:
-â€“ NiewraÅ¼liwoÅ›Ä‡ na Zauroczenie, DominacjÄ™ i Plugawy uwiÄ…d Abi-Dalzima
-â€“ ZwiÄ™ksza maksymalnÄ… iloÅ›Ä‡ punktÃ³w Å¼ycia wÅ‚aÅ›ciciela o 2 na okres 3 tur, po trafieniu
-â€“ ZwiÄ™kszony zasiÄ™g uderzenia
+– Niewra¿liwoœæ na Zauroczenie, Dominacjê i Plugawy uwi¹d Abi-Dalzima
+– Zwiêksza maksymaln¹ iloœæ punktów ¿ycia w³aœciciela o 2 na okres trzech tur, po trafieniu
+– Zwiêkszony zasiêg uderzenia
 
-ObraÅ¼enia: 1k8 +4, +2 obraÅ¼enia od trucizny na sekundÄ™ (kumulatywne)
+Obra¿enia: 1k8 +4, +2 obra¿enia od trucizny na sekundê (kumulatywne)
 TraK0: +4
-Typ obraÅ¼eÅ„: sieczne
-OpÃ³Åºnienie: 1
-Rodzaj biegÅ‚oÅ›ci: sejmitar/wakizashi/ninja-to 
-Typ broni: 1-rÄ™czna
+Typ obra¿eñ: sieczne
+OpóŸnienie: 1
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to 
+Typ broni: 1-rêczna
 
 Wymagania:
-â€“ SiÅ‚a: 8
+– Si³a: 8
 
 Waga: 3~
 
 @184 = ~Lazurowe ostrze +4~
-@185 = ~Toporek +4: Lazurowe Ostrze
-Gulen Skalny OgieÅ„, ZabÃ³jca NieumarÅ‚ych, stworzyÅ‚ ten potÄ™Å¼ny toporek by wzmocniÄ‡ swe imiÄ™. PobÅ‚ogosÅ‚awiony przez rÃ³Å¼nych bogÃ³w, topÃ³r ten zadaje niesamowite obraÅ¼enia istotom niemÄ…drze buntujÄ…cym siÄ™ przeciwko swojemu statusowi zmarÅ‚ych i moÅ¼e zniszczyÄ‡ je pojedynczym ciosem. NajwyraÅºniej Gulen juÅ¼ nie uÅ¼ywa Lazurowego ostrza, a plotka mÃ³wi, Å¼e lata temu zginÄ…Å‚ w walce z potÄ™Å¼nym wampirem, po czym sam staÅ‚ siÄ™ takim. To mogÅ‚o spowodowaÄ‡ zmianÄ™ jego stanowiska wobec nieumarÅ‚ych, a przynajmniej zmianÄ™ przydomku.
-DziÄ™ki tobie, ostrze uzyskaÅ‚o jeszcze wiÄ™ksze moÅ¼liwoÅ›ci.
+@185 = ~Toporek +4: Lazurowe ostrze
+Gulen Skalny Ogieñ, Zabójca Nieumar³ych, stworzy³ ten potê¿ny toporek by wzmocniæ swe imiê. Pob³ogos³awiony przez ró¿nych bogów, topór ten zadaje niesamowite obra¿enia istotom niem¹drze buntuj¹cym siê przeciwko swojemu statusowi zmar³ych i mo¿e zniszczyæ je pojedynczym ciosem. NajwyraŸniej Gulen ju¿ nie u¿ywa Lazurowego ostrza, a plotka mówi, ¿e lata temu zgin¹³ w walce z potê¿nym wampirem, po czym sam sta³ siê takim. To mog³o spowodowaæ zmianê jego stanowiska wobec nieumar³ych, a przynajmniej zmianê przydomku.
+
+Dziêki tobie, ostrze uzyska³o jeszcze wiêksze mo¿liwoœci.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Po rzucie wraca do wÅ‚aÅ›ciciela
-â€“ Nieumarli ulegajÄ… zniszczeniu, po trafieniu (rzut obronny przeciw Å›mierci z modyfikatorem -4 neguje)
-â€“ NiewraÅ¼liwoÅ›Ä‡ na wyssanie poziomÃ³w
+– Po rzucie wraca do w³aœciciela
+– Nieumarli ulegaj¹ zniszczeniu, po trafieniu (rzut obronny przeciw œmierci z modyfikatorem -4 neguje)
+– Niewra¿liwoœæ na wyssanie poziomów
 
-ObraÅ¼enia: 1k6 +4, +4 obraÅ¼enia przeciw nieumarÅ‚ym
+Obra¿enia: 1k6 +4, +4 obra¿enia przeciw nieumar³ym
 TraK0: +4
-Typ obraÅ¼eÅ„ (walka wrÄ™cz): sieczne
-Typ obraÅ¼eÅ„ (rzucony): pocisk (kÅ‚ute)
-OpÃ³Åºnienie: 0
-Rodzaj biegÅ‚oÅ›ci: topÃ³r
-Typ broni:  1-rÄ™czna
+Typ obra¿eñ (walka wrêcz): sieczne
+Typ obra¿eñ (rzucony): pocisk (k³ute)
+OpóŸnienie: 0
+Rodzaj bieg³oœci: topór
+Typ broni:  1-rêczna
 
 Wymagania:
-â€“ SiÅ‚a: 4
+– Si³a: 4
 
 Waga: 2~
 
-@186 = ~PierÅ›cieÅ„ Czarownika~
-@187 = ~PierÅ›cieÅ„ Czarownika: 'ÅšciskajÄ…ca PotÄ™ga'
-PierÅ›cieÅ„ jest niewÄ…tpliwie szczytem mnemonicznej lukubracji. ZÅ‚oÅ¼nony przez <CHARNAME> z PierÅ›cienia CzarÃ³w, PierÅ›cienia OstroÅ›ci, Amuletu MetaczarÃ³w oraz PierÅ›cienia Ochrony, co uwieÅ„czone zostaÅ‚o stworzeniem wspaniaÅ‚ego pierÅ›cienia pozwalajÄ…cemu noszÄ…cej go osobie zapamiÄ™taÄ‡ dodatkowe zaklecie dla wszystkich poziomÃ³w czarÃ³w - od pierwszego do siÃ³dmego. W dodatku zaÅ‚oÅ¼ony na palcu zapewnia dodatkowÄ… ochronÄ™ przed fizycznymi i magicznymi atakami.
+@186 = ~Pierœcieñ czarownika~
+@187 = ~Pierœcieñ czarownika: Œciskaj¹ca potêga
+Pierœcieñ jest niew¹tpliwie szczytem mnemonicznej lukubracji. Z³o¿ony przez <CHARNAME> z Pierœcienia czarów, Pierœcienia ostroœci, Amuletu metaczarów oraz Pierœcienia ochrony, co uwieñczone zosta³o stworzeniem wspania³ego pierœcienia pozwalaj¹cemu nosz¹cej go osobie zapamiêtaæ dodatkowe zaklecie dla wszystkich poziomów czarów - od pierwszego do siódmego. W dodatku za³o¿ony na palcu zapewnia dodatkow¹ ochronê przed fizycznymi i magicznymi atakami.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Klasa Pancerza: +1
-â€“ Rzuty obronne: +1
-â€“ Pozwala zapamiÄ™taÄ‡ po 1 dodatkowym zaklÄ™ciu z poziomÃ³w 1-7
+– Klasa Pancerza: +1
+– Rzuty obronne: +1
+– Pozwala zapamiêtaæ po 1 dodatkowym zaklêciu z poziomów 1-7
 
 Waga: 0~
 
-@188 = ~Pas chwaÅ‚y~
-@189 = ~Stworzony przez ciebie, w celu ochrony noszÄ…cej go osoby przed obraÅ¼eniami siecznymi, kÅ‚utymi i obuchowymi, pas ten jest caÅ‚kiem uÅ¼yteczny w starciach wrÄ™cz. Jego potÄ™Å¼na magia paruje wszelkie typy ciosÃ³w, a wÄ…ski ksztaÅ‚t nie krÄ™puje ruchÃ³w. W dodatku pas ten jest wykonany zgodnie z obowiÄ…zujÄ…cÄ… modÄ…. 
+@188 = ~Pas chwa³y~
+@189 = ~Stworzony przez ciebie, w celu ochrony nosz¹cej go osoby przed obra¿eniami siecznymi, k³utymi i obuchowymi, pas ten jest ca³kiem u¿yteczny w starciach wrêcz. Jego potê¿na magia paruje wszelkie typy ciosów, a w¹ski kszta³t nie krêpuje ruchów. W dodatku pas ten jest wykonany zgodnie z obowi¹zuj¹c¹ mod¹. 
 
 PARAMETRY:
 
 Specjalne:
-â€“ Klasa Pancerza: +3
+– Klasa Pancerza: +3
 
 Waga: 2~
 
 @190 = ~Ulepszona figurka Kitthixa~
 @191 = ~Ulepszona figurka Kitthixa
-Przekuta dla ciebie, by przyzywaÄ‡ potÄ™Å¼niejszego pajÄ…ka, figurka Kitthixa nie stanowi juÅ¼ opÃ³ÅºniajÄ…cej ostateczne starcie taktyki, jak niegdyÅ›. MinÄ™Å‚y dni, kiedy Kitthix byÅ‚ instruowany do rzucenia siÄ™ w wir walki, aby choÄ‡ na moment odwrÃ³ciÄ‡ uwagÄ™ przeciwnika. Teraz sieci i trucizna Kitthixa zostaÅ‚y ulepszone, a sam pajÄ…k jest mniej podatny na ciosy przeciwnikÃ³w.
+Przekuta dla ciebie, by przyzywaæ potê¿niejszego paj¹ka, figurka Kitthixa nie stanowi ju¿ opóŸniaj¹cej ostateczne starcie taktyki, jak niegdyœ. Minê³y dni, kiedy Kitthix by³ instruowany do rzucenia siê w wir walki, aby choæ na moment odwróciæ uwagê przeciwnika. Teraz sieci i trucizna Kitthixa zosta³y ulepszone, a sam paj¹k jest mniej podatny na ciosy przeciwników.
 
 PARAMETRY:
 
 Specjalne:
-â€“ Przyzwanie ulepszonego Kitthix'a, raz dziennie
-ZasiÄ™g: 6 metrÃ³w
-Czas dziaÅ‚ania: 40 tur
-PajÄ…k potrafi w trakcie walki pojawiaÄ‡ siÄ™ i znikaÄ‡. Posiada takÅ¼e umiejÄ™tnoÅ›Ä‡ ZaplÄ…tanie w PajÄ™czynÄ™, dziÄ™ki ktÃ³rej moÅ¼e wystrzeliÄ‡ strumieÅ„ sieci w stronÄ™ jednego celu, wiÄ™Å¼Ä…c go na 2 rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje). Atak Kitthixa zadaje 2k4 +2 obraÅ¼enia kÅ‚ute, liczba atakÃ³w wynosi 4 na rundÄ™ i sÄ… one trujÄ…ce (rzut obronny przeciw truciznom z modyfikatorem -3 neguje) oraz powodujÄ… paraliÅ¼ przez 2 rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje). 
+– Przyzwanie ulepszonego Kitthix'a, raz dziennie
+Zasiêg: 6 metrów
+Czas dzia³ania: 40 tur
+Paj¹k potrafi w trakcie walki pojawiaæ siê i znikaæ. Posiada tak¿e umiejêtnoœæ Zapl¹tanie w Pajêczynê, dziêki której mo¿e wystrzeliæ strumieñ sieci w stronê jednego celu, wiê¿¹c go na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje). Atak Kitthixa zadaje 2k4 +2 obra¿enia k³ute, liczba ataków wynosi 4 na rundê i s¹ one truj¹ce (rzut obronny przeciw truciznom z modyfikatorem -3 neguje) oraz powoduj¹ parali¿ przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje). 
 
 Waga: 0~
 
@@ -861,57 +877,57 @@ Waga: 0~
 
 @193 = ~Nieuchronna Entropia~
 @194 = ~Nieuchronna Entropia
-To zielone ostrze zostaÅ‚o ulepszone, jak zaproponowaÅ‚<PRO_HESHE> <CHARNAME>. To ostrze z zielonej stali pochodzÄ…cej z OtchÅ‚ani jest jednÄ… z ulubionych broni Haer'dalisa. Tylko diabelstwa mogÄ… uÅ¼ywaÄ‡ tej broni.
+To zielone ostrze zosta³o ulepszone, jak zaproponowa³<PRO_HESHE> <CHARNAME>. To ostrze z zielonej stali pochodz¹cej z Otch³ani jest jedn¹ z ulubionych broni Haer'Dalisa. Tylko diabelstwa mog¹ u¿ywaæ tej broni.
 
 PARAMETRY:
 
 Specjalne:
-â€“ 5% szans na to, Å¼e cel znajdzie siÄ™ pod wpÅ‚ywem WiÄ™kszego osÅ‚abienia, po trafieniu (bez rzutu obronnego)
+– 5% szans na to, ¿e cel znajdzie siê pod wp³ywem Wiêkszego os³abienia, po trafieniu (bez rzutu obronnego)
 
-ObraÅ¼enia: 1k6 +3, +1 obraÅ¼enie od trucizny co sekundÄ™ przez 1 rundÄ™ (bez rzutu obronnego)
+Obra¿enia: 1k6 +3, +1 obra¿enie od trucizny co sekundê przez jedn¹ rundê (bez rzutu obronnego)
 TraK0: +3
-Typ obraÅ¼eÅ„: kÅ‚ute
-OpÃ³Åºnienie: 0
-Rodzaj biegÅ‚oÅ›ci: krÃ³tki miecz
-Typ broni: 1-rÄ™czna
+Typ obra¿eñ: k³ute
+OpóŸnienie: 0
+Rodzaj bieg³oœci: miecz krótki
+Typ broni: 1-rêczna
 
 Waga: 2~
 
-@195 = ~Upiorne Ostrze Chaosu~
-@196 = ~Upiorne Ostrze Chaosu
-Ostrze Chaosu to krÃ³tki miecz, ktÃ³rego uÅ¼ywaÄ‡ mogÄ… tylko diabelstwa. Za kaÅ¼dym razem, kiedy ta broÅ„ trafia w cel, atakowany traci na 30 sekund 2 punkty zrÄ™cznoÅ›ci. Haer'dalis lubi korzystaÄ‡ z Ostrza Chaosu w parze z innÄ… broniÄ…, EntropiÄ…. Kiedy Haer'dalis wÅ‚ada tymi mieczami jednoczeÅ›nie, staje siÄ™ bardzo groÅºnym przeciwnikiem w walce.
+@195 = ~Upiorne ostrze chaosu~
+@196 = ~Upiorne ostrze chaosu
+Ostrze Chaosu to miecz krótki, którego u¿ywaæ mog¹ tylko diabelstwa. Za ka¿dym razem, kiedy ta broñ trafia w cel, atakowany traci na 30 sekund 2 punkty Zrêcznoœci. Haer'dalis lubi korzystaæ z Ostrza chaosu w parze z inn¹ broni¹, Entropi¹. Kiedy Haer'dalis w³ada tymi mieczami jednoczeœnie, staje siê bardzo groŸnym przeciwnikiem w walce.
 
 PARAMETRY:
 
 Specjalne:
-â€“ 5% szans na to, Å¼e cel znajdzie siÄ™ pod wpÅ‚ywem ZamÄ™tu na okres 8 rund, po trafieniu (rzut obronny przeciw czarom z modyfikatorem -4 neguje)
-â€“ Cel traci 2 punkty ZrÄ™cznoÅ›ci na okres 5 rund, po trafieniu (bez rzutu obronnego)
+– 5% szans na to, ¿e cel znajdzie siê pod wp³ywem Zamêtu na okres oœmiu rund, po trafieniu (rzut obronny przeciw czarom z modyfikatorem -4 neguje)
+– Cel traci 2 punkty Zrêcznoœci na okres piêciu rund, po trafieniu (bez rzutu obronnego)
 
-ObraÅ¼enia: 1k6 +3 
+Obra¿enia: 1k6 +3 
 TraK0: +3
-Typ obraÅ¼eÅ„: kÅ‚ute
-OpÃ³Åºnienie: 0
-Rodzaj biegÅ‚oÅ›ci: krÃ³tki miecz
-Typ broni: 1-rÄ™czna
+Typ obra¿eñ: k³ute
+OpóŸnienie: 0
+Rodzaj bieg³oœci: miecz krótki
+Typ broni: 1-rêczna
 
 Waga: 2~
 
-@197 = ~Karminowa kolczuga elfÃ³w~
-@198 = ~Wykuta na twojÄ… proÅ›bÄ™ z Å‚usek czerwonego smoka i SylvaÅ„skiej kolczugi, Karminowa kolczuga elfÃ³w zapewnia noszÄ…cej jÄ… osobie niezwykÅ‚Ä… kombinacjÄ™ obrony i swobody ruchu. Åotrzykowie i czarodzieje zachowujÄ… swe zdolnoÅ›ci, kiedy noszÄ… tÄ™ zbrojÄ™.
+@197 = ~Karminowa kolczuga elfów~
+@198 = ~Wykuta na twoj¹ proœbê z ³usek czerwonego smoka i Sylvañskiej kolczugi, Karminowa kolczuga elfów zapewnia nosz¹cej j¹ osobie niezwyk³¹ kombinacjê obrony i swobody ruchu. £otrzykowie i czarodzieje zachowuj¹ swe zdolnoœci, kiedy nosz¹ tê zbrojê.
 
 PARAMETRY:
 
 Specjalne:
-â€“ OdpornoÅ›Ä‡ na ogieÅ„: +25%
-- KradzieÅ¼ kieszonkowa: -20%
-- Krycie siÄ™ w cieniu: -10%
-- Otwieranie zamkÃ³w: -5%
-- Wykrywanie puÅ‚apek: - 5%
+– Odpornoœæ na ogieñ: +25%
+- Kradzie¿ kieszonkowa: -20%
+- Krycie siê w cieniu: -10%
+- Otwieranie zamków: -5%
+- Wykrywanie pu³apek: - 5%
 
 Klasa Pancerza: 0 (-2 przeciw broniom siecznym, +2 przeciw broniom obuchowym)
 
 Wymagania:
-- SiÅ‚a: 5
+- Si³a: 5
 
 Waga: 15~
 
@@ -927,114 +943,114 @@ Waga: 15~
 
 
 
-@12340 = ~Zatem zajmijmy siÄ™ tym.~
-@12341 = ~Åšwietnie. Zaraz siÄ™ do tego zabiorÄ™ ...~
-@12342 = ~Czy moÅ¼esz zrobiÄ‡ coÅ› z tym PierÅ›cieniem ochrony?~
-@12343 = ~Czy moÅ¼esz wykuÄ‡ coÅ› z tego potÄ™Å¼nego PierÅ›cienia ochrony?~
-@12344 = ~Czy moÅ¼esz zrobiÄ‡ cokolwiek z tego PierÅ›cienia kontroli nad Å¼ywioÅ‚em?~
-@12345 = ~Czy moÅ¼esz umagiczniÄ‡ Kostur wÅ‚adzy nad Å¼ywioÅ‚ami?~
-@12346 = ~Czy moÅ¼esz stworzyÄ‡ coÅ› z tych ButÃ³w ukrycia?~
-@12347 = ~Czy moÅ¼esz odnowiÄ‡ moje Buty PÃ³Å‚nocy?~
-@12348 = ~Jest jakaÅ› szansa na ulepszenie moich ButÃ³w uziemienia?~
-@12349 = ~Czy moÅ¼esz stworzyÄ‡ coÅ› z tych ButÃ³w unikÃ³w?~
-@123410 = ~Czy jesteÅ› w stanie ulepszyÄ‡ CzarnÄ… krew?~
-@123411 = ~Czy moÅ¼esz uczyniÄ‡ tÄ™ KoÅ›cianÄ… maczugÄ™ potÄ™Å¼niejszÄ…?~ 
-@123412 = ~ChciaÅ‚bym uczyniÄ‡ mÃ³j RozÅ‚upywacz czaszek potÄ™Å¼niejszym. MoÅ¼esz mi w tym pomÃ³c?~ ~ChciaÅ‚abym uczyniÄ‡ mÃ³j RozÅ‚upywacz czaszek potÄ™Å¼niejszym. MoÅ¼esz mi w tym pomÃ³c?~
-@123413 = ~Co moÅ¼esz zrobiÄ‡, by ulepszyÄ‡ Poszukiwacza serc?~
-@123414 = ~Czy moÅ¼esz przekuÄ‡ rodowÄ… zbrojÄ™ mego przyjaciela Valygara?~
-@123415 = ~Czy moÅ¼esz ulepszyÄ‡ tÄ™ szatÄ™ arcymaga?~
-@123416 = ~ChciaÅ‚bym, by mÃ³j HeÅ‚m ochrony lepiej mnie chroniÅ‚. MoÅ¼esz coÅ› z nim zrobiÄ‡?~ ~ChciaÅ‚abym, by mÃ³j HeÅ‚m ochrony lepiej mnie chroniÅ‚. MoÅ¼esz coÅ› z nim zrobiÄ‡?~
-@123417 = ~Czy moÅ¼esz uczyniÄ‡ mÃ³j HeÅ‚m ochrony przed urokami bardziej wszechstronnym?~
-@123418 = ~JesteÅ› w stanie uzyskaÄ‡ coÅ› z tej SkÃ³ry Aegera?~
-@123419 = ~Czy moÅ¼esz przekuÄ‡ rodowÄ… zbrojÄ™ Sir Keldorna Firecama?~
-@123420 = ~Czy moÅ¼esz wzmocniÄ‡ tÄ™ ZbrojÄ™ pÅ‚ytowÄ… z ankhega?~
-@123421 = ~Tarcza Harmonii -- czy moÅ¼esz ulepszyÄ‡ jej wÅ‚aÅ›ciwoÅ›ci?~
-@123422 = ~Szukam rzucanej wÅ‚Ã³czni. MÃ³gÅ‚byÅ› wykonaÄ‡ jakÄ…Å›?~
-@123423 = ~Co moÅ¼esz zrobiÄ‡ z tÄ… WÅ‚Ã³czniÄ… jednoroÅ¼ca?~
-@123424 = ~Jest jakaÅ› szansa, aby Przebijacz zadawaÅ‚ wiÄ™ksze obraÅ¼enia?~
-@123425 = ~Czy moÅ¼esz umagiczniÄ‡ ten Kostur lasÃ³w?~
-@123426 = ~Dzienna gwiazda? Ona musi byÄ‡ potÄ™Å¼niejsza.~
-@123427 = ~Czy moÅ¼esz ulepszyÄ‡ FuriÄ™ Niebios?~
-@123428 = ~Czy moÅ¼esz ulepszyÄ‡ Miecz Arvoreen?~
-@123429 = ~Czy moÅ¼emy zwiÄ™kszyÄ‡ stopieÅ„ pobÅ‚ogosÅ‚awienia UÅ›wiÄ™conego Odkupiciela Keldorna?~
-@123430 = ~ChciaÅ‚bym ulepszyÄ‡ RodowÄ… tarczÄ™ DelrynÃ³w.~ ~ChciaÅ‚abym ulepszyÄ‡ RodowÄ… tarczÄ™ DelrynÃ³w.~
-@123431 = ~Czy moÅ¼esz zrobiÄ‡ coÅ›, by uciszyÄ‡ Lilarcora?~
-@123432 = ~NaprawdÄ™ kocham zabÃ³jcze sztylety. Czy mÃ³gÅ‚byÅ› ulepszyÄ‡ ktÃ³ryÅ› z moich?~
-@123433 = ~Co moÅ¼na zrobiÄ‡ z tym puklerzem?~
-@123434 = ~Jest jakaÅ› szansa na ulepszenie RÄ™kawic kieszonkowca?~
+@12340 = ~Zatem zajmijmy siê tym.~
+@12341 = ~Œwietnie. Zaraz siê do tego zabiorê ...~
+@12342 = ~Czy mo¿esz zrobiæ coœ z tym Pierœcieniem ochrony?~
+@12343 = ~Czy mo¿esz wykuæ coœ z tego potê¿nego Pierœcienia ochrony?~
+@12344 = ~Czy mo¿esz zrobiæ cokolwiek z tego Pierœcienia kontroli nad ¿ywio³em?~
+@12345 = ~Czy mo¿esz umagiczniæ Kostur w³adzy nad ¿ywio³ami?~
+@12346 = ~Czy mo¿esz stworzyæ coœ z tych Butów ukrycia?~
+@12347 = ~Czy mo¿esz odnowiæ moje Buty Pó³nocy?~
+@12348 = ~Jest jakaœ szansa na ulepszenie moich Butów uziemienia?~
+@12349 = ~Czy mo¿esz stworzyæ coœ z tych Butów uników?~
+@123410 = ~Czy jesteœ w stanie ulepszyæ Czarn¹ krew?~
+@123411 = ~Czy mo¿esz uczyniæ tê Koœcian¹ maczugê potê¿niejsz¹?~ 
+@123412 = ~Chcia³bym uczyniæ mój Roz³upywacz czaszek potê¿niejszym. Mo¿esz mi w tym pomóc?~ ~Chcia³abym uczyniæ mój Roz³upywacz czaszek potê¿niejszym. Mo¿esz mi w tym pomóc?~
+@123413 = ~Co mo¿esz zrobiæ, by ulepszyæ Poszukiwacza serc?~
+@123414 = ~Czy mo¿esz przekuæ rodow¹ zbrojê mego przyjaciela Valygara?~
+@123415 = ~Czy mo¿esz ulepszyæ tê szatê arcymaga?~
+@123416 = ~Chcia³bym, by mój He³m ochrony lepiej mnie chroni³. Mo¿esz coœ z nim zrobiæ?~ ~Chcia³abym, by mój He³m ochrony lepiej mnie chroni³. Mo¿esz coœ z nim zrobiæ?~
+@123417 = ~Czy mo¿esz uczyniæ mój He³m ochrony przed urokami bardziej wszechstronnym?~
+@123418 = ~Jesteœ w stanie uzyskaæ coœ z tej Skóry Aegera?~
+@123419 = ~Czy mo¿esz przekuæ rodow¹ zbrojê Sir Keldorna Firecama?~
+@123420 = ~Czy mo¿esz wzmocniæ tê Zbrojê p³ytow¹ z ankhega?~
+@123421 = ~Tarcza Harmonii -- czy mo¿esz ulepszyæ jej w³aœciwoœci?~
+@123422 = ~Szukam rzucanej w³óczni. Móg³byœ wykonaæ jak¹œ?~
+@123423 = ~Co mo¿esz zrobiæ z t¹ W³óczni¹ jednoro¿ca?~
+@123424 = ~Jest jakaœ szansa, aby Przebijacz zadawa³ wiêksze obra¿enia?~
+@123425 = ~Czy mo¿esz umagiczniæ ten Kostur lasów?~
+@123426 = ~Dzienna gwiazda? Ona musi byæ potê¿niejsza.~
+@123427 = ~Czy mo¿esz ulepszyæ Furiê niebios?~
+@123428 = ~Czy mo¿esz ulepszyæ Miecz Arvoreena?~
+@123429 = ~Czy mo¿emy zwiêkszyæ stopieñ pob³ogos³awienia Uœwiêconego odkupiciela Keldorna?~
+@123430 = ~Chcia³bym ulepszyæ Rodow¹ tarczê Delrynów.~ ~Chcia³abym ulepszyæ Rodow¹ tarczê Delrynów.~
+@123431 = ~Czy mo¿esz zrobiæ coœ, by uciszyæ Lilarcora?~
+@123432 = ~Naprawdê kocham zabójcze sztylety. Czy móg³byœ ulepszyæ któryœ z moich?~
+@123433 = ~Co mo¿na zrobiæ z tym puklerzem?~
+@123434 = ~Jest jakaœ szansa na ulepszenie Rêkawic kieszonkowca?~
 
 @123435 = ~Nie teraz.~
-@123436 = ~Tak, zrÃ³bmy to!~
+@123436 = ~Tak, zróbmy to!~
 
-@123437 = ~Czy moÅ¼esz cokolwiek zrobiÄ‡ z tym amuletem?~
-@123438 = ~ChciaÅ‚bym ulepszyÄ‡ ten sejmitar.~ ~ChciaÅ‚abym ulepszyÄ‡ ten sejmitar.~
-@123439 = ~Czy moÅ¼esz sprawiÄ‡, by Lazurowe Ostrze byÅ‚o potÄ™Å¼niejsze?~
+@123437 = ~Czy mo¿esz cokolwiek zrobiæ z tym amuletem?~
+@123438 = ~Chcia³bym ulepszyæ ten sejmitar.~ ~Chcia³abym ulepszyæ ten sejmitar.~
+@123439 = ~Czy mo¿esz sprawiæ, by Lazurowe ostrze by³o potê¿niejsze?~
 
-@123440 = ~MogÄ™ poÅ‚Ä…czyÄ‡ PierÅ›cieÅ„ ochrony +1 i PierÅ›cieÅ„ regeneracji. MuszÄ™ teÅ¼ zanurzyÄ‡ diament wedÅ‚ug tego przepisu, a poza tym bÄ™dzie to kosztowaÅ‚o 10000 sztuk zÅ‚ota. Zainteresowany?~ ~MogÄ™ poÅ‚Ä…czyÄ‡ PierÅ›cieÅ„ ochrony +1 i PierÅ›cieÅ„ regeneracji. MuszÄ™ teÅ¼ zanurzyÄ‡ diament wedÅ‚ug tego przepisu, a poza tym bÄ™dzie to kosztowaÅ‚o 10000 sztuk zÅ‚ota. Zainteresowana?~
-@123441 = ~MogÄ™ poÅ‚Ä…czyÄ‡ PierÅ›cieÅ„ ochrony +2 i PierÅ›cieÅ„ regeneracji. MuszÄ™ teÅ¼ zanurzyÄ‡ diament wedÅ‚ug tego przepisu, a poza tym bÄ™dzie to kosztowaÅ‚o 20000 sztuk zÅ‚ota. Zainteresowany?~ ~MogÄ™ poÅ‚Ä…czyÄ‡ PierÅ›cieÅ„ ochrony +2 i PierÅ›cieÅ„ regeneracji. MuszÄ™ teÅ¼ zanurzyÄ‡ diament wedÅ‚ug tego przepisu, a poza tym bÄ™dzie to kosztowaÅ‚o 20000 sztuk zÅ‚ota. Zainteresowana?~
-@123442 = ~MogÄ™ poÅ‚Ä…czyÄ‡ pierÅ›cienie kontroli nad powietrzem, ziemiÄ… i ogniem w PierÅ›cieÅ„ kontroli nad Å¼ywioÅ‚ami. PotrzebujÄ™ zwojÃ³w ochronnych ochrony przed petryfikacjÄ…, ogniem oraz elektrycznoÅ›ciÄ… jako reagenty. To bÄ™dzie takÅ¼e kosztowaÄ‡ 20000 sztuk zÅ‚ota.~
-@123443 = ~MogÄ™ poÅ‚Ä…czyÄ‡ kostury powietrza, ziemi oraz ognia w Kostur wÅ‚adzy nad Å¼ywioÅ‚ami. To bÄ™dzie teÅ¼ kosztowaÅ‚o ciÄ™ 20000 sztuk zÅ‚ota, ale jestem pewien, Å¼e siÄ™ opÅ‚aci.~
-@123444 = ~JakÅ¼eby inaczej, mogÄ™ zÅ‚Ä…czyÄ‡ razem Buty szybkoÅ›ci i ukrycia. PotrzebujÄ™ kamienia Å‚otrzykÃ³w jako reagenta i 10000 sztuk zÅ‚ota jako zapÅ‚atÄ™ za pracÄ™.~
-@123445 = ~JakÅ¼eby inaczej, mogÄ™ zÅ‚Ä…czyÄ‡ razem Buty szybkoÅ›ci i PÃ³Å‚nocy. PotrzebujÄ™ kamienia Å‚otrzykÃ³w jako reagenta i 10000 sztuk zÅ‚ota jako zapÅ‚atÄ™ za pracÄ™.~
-@123446 = ~JakÅ¼eby inaczej, mogÄ™ zÅ‚Ä…czyÄ‡ razem Buty szybkoÅ›ci i uziemienia. PotrzebujÄ™ kamienia Å‚otrzykÃ³w jako reagenta i 10000 sztuk zÅ‚ota jako zapÅ‚atÄ™ za pracÄ™.~
-@123447 = ~JakÅ¼eby inaczej, mogÄ™ zÅ‚Ä…czyÄ‡ razem Buty szybkoÅ›ci i unikÃ³w. W nowych butach bÄ™dziesz szybki jak bÅ‚yskawica! PotrzebujÄ™ kamienia Å‚otrzykÃ³w jako reagenta i 20000 sztuk zÅ‚ota jako zapÅ‚atÄ™ za pracÄ™.~
-@123448 = ~MogÄ™ poÅ‚Ä…czyÄ‡ CzarnÄ… krew i Zgniatacza w potÄ™Å¼nÄ… maczugÄ™. To bÄ™dzie kosztowaÅ‚o 15000 sztuk zÅ‚ota. Co ty na to?~
-@123449 = ~MogÄ™ poÅ‚Ä…czyÄ‡ KoÅ›cianÄ… maczugÄ™ i Zgniatacza w potÄ™Å¼nÄ… maczugÄ™ ... perfekcyjnÄ… dla sÅ‚uÅ¼by rÃ³wnowagi. To bÄ™dzie kosztowaÄ‡ 15000 sztuk zÅ‚ota.~
-@123450 = ~Razem ze zwojem palca Å›mierci, przeklÄ™tÄ… miksturÄ… uzdrawiania i 15000 sztukami zÅ‚ota mogÄ™ przekuÄ‡ RozÅ‚upywacza czaszek dla ciebie. Zainteresowany?~ ~Razem ze zwojem palca Å›mierci, przeklÄ™tÄ… miksturÄ… uzdrawiania i 15000 sztukami zÅ‚ota mogÄ™ przekuÄ‡ RozÅ‚upywacza czaszek dla ciebie. Zainteresowana?~
-@123451 = ~Poszukiwacz serc moÅ¼e byÄ‡ poÅ‚Ä…czony z ciÄ™ciwÄ… Gesena lub z ciÄ™ciwÄ… Gonda. Wraz z czterema Åzami Laeral i miksturÄ… mocy mogÄ™ stworzyÄ‡ dla ciebie dÅ‚ugi Å‚uk nie wymagajÄ…cy Å¼adnych strzaÅ‚.~
-  @123452 = ~Pewnie, uÅ¼yj ciÄ™ciwy Gesena.~
-  @123453 = ~Pewnie, uÅ¼yj ciÄ™ciwy Gonda.~
-@123454 = ~Ach, znaÄ‡ rÃ³d magÃ³w. UÅ¼ywajÄ…c zwoju ochrony przed magiÄ… jako katalizatora mogÄ™ skuÄ‡ razem RodowÄ… zbrojÄ™ CorthalÃ³w i ÅuskÄ™ Smoka Cieni. To jednak bÄ™dzie kosztowaÄ‡ 10000 sztuk zÅ‚ota.~
-// @123455 = ~Tak, mogÄ™ dokonaÄ‡ kilku ulepszeÅ„ Szaty arcymaga. Wraz z PÅ‚aszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentÃ³w mogÄ™ zrobiÄ‡ szatÄ™ godnÄ… Elminstera. To bÄ™dzie kosztowaÄ‡ 20000 sztuk zÅ‚ota.~
-@12349955 = ~Tak, mogÄ™ dokonaÄ‡ kilku ulepszeÅ„ Szaty arcymaga. Wraz z PÅ‚aszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentÃ³w mogÄ™ zrobiÄ‡ szatÄ™ godnÄ… Elminstera. To bÄ™dzie kosztowaÄ‡ 20000 sztuk zÅ‚ota.~
-  @123456 = ~Pewnie, ulepsz tÄ™ SzatÄ™ dobrego arcymaga.~
-  @123457 = ~Pewnie, ulepsz tÄ™ SzatÄ™ neutralnego arcymaga.~
-  @123458 = ~Pewnie, ulepsz tÄ™ SzatÄ™ zÅ‚ego arcymaga.~
-@123459 = ~Jak najbardziej. MogÄ™ poÅ‚Ä…czyÄ‡ defensywne moce HeÅ‚mu ochrony i HeÅ‚mu ochrony przed urokami. PotrzebujÄ™ 4 perÅ‚y jako reagenty i 10000 sztuk zÅ‚ota za pracÄ™.~
-@123460 = ~Hmm. JeÅ›li uda ci siÄ™ zdobyÄ‡ dwie butelki Solnej mikstury i dostarczyÄ‡ je mi, mogÄ™ wtedy uÅ¼yÄ‡ ich do umagicznienia HeÅ‚mu ochrony przed urokami przeciw psionice. MuszÄ™ teÅ¼ otrzymaÄ‡ 10000 sztuk zÅ‚ota za pracÄ™.~
-@123461 = ~Wraz ze zwojem ochrony przed Å¼ywioÅ‚ami uÅ¼ytym jako katalizator, mÃ³gÅ‚bym sprawiÄ‡, Å¼e ta stara niedÅºwiedzia skÃ³ra byÅ‚aby mocniejsza, ale i bardziej cuchnÄ…ca niÅ¼ jest obecnie. MuszÄ™ teÅ¼ otrzymaÄ‡ 15000 sztuk zÅ‚ota za pracÄ™.~
-@123462 = ~Razem z wybranymi elementami Zbroi Jelenia mogÄ™ przekuÄ‡ PeÅ‚nÄ… zbrojÄ™ pÅ‚ytowÄ… Firecama. Ale za jakoÅ›Ä‡ trzeba sÅ‚ono pÅ‚aciÄ‡: muszÄ™ otrzymaÄ‡ 20000 sztuk zÅ‚ota za pracÄ™.~
-@123463 = ~Z dwoma rÃ³Å¼nymi zwojami ochrony przed kwasem, mogÄ™ przekuÄ‡ ZbrojÄ™ pÅ‚ytowÄ… z ankhega. To bÄ™dzie kosztowaÄ‡ ciÄ™ kolejne 5000 sztuk zÅ‚ota.~
-@123464 = ~Ach, Tarcza Harmonii. Jest piÄ™kna, muszÄ™ przyznaÄ‡. JeÅ›li bÄ™dziesz mieÄ‡ dwie butelki Solnej mikstury, ObroÅ¼Ä™ niewolnika i Beljuryl bÄ™dÄ™ mÃ³gÅ‚ przekuÄ‡ je ze sobÄ…. PotrzebujÄ™ rÃ³wnieÅ¼ 10000 sztuk zÅ‚ota, bÄ™dzie za to zapewniaÅ‚a silniejszÄ… i peÅ‚niejszÄ… ochronÄ™.~
-@123465 = ~Jasne, z kamieniem Å‚otrzykÃ³w i 10000 sztuk zÅ‚ota mogÄ™ przekuÄ‡ twojÄ… WÅ‚Ã³czniÄ™ +3 w rzucanÄ….~
-@123466 = ~Jasne, z kamieniem Å‚otrzykÃ³w i 10000 sztuk zÅ‚ota mogÄ™ przekuÄ‡ twojÄ… WÅ‚Ã³czniÄ™ jednoroÅ¼ca w rzucanÄ….~
-@123467 = ~Ach, to Przebijacz. JeÅ›li jest coÅ›, co Sahuagini mogÄ… dobrze zrobiÄ‡, to jest to harpun. Wraz z kamieniem Å‚otrzykÃ³w i 15000 sztuk zÅ‚ota mogÄ™ zrobiÄ‡ z tego rzucanÄ… wÅ‚Ã³czniÄ™.~
-@123468 = ~Szlag. Te leÅ›ne kostury nigdy nie byÅ‚y mojÄ… specjalnoÅ›ciÄ…, ale wraz z pierÅ›cieniami ochrony i druida mogÄ™ ulepszyÄ‡ ten Kostur lasÃ³w. PotrzebujÄ™ jednak 20000 sztuk zÅ‚ota za tÄ™ robotÄ™.~
-@123469 = ~Wraz z czterema zwojami ochrony przed nieumarÅ‚ymi, dwoma fiolkami Å›wiÄ™conej wody elfÃ³w i dwoma szafirami gwiaÅºdzistymi mogÄ™ obrÃ³ciÄ‡ DziennÄ… gwiazdÄ™ w najstraszliwszy koszmar dla podziemnego Å›wiata. MuszÄ™ otrzymaÄ‡ 15000 sztuk zÅ‚ota za pracÄ™.~
-@123470 = ~Furia Niebios? Nie jestem z Kara-Tur, a umagicznienie katany nie jest Å‚atwym zadaniem, ale za pomocÄ… Serca demona i RÃ³Å¼dÅ¼ki bÅ‚yskawic mogÄ™ to zrobiÄ‡. Jednak nie za darmo, powiedzmy, Å¼e wezmÄ™ 20000 sztuk zÅ‚ota.~
-@123471 = ~Jasne, mogÄ™ przekuÄ‡ Miecz Arvoreen. Ale nie bez bÅ‚ogosÅ‚awieÅ„stwa samej Bogini: mogÄ™ podjÄ…Ä‡ siÄ™ tego zadania tylko dla druÅ¼yny o najczystszych sercach i najwyÅ¼szej reputacji. WezmÄ™ 15000 sztuk zÅ‚ota.~
-@123472 = ~Ach, UÅ›wiÄ™cony Odkupiciel. ÅšwiÄ™te ostrze, jest narzÄ™dziem o mocy ustalonej przez miejscowe standardy. Z sercem demona i piÄ™cioma zwojami rozproszenia magii mogÄ™ powiÄ™kszyÄ‡ moc tego miecza. Ale potrzebujÄ™ do tego bÅ‚ogosÅ‚awieÅ„stwa Torma, dlatego teÅ¼ mogÄ™ podjÄ…Ä‡ siÄ™ tego zadania tylko dla grupy o najwyÅ¼szej cnocie i reputacji. Poza tym chcÄ™ 15000 sztuk zÅ‚ota.~
-@123473 = ~Tak. MogÄ™ poÅ‚Ä…czyÄ‡ pÅ‚yty z tarczy Anomena z ÅaskÄ… ocalenia. ChcÄ™ jednak za to 15000 sztuk zÅ‚ota.~
-@123474 = ~Ach, nudziarz zwany 'MyÅ›lÄ…cym Mieczem'. Nie pomnÄ™ juÅ¼, ilu poszukiwaczy przygÃ³d przybyÅ‚o do mnie z proÅ›bÄ…, abym sprawiÅ‚, by zamknÄ…Å‚ siÄ™ on na zawsze... JeÅ›li bÄ™dziesz miaÅ‚ ObroÅ¼Ä™ niewolnika mogÄ™ nie tylko mogÄ™ go uciszyÄ‡, ale rÃ³wnieÅ¼ za jednym zamachem sprawiÄ‡, by byÅ‚ bardziej uÅ¼yteczny. JednakÅ¼e muszÄ™ dostaÄ‡ 20000 sztuk zÅ‚ota.~ ~Ach, nudziarz zwany 'MyÅ›lÄ…cym Mieczem'. Nie pomnÄ™ juÅ¼, ilu poszukiwaczy przygÃ³d przybyÅ‚o do mnie z proÅ›bÄ…, abym sprawiÅ‚, by zamknÄ…Å‚ siÄ™ on na zawsze... JeÅ›li bÄ™dziesz miaÅ‚a ObroÅ¼Ä™ niewolnika mogÄ™ nie tylko mogÄ™ go uciszyÄ‡, ale rÃ³wnieÅ¼ za jednym zamachem sprawiÄ‡, by byÅ‚ bardziej uÅ¼yteczny. JednakÅ¼e muszÄ™ dostaÄ‡ 20000 sztuk zÅ‚ota.~
-@123475 = ~Tak, to caÅ‚kiem niezÅ‚y nÃ³Å¼, ktÃ³ry tu masz. MogÄ™ skuÄ‡ razem KoÅ›cianÄ… klingÄ™ i Kolec chochlika uÅ¼ywajÄ…c czterech Mikstur zÅ‚odziejskiego mistrzostwa i zrobiÄ‡ prawdziwe ostrze specjalnie dla zÅ‚odzieja. WezmÄ™ za to 15000 sztuk zÅ‚ota.~
+@123440 = ~Mogê po³¹czyæ Pierœcieñ ochrony +1 i Pierœcieñ regeneracji. Muszê te¿ zanurzyæ diament wed³ug tego przepisu, a poza tym bêdzie to kosztowa³o dziesiêæ tysiêcy sztuk z³ota. Zainteresowany?~ ~Mogê po³¹czyæ Pierœcieñ ochrony +1 i Pierœcieñ regeneracji. Muszê te¿ zanurzyæ diament wed³ug tego przepisu, a poza tym bêdzie to kosztowa³o dziesiêæ tysiêcy sztuk z³ota. Zainteresowana?~
+@123441 = ~Mogê po³¹czyæ Pierœcieñ ochrony +2 i Pierœcieñ regeneracji. Muszê te¿ zanurzyæ diament wed³ug tego przepisu, a poza tym bêdzie to kosztowa³o dwadzieœcia tysiêcy sztuk z³ota. Zainteresowany?~ ~Mogê po³¹czyæ Pierœcieñ ochrony +2 i Pierœcieñ regeneracji. Muszê te¿ zanurzyæ diament wed³ug tego przepisu, a poza tym bêdzie to kosztowa³o dwadzieœcia tysiêcy sztuk z³ota. Zainteresowana?~
+@123442 = ~Mogê po³¹czyæ pierœcienie kontroli nad powietrzem, ziemi¹ i ogniem w Pierœcieñ kontroli nad ¿ywio³ami. Potrzebujê zwojów ochronnych ochrony przed petryfikacj¹, ogniem oraz elektrycznoœci¹ jako reagenty. To bêdzie tak¿e kosztowaæ dwadzieœcia tysiêcy sztuk z³ota.~
+@123443 = ~Mogê po³¹czyæ kostury powietrza, ziemi oraz ognia w Kostur w³adzy nad ¿ywio³ami. To bêdzie te¿ kosztowa³o ciê dwadzieœcia tysiêcy sztuk z³ota, ale jestem pewien, ¿e siê op³aci.~
+@123444 = ~Jak¿eby inaczej, mogê z³¹czyæ razem Buty szybkoœci i ukrycia. Potrzebujê kamienia ³otrzyków jako reagenta i dziesiêciu tysiêcy sztuk z³ota jako zap³atê za pracê.~
+@123445 = ~Jak¿eby inaczej, mogê z³¹czyæ razem Buty szybkoœci i Pó³nocy. Potrzebujê kamienia ³otrzyków jako reagenta i dziesiêciu tysiêcy sztuk z³ota jako zap³atê za pracê.~
+@123446 = ~Jak¿eby inaczej, mogê z³¹czyæ razem Buty szybkoœci i uziemienia. Potrzebujê kamienia ³otrzyków jako reagenta i dziesiêciu tysiêcy sztuk z³ota jako zap³atê za pracê.~
+@123447 = ~Jak¿eby inaczej, mogê z³¹czyæ razem Buty szybkoœci i uników. W nowych butach bêdziesz szybki jak b³yskawica! Potrzebujê kamienia ³otrzyków jako reagenta i dwudziestu tysiêcy sztuk z³ota jako zap³atê za pracê.~
+@123448 = ~Mogê po³¹czyæ Czarn¹ krew i Zgniatacza w potê¿n¹ maczugê. To bêdzie kosztowa³o piêtnaœcie tysiêcy sztuk z³ota. Co ty na to?~
+@123449 = ~Mogê po³¹czyæ Koœcian¹ maczugê i Zgniatacza w potê¿n¹ maczugê... perfekcyjn¹ dla s³u¿by równowagi. To bêdzie kosztowaæ piêtnaœcie tysiêcy sztuk z³ota.~
+@123450 = ~Razem ze zwojem palca œmierci, przeklêt¹ mikstur¹ uzdrawiania i piêtnastoma tysi¹cami sztukami z³ota mogê przekuæ Roz³upywacza czaszek dla ciebie. Zainteresowany?~ ~Razem ze zwojem palca œmierci, przeklêt¹ mikstur¹ uzdrawiania i piêtnastoma tysi¹cami sztukami z³ota mogê przekuæ Roz³upywacza czaszek dla ciebie. Zainteresowana?~
+@123451 = ~Poszukiwacz serc mo¿e byæ po³¹czony z ciêciw¹ Gesena lub z ciêciw¹ Gonda. Wraz z czterema £zami Laeral i mikstur¹ mocy mogê stworzyæ dla ciebie d³ugi ³uk nie wymagaj¹cy ¿adnych strza³.~
+  @123452 = ~Pewnie, u¿yj ciêciwy Gesena.~
+  @123453 = ~Pewnie, u¿yj ciêciwy Gonda.~
+@123454 = ~Ach, znaæ ród magów. U¿ywaj¹c zwoju ochrony przed magi¹ jako katalizatora mogê skuæ razem Rodow¹ zbrojê Corthalów i £uskê cienistego smoka. To jednak bêdzie kosztowaæ dziesiêæ tysiêcy sztuk z³ota.~
+// @123455 = ~Tak, mogê dokonaæ kilku ulepszeñ Szaty arcymaga. Wraz z P³aszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentów mogê zrobiæ szatê godn¹ Elminstera. To bêdzie kosztowaæ dwadzieœcia tysiêcy sztuk z³ota.~
+@12349955 = ~Tak, mogê dokonaæ kilku ulepszeñ Szaty arcymaga. Wraz z P³aszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentów mogê zrobiæ szatê godn¹ Elminstera. To bêdzie kosztowaæ dwadzieœcia tysiêcy sztuk z³ota.~
+  @123456 = ~Pewnie, ulepsz tê Szatê dobrego arcymaga.~
+  @123457 = ~Pewnie, ulepsz tê Szatê neutralnego arcymaga.~
+  @123458 = ~Pewnie, ulepsz tê Szatê z³ego arcymaga.~
+@123459 = ~Jak najbardziej. Mogê po³¹czyæ defensywne moce He³mu ochrony i He³mu ochrony przed urokami. Potrzebujê cztery per³y jako reagenty i dziesiêæ tysiêcy sztuk z³ota za pracê.~
+@123460 = ~Hmm. Jeœli uda ci siê zdobyæ dwie butelki Solnej mikstury i dostarczyæ je mi, mogê wtedy u¿yæ ich do umagicznienia He³mu ochrony przed urokami przeciw psionice. Muszê te¿ otrzymaæ dziesiêæ tysiêcy sztuk z³ota za pracê.~
+@123461 = ~Wraz ze zwojem ochrony przed ¿ywio³ami u¿ytym jako katalizator, móg³bym sprawiæ, ¿e ta stara niedŸwiedzia skóra by³aby mocniejsza, ale i bardziej cuchn¹ca ni¿ jest obecnie. Muszê te¿ otrzymaæ piêtnaœcie tysiêcy sztuk z³ota za pracê.~
+@123462 = ~Razem z wybranymi elementami Zbroi Jelenia mogê przekuæ Pe³n¹ zbrojê p³ytow¹ Firecama. Ale za jakoœæ trzeba s³ono p³aciæ: muszê otrzymaæ dwadzieœcia tysiêcy sztuk z³ota za pracê.~
+@123463 = ~Z dwoma ró¿nymi zwojami ochrony przed kwasem, mogê przekuæ Zbrojê p³ytow¹ z ankhega. To bêdzie kosztowaæ ciê kolejne piêæ tysiêcy sztuk z³ota.~
+@123464 = ~Ach, Tarcza harmonii. Jest piêkna, muszê przyznaæ. Jeœli bêdziesz mieæ dwie butelki Solnej mikstury, Obro¿ê niewolnika i beljuryl bêdê móg³ przekuæ je ze sob¹. Potrzebujê równie¿ dziesiêciu tysiêcy sztuk z³ota, bêdzie za to zapewnia³a silniejsz¹ i pe³niejsz¹ ochronê.~
+@123465 = ~Jasne, z kamieniem ³otrzyków i dziesiêcioma tysi¹cami sztuk z³ota mogê przekuæ twoj¹ W³óczniê +3 w rzucan¹.~
+@123466 = ~Jasne, z kamieniem ³otrzyków i dziesiêcioma tysi¹cami sztuk z³ota mogê przekuæ twoj¹ W³óczniê jednoro¿ca w rzucan¹.~
+@123467 = ~Ach, to Przebijacz. Jeœli jest coœ, co Sahuagini mog¹ dobrze zrobiæ, to jest to harpun. Wraz z kamieniem ³otrzyków i piêtnastoma tysi¹cami sztuk z³ota mogê zrobiæ z tego rzucan¹ w³óczniê.~
+@123468 = ~Szlag. Te leœne kostury nigdy nie by³y moj¹ specjalnoœci¹, ale wraz z pierœcieniami ochrony i druida mogê ulepszyæ ten Kostur lasów. Potrzebujê jednak dwudziestu tysiêcy sztuk z³ota za tê robotê.~
+@123469 = ~Wraz z czterema zwojami ochrony przed nieumar³ymi, dwoma fiolkami œwiêconej wody elfów i dwoma szafirami gwiaŸdzistymi mogê obróciæ Dzienn¹ gwiazdê w najstraszliwszy koszmar dla podziemnego œwiata. Muszê otrzymaæ piêtnaœcie tysiêcy sztuk z³ota za pracê.~
+@123470 = ~Furia niebios? Nie jestem z Kara-Tur, a umagicznienie katany nie jest ³atwym zadaniem, ale za pomoc¹ Serca demona i Ró¿d¿ki b³yskawic mogê to zrobiæ. Jednak nie za darmo, powiedzmy, ¿e wezmê dwadzieœcia tysiêcy sztuk z³ota.~
+@123471 = ~Jasne, mogê przekuæ Miecz Arvoreena. Ale nie bez b³ogos³awieñstwa samego Boga: mogê podj¹æ siê tego zadania tylko dla dru¿yny o najczystszych sercach i najwy¿szej reputacji. Wezmê piêtnaœcie tysiêcy sztuk z³ota.~
+@123472 = ~Ach, Uœwiêcony odkupiciel. Œwiête ostrze, jest narzêdziem o mocy ustalonej przez miejscowe standardy. Z sercem demona i piêcioma zwojami rozproszenia magii mogê powiêkszyæ moc tego miecza. Ale potrzebujê do tego b³ogos³awieñstwa Torma, dlatego te¿ mogê podj¹æ siê tego zadania tylko dla grupy o najwy¿szej cnocie i reputacji. Poza tym chcê piêtnastu tysiêcy sztuk z³ota.~
+@123473 = ~Tak. Mogê po³¹czyæ p³yty z tarczy Anomena z £ask¹ ocalenia. Chcê jednak za to piêtaœcie tysiêcy sztuk z³ota.~
+@123474 = ~Ach, nudziarz zwany „Myœl¹cym mieczem”. Nie pomnê ju¿, ilu poszukiwaczy przygód przyby³o do mnie z proœb¹, abym sprawi³, by zamkn¹³ siê on na zawsze... Jeœli bêdziesz mia³ Obro¿ê niewolnika mogê nie tylko mogê go uciszyæ, ale równie¿ za jednym zamachem sprawiæ, by by³ bardziej u¿yteczny. Jednak¿e muszê dostaæ dwadzieœcia tysiêcy sztuk z³ota.~ ~Ach, nudziarz zwany „Myœl¹cym mieczem”. Nie pomnê ju¿, ilu poszukiwaczy przygód przyby³o do mnie z proœb¹, abym sprawi³, by zamkn¹³ siê on na zawsze... Jeœli bêdziesz mia³a Obro¿ê niewolnika mogê nie tylko mogê go uciszyæ, ale równie¿ za jednym zamachem sprawiæ, by by³ bardziej u¿yteczny. Jednak¿e muszê dostaæ dwadzieœcia tysiêcy sztuk z³ota.~
+@123475 = ~Tak, to ca³kiem niez³y nó¿, który tu masz. Mogê skuæ razem Koœcian¹ klingê i Kolec chochlika u¿ywaj¹c czterech Mikstur z³odziejskiego mistrzostwa i zrobiæ prawdziwe ostrze specjalnie dla z³odzieja. Wezmê za to piêtnaœcie tysiêcy sztuk z³ota.~
 
-@123476 = ~Tak. MogÄ™ wkuÄ‡ ÅšwiÄ™ty Symbol Amaunatora w twÃ³j puklerz, przez co zapewniaÅ‚by jeszcze lepszÄ… ochronÄ™. Lecz potrzebowaÅ‚bym takÅ¼e 5 kamieni sÅ‚onecznych i 10000 sztuk zÅ‚ota za pracÄ™. Zainteresowany?~ ~Tak. MogÄ™ wkuÄ‡ ÅšwiÄ™ty Symbol Amaunatora w twÃ³j puklerz, przez co zapewniaÅ‚by jeszcze lepszÄ… ochronÄ™. Lecz potrzebowaÅ‚bym takÅ¼e 5 kamieni sÅ‚onecznych i 10000 sztuk zÅ‚ota za pracÄ™. Zainteresowana?~
+@123476 = ~Tak. Mogê wkuæ Œwiêty symbol Amaunatora w twój puklerz, przez co zapewnia³by jeszcze lepsz¹ ochronê. Lecz potrzebowa³bym tak¿e piêæ kamieni s³onecznych i dziesiêæ tysiêcy sztuk z³ota za pracê. Zainteresowany?~ ~Tak. Mogê wkuæ Œwiêty symbol Amaunatora w twój puklerz, przez co zapewnia³by jeszcze lepsz¹ ochronê. Lecz potrzebowa³bym tak¿e piêæ kamieni s³onecznych i dziesiêæ tysiêcy sztuk z³ota za pracê. Zainteresowana?~
 
-@123477 = ~Ach. JeÅ›li bÄ™dziesz miaÅ‚ RÄ™kawice kieszonkowca, Bransolety ochrony, pierÅ›cienie: wyczucia zagroÅ¼enia i wytrychÃ³w oraz dwa ochrony, mogÄ™ wtedy poÅ‚Ä…czyÄ‡ je wszystkie dla ciebie. 5000 sztuk zÅ‚ota pokryÅ‚oby wszystkie wydatki.~
+@123477 = ~Ach. Jeœli bêdziesz mia³ Rêkawice kieszonkowca, Bransolety ochrony, pierœcienie: wyczucia zagro¿enia i wytrychów oraz dwa ochrony, mogê wtedy po³¹czyæ je wszystkie dla ciebie. Piêæ tysiêcy sztuk z³ota pokry³oby wszystkie wydatki.~
 
-@123478 = ~Z dwÃ³ch AmuletÃ³w ochrony, Amuletu ochrony przed truciznÄ… i Naszyjnika stabilnoÅ›ci ksztaÅ‚tu, a takÅ¼e Amuletu blokowania czarÃ³w mogÄ™ wykuÄ‡ dla ciebie Amulet Ilmatera. BÄ™dziesz w stanie zapÅ‚aciÄ‡ 10000 sztuk zÅ‚ota za to?~
+@123478 = ~Z dwóch Amuletów ochrony, Amuletu ochrony przed trucizn¹ i Naszyjnika stabilnoœci kszta³tu, a tak¿e Amuletu blokowania czarów mogê wykuæ dla ciebie Amulet Ilmatera. Bêdziesz w stanie zap³aciæ dziesiêæ tysiêcy sztuk z³ota za to?~
 
-@123479 = ~JakÅ¼eby inaczej, z Ostrza wody, Adjathy Wysysacza i Szponu Rashada moÅ¼emy zrobiÄ‡ zakrzywione ostrze, ktÃ³re spowodowaÅ‚oby, Å¼e sam Pan Burz zzieleniaÅ‚by z zazdroÅ›ci. Takie wodne ostrze bÄ™dzie kosztowaÅ‚o ciÄ™ 15000 sztuk zÅ‚ota.~
+@123479 = ~Jak¿eby inaczej, z Ostrza wody, Adjathy Wysysacza i Szponu Rashada mo¿emy zrobiæ zakrzywione ostrze, które spowodowa³oby, ¿e sam Pan Burz zzielenia³by z zazdroœci. Takie wodne ostrze bêdzie kosztowa³o ciê piêtnaœcie tysiêcy sztuk z³ota.~
 
-@123480 = ~Ach. MogÄ™ doÅ‚Ä…czyÄ‡ grudkÄ™ czystego ilitu do Lazurowego Ostrza, dajÄ…c mu lepsze ofensywne i defensywne moce przeciwko zÅ‚u nieumarÅ‚ych. Za 20000 sztuk zÅ‚ota zrobiÄ™ to dla ciebie.~
+@123480 = ~Ach. Mogê do³¹czyæ grudkê czystego ilitu do Lazurowego ostrza, daj¹c mu lepsze ofensywne i defensywne moce przeciwko z³u nieumar³ych. Za dwadzieœcia tysiêcy sztuk z³ota zrobiê to dla ciebie.~
 
-@123481 = ~Jasne, mogÄ™ poÅ‚Ä…czyÄ‡ PierÅ›cieÅ„ czarÃ³w, PierÅ›cieÅ„ ostroÅ›ci, Amulet metaczarÃ³w oraz PierÅ›cieÅ„ ochrony w potencjalnÄ… pomoc dla czarodzieja. Za 20000 sztuk zÅ‚ota mÃ³gÅ‚bym to zrobiÄ‡. Zainteresowany?~ ~Jasne, mogÄ™ poÅ‚Ä…czyÄ‡ PierÅ›cieÅ„ czarÃ³w, PierÅ›cieÅ„ ostroÅ›ci, Amulet metaczarÃ³w oraz PierÅ›cieÅ„ ochrony w potencjalnÄ… pomoc dla czarodzieja. Za 20000 sztuk zÅ‚ota mÃ³gÅ‚bym to zrobiÄ‡. Zainteresowana?~
+@123481 = ~Jasne, mogê po³¹czyæ Pierœcieñ czarów, Pierœcieñ ostroœci, Amulet metaczarów oraz Pierœcieñ ochrony w potencjaln¹ pomoc dla czarodzieja. Za dwadzieœcia tysiêcy sztuk z³ota móg³bym to zrobiæ. Zainteresowany?~ ~Jasne, mogê po³¹czyæ Pierœcieñ czarów, Pierœcieñ ostroœci, Amulet metaczarów oraz Pierœcieñ ochrony w potencjaln¹ pomoc dla czarodzieja. Za dwadzieœcia tysiêcy sztuk z³ota móg³bym to zrobiæ. Zainteresowana?~
 
-@123482 = ~MoÅ¼esz ulepszyÄ‡ ten pas?~
+@123482 = ~Mo¿esz ulepszyæ ten pas?~
 
-@123483 = ~Tak, jeÅ›li masz pasy: tÅ‚umienia, przebiÄ‡ i zÅ‚oty, mogÄ™ je poÅ‚Ä…czyÄ‡ tworzÄ…c przedmiot zapewniajÄ…cy naprawdÄ™ dobrÄ… ochronÄ™. PotrzebujÄ™ takÅ¼e trzy krwawniki jako reagenty i 10000 sztuk zÅ‚ota jako zapÅ‚atÄ™.~
+@123483 = ~Tak, jeœli masz pasy: t³umienia, przebiæ i z³oty, mogê je po³¹czyæ tworz¹c przedmiot zapewniaj¹cy naprawdê dobr¹ ochronê. Potrzebujê tak¿e trzy krwawniki jako reagenty i dziesiêæ tysiêcy sztuk z³ota jako zap³atê.~
 
-@123484 = ~ChciaÅ‚bym, by mÃ³j PierÅ›cieÅ„ czarÃ³w zyskaÅ‚ jeszcze wiÄ™cej mocy.~ ~ChciaÅ‚abym, by mÃ³j PierÅ›cieÅ„ czarÃ³w zyskaÅ‚ jeszcze wiÄ™cej mocy.~
+@123484 = ~Chcia³bym, by mój Pierœcieñ czarów zyska³ jeszcze wiêcej mocy.~ ~Chcia³abym, by mój Pierœcieñ czarów zyska³ jeszcze wiêcej mocy.~
 
-@123495 = ~Czy moÅ¼esz ulepszyÄ‡ tÄ™ FigurkÄ™ Czarnego PajÄ…ka?~
-@123496 = ~Lepiej by byÅ‚o, gdybyÅ› zapytaÅ‚ o to maga drowÃ³w niÅ¼ krasnoluda, ale mogÄ™ to zrobiÄ‡.~ ~Lepiej by byÅ‚o, gdybyÅ› zapytaÅ‚a o to maga drowÃ³w niÅ¼ krasnoluda, ale mogÄ™ to zrobiÄ‡.~
-@1234996 = ~BÄ™dÄ™ potrzebowaÅ‚ kilku specjalnych reagentÃ³w: zwojÃ³w pajÄ™czego pomiotu i pajÄ™czyny, piÄ™ciu zatrutych rzucanych sztyletÃ³w, no i oczywiÅ›cie 5000 sztuk zÅ‚ota.~
+@123495 = ~Czy mo¿esz ulepszyæ tê Figurkê czarnego paj¹ka?~
+@123496 = ~Lepiej by by³o, gdybyœ zapyta³ o to maga drowów ni¿ krasnoluda, ale mogê to zrobiæ.~ ~Lepiej by by³o, gdybyœ zapyta³a o to maga drowów ni¿ krasnoluda, ale mogê to zrobiæ.~
+@1234996 = ~Bêdê potrzebowa³ kilku specjalnych reagentów: zwojów pajêczego pomiotu i pajêczyny, piêciu zatrutych rzucanych sztyletów, no i oczywiœcie piêciu tysiêcy sztuk z³ota.~
 
-@123497 = ~Czy Chaos i Entropia mogÄ… zostaÄ‡ ulepszone?~
-@123498 = ~Ach, nigdym jeszcze nie prÃ³bowaÅ‚ ulepszaÄ‡ planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. JeÅ›li nie bÄ™dziesz miaÅ‚ nic przeciwko poÅ›wiÄ™ceniu mieczy Ilbratha i Arbane'a, mogÄ™ przekuÄ‡ krÃ³tkie miecze Haer'dalisa, aby zadawaÅ‚y wiÄ™cej obraÅ¼eÅ„ i uzyskajÄ… podobne do zaklÄ™Ä‡ moce. To bÄ™dzie kosztowaÅ‚o ciÄ™ 25000 sztuk zÅ‚ota, dodatkowo kamieÅ„ Å‚otrzykÃ³w i zwoje chaosu oraz wielkiego osÅ‚abienia. JesteÅ› zainteresowany?~ ~Ach, nigdym jeszcze nie prÃ³bowaÅ‚ ulepszaÄ‡ planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. JeÅ›li nie bÄ™dziesz miaÅ‚ nic przeciwko poÅ›wiÄ™ceniu mieczy Ilbratha i Arbane'a, mogÄ™ przekuÄ‡ krÃ³tkie miecze Haer'dalisa, aby zadawaÅ‚y wiÄ™cej obraÅ¼eÅ„ i uzyskajÄ… podobne do zaklÄ™Ä‡ moce. To bÄ™dzie kosztowaÅ‚o ciÄ™ 25000 sztuk zÅ‚ota, dodatkowo kamieÅ„ Å‚otrzykÃ³w i zwoje chaosu oraz wielkiego osÅ‚abienia. JesteÅ› zainteresowana?~
+@123497 = ~Czy Chaos i Entropia mog¹ zostaæ ulepszone?~
+@123498 = ~Ach, nigdym jeszcze nie próbowa³ ulepszaæ planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. Jeœli nie bêdziesz mia³ nic przeciwko poœwiêceniu mieczy Ilbratha i Arbane'a, mogê przekuæ miecze krótkie Haer'Dalisa, aby zadawa³y wiêcej obra¿eñ i uzyskaj¹ podobne do zaklêæ moce. To bêdzie kosztowa³o ciê dwadzieœcia piêæ tysiêcy sztuk z³ota, dodatkowo kamieñ ³otrzyków i zwoje chaosu oraz wielkiego os³abienia. Jesteœ zainteresowany?~ ~Ach, nigdym jeszcze nie próbowa³ ulepszaæ planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. Jeœli nie bêdziesz mia³ nic przeciwko poœwiêceniu mieczy Ilbratha i Arbane'a, mogê przekuæ miecze krótkie Haer'Dalisa, aby zadawa³y wiêcej obra¿eñ i uzyskaj¹ podobne do zaklêæ moce. To bêdzie kosztowa³o ciê dwadzieœcia piêæ tysiêcy sztuk z³ota, dodatkowo kamieñ ³otrzyków i zwoje chaosu oraz wielkiego os³abienia. Jesteœ zainteresowana?~
 
-@123499 = ~Czy moÅ¼esz przekuÄ‡ dla mnie elfiÄ… zbrojÄ™?~
-@1234100 = ~Tak, mogÄ™ skuÄ‡ SylvaÅ„skÄ… kolczugÄ™ wraz z ÅuskÄ… czerwonego smoka. Z trzema andradytami i trzema agatami ognistymi, i co najwaÅ¼niejsze za 25000 sztuk zÅ‚ota, mogÄ™ stworzyÄ‡ potÄ™Å¼nÄ… zbrojÄ™. Zainteresowany?~ ~Tak, mogÄ™ skuÄ‡ SylvaÅ„skÄ… kolczugÄ™ wraz z ÅuskÄ… czerwonego smoka. Z trzema andradytami i trzema agatami ognistymi, i co najwaÅ¼niejsze za 25000 sztuk zÅ‚ota, mogÄ™ stworzyÄ‡ potÄ™Å¼nÄ… zbrojÄ™. Zainteresowana?~
+@123499 = ~Czy mo¿esz przekuæ dla mnie elfi¹ zbrojê?~
+@1234100 = ~Tak, mogê skuæ Sylvañsk¹ kolczugê wraz z £usk¹ czerwonego smoka. Z trzema andradytami i trzema agatami ognistymi, i co najwa¿niejsze za dwadzieœcia piêæ tysiêcy sztuk z³ota, mogê stworzyæ potê¿n¹ zbrojê. Zainteresowany?~ ~Tak, mogê skuæ Sylvañsk¹ kolczugê wraz z £usk¹ czerwonego smoka. Z trzema andradytami i trzema agatami ognistymi, i co najwa¿niejsze za dwadzieœcia piêæ tysiêcy sztuk z³ota, mogê stworzyæ potê¿n¹ zbrojê. Zainteresowana?~
 
 
 
@@ -1057,200 +1073,200 @@ go through a reinstall with a separate TRA? Taken from the latest
 version, I just added the tags, changed nothing.
 */
 
-@56780 = ~Zabieraj siÄ™ do pracy, Cespenarze.~
-@56781 = ~Czy nie masz wpierw Å¼adnych pytaÅ„? Czy mam juÅ¼ zaczÄ…Ä‡ szukaÄ‡?~
+@56780 = ~Zabieraj siê do pracy, Cespenarze.~
+@56781 = ~Czy nie masz wpierw ¿adnych pytañ? Czy mam ju¿ zacz¹æ szukaæ?~
 
-@56782 = ~Czy moÅ¼esz zrobiÄ‡ coÅ› z tym PierÅ›cieniem ochrony?~
-@56783 = ~Czy moÅ¼esz wykuÄ‡ coÅ› z tego potÄ™Å¼nego PierÅ›cienia ochrony?~
-@56784 = ~Czy moÅ¼esz zrobiÄ‡ coÅ› z tym PierÅ›cieniem kontroli nad Å¼ywioÅ‚em?~
-@56785 = ~Czy moÅ¼esz umagiczniÄ‡ ten Kostur wÅ‚adzy nad Å¼ywioÅ‚em?~
-@56786 = ~Czy moÅ¼esz stworzyÄ‡ coÅ› z tych ButÃ³w ukrycia?~
-@56787 = ~Czy moÅ¼esz przeksztaÅ‚ciÄ‡ te Buty PÃ³Å‚nocy?~
-@56788 = ~Jest jakaÅ› szansa na ulepszenie tych ButÃ³w uziemienia?~
-@56789 = ~Czy moÅ¼esz stworzyÄ‡ coÅ› z tych ButÃ³w unikÃ³w?~
-@567810 = ~Czy jesteÅ› w stanie ulepszyÄ‡ CzarnÄ… krew?~
-@567811 = ~Czy moÅ¼esz uczyniÄ‡ tÄ™ KoÅ›cianÄ… maczugÄ™ potÄ™Å¼niejszÄ…?~ 
-@567812 = ~ChciaÅ‚bym uczyniÄ‡ mÃ³j RozÅ‚upywacz czaszek potÄ™Å¼niejszym. Czy moÅ¼esz mi pomÃ³c?~ ~ChciaÅ‚abym uczyniÄ‡ mÃ³j RozÅ‚upywacz czaszek potÄ™Å¼niejszym. Czy moÅ¼esz mi pomÃ³c?~
-@567813 = ~Co moÅ¼esz zrobiÄ‡, by ulepszyÄ‡ Poszukiwacza serc?~
-@567814 = ~Czy moÅ¼esz przekuÄ‡ rodowÄ… zbrojÄ™ mojego przyjaciela Valygara?~
-@567815 = ~Czy moÅ¼esz ulepszyÄ‡ tÄ™ szatÄ™ arcymaga?~
-@567816 = ~ChciaÅ‚bym, by mÃ³j HeÅ‚m ochrony lepiej mnie chroniÅ‚. MoÅ¼esz coÅ› z nim zrobiÄ‡?~ ~ChciaÅ‚abym, by mÃ³j HeÅ‚m ochrony lepiej mnie chroniÅ‚. MoÅ¼esz coÅ› z nim zrobiÄ‡?~
-@567817 = ~Czy moÅ¼esz uczyniÄ‡ mÃ³j HeÅ‚m ochrony przed urokami bardziej wszechstronnym?~
-@567818 = ~JesteÅ› w stanie uzyskaÄ‡ coÅ› z tej SkÃ³ry Aegera?~
-@567819 = ~Czy moÅ¼esz przekuÄ‡ rodowÄ… zbrojÄ™ Sir Keldorna Firecama?~
-@567820 = ~Czy moÅ¼esz wzmocniÄ‡ tÄ™ ZbrojÄ™ pÅ‚ytowÄ… z ankhega?~
-@567821 = ~Tarcza Harmonii -- czy moÅ¼esz ulepszyÄ‡ jej wÅ‚aÅ›ciwoÅ›ci?~
-@567822 = ~Szukam rzucanej wÅ‚Ã³czni. MÃ³gÅ‚byÅ› wykonaÄ‡ jakÄ…Å›?~
-@567823 = ~Co moÅ¼esz zrobiÄ‡ z tÄ… WÅ‚Ã³czniÄ… jednoroÅ¼ca?~
-@567824 = ~Jest jakaÅ› szansa, aby Przebijacz zadawaÅ‚ wiÄ™ksze obraÅ¼enia?~
-@567825 = ~Czy moÅ¼esz umagiczniÄ‡ ten Kostur lasÃ³w?~
-@567826 = ~Dzienna Gwiazda? Ona musi byÄ‡ potÄ™Å¼niejsza.~
-@567827 = ~Czy moÅ¼esz ulepszyÄ‡ FuriÄ™ Niebios?~
-@567828 = ~Czy moÅ¼esz ulepszyÄ‡ Miecz Arvoreen?~
-@567829 = ~Czy moÅ¼emy zwiÄ™kszyÄ‡ stopieÅ„ pobÅ‚ogosÅ‚awienia UÅ›wiÄ™conego Odkupiciela Keldorna?~
-@567830 = ~ChciaÅ‚bym ulepszyÄ‡ RodowÄ… tarczÄ™ DelrynÃ³w.~ ~ChciaÅ‚abym ulepszyÄ‡ RodowÄ… tarczÄ™ DelrynÃ³w.~
-@567831 = ~Czy moÅ¼esz zrobiÄ‡ coÅ›, by uciszyÄ‡ Lilarcora?~
-@567832 = ~NaprawdÄ™ kocham zabÃ³jcze sztylety. Czy mÃ³gÅ‚byÅ› ulepszyÄ‡ ktÃ³ryÅ› z moich?~
-@567833 = ~Co moÅ¼na zrobiÄ‡ z tym puklerzem?~
-@567834 = ~Jest jakaÅ› szansa na ulepszenie RÄ™kawic kieszonkowca?~
-@567837 = ~Czy moÅ¼esz cokolwiek zrobiÄ‡ z tym amuletem?~
-@567838 = ~ChciaÅ‚bym ulepszyÄ‡ ten sejmitar.~ ~ChciaÅ‚abym ulepszyÄ‡ ten sejmitar.~
-@567839 = ~Czy moÅ¼esz sprawiÄ‡, by Lazurowe Ostrze byÅ‚o potÄ™Å¼niejsze?~
-@567891 = ~ChciaÅ‚bym zwiÄ™kszyÄ‡ umagicznienie mojego PierÅ›cienia czarÃ³w.~
+@56782 = ~Czy mo¿esz zrobiæ coœ z tym Pierœcieniem ochrony?~
+@56783 = ~Czy mo¿esz wykuæ coœ z tego potê¿nego Pierœcienia ochrony?~
+@56784 = ~Czy mo¿esz zrobiæ coœ z tym Pierœcieniem kontroli nad ¿ywio³em?~
+@56785 = ~Czy mo¿esz umagiczniæ ten Kostur w³adzy nad ¿ywio³em?~
+@56786 = ~Czy mo¿esz stworzyæ coœ z tych Butów ukrycia?~
+@56787 = ~Czy mo¿esz przekszta³ciæ te Buty Pó³nocy?~
+@56788 = ~Jest jakaœ szansa na ulepszenie tych Butów uziemienia?~
+@56789 = ~Czy mo¿esz stworzyæ coœ z tych Butów uników?~
+@567810 = ~Czy jesteœ w stanie ulepszyæ Czarn¹ krew?~
+@567811 = ~Czy mo¿esz uczyniæ tê Koœcian¹ maczugê potê¿niejsz¹?~ 
+@567812 = ~Chcia³bym uczyniæ mój Roz³upywacz czaszek potê¿niejszym. Czy mo¿esz mi pomóc?~ ~Chcia³abym uczyniæ mój Roz³upywacz czaszek potê¿niejszym. Czy mo¿esz mi pomóc?~
+@567813 = ~Co mo¿esz zrobiæ, by ulepszyæ Poszukiwacza serc?~
+@567814 = ~Czy mo¿esz przekuæ rodow¹ zbrojê mojego przyjaciela Valygara?~
+@567815 = ~Czy mo¿esz ulepszyæ tê szatê arcymaga?~
+@567816 = ~Chcia³bym, by mój He³m ochrony lepiej mnie chroni³. Mo¿esz coœ z nim zrobiæ?~ ~Chcia³abym, by mój He³m ochrony lepiej mnie chroni³. Mo¿esz coœ z nim zrobiæ?~
+@567817 = ~Czy mo¿esz uczyniæ mój He³m ochrony przed urokami bardziej wszechstronnym?~
+@567818 = ~Jesteœ w stanie uzyskaæ coœ z tej Skóry Aegera?~
+@567819 = ~Czy mo¿esz przekuæ rodow¹ zbrojê Sir Keldorna Firecama?~
+@567820 = ~Czy mo¿esz wzmocniæ tê Zbrojê p³ytow¹ z ankhega?~
+@567821 = ~Tarcza Harmonii -- czy mo¿esz ulepszyæ jej w³aœciwoœci?~
+@567822 = ~Szukam rzucanej w³óczni. Móg³byœ wykonaæ jak¹œ?~
+@567823 = ~Co mo¿esz zrobiæ z t¹ W³óczni¹ jednoro¿ca?~
+@567824 = ~Jest jakaœ szansa, aby Przebijacz zadawa³ wiêksze obra¿enia?~
+@567825 = ~Czy mo¿esz umagiczniæ ten Kostur lasów?~
+@567826 = ~Dzienna Gwiazda? Ona musi byæ potê¿niejsza.~
+@567827 = ~Czy mo¿esz ulepszyæ Furiê niebios?~
+@567828 = ~Czy mo¿esz ulepszyæ Miecz Arvoreena?~
+@567829 = ~Czy mo¿emy zwiêkszyæ stopieñ pob³ogos³awienia Uœwiêconego odkupiciela Keldorna?~
+@567830 = ~Chcia³bym ulepszyæ Rodow¹ tarczê Delrynów.~ ~Chcia³abym ulepszyæ Rodow¹ tarczê Delrynów.~
+@567831 = ~Czy mo¿esz zrobiæ coœ, by uciszyæ Lilarcora?~
+@567832 = ~Naprawdê kocham zabójcze sztylety. Czy móg³byœ ulepszyæ któryœ z moich?~
+@567833 = ~Co mo¿na zrobiæ z tym puklerzem?~
+@567834 = ~Jest jakaœ szansa na ulepszenie Rêkawic kieszonkowca?~
+@567837 = ~Czy mo¿esz cokolwiek zrobiæ z tym amuletem?~
+@567838 = ~Chcia³bym ulepszyæ ten sejmitar.~ ~Chcia³abym ulepszyæ ten sejmitar.~
+@567839 = ~Czy mo¿esz sprawiæ, by Lazurowe ostrze by³o potê¿niejsze?~
+@567891 = ~Chcia³bym zwiêkszyæ umagicznienie mojego Pierœcienia czarów.~
 
 @567835 = ~Nie teraz.~
-@567836 = ~Tak, zrÃ³bmy to!~
+@567836 = ~Tak, zróbmy to!~
 
 
 
 // ....
 
-@567876 = ~Co moÅ¼esz zrobiÄ‡ z tÄ… amunicjÄ…?~
-@567877 = ~Czy masz jakiÅ› szalony przepis na tÄ™ LudzkÄ… skÃ³rÄ™?~
-@567878 = ~Czy moÅ¼esz przekuÄ‡ tego Rozpruwacza Dusz?~
+@567876 = ~Co mo¿esz zrobiæ z t¹ amunicj¹?~
+@567877 = ~Czy masz jakiœ szalony przepis na tê Ludzk¹ skórê?~
+@567878 = ~Czy mo¿esz przekuæ tego Rozpruwacza dusz?~
 
 // ....
 
-@567840 = ~Dlaczego masz tak wiele pierÅ›cieni? Zbyt duÅ¼o zaobrÄ…czkowanych na boku? WstydÅº siÄ™, Cespenar ZNA TWE IMIÄ˜!!!~ [FWCESP00]
-@5678940 = ~Jakkolwiek, moÅ¼emy wziÄ…Ä‡ PierÅ›cieÅ„ regeneracji i PierÅ›cieÅ„ ochrony +1 i zrobiÄ‡ z nich jeden. OszczÄ™dzisz dziÄ™ki temu trochÄ™ miejsca. PotrzebujÄ… tylko zatopiÄ‡ w nie 10 000 sztuk zÅ‚ota i diament! Podoba ci siÄ™?~
+@567840 = ~Dlaczego masz tak wiele pierœcieni? Zbyt du¿o zaobr¹czkowanych na boku? WstydŸ siê, Cespenar ZNA TWE IMIÊ!!!~ [FWCESP00]
+@5678940 = ~Jakkolwiek, mo¿emy wzi¹æ Pierœcieñ regeneracji i Pierœcieñ ochrony +1 i zrobiæ z nich jeden. Oszczêdzisz dziêki temu trochê miejsca. Potrzebuj¹ tylko zatopiæ w nie dziesiêæ tysiêcy sztuk z³ota i diament! Podoba ci siê?~
 
-@567841 = ~Och, chÅ‚opcze, nosisz wiele Å›wiecuszkÃ³w na palcach. Cespenar lubi takie coÅ›, sÅ‚yszaÅ‚, Å¼e to jest w modzie.~ [FWCESP01]
-@5678941 = ~Jakkolwiek, moÅ¼emy wziÄ…Ä‡ PierÅ›cieÅ„ regeneracji i PierÅ›cieÅ„ ochrony +2 i zrobiÄ‡ z nich jeden. OszczÄ™dzisz dziÄ™ki temu trochÄ™ miejsca. PotrzebujÄ… tylko zatopiÄ‡ w nie 20 000 sztuk zÅ‚ota i diament! Podoba ci siÄ™?~
+@567841 = ~Och, ch³opcze, nosisz wiele œwiecuszków na palcach. Cespenar lubi takie coœ, s³ysza³, ¿e to jest w modzie.~ [FWCESP01]
+@5678941 = ~Jakkolwiek, mo¿emy wzi¹æ Pierœcieñ regeneracji i Pierœcieñ ochrony +2 i zrobiæ z nich jeden. Oszczêdzisz dziêki temu trochê miejsca. Potrzebuj¹ tylko zatopiæ w nie dwadzieœcia tysiêcy sztuk z³ota i diament! Podoba ci siê?~
 
-@567842 = ~Ty nie potrzebujesz pudeÅ‚ka na biÅ¼uteriÄ™, ty potrzebujesz caÅ‚y kufer! A moÅ¼e chcesz mieÄ‡ jeden wielki pierÅ›cieÅ„ na jednym palcu zamiast kilku, co?!?~ [FWCESP02]
-@5678942 = ~Co ty na to, Å¼e Cespenar weÅºmie pierÅ›cienie kontroli nad powietrzem, ziemiÄ… i ogniem aby zrobiÄ‡ jeden duÅ¼y PierÅ›cieÅ„ kontroli nad Å¼ywioÅ‚ami? Åatwiej jest zachowaÄ‡ jeden pierÅ›cieÅ„ niÅ¼ trzy. Przepis mÃ³wi, Å¼e potrzebne sÄ… zwoje ochrony przed petryfikacjÄ…, ogniem i elektrycznoÅ›ciÄ…, no i 20 000 sztuk zÅ‚ota. Cespenar nie ustala cen, takie juÅ¼ sÄ… zasady.~
+@567842 = ~Ty nie potrzebujesz pude³ka na bi¿uteriê, ty potrzebujesz ca³y kufer! A mo¿e chcesz mieæ jeden wielki pierœcieñ na jednym palcu zamiast kilku, co?!~ [FWCESP02]
+@5678942 = ~Co ty na to, ¿e Cespenar weŸmie pierœcienie kontroli nad powietrzem, ziemi¹ i ogniem aby zrobiæ jeden du¿y Pierœcieñ kontroli nad ¿ywio³ami? £atwiej jest zachowaæ jeden pierœcieñ ni¿ trzy. Przepis mówi, ¿e potrzebne s¹ zwoje ochrony przed petryfikacj¹, ogniem i elektrycznoœci¹, no i dwadzieœcia tysiêcy sztuk z³ota. Cespenar nie ustala cen, takie ju¿ s¹ zasady.~
 
-@567843 = ~Czy kiedykolwiek zauwaÅ¼yÅ‚eÅ›, Å¼e Å¼ywioÅ‚aki nigdy siÄ™ nie kontrolujÄ…? PrzysiÄ™gam, czasami chciaÅ‚bym mieÄ‡ jeden z tych kijÃ³w, ktÃ³re im na to pozwalajÄ… ... hej! Ty masz wszystkie trzy?~ [FWCESP03] ~Czy kiedykolwiek zauwaÅ¼yÅ‚aÅ›, Å¼e Å¼ywioÅ‚aki nigdy siÄ™ nie kontrolujÄ…? PrzysiÄ™gam, czasami chciaÅ‚bym mieÄ‡ jeden z tych kijÃ³w, ktÃ³re im na to pozwalajÄ… ... hej! Ty masz wszystkie trzy?~ [FWCESP03]
-@5678943 = ~Kostury ziemi, ognia i powietrza nie sÄ… dla ciebie niczym szczegÃ³lnym, ale Cespenar moÅ¼e zrobiÄ‡ z nich jeden wielki Kostur wÅ‚adzy nad Å¼ywioÅ‚ami, a wtedy wszystkie Å¼ywioÅ‚aki bÄ™dÄ… chciaÅ‚y ci kupiÄ‡ Å›niadanie, albo same ciÄ™ zjedzÄ…!!!! Kosztuje takÅ¼e 20 000 sztuk zÅ‚ota, ale Cespenar musi opÅ‚aciÄ‡ rachunki. Tak?~
+@567843 = ~Czy kiedykolwiek zauwa¿y³eœ, ¿e ¿ywio³aki nigdy siê nie kontroluj¹? Przysiêgam, czasami chcia³bym mieæ jeden z tych kijów, które im na to pozwalaj¹... hej! Ty masz wszystkie trzy?~ [FWCESP03] ~Czy kiedykolwiek zauwa¿y³aœ, ¿e ¿ywio³aki nigdy siê nie kontroluj¹? Przysiêgam, czasami chcia³bym mieæ jeden z tych kijów, które im na to pozwalaj¹... hej! Ty masz wszystkie trzy?~ [FWCESP03]
+@5678943 = ~Kostury ziemi, ognia i powietrza nie s¹ dla ciebie niczym szczególnym, ale Cespenar mo¿e zrobiæ z nich jeden wielki Kostur w³adzy nad ¿ywio³ami, a wtedy wszystkie ¿ywio³aki bêd¹ chcia³y ci kupiæ œniadanie, albo same ciê zjedz¹! Kosztuje tak¿e dwadzieœcia tysiêcy sztuk z³ota, ale Cespenar musi op³aciæ rachunki. Tak?~
 
-@567844 = ~AAAAAAAAAAA! PodszedÅ‚eÅ› Cespenara! Na pomoc! He he he, Cespenar tylko Å¼artowaÅ‚!~ [FWCESP04] ~AAAAAAAAAAA! PodeszÅ‚aÅ› Cespenara! Na pomoc! He he he, Cespenar tylko Å¼artowaÅ‚!~ [FWCESP04]
-@5678944 = ~Dobra, Cespenar weÅºmie Buty ukrycia i szybkoÅ›ci i sprawi ci z nich Buty przyspieszonego ukrycia. Prawda, Å¼e nie sÄ… to odpowiednie sÅ‚owa na okreÅ›lenie tego przedmiotu, ale Bhaal nigdy nie pozwalaÅ‚ Cespenarowi czytaÄ‡ zbyt duÅ¼o ksiÄ…Å¼ek. (westchnienie) Jakkolwiek, mam nadziejÄ™, Å¼e oszczÄ™dzaÅ‚eÅ› kamienie Å‚otrzykÃ³w, bo to bÄ™dzie kosztowaÄ‡ 10 000 plus jeden z tych kamyczkÃ³w.~
+@567844 = ~AAAAAAAAAAA! Podszed³eœ Cespenara! Na pomoc! He he he, Cespenar tylko ¿artowa³!~ [FWCESP04] ~AAAAAAAAAAA! Podesz³aœ Cespenara! Na pomoc! He he he, Cespenar tylko ¿artowa³!~ [FWCESP04]
+@5678944 = ~Dobra, Cespenar weŸmie Buty ukrycia i szybkoœci i sprawi ci z nich Buty przyspieszonego ukrycia. Prawda, ¿e nie s¹ to odpowiednie s³owa na okreœlenie tego przedmiotu, ale Bhaal nigdy nie pozwala³ Cespenarowi czytaæ zbyt du¿o ksi¹¿ek. *wzdycha* Jakkolwiek, mam nadziejê, ¿e oszczêdza³eœ kamienie ³otrzyków, bo to bêdzie kosztowaæ dziesiêæ tysiêcy sztuk z³ota plus jeden z tych kamyczków.~
 
-@567845 = ~Hmmm. Buty Zamieci? Chcesz w nich przechowywaÄ‡ jajka czy coÅ› innego? A moÅ¼e wolisz graÄ‡ w Icewind Dale?~ [FWCESP05]
-@5678945 = ~JeÅ›li nie planujesz wyhodowaÄ‡ sobie wiÄ™cej nÃ³g, Cespenar weÅºmie Buty PÃ³Å‚nocy oraz Buty szybkoÅ›ci i zrobi ci Buty zamieci. Daje to samo, co te buty, ale w jednym. C'est la vie. Dasz mi moÅ¼e 10 000 sztuk zÅ‚ota i kamieÅ„ Å‚otrzykÃ³w?~
+@567845 = ~Hmmm. Buty zamieci? Chcesz w nich przechowywaæ jajka czy coœ innego? A mo¿e wolisz graæ w Icewind Dale?~ [FWCESP05]
+@5678945 = ~Jeœli nie planujesz wyhodowaæ sobie wiêcej nóg, Cespenar weŸmie Buty Pó³nocy oraz Buty szybkoœci i zrobi ci Buty zamieci. Daje to samo, co te buty, ale w jednym. C'est la vie. Dasz mi mo¿e dziesiêæ tysiêcy sztuk z³ota i kamieñ ³otrzyków?~
 
-@567846 = ~Fuuuuj! Magiczne czy nie, kalosze zazwyczaj Å›mierdzÄ… spoconymi stopami. Wiesz, Å¼e najlepszym sposobem ominiÄ™cia bÅ‚yskawicy jest, byÄ‡ gdzie indziej, kiedy piorun uderzy? DokÅ‚adnie tak.~ [FWCESP06]
-@5678946 = ~Cespenar zna kapÅ‚ana Talosa, ktÃ³ry moÅ¼e zrobiÄ‡ PiÄ™ty Pana Burz z ButÃ³w szybkoÅ›ci i uziemienia. Nie bÄ…dÅº gÅ‚upcem, na Å›miertelniku teÅ¼ bÄ™dÄ… dobrze wyglÄ…daÄ‡. On potrzebuje 10 000 sztuk zÅ‚ota i kamienia Å‚otrzykÃ³w za zapÅ‚atÄ™.~
+@567846 = ~Fuuuuj! Magiczne czy nie, kalosze zazwyczaj œmierdz¹ spoconymi stopami. Wiesz, ¿e najlepszym sposobem ominiêcia b³yskawicy jest, byæ gdzie indziej, kiedy piorun uderzy? Dok³adnie tak.~ [FWCESP06]
+@5678946 = ~Cespenar zna kap³ana Talosa, który mo¿e zrobiæ Piêty Pana Burz z Butów szybkoœci i uziemienia. Nie b¹dŸ g³upcem, na œmiertelniku te¿ bêd¹ dobrze wygl¹daæ. On potrzebuje dziesiêæ tysiêcy sztuk z³ota i kamienia ³otrzyków za zap³atê.~
 
-@567847 = ~Cespenar wie, co daÄ‡ swemu panu na urodziny: chodaki! JesteÅ› pewien, Å¼e nie chcesz byÄ‡ kimÅ› innym? Na przykÅ‚ad szewcem czy kowalem? Nie ma nic zÅ‚ego w zmianie zajÄ™cia, pÃ³kiÅ› mÅ‚ody!~ [FWCESP07] ~Cespenar wie, co daÄ‡ swej pani na urodziny: chodaki! JesteÅ› pewna, Å¼e nie chcesz byÄ‡ kimÅ› innym? Na przykÅ‚ad krawcowÄ… czy gospodyniÄ… domowÄ…? Nie ma nic zÅ‚ego w zmianie zajÄ™cia, pÃ³kiÅ› mÅ‚oda!~ [FWCESP07]
-@5678947 = ~Masz dobry gust jeÅ›li chodzi o buty. Bardzo dobry przepis na Buty szerszenia: weÅº Buty szybkoÅ›ci i unikÃ³w, co sprawi, Å¼e bardzo trudno bÄ™dzie ciÄ™ trafiÄ‡ z dystansu. Lepsze to niÅ¼ daÄ‡ siÄ™ pchnÄ…Ä‡ w oko za pomocÄ… strzaÅ‚y, beÅ‚tu lub kamienia czy strzaÅ‚ki... Å‚apiesz o co chodzi. Przepis kosztuje 20 000 sztuk zÅ‚ota i kamieÅ„ Å‚otrzykÃ³w, ktÃ³re nie rosnÄ… na drzewach. Tak?~
+@567847 = ~Cespenar wie, co daæ swemu panu na urodziny: chodaki! Jesteœ pewien, ¿e nie chcesz byæ kimœ innym? Na przyk³ad szewcem czy kowalem? Nie ma nic z³ego w zmianie zajêcia, pókiœ m³ody!~ [FWCESP07] ~Cespenar wie, co daæ swej pani na urodziny: chodaki! Jesteœ pewna, ¿e nie chcesz byæ kimœ innym? Na przyk³ad krawcow¹ czy gospodyni¹ domow¹? Nie ma nic z³ego w zmianie zajêcia, pókiœ m³oda!~ [FWCESP07]
+@5678947 = ~Masz dobry gust jeœli chodzi o buty. Bardzo dobry przepis na Buty szerszenia: weŸ Buty szybkoœci i uników, co sprawi, ¿e bardzo trudno bêdzie ciê trafiæ z dystansu. Lepsze to ni¿ daæ siê pchn¹æ w oko za pomoc¹ strza³y, be³tu lub kamienia czy strza³ki... ³apiesz o co chodzi. Przepis kosztuje dwadzieœcia tysiêcy sztuk z³ota i kamieñ ³otrzyków, które nie rosn¹ na drzewach. Tak?~
 
-@567848 = ~Ooooooccchhhh... ty masz naprawdÄ™ przeraÅ¼ajÄ…ce maczugi! Hi hi hi! Musisz mieÄ‡ przyjaciela druida czy coÅ›. Zawsze lepiej mieÄ‡ dla nich jakiegoÅ› drÄ…ga. MyÅ›lisz, Å¼e drzewa, z ktÃ³rych robi siÄ™ paÅ‚ki, mogÄ… byÄ‡ szalone?~ [FWCESP08]
-@5678948 = ~Masz moÅ¼e kwasem przepeÅ‚nionÄ… CzarnÄ… Krew lub Zgniatacza, ktÃ³rego KTOÅš zapomniaÅ‚ wypolerowaÄ‡. Mam przepis na NiewiernÄ… Å¼onÄ™, byÅ› mÃ³gÅ‚ wypÅ‚acaÄ‡ niegrzecznym chÅ‚opcom plaskacze, ktÃ³re PAAAALÄ„! Niska, niska cena 15 000 sztuk zÅ‚ota. Chyba, Å¼e chcesz by Cespenar przerobiÅ‚ je na papier Å›cierny.~
+@567848 = ~Ooooooccchhhh... ty masz naprawdê przera¿aj¹ce maczugi! Hi hi hi! Musisz mieæ przyjaciela druida czy coœ. Zawsze lepiej mieæ dla nich jakiegoœ dr¹ga. Myœlisz, ¿e drzewa, z których robi siê pa³ki, mog¹ byæ szalone?~ [FWCESP08]
+@5678948 = ~Masz mo¿e kwasem przepe³nion¹ Czarn¹ Krew lub Zgniatacza, którego KTOŒ zapomnia³ wypolerowaæ. Mam przepis na Niewiern¹ ¿onê, byœ móg³ wyp³acaæ niegrzecznym ch³opcom plaskacze, które PAAAAL¥! Niska, niska cena piêtnastu tysiêcy sztuk z³ota. Chyba, ¿e chcesz by Cespenar przerobi³ je na papier œcierny.~
 
-@567849 = ~Uch! Dlaczego wszystkie maczugi muszÄ… byÄ‡ takie kÅ‚ujÄ…ce? Cespenar myÅ›li, Å¼e ma coÅ›, co moÅ¼e na to poradziÄ‡...~ [FWCESP09]
-@5678949 = ~A moÅ¼e po prostu chcesz mieÄ‡ lepszÄ… maczugÄ™? MogÄ™ wziÄ…Ä‡ KoÅ›cianÄ… maczugÄ™ i Zgniatacza i stworzyÄ‡ Punkt podparcia. Krzywdzi ludzi, ktÃ³rzy nie lubiÄ… "rÃ³wnowagi" Cespenar stara siÄ™ nie wtrÄ…caÄ‡ do polityki, dlatego weÅºmie tylko 15 000 sztuk zÅ‚ota, zrobi maczugÄ™ i zapomni o tym, dobrze?~
+@567849 = ~Uch! Dlaczego wszystkie maczugi musz¹ byæ takie k³uj¹ce? Cespenar myœli, ¿e ma coœ, co mo¿e na to poradziæ...~ [FWCESP09]
+@5678949 = ~A mo¿e po prostu chcesz mieæ lepsz¹ maczugê? Mogê wzi¹æ Koœcian¹ maczugê i Zgniatacza i stworzyæ Punkt podparcia. Krzywdzi ludzi, którzy nie lubi¹ „równowagi” Cespenar stara siê nie wtr¹caæ do polityki, dlatego weŸmie tylko piêtnaœcie tysiêcy sztuk z³ota, zrobi maczugê i zapomni o tym, dobrze?~
 
-@567850 = ~Cespenar nigdy nie rozumiaÅ‚, dlaczego kapÅ‚anom pozwala siÄ™ na zrobienie z twojej gÅ‚owy krwawej miazgi, a nie mogÄ… uÅ¼yÄ‡ noÅ¼a do masÅ‚a. Dziiiiiiiiwne.~ [FWCESP10]
-@5678950 = ~Ooochhh, masz RozÅ‚upywacza czaszek i zwÃ³j palca Å›mierci. Teraz wszystkim czego potrzebujemy jest... ach, przeklÄ™ta mikstura lecznicza. Aha, jeÅ›li chcesz tÄ™ bÅ‚yszczÄ…cÄ… nowÄ… wekierÄ™, musisz mieÄ‡ jeszcze 15 000 sztuk zÅ‚ota. Chcesz jÄ…?~
+@567850 = ~Cespenar nigdy nie rozumia³, dlaczego kap³anom pozwala siê na zrobienie z twojej g³owy krwawej miazgi, a nie mog¹ u¿yæ no¿a do mas³a. Dziiiiiiiiwne.~ [FWCESP10]
+@5678950 = ~Ooochhh, masz Roz³upywacza czaszek i zwój palca œmierci. Teraz wszystkim czego potrzebujemy jest... ach, przeklêta mikstura lecznicza. Aha, jeœli chcesz tê b³yszcz¹c¹ now¹ wekierê, musisz mieæ jeszcze piêtnaœcie tysiêcy sztuk z³ota. Chcesz j¹?~
 
 // newby
 
-@567851 = ~Yyyyhh... yyyyhh... aaaaaaa! Oooch, aleÅ¼ ten Å‚uk ciÄ™Å¼ko naciÄ…gnÄ…Ä‡! Cespenar zaproponowaÅ‚by strzeliÄ‡ nad gÅ‚owÄ… swojego pana, pamiÄ™ta jednak, co siÄ™ staÅ‚o, kiedy spudÅ‚owaÅ‚ i zamiast jabÅ‚ka trafiÅ‚ w nos Bhaala. Cespenar nie byÅ‚ w stanie siedzieÄ‡ przez nastÄ™pny dziesiÄ™ciodzieÅ„!~ [FWCESP11] ~Yyyyhh... yyyyhh... aaaaaaa! Oooch, aleÅ¼ ten Å‚uk ciÄ™Å¼ko naciÄ…gnÄ…Ä‡! Cespenar zaproponowaÅ‚by strzeliÄ‡ nad gÅ‚owÄ… swojej pani, pamiÄ™ta jednak, co siÄ™ staÅ‚o, kiedy spudÅ‚owaÅ‚ i zamiast jabÅ‚ka trafiÅ‚ w nos Bhaala. Cespenar nie byÅ‚ w stanie siedzieÄ‡ przez nastÄ™pny dziesiÄ™ciodzieÅ„!~ [FWCESP11]
-@5678951 = ~Masz niezÅ‚y Å‚uk, ale moÅ¼e staÄ‡ siÄ™ jeszcze lepszy, dziÄ™ki przepisowi na Teleomortis. StrzaÅ‚y pojawiajÄ… siÄ™ w twej dÅ‚oni, zadziwiajÄ…c twych przyjaciÃ³Å‚ i wrogÃ³w. Potrzeba wiele waÅ¼nych materiaÅ‚Ã³w: CiÄ™ciwÄ™ Gesena lub Gonda, cztery Åzy Laeral i MiksturÄ™ mocy do wyparzenia.~
+@567851 = ~Yyyyhh... yyyyhh... aaaaaaa! Oooch, ale¿ ten ³uk ciê¿ko naci¹gn¹æ! Cespenar zaproponowa³by strzeliæ nad g³ow¹ swojego pana, pamiêta jednak, co siê sta³o, kiedy spud³owa³ i zamiast jab³ka trafi³ w nos Bhaala. Cespenar nie by³ w stanie siedzieæ przez nastêpny dziesiêciodzieñ!~ [FWCESP11] ~Yyyyhh... yyyyhh... aaaaaaa! Oooch, ale¿ ten ³uk ciê¿ko naci¹gn¹æ! Cespenar zaproponowa³by strzeliæ nad g³ow¹ swojej pani, pamiêta jednak, co siê sta³o, kiedy spud³owa³ i zamiast jab³ka trafi³ w nos Bhaala. Cespenar nie by³ w stanie siedzieæ przez nastêpny dziesiêciodzieñ!~ [FWCESP11]
+@5678951 = ~Masz niez³y ³uk, ale mo¿e staæ siê jeszcze lepszy, dziêki przepisowi na Teleomortis. Strza³y pojawiaj¹ siê w twej d³oni, zadziwiaj¹c twych przyjació³ i wrogów. Potrzeba wiele wa¿nych materia³ów: Ciêciwê Gesena lub Gonda, cztery £zy Laeral i Miksturê mocy do wyparzenia.~
 
-@567854 = ~Oooch! Bardzo szykowne wdzianko. OstroÅ¼nie, panie, Cespenar dziÅ› go jeszcze nie odkurzaÅ‚ ... jeÅ›li zdarzy ci siÄ™ kichnÄ…Ä‡, twarz moÅ¼e ci przymarznÄ…Ä‡. Hi hi hi! Wiesz, niektÃ³rzy ludzie mÃ³wiÄ…, Å¼e Valygar jest wrednym suk... zamknÄ…Ä‡ buziÄ™ ma Cespenar? Cespenar po prostu mÃ³wiÅ‚ o Valygarze!~ [FWCESP12]
-@5678954 = ~MogÄ™ wiele zrobiÄ‡ z tymi dwoma dobrymi wdziankami, mogÄ™ na przykÅ‚ad zrobiÄ‡ jedno naprawdÄ™ dobre! Wiele rÃ³Å¼nych ochron od zÅ‚ych rzeczy jak ogieÅ„ i kwas! Spinek do mankietÃ³w nie trzeba, daj tylko Cespenarowi 10 000 sztuk zÅ‚ota i zwÃ³j ochrony przed magiÄ…. No i nie zapomnij o Åusce Smoka Cieni...~
+@567854 = ~Oooch! Bardzo szykowne wdzianko. Ostro¿nie, panie, Cespenar dziœ go jeszcze nie odkurza³... jeœli zdarzy ci siê kichn¹æ, twarz mo¿e ci przymarzn¹æ. Hi hi hi! Wiesz, niektórzy ludzie mówi¹, ¿e Valygar jest wrednym suk... zamkn¹æ buziê ma Cespenar? Cespenar po prostu mówi³ o Valygarze!~ [FWCESP12]
+@5678954 = ~Mogê wiele zrobiæ z tymi dwoma dobrymi wdziankami, mogê na przyk³ad zrobiæ jedno naprawdê dobre! Wiele ró¿nych ochron od z³ych rzeczy jak ogieñ i kwas! Spinek do mankietów nie trzeba, daj tylko Cespenarowi dziesiêæ tysiêcy sztuk z³ota i Zwój ochrony przed magi¹. No i nie zapomnij o £usce cienistego smoka...~
 
-@567855 = ~Cespenar miaÅ‚ raz dymiÄ…cÄ… kamizelkÄ™ ... to byÅ‚ prezent od bardzo dobrego przyjaciela, zgubiÅ‚ siÄ™ w pralni. MoÅ¼e ty masz coÅ› z tym wspÃ³lnego? To wyglÄ…da bardzo znajomo...~ [FWCESP13]
-@5678955 = ~Och, to tylko Szata arcymaga. Dobry przepis mam na to. Cespenar potrzebuje PÅ‚aszcza ochrony +1, zwojÃ³w eteralnego pancerza i warunkowania oraz 20 000 sztuk zÅ‚ota. MoÅ¼na rzucaÄ‡ wiÄ™cej zaklÄ™Ä‡, byÄ‡ jak PRAWDZIWY ARCYMAG!~
+@567855 = ~Cespenar mia³ raz dymi¹c¹ kamizelkê ... to by³ prezent od bardzo dobrego przyjaciela, zgubi³ siê w pralni. Mo¿e ty masz coœ z tym wspólnego? To wygl¹da bardzo znajomo...~ [FWCESP13]
+@5678955 = ~Och, to tylko Szata arcymaga. Dobry przepis mam na to. Cespenar potrzebuje P³aszcza ochrony +1, Zwojów eteralnego pancerza i warunkowania oraz dwudziestu tysiêcy sztuk z³ota. Mo¿na rzucaæ wiêcej zaklêæ, byæ jak PRAWDZIWY ARCYMAG!~
 
-@567859 = ~Nigdy nie miaÅ‚eÅ› dzbanka, by doÅ„ sikaÄ‡? Nie wiedziaÅ‚eÅ›, co wtedy zrobiÄ‡? Cespenar sugeruje uÅ¼yÄ‡ wtedy heÅ‚mu. KogoÅ› innego.~ [FWCESP14] ~Nigdy nie miaÅ‚aÅ› dzbanka, by doÅ„ sikaÄ‡? Nie wiedziaÅ‚aÅ›, co wtedy zrobiÄ‡? Cespenar sugeruje uÅ¼yÄ‡ wtedy heÅ‚mu. KogoÅ› innego.~ [FWCESP14]
-@5678959 = ~JeÅ›li masz jakieÅ› zbÄ™dne dzbanki, moÅ¼e Cespenar poÅ‚Ä…czy je dla ciebie! Dobry przepis Å‚Ä…czÄ…cy HeÅ‚m ochrony i HeÅ‚m ochrony przed urokami. PotrzebujÄ™ 4 pereÅ‚ i 10 000 sztuk zÅ‚ota. Brzmi nieÅºle, no nie?~
+@567859 = ~Nigdy nie mia³eœ dzbanka, by doñ sikaæ? Nie wiedzia³eœ, co wtedy zrobiæ? Cespenar sugeruje u¿yæ wtedy he³mu. Kogoœ innego.~ [FWCESP14] ~Nigdy nie mia³aœ dzbanka, by doñ sikaæ? Nie wiedzia³aœ, co wtedy zrobiæ? Cespenar sugeruje u¿yæ wtedy he³mu. Kogoœ innego.~ [FWCESP14]
+@5678959 = ~Jeœli masz jakieœ zbêdne dzbanki, mo¿e Cespenar po³¹czy je dla ciebie! Dobry przepis ³¹cz¹cy He³m ochrony i He³m ochrony przed urokami. Potrzebujê czterech pere³ i dziesiêciu tysiêcy sztuk z³ota. Brzmi nieŸle, no nie?~
 
-@567860 = ~Oooch! Cespenar moÅ¼e uÅ¼yÄ‡ tego heÅ‚mu jako miski, jeÅ›li juÅ¼ wiÄ™cej go nie potrzebujesz.~ [FWCESP15]
-@5678960 = ~Co byÅ› powiedziaÅ‚ na przepis o WieÅ¼y Å¼elaznej woli? UÅ¼yÄ‡ HeÅ‚mu ochrony przed urokami, dwÃ³ch Solnych mikstur (nie mÃ³w Cespenarowi, jak je zdobyÅ‚eÅ›) i 10 000 sztuk zÅ‚ota. To utwardza gÅ‚owÄ™, hi hi hi..~
+@567860 = ~Oooch! Cespenar mo¿e u¿yæ tego he³mu jako miski, jeœli ju¿ wiêcej go nie potrzebujesz.~ [FWCESP15]
+@5678960 = ~Co byœ powiedzia³ na przepis o Wie¿y ¿elaznej woli? U¿yæ He³mu ochrony przed urokami, dwóch Solnych mikstur (nie mów Cespenarowi, jak je zdoby³eœ) i dziesiêciu tysiêcy sztuk z³ota. To utwardza g³owê, hi hi hi..~~Co byœ powiedzia³a na przepis o Wie¿y ¿elaznej woli? U¿yæ He³mu ochrony przed urokami, dwóch Solnych mikstur (nie mów Cespenarowi, jak je zdoby³aœ) i dziesiêciu tysiêcy sztuk z³ota. To utwardza g³owê, hi hi hi..~
 
-@567861 = ~MoÅ¼e chcesz powiesiÄ‡ to na Å›cianÄ™? Wielu ludzi nie chce kominkÃ³w w piekle, ale moÅ¼e sprawimy sobie jakiÅ› i poÅ‚oÅ¼ymy to przed nim.~ [FWCESP16]
-@5678961 = ~A moÅ¼e chcesz, by bardziej bÅ‚yszczaÅ‚a. WeÅº SkÃ³rÄ™ Aegera, zwÃ³j ochrony przed Å¼ywioÅ‚ami i 15 000 sztuk zÅ‚ota, co sprawi, Å¼e bÄ™dzie ona o wiele silniejsza niÅ¼ jest. Cespenarowi nigdy nie pozwolono byÄ‡ NAPRAWDÄ˜ kreatywnym.~
+@567861 = ~Mo¿e chcesz powiesiæ to na œcianê? Wielu ludzi nie chce kominków w piekle, ale mo¿e sprawimy sobie jakiœ i po³o¿ymy to przed nim.~ [FWCESP16]
+@5678961 = ~A mo¿e chcesz, by bardziej b³yszcza³a. WeŸ Skórê Aegera, zwój ochrony przed ¿ywio³ami i piêtnaœcie tysiêcy sztuk z³ota, co sprawi, ¿e bêdzie ona o wiele silniejsza ni¿ jest. Cespenarowi nigdy nie pozwolono byæ NAPRAWDÊ kreatywnym.~
 
-@567862 = ~Jak zdobyÅ‚eÅ› tÄ™ pomaraÅ„czowÄ… dobroczynnÄ… zbrojÄ™? ByÅ‚a zbyt dÅ‚ugo na sÅ‚oÅ„cu? Hi hi hi...~ [FWCESP17]
-@5678962 = ~MoÅ¼e Cespenar mÃ³gÅ‚by jÄ… uczyniÄ‡ lepszÄ… przez poÅ‚Ä…czenie PeÅ‚nej zbroi pÅ‚ytowej Firecama ze ZbrojÄ… Jelenia i doÅ‚oÅ¼enie do tego 20 000 sztuk zÅ‚ota. MogÅ‚oby byÄ‡ mniej, ale Cespenar nie ma zamiaru rujnowaÄ‡ swej reputacji, zajmujÄ…c siÄ™ dziaÅ‚alnoÅ›ciÄ… dobroczynnÄ….~
+@567862 = ~Jak zdoby³eœ tê pomarañczow¹ dobroczynn¹ zbrojê? By³a zbyt d³ugo na s³oñcu? Hi hi hi...~ [FWCESP17]
+@5678962 = ~Mo¿e Cespenar móg³by j¹ uczyniæ lepsz¹ przez po³¹czenie Pe³nej zbroi p³ytowej Firecama ze Zbroj¹ jelenia i do³o¿enie do tego dwudziestu tysiêcy sztuk z³ota. Mog³oby byæ mniej, ale Cespenar nie ma zamiaru rujnowaæ swej reputacji, zajmuj¹c siê dzia³alnoœci¹ dobroczynn¹.~
 
-@567863 = ~WciÄ…Å¼ nosisz zbrojÄ™ z tego wielkiego robaka na sobie? Poznajesz przez to wiÄ™cej ludzi, czy co?~ [FWCESP18]
-@5678963 = ~Dasz Cespenarowi oba rodzaje zwoju ochrony przed kwasem i 5 000 sztuk zÅ‚ota, a Cespenar uczyni ZbrojÄ™ pÅ‚ytowÄ… z ankhega mocniejszÄ…. BÄ™dzie nawet strzelaÄ‡ kwasowymi strzaÅ‚ami w ludzi!~
+@567863 = ~Wci¹¿ nosisz zbrojê z tego wielkiego robaka na sobie? Poznajesz przez to wiêcej ludzi, czy co?~ [FWCESP18]
+@5678963 = ~Dasz Cespenarowi oba rodzaje zwoju ochrony przed kwasem i piêæ tysiêcy sztuk z³ota, a Cespenar uczyni Zbrojê p³ytow¹ z ankhega mocniejsz¹. Bêdzie nawet strzelaæ kwasowymi strza³ami w ludzi!~
 
-@567864 = ~Ach, to najbardziej zachwycajÄ…ca tarcza, jakÄ… Cespenar kiedykolwiek widziaÅ‚! MoÅ¼e uÅ¼yje jej jako tacy, kiedy druÅ¼yna siÄ™ rozpadnie?~ [FWCESP19]
-@5678964 = ~Trudno jest zrobiÄ‡ dobrÄ… rzecz lepszÄ…, ale jeÅ›li bÄ™dziesz mieÄ‡ dwie Solne mikstury, ObrÄ™cz kontrolnÄ… z siedziby oÅ›miornicoÅ‚bych i beljuryl oraz 10 000 sztuk zÅ‚ota, Cespenar moÅ¼e sprawiÄ‡ by Tarcza harmonii chroniÅ‚a takÅ¼e przed psionikÄ….~
+@567864 = ~Ach, to najbardziej zachwycaj¹ca tarcza, jak¹ Cespenar kiedykolwiek widzia³! Mo¿e u¿yje jej jako tacy, kiedy dru¿yna siê rozpadnie?~ [FWCESP19]
+@5678964 = ~Trudno jest zrobiæ dobr¹ rzecz lepsz¹, ale jeœli bêdziesz mieæ dwie Solne mikstury, Obrêcz kontroln¹ z siedziby oœmiornico³bych i beljuryl oraz dziesiêæ tysiêcy sztuk z³ota, Cespenar mo¿e sprawiæ by Tarcza harmonii chroni³a tak¿e przed psionik¹.~
 
-@567865 = ~To przypomina Cespenarowi baaaaaardzo dÅ‚ugi zÄ…b. Cespenar jest dobrym sÅ‚ugÄ…, on nawet moÅ¼e czyÅ›ciÄ‡ ci zÄ™by! Hi hi hi!~ [FWCESP20]
-@5678965 = ~Jak sprawiÄ‡ by przytwierdziÄ‡ WÅ‚Ã³czniÄ™ +3 do dÅ‚oni? Boisz siÄ™, Å¼e nigdy nie wrÃ³ci? Prosty przepis: 10 000 sztuk zÅ‚ota i kamieÅ„ Å‚otrzykÃ³w, a wÅ‚Ã³cznia zawsze wrÃ³ci, kiedy rzucisz niÄ… daaaaaleko.~
+@567865 = ~To przypomina Cespenarowi baaaaaardzo d³ugi z¹b. Cespenar jest dobrym s³ug¹, on nawet mo¿e czyœciæ ci zêby! Hi hi hi!~ [FWCESP20]
+@5678965 = ~Jak sprawiæ by przytwierdziæ W³óczniê +3 do d³oni? Boisz siê, ¿e nigdy nie wróci? Prosty przepis: dziesiêæ tysiêcy sztuk z³ota i kamieñ ³otrzyków, a w³ócznia zawsze wróci, kiedy rzucisz ni¹ daaaaaleko.~
 
 @567866 = ~Co to jest? Wielki lizak na patyku? Dlaczego Cespenar nigdy takiego nie dostanie?~ [FWCESP21]
-@5678966 = ~Och, to jest WÅ‚Ã³cznia jednoroÅ¼ca. Dlaczego nie zaczniesz rzucaÄ‡ tÄ… wÅ‚Ã³czniÄ…? Daj tylko Cespenarowi kamieÅ„ Å‚otrzykÃ³w i 10 000 sztuk zÅ‚ota, a bÄ™dziesz jak dziki rzucajÄ…cy wÅ‚Ã³czniÄ… bandyta!~
+@5678966 = ~Och, to jest W³ócznia jednoro¿ca. Dlaczego nie zaczniesz rzucaæ t¹ w³óczni¹? Daj tylko Cespenarowi kamieñ ³otrzyków i dziesiêæ tysiêcy sztuk z³ota, a bêdziesz jak dziki rzucaj¹cy w³óczni¹ bandyta!~
 
-@567867 = ~Lubisz Å‚owiÄ‡ ryby? MoÅ¼e pÃ³jdziesz Å‚owiÄ‡ z wielkÄ… przynÄ™tÄ… na tym. Wtedy musiaÅ‚byÅ› jÄ… mocno przywiÄ…zaÄ‡, ale to nie Cespenara problem.~ [FWCESP22] ~Lubisz Å‚owiÄ‡ ryby? MoÅ¼e pÃ³jdziesz Å‚owiÄ‡ z wielkÄ… przynÄ™tÄ… na tym. Wtedy musiaÅ‚abyÅ› jÄ… mocno przywiÄ…zaÄ‡, ale to nie Cespenara problem.~ [FWCESP22]
-@5678967 = ~SprawiÄ™, by Przebijacz krzywdziÅ‚ rÃ³wnie dobrze z bardzo, bardzo daleka. Potrzebujesz 15 000 sztuk zÅ‚ota i kamienia Å‚otrzykÃ³w. Nie mÃ³wiÄ™ o tym dla rozrywki, naprawdÄ™ zuÅ¼ywam te rzeczy. OstroÅ¼nie, kiedy wÅ‚Ã³cznia powrÃ³ci ... jeÅ›li spudÅ‚ujesz bÄ™dzie BOLAÅO! Au!!~
+@567867 = ~Lubisz ³owiæ ryby? Mo¿e pójdziesz ³owiæ z wielk¹ przynêt¹ na tym. Wtedy musia³byœ j¹ mocno przywi¹zaæ, ale to nie Cespenara problem.~ [FWCESP22] ~Lubisz ³owiæ ryby? Mo¿e pójdziesz ³owiæ z wielk¹ przynêt¹ na tym. Wtedy musia³abyœ j¹ mocno przywi¹zaæ, ale to nie Cespenara problem.~ [FWCESP22]
+@5678967 = ~Sprawiê, by Przebijacz krzywdzi³ równie dobrze z bardzo, bardzo daleka. Potrzebujesz piêtnastu tysiêcy sztuk z³ota i kamienia ³otrzyków. Nie mówiê o tym dla rozrywki, naprawdê zu¿ywam te rzeczy. Ostro¿nie, kiedy w³ócznia powróci... jeœli spud³ujesz bêdzie BOLA£O! Au!!~
 
-@567868 = ~MiÅ‚y, duÅ¼y kij. Czy szczeka wiÄ™cej niÅ¼ gryzie? Hi hi hi...~ [FWCESP23]
-@5678968 = ~Cespenar moÅ¼e uÅ¼yÄ‡ wspaniaÅ‚ego nowego przepisu na nowy Kostur lasÃ³w. Dajesz Cespenarowi PierÅ›cieÅ„ ochrony +1, PierÅ›cieÅ„ druida i 20 000 sztuk zÅ‚ota, a dostajesz nowy o wiele lepszy kijaszek!~
+@567868 = ~Mi³y, du¿y kij. Czy szczeka wiêcej ni¿ gryzie? Hi hi hi...~ [FWCESP23]
+@5678968 = ~Cespenar mo¿e u¿yæ wspania³ego nowego przepisu na nowy Kostur lasów. Dajesz Cespenarowi Pierœcieñ ochrony +1, Pierœcieñ druida i dwadzieœcia tysiêcy sztuk z³ota, a dostajesz nowy o wiele lepszy kijaszek!~
 
-@567869 = ~Ooooch! Masz najbardziej Å›wiecÄ…cy ze wszystkich Å›wiecÄ…cych dÅ‚ugich mieczy! ZaÅ‚oÅ¼Ä™ siÄ™, Å¼e zabiÅ‚eÅ› wampira lub dwÃ³ch tÄ… dziecinkÄ…! En garde, krwiopijco! Cespenar ciÄ™ zmiaÅ¼dÅ¼y!~ [FWCESP24]
-@5678969 = ~MoÅ¼e chciaÅ‚byÅ› ulepszyÄ‡ DziennÄ… GwiazdÄ™? Dasz mi dobry towar, taki jak cztery zwoje ochrony przed nieumarÅ‚ymi, dwie fiolki ÅšwiÄ™conej wody elfÃ³w, dwa szafiry gwiaÅºdziste oraz 15 000 sztuk zÅ‚ota, ale Cespenar nieomal wprowadziÅ‚ pana w bÅ‚Ä…d! Otrzymasz wiÄ™cej Promieni sÅ‚oÅ„ca oraz ochronÄ™ przed zÅ‚em. Mam zaczynaÄ‡?~ ~MoÅ¼e chciaÅ‚abyÅ› ulepszyÄ‡ DziennÄ… GwiazdÄ™? Dasz mi dobry towar, taki jak cztery zwoje ochrony przed nieumarÅ‚ymi, dwie fiolki ÅšwiÄ™conej wody elfÃ³w, dwa szafiry gwiaÅºdziste oraz 15 000 sztuk zÅ‚ota, ale Cespenar nieomal wprowadziÅ‚ paniÄ… w bÅ‚Ä…d! Otrzymasz wiÄ™cej Promieni sÅ‚oÅ„ca oraz ochronÄ™ przed zÅ‚em. Mam zaczynaÄ‡?~
+@567869 = ~Ooooch! Masz najbardziej œwiec¹cy ze wszystkich œwiec¹cych d³ugich mieczy! Za³o¿ê siê, ¿e zabi³eœ wampira lub dwóch t¹ dziecink¹! En garde, krwiopijco! Cespenar ciê zmia¿d¿y!~ [FWCESP24]
+@5678969 = ~Mo¿e chcia³byœ ulepszyæ Dzienn¹ gwiazdê? Dasz mi dobry towar, taki jak cztery Zwoje ochrony przed nieumar³ymi, dwie fiolki Œwiêconej wody elfów, dwa szafiry gwiaŸdziste oraz piêtnaœcie tysiêcy sztuk z³ota, ale Cespenar nieomal wprowadzi³ pana w b³¹d! Otrzymasz wiêcej Promieni s³oñca oraz ochronê przed z³em. Mam zaczynaæ?~ ~Mo¿e chcia³abyœ ulepszyæ Dzienn¹ gwiazdê? Dasz mi dobry towar, taki jak cztery Zwoje ochrony przed nieumar³ymi, dwie fiolki Œwiêconej wody elfów, dwa szafiry gwiaŸdziste oraz piêtnaœcie tysiêcy sztuk z³ota, ale Cespenar nieomal wprowadzi³ pani¹ w b³¹d! Otrzymasz wiêcej Promieni s³oñca oraz ochronê przed z³em. Mam zaczynaæ?~
 
-@567870 = ~Och, honorowy <CHARNAME>-san! MoÅ¼esz uwierzyÄ‡, Å¼e Furia Niebios nie wyglÄ…da juÅ¼ tak wspaniale?~ [FWCESP25]
-@5678970 = ~Cespenar ma miÅ‚y, szybki przepis aby naprawiÄ‡ to! No, moÅ¼e nie tak szybki. Masz RÃ³Å¼dÅ¼kÄ™ bÅ‚yskawic? Co sÄ…dzisz o pozbyciu siÄ™ Serca demona? CuuuchnÄ…ca rzecz, wiem, ale sÄ… przydatne do najdziwniejszych rzeczy. Aha, i 20 000 sztuk zÅ‚ota, ktÃ³re bÄ™dÄ… potrzebne.~
+@567870 = ~Och, honorowy <CHARNAME>-san! Mo¿esz uwierzyæ, ¿e Furia niebios nie wygl¹da ju¿ tak wspaniale?~ [FWCESP25]
+@5678970 = ~Cespenar ma mi³y, szybki przepis aby naprawiæ to! No, mo¿e nie tak szybki. Masz Ró¿d¿kê b³yskawic? Co s¹dzisz o pozbyciu siê Serca demona? Cuuuchn¹ca rzecz, wiem, ale s¹ przydatne do najdziwniejszych rzeczy. Aha, i dwadzieœcia tysiêcy sztuk z³ota, które bêd¹ potrzebne.~
 
-@567871 = ~Masz najmniejsze paladyÅ„skie dobrodziejstwo pod sÅ‚oÅ„cem? Cespenar ma ksiÄ…Å¼kÄ™ z historyjkami na strychu, w ktÃ³rej jest coÅ› o tym napisane.~ [FWCESP26]
-@5678971 = ~MoÅ¼na zrobiÄ‡ o wiele lepszy miecz Arvoreen. Specjalna wyprzedaÅ¼ dla nie tak duÅ¼ego ludu, musisz tylko dobrze myÅ›leÄ‡ i daÄ‡ Cespenarowi 15 000 sztuk zÅ‚ota! Nie znajdziesz lepszego sposobu po tej stronie OtchÅ‚ani!~
+@567871 = ~Masz najmniejsze paladyñskie dobrodziejstwo pod s³oñcem? Cespenar ma ksi¹¿kê z historyjkami na strychu, w której jest coœ o tym napisane.~ [FWCESP26]
+@5678971 = ~Mo¿na zrobiæ o wiele lepszy miecz Arvoreena. Specjalna wyprzeda¿ dla nie tak du¿ego ludu, musisz tylko dobrze myœleæ i daæ Cespenarowi piêtnaœcie tysiêcy sztuk z³ota! Nie znajdziesz lepszego sposobu po tej stronie Otch³ani!~
 
-@567872 = ~Cespenar jest pod wielkim, wielkim wraÅ¼eniem, Å¼e z panem sÄ… bardzo porzÄ…dni ludzie! MoÅ¼e chcesz uÅ¼yÄ‡ jakiejÅ› oznaczonej broni, by pomÃ³c panu?~ [FWCESP27] ~Cespenar jest pod wielkim, wielkim wraÅ¼eniem, Å¼e z paniÄ… sÄ… bardzo porzÄ…dni ludzie! MoÅ¼e chcesz uÅ¼yÄ‡ jakiejÅ› oznaczonej broni, by pomÃ³c pani?~ [FWCESP27]
-@5678972 = ~Cespenar zna KapÅ‚ana Torma, ktÃ³ry moÅ¼e pobÅ‚ogosÅ‚awiÄ‡ UÅ›wiÄ™conego odkupiciela i daÄ‡ mu moÅ¼liwoÅ›Ä‡ rozpraszania magii i uciszania innych ludzi. Potrzebuje dodatkowo Serca demona, piÄ™ciu zwojÃ³w rozproszenia magii i 15 000 sztuk zÅ‚ota, oraz zÅ‚otego serca. MogÅ‚oby byÄ‡ mniej, ale Cespenar musi zapÅ‚aciÄ‡ za licencjÄ™ uÅ¼ytkowania przepisu.~
+@567872 = ~Cespenar jest pod wielkim, wielkim wra¿eniem, ¿e z panem s¹ bardzo porz¹dni ludzie! Mo¿e chcesz u¿yæ jakiejœ oznaczonej broni, by pomóc panu?~ [FWCESP27] ~Cespenar jest pod wielkim, wielkim wra¿eniem, ¿e z pani¹ s¹ bardzo porz¹dni ludzie! Mo¿e chcesz u¿yæ jakiejœ oznaczonej broni, by pomóc pani?~ [FWCESP27]
+@5678972 = ~Cespenar zna Kap³ana Torma, który mo¿e pob³ogos³awiæ Uœwiêconego odkupiciela i daæ mu mo¿liwoœæ rozpraszania magii i uciszania innych ludzi. Potrzebuje dodatkowo Serca demona, piêciu Zwojów rozproszenia magii i piêtnastu tysiêcy sztuk z³ota, oraz z³otego serca. Mog³oby byæ mniej, ale Cespenar musi zap³aciæ za licencjê u¿ytkowania przepisu.~
 
-@567873 = ~Och, chÅ‚opie! WiÄ™cej tac! Cespenarowi juÅ¼ zaczynaÅ‚y siÄ™ one wyczerpywaÄ‡, a chciaÅ‚ on zrobiÄ‡ bankiet!~ [FWCESP28]
-@5678973 = ~Chwila ... znam przepis na wielkÄ… tacÄ™, czy tam tarczÄ™, czy takie tam rzeczy. WeÅº RodowÄ… tarczÄ™ DelrynÃ³w i ÅaskÄ™ ocalenia, uÅ¼yj teÅ¼ 15 000 sztuk zÅ‚ota, a otrzymasz nowÄ…, lepiej chroniÄ…cÄ… TarczÄ™ DelrynÃ³w! Ale chyba lepiej bÄ™dzie jak zachowamy je na ten bankiet.~
+@567873 = ~Och, ch³opie! Wiêcej tac! Cespenarowi ju¿ zaczyna³y siê one wyczerpywaæ, a chcia³ on zrobiæ bankiet!~ [FWCESP28]
+@5678973 = ~Chwila... znam przepis na wielk¹ tacê, czy tam tarczê, czy takie tam rzeczy. WeŸ Rodow¹ tarczê Delrynów i £askê ocalenia, u¿yj te¿ piêtnastu tysiêcy sztuk z³ota, a otrzymasz now¹, lepiej chroni¹c¹ Tarczê Delrynów! Ale chyba lepiej bêdzie jak zachowamy je na ten bankiet.~
 
-@567874 = ~Co? Nie lubisz gadajÄ…cych mieczy? A co jeÅ›li zostaniesz pogrzebany Å¼ywcem w ciemnej gÅ‚Ä™bokiej dziurze i bÄ™dziesz mÃ³gÅ‚ rozmawiaÄ‡ tylko z mieczem? Wtedy bÄ™dziesz dziÄ™kowaÅ‚ za taki miecz!~ [FWCESP29]
-@5678974 = ~Ale, hmmmm, Cespenar widzi ObrÄ™cz kontrolnÄ…, czym moÅ¼e uczyniÄ‡ Lilarcora silniejszym, a i utrzyma z dala tych obrzydliwych Å‚upieÅ¼cÃ³w umysÅ‚Ã³w, ktÃ³rzy wsysajÄ… siÄ™ w twÃ³j mÃ³zg! A Larry juÅ¼ nie bÄ™dzie mÃ³gÅ‚ z tobÄ… rozmawiaÄ‡. To bÄ™dzie smutne i to bÄ™dzie kosztowaÅ‚o takÅ¼e 20 000 sztuk zÅ‚ota.~
+@567874 = ~Co? Nie lubisz gadaj¹cych mieczy? A co jeœli zostaniesz pogrzebany ¿ywcem w ciemnej g³êbokiej dziurze i bêdziesz móg³ rozmawiaæ tylko z mieczem? Wtedy bêdziesz dziêkowa³ za taki miecz!~ [FWCESP29] ~Co? Nie lubisz gadaj¹cych mieczy? A co jeœli zostaniesz pogrzebana ¿ywcem w ciemnej g³êbokiej dziurze i bêdziesz mog³a rozmawiaæ tylko z mieczem? Wtedy bêdziesz dziêkowa³a za taki miecz!~ [FWCESP29]
+@5678974 = ~Ale, hmmmm, Cespenar widzi Obrêcz kontroln¹, czym mo¿e uczyniæ Lilarcora silniejszym, a i utrzyma z dala tych obrzydliwych ³upie¿ców umys³ów, którzy wsysaj¹ siê w twój mózg! A Larry ju¿ nie bêdzie móg³ z tob¹ rozmawiaæ. To bêdzie smutne i to bêdzie kosztowa³o tak¿e dwadzieœcia tysiêcy sztuk z³ota.~
 
-@567875 = ~MyÅ›laÅ‚eÅ› kiedyÅ› o miÅ‚oÅ›ci, a nie o wojnie? Z pewnoÅ›ciÄ… masz tu duÅ¼o noÅ¼y...~ [FWCESP30] ~MyÅ›laÅ‚aÅ› kiedyÅ› o miÅ‚oÅ›ci, a nie o wojnie? Z pewnoÅ›ciÄ… masz tu duÅ¼o noÅ¼y...~ [FWCESP30]
-@5678975 = ~Achhhh, Cespenar ma Å›wietny pomysÅ‚! ZrobiÄ‡ dobry sztylet dla skradajÄ…cych siÄ™ ludzi. WeÅº KoÅ›cianÄ… klingÄ™ i Kolec chochlika i zrÃ³b sztylet, ktÃ³ry potrafi bardzo dobrze zadawaÄ‡ cios w plecy! PotrzebujÄ™ jednak czterech Mikstur zÅ‚odziejskiego mistrzostwa i zapÅ‚aty 15 000 sztuk zÅ‚ota, ale wtedy wrogowie nie bÄ™dÄ… nawet wiedzieÄ‡, co ich trafiÅ‚o!~
+@567875 = ~Myœla³eœ kiedyœ o mi³oœci, a nie o wojnie? Z pewnoœci¹ masz tu du¿o no¿y...~ [FWCESP30] ~Myœla³aœ kiedyœ o mi³oœci, a nie o wojnie? Z pewnoœci¹ masz tu du¿o no¿y...~ [FWCESP30]
+@5678975 = ~Achhhh, Cespenar ma œwietny pomys³! Zrobiæ dobry sztylet dla skradaj¹cych siê ludzi. WeŸ Koœcian¹ klingê i Kolec chochlika i zrób sztylet, który potrafi bardzo dobrze zadawaæ cios w plecy! Potrzebujê jednak czterech Mikstur z³odziejskiego mistrzostwa i zap³aty w wysokoœci piêtnastu tysiêcy sztuk z³ota, ale wtedy wrogowie nie bêd¹ nawet wiedzieæ, co ich trafi³o!~
 
 // ....
 
-@567879 = ~Oooch, ktoÅ› mÃ³wiÅ‚ ci o Pojemniku obfitoÅ›ci? Jest jak zÅ‚y szelÄ…g... chyba Cespenar musi znÃ³w wrzuciÄ‡ to do rzeki, ale tym razem z dopiÄ™tym ciÄ™Å¼szym balastem!~ [FWCESP31]
-@5678979 = ~A moÅ¼e sprÃ³bujemy czegoÅ› innego tym razem i uÅ¼yjemy nowego przepisu. JeÅ›li masz 40 sztuk danej amunicji +3 i 40 000 sztuk zÅ‚ota, moÅ¼emy ulepszyÄ‡ posiadany przez ciebie pojemnik do +3. PomyÅ›l o tych wszystkich pieniÄ…dzach, ktÃ³re oszczÄ™dzisz na amunicji! Chyba, Å¼e nie uÅ¼ywasz broni dystansowej.~
+@567879 = ~Oooch, ktoœ mówi³ ci o Pojemniku obfitoœci? Jest jak z³y szel¹g... chyba Cespenar musi znów wrzuciæ to do rzeki, ale tym razem z dopiêtym ciê¿szym balastem!~ [FWCESP31]
+@5678979 = ~A mo¿e spróbujemy czegoœ innego tym razem i u¿yjemy nowego przepisu. Jeœli masz czterdzieœci sztuk danej amunicji +3 i czterdzieœci tysiêcy sztuk z³ota, mo¿emy ulepszyæ posiadany przez ciebie pojemnik do +3. Pomyœl o tych wszystkich pieni¹dzach, które oszczêdzisz na amunicji! Chyba, ¿e nie u¿ywasz broni dystansowej.~
 
-@567880 = ~Tak, ulepsz KoÅ‚czan.~
-@567881 = ~Tak, ulepsz FuteraÅ‚.~
-@567882 = ~Tak, ulepsz TorbÄ™.~
+@567880 = ~Tak, ulepsz ko³czan.~
+@567881 = ~Tak, ulepsz futera³.~
+@567882 = ~Tak, ulepsz torbê.~
 
-@567883 = ~WyglÄ…da to jak duzi ludzie noszeni jako ubranie. Witajcie duzi ludzie! Pomachajcie Cespenarowi, jesteÅ›cie bowiem teraz noszeni przez mojego pana!~ [FWCESP32] ~WyglÄ…da to jak duzi ludzie noszeni jako ubranie. Witajcie duzi ludzie! Pomachajcie Cespenarowi, jesteÅ›cie bowiem teraz noszeni przez mojÄ… paniÄ…!~ [FWCESP32]
-@5678983 = ~Cespenar nie jest co prawda preparatorem, ale moÅ¼e poÅ‚Ä…czyÄ‡ LudzkÄ… skÃ³rÄ™ z Kamieniem z duszÄ… Malii i zwojem ochrony przed magiÄ… oraz 20 000 sztukami zÅ‚ota dla poÅ‚ysku. Co sprawi, Å¼e bÄ™dziesz silniejszy i zdrowszy, czego nie moÅ¼na bÄ™dzie powiedzieÄ‡ o tych duÅ¼ych ludziach, ktÃ³rych bÄ™dziesz nosiÅ‚.~ ~Cespenar nie jest co prawda preparatorem, ale moÅ¼e poÅ‚Ä…czyÄ‡ LudzkÄ… skÃ³rÄ™ z Kamieniem z duszÄ… Malii i zwojem ochrony przed magiÄ… oraz 20 000 sztukami zÅ‚ota dla poÅ‚ysku. Co sprawi, Å¼e bÄ™dziesz silniejsza i zdrowsza, czego nie moÅ¼na bÄ™dzie powiedzieÄ‡ o tych duÅ¼ych ludziach, ktÃ³rych bÄ™dziesz nosiÅ‚a.~
+@567883 = ~Wygl¹da to jak duzi ludzie noszeni jako ubranie. Witajcie duzi ludzie! Pomachajcie Cespenarowi, jesteœcie bowiem teraz noszeni przez mojego pana!~ [FWCESP32] ~Wygl¹da to jak duzi ludzie noszeni jako ubranie. Witajcie duzi ludzie! Pomachajcie Cespenarowi, jesteœcie bowiem teraz noszeni przez moj¹ pani¹!~ [FWCESP32]
+@5678983 = ~Cespenar nie jest co prawda preparatorem, ale mo¿e po³¹czyæ Ludzk¹ skórê z Kamieniem z dusz¹ Malii i Zwojem ochrony przed magi¹ oraz dwudziestoma tysi¹cami sztuk z³ota dla po³ysku. Co sprawi, ¿e bêdziesz silniejszy i zdrowszy, czego nie mo¿na bêdzie powiedzieæ o tych du¿ych ludziach, których bêdziesz nosi³.~ ~Cespenar nie jest co prawda preparatorem, ale mo¿e po³¹czyæ Ludzk¹ skórê z Kamieniem z dusz¹ Malii i Zwojem ochrony przed magi¹ oraz dwudziestoma tysi¹cami sztuk z³ota dla po³ysku. Co sprawi, ¿e bêdziesz silniejsza i zdrowsza, czego nie mo¿na bêdzie powiedzieæ o tych du¿ych ludziach, których bêdziesz nosi³a.~
 
-@567884 = ~Gdzie to znalazÅ‚eÅ›? Bhaal szukaÅ‚ tego wszÄ™dzie, ale nigdy nie znalazÅ‚! ChciaÅ‚ on powiesiÄ‡ to nad drzwiami jako dekoracjÄ™... Cespenar przekonaÅ‚ go wtedy do rÃ³Å¼, ale byÅ‚o z tym troooochÄ™ zachodu...~ [FWCESP33]
-@5678984 = ~Bardzo, bardzo dobry przepis na Rozpruwacza Dusz. WeÅº Serce PotÄ™pieÅ„ca i przepotÄ™Å¼ny Å›wiÄ™ty miecz Karsomirem zwany oraz 20 000 sztuk zÅ‚ota, co uczyni Rozpruwacza Dusz niezwykle zabÃ³jczym! Kiedy ktoÅ› bÄ™dzie pytaÅ‚, nie mÃ³w, Å¼e to byÅ‚ pomysÅ‚ Cespenara!~
+@567884 = ~Gdzie to znalaz³eœ? Bhaal szuka³ tego wszêdzie, ale nigdy nie znalaz³! Chcia³ on powiesiæ to nad drzwiami jako dekoracjê... Cespenar przekona³ go wtedy do ró¿, ale by³o z tym troooochê zachodu...~ [FWCESP33] ~Gdzie to znalaz³aœ? Bhaal szuka³ tego wszêdzie, ale nigdy nie znalaz³! Chcia³ on powiesiæ to nad drzwiami jako dekoracjê... Cespenar przekona³ go wtedy do ró¿, ale by³o z tym troooochê zachodu...~ [FWCESP33]
+@5678984 = ~Bardzo, bardzo dobry przepis na Rozpruwacza dusz. WeŸ Serce potêpieñca i przepotê¿ny œwiêty miecz Karsomirem zwany oraz dwadzieœcia tysiêcy sztuk z³ota, co uczyni Rozpruwacza dusz niezwykle zabójczym! Kiedy ktoœ bêdzie pyta³, nie mów, ¿e to by³ pomys³ Cespenara!~
 
-@567885 = ~Ooch, Å›wiecÄ…cy symbol starego Boga SÅ‚oÅ„ca! Amaunator i Bhaal nigdy siÄ™ zbytnio nie lubili. Stary spÃ³r, w ktÃ³ry wplÄ…tane byÅ‚y demony, Å›wiatÅ‚o sÅ‚oneczne i bÅ‚ogosÅ‚awiona koza. Bardzo smutna historia. Po Å›mierci kozy, Ammy nigdy juÅ¼ nie przyszedÅ‚ na herbatkÄ™.~ [FWCESP34]
-@5678985 = ~To bez znaczenia, za to mogÄ™ umieÅ›ciÄ‡ ten Å›wiÄ™ty symbol na twoim puklerzu. Dodaj jeden kamieÅ„ sÅ‚oneczny za kaÅ¼dy palec i 10 000 sztuk zÅ‚ota, za straszenie nieumarÅ‚ych. Chcesz?~
+@567885 = ~Ooch, œwiec¹cy symbol starego Boga S³oñca! Amaunator i Bhaal nigdy siê zbytnio nie lubili. Stary spór, w który wpl¹tane by³y demony, œwiat³o s³oneczne i b³ogos³awiona koza. Bardzo smutna historia. Po œmierci kozy, Ammy nigdy ju¿ nie przyszed³ na herbatkê.~ [FWCESP34]
+@5678985 = ~To bez znaczenia, za to mogê umieœciæ ten œwiêty symbol na twoim puklerzu. Dodaj jeden kamieñ s³oneczny za ka¿dy palec i dziesiêæ tysiêcy sztuk z³ota, za straszenie nieumar³ych. Chcesz?~
 
-@567886 = ~ZÅ‚odziejskie zaciÄ™cie, jak widzÄ™. Chcesz oprÃ³Å¼niÄ‡ kieszenie Cespenara? Czekaj! Cespenar nie ma kieszeni. Ha! Nie bÄ…dÅº zÅ‚y. Jestem pewien, Å¼e pÃ³Åºniej spotkasz wielu bandziorÃ³w, ktÃ³rych bÄ™dziesz mÃ³gÅ‚ okraÅ›Ä‡.~ [FWCESP35]
-@5678986 = ~W miÄ™dzyczasie, mam przepis na zÅ‚odziejskie akcesoria. CaÅ‚kiem modny zestaw: RÄ™kawice kieszonkowca i Bransolety ochrony, pierÅ›cienie wyczucia zagroÅ¼enia i wytrychÃ³w oraz dwa pierÅ›cienie ochrony. Za 5 000 sztuk zÅ‚ota mogÄ™ zrobiÄ‡ jedno wielkie Å›wiecuszko.~
+@567886 = ~Z³odziejskie zaciêcie, jak widzê. Chcesz opró¿niæ kieszenie Cespenara? Czekaj! Cespenar nie ma kieszeni. Ha! Nie b¹dŸ z³y. Jestem pewien, ¿e póŸniej spotkasz wielu bandziorów, których bêdziesz móg³ okraœæ.~ [FWCESP35] ~Z³odziejskie zaciêcie, jak widzê. Chcesz opró¿niæ kieszenie Cespenara? Czekaj! Cespenar nie ma kieszeni. Ha! Nie b¹dŸ z³a. Jestem pewien, ¿e póŸniej spotkasz wielu bandziorów, których bêdziesz móg³ okraœæ.~ [FWCESP35]
+@5678986 = ~W miêdzyczasie, mam przepis na z³odziejskie akcesoria. Ca³kiem modny zestaw: Rêkawice kieszonkowca i Bransolety ochrony, Pierœcienie wyczucia zagro¿enia i wytrychów oraz dwa Pierœcienie ochrony. Za piêæ tysiêcy sztuk z³ota mogê zrobiæ jedno wielkie œwiecuszko.~
 
-@567887 = ~Ach, Å›wiecÄ…cÄ… biÅ¼uteriÄ™ tam masz. Aczkolwiek bardzo zÅ‚y dobÃ³r kolorÃ³w. ByÄ‡ moÅ¼e Cespenar bÄ™dzie mÃ³gÅ‚ pÃ³Åºniej coÅ› na to pomÃ³c. NiektÃ³re naprawdÄ™ pasowaÅ‚yby do koloru twoich oczu? Nie?~ [FWCESP36]
-@5678987 = ~W kaÅ¼dym razie, Cespenar moÅ¼e ugnieÅ›Ä‡ razem dwa amulety ochrony, po amulecie ochrony przed truciznÄ… i blokowania czarÃ³w oraz Naszyjnik stabilnoÅ›ci ksztaÅ‚tu. To caÅ‚kiem sporo Å‚aÅ„cuszkÃ³w z klejnotami! Wymaga teÅ¼ pobÅ‚ogosÅ‚awienia dobrego przyjaciela Ilmatera (z jakiegoÅ› powodu, Ilmater ma miÄ™kkie serce dla biednego Cespenara)! MoÅ¼e z 10 000 sztuk zÅ‚ota za usÅ‚ugÄ™ bÄ™dzie najwÅ‚aÅ›ciwsze, co?~
+@567887 = ~Ach, œwiec¹c¹ bi¿uteriê tam masz. Aczkolwiek bardzo z³y dobór kolorów. Byæ mo¿e Cespenar bêdzie móg³ póŸniej coœ na to pomóc. Niektóre naprawdê pasowa³yby do koloru twoich oczu? Nie?~ [FWCESP36]
+@5678987 = ~W ka¿dym razie, Cespenar mo¿e ugnieœæ razem dwa Amulety ochrony, po Amulecie ochrony przed trucizn¹ i blokowania czarów oraz Naszyjnik stabilnoœci kszta³tu. To ca³kiem sporo ³añcuszków z klejnotami! Wymaga te¿ pob³ogos³awienia dobrego przyjaciela Ilmatera (z jakiegoœ powodu, Ilmater ma miêkkie serce dla biednego Cespenara)! Mo¿e z dziesiêæ tysiêcy sztuk z³ota za us³ugê bêdzie najw³aœciwsze, co?~
 
-@567888 = ~Plusk-Plask! Ostrze wody mogÅ‚oby dostarczaÄ‡ wiÄ™cej rozrywki niÅ¼ tylko poprzez rozbryzgiwanie tu i tam. Cespenar ma przepis, ktÃ³ry doskonale sprawdzi siÄ™ w tym przypadku~ [FWCESP37]
-@5678988 = ~Z Ostrzem Wody, Szponem Rashada i AdjathÄ… Wysysaczem moÅ¼na zrobiÄ‡ naprawdÄ™ wodny miecz. MoÅ¼e nie tak duÅ¼y, ale naprawdÄ™ wciÄ…Å¼ bardzo miÅ‚y. Mam nadziejÄ™, Å¼e lubisz trucizny! Masz 15 000 sztuk zÅ‚ota za robotÄ™?~
+@567888 = ~Plusk-Plask! Ostrze wody mog³oby dostarczaæ wiêcej rozrywki ni¿ tylko poprzez rozbryzgiwanie tu i tam. Cespenar ma przepis, który doskonale sprawdzi siê w tym przypadku~ [FWCESP37]
+@5678988 = ~Z Ostrzem wody, Szponem Rashada i Adjath¹ Wysysaczem mo¿na zrobiæ naprawdê wodny miecz. Mo¿e nie tak du¿y, ale naprawdê wci¹¿ bardzo mi³y. Mam nadziejê, ¿e lubisz trucizny! Masz piêtnaœcie tysiêcy sztuk z³ota za robotê?~
 
-@567889 = ~Oooch, Å›wiecÄ…cy topÃ³r, ktÃ³ry zabija zÅ‚e rzeczy. PrÃ³bujesz zabiÄ‡ Cespenara? Ale zaczekaj, to dziaÅ‚a tylko na nieumarÅ‚ych, nie na demony. Ale w pierwszej chwili bardzo siÄ™ przestraszyÅ‚em. Cespenar widzi swoje Å¼ycie przesuwajÄ…ce siÄ™ przed oczyma: za duÅ¼o kÅ‚aniania siÄ™, za maÅ‚o wycierania. Trzeba to poprawiÄ‡.~ [FWCESP38]
-@5678989 = ~W kaÅ¼dym razie, rÃ³Å¼owy to nie jest naprawdÄ™ twÃ³j kolor. MoÅ¼na by dodaÄ‡ grudkÄ™ ilitu do Lazurowego ostrza, sprawiajÄ…c, Å¼e bÄ™dzie bardziej purpurowe. Doda to takÅ¼e jakieÅ› dodatkowe moce niszczÄ…ce nieumarÅ‚ych oraz ochronÄ™ przed nimi. Aha, 20 000 sztuk zÅ‚ota. ChciaÅ‚byÅ›?~ ~W kaÅ¼dym razie, rÃ³Å¼owy to nie jest naprawdÄ™ twÃ³j kolor. MoÅ¼na by dodaÄ‡ grudkÄ™ ilitu do Lazurowego ostrza, sprawiajÄ…c, Å¼e bÄ™dzie bardziej purpurowe. Doda to takÅ¼e jakieÅ› dodatkowe moce niszczÄ…ce nieumarÅ‚ych oraz ochronÄ™ przed nimi. Aha, 20 000 sztuk zÅ‚ota. ChciaÅ‚abyÅ›?~
+@567889 = ~Oooch, œwiec¹cy topór, który zabija z³e rzeczy. Próbujesz zabiæ Cespenara? Ale zaczekaj, to dzia³a tylko na nieumar³ych, nie na demony. Ale w pierwszej chwili bardzo siê przestraszy³em. Cespenar widzi swoje ¿ycie przesuwaj¹ce siê przed oczyma: za du¿o k³aniania siê, za ma³o wycierania. Trzeba to poprawiæ.~ [FWCESP38]
+@5678989 = ~W ka¿dym razie, ró¿owy to nie jest naprawdê twój kolor. Mo¿na by dodaæ grudkê ilitu do Lazurowego ostrza, sprawiaj¹c, ¿e bêdzie bardziej purpurowe. Doda to tak¿e jakieœ dodatkowe moce niszcz¹ce nieumar³ych oraz ochronê przed nimi. Aha, dwadzieœcia tysiêcy sztuk z³ota. Chcia³byœ?~ ~W ka¿dym razie, ró¿owy to nie jest naprawdê twój kolor. Mo¿na by dodaæ grudkê ilitu do Lazurowego ostrza, sprawiaj¹c, ¿e bêdzie bardziej purpurowe. Doda to tak¿e jakieœ dodatkowe moce niszcz¹ce nieumar³ych oraz ochronê przed nimi. Aha, dwadzieœcia tysiêcy sztuk z³ota. Chcia³abyœ?~
 
-@567890 = ~WÅ‚aÅ›nie obserwowaÅ‚em pierÅ›cieÅ„ na twoim palcu! Za duÅ¼o pierÅ›cieni na twoich palcach? To wielki problem, Cespenar wie. Tak duÅ¼o Å›wiecuszkÃ³w, a tak maÅ‚o pazurkÃ³w.~ [FWCESP39]
-@5678990 = ~Ale powiem ci coÅ›. Cespenar moÅ¼e zÅ‚Ä…czyÄ‡ razem twoje pierÅ›cienie czarÃ³w i ostroÅ›ci razem z dawno zapomnianym Amuletem metaczarÃ³w i standardowym PierÅ›cieniem ochrony, by uformowaÄ‡ PierÅ›cieÅ„ czarownika. Bardzo miÅ‚y dla magÃ³w. Chcesz taki za 20 000 sztuk zÅ‚ota?~
+@567890 = ~W³aœnie obserwowa³em pierœcieñ na twoim palcu! Za du¿o pierœcieni na twoich palcach? To wielki problem, Cespenar wie. Tak du¿o œwiecuszków, a tak ma³o pazurków.~ [FWCESP39]
+@5678990 = ~Ale powiem ci coœ. Cespenar mo¿e z³¹czyæ razem twoje Pierœcienie czarów i ostroœci razem z dawno zapomnianym Amuletem metaczarów i standardowym Pierœcieniem ochrony, by uformowaæ Pierœcieñ czarownika. Bardzo mi³y dla magów. Chcesz taki za dwadzieœcia tysiêcy sztuk z³ota?~
 
-@567892 = ~MoÅ¼esz ulepszyÄ‡ ten pas?~
+@567892 = ~Mo¿esz ulepszyæ ten pas?~
 
-@567893 = ~Ooch, pasy sÄ… caÅ‚kiem modne w tym sezonie. Zastanawiam siÄ™ dlaczego wszystkie one majÄ… odcieÅ„ beÅ¼owy? To musi byÄ‡ przez to okropne Å›wiatÅ‚o sfery kieszeniowej. Zawsze sprawia, Å¼e Cespenar wyglÄ…da na zmÄ™czonego.~ [FWCESP40]
-// @5678993 = ~W kaÅ¼dym razie, jeÅ›li masz trzy pasy ochrony, mam przepis na poÅ‚Ä…czenie ich w naprawdÄ™ fajny pas. JeÅ›li schowasz siÄ™ za niego, wrogowie nie bÄ™dÄ… mogli ciÄ™ zraniÄ‡. Taka jest umowa. Chcesz wiÄ™c za 10 000 sztuk zÅ‚ota?~
-@5678993 = ~W kaÅ¼dym razie, jeÅ›li masz trzy pasy ochrony, mam przepis na poÅ‚Ä…czenie ich w naprawdÄ™ fajny pas. JeÅ›li schowasz siÄ™ za niego, wrogowie nie bÄ™dÄ… mogli ciÄ™ zraniÄ‡. Taka jest umowa, ale potrzebujÄ™ trzy krwawniki tego samego typu. Chcesz wiÄ™c za 10 000 sztuk zÅ‚ota?~
+@567893 = ~Ooch, pasy s¹ ca³kiem modne w tym sezonie. Zastanawiam siê dlaczego wszystkie one maj¹ odcieñ be¿owy? To musi byæ przez to okropne œwiat³o sfery kieszeniowej. Zawsze sprawia, ¿e Cespenar wygl¹da na zmêczonego.~ [FWCESP40]
+// @5678993 = ~W ka¿dym razie, jeœli masz trzy Pasy ochrony, mam przepis na po³¹czenie ich w naprawdê fajny pas. Jeœli schowasz siê za niego, wrogowie nie bêd¹ mogli ciê zraniæ. Taka jest umowa. Chcesz wiêc za dziesiêæ tysiêcy sztuk z³ota?~
+@5678993 = ~W ka¿dym razie, jeœli masz trzy Pasy ochrony, mam przepis na po³¹czenie ich w naprawdê fajny pas. Jeœli schowasz siê za niego, wrogowie nie bêd¹ mogli ciê zraniæ. Taka jest umowa, ale potrzebujê trzy krwawniki tego samego typu. Chcesz wiêc za dziesiêæ tysiêcy sztuk z³ota?~
 
-@567895 = ~MoÅ¼esz ulepszyÄ‡ tÄ™ FigurkÄ™ czarnego pajÄ…ka?~
-@567896 = ~Ooch, oj, ty skradaczysko! Chcesz, by Cespenar zrobiÅ‚ tÄ™ figurkÄ™ zaprzyjaÅºnionego z tobÄ… pajÄ…ka bardziej zadziwiajÄ…cÄ…? DodaÄ‡ jakieÅ› nowe pajÄ™czyny, moÅ¼e? Chcesz terroryzowaÄ‡ jakiegoÅ› szczegÃ³lnego goblina?~ [FWCESP41]
-@5678996 = ~Cespenar wyczuwa Å‚askotanie myÅ›li. Aczkolwiek potrzebuje specjalnych materiaÅ‚Ã³w, aby ulepszyÄ‡ tego Å›ciennego peÅ‚zacza. Musisz mieÄ‡ zwoje pajÄ™czego pomiotu i pajÄ™czyny, plus piÄ™Ä‡ zatrutych rzucanych sztyletÃ³w. A takÅ¼e 5 000 sztuk zÅ‚ota. Chcesz?~
+@567895 = ~Mo¿esz ulepszyæ tê Figurkê czarnego paj¹ka?~
+@567896 = ~Ooch, oj, ty skradaczysko! Chcesz, by Cespenar zrobi³ tê figurkê zaprzyjaŸnionego z tob¹ paj¹ka bardziej zadziwiaj¹c¹? Dodaæ jakieœ nowe pajêczyny, mo¿e? Chcesz terroryzowaæ jakiegoœ szczególnego goblina?~ [FWCESP41]
+@5678996 = ~Cespenar wyczuwa ³askotanie myœli. Aczkolwiek potrzebuje specjalnych materia³ów, aby ulepszyæ tego œciennego pe³zacza. Musisz mieæ Zwoje pajêczego pomiotu i pajêczyny, plus piêæ zatrutych rzucanych sztyletów. A tak¿e piêæ tysiêcy sztuk z³ota. Chcesz?~
 
-@567897 = ~Czy Chaos i Entropia mogÄ… byÄ‡ ulepszone?~
-@5678898 = ~KrÃ³tkie miecze? WeÅº pewniejszego goÅ›cia do ich obsÅ‚ugi, jeÅ›li Å‚apiesz CespenarowÄ… aluzjÄ™. Ale potrzebujesz bardziej uderzajÄ…cej potÄ™gi, co? Dobra, oto co Cespenar moÅ¼e zrobiÄ‡. ZdobÄ…dÅº zwoje chaosu i wielkiego osÅ‚abienia, zmieszaj z IlbrathÄ… i Arbanem, a nawet te krÃ³tkie miecze bÄ™dÄ… bardziej wartoÅ›ciowe niÅ¼ te dotychczas zwane broniami OtchÅ‚ani! Och, Cespenar takÅ¼e potrzebuje 25 000 sztuk zÅ‚ota. I kamienia Å‚otrzykÃ³w, chyba, Å¼e chcesz zbieraÄ‡ czÄ…stki Cespenara po caÅ‚ej sferze kieszonkowej. Aha, to nie byÅ‚a sugestia.~ [FWCESP42]
+@567897 = ~Czy Chaos i Entropia mog¹ byæ ulepszone?~
+@5678898 = ~Miecze krótkie? WeŸ pewniejszego goœcia do ich obs³ugi, jeœli ³apiesz Cespenarow¹ aluzjê. Ale potrzebujesz bardziej uderzaj¹cej potêgi, co? Dobra, oto co Cespenar mo¿e zrobiæ. Zdob¹dŸ Zwoje chaosu i wielkiego os³abienia, zmieszaj z Ilbrath¹ i Arbane'm, a nawet te krótkie miecze bêd¹ bardziej wartoœciowe ni¿ te dotychczas zwane broniami Otch³ani! Och, Cespenar tak¿e potrzebuje dwudziestu piêciu tysiêcy sztuk z³ota. I kamienia ³otrzyków, chyba, ¿e chcesz zbieraæ cz¹stki Cespenara po ca³ej sferze kieszonkowej. Aha, to nie by³a sugestia.~ [FWCESP42]
 
-@567899 = ~MoÅ¼esz wykuÄ‡ dla mnie jakÄ…Å› elfiÄ… zbrojÄ™?~
-@56789100 = ~Oooch! Tak! Lubisz rzeczy gorÄ…ce i pikantne? Cespenar moÅ¼e zÅ‚Ä…czyÄ‡ elfiÄ… zbrojÄ™ razem z ÅuskÄ… czerwonego smoka. A takÅ¼e dodaÄ‡ muchomory, andradytowe przyprawy i pieprz z agatu ognistego (oba po trzy): bardzo jasne, bardzo gorÄ…ce, bardzo tuczÄ…ce. Cespenar jest caÅ‚kiem niezÅ‚ym kowalem ... ale czekaj, to jest przepis kulinarny. Niestety, specjalna patelnia i olej z orzeszkÃ³w bÄ™dzie kosztowaÅ‚ ciÄ™ 25 000 sztuk zÅ‚ota. Chcesz tego?~ [FWCESP43]
+@567899 = ~Mo¿esz wykuæ dla mnie jak¹œ elfi¹ zbrojê?~
+@56789100 = ~Oooch! Tak! Lubisz rzeczy gor¹ce i pikantne? Cespenar mo¿e z³¹czyæ elfi¹ zbrojê razem z £usk¹ czerwonego smoka. A tak¿e dodaæ muchomory, andradytowe przyprawy i pieprz z agatu ognistego (oba po trzy): bardzo jasne, bardzo gor¹ce, bardzo tucz¹ce. Cespenar jest ca³kiem niez³ym kowalem... ale czekaj, to jest przepis kulinarny. Niestety, specjalna patelnia i olej z orzeszków bêdzie ciê kosztowa³ dwadzieœcia tysiêcy sztuk z³ota. Chcesz tego?~ [FWCESP43]

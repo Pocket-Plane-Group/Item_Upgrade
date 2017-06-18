@@ -8,13 +8,13 @@ ALWAYS
     OUTER_SET cd_always = 1 // just do this once per install
 
     ACTION_DEFINE_ARRAY cdreload BEGIN setup lolwot END
-    LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR default_language = american tra_path = EVAL ~%MOD_FOLDER%/languages~ reload_array = cdreload END
+    LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR default_language = american tra_path = EVAL ~%MOD_FOLDER%/languages~ convert_array = cdreload reload_array = cdreload END
 
   END
 
 END
 
-VERSION ~v41~
+VERSION ~v42~
 
 README ~itemupgrade/readme-itemupgrades.txt~
 
@@ -67,7 +67,7 @@ LANGUAGE ~Korean (web2air)~
 BEGIN @4 DESIGNATED 0
 SUBCOMPONENT @1
 
-ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
 
@@ -98,10 +98,7 @@ REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
 SUBCOMPONENT @1
 
-// shared code between options
-INCLUDE ~itemupgrade/lib/soa.tpa~
-
-ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/fl#utf8_lolwot.tra~
@@ -112,6 +109,9 @@ END ELSE BEGIN
 
 END
 
+// shared code between options
+INCLUDE ~itemupgrade/lib/soa.tpa~
+
 // compile these serially, not all at once
 COMPILE ~itemupgrade/crom/c2amul01.d~
 COMPILE ~itemupgrade/crom/c2anom01.d~ 
@@ -121,7 +121,7 @@ COMPILE ~itemupgrade/crom/c2blun01.d~
 COMPILE ~itemupgrade/crom/c2blun02.d~ 
 COMPILE ~itemupgrade/crom/c2blun03.d~ 
 COMPILE ~itemupgrade/crom/c2boot01.d~ 
-COMPILE ~itemupgrade/crom/c2boot02.d~ 
+COMPILE ~itemupgrade/crom/c2boot02.d~
 COMPILE ~itemupgrade/crom/c2boot03.d~ 
 COMPILE ~itemupgrade/crom/c2boot04.d~ 
 COMPILE ~itemupgrade/crom/c2bow01.d~  
@@ -146,7 +146,7 @@ COMPILE ~itemupgrade/crom/c2robe02.d~
 COMPILE ~itemupgrade/crom/c2robe03.d~ 
 COMPILE ~itemupgrade/crom/c2shld01.d~ 
 COMPILE ~itemupgrade/crom/c2shld02.d~ 
-COMPILE ~itemupgrade/crom/c2sper01.d~ 
+COMPILE ~itemupgrade/crom/c2sper01.d~
 COMPILE ~itemupgrade/crom/c2sper02.d~ 
 COMPILE ~itemupgrade/crom/c2sper03.d~ 
 COMPILE ~itemupgrade/crom/c2staf01.d~ 
@@ -170,10 +170,10 @@ COMPILE ~itemupgrade/crom/c2valy01.d~
 /////                                                  \\\\\
   
 BEGIN @4 DESIGNATED 1
-REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee~ @3 // ToB
+REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @3 // ToB
 SUBCOMPONENT @2
 
-ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
 
@@ -197,7 +197,7 @@ COPY_EXISTING ~botsmith.dlg~ ~override~
 /////                                                  \\\\\
 
 BEGIN @5 DESIGNATED 11
-REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee~ @3 // ToB
+REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @3 // ToB
 REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "french" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "polish" = 0) OR
@@ -205,7 +205,7 @@ REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
 SUBCOMPONENT @2
 
-ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/fl#utf8_lolwot.tra~
@@ -250,7 +250,7 @@ COMPILE ~itemupgrade/cespy/c2quiv02.d~
 COMPILE ~itemupgrade/cespy/c2quiv03.d~	
 COMPILE ~itemupgrade/cespy/c2ring01.d~	
 COMPILE ~itemupgrade/cespy/c2ring02.d~	
-COMPILE ~itemupgrade/cespy/c2ring03.d~	
+COMPILE ~itemupgrade/cespy/c2ring03.d~
 COMPILE ~itemupgrade/cespy/c2ring04.d~	
 COMPILE ~itemupgrade/cespy/c2robe01.d~	
 COMPILE ~itemupgrade/cespy/c2robe02.d~	
@@ -270,3 +270,17 @@ COMPILE ~itemupgrade/cespy/c2sw2h02.d~
 COMPILE ~itemupgrade/cespy/c2valy01.d~
 
 EXTEND_BOTTOM ~BOTSMITH.BCS~ ~itemupgrade/cespy/BOTSMITH.baf~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Cespenar audio                                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @7
+REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) @6
+REQUIRE_PREDICATE ((MOD_IS_INSTALLED ~setup-itemupgrade.tp2~ ~1~) OR (MOD_IS_INSTALLED ~setup-itemupgrade.tp2~ ~11~)) @8
+
+LAF HANDLE_AUDIO END
