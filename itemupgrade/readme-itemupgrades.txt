@@ -1,7 +1,7 @@
                              Baldur's Gate II
                            Item Upgrade Mod Pack
 		  Westley Weimer <weimer@cs.berkeley.edu>
-                             \/ Release 42 \/
+                             \/ Release 43 \/
 
                       http://www.weidu.org/item.html
 
