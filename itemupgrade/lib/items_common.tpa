@@ -33,6 +33,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2amul01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2amul01.itm~ ~override~
     SAY NAME2     @180
     SAY DESC      @181
+    PATCH_IF ee_game BEGIN
+    LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 318 target = 1 timing = 2 STR_VAR resource = wand13 END // ee protection from wand of cloudkill
+    END
 
   COPY ~itemupgrade/bam/c2amul01.bam~ ~override~
 
@@ -47,6 +50,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2anom01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2anom01.itm~ ~override~
     SAY NAME2     @166
     SAY DESC      @167
+    PATCH_IF ee_game BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9138 STR_VAR resource = ANOMEN END
+    END
 
   COPY ~itemupgrade/bam/c2anom01.bam~ ~override~
 
@@ -197,6 +203,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd1.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2hd1.itm~ ~override~
     SAY NAME2     @193
     SAY DESC      @194
+    PATCH_IF ee_game BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END
+    END
 
   COPY ~itemupgrade/bam/c2hd1.bam~ ~override~
 
@@ -207,6 +216,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd2.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2hd2.itm~ ~override~
     SAY NAME2     @195
     SAY DESC      @196
+    PATCH_IF ee_game BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END
+    END
 
 END
 
@@ -231,7 +243,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2helm02.itm THEN BEGIN
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME c2hide01.itm THEN BEGIN
-  
+
   COPY ~itemupgrade/itm/c2hide01.itm~ ~override~
     SAY NAME2     @140
     SAY DESC      @141
@@ -253,6 +265,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld01.itm THEN BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 =    55 timing = 2 END // prevent stun icon
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 =  1280 timing = 2 END // prevent 'stunned' string
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14043 timing = 2 END // prevent 'stun' string
+    END
+    PATCH_IF ee_game BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9144 STR_VAR resource = KELDORN END
     END
 
   COPY ~itemupgrade/bam/c2keld01.bam~ ~override~
@@ -276,6 +291,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld02.itm THEN BEGIN
       LPF DELETE_EFFECT INT_VAR match_opcode = 215 STR_VAR match_resource = spdispma END // DM visuals
       LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 =  48 END // remove icon: feeblemind
       LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 112 END // remove icon: deaf
+    END
+    PATCH_IF ee_game BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9144 STR_VAR resource = KELDORN END
     END
 
   COPY ~itemupgrade/bam/c2keld02.bam~ ~override~
@@ -553,6 +571,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2valy01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2valy01.itm~ ~override~
     SAY NAME2     @128
     SAY DESC      @129
+    PATCH_IF ee_game BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9158 STR_VAR resource = VALYGAR END
+    END
 
   COPY ~itemupgrade/bam/c2valy01.bam~ ~override~
   

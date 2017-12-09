@@ -1,22 +1,42 @@
 BACKUP ~itemupgrade/backup~
-AUTHOR ~weimer@cs.berkeley.edu or pcamagna@yahoo.com~
+AUTHOR ~http://forums.pocketplane.net/index.php/board,43.0.html~
 
 ALWAYS
 
-  ACTION_IF NOT VARIABLE_IS_SET cd_always THEN BEGIN
+  ACTION_IF NOT VARIABLE_IS_SET ee_game THEN BEGIN // just do this once per install
 
-    OUTER_SET cd_always = 1 // just do this once per install
+    ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
 
-    ACTION_DEFINE_ARRAY cdreload BEGIN setup lolwot END
-    LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR default_language = american tra_path = EVAL ~%MOD_FOLDER%/languages~ convert_array = cdreload reload_array = cdreload END
+      ACTION_DEFINE_ARRAY cdreload BEGIN setup lolwot END
+      LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR default_language = american tra_path = EVAL ~%MOD_FOLDER%/languages~ convert_array = cdreload reload_array = cdreload END
 
+      ACTION_IF (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
+                 ("%LANGUAGE%" STRING_COMPARE_CASE "french" = 0) OR
+                 ("%LANGUAGE%" STRING_COMPARE_CASE "german" = 0) OR
+                 ("%LANGUAGE%" STRING_COMPARE_CASE "polski" = 0) OR
+                 ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) BEGIN
+
+        OUTER_SET ee_game = 1 // ee game with actual setup_ee translation
+
+      END ELSE BEGIN
+
+        OUTER_SET ee_game = 2 // ee game without actual setup_ee translation
+
+      END
+
+    END ELSE BEGIN
+
+      OUTER_SET ee_game = 0
+
+    END
+  
   END
 
 END
 
-VERSION ~v42~
+VERSION ~v43~
 
-README ~itemupgrade/readme-itemupgrades.txt~
+README ~itemupgrade/readme-itemupgrades.%LANGUAGE%.txt~ ~itemupgrade/readme-itemupgrades.txt~ // use English if language-specific readme doesn't exist
 
 LANGUAGE ~American English~ 
   ~american~
@@ -27,12 +47,12 @@ LANGUAGE ~Francais (traduction de Artemidore et Cocobard et Sanctifer, (d'Oghmat
   ~itemupgrade/languages/american/setup.tra~
   ~itemupgrade/languages/french/setup.tra~
 
-LANGUAGE ~Deutsche (Übersetzung durch Maus & Frischauf & Lainer)~ 
+LANGUAGE ~Deutsche (Uebersetzung durch Maus & Frischauf & Lainer)~
   ~german~
   ~itemupgrade/languages/american/setup.tra~
   ~itemupgrade/languages/german/setup.tra~
 
-LANGUAGE ~Español (hecha por Clan DLAN, Ancalagon del Negro por Clan REO & ...)~ 
+LANGUAGE ~Espanol (hecha por Clan DLAN, Ancalagon del Negro por Clan REO & ...)~
   ~spanish~
   ~itemupgrade/languages/american/setup.tra~
   ~itemupgrade/languages/spanish/setup.tra~
@@ -67,7 +87,7 @@ LANGUAGE ~Korean (web2air)~
 BEGIN @4 DESIGNATED 0
 SUBCOMPONENT @1
 
-ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+ACTION_IF ee_game THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
 
@@ -93,12 +113,12 @@ COPY_EXISTING ~wsmith01.dlg~ ~override~
 BEGIN @5 DESIGNATED 10
 REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "french" = 0) OR
-                   ("%LANGUAGE%" STRING_COMPARE_CASE "polish" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "polski" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "russian" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
 SUBCOMPONENT @1
 
-ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+ACTION_IF ee_game THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/fl#utf8_lolwot.tra~
@@ -173,7 +193,7 @@ BEGIN @4 DESIGNATED 1
 REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @3 // ToB
 SUBCOMPONENT @2
 
-ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+ACTION_IF ee_game THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
 
@@ -200,12 +220,12 @@ BEGIN @5 DESIGNATED 11
 REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @3 // ToB
 REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "french" = 0) OR
-                   ("%LANGUAGE%" STRING_COMPARE_CASE "polish" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "polski" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "russian" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
 SUBCOMPONENT @2
 
-ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+ACTION_IF ee_game THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/fl#utf8_lolwot.tra~

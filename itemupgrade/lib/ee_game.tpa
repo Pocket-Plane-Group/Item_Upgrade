@@ -1,0 +1,135 @@
+// Available usability patterns
+/*
+OUTER_TEXT_SPRINT regexpUsable_EN ~^.*[Uu]sable by ?:\(.*\|[%WNL%]*\)*~
+OUTER_TEXT_SPRINT regexpUsable_DE ~^.*[Vv]erwendet werden von ?:\(.*\|[%WNL%]*\)*~
+OUTER_TEXT_SPRINT regexpUsable_ES ~^.*[Pp]uede usar ?:\(.*\|[%WNL%]*\)*~
+OUTER_TEXT_SPRINT regexpUsable_FR ~^.*[Uu]tilisable par ?:\(.*\|[%WNL%]*\)*~
+OUTER_TEXT_SPRINT regexpUsable_KO ~^.*사용\( *불가\)? ?:\(.*\|[%WNL%]*\)*~
+OUTER_TEXT_SPRINT regexpUsable_PL ~^.*[Mm]oże używać ?:\(.*\|[%WNL%]*\)*~
+OUTER_TEXT_SPRINT regexpUsable_RU ~^.*[Ии]спользуется ?:\(.*\|[%WNL%]*\)*~
+*/
+
+ACTION_IF ("%LANGUAGE%" STRING_COMPARE_CASE "russian" = 0) BEGIN
+
+  OUTER_TEXT_SPRINT regexpUsable ~^.*[Ии]спользуется ?:\(.*\|[%WNL%]*\)*~ // russian
+
+END ELSE BEGIN
+
+  OUTER_TEXT_SPRINT regexpUsable ~^.*사용\( *불가\)? ?:\(.*\|[%WNL%]*\)*~ // korean
+
+END
+
+OUTER_TEXT_SPRINT regexpUsable ~^.*[Uu]sable by ?:?\(.*\|[%WNL%]*\)*~ 
+
+/**
+ * Attempts to remove usability section from the specified (item description) string.
+ *
+ * INT_VAR autodetect Set to nonzero to update string only if an Enhanced Edition game is detected.
+ *                    (Default: 1)
+ * STR_VAR desc       Text that should be updated. Can be either a literal string, tra reference (@1234)
+ *                    or strref value (#1234).
+ * STR_VAR title      The item name to remove from the top of description text (if any).
+ * STR_VAR regexp     The regular expression used to match the string section that will be removed.
+ *                    Use one of the predefined regexp definitions for best results.
+ * RET updated_desc   The updated string. Returns an empty string on error.
+ */
+DEFINE_PATCH_FUNCTION ITEM_DESC_TO_EE
+INT_VAR
+  autodetect  = 1
+STR_VAR
+  desc    = ~~
+  title   = ~~
+  regexp  = ~~
+RET
+  updated_desc
+BEGIN
+  TEXT_SPRINT updated_desc ~~
+
+  // resolving string references
+  LPF GET_STRING_REFERENCE STR_VAR refString = EVAL ~%desc%~ RET string END
+  TEXT_SPRINT desc ~%string%~
+  LPF GET_STRING_REFERENCE STR_VAR refString = EVAL ~%title%~ RET string END
+  TEXT_SPRINT title ~%string%~
+  LPF ESCAPE_REGEXP STR_VAR string = EVAL ~%title%~ RET result END
+  TEXT_SPRINT title ~%result%~
+
+  PATCH_IF (NOT autodetect OR GAME_IS ~bgee bg2ee eet~) BEGIN
+    INNER_PATCH_SAVE updated_desc ~%desc%~ BEGIN
+      PATCH_IF (NOT ~%title%~ STRING_EQUAL ~~) BEGIN
+        REPLACE_TEXTUALLY ~^[ %TAB%]*%title%[ %TAB%]*[%WNL%]+~ ~~
+      END
+      REPLACE_TEXTUALLY ~%regexp%~ ~~
+    END
+  END ELSE BEGIN
+    TEXT_SPRINT updated_desc ~%desc%~
+  END
+END
+
+
+// Internally used to resolve string references into literal strings
+DEFINE_PATCH_FUNCTION GET_STRING_REFERENCE
+STR_VAR refString = ~~
+RET string
+BEGIN
+  TEXT_SPRINT string ~~
+
+  PATCH_IF (~%refString%~ STRING_MATCHES_REGEXP ~[@#]-?[0-9]+~ != 0) BEGIN
+    PATCH_IF (~%refString%~ STRING_CONTAINS_REGEXP ~"~ != 0) BEGIN
+      TEXT_SPRINT refString ~"%refString%"~
+    END ELSE PATCH_IF (~%refString%~ STRING_CONTAINS_REGEXP "~" != 0) BEGIN
+      TEXT_SPRINT refString "~%refString%~"
+    END ELSE BEGIN
+      TEXT_SPRINT refString "~~~~~%refString%~~~~~"
+    END
+  END
+
+  INNER_ACTION BEGIN
+    <<<<<<<< .../inlined/a7_get_string.tpp
+      SPRINT resolved
+    >>>>>>>>
+    SILENT
+    COPY - ~.../inlined/a7_get_string.tpp~ ~.../inlined/a7_get_string.tpp~
+      INSERT_BYTES SOURCE_SIZE (STRING_LENGTH ~%refString%~)
+      WRITE_ASCIIE SOURCE_SIZE ~%refString%~
+    VERBOSE
+  END
+
+  PATCH_REINCLUDE ~.../inlined/a7_get_string.tpp~
+
+  TEXT_SPRINT string ~%resolved%~
+END
+
+
+// Makes sure that the given string does not contain any special regular expression characters
+DEFINE_PATCH_FUNCTION ESCAPE_REGEXP
+STR_VAR string = ~~
+RET result
+BEGIN
+  INNER_PATCH_SAVE result ~%string%~ BEGIN
+    REPLACE_TEXTUALLY EXACT_MATCH ~?~ ~\?~
+    REPLACE_TEXTUALLY EXACT_MATCH ~*~ ~\*~
+    REPLACE_TEXTUALLY EXACT_MATCH ~+~ ~\+~
+    REPLACE_TEXTUALLY EXACT_MATCH ~[~ ~\[~
+    REPLACE_TEXTUALLY EXACT_MATCH ~]~ ~\]~
+  END
+END
+
+
+
+
+
+ACTION_FOR_EACH item IN
+  c2amul01 c2anom01 c2ax1h01 c2belt01 c2blun01 c2blun02 c2blun03 c2boot01 c2boot02 c2boot03 c2boot04 c2bow01 c2brac01 c2chan01 c2dagg01 c2hd1 c2hd2 c2helm01 
+  c2helm02 c2hide01 c2keld01 c2keld02 c2kit c2mazz01 c2plat01 c2ring01 c2ring02 c2ring03 c2ring04 c2robe01 c2robe02 c2robe03 c2shld01 c2shld02 c2sper01 
+  c2sper02 c2sper03 c2staf01 c2staf02 c2sw1h01 c2sw1h02 c2sw1h03 c2sw2h01 c2valy01
+  c2leat01 c2quiv01 c2quiv02 c2quiv03 c2sw2h02 // these five are tob-only
+  BEGIN
+
+  COPY_EXISTING ~%item%.itm~ ~override~
+    READ_STRREF 0x0c itm_title
+    READ_STRREF 0x54 itm_desc
+    LPF ITEM_DESC_TO_EE STR_VAR desc = EVAL ~%itm_desc%~ title = EVAL ~%itm_title%~ regexp = EVAL ~%regexpUsable%~ RET updated_desc END
+    SAY 0x54 ~%updated_desc%~
+    BUT_ONLY IF_EXISTS
+
+END

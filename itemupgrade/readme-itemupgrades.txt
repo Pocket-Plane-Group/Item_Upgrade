@@ -663,17 +663,17 @@ Version 33 (updated by CamDawg):
         * Fixed broken index for c2blun02.itm. On OS X, a bad index causes
           BG2 to crash to desktop. Additionally, the indexing error can
 	  cause other mod installations (i.e. Quest Pack) to fail.
-	* Changes to Carsomyr and p3-12m4.itm (demon weapon) are now done
+        * Changes to Carsomyr and p3-12m4.itm (demon weapon) are now done
 	  via patch instead of overwrite
-	* Lilarcor +5, like the original, was permanently setting an
+        * Lilarcor +5, like the original, was permanently setting an
 	  immunity to the confusion animation instead of simply preventing
 	  it while equipped. The original Lilarcor is fixed by the BG2
 	  Fixpack.
-	* Severl items had minor effects (such as a color set) failing due
+        * Severl items had minor effects (such as a color set) failing due
 	  to incorrect timings and magic resistance checks
-	* Closed usability loopholes on Entropy, Chaos, Hallowed Redeemer +5 
+        * Closed usability loopholes on Entropy, Chaos, Hallowed Redeemer +5
 	  and Sword of Arvoreen +5
-	* Upgraded Corthala Family Armor now displays Mind Shield icon
+        * Upgraded Corthala Family Armor now displays Mind Shield icon
 Version 34 (updated by CamDawg):
         * Fixed broken index for c2staf01.itm. On OS X, a bad index causes
           BG2 to crash to desktop. Additionally, the indexing error can
@@ -685,102 +685,111 @@ Version 36:
 Version 37:
         * Ditto.
 Version 38:	(updated by Lollorian)
-	* IU can now also use standard BGII-ToB upgrading methods as separate 
+        * IU can now also use standard BGII-ToB upgrading methods as separate
 	  components (translations by:
 		- Ancalagon el Negro (spanish)
 		- morgan (polski) - also found typos in the english .tra AND revised the
 		  original polish setup.tra
 		- Hawkmoon, Aldark & prowler (russian)
-	* Added README and VERSION tags
-	* Added Lich's fixed c2ax1h01.itm 
+        * Added README and VERSION tags
+        * Added Lich's fixed c2ax1h01.itm
 	  (http://kerzenburg.baldurs-gate.eu/showpost.php?p=903720&postcount=1008)
-	* Expanded item checks for Gloves of Master Thief, Amulet of Ilmater, 
+        * Expanded item checks for Gloves of Master Thief, Amulet of Ilmater,
 	  Sorcerian Ring and Girdle of Glory
-	* Smiths now properly destroy Aeger's Hide +3 (used to destroy Human Flesh
+        * Smiths now properly destroy Aeger's Hide +3 (used to destroy Human Flesh
 	  +5)
-	* Smiths no longer take Poisoned Throwing Daggers when doing Haer'Dalis' 
+        * Smiths no longer take Poisoned Throwing Daggers when doing Haer'Dalis'
 	  upgrade
 Version 39: (updated by Lollorian)
-	* repairs ( http://forums.pocketplane.net/index.php/topic,27176.msg327010.html#msg327010 )
+        * repairs ( http://forums.pocketplane.net/index.php/topic,27176.msg327010.html#msg327010 )
 	  ( http://forums.pocketplane.net/index.php/topic,27541.msg326886.html#msg326886 )
-	* French translation repairs from Sanctifer of the d'Oghmatiques 
-	* WeiDU update to v231
+        * French translation repairs from Sanctifer of the d'Oghmatiques
+        * WeiDU update to v231
 Version 40: (updated by CamDawg)
-          * Items were run through the immunity effect batch fixes from the BG2 Fixpack since
-            most provided incomplete protections: Amulet of Ilmater, Tower of Iron Will, Citadel
-            Helmet, Improved Firecam Plate, Sword of Arvoreen, Shield of Harmony, Throwing Unicorn
-            Spear, Corthala Family Armor, Lilarcor, and Water's Talon
-          * Delryn Family Shield now casts PFNM directly so that it'll keep up with compatibility,
-            i.e. new projectiles from 1PP and elsewhere
-          * Azuredge copied over the same bug as the original Azuredge in that its 'Undead Destroyed'
-            message would never be seen due to effect misordering
-          * Closed exploit where Daystar, Azuredge and Skullcrusher's specific bonuses would apply 
-            to the other equipped weapon if dual-wielded. This also addresses a bug where these 
-            items would hurt the wielder when equipped if the BG2 Fixpack was installed
-          * Daystar's damage was incorrect vs. evil undead
-          * Blizzard Boots were using the Resist Fire/Cold portrait icon instead of Protection from
-            Cold
-          * Redundant AC bonus from Gloves of the Master Thief removed
-          * Quietus could cause blindness AND sleep on 1% of hits
-          * Elves and half-elves will now have their regular sleep/charm immunity from the 
-            upgraded items if BG2 Fixpack is installed
-          * Improved Kitthix's web and poison attacks had an incorrect duration
-          * Ring of Elemental Control now casts Improved Invisibility directly instead of simulating
-            it (compatibility); the charm effect is now limited to elementals
-          * The Ring of Wizardry and the Sorcerian Ring can no longer be worn concurrently (Wes had
-            coded this, but left a loophole open)
-          * Shield of Harmony had the wrong AC vs. missile attacks
-          * All of the upgraded spears had the wrong range, wrong attack animation mix, and were
-            doing pure piercing damage when thrown instead of the proper missile/piercing
-          * The charm animal ability of the Staff of the Woodlands was causing spurious save messages
-          * Power levels on the upgraded Celestial Fury are now correct
-          * Improved Human Flesh had a spurious move silently bonus
-          * The dispel-on-hit abilities of the Hallowed Redeemer and Unholy Reaver weren't fully
-            dispelling all effects
-          * The branches for the Shield of Harmony update (in the compatibility version of both
-            components) were reversed, preventing upgrades when you had all components and 
-            allowing them with only the shield
-          * All upgrades now account for the 'alternate' versions of items created by the P&P
-            Protection Items and Two-Handed Katana components of BG2 Tweaks
-          * All items now have relevant tooltip entries for their abilities
-          * The new magical armor and protection items can no longer be worn together
-          * The item icon for Teleomortis had a pink shadow when moved
-          * The Bag of Plenty icon was not transparent when in inventory
-          * The existing Quiver of Plenty now uses the restored icon found by Unfinished Business; 
-            the upgraded version now uses a variant of the restored icon
-          * Quiver of Plenty, Case of Plenty, and Bag of Plenty upgrades were allowing use
-            without non-proficiency penalties
-          * Quiver of Plenty and Case of Plenty now use the correct ground icons
-          * The Enchanced Robes of the Archmagi now provide magic resistance portrait icons
-          * The SoA and ToB components are now wholly independent
-          * Other minor fixes, such as a few items with incorrect weights or usability flags
-          * Minor description fixes, such as multiple THACO > THAC0 typos
-          * Future-proofed descriptions for BG2EE
+        * Items were run through the immunity effect batch fixes from the BG2 Fixpack since
+          most provided incomplete protections: Amulet of Ilmater, Tower of Iron Will, Citadel
+          Helmet, Improved Firecam Plate, Sword of Arvoreen, Shield of Harmony, Throwing Unicorn
+          Spear, Corthala Family Armor, Lilarcor, and Water's Talon
+        * Delryn Family Shield now casts PFNM directly so that it'll keep up with compatibility,
+          i.e. new projectiles from 1PP and elsewhere
+        * Azuredge copied over the same bug as the original Azuredge in that its 'Undead Destroyed'
+          message would never be seen due to effect misordering
+        * Closed exploit where Daystar, Azuredge and Skullcrusher's specific bonuses would apply 
+          to the other equipped weapon if dual-wielded. This also addresses a bug where these 
+          items would hurt the wielder when equipped if the BG2 Fixpack was installed
+        * Daystar's damage was incorrect vs. evil undead
+        * Blizzard Boots were using the Resist Fire/Cold portrait icon instead of Protection from
+          Cold
+        * Redundant AC bonus from Gloves of the Master Thief removed
+        * Quietus could cause blindness AND sleep on 1% of hits
+        * Elves and half-elves will now have their regular sleep/charm immunity from the 
+          upgraded items if BG2 Fixpack is installed
+        * Improved Kitthix's web and poison attacks had an incorrect duration
+        * Ring of Elemental Control now casts Improved Invisibility directly instead of simulating
+          it (compatibility); the charm effect is now limited to elementals
+        * The Ring of Wizardry and the Sorcerian Ring can no longer be worn concurrently (Wes had
+          coded this, but left a loophole open)
+        * Shield of Harmony had the wrong AC vs. missile attacks
+        * All of the upgraded spears had the wrong range, wrong attack animation mix, and were
+          doing pure piercing damage when thrown instead of the proper missile/piercing
+        * The charm animal ability of the Staff of the Woodlands was causing spurious save messages
+        * Power levels on the upgraded Celestial Fury are now correct
+        * Improved Human Flesh had a spurious move silently bonus
+        * The dispel-on-hit abilities of the Hallowed Redeemer and Unholy Reaver weren't fully
+          dispelling all effects
+        * The branches for the Shield of Harmony update (in the compatibility version of both
+          components) were reversed, preventing upgrades when you had all components and 
+          allowing them with only the shield
+        * All upgrades now account for the 'alternate' versions of items created by the P&P
+          Protection Items and Two-Handed Katana components of BG2 Tweaks
+        * All items now have relevant tooltip entries for their abilities
+        * The new magical armor and protection items can no longer be worn together
+        * The item icon for Teleomortis had a pink shadow when moved
+        * The Bag of Plenty icon was not transparent when in inventory
+        * The existing Quiver of Plenty now uses the restored icon found by Unfinished Business; 
+          the upgraded version now uses a variant of the restored icon
+        * Quiver of Plenty, Case of Plenty, and Bag of Plenty upgrades were allowing use
+          without non-proficiency penalties
+        * Quiver of Plenty and Case of Plenty now use the correct ground icons
+        * The Enchanced Robes of the Archmagi now provide magic resistance portrait icons
+        * The SoA and ToB components are now wholly independent
+        * Other minor fixes, such as a few items with incorrect weights or usability flags
+        * Minor description fixes, such as multiple THACO > THAC0 typos
+        * Future-proofed descriptions for BG2EE
 Version 41: (updated by CamDawg)
-          * Added French translation - thanks to Sanctifer, of the d'Oghmatiques
-          * Added EE-specific Polish translation - thanks to Cahir
-          * Character sets will now be converted as appropriate for EE games
-          * Suppressed 'Revised versions' options for languages that do not have the translation
-          * Amulet of Ilmater was incorrectly providing immunity from disease damage
-          * Corrected weight of Teleomortis, Quietus, Citadel Helmet, and Tower of Iron Will
-          * Corrected speed factor of Inevitable Entropy and Daystar +4
-          * Creatures of 4 HD or less were not getting a save chance against Creeping Chaos' 
-            confusion effect
-          * Tower of Iron Will and Shield of Harmony +3  were missing a handful of psionic
-            protections
-          * Free action effect on the Improved Firecam Full-Plate Armor and the Sword of 
-            Arvoreen +5 needed some touchups
-          * Improved Human Flesh was not protecting its wearer from poison
-          * The Bag of Plenty +3 was providing +4 to-hit
-          * Celestial Fury +5's stun effect now provides combat feedback
-          * Fixed power levels on Water's Talon +4
-          * Ring of Wizardry upgrade now accounts for the alternate introduced by EE/Fixpack v11
+        * Added French translation - thanks to Sanctifer, of the d'Oghmatiques
+        * Added EE-specific Polish translation - thanks to Cahir
+        * Character sets will now be converted as appropriate for EE games
+        * Suppressed 'Revised versions' options for languages that do not have the translation
+        * Amulet of Ilmater was incorrectly providing immunity from disease damage
+        * Corrected weight of Teleomortis, Quietus, Citadel Helmet, and Tower of Iron Will
+        * Corrected speed factor of Inevitable Entropy and Daystar +4
+        * Creatures of 4 HD or less were not getting a save chance against Creeping Chaos' 
+          confusion effect
+        * Tower of Iron Will and Shield of Harmony +3  were missing a handful of psionic
+          protections
+        * Free action effect on the Improved Firecam Full-Plate Armor and the Sword of 
+          Arvoreen +5 needed some touchups
+        * Improved Human Flesh was not protecting its wearer from poison
+        * The Bag of Plenty +3 was providing +4 to-hit
+        * Celestial Fury +5's stun effect now provides combat feedback
+        * Fixed power levels on Water's Talon +4
+        * Ring of Wizardry upgrade now accounts for the alternate introduced by EE/Fixpack v11
 Version 42: (updated by CamDawg)
-          * The mod now accounts for EET games
-          * v41 was using an outdated version of the Polish translation (Cam's fault) which was
-            causing text issues (at best) or crashes (at worst) for Polish players
-          * Cam was also using an older French translation.   
-          * The Cespenar audio, previously available as a separate download, is now integrated
-            into the mainline mod. The audio is English-only.
-          * The English item descriptions for EE games have been revised to better fit in with
-            the EE style  
+        * The mod now accounts for EET games
+        * v41 was using an outdated version of the Polish translation (Cam's fault) which was
+          causing text issues (at best) or crashes (at worst) for Polish players
+        * Cam was also using an older French translation.   
+        * The Cespenar audio, previously available as a separate download, is now integrated
+          into the mainline mod. The audio is English-only.
+        * The English item descriptions for EE games have been revised to better fit in with
+          the EE style
+Version 43: (updated by CamDawg)
+        * Polish translation should no longer crash EE games (for real this time)
+        * argent77 had made a macro to help EE-ify item descriptions from vanilla item
+          descriptions; this is now used for the Korean and Russian translations since
+          they lack a dedicated, EE-specific translation
+        * NPC-restricted items will now use the same restriction schemes as their parent
+          items for EE games
+        * Fixed a bug where the some install options were not available for Polish players
+        * Items which provide immunity to poison now also block Cloudkill
