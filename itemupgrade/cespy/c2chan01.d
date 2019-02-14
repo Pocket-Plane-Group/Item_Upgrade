@@ -8,11 +8,11 @@ APPEND BOTSMITH
 			OR(3)
 				!PartyHasItem("scaler")
 				NumItemsPartyLT("misc22",3)
-				NumItemsPartyLT("scrl1e",3)~ THEN GOTO XO#ItemUp01
+				NumItemsPartyLT("misc16",3)~ THEN GOTO XO#ItemUp01
 		IF ~PartyHasItem("chan14")
 			PartyHasItem("scaler")
 			NumItemsPartyGT("misc22",2)
-			NumItemsPartyGT("scrl1e",2)~ THEN GOTO XO#ItemUp02
+			NumItemsPartyGT("misc16",2)~ THEN GOTO XO#ItemUp02
 	END
   
 	IF ~~ THEN BEGIN XO#ItemUp01 SAY @56788100

@@ -793,3 +793,6 @@ Version 43: (updated by CamDawg)
           items for EE games
         * Fixed a bug where the some install options were not available for Polish players
         * Items which provide immunity to poison now also block Cloudkill
+Version 44: (updated by CamDawg)
+        * Fixed bug where the Incarnadine Elven Chain upgrade asked for three fire agate gems,
+          but actually checked and used Dispel Magic scrolls. 
