@@ -10,7 +10,7 @@ call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 set "mod_name=Item Upgrade"
-set mod_version=v43
+set mod_version=v44
 set mod_folder=itemupgrade
 
 REM /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
@@ -26,6 +26,7 @@ REM /* the mod_readme link should point to the online readme and work fine as-is
 set ico_folder=%mod_folder%\backup
 set audio_folder=%mod_folder%\audio
 set tispack_folder=%mod_folder%\tiz
+set tile2ee_folder=%mod_folder%\tools\tile2ee
 set iconv_folder=%mod_folder%\languages\iconv
 set mod_readme=http://weidu.org/c2/README-ItemUpgrades.txt
 
