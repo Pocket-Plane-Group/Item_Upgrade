@@ -1,7 +1,7 @@
                              Baldur's Gate II
                            Item Upgrade Mod Pack
 		  Westley Weimer <weimer@cs.berkeley.edu>
-                             \/ Release 43 \/
+                             \/ Release 44 \/
 
                       http://www.weidu.org/item.html
 
@@ -796,6 +796,7 @@ Version 43: (updated by CamDawg)
 Version 44: (updated by CamDawg)
         * Fixed bug where the Incarnadine Elven Chain upgrade asked for three fire agate gems,
           but actually checked and used Dispel Magic scrolls. 
-        * Updated the Sorcerian Ring to account for the alternate in EE/newer Fixpack games. 
+        * Updated the Sorcerian Ring to account for the alternate Rings of Wizardry (aka
+          Reaching Ring) in EE/newer Fixpack games. 
         * Lowercased all sound references in dialogue to fix audio issues on case-sensitive
           file systems. 
