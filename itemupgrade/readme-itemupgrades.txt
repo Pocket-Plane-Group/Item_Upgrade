@@ -796,3 +796,4 @@ Version 43: (updated by CamDawg)
 Version 44: (updated by CamDawg)
         * Fixed bug where the Incarnadine Elven Chain upgrade asked for three fire agate gems,
           but actually checked and used Dispel Magic scrolls. 
+        * Updated the Sorcerian Ring to account for the alternate in EE/newer Fixpack games. 

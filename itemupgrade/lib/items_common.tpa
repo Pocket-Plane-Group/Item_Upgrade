@@ -397,8 +397,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring04.itm THEN BEGIN
 
   COPY ~itemupgrade/bam/c2ring04.bam~ ~override~
   
-  COPY_EXISTING ~ring08.itm~  ~override~
-                ~ring08a.itm~ ~override~
+  COPY_EXISTING ~ring08.itm~   ~override~
+                ~ring08a.itm~  ~override~ // origin fixpack dupe (v10)
+                ~ohringwi.itm~ ~override~ // ee/new fixpack dupe (v11+)
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 180 target = 1 parameter1 = 53012 timing = 2 resist_dispel = 2 STR_VAR resource = c2ring04 END
     BUT_ONLY IF_EXISTS
 
