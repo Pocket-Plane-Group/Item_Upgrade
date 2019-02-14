@@ -192,198 +192,198 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 
 // Cespy
 
-@567840 = ~¿Por qué tenéis tantos anillos? ¿Tenéis montones de esposas en otro lado? ¡¡¡Vergüenza, vergüenza, Cespenar CONOCE VUESTRO NOMBRE!!!.~ [FWCESP00]
-~¿Por qué tenéis tantos anillos? ¿Tenéis montones de esposos en otro lado? ¡¡¡Vergüenza, vergüenza, Cespenar CONOCE VUESTRO NOMBRE!!!.~ [FWCESP00]
+@567840 = ~¿Por qué tenéis tantos anillos? ¿Tenéis montones de esposas en otro lado? ¡¡¡Vergüenza, vergüenza, Cespenar CONOCE VUESTRO NOMBRE!!!.~ [fwcesp00]
+~¿Por qué tenéis tantos anillos? ¿Tenéis montones de esposos en otro lado? ¡¡¡Vergüenza, vergüenza, Cespenar CONOCE VUESTRO NOMBRE!!!.~ [fwcesp00]
 @5678840 = ~Un Anillo de protección +1 se puede combinar con un Anillo de regeneración. Pero necesitaréis 10.000 piezas de oro y además un Diamante para el proceso.~
 @5678940 = ~Como sea, podemos coger un Anillo de regeneración y un Anillo de protección +1 y hacerlos uno. Ahorrará espacio en vuestra mano. Sólo necesitamos 10.000 piezas de oro y fundir un diamante en ellos. ¿Queréis hacerlo?~
 
-@567841 = ~Oh chico, seguro usáis un montón de brillantes en vuestros dedos. A Cespenar le gusta el aspecto, oyó que eso estaba en esta temporada.~ [FWCESP01]
-~Oh chica, seguro usáis un montón de brillantes en vuestros dedos. A Cespenar le gusta el aspecto, oyó que eso estaba en esta temporada.~ [FWCESP01]
+@567841 = ~Oh chico, seguro usáis un montón de brillantes en vuestros dedos. A Cespenar le gusta el aspecto, oyó que eso estaba en esta temporada.~ [fwcesp01]
+~Oh chica, seguro usáis un montón de brillantes en vuestros dedos. A Cespenar le gusta el aspecto, oyó que eso estaba en esta temporada.~ [fwcesp01]
 @5678841 = ~Un Anillo de protección +2 se puede combinar con un Anillo de regeneración. Pero necesitaréis 20.000 piezas de oro y además un Diamante para el proceso.~
 @5678941 = ~Como sea, podemos coger un Anillo de regeneración y un Anillo de protección +2 y hacerlos uno. Ahorrará espacio en vuestra mano. Sólo necesitamos 20.000 piezas de oro y derretir un diamante. ¿Queréis hacerlo?.~
 
-@567842 = ~Vos no necesitáis un joyero, ¡necesitáis un baúl para las joyas! ¿¡Tal vez también os gustaría tener una en cada dedo del pie!?~ [FWCESP02]
+@567842 = ~Vos no necesitáis un joyero, ¡necesitáis un baúl para las joyas! ¿¡Tal vez también os gustaría tener una en cada dedo del pie!?~ [fwcesp02]
 @5678842 = ~¡Oooh! Cespanar tiene la fórmula para combinar los anillos elemantales de Fuego, Tierra y Aire... Necesitaréis unos pergaminos de Protección contra Cubrirdepiedras, Cosas calientes, y Desintegrar, y 20.000 piezas de oro.~
 @5678942 = ~¿Cómo Cespenar toma esos anillos de Aire, Tierra y Fuego y los convierte en un gran Anillo de Maestría Elemental? Hacer un anillo es más sencillo que hacer tres. La fórmula necesita los Pergaminos de protección contra Cubrirdepiedras, Cosas calientes, y Desintegrar, y 20.000 piezas de oro. Cespenar no fija los precios, sólo sigue las reglas.~
 
-@567843 = ~¿Os habéis dado cuenta de que los elementales nunca pagan la cuenta? Lo juro, a veces desearía tener un de essos bastones para darles una paliza... ¡ey! ¿Vos tenéis los tres?~ [FWCESP03]
+@567843 = ~¿Os habéis dado cuenta de que los elementales nunca pagan la cuenta? Lo juro, a veces desearía tener un de essos bastones para darles una paliza... ¡ey! ¿Vos tenéis los tres?~ [fwcesp03]
 @5678843 = ~Los bastones golpear elementales... ¡Encontrad los tres; Fuego, Aire y Tierra, y podré haceros algo que os dará el poder definitivo para golpear! Oh, también necesitáis 20.000 piezas de oro.~
 @5678943 = ~Los bastones para golpear a elementales de tierra, fuego y aire no son gran cosa para vos ahora, pero Cespenar hace el gran Bastón de maestría elemental, y entonces todos los elementales querrán compraros el almuerzo, o ¡¡¡CATAPUM!!!! También os costará 20.000 de oro, pero Cespenar tiene precios algo altos. ¿Sí?~
 
-@567844 = ~¡AAAAAHHHHH! ¡Vos le robasteis a Cespenar! Jee je je, ¡sólo bromeaba!~ [FWCESP04]
+@567844 = ~¡AAAAAHHHHH! ¡Vos le robasteis a Cespenar! Jee je je, ¡sólo bromeaba!~ [fwcesp04]
 @5678844 = ~Ohhhh, ¡unas botas sigilosas! ¡Cespanar conoce una maravillosa fórmula para las botas sigilosas! Necesitaréis unas Botas de velociad, una Piedra de Bribón y 10.000 de oro.~
 @5678944 = ~Marchando, Cespenar puede tomar las botas sigilosas y las Botas de velocidad y os hará un calzado de velocidad y sigilo. Bonito seguro que es la palabra correcta, pero Bhaal nunca permitió a Cespenar leer muchos libros (lloriqueo). De cualquier forma, espero que hayáis guardado Piedras de Bribón, porque os costará 10.000 piezas de oro más una de esas piedras brillantes.~
 
-@567845 = ~Hmmm. ¿Botas aislantes? ¿Necesitáis meter huevos o algo aquí dentro? ¿O tal vez os vayáis a jugar al Valle de Viento Helado?~ [FWCESP05]
+@567845 = ~Hmmm. ¿Botas aislantes? ¿Necesitáis meter huevos o algo aquí dentro? ¿O tal vez os vayáis a jugar al Valle de Viento Helado?~ [fwcesp05]
 @5678845 = ~Ooooh, ¡unas tupidas Botas del Norte! ¡Cespanar conoce una maravillosa fórmula para estas tupidas botas! Necesitaréis unas Botas de velociad, una Piedra de Bribón y 10.000 de oro.~
 @5678945 = ~A menos de que planeéis que os crezcan muchos más pies, Cespenar tomará las Botas del Norte y las Botas de Velocidad y os hará unas Botas de la Tormenta. Hacen las mismas cosas que las botas por separado. Cee la vii. ¿Acaso tenéis 10.000 piezas de oro y una de esas Piedras del Bribón?~
 
-@567846 = ~¡Fiiiuuuu! Mágicas o no, esas botas de caucho apestan con los sudorosos pies del Gran Señor. ¿Sabéis que la mejor manera para evitar un relámpago es estando en otro lado? Es verdad.~ [FWCESP06]
-~¡Fiiiuuuu! Mágicas o no, esas botas de caucho apestan con los sudorosos pies de la Grana Señora. ¿Sabéis que la mejor manera para evitar un relámpago es estando en otro lado? Es verdad.~ [FWCESP06]
+@567846 = ~¡Fiiiuuuu! Mágicas o no, esas botas de caucho apestan con los sudorosos pies del Gran Señor. ¿Sabéis que la mejor manera para evitar un relámpago es estando en otro lado? Es verdad.~ [fwcesp06]
+~¡Fiiiuuuu! Mágicas o no, esas botas de caucho apestan con los sudorosos pies de la Grana Señora. ¿Sabéis que la mejor manera para evitar un relámpago es estando en otro lado? Es verdad.~ [fwcesp06]
 @5678846 = ~Como sea, las Botas de la desolación son muy usadas, pero muy lentas. Cespanar puede hacerlas más rápidas con unas Botas de velocidad. Probablemente necesitaría una Piedra de Bribón y también unas 10.000 piezas de oro.~
 @5678946 = ~Cespenar conoce a un Sacerdote de Talos que puede haceros los Talones del Señor de la Tormenta a partir de las Botas de velocidad y de las de la Desolación. No le deis un nombre estúpida, se verá bien entre los hombres. Él necesita 10.000 piezas de oro y además una Piedra de Bribón.~
 
-@567847 = ~Cespenar sabe lo que dar al Gran Señor por su cumpleaños: ¡árboles de zapatos! ¿Estáis seguro de que no os equivocasteis de profesión? ¿Tal vez prefiráis ser zapatero o herrero o algo de eso? ¡No hay nada de malo en un cambio de carrera, serenaos, joven <PRO_MANWOMAN>!~ [FWCESP07]
-~Cespenar sabe lo que dar a la Grana Señora por su cumpleaños: ¡árboles de zapatos! ¿Estáis segura de que no os equivocasteis de profesión? ¿Tal vez prefiráis ser zapatera o herrera o algo de eso? ¡No hay nada de malo en un cambio de carrera, serenaos, joven <PRO_MANWOMAN>!~ [FWCESP07]
+@567847 = ~Cespenar sabe lo que dar al Gran Señor por su cumpleaños: ¡árboles de zapatos! ¿Estáis seguro de que no os equivocasteis de profesión? ¿Tal vez prefiráis ser zapatero o herrero o algo de eso? ¡No hay nada de malo en un cambio de carrera, serenaos, joven <PRO_MANWOMAN>!~ [fwcesp07]
+~Cespenar sabe lo que dar a la Grana Señora por su cumpleaños: ¡árboles de zapatos! ¿Estáis segura de que no os equivocasteis de profesión? ¿Tal vez prefiráis ser zapatera o herrera o algo de eso? ¡No hay nada de malo en un cambio de carrera, serenaos, joven <PRO_MANWOMAN>!~ [fwcesp07]
 @5678847 = ~Así que, tenéis las Botas de elusión. Cespanar conoce una fórmula secreta para las Botas del Avispón que os permitirán zumbar como avispas. Necesitaréis unas Botas de velocidad, una Piedra de Bribón y sólo 20.000 de oro. Jee jee.~
 @5678947 = ~Aún, tenéis un buen gusto para los calzados. Muy buena la fórmula para las Botas del Avispón, tomando vuestras Botas de velocidad y de elusión, se hará realmente difícil que os acierten con flechas. Mejor que un pinchazo en el ojo con una astilla afilada, o un virote, o una piedra, o un dardo... ¿captáis la idea? La fórmula os costará 20.000 piezas de oro y una Piedra de Bribón, las cuales no crecen en árboles. ¿Sí?~
 
-@567848 = ~Oooooohhhh... ¡tenéis algunos bastones temibles! ¡Jee jee jee! Debéis tener un amigo druida o algo. Siempre tengo que hacer bastones para ellos. ¿Pensáis que los árboles de donde vienen estos bastones se habrán enojado?~ [FWCESP08]
+@567848 = ~Oooooohhhh... ¡tenéis algunos bastones temibles! ¡Jee jee jee! Debéis tener un amigo druida o algo. Siempre tengo que hacer bastones para ellos. ¿Pensáis que los árboles de donde vienen estos bastones se habrán enojado?~ [fwcesp08]
 @5678848 = ~Cespenar conoce una fórmula para combina a Sangrenegra y a Rechinante en un palo ARDIEEENTE. Sólo necesitáis 15.000 piezas de oro como comisión. Cespenar se pregunta cómo hará la madera para que no se quema. Mmmm...~
 @5678948 = ~Tal vez tengáis los agrios palos de Sangrenecha y Rechinante, palos que ALGUIEN olvidó lijar. Tengo una fórmula para Consorteingrata, ¡de manera que ahora podéis darle a los malos astillas que QUEEEEEEMAN! El precio es bajo, bajo, sólo 15.000 piezas de oro. A menos que queráis que Cespenar lo lije.~
 
-@567849 = ~¡Ouch!  ¿Cómo es posible que todos vuestras clavas sean tan espinosas? Cespenar piensa que tiene una estopilla en algún lugar para ayudar con eso...~ [FWCESP09]
+@567849 = ~¡Ouch!  ¿Cómo es posible que todos vuestras clavas sean tan espinosas? Cespenar piensa que tiene una estopilla en algún lugar para ayudar con eso...~ [fwcesp09]
 @5678849 = ~Reluciente es la nueva fórmula de un garrote que tengo, necesito una Clava de hueso y la Rechinante más sólo 15.000 piezas de oro. Cespenar habla... no me peguéis ahora, ¿de acuerdo?~
 @5678949 = ~¿O quizás vos sólo queréis una clava mejor? Puedo coger la Clava de hueso y la Rechinante y fabricar a Fulcro. Hiere a la gente a la no le gusta "el Equilibrio". Sin embargo, Cespenar intenta mantenerse fuera de la política, así que él sólo tomará 15.000 piezas de oro, hará la clava y se olvidará de lo otro. ¿De acuerdo?~
 
-@567850 = ~Cespenar nunca entendió por qué los clérigos tienen permiso para dejar vuestra cabeza hecha un bulbo ensangrentado pero no para usar un cuchillo para la mantequilla. Es extraaaaaaño.~ [FWCESP10]
+@567850 = ~Cespenar nunca entendió por qué los clérigos tienen permiso para dejar vuestra cabeza hecha un bulbo ensangrentado pero no para usar un cuchillo para la mantequilla. Es extraaaaaaño.~ [fwcesp10]
 @5678850 = ~De todas formas, conseguisteis una buena maza Aplastacráneos. Cespenar puede hacerla mucho mejor con un pergamino de Dedo de la muerte, una poción MALDITA de curación (¡una buena mezcla de cocktel!) y 15.000 piezas de oro. Y 3 alfileres para la ropa del cajón de la ropa interior de la Madre Matriarca. Cespenar sólo bromeaba con esa parte.~
 @5678950 = ~Ooohhh, conseguisteis la Aplastacráneos... y el pergamino de Dedo de la muerte. Todo lo que necesitais ahora es... miiiiiraad, una poción de curación maldita. Ahora, si tenéis 15.000 de oro, obtendréis una maza nueva resplandeciente. ¿La queréis?~
 
-@567851 = ~Hrrrrruuuhhh... hrrrruuuuhhh... ¡hyyyyaaaaaaahhhhh! ¡Oooh, este arco es difícil de flexionar! Cespenar ofrecería disparar una flecha a la cabeza del Gran Señor, pero recuerda lo que pasó cuando erró a la manzana y le dio a la nariz de Bhaal. ¡Cespenar aún no es capaz de sentarse!~ [FWCESP11]
-~Hrrrrruuuhhh... hrrrruuuuhhh... ¡hyyyyaaaaaaahhhhh! ¡Oooh, este arco es difícil de flexionar! Cespenar ofrecería disparar una flecha a la cabeza de la Grana Señora, pero recuerda lo que pasó cuando erró a la manzana y le dio a la nariz de Bhaal. ¡Cespenar aún no es capaz de sentarse!~ [FWCESP11]
+@567851 = ~Hrrrrruuuhhh... hrrrruuuuhhh... ¡hyyyyaaaaaaahhhhh! ¡Oooh, este arco es difícil de flexionar! Cespenar ofrecería disparar una flecha a la cabeza del Gran Señor, pero recuerda lo que pasó cuando erró a la manzana y le dio a la nariz de Bhaal. ¡Cespenar aún no es capaz de sentarse!~ [fwcesp11]
+~Hrrrrruuuhhh... hrrrruuuuhhh... ¡hyyyyaaaaaaahhhhh! ¡Oooh, este arco es difícil de flexionar! Cespenar ofrecería disparar una flecha a la cabeza de la Grana Señora, pero recuerda lo que pasó cuando erró a la manzana y le dio a la nariz de Bhaal. ¡Cespenar aún no es capaz de sentarse!~ [fwcesp11]
 @5678851 = ~Tenéis un buen arco, pero Cespenar puede hacerlo mucho mejor con la fórmula para crear Teleomortis. Las flechas aparecerán en vuestra mano, asombrando a vuestros amigos y enemigos. Aunque necesitaré varios materiales importantes: la Cuerda del Arco de Gesen o la de Gond, cuatro Lágrimas de Laeral y una poción de Poder para empezar.~
 @5678951 = ~Cespenar puede crear el incerible Teleomortis usando Buscacorazones, la Cuerda de Gesen, cuatro Lágrimas de Laeral y una poción de Poder. ¿Qué más? ¡Es absolutamente gratis! ¿Lo queréis?~
 @5678751 = ~Cespenar puede crear el incerible Teleomortis usando Buscacorazones, la Cuerda de Gond, cuatro Lágrimas de Laeral y una poción de Poder. ¿Qué más? ¡Es absolutamente gratis! ¿Lo queréis?~
 
-@567854 = ~¡Oooh! Una ropa muy fina. Cuidado, señor, Cespenar aún no ha limpiado el polvo... si estornudáis, vuestra cara puede congelarse. ¡Tee jee jee! Sabéis, algunas personas dicen que Valygar es un hijo de mala... ¿cerrad la boca de Cespenar? ¡Cespenar sólo hablaba de Valygar!~ [FWCESP12]
+@567854 = ~¡Oooh! Una ropa muy fina. Cuidado, señor, Cespenar aún no ha limpiado el polvo... si estornudáis, vuestra cara puede congelarse. ¡Tee jee jee! Sabéis, algunas personas dicen que Valygar es un hijo de mala... ¿cerrad la boca de Cespenar? ¡Cespenar sólo hablaba de Valygar!~ [fwcesp12]
 @5678854 = ~Puedo hacer muchísimo con dos buenas armaduras, ¡puedo hacer una armadura genial! ¡Montones de protecciones contra las peores cosas, como el fuego o el ácido! No hay necesidad de hacer dobladillos, sólo dadle a Cespenar 10.000 piezas de oro y un Pergamino de Protección contra la Magia. Y no olvidéis la armadura de escamas de Dragón negro... ¿de qué otra armadura pensábais que estaba hablando, huh?~
 @5678954 = ~Ooooh, ¡la armadura de Valygar y una armadura de escamas de Dragón negro crearán una nueva armadura para un superhéroe! Necesitaré ese pergamino de Protección contra la Magia para crear superpoderes. Y 10.000 piezas de oro por la capa (no incluida). ¿Queréis que la haga?~
 
-@567855 = ~Cespenar tuvo una vez un medio batín... le fue regalado por un muy buen amigo, se echó a perder con los productos de limpieza. ¿Tal vez tengáis cosas que hacer con esto? Se ve muy familiar...~ [FWCESP13]
+@567855 = ~Cespenar tuvo una vez un medio batín... le fue regalado por un muy buen amigo, se echó a perder con los productos de limpieza. ¿Tal vez tengáis cosas que hacer con esto? Se ve muy familiar...~ [fwcesp13]
 @5678855 = ~Oh, sólo es una túnica de la gente archimaga. Buena fórmula por no tener un nombre tan estúpido. Cespanar necesita una Capa de protección +1, un pergamino de Armadura espiritual, otro de Contingencia y 20.000 de oro. ¡Lanzar más conjuros, ser como un VERDADERO ARCHIMAGO!~
 @5678955 = ~Oh, sólo es una túnica de la gente archimaga. Os quedaría bastante bien. Y tenéis una una Capa de protección +1, y unos pergamino de Armadura espiritual y Contingencia. ¡Si tenéis 20.000 de sobra, Cespanar haría para vos la Túnica de un VERDADERO ARCHIMAGO!~
 
-@567859 = ~¿Aún no tenéis un tarro para orinar? ¿Sabéis lo que estáis diciendo? Entonces Cespenar os recomienda que uséis un casco. El casco de alguien.~ [FWCESP14]
+@567859 = ~¿Aún no tenéis un tarro para orinar? ¿Sabéis lo que estáis diciendo? Entonces Cespenar os recomienda que uséis un casco. El casco de alguien.~ [fwcesp14]
 @5678859 = ~Si tenéis tarros de más, ¡tal vez Cespenar combine los tarros de vuestra gran cabeza para vos! Una buena fórmula involucra al Yelmo de Defensa y el Casco de protección contra hechizos a la vez. Necesitáis de cuatro perlas y 10.000 de oro. Dadme los ingredientes y tendréis un buen tarr... err, casco.~
 @5678959 = ~Si tenéis tarros de más,  ¡tal vez Cespenar combine los tarros de vuestra gran cabeza para vos!  Una buena fórmula involucra al Yelmo de Defensa y el Casco de protección contra hechizos a la vez. Necesitáis de cuatro perlas y 10.000 de oro. Suena bien, ¿verdad?~
 
-@567860 = ~¡Oooh! Cespenar podría usar este casco para jugar a los bolos, si es que ya no lo necesitáis más.~ [FWCESP15]
+@567860 = ~¡Oooh! Cespenar podría usar este casco para jugar a los bolos, si es que ya no lo necesitáis más.~ [fwcesp15]
 @5678860 = ~¿Acerca de la fórmula de la Torre de Voluntad de Hierro? Usad el Casco de protección contra hechizos, dos pociones de salmuera de extractos de amor de los Azotamentes (no le digáis a Cespenar cómo las conseguisteis) y 10.000 piezas de oro. Mantiene las cabezas de la gente grande bien seguras.~
 @5678960 = ~Cespenar puede hacer la Torre de Voluntad de Hierro usando este Casco de protección contra hechizos y dos pociones de salmuera de extractos de los Azotamentes. Oh, necesitará 10.000 de oro para las cosas de limpieza. Estos extractos dejan un tufillo bastante asqueroso. ¿Está todo?~
 
-@567861 = ~¿Tal vez queráis esto colgado en la pared? La mayoría de la gente no quiere una chimenea en el infierno, pero quizás podríamos conseguir una y hacer de esta piel una alfombra.~ [FWCESP16]
+@567861 = ~¿Tal vez queráis esto colgado en la pared? La mayoría de la gente no quiere una chimenea en el infierno, pero quizás podríamos conseguir una y hacer de esta piel una alfombra.~ [fwcesp16]
 @5678861 = ~O tal vez queráis hacerla más radiante. Tomad la Piel de Aeger, un pergamino de Protección contra los Elementos, y 15.000 piezas de oro, y será más fuerte y más resistente al clima. Cespenar nunca tuvo permitido el ser REALMENTE creativo.~
 @5678961 = ~Puedo coger la Piel de Aeger, un pergamino de Protección contra los Elementos y 15.000 de oro, y hacerla más fuerte y resistente al clima. ¿Queréis?~
 
-@567862 = ~¿Cómo conseguísteis una armadura naranja tan cándida? ¿Ha estado mucho tiempo al sol? Tee jee jee..~ [FWCESP17]
+@567862 = ~¿Cómo conseguísteis una armadura naranja tan cándida? ¿Ha estado mucho tiempo al sol? Tee jee jee..~ [fwcesp17]
 @5678862 = ~Tal vez Cespenar puede mejorar la armadura Levafuego fundiéndola con la Armadura del Ciervo y metiéndole 20.000 de oro. Podría ser menos pero Cespenar tuvo que dejar de hacer descuentos a los cándidos, malo para la reputación.~
 @5678962 = ~Mmmm, la armadura completa Levafuego y la armadura del Ciervo se pueden fundir en una armadura más poderosa. Necesitáis las armaduras para ser como una deidad. Necesito contratar a Bob el fundidor, así que, 20.000 de oro por favor.~
 
-@567863 = ~¿Aún seguís cargando ese pedazo de bicho sobre vuestros hombros? ¿Acaso conocéis muchas personas con ese estilo?~ [FWCESP18]
+@567863 = ~¿Aún seguís cargando ese pedazo de bicho sobre vuestros hombros? ¿Acaso conocéis muchas personas con ese estilo?~ [fwcesp18]
 @5678863 = ~Dadle a Cespenar ambos tipos de pergaminos de Protección contra el ácido y 5.000 piezas de oro y Cespenar trabajará duro con el Ankheg. ¡Incluso disparará flechas de ácido a la gente!~
 @5678963 = ~Mmmm, una armadura de un gran bicho y "diferentes" pergaminos de Protección contra el ácido... ¡perfecto para la nueva fórmula! ¿Queréis una armadura que dispare? ¡Fiuu-fiuu!~
 
-@567864 = ~¡Auuu, este es el escudo más adorable que nunca vio Cespenar! ¿Tal vez pueda usarlo para servir de bandeja para cuando vengan visitantes?~ [FWCESP19]
+@567864 = ~¡Auuu, este es el escudo más adorable que nunca vio Cespenar! ¿Tal vez pueda usarlo para servir de bandeja para cuando vengan visitantes?~ [fwcesp19]
 @5678864 = ~Es difícil hacer a un mejor a una buena cosa, pero si conseguís dos bebidas de salmuera de Azotamentes, y esos extraños anillos de control de los cabeza de calamar, una gema beljuril y 10.000 piezas de oro, Cespenar os hará inmune a los ataques psíquicos.~
 @5678964 = ~El Escudo de Armonía puede protegeros de muchas cosas, pero no de los cabezas de calamar. Tenéis las cosas necesarias: 2 pociones de salmuera, un anillo de control de los cabeza tentáculos y un beljuril. ¿He escuchado 10.000 piezas de oro en vuestros bolsillos o es que estáis feliz de verme?~
 
-@567865 = ~Esto recuerda a Cespenar a un mondadientes muuuuuy largo. A vuestra plena disposición, Cespenar es un buen sirviente, ¡hasta el punto de limpiar vuestros molares! ¡Tee jee jee!~ [FWCESP20]
+@567865 = ~Esto recuerda a Cespenar a un mondadientes muuuuuy largo. A vuestra plena disposición, Cespenar es un buen sirviente, ¡hasta el punto de limpiar vuestros molares! ¡Tee jee jee!~ [fwcesp20]
 @5678865 = ~¿Cómo mantuvisteis pegada a vuestra mano una Lanza +3? ¿Temeroso de que no regrese nunca? Una fórmula simple: 10.000 piezas de oro y una Piedra de Bribón, y la lanza siempre regresará aunque la arrojéis muuuuy lejos.~
 @5678965 = ~Cespenar puede hacer una lanza retornante con una gran lanza, una piedra de Bribón, y con sirope de 10.000 piezas de oro para el sabor. No dejé sirope para vos, aunque conseguisteis una buena lanza. ¿Queréis?~
 
-@567866 = ~¿Qué es esto? ¿Un gran caramelo en un palo? ¿Cómo puede ser que Cespenar nunca consiga lamerlo?~ [FWCESP21]
+@567866 = ~¿Qué es esto? ¿Un gran caramelo en un palo? ¿Cómo puede ser que Cespenar nunca consiga lamerlo?~ [fwcesp21]
 @5678866 = ~Oh, es un cuerno de unicornio. Y además puntiagudo. ¿Por qué no empezáis arrojando esta lanza? ¡Dadle a Cespenar una Piedra de Bribón y 10.000 piezas de oro y seréis como un bandido salvaje arroja lanzas!~
 ~Oh, es un cuerno de unicornio. Y además puntiagudo. ¿Por qué no empezáis arrojando esta lanza? ¡Dadle a Cespenar una Piedra de Bribón y 10.000 piezas de oro y seréis como una bandida salvaje arroja lanzas!~
 @5678966 = ~Oh, es un cuerno de unicornio. Y además puntiagudo. ¿Por qué no empezáis arrojando esta lanza? ¡Dadle a Cespenar una Piedra de Bribón y 10.000 piezas de oro y seréis como un bandido salvaje arroja lanzas! ¿Os interesa tal vez?~
 ~Oh, es un cuerno de unicornio. Y además puntiagudo. ¿Por qué no empezáis arrojando esta lanza? ¡Dadle a Cespenar una Piedra de Bribón y 10.000 piezas de oro y seréis como una bandida salvaje arroja lanzas! ¿Os interesa tal vez?~
 
-@567867 = ~¿Os gusta pescar? Tal vez podáis pescar una gran ballena con esto. Luego necesitaréis espacio para amarrarla, pero eso no es problema de Cespenar.~ [FWCESP22]
+@567867 = ~¿Os gusta pescar? Tal vez podáis pescar una gran ballena con esto. Luego necesitaréis espacio para amarrarla, pero eso no es problema de Cespenar.~ [fwcesp22]
 @5678867 = ~Hacer que la Empaladora hiera así de bien desde muy de lejos... Cespenar necesita sólo 15.000 piezas de oro y una Piedra de Bribón. De verdad que uso esas cosas, no las pido solamente por diversión. Cuidado cuando la lanza regrese... si erráis, ¡os HERIRÁ! ¡Ou!~
 @5678967 = ~Hacer que la Empaladora hiera así de bien desde muy de lejos... Cespenar necesita sólo 15.000 piezas de oro y una Piedra de Bribón. De verdad que uso esas cosas, no las pido solamente por diversión. Cuidado cuando la lanza regrese... si erráis, ¡os HERIRÁ! ¡Ou!~
 
-@567868 = ~Bonito bastonazo. ¿Es peor el ladrido que su mordisco? Tee jee jee...~ [FWCESP23]
+@567868 = ~Bonito bastonazo. ¿Es peor el ladrido que su mordisco? Tee jee jee...~ [fwcesp23]
 @5678868 = ~Cespenar puede usar una maravillosa fórmula nueva para un Bastón de los Bosques nuevo. ¡Le dais a Cespenar un Anillo de protección +1, un Anillo de amistad con las bestias y 20.000 piezas de oro, y conseguiremos un nuevo bastón que se recarga y que incluso es muy desagradable cuando golgpeas a la gente!~
 @5678968 = ~Cespenar puede usar una maravillosa fórmula nueva para un Bastón de los Bosques nuevo. ¡Le dais a Cespenar un Anillo de protección +1, un Anillo de amistad con las bestias y 20.000 piezas de oro, y conseguiremos un nuevo bastón que se recarga y que incluso es muy desagradable cuando golgpeas a la gente!~
 
-@567869 = ~¡Ooooh! ¡Encontrasteis la más brillante de las espadas largas brillantes! ¡Apuesto a que matasteis a un vampiro o dos con esta pequeña! ¡En garde, chupasangres! ¡Cespenar os derribará a todos!~ [FWCESP24]
+@567869 = ~¡Ooooh! ¡Encontrasteis la más brillante de las espadas largas brillantes! ¡Apuesto a que matasteis a un vampiro o dos con esta pequeña! ¡En garde, chupasangres! ¡Cespenar os derribará a todos!~ [fwcesp24]
 @5678869 = ~¿Quizás queráis mejorar a Diastro? Tendréis que darme cosas de calidad, como cuatro pergaminos de Protección contra los muertos vivientes, dos viales de agua bendita élfica, dos zafiros estrellados y 15.000 piezas de oro, ¡pero Cespenar no puede consentir que el Gran Señor falle! Conseguiréis más Rayos solares y Protección contra el Mal.~
 ~¿Quizás queráis mejorar a Diastro? Tendréis que darme cosas de calidad, como cuatro pergaminos de Protección contra los muertos vivientes, dos viales de agua bendita élfica, dos zafiros estrellados y 15.000 piezas de oro, ¡pero Cespenar no puede consentir que la Gran Señora falle! Conseguiréis más Rayos solares y Protección contra el Mal.~
 @5678969 = ~¿Quizás queráis mejorar a Diastro? Tendréis que darme cosas de calidad, como cuatro pergaminos de Protección contra los muertos vivientes, dos viales de agua bendita élfica, dos zafiros estrellados y 15.000 piezas de oro, ¡pero Cespenar no puede consentir que el Gran Señor falle! Conseguiréis más Rayos solares y Protección contra el Mal. ¿Necesitáis que comience ya?~
 ~¿Quizás queráis mejorar a Diastro? Tendréis que darme cosas de calidad, como cuatro pergaminos de Protección contra los muertos vivientes, dos viales de agua bendita élfica, dos zafiros estrellados y 15.000 piezas de oro, ¡pero Cespenar no puede consentir que la Gran Señora falle! Conseguiréis más Rayos solares y Protección contra el Mal. ¿Necesitáis que comience ya?~
 
-@567870 = ~¡Oh, el más honorable Gran Señor-san! ¿Podéis considerar siquiera que Furia Celestial ya no se vea tan buena?~ [FWCESP25]
-~¡Oh, la más honorable Gran Señora-san! ¿Podéis considerar siquiera que Furia Celestial ya no se vea tan buena?~ [FWCESP25]
+@567870 = ~¡Oh, el más honorable Gran Señor-san! ¿Podéis considerar siquiera que Furia Celestial ya no se vea tan buena?~ [fwcesp25]
+~¡Oh, la más honorable Gran Señora-san! ¿Podéis considerar siquiera que Furia Celestial ya no se vea tan buena?~ [fwcesp25]
 @5678870 = ~¡Cespenar tiene una marabillosa y rapidísma fórmula para arreglarlo! Bueno, quizás no es tan rápida. ¿Tenéis una Varita mágica de relámpago? ¿Y qué hay de un Corazón de demonio? Apestan, lo sé, pero son necesarios para las cosas más raras. Oh, y 20.000 piezas de oro también.~
 @5678970 = ~¡Cespenar tiene una marabillosa y rapidísma fórmula para arreglarlo! Bueno, quizás no es tan rápida. ¿Tenéis una Varita mágica de relámpago? ¿Y qué hay de un Corazón de demonio? Apestan, lo sé, pero son necesarios para las cosas más raras. Oh, y 20.000 piezas de oro también.~
 
-@567871 = ~¿Tenéis a la más pequeña de los paladines santurrones? Cespenar tiene un libro de cuentos en su desván que menciona algo de ellos.~ [FWCESP26]
+@567871 = ~¿Tenéis a la más pequeña de los paladines santurrones? Cespenar tiene un libro de cuentos en su desván que menciona algo de ellos.~ [fwcesp26]
 @5678871 = ~Puedo mejorar la espada bastante. Descuento especial para la gente no muy grande, sólo necesitáis pensar bien acerca de eso y darle a Cespenar 15.000 piezas de oro. ¡No encontraréis mejor oferta de este lado del Limbo!~
 @5678971 = ~Puedo mejorar la espada bastante. Descuento especial para la gente no muy grande, sólo necesitáis pensar bien acerca de eso y darle a Cespenar 15.000 piezas de oro. ¡No encontraréis mejor oferta de este lado del Limbo!~
 
-@567872 = ~¡Cespenar está muy muy impresionado de que haya gente santurrona con el Gran Señor! ¿Tal vez queráis seguir usando vuestra arma representativa en ayuda del Gran Señor?~ [FWCESP27]
-~¡Cespenar está muy muy impresionado de que haya gente santurrona con la Gran Señora! ¿Tal vez queráis seguir usando vuestra arma representativa en ayuda de la Gran Señora?~ [FWCESP27]
+@567872 = ~¡Cespenar está muy muy impresionado de que haya gente santurrona con el Gran Señor! ¿Tal vez queráis seguir usando vuestra arma representativa en ayuda del Gran Señor?~ [fwcesp27]
+~¡Cespenar está muy muy impresionado de que haya gente santurrona con la Gran Señora! ¿Tal vez queráis seguir usando vuestra arma representativa en ayuda de la Gran Señora?~ [fwcesp27]
 @5678872 = ~Cespenar conoce a un sacerdote de Torm quien re-santificará al Redentor y le dará pulcritud con habilidades como disipar magia y silenciar otras personas. Se necesita un Corazón de Demonio extra (Cespenar escupe), cinco pergaminos de Disipar Magia y 15.000 piezas de oro, más un corazón de oro. Debería ser menos dinero, pero Cespenar tiene que pagar por una licencia de uso por lo santurrones servidores de la ley. Ellos oprimen al pobre Cespenar.~
 @5678972 = ~Cespenar conoce a un sacerdote de Torm quien re-santificará al Redentor y le dará pulcritud con habilidades como disipar magia y silenciar otras personas. Se necesita un Corazón de Demonio extra (Cespenar escupe), cinco pergaminos de Disipar Magia y 15.000 piezas de oro, más un corazón de oro. Debería ser menos dinero, pero Cespenar tiene que pagar por una licencia de uso por lo santurrones servidores de la ley. Ellos oprimen al pobre Cespenar.~
 
-@567873 = ~¡Oh chico! ¡Más bandejas! ¡Cespenar se está quedando sin cubertería para los banquetes del Gran Señor!~ [FWCESP28]
-~¡Oh chica! ¡Más bandejas! ¡Cespenar se está quedando sin cubertería para los banquetes de la Gran Señora!~ [FWCESP28]
+@567873 = ~¡Oh chico! ¡Más bandejas! ¡Cespenar se está quedando sin cubertería para los banquetes del Gran Señor!~ [fwcesp28]
+~¡Oh chica! ¡Más bandejas! ¡Cespenar se está quedando sin cubertería para los banquetes de la Gran Señora!~ [fwcesp28]
 @5678873 = ~Esperad... Conozco una fórmula para los escudos grandes como bandejas. Tomo el escudo familiar Delryn y la bandeja Bendición salvadora, ¡y uso 15.000 piezas de oro para hacer que el Escudo de Delryn proteja más! O si no tendremos bandejas de más para las visitas.~
 @5678973 = ~Esperad... Conozco una fórmula para los escudos grandes como bandejas. Tomo el escudo familiar Delryn y la bandeja Bendición salvadora, ¡y uso 15.000 piezas de oro para hacer que el Escudo de Delryn proteja más! O si no tendremos bandejas de más para las visitas.~
 
-@567874 = ~¿Qué? ¿No os gusta la espada parlanchina? ¿Y si os quedáis enterrado en un agujero oscuro y sólo tenéis a la espada con quien hablar? ¡Estaríais agradecido entonces!~ [FWCESP29]
-~¿Qué? ¿No os gusta la espada parlanchina? ¿Y si os quedáis enterrada en un agujero oscuro y sólo tenéis a la espada con quien hablar? ¡Estaríais agradecida entonces!~ [FWCESP29]
+@567874 = ~¿Qué? ¿No os gusta la espada parlanchina? ¿Y si os quedáis enterrado en un agujero oscuro y sólo tenéis a la espada con quien hablar? ¡Estaríais agradecido entonces!~ [fwcesp29]
+~¿Qué? ¿No os gusta la espada parlanchina? ¿Y si os quedáis enterrada en un agujero oscuro y sólo tenéis a la espada con quien hablar? ¡Estaríais agradecida entonces!~ [fwcesp29]
 @5678874 = ~Pero, mmmmm, Cespenar puede usar Anillo de control de los Azotamentes, para hacer más fuerte a Lilarcor, ¡y también mantener a raya a los sucios azotamentes que vienen a chuparos el cerebro! Pero Lilón no podrá hablar más con vos. Eso sería triste, y también os costaría 20.000 piezas de oro.~
 @5678974 = ~Pero, mmmmm, Cespenar ve un Anillo de control de los Azotamentes, para hacer más fuerte a Lilarcor, ¡y también mantener a raya a los sucios azotamentes que vienen a chuparos el cerebro! Pero Lilón no podrá hablar más con vos. Eso sería triste, y también os costaría 20.000 piezas de oro.~
 
-@567875 = ~¿Aún pensáis en el amor y no en la guerra? Seguro que tenéis montones de cuchillos aquí...~ [FWCESP30]
+@567875 = ~¿Aún pensáis en el amor y no en la guerra? Seguro que tenéis montones de cuchillos aquí...~ [fwcesp30]
 @5678875 = ~¡Ahhhh, Cespenar tiene una buena idea! Hará una buena daga para los furtivos. ¡Tomad la Hoja de hueso y la Aguja de pixie y haré una daga muy pero muy buena para apuñalar por la espalda y adormecer a la víctima! Necesitaréis cuatro pociones de Robo maestro y pagar 15.000 piezas de oro, ¡pero luego los enemigos nunca sabrán qué les golpeó, PAF!~
 @5678975 = ~¡Ahhhh, Cespenar tiene una buena idea! Hará una buena daga para los furtivos. ¡Tomad la Hoja de hueso y la Aguja de pixie y haré una daga muy pero muy buena para apuñalar por la espalda y adormecer a la víctima! Necesitaréis cuatro pociones de Robo maestro y pagar 15.000 piezas de oro, ¡pero luego los enemigos nunca sabrán qué les golpeó, PAF!~
 
-@5678791 = ~Oooh, ¿alguien habló del Carcaj de la abundancia? Es como la mala hierba... supongo que Cespenar tendrá que tirarlo al río de nuevo, ¡esta vez con un gran peso atado!~ [FWCESP31]
+@5678791 = ~Oooh, ¿alguien habló del Carcaj de la abundancia? Es como la mala hierba... supongo que Cespenar tendrá que tirarlo al río de nuevo, ¡esta vez con un gran peso atado!~ [fwcesp31]
 @56789791 = ~O quizás podamos intentar algo diferente esta vez y usar una nueva fórmula. Vos conseguís 40 flechas +3 y 40.000 piezas de oro y luego hacemos un Carcaj de la abundancia +3. ¡Pensad en todo el dinero que estaréis ahorrando en flechas! A menos que hayáis invertido con imaginación en unos bonos a largo plazo, entonces probablemente hayáis hecho lo mejor.~
 
-@5678792 = ~Oooh, ¿alguien dijo algo sobre un Carcaj de la abundancia? Es como la mala hierba... supongo que Cespenar tendrá que tirarlo al río de nuevo, ¡esta vez con un gran peso atado!~ [FWCESP31]
+@5678792 = ~Oooh, ¿alguien dijo algo sobre un Carcaj de la abundancia? Es como la mala hierba... supongo que Cespenar tendrá que tirarlo al río de nuevo, ¡esta vez con un gran peso atado!~ [fwcesp31]
 @56789792 = ~O quizás podamos intentar algo diferente esta vez y usar una nueva fórmula. Vos conseguís 40 virotes +3 y 40.000 piezas de oro y luego hacemos un Carcaj de la abundancia +3. ¡Pensad en todo el dinero que estaréis ahorrando en virotes! A menos que hayáis invertido con imaginación en unos bonos a largo plazo, entonces probablemente hayáis hecho lo mejor.~
 
-@5678793 = ~Oooh, ¿alguien dijo algo sobre una Bolsa de la abundancia? Es como la mala hierba... supongo que Cespenar tendrá que tirarlo al río de nuevo, ¡esta vez con un gran peso atado!~ [FWCESP31]
+@5678793 = ~Oooh, ¿alguien dijo algo sobre una Bolsa de la abundancia? Es como la mala hierba... supongo que Cespenar tendrá que tirarlo al río de nuevo, ¡esta vez con un gran peso atado!~ [fwcesp31]
 @56789793 = ~O quizás podamos intentar algo diferente esta vez y usar una nueva fórmula. Vos conseguís 40 balas +3 y 40.000 piezas de oro y luego hacemos una Bolsa de la abundancia +3. ¡Pensad en todo el dinero que estaréis ahorrando en balas! A menos que hayáis invertido con imaginación en unos bonos a largo plazo, entonces probablemente hayáis hecho lo mejor.~
 
-@567883 = ~Parece como gente grande en un perchero. ¡Hola, gente grande! ¡Saludad a Cespenar, ahora el Gran Señor se vestirá con vosotros!~ [FWCESP32]
-~Parece como gente grande en un perchero. ¡Hola, gente grande! ¡Saludad a Cespenar, ahora la Gran Señora se vestirá con vosotros!~ [FWCESP32]
+@567883 = ~Parece como gente grande en un perchero. ¡Hola, gente grande! ¡Saludad a Cespenar, ahora el Gran Señor se vestirá con vosotros!~ [fwcesp32]
+~Parece como gente grande en un perchero. ¡Hola, gente grande! ¡Saludad a Cespenar, ahora la Gran Señora se vestirá con vosotros!~ [fwcesp32]
 @5678883 = ~Cespenar no es un taxidermista pero puede coger la Carne humana y combinarla con una Piedra del alma, un pergamino de Protección contra la Magia y 20.000 piezas de oro y sacar mucho brillo. Os hará más saludable y fuerte. No puedo decir lo mismo por la gente grande que vestís.~
 @5678983 = ~Cespenar no es un taxidermista pero puede coger la Carne humana y combinarla con una Piedra del alma, un pergamino de Protección contra la Magia y 20.000 piezas de oro y sacar mucho brillo. Os hará más saludable y fuerte. No puedo decir lo mismo por la gente grande que vestís.~
 
-@567884 = ~¿Dónde encontrasteis esto? ¡Bhaal la buscó por todos lados y nunca la encontró! El quería colgarla en la entrada como decoración... Cespenar le sugirió rosas, pero eso fue un graaaaaan error...~ [FWCESP33]
+@567884 = ~¿Dónde encontrasteis esto? ¡Bhaal la buscó por todos lados y nunca la encontró! El quería colgarla en la entrada como decoración... Cespenar le sugirió rosas, pero eso fue un graaaaaan error...~ [fwcesp33]
 @5678884 = ~Una fórmula muy muy vil para la Lacera almas. Tomad el Corazón de los Condenados, la espada definitiva de los buenos para nada y 20.000 piezas de oro, ¡haré a la Lacera alamas super hiper mortal! Cuando el bueno para nada pregunte, ¡no le digáis que fue idea de Cespenar!~
 @5678984 = ~Una fórmula muy muy vil para la Lacera almas. Tomad el Corazón de los Condenados, la espada definitiva de los buenos para nada y 20.000 piezas de oro, ¡haré a la Lacera alamas super hiper mortal! Cuando el bueno para nada pregunte, ¡no le digáis que fue idea de Cespenar!~
 
-@567885 = ~¡Ooh, el brillante símbolo del viejo Dios Sol! Amaunator y Bhaal nunca consiguieron aguantarse en verdad. Una vieja disputa sobre demonios, luz solar y esta vieja cabra bendita. Una historia muy triste. Después de que la cabra muriera, Ammy nunca regresó a tomar el té.~ [FWCESP34]
+@567885 = ~¡Ooh, el brillante símbolo del viejo Dios Sol! Amaunator y Bhaal nunca consiguieron aguantarse en verdad. Una vieja disputa sobre demonios, luz solar y esta vieja cabra bendita. Una historia muy triste. Después de que la cabra muriera, Ammy nunca regresó a tomar el té.~ [fwcesp34]
 @5678885 = ~De todas formas, puedo insertar el símbolo sagrado de Ammy en el broquel. Añadir una gema de aventurina por cada cuarto y 10.000 piezas de oro, harán de este brillante escudo algo perfecto para ahuyentar a los desagradables muertos vivientes.~
 @5678985 = ~De todas formas, puedo insertar el símbolo sagrado en el broquel. Añadir una gema de aventurina por cada cuarto y 10.000 piezas de oro, harán de este brillante escudo algo perfecto para ahuyentar a los desagradables muertos vivientes. ¿Queréis?~
 
-@567886 = ~Pasos sigilosos, ya veo. ¿Vais a hurgar en los bolsillos de Cespenar? ¡Esperad! Cespenar no tiene bolsillos. ¡Ja! No os sintáis mal. Estoy seguro que más tarde encontraréis montones de bolsillos que saquear.~ [FWCESP35]
+@567886 = ~Pasos sigilosos, ya veo. ¿Vais a hurgar en los bolsillos de Cespenar? ¡Esperad! Cespenar no tiene bolsillos. ¡Ja! No os sintáis mal. Estoy seguro que más tarde encontraréis montones de bolsillos que saquear.~ [fwcesp35]
 @5678886 = ~Por el momento, tengo una fórmula para los accesorios de ladrón. Enchapado muy a la moda: guanteletes de robar y de defensa, anillos Sentidos del peligro y de Abrir Cerraduras, dos anillos de Protección. Con 5.000 piezas de oro puedo haceros uno grande y reluciente.~
 @5678986 = ~Por el momento, tengo una fórmula para los accesorios de ladrón. Enchapado muy a la moda: guanteletes de robar y de defensa, anillos Sentidos del peligro y de Abrir Cerraduras, dos anillos de Protección. Con 5.000 piezas de oro puedo haceros uno grande y reluciente.~
 
-@567887 = ~Ah, tenéis una joyas centelleantes. Aunque con una coordinación de colores muy pobre. Quizás Cespenar pueda ayudaros con eso más tarde. Algo de malva realmente combinaría con vuestros ojos, ¿no creéis?~ [FWCESP36]
+@567887 = ~Ah, tenéis una joyas centelleantes. Aunque con una coordinación de colores muy pobre. Quizás Cespenar pueda ayudaros con eso más tarde. Algo de malva realmente combinaría con vuestros ojos, ¿no creéis?~ [fwcesp36]
 @5678887 = ~De cualquier forma, Cespenar puede juntar dos Amuletos de Protección, un Dije de salvaguardia contra veneno, un Collar de Estabilidad de Forma y un Amuleto de Guarda contra Conjuros. ¡Esos son un montón de colgantes! Obtener una bendición menor de mi buen amigo Ilmater (por alguna razón, Ilmater tiene alguna clase de "cariño" por el pobre Cespenar) y ¡presto! Tal vez 10.000 de oro por el mejor de los servicios ¿eh?~
 @5678987 = ~De cualquier forma, Cespenar puede juntar dos Amuletos de Protección, un Dije de salvaguardia contra veneno, un Collar de Estabilidad de Forma y un Amuleto de Guarda contra Conjuros. ¡Esos son un montón de colgantes! Obtener una bendición menor de mi buen amigo Ilmater (por alguna razón, Ilmater tiene alguna clase de "cariño" por el pobre Cespenar) y ¡presto! ¿Lo queréis por 10.000 piezas de oro?~
 
-@567888 = ~¡Swish-swash! La Espada de agua sería mucho más divertida sino sólo salpicar a alrededor vuestro. ¿Quizás sois esgrimista? Cespenar tiene una fórmula que funciona muy bien para las estocadas rápidas.~ [FWCESP37]
+@567888 = ~¡Swish-swash! La Espada de agua sería mucho más divertida sino sólo salpicar a alrededor vuestro. ¿Quizás sois esgrimista? Cespenar tiene una fórmula que funciona muy bien para las estocadas rápidas.~ [fwcesp37]
 @5678888 = ~Con Orilla, Garra de Rashad y Adjatha la bebedora, puedo hacer una gran espada de agua. En realidad no es tan grande, pero suena muy bien. ¡Espero que os guste el veneno! Quizás necesitaría 15.000 piezas de oro a efectos del seguro.~
 @5678988 = ~Con Orilla, Garra de Rashad y Adjatha la bebedora, puedo hacer una gran espada de agua. En realidad no es tan grande, pero suena muy bien. ¡Espero que os guste el veneno! ¿Tenéis 15.000 piezas de oro para el trabajo?~
 
-@567889 = ~Oooh, una hacha brillante que mata las cosas malignas. ¿Intentáis matar a Cespenar? Oh esperad, sólo funciona con muertos vivientes, no con demonios. ¡Por un momento fue espeluznante! Cespenar vio su vida pasar frente a sus ojos: demasiado inclinada, no lo suficientemente abrupta. Debo rectificarlo.~ [FWCESP38]
+@567889 = ~Oooh, una hacha brillante que mata las cosas malignas. ¿Intentáis matar a Cespenar? Oh esperad, sólo funciona con muertos vivientes, no con demonios. ¡Por un momento fue espeluznante! Cespenar vio su vida pasar frente a sus ojos: demasiado inclinada, no lo suficientemente abrupta. Debo rectificarlo.~ [fwcesp38]
 @5678889 = ~De todas formas, el rosado en verdad no es vuestro color. Podría aplicarle un baño de ilitio a Filoazur, y hacerla de un púrpura mucho más refinado. También le daría algunos poderes y protecciones extra anti-muertos vivientes. Además necesitaría 20.000 piezas de oro.~
 @5678989 = ~De todas formas, el rosado en verdad no es vuestro color. Podría aplicarle un baño de ilitio a Filoazur, y hacerla de un púrpura mucho más refinado. También le daría algunos poderes y protecciones extra anti-muertos vivientes. 20.000 piezas de oro. ¿La queréis?.~
 
-@567890 = ~¡Espié un anillo tintilando en vuestro dedo! ¿Demasiados anillos para vuestros dedos? Es un gran problema, Cespenar lo sabe. Muchos reluciones para tan pocas garras.~ [FWCESP39]
+@567890 = ~¡Espié un anillo tintilando en vuestro dedo! ¿Demasiados anillos para vuestros dedos? Es un gran problema, Cespenar lo sabe. Muchos reluciones para tan pocas garras.~ [fwcesp39]
 @5678890 = ~Os comento. Cespenar puede combinar vuestros anillos de la Hechicería y Agudeza, junto con el antiguo y olvidado Amuleto de influencia de metaconjuro y un anillo de Protección común para formar el Anillo del Hechicero. Muy bueno para los magos. Por 20.000 de oro, me puedo hacer "vuestro" amigo en cualquier momento.~
 @5678990 = ~Os comento. Cespenar puede combinar vuestros anillos de la Hechicería y Agudeza, junto con el antiguo y olvidado Amuleto de influencia de metaconjuro y un anillo de Protección común para formar el Anillo del Hechicero. Muy bueno para los magos. ¿Lo queréis por 20.000 monedas de oro?.~
 
-@567893 = ~Ooh, los cinturones están muy a la moda en esta época. ¿Me pregunto por qué todos son beige? Debe de ser por la iluminación de este horrible y pequeño plano. Siempre hace que Cespenar se vea cansado.~ [FWCESP40]
+@567893 = ~Ooh, los cinturones están muy a la moda en esta época. ¿Me pregunto por qué todos son beige? Debe de ser por la iluminación de este horrible y pequeño plano. Siempre hace que Cespenar se vea cansado.~ [fwcesp40]
 @5678893 = ~Da igual, si tenéis tres cinturones de protección, tengo una fórmula para combinarlos en un cinturón realmente recio. Si os ocultáis detrás de él, vuestros enemigos no podrán lastimaros. Sí, un buen trato, pero necesito tres hematites del mismo tipo. Y 10.000 de oro, no hay que olvidar el oro.~
 @5678993 = ~Da igual, si tenéis tres cinturones de protección, tengo una fórmula para combinarlos en un cinturón realmente recio. Si os ocultáis detrás de él, vuestros enemigos no podrán lastimaros. Lo sé, es un buen trato, pero necesito tres hematites del mismo tipo. ¿Lo queréis por 10.000 de oro?~
 
-@567896 = ~¡Ooh, serpiente serpiente! ¿Queréis que Cespenar haga a vuestra simpática figurilla de araña aún más asombrosa? ¿Añadirle algo para hilar telaraña quizás? ¿Vos queréis verme aterrorizado como un trasgo?~ [FWCESP41]
+@567896 = ~¡Ooh, serpiente serpiente! ¿Queréis que Cespenar haga a vuestra simpática figurilla de araña aún más asombrosa? ¿Añadirle algo para hilar telaraña quizás? ¿Vos queréis verme aterrorizado como un trasgo?~ [fwcesp41]
 @5678896 = ~La intuición de Cespenar está captando la idea. Sin embargo, necesita materiales especiales para mejorar a esta trepa muros. Necesita pergaminos de Engendros arácnidos y Telaraña, más cinco dagas arrojadizas venenosas. También 5.000 piezas de oro.~
 @5678996 = ~Los sentidos de Cespanar... hormiguean. Sin embargo, necesita materiales especiales para mejorar a esta trepa muros. Necesita pergaminos de Engendros arácnidos y Telaraña, más cinco dagas arrojadizas venenosas. También 5.000 piezas de oro. ¿Queréis?~
 
 @567898 = ~Mmm, ¿mister pantalones de fantasía puede luchar? ¿Qué? ¿Él aburrió a alguien hasta la muerte o qué? Quizás es que da mal los besos... ¡DE LA MUERTE!... ¿No?~
-@5678898 = ~¿Espadas cortas? Sois el típico muchacho que usa espadas cortas, si captáis lo que Cespenar quiere decir. Pero necesitáis más poder de golpes, ¿eh? De acuerdo, esto es lo que Cespenar puede hacer. Conseguid un pergamino de aturdimiento y uno de Malison, combinarlos con Ilbratha y Arbane, ¡y las espadas cortas serán aún más merecedoras del nombre de Armas Abismales! Oh, Cespenar también necesita 25.000 piezas de oro. Y una Piedra de Bribón, a menos que queráis estar recogiendo trocitos de Cespenar por todo este plano. Um, no os lo recomiendo.~ [FWCESP42]
-@5678998 = ~¿Espadas cortas? Sois el típico muchacho que usa espadas cortas, si captáis lo que Cespenar quiere decir. Pero necesitáis más poder de golpes, ¿eh? De acuerdo, esto es lo que Cespenar puede hacer. Conseguid un pergamino de aturdimiento y uno de Malison, combinarlos con Ilbratha y Arbane, ¡y las espadas cortas serán aún más merecedoras del nombre de Armas Abismales! Oh, Cespenar también necesita 25.000 piezas de oro. Y una Piedra de Bribón, a menos que queráis estar recogiendo trocitos de Cespenar por todo este plano. Um, no os lo recomiendo.~ [FWCESP42]
+@5678898 = ~¿Espadas cortas? Sois el típico muchacho que usa espadas cortas, si captáis lo que Cespenar quiere decir. Pero necesitáis más poder de golpes, ¿eh? De acuerdo, esto es lo que Cespenar puede hacer. Conseguid un pergamino de aturdimiento y uno de Malison, combinarlos con Ilbratha y Arbane, ¡y las espadas cortas serán aún más merecedoras del nombre de Armas Abismales! Oh, Cespenar también necesita 25.000 piezas de oro. Y una Piedra de Bribón, a menos que queráis estar recogiendo trocitos de Cespenar por todo este plano. Um, no os lo recomiendo.~ [fwcesp42]
+@5678998 = ~¿Espadas cortas? Sois el típico muchacho que usa espadas cortas, si captáis lo que Cespenar quiere decir. Pero necesitáis más poder de golpes, ¿eh? De acuerdo, esto es lo que Cespenar puede hacer. Conseguid un pergamino de aturdimiento y uno de Malison, combinarlos con Ilbratha y Arbane, ¡y las espadas cortas serán aún más merecedoras del nombre de Armas Abismales! Oh, Cespenar también necesita 25.000 piezas de oro. Y una Piedra de Bribón, a menos que queráis estar recogiendo trocitos de Cespenar por todo este plano. Um, no os lo recomiendo.~ [fwcesp42]
 
 @5678100 = ~Ooh, ¿una Malla del Bosque? ¿De repente os urge vestiros con hojas y empezar a protestar contra el "calentamiento global" o lo que sea? Sheeshh... <PRO_RACE>s~
 @56788100 = ~¡Oooh sí! ¿Tal vez ss gusten las cosas bien cocinadas? Cespenar batirá algunas cadenas élficas con escamas de dragón rojo. Añadirá hongos shiitake, algunas especias ándar y pimienta de ágatas de fuego y presto: muy liviana, muy picante, muy hartante. Cespenar es el verdadero chef del hierro... o quizás un fraguador culinario. Desafortunadamente, la sartén especial y el aceite de cacahuate os costarán 25.000 piezas de oro.~
-@56789100 = ~¡Oooh sí! ¿Os gusten las cosas bien cocinadas? Cespenar batirá algunas cadenas élficas con escamas de dragón rojo. Añadirá hongos shiitake, algunas especias ándar y pimienta de ágatas de fuego y presto: muy liviana, muy picante, muy hartante. Cespenar es el verdadero chef del hierro... o quizás un fraguador culinario. Desafortunadamente, la sartén especial y el aceite de cacahuate os costarán 25.000 piezas de oro.~ [FWCESP43]
+@56789100 = ~¡Oooh sí! ¿Os gusten las cosas bien cocinadas? Cespenar batirá algunas cadenas élficas con escamas de dragón rojo. Añadirá hongos shiitake, algunas especias ándar y pimienta de ágatas de fuego y presto: muy liviana, muy picante, muy hartante. Cespenar es el verdadero chef del hierro... o quizás un fraguador culinario. Desafortunadamente, la sartén especial y el aceite de cacahuate os costarán 25.000 piezas de oro.~ [fwcesp43]
