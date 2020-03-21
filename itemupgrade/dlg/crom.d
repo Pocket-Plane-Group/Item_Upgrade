@@ -48,7 +48,7 @@
     IF ~OR(3) PartyHasItem("amul14") PartyHasItem("cdpp7") PartyHasItem("c!pp7")~ THEN REPLY @123437 GOTO ilmater
     IF ~PartyHasItem("sw1h52")~ THEN REPLY @123438 GOTO water
     IF ~PartyHasItem("ax1h10")~ THEN REPLY @123439 GOTO azur
-    IF ~OR(2) PartyHasItem("ring08") PartyHasItem("ring08a")~ THEN REPLY @123484 GOTO sorcerian
+    IF ~OR(2) PartyHasItem("ring08") PartyHasItem("ring08a") PartyHasItem("ohringwi")~ THEN REPLY @123484 GOTO sorcerian
     IF ~PartyHasItem("belt03")~ THEN REPLY @123482 GOTO girdle
     IF ~PartyHasItem("misc3e")~ THEN REPLY @123495 GOTO kitthix
     IF ~PartyHasItem("npsw05")~ THEN REPLY @123497 GOTO hd
@@ -873,7 +873,7 @@
 
   IF ~~ THEN BEGIN sorcerian SAY @123481
     IF ~~ THEN REPLY @123435 GOTO c2itemupgrade
-    IF ~PartyHasItem("ring08") !PartyHasItem("ring08a") 
+    IF ~PartyHasItem("ring08") !PartyHasItem("ring08a") !PartyHasItem("ohringwi")
         PartyHasItem("ring40")
         PartyHasItem("ring06") !PartyHasItem("cdpp11") !PartyHasItem("c!pp11")
         PartyHasItem("amul16")
@@ -885,7 +885,7 @@
           TakePartyItemNum("amul16",1)   DestroyItem("amul16")
           GiveItemCreate("c2ring04",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("ring08a")
+    IF ~PartyHasItem("ring08a") !PartyHasItem("ohringwi")
         PartyHasItem("ring40")
         PartyHasItem("ring06") !PartyHasItem("cdpp11") !PartyHasItem("c!pp11")
         PartyHasItem("amul16")
@@ -897,7 +897,19 @@
           TakePartyItemNum("amul16",1)   DestroyItem("amul16")
           GiveItemCreate("c2ring04",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("ring08") !PartyHasItem("ring08a") 
+    IF ~PartyHasItem("ohringwi")
+        PartyHasItem("ring40")
+        PartyHasItem("ring06") !PartyHasItem("cdpp11") !PartyHasItem("c!pp11")
+        PartyHasItem("amul16")
+        PartyGoldGT(19999)~ THEN REPLY @123436
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("ohringwi",1) DestroyItem("ohringwi")
+          TakePartyItemNum("ring06",1)   DestroyItem("ring06")
+          TakePartyItemNum("ring40",1)   DestroyItem("ring40")
+          TakePartyItemNum("amul16",1)   DestroyItem("amul16")
+          GiveItemCreate("c2ring04",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("ring08") !PartyHasItem("ring08a") !PartyHasItem("ohringwi") 
         PartyHasItem("ring40")
         PartyHasItem("cdpp11") !PartyHasItem("c!pp11")
         PartyHasItem("amul16")
@@ -909,7 +921,7 @@
           TakePartyItemNum("amul16",1)   DestroyItem("amul16")
           GiveItemCreate("c2ring04",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("ring08a")
+    IF ~PartyHasItem("ring08a") !PartyHasItem("ohringwi")
         PartyHasItem("ring40")
         PartyHasItem("cdpp11") !PartyHasItem("c!pp11")
         PartyHasItem("amul16")
@@ -921,7 +933,19 @@
           TakePartyItemNum("amul16",1)   DestroyItem("amul16")
           GiveItemCreate("c2ring04",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("ring08") !PartyHasItem("ring08a") 
+    IF ~PartyHasItem("ohringwi")
+        PartyHasItem("ring40")
+        PartyHasItem("cdpp11") !PartyHasItem("c!pp11")
+        PartyHasItem("amul16")
+        PartyGoldGT(19999)~ THEN REPLY @123436
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("ohringwi",1) DestroyItem("ohringwi")
+          TakePartyItemNum("cdpp11",1)   DestroyItem("cdpp11")
+          TakePartyItemNum("ring40",1)   DestroyItem("ring40")
+          TakePartyItemNum("amul16",1)   DestroyItem("amul16")
+          GiveItemCreate("c2ring04",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("ring08") !PartyHasItem("ring08a") !PartyHasItem("ohringwi") 
         PartyHasItem("ring40")
         PartyHasItem("c!pp11")
         PartyHasItem("amul16")
@@ -933,13 +957,25 @@
           TakePartyItemNum("amul16",1)   DestroyItem("amul16")
           GiveItemCreate("c2ring04",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("ring08a")
+    IF ~PartyHasItem("ring08a") !PartyHasItem("ohringwi")
         PartyHasItem("ring40")
         PartyHasItem("c!pp11")
         PartyHasItem("amul16")
         PartyGoldGT(19999)~ THEN REPLY @123436
       DO ~TakePartyGold(20000)      DestroyGold(20000)
           TakePartyItemNum("ring08a",1)  DestroyItem("ring08a")
+          TakePartyItemNum("c!pp11",1)   DestroyItem("c!pp11")
+          TakePartyItemNum("ring40",1)   DestroyItem("ring40")
+          TakePartyItemNum("amul16",1)   DestroyItem("amul16")
+          GiveItemCreate("c2ring04",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("ohringwi")
+        PartyHasItem("ring40")
+        PartyHasItem("c!pp11")
+        PartyHasItem("amul16")
+        PartyGoldGT(19999)~ THEN REPLY @123436
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("ohringwi",1) DestroyItem("ohringwi")
           TakePartyItemNum("c!pp11",1)   DestroyItem("c!pp11")
           TakePartyItemNum("ring40",1)   DestroyItem("ring40")
           TakePartyItemNum("amul16",1)   DestroyItem("amul16")
