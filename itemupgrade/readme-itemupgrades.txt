@@ -1,7 +1,7 @@
                              Baldur's Gate II
                            Item Upgrade Mod Pack
 		  Westley Weimer <weimer@cs.berkeley.edu>
-                             \/ Release 44 \/
+                             \/ Release 45 \/
 
                       http://www.weidu.org/item.html
 
@@ -386,7 +386,7 @@ Ring of Lock Picks
 5,000 Gold
                         Gloves of the Master Thief
                         +25% traps, +25% locks, +20% pickpocket, 
-                        +3 AC, +1 saves
+                        AC 3, +1 saves
 ---------------------------------------------------------------------------
 Ring of Wizardry
 Ring of Acuity
@@ -800,3 +800,6 @@ Version 44: (updated by CamDawg)
           Reaching Ring) in EE/newer Fixpack games. 
         * Lowercased all sound references in dialogue to fix audio issues on case-sensitive
           file systems. 
+Version 45: (updated by CamDawg)
+        * Fixed bug where the Sorcerian Ring formula was not accounting for the alternate 
+          Reaching Ring in BG2EE. 
