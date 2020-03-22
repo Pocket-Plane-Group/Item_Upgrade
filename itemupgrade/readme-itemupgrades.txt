@@ -211,11 +211,17 @@ Shadow Dragon Armor
 Robe of the Good/Neutral/Evil Archmagi
 Cloak of Protection +1
 Scroll of Spirit Armor
-Scroll of Contingency
+Scroll of Contingency*
 20,000 Gold
                         Enhanced Robe of the Archmagi
                         AC 3, 10% MR, +2 saves, memorize one extra 1-4th
                         level spell
+                        
+NOTE: If the SCS component "Make spell sequencers, spell triggers, and 
+contingencies learnable by all mages" is installed, it removes all scrolls
+of Contingency from the game. In that case, you will need a scroll of
+Globe of Invulnerability instead of Contingency. However, this requires
+SCS of version > v32.8. 
 ---------------------------------------------------------------------------
 Helm of Defense
 Helm of Charm Protection
@@ -803,3 +809,8 @@ Version 44: (updated by CamDawg)
 Version 45: (updated by CamDawg)
         * Fixed bug where the Sorcerian Ring formula was not accounting for the alternate 
           Reaching Ring in BG2EE. 
+        * Resolved compatibility issue with the SCS component "Make spell sequencers, spell 
+          triggers, and contingencies learnable by all mages". If installed, it removes all 
+          scrolls of Contingency from the game. In that case, you will need a scroll of
+          Globe of Invulnerability instead of Contingency for the archmagi robe formulas. 
+          However, this requires SCS of version > v32.8. 
