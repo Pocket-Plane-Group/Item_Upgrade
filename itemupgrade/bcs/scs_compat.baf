@@ -1,0 +1,6 @@
+IF
+  Global("CD_SCS_Contingency","MYAREA",0) 
+THEN 
+  RESPONSE #100  
+    SetGlobal("CD_SCS_Contingency","MYAREA",1) 
+END    

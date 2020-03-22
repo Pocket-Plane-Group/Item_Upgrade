@@ -4,73 +4,119 @@ END
 
 APPEND WSMITH01
 	IF ~~ THEN BEGIN XO#ItemUp00 SAY @123455
-		IF ~~ THEN GOTO XO#ItemUp01
-		IF ~PartyHasItem("clck16")
-			PartyHasItem("clck01")
-			PartyHasItem("scrl7u")
-			PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp02
-		IF ~PartyHasItem("clck16")
-			PartyHasItem("cdpp8")
-			PartyHasItem("scrl7u")
-			PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp03
-		IF ~PartyHasItem("clck16")
-			PartyHasItem("c!pp8")
-			PartyHasItem("scrl7u")
-			PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp04
+    IF ~~ THEN GOTO XO#ItemUp01_contin
+    IF ~Global("CD_SCS_Contingency","MYAREA",1)~ THEN GOTO XO#ItemUp01_goi
+    IF ~PartyHasItem("clck16")
+        PartyHasItem("scrl7u")
+        Global("CD_SCS_Contingency","MYAREA",0)
+        OR(3)
+          PartyHasItem("clck01")
+          PartyHasItem("cdpp8")
+          PartyHasItem("c!pp8")
+        PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp02_contin
+    IF ~PartyHasItem("clck16")
+        PartyHasItem("scrl7f")
+        Global("CD_SCS_Contingency","MYAREA",1)
+        OR(3)
+          PartyHasItem("clck01")
+          PartyHasItem("cdpp8")
+          PartyHasItem("c!pp8")
+        PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp02_goi
 	END
 
-	IF ~~ THEN BEGIN XO#ItemUp01 SAY @1234855
-		IF ~~ THEN GOTO XO#NoItemUp
-	END
+  IF ~~ THEN BEGIN XO#ItemUp01_contin SAY @1234855 // contingency
+    IF ~~ THEN GOTO XO#NoItemUp
+  END
 
-	IF ~~ THEN BEGIN XO#ItemUp02 SAY @1234955
+  IF ~~ THEN BEGIN XO#ItemUp01_goi SAY @1234856 // GoI
+    IF ~~ THEN GOTO XO#NoItemUp
+  END
+
+	IF ~~ THEN BEGIN XO#ItemUp02_contin SAY @1234955
 		IF ~PartyGoldLT(20000)~ THEN REPLY #66662 GOTO XO#NoItemUp
-		IF ~PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",15)
-											 		 SetGlobal("ForgeStuff","GLOBAL",1)
-													 TakePartyGold(20000)
-													 DestroyGold(20000)
-													 TakePartyItemNum("clck16",1)
-													 DestroyItem("clck16")
-													 TakePartyItemNum("clck01",1)
-													 DestroyItem("clck01")
-													 TakePartyItemNum("scrl7u",1)
-													 DestroyItem("scrl7u")
-													 TakePartyItemNum("scrl5k",1)
-													 DestroyItem("scrl5k")~ GOTO 56
+		IF ~PartyHasItem("clck01")
+        PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",15)
+											 		                        SetGlobal("ForgeStuff","GLOBAL",1)
+													                        TakePartyGold(20000)
+													                        DestroyGold(20000)
+													                        TakePartyItemNum("clck16",1)
+													                        DestroyItem("clck16")
+													                        TakePartyItemNum("clck01",1)
+													                        DestroyItem("clck01")
+													                        TakePartyItemNum("scrl7u",1)
+													                        DestroyItem("scrl7u")
+													                        TakePartyItemNum("scrl5k",1)
+													                        DestroyItem("scrl5k")~ GOTO 56
+		IF ~PartyHasItem("cdpp8") !PartyHasItem("clck01")
+        PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",15)
+											 		                        SetGlobal("ForgeStuff","GLOBAL",1)
+													                        TakePartyGold(20000)
+													                        DestroyGold(20000)
+													                        TakePartyItemNum("clck16",1)
+													                        DestroyItem("clck16")
+													                        TakePartyItemNum("cdpp8",1)
+													                        DestroyItem("cdpp8")
+													                        TakePartyItemNum("scrl7u",1)
+													                        DestroyItem("scrl7u")
+													                        TakePartyItemNum("scrl5k",1)
+													                        DestroyItem("scrl5k")~ GOTO 56
+		IF ~PartyHasItem("c!pp8") !PartyHasItem("cdpp8") !PartyHasItem("clck01")
+        PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",15)
+											 		                        SetGlobal("ForgeStuff","GLOBAL",1)
+													                        TakePartyGold(20000)
+													                        DestroyGold(20000)
+													                        TakePartyItemNum("clck16",1)
+													                        DestroyItem("clck16")
+													                        TakePartyItemNum("c!pp8",1)
+													                        DestroyItem("c!pp8")
+													                        TakePartyItemNum("scrl7u",1)
+													                        DestroyItem("scrl7u")
+													                        TakePartyItemNum("scrl5k",1)
+													                        DestroyItem("scrl5k")~ GOTO 56
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
 
-	IF ~~ THEN BEGIN XO#ItemUp03 SAY @1234955
+	IF ~~ THEN BEGIN XO#ItemUp02_goi SAY @1234956
 		IF ~PartyGoldLT(20000)~ THEN REPLY #66662 GOTO XO#NoItemUp
-		IF ~PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",15)
-											 		 SetGlobal("ForgeStuff","GLOBAL",1)
-													 TakePartyGold(20000)
-													 DestroyGold(20000)
-													 TakePartyItemNum("clck16",1)
-													 DestroyItem("clck16")
-													 TakePartyItemNum("cdpp8",1)
-													 DestroyItem("cdpp8")
-													 TakePartyItemNum("scrl7u",1)
-													 DestroyItem("scrl7u")
-													 TakePartyItemNum("scrl5k",1)
-													 DestroyItem("scrl5k")~ GOTO 56
-    IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
-	END
-
-	IF ~~ THEN BEGIN XO#ItemUp04 SAY @1234955
-		IF ~PartyGoldLT(20000)~ THEN REPLY #66662 GOTO XO#NoItemUp
-		IF ~PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",15)
-											 		 SetGlobal("ForgeStuff","GLOBAL",1)
-													 TakePartyGold(20000)
-													 DestroyGold(20000)
-													 TakePartyItemNum("clck16",1)
-													 DestroyItem("clck16")
-													 TakePartyItemNum("c!pp8",1)
-													 DestroyItem("c!pp8")
-													 TakePartyItemNum("scrl7u",1)
-													 DestroyItem("scrl7u")
-													 TakePartyItemNum("scrl5k",1)
-													 DestroyItem("scrl5k")~ GOTO 56
+		IF ~PartyHasItem("clck01")
+        PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",15)
+											 		                        SetGlobal("ForgeStuff","GLOBAL",1)
+													                        TakePartyGold(20000)
+													                        DestroyGold(20000)
+													                        TakePartyItemNum("clck16",1)
+													                        DestroyItem("clck16")
+													                        TakePartyItemNum("clck01",1)
+													                        DestroyItem("clck01")
+													                        TakePartyItemNum("scrl7f",1)
+													                        DestroyItem("scrl7f")
+													                        TakePartyItemNum("scrl5k",1)
+													                        DestroyItem("scrl5k")~ GOTO 56
+		IF ~PartyHasItem("cdpp8") !PartyHasItem("clck01")
+        PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",15)
+											 		                        SetGlobal("ForgeStuff","GLOBAL",1)
+													                        TakePartyGold(20000)
+													                        DestroyGold(20000)
+													                        TakePartyItemNum("clck16",1)
+													                        DestroyItem("clck16")
+													                        TakePartyItemNum("cdpp8",1)
+													                        DestroyItem("cdpp8")
+													                        TakePartyItemNum("scrl7f",1)
+													                        DestroyItem("scrl7f")
+													                        TakePartyItemNum("scrl5k",1)
+													                        DestroyItem("scrl5k")~ GOTO 56
+		IF ~PartyHasItem("c!pp8") !PartyHasItem("cdpp8") !PartyHasItem("clck01")
+        PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",15)
+											 		                        SetGlobal("ForgeStuff","GLOBAL",1)
+													                        TakePartyGold(20000)
+													                        DestroyGold(20000)
+													                        TakePartyItemNum("clck16",1)
+													                        DestroyItem("clck16")
+													                        TakePartyItemNum("c!pp8",1)
+													                        DestroyItem("c!pp8")
+													                        TakePartyItemNum("scrl7f",1)
+													                        DestroyItem("scrl7f")
+													                        TakePartyItemNum("scrl5k",1)
+													                        DestroyItem("scrl5k")~ GOTO 56
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
 

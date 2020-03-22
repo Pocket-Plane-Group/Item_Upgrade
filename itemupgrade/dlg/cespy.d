@@ -284,11 +284,18 @@
   END
 
   IF ~~ THEN BEGIN robe
-    SAY @567855 = @56789955 IF ~~ THEN REPLY @567835 GOTO c2itemupgrade
-    IF ~PartyHasItem("clck15") PartyHasItem("clck01") !PartyHasItem("cdpp8") !PartyHasItem("c!pp8") 
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
-        PartyGoldGT(19999)~
-      THEN REPLY @123456 
+    SAY @567855 
+    IF ~~ GOTO robe_contin
+    IF ~Global("CD_SCS_Contingency","MYAREA",1)~ GOTO robe_goi
+  END
+  
+  IF ~~ THEN BEGIN robe_contin SAY @56789955 
+    IF ~~ THEN REPLY @567835 GOTO c2itemupgrade
+    IF ~PartyHasItem("clck15") 
+        PartyHasItem("clck01") !PartyHasItem("cdpp8") !PartyHasItem("c!pp8") 
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~ THEN REPLY @123456 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
           TakePartyItemNum("clck15",1)   DestroyItem("clck15")
           TakePartyItemNum("clck01",1)   DestroyItem("clck01")
@@ -296,8 +303,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe01",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck15") PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck15") 
+        PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123456 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -307,8 +316,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe01",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck15") PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck15") 
+        PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123456 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -318,8 +329,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe01",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck19") PartyHasItem("clck01")  !PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck19") !PartyHasItem("clck15")
+        PartyHasItem("clck01")  !PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123456 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -329,8 +342,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe01",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck19") PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck19") !PartyHasItem("clck15")
+        PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123456 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -340,8 +355,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe01",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck19") PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck19") !PartyHasItem("clck15")
+        PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123456 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -351,8 +368,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe01",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck16") PartyHasItem("clck01")   !PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck16") 
+        PartyHasItem("clck01")   !PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123457 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -362,8 +381,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe02",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck16") PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck16") 
+        PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123457 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -373,8 +394,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe02",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck16") PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck16") 
+        PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123457 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -384,8 +407,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe02",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck17") PartyHasItem("clck01")   !PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck17") 
+        PartyHasItem("clck01")   !PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123458 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -395,8 +420,10 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe03",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck17") PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck17") 
+        PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123458 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -406,14 +433,175 @@
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe03",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("clck17") PartyHasItem("c!pp8")
-        PartyHasItem("scrl7u") PartyHasItem("scrl5k")
+    IF ~PartyHasItem("clck17") 
+        PartyHasItem("c!pp8")
+        PartyHasItem("scrl7u") 
+        PartyHasItem("scrl5k")
         PartyGoldGT(19999)~
       THEN REPLY @123458 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
           TakePartyItemNum("clck17",1)   DestroyItem("clck17")
           TakePartyItemNum("c!pp8",1)   DestroyItem("c!pp8")
           TakePartyItemNum("scrl7u",1)   DestroyItem("scrl7u")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe03",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+  END
+
+  IF ~~ THEN BEGIN robe_goi SAY @56789956 
+    IF ~~ THEN REPLY @567835 GOTO c2itemupgrade
+    IF ~PartyHasItem("clck15") 
+        PartyHasItem("clck01") !PartyHasItem("cdpp8") !PartyHasItem("c!pp8") 
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~ THEN REPLY @123456 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck15",1)   DestroyItem("clck15")
+          TakePartyItemNum("clck01",1)   DestroyItem("clck01")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck15") 
+        PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123456 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck15",1)   DestroyItem("clck15")
+          TakePartyItemNum("cdpp8",1)   DestroyItem("cdpp8")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck15") 
+        PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123456 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck15",1)   DestroyItem("clck15")
+          TakePartyItemNum("c!pp8",1)   DestroyItem("c!pp8")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck19") !PartyHasItem("clck15")
+        PartyHasItem("clck01")  !PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123456 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck19",1)   DestroyItem("clck19")
+          TakePartyItemNum("clck01",1)   DestroyItem("clck01")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck19") !PartyHasItem("clck15")
+        PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123456 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck19",1)   DestroyItem("clck19")
+          TakePartyItemNum("cdpp8",1)   DestroyItem("cdpp8")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck19") !PartyHasItem("clck15")
+        PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123456 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck19",1)   DestroyItem("clck19")
+          TakePartyItemNum("c!pp8",1)   DestroyItem("c!pp8")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe01",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck16") 
+        PartyHasItem("clck01")   !PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123457 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck16",1)   DestroyItem("clck16")
+          TakePartyItemNum("clck01",1)   DestroyItem("clck01")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe02",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck16") 
+        PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123457 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck16",1)   DestroyItem("clck16")
+          TakePartyItemNum("cdpp8",1)   DestroyItem("cdpp8")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe02",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck16") 
+        PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123457 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck16",1)   DestroyItem("clck16")
+          TakePartyItemNum("c!pp8",1)   DestroyItem("c!pp8")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe02",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck17") 
+        PartyHasItem("clck01")   !PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123458 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck17",1)   DestroyItem("clck17")
+          TakePartyItemNum("clck01",1)   DestroyItem("clck01")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe03",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck17") 
+        PartyHasItem("cdpp8") !PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123458 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck17",1)   DestroyItem("clck17")
+          TakePartyItemNum("cdpp8",1)   DestroyItem("cdpp8")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
+          TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
+          GiveItemCreate("c2robe03",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("clck17") 
+        PartyHasItem("c!pp8")
+        PartyHasItem("scrl7f") 
+        PartyHasItem("scrl5k")
+        PartyGoldGT(19999)~
+      THEN REPLY @123458 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("clck17",1)   DestroyItem("clck17")
+          TakePartyItemNum("c!pp8",1)   DestroyItem("c!pp8")
+          TakePartyItemNum("scrl7f",1)   DestroyItem("scrl7f")
           TakePartyItemNum("scrl5k",1)   DestroyItem("scrl5k")
           GiveItemCreate("c2robe03",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT

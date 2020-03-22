@@ -15,3 +15,9 @@ ACTION_IF ee_game = 2 BEGIN
 
 END
 
+ACTION_IF MOD_IS_INSTALLED ~stratagems/setup-stratagems.tp2~ ~4250~ THEN BEGIN  // if SCS removes contingency scrolls
+
+  EXTEND_BOTTOM ~AR0334.bcs~ ~itemupgrade/baf/scs_compat.baf~ // adds an area var for crom and cespy to check in-game (crom has no script)
+
+END  
+
