@@ -1,7 +1,7 @@
                              Baldur's Gate II
                            Item Upgrade Mod Pack
 		  Westley Weimer <weimer@cs.berkeley.edu>
-                             \/ Release 45 \/
+                             \/ Release 46 \/
 
                       http://www.weidu.org/item.html
 
@@ -32,7 +32,9 @@ See Section III for an item list.
 		~~~~~~~~~~~~~~~~~~~~~~~~
 BGII is required. ToB is optional but recommended. The Item Upgrade Mod
 will install correctly over (or without) the Ascension Mod. It should work
-fine with any WeiDU mod. See the webpage for details. 
+fine with any WeiDU mod. See the webpage for details. This mod also works
+on Baldur's Gate Trilogy or the Enhanced Edition of Baldur's Gate II or
+Enhanced Edition Trilogy.
 
 Unzip the main ZIP file into your BGII main directory. This is normally:
         C:\Program Files\Black Isle\BGII - SoA\
@@ -814,3 +816,6 @@ Version 45: (updated by CamDawg)
           scrolls of Contingency from the game. In that case, you will need a scroll of
           Globe of Invulnerability instead of Contingency for the archmagi robe formulas. 
           However, this requires SCS of version > v32.8. 
+Version 46: (updated by CamDawg)
+        * The compatibility fix with SCS introduced in v45 would fail if SCS was installed
+          first due to a bad path. SCS Should be installed after Item Upgrade regardless.

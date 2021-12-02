@@ -66,6 +66,6 @@ END
 
 ACTION_IF MOD_IS_INSTALLED ~stratagems/setup-stratagems.tp2~ ~4250~ THEN BEGIN  // if SCS removes contingency scrolls
 
-  EXTEND_BOTTOM ~ar4500.bcs~ ~itemupgrade/baf/scs_compat.baf~ // adds an area var for crom and cespy to check in-game (crom has no script)
+  EXTEND_BOTTOM ~ar4500.bcs~ ~itemupgrade/bcs/scs_compat.baf~ // adds an area var for crom and cespy to check in-game (crom has no script)
 
 END  
