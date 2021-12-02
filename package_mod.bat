@@ -28,7 +28,7 @@ set audio_folder=%mod_folder%\audio
 set tispack_folder=%mod_folder%\tiz
 set tile2ee_folder=%mod_folder%\tools\tile2ee
 set iconv_folder=%mod_folder%\languages\iconv
-set mod_readme=http://weidu.org/c2/README-ItemUpgrades.txt
+set mod_readme=https://raw.githubusercontent.com/Pocket-Plane-Group/Item_Upgrade/master/itemupgrade/readme-itemupgrades.txt
 
 REM /* MODIFY: if you don't need to build a specific package, you can disable it by setting the appropriate variable below to 0 */
 set build_windows=1
