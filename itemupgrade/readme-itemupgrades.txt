@@ -818,4 +818,4 @@ Version 45: (updated by CamDawg)
           However, this requires SCS of version > v32.8. 
 Version 46: (updated by CamDawg)
         * The compatibility fix with SCS introduced in v45 would fail if SCS was installed
-          first due to a bad path. SCS Should be installed after Item Upgrade regardless.
+          first due to a bad path. SCS should be installed after Item Upgrade regardless.
