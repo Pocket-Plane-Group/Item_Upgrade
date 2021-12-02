@@ -1,7 +1,7 @@
                              Baldur's Gate II
                            Item Upgrade Mod Pack
 		  Westley Weimer <weimer@cs.berkeley.edu>
-                             \/ Release 46 \/
+                             \/ Release 47 \/
 
                       http://www.weidu.org/item.html
 
@@ -818,4 +818,7 @@ Version 45: (updated by CamDawg)
           However, this requires SCS of version > v32.8. 
 Version 46: (updated by CamDawg)
         * The compatibility fix with SCS introduced in v45 would fail if SCS was installed
-          first due to a bad path. SCS should be installed after Item Upgrade regardless.
+          first due to a bad path. SCS should be installed after Item Upgrade regardless
+Version 47: (updated by CamDawg)
+        * Fixed a bug where Cromwell, in the original component, would fail to make the 
+          Sorcerian Ring due to a bad trigger. 

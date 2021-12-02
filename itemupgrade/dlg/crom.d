@@ -55,7 +55,7 @@
     IF ~OR(3) PartyHasItem("amul14") PartyHasItem("cdpp7") PartyHasItem("c!pp7")~ THEN REPLY @123437 GOTO ilmater
     IF ~PartyHasItem("sw1h52")~ THEN REPLY @123438 GOTO water
     IF ~PartyHasItem("ax1h10")~ THEN REPLY @123439 GOTO azur
-    IF ~OR(2) PartyHasItem("ring08") PartyHasItem("ring08a") PartyHasItem("ohringwi")~ THEN REPLY @123484 GOTO sorcerian
+    IF ~OR(3) PartyHasItem("ring08") PartyHasItem("ring08a") PartyHasItem("ohringwi")~ THEN REPLY @123484 GOTO sorcerian
     IF ~PartyHasItem("belt03")~ THEN REPLY @123482 GOTO girdle
     IF ~PartyHasItem("misc3e")~ THEN REPLY @123495 GOTO kitthix
     IF ~PartyHasItem("npsw05")~ THEN REPLY @123497 GOTO hd
