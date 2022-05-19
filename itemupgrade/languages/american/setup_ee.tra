@@ -770,7 +770,6 @@ Combat abilities:
 – Target suffers 2 points of damage per second for 3 turns
 – Wielder raises their maximum HP by 2 points for 3 turns on every hit
 
-
 THAC0: +4
 Damage: 1d8+4 (slashing)
 Speed Factor: 1
@@ -843,7 +842,6 @@ STATISTICS:
 Combat abilities:
 – Hit target is poisoned and suffers 1 point of damage per second for one round
 – Each successful hit has a 5% chance of casting Greater Malison on its target
-
 
 THAC0: +3
 Damage: 1d6+3 (piercing)
