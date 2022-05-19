@@ -9,7 +9,7 @@ COMPILE ~itemupgrade/dlg/riftg03.d~
 // prompts random StringHeads if Lil +5 is being used
 EXTEND_BOTTOM ~baldur.bcs~ ~itemupgrade/bcs/lilarcor.baf~
 
-ACTION_IF ee_game = 2 BEGIN
+ACTION_IF enhanced_edition = 2 BEGIN
 
   INCLUDE ~itemupgrade/lib/ee_game.tpa~ // function to redo descriptions
 

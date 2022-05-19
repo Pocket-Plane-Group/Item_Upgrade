@@ -4,7 +4,7 @@ INCLUDE ~itemupgrade/lib/items_common.tpa~
 COPY ~itemupgrade/itm/c2leat01.itm~ ~override~
   SAY NAME2     @142
   SAY DESC      @143
-  PATCH_IF ee_game BEGIN
+  PATCH_IF enhanced_edition BEGIN
     LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 318 target = 1 timing = 2 STR_VAR resource = wand13 END // ee protection from wand of cloudkill
   END
 
@@ -58,7 +58,7 @@ COPY_EXISTING ~quiver02.itm~ ~override~
   WRITE_ASCII 0x44 ~gquiver0~
   BUT_ONLY
 
-ACTION_IF ee_game = 2 BEGIN
+ACTION_IF enhanced_edition = 2 BEGIN
 
   INCLUDE ~itemupgrade/lib/ee_game.tpa~ // function to redo descriptions
 

@@ -27,14 +27,46 @@ COPY_EXISTING ~blun25.itm~ ~override~
   LPF ALTER_ITEM_HEADER INT_VAR match_type = 1 STR_VAR icon = iblun12 END // update MoD icon on melee headers
   BUT_ONLY
 
+ACTION_IF NOT VARIABLE_IS_SET charm_immunity THEN BEGIN // ee fixpack immunity spellstates
+  
+  ACTION_IF enhanced_edition BEGIN
+
+    OUTER_SET charm_immunity     = IDS_OF_SYMBOL (~splstate~ ~CHARM_IMMUNITY~)  
+    OUTER_SET confusion_immunity = IDS_OF_SYMBOL (~splstate~ ~CONFUSION_IMMUNITY~)  
+    OUTER_SET death_immunity     = IDS_OF_SYMBOL (~splstate~ ~DEATH_IMMUNITY~)   
+    OUTER_SET entangle_immunity  = IDS_OF_SYMBOL (~splstate~ ~ENTANGLE_IMMUNITY~)  
+    OUTER_SET haste_immunity     = IDS_OF_SYMBOL (~splstate~ ~HASTE_IMMUNITY~)  
+    OUTER_SET hold_immunity      = IDS_OF_SYMBOL (~splstate~ ~HOLD_IMMUNITY~)  
+    OUTER_SET panic_immunity     = IDS_OF_SYMBOL (~splstate~ ~PANIC_IMMUNITY~)   
+    OUTER_SET sleep_immunity     = IDS_OF_SYMBOL (~splstate~ ~SLEEP_IMMUNITY~)  
+    OUTER_SET slow_immunity      = IDS_OF_SYMBOL (~splstate~ ~SLOW_IMMUNITY~)  
+    OUTER_SET web_immunity       = IDS_OF_SYMBOL (~splstate~ ~WEB_IMMUNITY~)    
+
+  END ELSE BEGIN
+
+    OUTER_SET charm_immunity     = "-1"
+    OUTER_SET confusion_immunity = "-1"
+    OUTER_SET death_immunity     = "-1"
+    OUTER_SET entangle_immunity  = "-1"
+    OUTER_SET haste_immunity     = "-1"
+    OUTER_SET hold_immunity      = "-1"
+    OUTER_SET panic_immunity     = "-1"
+    OUTER_SET sleep_immunity     = "-1"
+    OUTER_SET slow_immunity      = "-1"
+    OUTER_SET web_immunity       = "-1"
+    
+  END
+
+END
+
 // why wrap every one of these in an ACTION_IF? so SoA and ToB ones won't install them more than once
 ACTION_IF NOT FILE_EXISTS_IN_GAME c2amul01.itm THEN BEGIN
   
   COPY ~itemupgrade/itm/c2amul01.itm~ ~override~
     SAY NAME2     @180
     SAY DESC      @181
-    PATCH_IF ee_game BEGIN
-    LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 318 target = 1 timing = 2 STR_VAR resource = wand13 END // ee protection from wand of cloudkill
+    PATCH_IF enhanced_edition BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 318 target = 1 timing = 2 STR_VAR resource = wand13 END // ee protection from wand of cloudkill
     END
 
   COPY ~itemupgrade/bam/c2amul01.bam~ ~override~
@@ -50,7 +82,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2anom01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2anom01.itm~ ~override~
     SAY NAME2     @166
     SAY DESC      @167
-    PATCH_IF ee_game BEGIN
+    PATCH_IF enhanced_edition BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9138 STR_VAR resource = ANOMEN END
     END
 
@@ -161,6 +193,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2bow01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2bow01.itm~ ~override~
     SAY NAME2     @126
     SAY DESC      @127
+    PATCH_IF (confusion_immunity > 0) BEGIN 
+      LPF CLONE_EFFECT INT_VAR match_opcode = 128 opcode = 324 power = 0 parameter1 = confusion_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+    END  
 
   COPY ~itemupgrade/bam/c2bow01.bam~ ~override~
 
@@ -193,6 +228,15 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2dagg01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2dagg01.itm~ ~override~
     SAY NAME2     @174
     SAY DESC      @175
+    PATCH_IF enhanced_edition BEGIN
+      PATCH_IF (sleep_immunity > 0) BEGIN 
+        LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = sleep_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      END  
+      // swap oBG2 elven sleep resistance for ee method
+      LPF DELETE_EFFECT INT_VAR match_opcode = 177 END // delete all of the oBG2 elven resistance effs
+      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 94 probability2 = 50 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 64 probability2 = 50 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+    END  
 
   COPY ~itemupgrade/bam/c2dagg01.bam~ ~override~
 
@@ -203,8 +247,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd1.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2hd1.itm~ ~override~
     SAY NAME2     @193
     SAY DESC      @194
-    PATCH_IF ee_game BEGIN
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END
+    PATCH_IF enhanced_edition BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END // use 319 to make it HD-only
+      // add normal EE poison immunities
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
     END
 
   COPY ~itemupgrade/bam/c2hd1.bam~ ~override~
@@ -216,8 +263,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd2.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2hd2.itm~ ~override~
     SAY NAME2     @195
     SAY DESC      @196
-    PATCH_IF ee_game BEGIN
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END
+    PATCH_IF enhanced_edition BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END // use 319 to make it HD-only
+      PATCH_IF (confusion_immunity > 0) BEGIN 
+        LPF CLONE_EFFECT INT_VAR match_opcode = 128 opcode = 324 power = 0 parameter1 = confusion_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      END  
     END
 
 END
@@ -227,6 +277,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2helm01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2helm01.itm~ ~override~
     SAY NAME2     @136
     SAY DESC      @137
+    PATCH_IF (charm_immunity > 0) BEGIN 
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
+    END  
 
   COPY ~itemupgrade/bam/c2helm01.bam~ ~override~
 
@@ -237,6 +290,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2helm02.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2helm02.itm~ ~override~
     SAY NAME2     @138
     SAY DESC      @139
+    PATCH_IF (charm_immunity > 0) BEGIN 
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
+    END  
 
   COPY ~itemupgrade/bam/c2helm02.bam~ ~override~
 
@@ -247,6 +303,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hide01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2hide01.itm~ ~override~
     SAY NAME2     @140
     SAY DESC      @141
+    PATCH_IF (confusion_immunity > 0) BEGIN 
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 128 opcode = 328 parameter2 = confusion_immunity special = 1 STR_VAR insert = first END // clone immunity to confusion into set spell state
+    END  
 
   COPY ~itemupgrade/bam/c2hide01.bam~ ~override~
   
@@ -266,7 +325,25 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld01.itm THEN BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 =  1280 timing = 2 END // prevent 'stunned' string
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14043 timing = 2 END // prevent 'stun' string
     END
-    PATCH_IF ee_game BEGIN
+    PATCH_IF enhanced_edition BEGIN
+      PATCH_IF (entangle_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 154 opcode = 328 parameter2 = entangle_immunity special = 1 STR_VAR insert = first END // clone immunity to entangle into set spell state
+      END  
+      PATCH_IF (haste_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 16 opcode = 328 parameter2 = haste_immunity special = 1 STR_VAR insert = first END // clone immunity to haste into set spell state
+      END  
+      PATCH_IF (hold_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
+      END  
+      PATCH_IF (panic_immunity) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 24 opcode = 328 parameter2 = panic_immunity special = 1 STR_VAR insert = first END // clone immunity to fear into set spell state
+      END  
+      PATCH_IF (slow_immunity) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 40 opcode = 328 parameter2 = slow_immunity special = 1 STR_VAR insert = first END // clone immunity to slow into set spell state
+      END  
+      PATCH_IF (web_immunity) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 157 opcode = 328 parameter2 = web_immunity special = 1 STR_VAR insert = first END // clone immunity to web into set spell state
+      END  
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9144 STR_VAR resource = KELDORN END
     END
 
@@ -292,7 +369,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld02.itm THEN BEGIN
       LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 =  48 END // remove icon: feeblemind
       LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 112 END // remove icon: deaf
     END
-    PATCH_IF ee_game BEGIN
+    PATCH_IF enhanced_edition BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9144 STR_VAR resource = KELDORN END
     END
 
@@ -311,6 +388,16 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2kit.itm THEN BEGIN
     SAY NAME2     @192
 
   COPY ~itemupgrade/itm/c2kita.itm~ ~override~
+    PATCH_IF enhanced_edition BEGIN
+      // add normal EE poison immunities
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
+      PATCH_IF (web_immunity > 0) BEGIN // if web_immunity, skip application of the web spell
+        LPF ALTER_EFFECT INT_VAR match_opcode = 146 opcode = 326 parameter1 = web_immunity parameter2 = 111 END
+      END  
+    END
+
+  COPY ~itemupgrade/spl/c2kita.spl~ ~override~ // web effect from attack, farmed out for immunties on EEs
        ~itemupgrade/bam/c2kit.bam~  ~override~
        ~itemupgrade/eff/c2kit.eff~  ~override~
 
@@ -328,6 +415,22 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2mazz01.itm THEN BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 =  1280 timing = 2 END // prevent 'stunned' string
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14043 timing = 2 END // prevent 'stun' string
     END
+    PATCH_IF (entangle_immunity > 0) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 154 opcode = 328 parameter2 = entangle_immunity special = 1 STR_VAR insert = first END // clone immunity to entangle into set spell state
+    END  
+    PATCH_IF (haste_immunity > 0) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 16 opcode = 328 parameter2 = haste_immunity special = 1 STR_VAR insert = first END // clone immunity to haste into set spell state
+    END  
+    PATCH_IF (hold_immunity > 0) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
+    END  
+    PATCH_IF (slow_immunity) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 40 opcode = 328 parameter2 = slow_immunity special = 1 STR_VAR insert = first END // clone immunity to slow into set spell state
+      LPF CLONE_EFFECT INT_VAR match_opcode = 40 opcode = 324 power = 0 parameter1 = slow_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+    END  
+    PATCH_IF (web_immunity) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 157 opcode = 328 parameter2 = web_immunity special = 1 STR_VAR insert = first END // clone immunity to web into set spell state
+    END  
 
   COPY ~itemupgrade/bam/c2mazz01.bam~ ~override~
 
@@ -374,6 +477,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring03.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2ring03.itm~ ~override~
     SAY NAME2     @104
     SAY DESC      @105
+    PATCH_IF (charm_immunity > 0) BEGIN 
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 177 opcode = 324 power = 0 parameter1 = charm_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+    END  
 
   COPY ~itemupgrade/bam/c2ring03.bam~ ~override~
        ~itemupgrade/eff/c2ring03.eff~ ~override~
@@ -434,6 +540,15 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2shld01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2shld01.itm~ ~override~
     SAY NAME2     @148
     SAY DESC      @149
+    PATCH_IF (charm_immunity > 0) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
+    END  
+    PATCH_IF (confusion_immunity > 0) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 128 opcode = 328 parameter2 = confusion_immunity special = 1 STR_VAR insert = first END // clone immunity to confusion into set spell state
+    END  
+    PATCH_IF (hold_immunity > 0) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
+    END  
 
   COPY ~itemupgrade/bam/c2shld01.bam~ ~override~
 
@@ -468,6 +583,12 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sper02.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2sper02.itm~ ~override~
     SAY NAME2     @152
     SAY DESC      @153
+    PATCH_IF (charm_immunity > 0) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
+    END  
+    PATCH_IF (hold_immunity > 0) BEGIN
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
+    END  
 
   COPY ~itemupgrade/bam/c2sper02.bam~ ~override~
 
@@ -491,7 +612,19 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf01.itm THEN BEGIN
   
   COPY ~itemupgrade/itm/c2staf01.itm~ ~override~
     SAY NAME2     @106
-    SAY DESC      @107
+    SAY DESC      @107  
+    PATCH_IF enhanced_edition BEGIN
+      PATCH_IF (sleep_immunity > 0) BEGIN 
+        LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = sleep_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      END  
+      // swap oBG2 elven sleep resistance for ee method
+      LPF DELETE_EFFECT INT_VAR match_opcode = 177 END // delete all of the oBG2 elven resistance effs
+      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 89 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 29 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      PATCH_IF (death_immunity > 0) BEGIN 
+        LPF CLONE_EFFECT INT_VAR match_opcode = 55 multi_match = 1 opcode = 324 power = 0 parameter1 = death_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = first resource = EVAL ~%SOURCE_RES%~ END
+      END
+    END  
 
   COPY ~itemupgrade/bam/c2staf01.bam~ ~override~
        ~itemupgrade/cre/elairpr3.cre~ ~override~
@@ -511,6 +644,15 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf02.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2staf02.itm~ ~override~
     SAY NAME2     @156
     SAY DESC      @157
+    PATCH_IF enhanced_edition BEGIN
+      PATCH_IF (charm_immunity > 0) BEGIN 
+        LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 power = 0 parameter1 = charm_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      END  
+      // swap oBG2 elven charm resistance for ee method
+      LPF DELETE_EFFECT INT_VAR match_opcode = 177 END // delete all of the oBG2 elven resistance effs
+      LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 power = 0 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 89 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 power = 0 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 29 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+    END  
 
   COPY ~itemupgrade/bam/c2staf02.bam~ ~override~
 
@@ -552,6 +694,14 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sw1h03.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2sw1h03.itm~ ~override~
     SAY NAME2     @182
     SAY DESC      @183
+    PATCH_IF enhanced_edition BEGIN 
+      // add normal EE poison immunities
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
+      PATCH_IF (charm_immunity > 0) BEGIN 
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
+      END  
+    END  
 
   COPY ~itemupgrade/bam/c2sw1h03.bam~ ~override~
 
@@ -562,6 +712,12 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sw2h01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2sw2h01.itm~ ~override~
     SAY NAME2     @168
     SAY DESC      @169
+    PATCH_IF (charm_immunity > 0) BEGIN 
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
+    END  
+    PATCH_IF (confusion_immunity > 0) BEGIN 
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 128 opcode = 328 parameter2 = confusion_immunity special = 1 STR_VAR insert = first END // clone immunity to confusion into set spell state
+    END  
 
   COPY ~itemupgrade/bam/c2sw2h01.bam~ ~override~
 
@@ -572,7 +728,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2valy01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2valy01.itm~ ~override~
     SAY NAME2     @128
     SAY DESC      @129
-    PATCH_IF ee_game BEGIN
+    PATCH_IF enhanced_edition BEGIN
+      PATCH_IF (charm_immunity > 0) BEGIN 
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
+      END  
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9158 STR_VAR resource = VALYGAR END
     END
 

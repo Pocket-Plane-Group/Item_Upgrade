@@ -1,9 +1,9 @@
-BACKUP ~itemupgrade/backup~
+BACKUP ~weidu_external/itemupgrade/backup~
 AUTHOR ~http://forums.pocketplane.net/index.php/board,43.0.html~
 
 ALWAYS
 
-  ACTION_IF NOT VARIABLE_IS_SET ee_game THEN BEGIN // just do this once per install
+  ACTION_IF NOT VARIABLE_IS_SET enhanced_edition THEN BEGIN // just do this once per install
 
     ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
 
@@ -16,17 +16,17 @@ ALWAYS
                  ("%LANGUAGE%" STRING_COMPARE_CASE "polski" = 0) OR
                  ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) BEGIN
 
-        OUTER_SET ee_game = 1 // ee game with actual setup_ee translation
+        OUTER_SET enhanced_edition = 1 // ee game with actual setup_ee translation
 
       END ELSE BEGIN
 
-        OUTER_SET ee_game = 2 // ee game without actual setup_ee translation
+        OUTER_SET enhanced_edition = 2 // ee game without actual setup_ee translation
 
       END
 
     END ELSE BEGIN
 
-      OUTER_SET ee_game = 0
+      OUTER_SET enhanced_edition = 0
 
     END
   
@@ -88,7 +88,7 @@ BEGIN @4 DESIGNATED 0
 LABEL ~c2_item_upgrade_soa_original~
 SUBCOMPONENT @1
 
-ACTION_IF ee_game THEN BEGIN
+ACTION_IF enhanced_edition THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
 
@@ -120,7 +120,7 @@ REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
 SUBCOMPONENT @1
 
-ACTION_IF ee_game THEN BEGIN
+ACTION_IF enhanced_edition THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/fl#utf8_lolwot.tra~
@@ -196,7 +196,7 @@ REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @3 // ToB
 LABEL ~c2_item_upgrade_tob_original~
 SUBCOMPONENT @2
 
-ACTION_IF ee_game THEN BEGIN
+ACTION_IF enhanced_edition THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
 
@@ -229,7 +229,7 @@ REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
 LABEL ~c2_item_upgrade_tob_seamless~
 SUBCOMPONENT @2
 
-ACTION_IF ee_game THEN BEGIN
+ACTION_IF enhanced_edition THEN BEGIN
 
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
   LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/fl#utf8_lolwot.tra~
