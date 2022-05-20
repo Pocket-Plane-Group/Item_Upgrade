@@ -1441,15 +1441,28 @@
     CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
   END
 
-  IF ~~ THEN BEGIN water
-    SAY @567888 = @5678988 IF ~~ THEN REPLY @567835 GOTO c2itemupgrade
-    IF ~PartyHasItem("sw1h52") PartyHasItem("sw1h23") 
+  IF ~~ THEN BEGIN water SAY @567888 = @5678988 
+    IF ~~ THEN REPLY @567835 GOTO c2itemupgrade
+    IF ~PartyHasItem("sw1h52") 
+        PartyHasItem("sw1h23") 
+        !PartyHasItem("bdsw1h23") 
         PartyHasItem("sw1h35")
         PartyGoldGT(14999)~
       THEN REPLY @567836 
       DO ~TakePartyGold(15000)      DestroyGold(15000)
           TakePartyItemNum("sw1h52",1)   DestroyItem("sw1h52")
           TakePartyItemNum("sw1h23",1)   DestroyItem("sw1h23")
+          TakePartyItemNum("sw1h35",1)   DestroyItem("sw1h35")
+          GiveItemCreate("c2sw1h03",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("sw1h52") 
+        PartyHasItem("bdsw1h23") 
+        PartyHasItem("sw1h35")
+        PartyGoldGT(14999)~
+      THEN REPLY @567836 
+      DO ~TakePartyGold(15000)      DestroyGold(15000)
+          TakePartyItemNum("sw1h52",1)   DestroyItem("sw1h52")
+          TakePartyItemNum("bdsw1h23",1) DestroyItem("bdsw1h23")
           TakePartyItemNum("sw1h35",1)   DestroyItem("sw1h35")
           GiveItemCreate("c2sw1h03",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
