@@ -221,7 +221,8 @@ APPEND WSMITH01
 													 DestroyItem("amul24")
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
-													 TakePartyItemNum("amul14",2) DestroyItem("amul14")
+													 TakePartyItemNum("amul14",1) DestroyItem("amul14")
+													 TakePartyItemNum("amul14",1) DestroyItem("amul14")
 ~ GOTO 56
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -238,7 +239,8 @@ APPEND WSMITH01
 													 DestroyItem("amul24")
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
-													 TakePartyItemNum("bdamul24",2) DestroyItem("bdamul24")
+													 TakePartyItemNum("bdamul24",1) DestroyItem("bdamul24")
+													 TakePartyItemNum("bdamul24",1) DestroyItem("bdamul24")
 ~ GOTO 56
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -255,7 +257,8 @@ APPEND WSMITH01
 													 DestroyItem("amul24")
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
-													 TakePartyItemNum("cdpp7",2) DestroyItem("cdpp7")
+													 TakePartyItemNum("cdpp7",1) DestroyItem("cdpp7")
+													 TakePartyItemNum("cdpp7",1) DestroyItem("cdpp7")
 ~ GOTO 56
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -272,7 +275,8 @@ APPEND WSMITH01
 													 DestroyItem("amul24")
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
-													 TakePartyItemNum("c!pp7",2) DestroyItem("c!pp7")
+													 TakePartyItemNum("c!pp7",1) DestroyItem("c!pp7")
+													 TakePartyItemNum("c!pp7",1) DestroyItem("c!pp7")
 ~ GOTO 56
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -289,7 +293,8 @@ APPEND WSMITH01
 													 DestroyItem("amul24")
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
-													 TakePartyItemNum("cdpp30",2) DestroyItem("cdpp30")
+													 TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+													 TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
 ~ GOTO 56
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -306,7 +311,8 @@ APPEND WSMITH01
 													 DestroyItem("amul24")
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
-													 TakePartyItemNum("c!pp30",2) DestroyItem("c!pp30")
+													 TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
+													 TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
 ~ GOTO 56
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
