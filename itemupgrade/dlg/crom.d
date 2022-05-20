@@ -56,7 +56,7 @@
     IF ~PartyHasItem("sw1h52")~ THEN REPLY @123438 GOTO water
     IF ~PartyHasItem("ax1h10")~ THEN REPLY @123439 GOTO azur
     IF ~OR(3) PartyHasItem("ring08") PartyHasItem("ring08a") PartyHasItem("ohringwi")~ THEN REPLY @123484 GOTO sorcerian
-    IF ~PartyHasItem("belt03")~ THEN REPLY @123482 GOTO girdle
+    IF ~OR(2) PartyHasItem("belt03") PartyHasItem("bdbelt13")~ THEN REPLY @123482 GOTO girdle
     IF ~PartyHasItem("misc3e")~ THEN REPLY @123495 GOTO kitthix
     IF ~PartyHasItem("npsw05")~ THEN REPLY @123497 GOTO hd
     IF ~PartyHasItem("chan14")~ THEN REPLY @123499 GOTO chan01
@@ -1402,44 +1402,229 @@
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
   END
 
-  IF ~~ THEN BEGIN girdle
-    SAY @123483 IF ~~ THEN REPLY @123435 GOTO c2itemupgrade
-    IF ~PartyHasItem("belt02") PartyHasItem("belt03") 
-        PartyHasItem("belt04") 
-        NumItemsPartyGT("misc20",2)
-        PartyGoldGT(9999)~
-      THEN REPLY @123436 
+  IF ~~ THEN BEGIN girdle SAY @123483 
+    IF ~~ THEN REPLY @123435 GOTO c2itemupgrade
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("bdbelt13")
+      PartyHasItem("bdbelt14")
+      NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
       DO ~TakePartyGold(10000)      DestroyGold(10000)
-          TakePartyItemNum("belt02",1)   DestroyItem("belt02")
-          TakePartyItemNum("belt03",1)   DestroyItem("belt03")
-          TakePartyItemNum("belt04",1)   DestroyItem("belt04")
-          TakePartyItemNum("misc20",3)   DestroyItem("misc20")
-          GiveItemCreate("c2belt01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("belt02") PartyHasItem("belt03") 
-        PartyHasItem("belt04") 
-        NumItemsPartyGT("amul13",2)
-        PartyGoldGT(9999)~
-      THEN REPLY @123436 
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("bdbelt13",1) DestroyItem("bdbelt13")
+      TakePartyItemNum("bdbelt14",1) DestroyItem("bdbelt14")
+      TakePartyItemNum("misc20",1)   DestroyItem("misc20")
+      TakePartyItemNum("misc20",1)   DestroyItem("misc20")
+      TakePartyItemNum("misc20",1)   DestroyItem("misc20")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("belt03")
+      PartyHasItem("bdbelt14")
+      !PartyHasItem("bdbelt13")
+      NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
       DO ~TakePartyGold(10000)      DestroyGold(10000)
-          TakePartyItemNum("belt02",1)   DestroyItem("belt02")
-          TakePartyItemNum("belt03",1)   DestroyItem("belt03")
-          TakePartyItemNum("belt04",1)   DestroyItem("belt04")
-          TakePartyItemNum("amul13",3)   DestroyItem("amul13")
-          GiveItemCreate("c2belt01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("belt02") PartyHasItem("belt03") 
-        PartyHasItem("belt04") 
-        NumItemsPartyGT("ring15",2)
-        PartyGoldGT(9999)~
-      THEN REPLY @123436 
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("belt03",1)   DestroyItem("belt03")
+      TakePartyItemNum("bdbelt14",1) DestroyItem("bdbelt14")
+      TakePartyItemNum("misc20",1)   DestroyItem("misc20")
+      TakePartyItemNum("misc20",1)   DestroyItem("misc20")
+      TakePartyItemNum("misc20",1)   DestroyItem("misc20")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("bdbelt13")
+      PartyHasItem("belt04")
+      !PartyHasItem("bdbelt14")
+      NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
       DO ~TakePartyGold(10000)      DestroyGold(10000)
-          TakePartyItemNum("belt02",1)   DestroyItem("belt02")
-          TakePartyItemNum("belt03",1)   DestroyItem("belt03")
-          TakePartyItemNum("belt04",1)   DestroyItem("belt04")
-          TakePartyItemNum("ring15",3)   DestroyItem("ring15")
-          GiveItemCreate("c2belt01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("bdbelt13",1) DestroyItem("bdbelt13")
+      TakePartyItemNum("belt04",1)   DestroyItem("belt04")
+      TakePartyItemNum("misc20",1)   DestroyItem("misc20")
+      TakePartyItemNum("misc20",1)   DestroyItem("misc20")
+      TakePartyItemNum("misc20",1)   DestroyItem("misc20")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("belt03")
+      PartyHasItem("belt04")
+      !PartyHasItem("bdbelt13")
+      !PartyHasItem("bdbelt14")
+      NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
+      DO ~TakePartyGold(10000)      DestroyGold(10000)
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("belt03",1) DestroyItem("belt03")
+      TakePartyItemNum("belt04",1) DestroyItem("belt04")
+      TakePartyItemNum("misc20",1) DestroyItem("misc20")
+      TakePartyItemNum("misc20",1) DestroyItem("misc20")
+      TakePartyItemNum("misc20",1) DestroyItem("misc20")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+
+
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("bdbelt13")
+      PartyHasItem("bdbelt14")
+      NumItemsPartyGT("amul13",2)
+      !NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
+      DO ~TakePartyGold(10000)      DestroyGold(10000)
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("bdbelt13",1) DestroyItem("bdbelt13")
+      TakePartyItemNum("bdbelt14",1) DestroyItem("bdbelt14")
+      TakePartyItemNum("amul13",1)   DestroyItem("amul13")
+      TakePartyItemNum("amul13",1)   DestroyItem("amul13")
+      TakePartyItemNum("amul13",1)   DestroyItem("amul13")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("belt03")
+      PartyHasItem("bdbelt14")
+      !PartyHasItem("bdbelt13")
+      NumItemsPartyGT("amul13",2)
+      !NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
+      DO ~TakePartyGold(10000)      DestroyGold(10000)
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("belt03",1)   DestroyItem("belt03")
+      TakePartyItemNum("bdbelt14",1) DestroyItem("bdbelt14")
+      TakePartyItemNum("amul13",1)   DestroyItem("amul13")
+      TakePartyItemNum("amul13",1)   DestroyItem("amul13")
+      TakePartyItemNum("amul13",1)   DestroyItem("amul13")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("bdbelt13")
+      PartyHasItem("belt04")
+      !PartyHasItem("bdbelt14")
+      NumItemsPartyGT("amul13",2)
+      !NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
+      DO ~TakePartyGold(10000)      DestroyGold(10000)
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("bdbelt13",1) DestroyItem("bdbelt13")
+      TakePartyItemNum("belt04",1)   DestroyItem("belt04")
+      TakePartyItemNum("amul13",1)   DestroyItem("amul13")
+      TakePartyItemNum("amul13",1)   DestroyItem("amul13")
+      TakePartyItemNum("amul13",1)   DestroyItem("amul13")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("belt03")
+      PartyHasItem("belt04")
+      !PartyHasItem("bdbelt13")
+      !PartyHasItem("bdbelt14")
+      NumItemsPartyGT("amul13",2)
+      !NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
+      DO ~TakePartyGold(10000)      DestroyGold(10000)
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("belt03",1) DestroyItem("belt03")
+      TakePartyItemNum("belt04",1) DestroyItem("belt04")
+      TakePartyItemNum("amul13",1) DestroyItem("amul13")
+      TakePartyItemNum("amul13",1) DestroyItem("amul13")
+      TakePartyItemNum("amul13",1) DestroyItem("amul13")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+
+
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("bdbelt13")
+      PartyHasItem("bdbelt14")
+      NumItemsPartyGT("ring15",2)
+      !NumItemsPartyGT("amul13",2)
+      !NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
+      DO ~TakePartyGold(10000)      DestroyGold(10000)
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("bdbelt13",1) DestroyItem("bdbelt13")
+      TakePartyItemNum("bdbelt14",1) DestroyItem("bdbelt14")
+      TakePartyItemNum("ring15",1)   DestroyItem("ring15")
+      TakePartyItemNum("ring15",1)   DestroyItem("ring15")
+      TakePartyItemNum("ring15",1)   DestroyItem("ring15")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("belt03")
+      PartyHasItem("bdbelt14")
+      !PartyHasItem("bdbelt13")
+      NumItemsPartyGT("ring15",2)
+      !NumItemsPartyGT("amul13",2)
+      !NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
+      DO ~TakePartyGold(10000)      DestroyGold(10000)
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("belt03",1)   DestroyItem("belt03")
+      TakePartyItemNum("bdbelt14",1) DestroyItem("bdbelt14")
+      TakePartyItemNum("ring15",1)   DestroyItem("ring15")
+      TakePartyItemNum("ring15",1)   DestroyItem("ring15")
+      TakePartyItemNum("ring15",1)   DestroyItem("ring15")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("bdbelt13")
+      PartyHasItem("belt04")
+      !PartyHasItem("bdbelt14")
+      NumItemsPartyGT("ring15",2)
+      !NumItemsPartyGT("amul13",2)
+      !NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
+      DO ~TakePartyGold(10000)      DestroyGold(10000)
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("bdbelt13",1) DestroyItem("bdbelt13")
+      TakePartyItemNum("belt04",1)   DestroyItem("belt04")
+      TakePartyItemNum("ring15",1)   DestroyItem("ring15")
+      TakePartyItemNum("ring15",1)   DestroyItem("ring15")
+      TakePartyItemNum("ring15",1)   DestroyItem("ring15")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+    IF ~PartyHasItem("belt02")
+      PartyHasItem("belt03")
+      PartyHasItem("belt04")
+      !PartyHasItem("bdbelt13")
+      !PartyHasItem("bdbelt14")
+      NumItemsPartyGT("ring15",2)
+      !NumItemsPartyGT("amul13",2)
+      !NumItemsPartyGT("misc20",2)
+      PartyGoldGT(9999)~
+    THEN REPLY @123436 
+      DO ~TakePartyGold(10000)      DestroyGold(10000)
+      TakePartyItemNum("belt02",1)   DestroyItem("belt02")
+      TakePartyItemNum("belt03",1) DestroyItem("belt03")
+      TakePartyItemNum("belt04",1) DestroyItem("belt04")
+      TakePartyItemNum("ring15",1) DestroyItem("ring15")
+      TakePartyItemNum("ring15",1) DestroyItem("ring15")
+      TakePartyItemNum("ring15",1) DestroyItem("ring15")
+      GiveItemCreate("c2belt01",Player1,1,1,1)
+      CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
   END
 
   IF ~~ THEN BEGIN kitthix
