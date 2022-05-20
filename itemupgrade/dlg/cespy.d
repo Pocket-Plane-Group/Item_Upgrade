@@ -50,7 +50,7 @@
     IF ~PartyHasItem("sw2h08")~ THEN REPLY @567878 GOTO reaver
     IF ~PartyHasItem("shld17")~ THEN REPLY @567833 GOTO buckler
     IF ~PartyHasItem("brac17")~ THEN REPLY @567834 GOTO thief
-    IF ~OR(3) PartyHasItem("amul14") PartyHasItem("cdpp7") PartyHasItem("c!pp7")~ THEN REPLY @567837 GOTO ilmater
+    IF ~OR(3) PartyHasItem("amul22") PartyHasItem("amul24") PartyHasItem("amul25")~ THEN REPLY @567837 GOTO ilmater
     IF ~PartyHasItem("sw1h52")~ THEN REPLY @567838 GOTO water
     IF ~PartyHasItem("ax1h10")~ THEN REPLY @567839 GOTO azur
     IF ~OR(3) PartyHasItem("ring08") PartyHasItem("ring08a") PartyHasItem("ohringwi")~ THEN REPLY @567891 GOTO sorcerian
@@ -1008,89 +1008,365 @@
   END
 
   IF ~~ THEN BEGIN ilmater
-    SAY @567887 = @5678987 IF ~~ THEN REPLY @567835 GOTO c2itemupgrade
-    IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
-        PartyHasItem("amul25")
-        NumItemsParty("amul14",1)
-        NumItemsParty("cdpp7",1)
-        PartyGoldGT(9999)~
-      THEN REPLY @567836 
-      DO ~TakePartyGold(10000)      DestroyGold(10000)
-          TakePartyItemNum("amul22",1)   DestroyItem("amul22")
-          TakePartyItemNum("amul24",1)   DestroyItem("amul24")
-          TakePartyItemNum("amul25",1)   DestroyItem("amul25")
-          TakePartyItemNum("cdpp7",1)   DestroyItem("cdpp7")
-          TakePartyItemNum("amul14",1)   DestroyItem("amul14")
-          GiveItemCreate("c2amul01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
-        PartyHasItem("amul25")
-        NumItemsParty("amul14",1)
-        !PartyHasItem("cdpp7")
-        NumItemsParty("c!pp7",1)
-        PartyGoldGT(9999)~
-      THEN REPLY @567836 
-      DO ~TakePartyGold(10000)      DestroyGold(10000)
-          TakePartyItemNum("amul22",1)   DestroyItem("amul22")
-          TakePartyItemNum("amul24",1)   DestroyItem("amul24")
-          TakePartyItemNum("amul25",1)   DestroyItem("amul25")
-          TakePartyItemNum("c!pp7",1)   DestroyItem("c!pp7")
-          TakePartyItemNum("amul14",1)   DestroyItem("amul14")
-          GiveItemCreate("c2amul01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
-        PartyHasItem("amul25")
-        NumItemsParty("cdpp7",1)
-        NumItemsParty("c!pp7",1)
-        PartyGoldGT(9999)~
-      THEN REPLY @567836 
-      DO ~TakePartyGold(10000)      DestroyGold(10000)
-          TakePartyItemNum("amul22",1)   DestroyItem("amul22")
-          TakePartyItemNum("amul24",1)   DestroyItem("amul24")
-          TakePartyItemNum("amul25",1)   DestroyItem("amul25")
-          TakePartyItemNum("c!pp7",1)   DestroyItem("c!pp7")
-          TakePartyItemNum("cdpp7",1)   DestroyItem("cdpp7")
-          GiveItemCreate("c2amul01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
-        PartyHasItem("amul25")
-        NumItemsPartyGT("amul14",1)
-        NumItemsPartyLT("cdpp7",2)
-        NumItemsPartyLT("c!pp7",2)
-        PartyGoldGT(9999)~
-      THEN REPLY @567836 
-      DO ~TakePartyGold(10000)      DestroyGold(10000)
-          TakePartyItemNum("amul22",1)   DestroyItem("amul22")
-          TakePartyItemNum("amul24",1)   DestroyItem("amul24")
-          TakePartyItemNum("amul25",1)   DestroyItem("amul25")
-          TakePartyItemNum("amul14",2)   DestroyItem("amul14") DestroyItem("amul14")
-          GiveItemCreate("c2amul01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
-        PartyHasItem("amul25")
-        NumItemsPartyGT("cdpp7",1)
-        NumItemsPartyLT("c!pp7",2)
-        PartyGoldGT(9999)~
-      THEN REPLY @567836 
-      DO ~TakePartyGold(10000)      DestroyGold(10000)
-          TakePartyItemNum("amul22",1)   DestroyItem("amul22")
-          TakePartyItemNum("amul24",1)   DestroyItem("amul24")
-          TakePartyItemNum("amul25",1)   DestroyItem("amul25")
-          TakePartyItemNum("cdpp7",2)   DestroyItem("cdpp7")  DestroyItem("cdpp7")
-          GiveItemCreate("c2amul01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
-        PartyHasItem("amul25")
-        NumItemsPartyGT("c!pp7",1)
-        PartyGoldGT(9999)~
-      THEN REPLY @567836 
-      DO ~TakePartyGold(10000)      DestroyGold(10000)
-          TakePartyItemNum("amul22",1)   DestroyItem("amul22")
-          TakePartyItemNum("amul24",1)   DestroyItem("amul24")
-          TakePartyItemNum("amul25",1)   DestroyItem("amul25")
-          TakePartyItemNum("c!pp7",2)   DestroyItem("c!pp7")  DestroyItem("c!pp7")
-          GiveItemCreate("c2amul01",Player1,1,1,1)
-          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    SAY @567887 = @5678987 
+  IF ~~ THEN REPLY @567835 GOTO c2itemupgrade
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsPartyGT("amul14",1)
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("amul14",2) DestroyItem("amul14")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsPartyGT("bdamul24",1)
+    !NumItemsPartyGT("amul14",1)
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("bdamul24",2) DestroyItem("bdamul24")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsPartyGT("cdpp7",1)
+    !NumItemsPartyGT("amul14",1)
+    !NumItemsPartyGT("bdamul24",1)
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("cdpp7",2) DestroyItem("cdpp7")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsPartyGT("c!pp7",1)
+    !NumItemsPartyGT("amul14",1)
+    !NumItemsPartyGT("bdamul24",1)
+    !NumItemsPartyGT("cdpp7",1)
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("c!pp7",2) DestroyItem("c!pp7")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsPartyGT("cdpp30",1)
+    !NumItemsPartyGT("amul14",1)
+    !NumItemsPartyGT("bdamul24",1)
+    !NumItemsPartyGT("cdpp7",1)
+    !NumItemsPartyGT("c!pp7",1)
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("cdpp30",2) DestroyItem("cdpp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsPartyGT("c!pp30",1)
+    !NumItemsPartyGT("amul14",1)
+    !NumItemsPartyGT("bdamul24",1)
+    !NumItemsPartyGT("cdpp7",1)
+    !NumItemsPartyGT("c!pp7",1)
+    !NumItemsPartyGT("cdpp30",1)
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("c!pp30",2) DestroyItem("c!pp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("amul14",1)
+    NumItemsParty("bdamul24",1)
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("amul14",1) DestroyItem("amul14")
+    TakePartyItemNum("bdamul24",1) DestroyItem("bdamul24")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("amul14",1)
+    NumItemsParty("c!pp7",1)
+    !PartyHasItem("bdamul24")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("amul14",1) DestroyItem("amul14")
+    TakePartyItemNum("c!pp7",1) DestroyItem("c!pp7")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("amul14",1)
+    NumItemsParty("cdpp7",1)
+    !PartyHasItem("bdamul24")
+    !PartyHasItem("c!pp7")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("amul14",1) DestroyItem("amul14")
+    TakePartyItemNum("cdpp7",1) DestroyItem("cdpp7")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("amul14",1)
+    NumItemsParty("c!pp30",1)
+    !PartyHasItem("bdamul24")
+    !PartyHasItem("c!pp7")
+    !PartyHasItem("cdpp7")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("amul14",1) DestroyItem("amul14")
+    TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("amul14",1)
+    NumItemsParty("cdpp30",1)
+    !PartyHasItem("bdamul24")
+    !PartyHasItem("c!pp7")
+    !PartyHasItem("cdpp7")
+    !PartyHasItem("c!pp30")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("amul14",1) DestroyItem("amul14")
+    TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("bdamul24",1)
+    NumItemsParty("c!pp7",1)
+    !PartyHasItem("amul14")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("bdamul24",1) DestroyItem("bdamul24")
+    TakePartyItemNum("c!pp7",1)    DestroyItem("c!pp7")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("bdamul24",1)
+    NumItemsParty("cdpp7",1)
+    !PartyHasItem("amul14")
+    !PartyHasItem("c!pp7")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("bdamul24",1) DestroyItem("bdamul24")
+    TakePartyItemNum("cdpp7",1)    DestroyItem("cdpp7")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("bdamul24",1)
+    NumItemsParty("c!pp30",1)
+    !PartyHasItem("amul14")
+    !PartyHasItem("c!pp7")
+    !PartyHasItem("cdpp7")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("bdamul24",1) DestroyItem("bdamul24")
+    TakePartyItemNum("c!pp30",1)   DestroyItem("c!pp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("bdamul24",1)
+    NumItemsParty("cdpp30",1)
+    !PartyHasItem("amul14")
+    !PartyHasItem("c!pp7")
+    !PartyHasItem("cdpp7")
+    !PartyHasItem("c!pp30")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("bdamul24",1) DestroyItem("bdamul24")
+    TakePartyItemNum("cdpp30",1)   DestroyItem("cdpp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("c!pp7",1)
+    NumItemsParty("cdpp7",1)
+    !PartyHasItem("amul14")
+    !PartyHasItem("bdamul24")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("c!pp7",1) DestroyItem("c!pp7")
+    TakePartyItemNum("cdpp7",1) DestroyItem("cdpp7")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("c!pp7",1)
+    NumItemsParty("c!pp30",1)
+    !PartyHasItem("amul14")
+    !PartyHasItem("bdamul24")
+    !PartyHasItem("cdpp7")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("c!pp7",1)  DestroyItem("c!pp7")
+    TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("c!pp7",1)
+    NumItemsParty("cdpp30",1)
+    !PartyHasItem("amul14")
+    !PartyHasItem("bdamul24")
+    !PartyHasItem("cdpp7")
+    !PartyHasItem("c!pp30")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("c!pp7",1)  DestroyItem("c!pp7")
+    TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("cdpp7",1)
+    NumItemsParty("c!pp30",1)
+    !PartyHasItem("amul14")
+    !PartyHasItem("bdamul24")
+    !PartyHasItem("c!pp7")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("cdpp7",1)  DestroyItem("cdpp7")
+    TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("cdpp7",1)
+    NumItemsParty("cdpp30",1)
+    !PartyHasItem("amul14")
+    !PartyHasItem("bdamul24")
+    !PartyHasItem("c!pp7")
+    !PartyHasItem("c!pp30")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("cdpp7",1)  DestroyItem("cdpp7")
+    TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+
+  IF ~PartyHasItem("amul22") PartyHasItem("amul24") 
+    PartyHasItem("amul25")
+    NumItemsParty("c!pp30",1)
+    NumItemsParty("cdpp30",1)
+    !PartyHasItem("amul14")
+    !PartyHasItem("bdamul24")
+    !PartyHasItem("c!pp7")
+    !PartyHasItem("cdpp7")
+    PartyGoldGT(9999)~
+  THEN REPLY @567836 
+    DO ~TakePartyGold(10000)      DestroyGold(10000)
+    TakePartyItemNum("amul22",1)   DestroyItem("amul22")
+    TakePartyItemNum("amul24",1)   DestroyItem("amul24")
+    TakePartyItemNum("amul25",1)   DestroyItem("amul25")
+    TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
+    TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+    GiveItemCreate("c2amul01",Player1,1,1,1)
+    CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
   END
 
   IF ~~ THEN BEGIN water
