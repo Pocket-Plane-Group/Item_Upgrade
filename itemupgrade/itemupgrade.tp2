@@ -35,7 +35,7 @@ ALWAYS
 
 END
 
-VERSION ~v47~
+VERSION ~v48~
 
 README ~itemupgrade/readme-itemupgrades.%LANGUAGE%.txt~ ~itemupgrade/readme-itemupgrades.txt~ // use English if language-specific readme doesn't exist
 
