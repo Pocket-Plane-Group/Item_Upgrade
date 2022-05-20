@@ -2,7 +2,7 @@
     SAY #59707 /* ~Hmmmn... I couldn't rightly say.  Let me have a look into yer goods, then.  A minute of rummagin' and I'll know fer sure, aye?~ */
     IF ~~ THEN REPLY @12340 GOTO 13
     IF ~OR(3) PartyHasItem("ring06") PartyHasItem("cdpp11") PartyHasItem("c!pp11")~ THEN REPLY @12342 GOTO rop1
-    IF ~OR(3) PartyHasItem("ring07") PartyHasItem("cdpp12") PartyHasItem("c!pp12")~ THEN REPLY @12343 GOTO rop2
+    IF ~OR(6) PartyHasItem("ring07") PartyHasItem("cdpp12") PartyHasItem("c!pp12") PartyHasItem("bdring07") PartyHasItem("cdpp29") PartyHasItem("c!pp29")~ THEN REPLY @12343 GOTO rop2
     IF ~OR(3) PartyHasItem("ring27") 
               PartyHasItem("ring28") 
               PartyHasItem("ring29")~ 
@@ -96,7 +96,8 @@
 
   IF ~~ THEN BEGIN rop2
     SAY @123441 IF ~~ THEN REPLY @123435 GOTO c2itemupgrade
-    IF ~!PartyHasItem("c!pp12") !PartyHasItem("cdpp12") PartyHasItem("ring07") PartyHasItem("ring31") PartyHasItem("misc42")
+    IF ~!PartyHasItem("c!pp29") !PartyHasItem("cdpp29") !PartyHasItem("bdring07") 
+        !PartyHasItem("c!pp12") !PartyHasItem("cdpp12") PartyHasItem("ring07") PartyHasItem("ring31") PartyHasItem("misc42")
         PartyGoldGT(19999)~
       THEN REPLY @123436 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -105,7 +106,8 @@
           TakePartyItemNum("misc42",1)   DestroyItem("misc42")
           GiveItemCreate("c2ring02",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~!PartyHasItem("c!pp12") PartyHasItem("cdpp12") PartyHasItem("ring31") PartyHasItem("misc42")
+    IF ~!PartyHasItem("c!pp29") !PartyHasItem("cdpp29") !PartyHasItem("bdring07") 
+        !PartyHasItem("c!pp12") PartyHasItem("cdpp12") PartyHasItem("ring31") PartyHasItem("misc42")
         PartyGoldGT(19999)~
       THEN REPLY @123436 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
@@ -114,11 +116,39 @@
           TakePartyItemNum("misc42",1)   DestroyItem("misc42")
           GiveItemCreate("c2ring02",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
-    IF ~PartyHasItem("c!pp12") PartyHasItem("ring31") PartyHasItem("misc42")
+    IF ~!PartyHasItem("c!pp29") !PartyHasItem("cdpp29") !PartyHasItem("bdring07") 
+        PartyHasItem("c!pp12") PartyHasItem("ring31") PartyHasItem("misc42")
         PartyGoldGT(19999)~
       THEN REPLY @123436 
       DO ~TakePartyGold(20000)      DestroyGold(20000)
           TakePartyItemNum("c!pp12",1)   DestroyItem("c!pp12")
+          TakePartyItemNum("ring31",1)   DestroyItem("ring31")
+          TakePartyItemNum("misc42",1)   DestroyItem("misc42")
+          GiveItemCreate("c2ring02",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~!PartyHasItem("c!pp29") !PartyHasItem("cdpp29") PartyHasItem("bdring07") PartyHasItem("ring31") PartyHasItem("misc42")
+        PartyGoldGT(19999)~
+      THEN REPLY @123436 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("bdring07",1) DestroyItem("bdring07")
+          TakePartyItemNum("ring31",1)   DestroyItem("ring31")
+          TakePartyItemNum("misc42",1)   DestroyItem("misc42")
+          GiveItemCreate("c2ring02",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~!PartyHasItem("c!pp29") PartyHasItem("cdpp29") PartyHasItem("ring31") PartyHasItem("misc42")
+        PartyGoldGT(19999)~
+      THEN REPLY @123436 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("cdpp29",1)   DestroyItem("cdpp29")
+          TakePartyItemNum("ring31",1)   DestroyItem("ring31")
+          TakePartyItemNum("misc42",1)   DestroyItem("misc42")
+          GiveItemCreate("c2ring02",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("c!pp29") PartyHasItem("ring31") PartyHasItem("misc42")
+        PartyGoldGT(19999)~
+      THEN REPLY @123436 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("c!pp29",1)   DestroyItem("c!pp29")
           TakePartyItemNum("ring31",1)   DestroyItem("ring31")
           TakePartyItemNum("misc42",1)   DestroyItem("misc42")
           GiveItemCreate("c2ring02",Player1,1,1,1)
