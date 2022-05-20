@@ -41,7 +41,7 @@ APPEND BOTSMITH
     IF ~PartyHasItem("amul22")
     PartyHasItem("amul24")
     PartyHasItem("amul25")
-    NumItemsPartyGT("cdpp30",1)
+    NumItemsPartyGT("cdpp26",1)
     !NumItemsPartyGT("amul14",1)
     !NumItemsPartyGT("bdamul24",1)
     !NumItemsPartyGT("cdpp7",1)
@@ -51,12 +51,12 @@ APPEND BOTSMITH
     IF ~PartyHasItem("amul22")
     PartyHasItem("amul24")
     PartyHasItem("amul25")
-    NumItemsPartyGT("c!pp30",1)
+    NumItemsPartyGT("c!pp26",1)
     !NumItemsPartyGT("amul14",1)
     !NumItemsPartyGT("bdamul24",1)
     !NumItemsPartyGT("cdpp7",1)
     !NumItemsPartyGT("c!pp7",1)
-    !NumItemsPartyGT("cdpp30",1)
+    !NumItemsPartyGT("cdpp26",1)
     ~ THEN GOTO XO#ItemUp7
 
     IF ~PartyHasItem("amul22")
@@ -87,7 +87,7 @@ APPEND BOTSMITH
     PartyHasItem("amul24")
     PartyHasItem("amul25")
     NumItemsParty("amul14",1)
-    NumItemsParty("c!pp30",1)
+    NumItemsParty("c!pp26",1)
     !PartyHasItem("bdamul24")
     !PartyHasItem("c!pp7")
     !PartyHasItem("cdpp7")
@@ -97,11 +97,11 @@ APPEND BOTSMITH
     PartyHasItem("amul24")
     PartyHasItem("amul25")
     NumItemsParty("amul14",1)
-    NumItemsParty("cdpp30",1)
+    NumItemsParty("cdpp26",1)
     !PartyHasItem("bdamul24")
     !PartyHasItem("c!pp7")
     !PartyHasItem("cdpp7")
-    !PartyHasItem("c!pp30")
+    !PartyHasItem("c!pp26")
     ~ THEN GOTO XO#ItemUp12
 
     IF ~PartyHasItem("amul22")
@@ -125,7 +125,7 @@ APPEND BOTSMITH
     PartyHasItem("amul24")
     PartyHasItem("amul25")
     NumItemsParty("bdamul24",1)
-    NumItemsParty("c!pp30",1)
+    NumItemsParty("c!pp26",1)
     !PartyHasItem("amul14")
     !PartyHasItem("c!pp7")
     !PartyHasItem("cdpp7")
@@ -135,11 +135,11 @@ APPEND BOTSMITH
     PartyHasItem("amul24")
     PartyHasItem("amul25")
     NumItemsParty("bdamul24",1)
-    NumItemsParty("cdpp30",1)
+    NumItemsParty("cdpp26",1)
     !PartyHasItem("amul14")
     !PartyHasItem("c!pp7")
     !PartyHasItem("cdpp7")
-    !PartyHasItem("c!pp30")
+    !PartyHasItem("c!pp26")
     ~ THEN GOTO XO#ItemUp16
 
     IF ~PartyHasItem("amul22")
@@ -155,7 +155,7 @@ APPEND BOTSMITH
     PartyHasItem("amul24")
     PartyHasItem("amul25")
     NumItemsParty("c!pp7",1)
-    NumItemsParty("c!pp30",1)
+    NumItemsParty("c!pp26",1)
     !PartyHasItem("amul14")
     !PartyHasItem("bdamul24")
     !PartyHasItem("cdpp7")
@@ -165,18 +165,18 @@ APPEND BOTSMITH
     PartyHasItem("amul24")
     PartyHasItem("amul25")
     NumItemsParty("c!pp7",1)
-    NumItemsParty("cdpp30",1)
+    NumItemsParty("cdpp26",1)
     !PartyHasItem("amul14")
     !PartyHasItem("bdamul24")
     !PartyHasItem("cdpp7")
-    !PartyHasItem("c!pp30")
+    !PartyHasItem("c!pp26")
     ~ THEN GOTO XO#ItemUp19
 
     IF ~PartyHasItem("amul22")
     PartyHasItem("amul24")
     PartyHasItem("amul25")
     NumItemsParty("cdpp7",1)
-    NumItemsParty("c!pp30",1)
+    NumItemsParty("c!pp26",1)
     !PartyHasItem("amul14")
     !PartyHasItem("bdamul24")
     !PartyHasItem("c!pp7")
@@ -186,18 +186,18 @@ APPEND BOTSMITH
     PartyHasItem("amul24")
     PartyHasItem("amul25")
     NumItemsParty("cdpp7",1)
-    NumItemsParty("cdpp30",1)
+    NumItemsParty("cdpp26",1)
     !PartyHasItem("amul14")
     !PartyHasItem("bdamul24")
     !PartyHasItem("c!pp7")
-    !PartyHasItem("c!pp30")
+    !PartyHasItem("c!pp26")
     ~ THEN GOTO XO#ItemUp21
 
     IF ~PartyHasItem("amul22")
     PartyHasItem("amul24")
     PartyHasItem("amul25")
-    NumItemsParty("c!pp30",1)
-    NumItemsParty("cdpp30",1)
+    NumItemsParty("c!pp26",1)
+    NumItemsParty("cdpp26",1)
     !PartyHasItem("amul14")
     !PartyHasItem("bdamul24")
     !PartyHasItem("c!pp7")
@@ -298,8 +298,8 @@ APPEND BOTSMITH
 													 DestroyItem("amul24")
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
-													 TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
-													 TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+													 TakePartyItemNum("cdpp26",1) DestroyItem("cdpp26")
+													 TakePartyItemNum("cdpp26",1) DestroyItem("cdpp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -317,8 +317,8 @@ APPEND BOTSMITH
 													 DestroyItem("amul24")
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
-													 TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
-													 TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
+													 TakePartyItemNum("c!pp26",1) DestroyItem("c!pp26")
+													 TakePartyItemNum("c!pp26",1) DestroyItem("c!pp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -394,7 +394,7 @@ APPEND BOTSMITH
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
 													 TakePartyItemNum("amul14",1) DestroyItem("amul14")
-													 TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
+													 TakePartyItemNum("c!pp26",1) DestroyItem("c!pp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -413,7 +413,7 @@ APPEND BOTSMITH
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
 													 TakePartyItemNum("amul14",1) DestroyItem("amul14")
-													 TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+													 TakePartyItemNum("cdpp26",1) DestroyItem("cdpp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -470,7 +470,7 @@ APPEND BOTSMITH
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
 													 TakePartyItemNum("bdamul24",1) DestroyItem("bdamul24")
-													 TakePartyItemNum("c!pp30",1)   DestroyItem("c!pp30")
+													 TakePartyItemNum("c!pp26",1)   DestroyItem("c!pp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -489,7 +489,7 @@ APPEND BOTSMITH
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
 													 TakePartyItemNum("bdamul24",1) DestroyItem("bdamul24")
-													 TakePartyItemNum("cdpp30",1)   DestroyItem("cdpp30")
+													 TakePartyItemNum("cdpp26",1)   DestroyItem("cdpp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -527,7 +527,7 @@ APPEND BOTSMITH
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
 													 TakePartyItemNum("c!pp7",1)  DestroyItem("c!pp7")
-													 TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
+													 TakePartyItemNum("c!pp26",1) DestroyItem("c!pp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -546,7 +546,7 @@ APPEND BOTSMITH
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
 													 TakePartyItemNum("c!pp7",1)  DestroyItem("c!pp7")
-													 TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+													 TakePartyItemNum("cdpp26",1) DestroyItem("cdpp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -565,7 +565,7 @@ APPEND BOTSMITH
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
 													 TakePartyItemNum("cdpp7",1)  DestroyItem("cdpp7")
-													 TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
+													 TakePartyItemNum("c!pp26",1) DestroyItem("c!pp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -584,7 +584,7 @@ APPEND BOTSMITH
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
 													 TakePartyItemNum("cdpp7",1)  DestroyItem("cdpp7")
-													 TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+													 TakePartyItemNum("cdpp26",1) DestroyItem("cdpp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
@@ -602,8 +602,8 @@ APPEND BOTSMITH
 													 DestroyItem("amul24")
 													 TakePartyItemNum("amul25",1)
 													 DestroyItem("amul25")
-													 TakePartyItemNum("c!pp30",1) DestroyItem("c!pp30")
-													 TakePartyItemNum("cdpp30",1) DestroyItem("cdpp30")
+													 TakePartyItemNum("c!pp26",1) DestroyItem("c!pp26")
+													 TakePartyItemNum("cdpp26",1) DestroyItem("cdpp26")
 ~ GOTO 11
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
