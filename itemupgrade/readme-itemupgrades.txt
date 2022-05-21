@@ -2,7 +2,7 @@
                             Item Upgrade Mod Pack
                             Author: Westley Weimer
                          Current Maintainer: CamDawg
-                               \/ Release 48 \/
+                               \/ Release 49 \/
 
              http://forums.pocketplane.net/index.php/board,43.0.html
 
@@ -44,19 +44,23 @@ Run (click on) "setup-itemupgrade.exe".
 
 First, pick your favorite language. Currently available:
   American English
-  French Translation by Artemidore (artemidore@caramail.com)
-                     &  Cocobard (bardbards@planetis.com)
+  French Translation by Artemidore
+                     &  Cocobard
                      & Graoumf (D'Oghmatiques)
-  German Translation by Maus (maus@fphfslinux.physik.uni-karlsruhe.de)
+  German Translation by Maus
                      &  Norbert Frishcauf
                      &  Patrick Lainer
-  Spanish Translation by Clan DLAN ( http://www.clandlan.cjb.net )
+  Spanish Translation by Clan DLAN ( http://www.clandlan.net )
                      & Bhasbuto
                      & Immortality
                      & Neil Sharp (FWP)
   Polish Translation by Damian Staniszewski
+                     & Nastian
+                     & SoM (CoB Clan)
                      & Cahir
   Russian Translation by Iogan
+                     & prowler
+                     & hawkmoon
                      & AERIE.RU
   Korean Translation by web2air
 
@@ -861,3 +865,6 @@ Version 48: (updated by CamDawg)
           items to the upgrade formulas.
         * Future-proofed the mod for the EE Fixpack by incorporating the new
           spellstate immunities.
+Version 49 (updated by CamDawg)
+        * Updated Russian translation
+        * A few minor adjustments to the immunity spellstate code for EE games

@@ -1,5 +1,5 @@
 BACKUP ~weidu_external/itemupgrade/backup~
-AUTHOR ~http://forums.pocketplane.net/index.php/board,43.0.html~
+SUPPORT ~http://forums.pocketplane.net/index.php/board,43.0.html~
 
 ALWAYS
 
@@ -35,7 +35,7 @@ ALWAYS
 
 END
 
-VERSION ~v48~
+VERSION ~v49~
 
 README ~itemupgrade/readme-itemupgrades.%LANGUAGE%.txt~ ~itemupgrade/readme-itemupgrades.txt~ // use English if language-specific readme doesn't exist
 
@@ -48,12 +48,12 @@ LANGUAGE ~Francais (traduction de Artemidore et Cocobard et Sanctifer, (d'Oghmat
   ~itemupgrade/languages/american/setup.tra~
   ~itemupgrade/languages/french/setup.tra~
 
-LANGUAGE ~Deutsche (Uebersetzung durch Maus & Frischauf & Lainer)~
+LANGUAGE ~Deutsche (Uebersetzung durch Maus & Norbert Frischauf & Patrick Lainer)~
   ~german~
   ~itemupgrade/languages/american/setup.tra~
   ~itemupgrade/languages/german/setup.tra~
 
-LANGUAGE ~Espanol (hecha por Clan DLAN, Ancalagon del Negro por Clan REO & ...)~
+LANGUAGE ~Espanol (hecha por Clan DLAN, Bhasbuto & Immortality & Neil Sharp (FWP)~
   ~spanish~
   ~itemupgrade/languages/american/setup.tra~
   ~itemupgrade/languages/spanish/setup.tra~
