@@ -194,7 +194,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2bow01.itm THEN BEGIN
     SAY NAME2     @126
     SAY DESC      @127
     PATCH_IF (confusion_immunity > 0) BEGIN 
-      LPF CLONE_EFFECT INT_VAR match_opcode = 128 opcode = 324 power = 0 parameter1 = confusion_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 128 opcode = 324 parameter1 = confusion_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
     END  
 
   COPY ~itemupgrade/bam/c2bow01.bam~ ~override~
@@ -230,12 +230,12 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2dagg01.itm THEN BEGIN
     SAY DESC      @175
     PATCH_IF enhanced_edition BEGIN
       PATCH_IF (sleep_immunity > 0) BEGIN 
-        LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = sleep_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+        LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 parameter1 = sleep_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
       END  
       // swap oBG2 elven sleep resistance for ee method
       LPF DELETE_EFFECT INT_VAR match_opcode = 177 END // delete all of the oBG2 elven resistance effs
-      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 94 probability2 = 50 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
-      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 64 probability2 = 50 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 94 probability2 = 50 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 64 probability2 = 50 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
     END  
 
   COPY ~itemupgrade/bam/c2dagg01.bam~ ~override~
@@ -250,8 +250,8 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd1.itm THEN BEGIN
     PATCH_IF enhanced_edition BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END // use 319 to make it HD-only
       // add normal EE poison immunities
-      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
-      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
     END
 
   COPY ~itemupgrade/bam/c2hd1.bam~ ~override~
@@ -266,7 +266,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd2.itm THEN BEGIN
     PATCH_IF enhanced_edition BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END // use 319 to make it HD-only
       PATCH_IF (confusion_immunity > 0) BEGIN 
-        LPF CLONE_EFFECT INT_VAR match_opcode = 128 opcode = 324 power = 0 parameter1 = confusion_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+        LPF CLONE_EFFECT INT_VAR match_opcode = 128 opcode = 324 parameter1 = confusion_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
       END  
     END
 
@@ -390,8 +390,8 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2kit.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2kita.itm~ ~override~
     PATCH_IF enhanced_edition BEGIN
       // add normal EE poison immunities
-      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
-      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
       PATCH_IF (web_immunity > 0) BEGIN // if web_immunity, skip application of the web spell
         LPF ALTER_EFFECT INT_VAR match_opcode = 146 opcode = 326 parameter1 = web_immunity parameter2 = 111 END
       END  
@@ -426,7 +426,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2mazz01.itm THEN BEGIN
     END  
     PATCH_IF (slow_immunity > 0) BEGIN
       LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 40 opcode = 328 parameter2 = slow_immunity special = 1 STR_VAR insert = first END // clone immunity to slow into set spell state
-      LPF CLONE_EFFECT INT_VAR match_opcode = 40 opcode = 324 power = 0 parameter1 = slow_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 40 opcode = 324 parameter1 = slow_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
     END  
     PATCH_IF (web_immunity > 0) BEGIN
       LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 157 opcode = 328 parameter2 = web_immunity special = 1 STR_VAR insert = first END // clone immunity to web into set spell state
@@ -478,7 +478,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring03.itm THEN BEGIN
     SAY NAME2     @104
     SAY DESC      @105
     PATCH_IF (charm_immunity > 0) BEGIN 
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 177 opcode = 324 power = 0 parameter1 = charm_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 177 opcode = 324 parameter1 = charm_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
     END  
 
   COPY ~itemupgrade/bam/c2ring03.bam~ ~override~
@@ -615,14 +615,14 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf01.itm THEN BEGIN
     SAY DESC      @107  
     PATCH_IF enhanced_edition BEGIN
       PATCH_IF (sleep_immunity > 0) BEGIN 
-        LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = sleep_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+        LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 parameter1 = sleep_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
       END  
       // swap oBG2 elven sleep resistance for ee method
       LPF DELETE_EFFECT INT_VAR match_opcode = 177 END // delete all of the oBG2 elven resistance effs
-      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 89 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
-      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 power = 0 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 29 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 89 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 29 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
       PATCH_IF (death_immunity > 0) BEGIN 
-        LPF CLONE_EFFECT INT_VAR match_opcode = 55 multi_match = 1 opcode = 324 power = 0 parameter1 = death_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = first resource = EVAL ~%SOURCE_RES%~ END
+        LPF CLONE_EFFECT INT_VAR match_opcode = 55 multi_match = 1 opcode = 324 parameter1 = death_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = first resource = EVAL ~%SOURCE_RES%~ END
       END
     END  
 
@@ -646,12 +646,12 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf02.itm THEN BEGIN
     SAY DESC      @157
     PATCH_IF enhanced_edition BEGIN
       PATCH_IF (charm_immunity > 0) BEGIN 
-        LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 power = 0 parameter1 = charm_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+        LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 parameter1 = charm_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
       END  
       // swap oBG2 elven charm resistance for ee method
       LPF DELETE_EFFECT INT_VAR match_opcode = 177 END // delete all of the oBG2 elven resistance effs
-      LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 power = 0 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 89 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
-      LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 power = 0 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 29 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 89 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 29 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
     END  
 
   COPY ~itemupgrade/bam/c2staf02.bam~ ~override~
@@ -696,8 +696,8 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sw1h03.itm THEN BEGIN
     SAY DESC      @183
     PATCH_IF enhanced_edition BEGIN 
       // add normal EE poison immunities
-      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
-      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 power = 0 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
+      LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
       PATCH_IF (charm_immunity > 0) BEGIN 
         LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
       END  
