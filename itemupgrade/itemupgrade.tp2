@@ -11,17 +11,13 @@ ALWAYS
       ACTION_DEFINE_ARRAY cdreload BEGIN setup END
       LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR default_language = american tra_path = EVAL ~%MOD_FOLDER%/languages~ convert_array = cdreload reload_array = cdreload END
 
-      ACTION_IF (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
-                 ("%LANGUAGE%" STRING_COMPARE_CASE "french" = 0) OR
-                 ("%LANGUAGE%" STRING_COMPARE_CASE "german" = 0) OR
-                 ("%LANGUAGE%" STRING_COMPARE_CASE "polski" = 0) OR
-                 ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) BEGIN
+      ACTION_IF ("%LANGUAGE%" STRING_COMPARE_CASE "korean" = 0)) BEGIN
 
-        OUTER_SET enhanced_edition = 1 // ee game with actual setup_ee translation
+        OUTER_SET enhanced_edition = 2 // ee game without actual setup_ee translation
 
       END ELSE BEGIN
 
-        OUTER_SET enhanced_edition = 2 // ee game without actual setup_ee translation
+        OUTER_SET enhanced_edition = 1 // ee game with actual setup_ee translation
 
       END
 
