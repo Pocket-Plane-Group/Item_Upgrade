@@ -63,7 +63,9 @@
 
 @123455= ~Une robe, une excellente robe d'ailleurs. Je pourrais peut-être la perfectionner...~
 @1234855= ~Oui, je pourrais apporter des améliorations à cette Robe d'Archimage. Avec une Cape de Protection +1 et des parchemins d'Armure Spirituelle et de Contingence comme réactifs, je pourrais fabriquer un vêtement digne d'Elminster. Cela vous coûterait 20.000 pièces d'or.~
+@1234856= ~Oui, je pourrais apporter des améliorations à cette Robe d'Archimage. Avec une Cape de Protection +1 et des parchemins d'Armure Spirituelle et de Globe d'Invulnerabilité comme réactifs, je pourrais fabriquer un vêtement digne d'Elminster. Cela vous coûterait 20.000 pièces d'or.~
 @1234955= ~Oui, je pourrais apporter des améliorations à cette Robe d'Archimage. Avec une Cape de Protection +1 et des parchemins d'Armure Spirituelle et de Contingence comme réactifs, je pourrais fabriquer un vêtement digne d'Elminster. Cela vous coûterait 20.000 pièces d'or. Ça vous intéresse ?~
+@1234956= ~Oui, je pourrais apporter des améliorations à cette Robe d'Archimage. Avec une Cape de Protection +1 et des parchemins d'Armure Spirituelle et de Globe d'Invulnerabilité comme réactifs, je pourrais fabriquer un vêtement digne d'Elminster. Cela vous coûterait 20.000 pièces d'or. Ça vous intéresse ?~
 
 @123459= ~Hmm, je pense que ce Heaume de Défense pourrait être amélioré...~
 @1234859= ~Certainement. Je pourrais combiner les pouvoirs défensifs d'un Heaume de Défense et d'un Casque Anti-Charmes. Il me faudrait quatre perles comme réactifs et 10.000 pièces d'or pour le boulot.~
@@ -234,7 +236,9 @@
 
 @567855= ~Avant, Cespenar avait un smoking... Un cadeau d'un très bon ami, perdu chez le teinturier. Tu as peut-être quelque chose à voir avec ça ? Celui-ci a l'air familier...~ [fwcesp13]
 @5678855= ~Oh, c'est juste la robe pour les gens archimages. Bonne recette pour que le nom soit pas aussi idiot. Cespenar a besoin Cape de Protection +1, parchemins d'Armure Spirituelle et Contingence et 20.000 pièces. Tu lances plus de sort, comme un VRAI ARCHIMAGE !~
+@5678856= ~Oh, c'est juste la robe pour les gens archimages. Bonne recette pour que le nom soit pas aussi idiot. Cespenar a besoin Cape de Protection +1, parchemins d'Armure Spirituelle et Globe d'Invulnérabilité et 20.000 pièces. Tu lances plus de sort, comme un VRAI ARCHIMAGE !~
 @5678955= ~Oh, c'est juste la robe pour les gens archimages. La tienne a l'air bien. Et tu as Cape de Protection +1, parchemins d'Armure Spirituelle et Contingence. Faut plus que 20.000 pièces et Cespenar te fait un robe de VRAI ARCHIMAGE !~
+@5678956= ~Oh, c'est juste la robe pour les gens archimages. La tienne a l'air bien. Et tu as Cape de Protection +1, parchemins d'Armure Spirituelle et Globe d'Invulnérabilité. Faut plus que 20.000 pièces et Cespenar te fait un robe de VRAI ARCHIMAGE !~
 
 @567859= ~Tu n'as pas de pot pour pisser ? Tu connais le proverbe ? Alors Cespenar pense que tu devrais utiliser un casque. Le casque de quelqu'un d'autre.~ [fwcesp14]
 @5678859= ~Si tu as des pots en trop, peut-être Cespenar peut combiner tes gros pots de chambre ! Bonne recette pour mélanger Heaume de Défense et Casque Anti-Charmes. Faut quatre perles et 10.000 pièces d'or. Tu donnes les ingrédients, et tu prends le joli pot... heu, casque.~
