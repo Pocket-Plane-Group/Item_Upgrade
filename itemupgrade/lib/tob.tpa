@@ -17,7 +17,7 @@ COPY_EXISTING ~arow15.itm~ ~override~ // get arrow +3 projectile
       READ_SHORT (abil_off + 0x2a + (index * 0x38)) ar3_proj
       SET index = abil_num // kill loop
     END
-  END 
+  END
   BUT_ONLY
 
 COPY_EXISTING ~bolt09.itm~ ~override~ // get bolt +3 projectile
@@ -29,7 +29,7 @@ COPY_EXISTING ~bolt09.itm~ ~override~ // get bolt +3 projectile
       READ_SHORT (abil_off + 0x2a + (index * 0x38)) bolt3_proj
       SET index = abil_num // kill loop
     END
-  END 
+  END
   BUT_ONLY
 
 COPY_EXISTING ~bull05.itm~ ~override~ // get bullet +3 projectile
@@ -41,7 +41,7 @@ COPY_EXISTING ~bull05.itm~ ~override~ // get bullet +3 projectile
       READ_SHORT (abil_off + 0x2a + (index * 0x38)) bull3_proj
       SET index = abil_num // kill loop
     END
-  END 
+  END
   BUT_ONLY
 
 COPY ~itemupgrade/itm/c2quiv01.itm~ ~override~
@@ -55,11 +55,11 @@ COPY ~itemupgrade/itm/c2quiv01.itm~ ~override~
       WRITE_SHORT (abil_off + 0x2a + (index * 0x38)) ar3_proj
       SET index = abil_num // kill loop
     END
-  END 
+  END
   PATCH_IF enhanced_edition BEGIN // make usable by shaman
     WRITE_BYTE 0x21 (THIS BAND `BIT6) // removes druid flag
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 parameter1 = 11 parameter2 = 5 timing = 2 special = 1080 END
-  END  
+  END
 
 COPY ~itemupgrade/itm/c2quiv02.itm~ ~override~
   SAY NAME2     @110
@@ -72,7 +72,7 @@ COPY ~itemupgrade/itm/c2quiv02.itm~ ~override~
       WRITE_SHORT (abil_off + 0x2a + (index * 0x38)) bolt3_proj
       SET index = abil_num // kill loop
     END
-  END 
+  END
 
 COPY ~itemupgrade/itm/c2quiv03.itm~ ~override~
   SAY NAME2     @112
@@ -85,22 +85,22 @@ COPY ~itemupgrade/itm/c2quiv03.itm~ ~override~
       WRITE_SHORT (abil_off + 0x2a + (index * 0x38)) bull3_proj
       SET index = abil_num // kill loop
     END
-  END 
+  END
 
 COPY ~itemupgrade/itm/c2sw2h02.itm~ ~override~
   SAY NAME2     @170
   SAY DESC      @171
   PATCH_IF enhanced_edition BEGIN
     PATCH_IF FILE_EXISTS_IN_GAME ~#curedef.spl~ BEGIN // ee fixpack
-      LPF ALTER_EFFECT INT_VAR match_opcode = 81 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curedef~ END   
+      LPF ALTER_EFFECT INT_VAR match_opcode = 81 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curedef~ END
       LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 122 END
       LPF cd_apply_batch STR_VAR array_name = cd_cure_deafness END
     END
     PATCH_IF FILE_EXISTS_IN_GAME ~#curefbm.spl~ BEGIN // ee fixpack
-      LPF ALTER_EFFECT INT_VAR match_opcode = 77 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curefbm~ END   
+      LPF ALTER_EFFECT INT_VAR match_opcode = 77 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curefbm~ END
       LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 48 END
-    END  
-  END ELSE BEGIN 
+    END
+  END ELSE BEGIN
     PATCH_IF FILE_EXISTS_IN_GAME ~cditmdm0.spl~ THEN BEGIN // if Fixpack's item dispel magic spell is installed
       LPF ALTER_EFFECT INT_VAR match_opcode = 58 opcode = 146 parameter1 = 0 parameter2 = 1 STR_VAR resource = ~cditmdm0~ END // change dispel to cast spell
       // delete associated dispel magic effects
@@ -112,14 +112,14 @@ COPY ~itemupgrade/itm/c2sw2h02.itm~ ~override~
       LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 =  48 END // remove icon: feeblemind
       LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 112 END // remove icon: deaf
     END
-  END  
+  END
 
 COPY ~itemupgrade/bam/c2leat01.bam~ ~override~
      ~itemupgrade/bam/c2quiv01.bam~ ~override~
      ~itemupgrade/bam/c2quiv02.bam~ ~override~
      ~itemupgrade/bam/c2quiv03.bam~ ~override~
      ~itemupgrade/bam/c2sw2h02.bam~ ~override~
-    
+
 COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
   REPLACE_TEXTUALLY CASE_INSENSITIVE ~^LEAT21\([ %TAB%].+\)$~ ~LEAT21\1
 c2leat01\1~
@@ -150,4 +150,4 @@ ACTION_IF MOD_IS_INSTALLED ~stratagems/setup-stratagems.tp2~ ~4250~ THEN BEGIN  
 
   EXTEND_BOTTOM ~ar4500.bcs~ ~itemupgrade/bcs/scs_compat.baf~ // adds an area var for crom and cespy to check in-game (crom has no script)
 
-END  
+END

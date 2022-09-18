@@ -19,7 +19,7 @@ END ELSE BEGIN
 
 END
 
-OUTER_TEXT_SPRINT regexpUsable ~^.*[Uu]sable by ?:?\(.*\|[%WNL%]*\)*~ 
+OUTER_TEXT_SPRINT regexpUsable ~^.*[Uu]sable by ?:?\(.*\|[%WNL%]*\)*~
 
 /**
  * Attempts to remove usability section from the specified (item description) string.
@@ -119,8 +119,8 @@ END
 
 
 ACTION_FOR_EACH item IN
-  c2amul01 c2anom01 c2ax1h01 c2belt01 c2blun01 c2blun02 c2blun03 c2boot01 c2boot02 c2boot03 c2boot04 c2bow01 c2brac01 c2chan01 c2dagg01 c2hd1 c2hd2 c2helm01 
-  c2helm02 c2hide01 c2keld01 c2keld02 c2kit c2mazz01 c2plat01 c2ring01 c2ring02 c2ring03 c2ring04 c2robe01 c2robe02 c2robe03 c2shld01 c2shld02 c2sper01 
+  c2amul01 c2anom01 c2ax1h01 c2belt01 c2blun01 c2blun02 c2blun03 c2boot01 c2boot02 c2boot03 c2boot04 c2bow01 c2brac01 c2chan01 c2dagg01 c2hd1 c2hd2 c2helm01
+  c2helm02 c2hide01 c2keld01 c2keld02 c2kit c2mazz01 c2plat01 c2ring01 c2ring02 c2ring03 c2ring04 c2robe01 c2robe02 c2robe03 c2shld01 c2shld02 c2sper01
   c2sper02 c2sper03 c2staf01 c2staf02 c2sw1h01 c2sw1h02 c2sw1h03 c2sw2h01 c2valy01
   c2leat01 c2quiv01 c2quiv02 c2quiv03 c2sw2h02 // these five are tob-only
   BEGIN

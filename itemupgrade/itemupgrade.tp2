@@ -6,9 +6,9 @@ ALWAYS
   ACTION_IF NOT VARIABLE_IS_SET enhanced_edition THEN BEGIN // just do this once per install
 
     ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
-      
+
       LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/items_ee.tra~
-      
+
       OUTER_SPRINT ~tra_location~ ~itemupgrade/languages~
 
       ACTION_IF ("%LANGUAGE%" STRING_COMPARE_CASE "korean" = 0) BEGIN
@@ -24,17 +24,17 @@ ALWAYS
     END ELSE BEGIN
 
       OUTER_SET enhanced_edition = 0
-    
+
       OUTER_SPRINT ~tra_location~ ~weidu_external/itemupgrade/languages~
 
-      // convert strings from UTF-8 for originals  
+      // convert strings from UTF-8 for originals
       ACTION_DEFINE_ARRAY cdnoconvert BEGIN weidu items_ee END
       ACTION_DEFINE_ARRAY cdreload BEGIN items END
-      LAF HANDLE_CHARSETS INT_VAR from_utf8 = 1 infer_charsets = 1 
+      LAF HANDLE_CHARSETS INT_VAR from_utf8 = 1 infer_charsets = 1
                           STR_VAR default_language = ~american~ tra_path = ~itemupgrade/languages~ out_path = ~weidu_external/itemupgrade/languages~ noconvert_array = cdnoconvert reload_array = cdreload END
 
     END
-  
+
   END
 
 END
@@ -43,7 +43,7 @@ VERSION ~v49~
 
 README ~itemupgrade/readme-itemupgrades.%LANGUAGE%.txt~ ~itemupgrade/readme-itemupgrades.txt~ // use English if language-specific readme doesn't exist
 
-LANGUAGE ~American English~ 
+LANGUAGE ~American English~
   ~american~
   ~itemupgrade/languages/american/weidu.tra~
   ~itemupgrade/languages/american/items.tra~
@@ -76,14 +76,14 @@ LANGUAGE ~Polish (by Nastian & SoM - part of CoB Clan; Cahir)~
   ~itemupgrade/languages/polski/weidu.tra~
   ~itemupgrade/languages/polski/items.tra~
 
-LANGUAGE ~Russian (Iogan, prowler, hawkmoon & AERIE.RU)~ 
+LANGUAGE ~Russian (Iogan, prowler, hawkmoon & AERIE.RU)~
   ~russian~
   ~itemupgrade/languages/american/weidu.tra~
   ~itemupgrade/languages/american/items.tra~
   ~itemupgrade/languages/russian/weidu.tra~
   ~itemupgrade/languages/russian/items.tra~
 
-LANGUAGE ~Korean (web2air)~ 
+LANGUAGE ~Korean (web2air)~
   ~korean~
   ~itemupgrade/languages/american/weidu.tra~
   ~itemupgrade/languages/american/items.tra~
@@ -105,11 +105,11 @@ LANGUAGE ~Korean (web2air)~
 BEGIN @4 DESIGNATED 0
 LABEL ~c2_item_upgrade_soa_original~
 SUBCOMPONENT @1
-  
+
 // shared code between options
 INCLUDE ~itemupgrade/lib/soa.tpa~
 
-WITH_TRA ~%tra_location%/american/dlg_original.tra~ ~%tra_location%/%LANGUAGE%/dlg_original.tra~ BEGIN 
+WITH_TRA ~%tra_location%/american/dlg_original.tra~ ~%tra_location%/%LANGUAGE%/dlg_original.tra~ BEGIN
 
   // unconventional, but it works: the two R_Ts intercept all calls to state 13 and
   // send them to the new IU 'menu' state instead. The new states are all in the
@@ -126,7 +126,7 @@ END
 /////                                                  \\\\\
 ///// like other upgrades                              \\\\\
 /////                                                  \\\\\
-  
+
 BEGIN @5 DESIGNATED 10
 LABEL ~c2_item_upgrade_soa_seamless~
 REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
@@ -139,50 +139,50 @@ SUBCOMPONENT @1
 // shared code between options
 INCLUDE ~itemupgrade/lib/soa.tpa~
 
-WITH_TRA ~%tra_location%/american/dlg_revised.tra~ ~%tra_location%/%LANGUAGE%/dlg_revised.tra~ BEGIN 
+WITH_TRA ~%tra_location%/american/dlg_revised.tra~ ~%tra_location%/%LANGUAGE%/dlg_revised.tra~ BEGIN
 
   // compile these serially, not all at once
   COMPILE ~itemupgrade/crom/c2amul01.d~
-  COMPILE ~itemupgrade/crom/c2anom01.d~ 
-  COMPILE ~itemupgrade/crom/c2ax1h01.d~ 
-  COMPILE ~itemupgrade/crom/c2belt01.d~ 
-  COMPILE ~itemupgrade/crom/c2blun01.d~ 
-  COMPILE ~itemupgrade/crom/c2blun02.d~ 
-  COMPILE ~itemupgrade/crom/c2blun03.d~ 
-  COMPILE ~itemupgrade/crom/c2boot01.d~ 
+  COMPILE ~itemupgrade/crom/c2anom01.d~
+  COMPILE ~itemupgrade/crom/c2ax1h01.d~
+  COMPILE ~itemupgrade/crom/c2belt01.d~
+  COMPILE ~itemupgrade/crom/c2blun01.d~
+  COMPILE ~itemupgrade/crom/c2blun02.d~
+  COMPILE ~itemupgrade/crom/c2blun03.d~
+  COMPILE ~itemupgrade/crom/c2boot01.d~
   COMPILE ~itemupgrade/crom/c2boot02.d~
-  COMPILE ~itemupgrade/crom/c2boot03.d~ 
-  COMPILE ~itemupgrade/crom/c2boot04.d~ 
-  COMPILE ~itemupgrade/crom/c2bow01.d~  
-  COMPILE ~itemupgrade/crom/c2brac01.d~ 
-  COMPILE ~itemupgrade/crom/c2chan01.d~ 
-  COMPILE ~itemupgrade/crom/c2dagg01.d~ 
-  COMPILE ~itemupgrade/crom/c2hd1.d~    
-  COMPILE ~itemupgrade/crom/c2helm01.d~ 
-  COMPILE ~itemupgrade/crom/c2helm02.d~ 
-  COMPILE ~itemupgrade/crom/c2hide01.d~ 
-  COMPILE ~itemupgrade/crom/c2keld01.d~ 
-  COMPILE ~itemupgrade/crom/c2keld02.d~ 
-  COMPILE ~itemupgrade/crom/c2kit.d~    
-  COMPILE ~itemupgrade/crom/c2mazz01.d~ 
-  COMPILE ~itemupgrade/crom/c2plat01.d~ 
-  COMPILE ~itemupgrade/crom/c2ring01.d~ 
-  COMPILE ~itemupgrade/crom/c2ring02.d~ 
-  COMPILE ~itemupgrade/crom/c2ring03.d~ 
-  COMPILE ~itemupgrade/crom/c2ring04.d~ 
-  COMPILE ~itemupgrade/crom/c2robe01.d~ 
-  COMPILE ~itemupgrade/crom/c2robe02.d~ 
-  COMPILE ~itemupgrade/crom/c2robe03.d~ 
-  COMPILE ~itemupgrade/crom/c2shld01.d~ 
-  COMPILE ~itemupgrade/crom/c2shld02.d~ 
+  COMPILE ~itemupgrade/crom/c2boot03.d~
+  COMPILE ~itemupgrade/crom/c2boot04.d~
+  COMPILE ~itemupgrade/crom/c2bow01.d~
+  COMPILE ~itemupgrade/crom/c2brac01.d~
+  COMPILE ~itemupgrade/crom/c2chan01.d~
+  COMPILE ~itemupgrade/crom/c2dagg01.d~
+  COMPILE ~itemupgrade/crom/c2hd1.d~
+  COMPILE ~itemupgrade/crom/c2helm01.d~
+  COMPILE ~itemupgrade/crom/c2helm02.d~
+  COMPILE ~itemupgrade/crom/c2hide01.d~
+  COMPILE ~itemupgrade/crom/c2keld01.d~
+  COMPILE ~itemupgrade/crom/c2keld02.d~
+  COMPILE ~itemupgrade/crom/c2kit.d~
+  COMPILE ~itemupgrade/crom/c2mazz01.d~
+  COMPILE ~itemupgrade/crom/c2plat01.d~
+  COMPILE ~itemupgrade/crom/c2ring01.d~
+  COMPILE ~itemupgrade/crom/c2ring02.d~
+  COMPILE ~itemupgrade/crom/c2ring03.d~
+  COMPILE ~itemupgrade/crom/c2ring04.d~
+  COMPILE ~itemupgrade/crom/c2robe01.d~
+  COMPILE ~itemupgrade/crom/c2robe02.d~
+  COMPILE ~itemupgrade/crom/c2robe03.d~
+  COMPILE ~itemupgrade/crom/c2shld01.d~
+  COMPILE ~itemupgrade/crom/c2shld02.d~
   COMPILE ~itemupgrade/crom/c2sper01.d~
-  COMPILE ~itemupgrade/crom/c2sper02.d~ 
-  COMPILE ~itemupgrade/crom/c2sper03.d~ 
-  COMPILE ~itemupgrade/crom/c2staf01.d~ 
-  COMPILE ~itemupgrade/crom/c2staf02.d~ 
-  COMPILE ~itemupgrade/crom/c2sw1h01.d~ 
-  COMPILE ~itemupgrade/crom/c2sw1h02.d~ 
-  COMPILE ~itemupgrade/crom/c2sw1h03.d~ 
+  COMPILE ~itemupgrade/crom/c2sper02.d~
+  COMPILE ~itemupgrade/crom/c2sper03.d~
+  COMPILE ~itemupgrade/crom/c2staf01.d~
+  COMPILE ~itemupgrade/crom/c2staf02.d~
+  COMPILE ~itemupgrade/crom/c2sw1h01.d~
+  COMPILE ~itemupgrade/crom/c2sw1h02.d~
+  COMPILE ~itemupgrade/crom/c2sw1h03.d~
   COMPILE ~itemupgrade/crom/c2sw2h01.d~
   COMPILE ~itemupgrade/crom/c2valy01.d~
 
@@ -199,16 +199,16 @@ END
 /////                                                  \\\\\
 ///// Original list version                            \\\\\
 /////                                                  \\\\\
-  
+
 BEGIN @4 DESIGNATED 1
 REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @3 // ToB
 LABEL ~c2_item_upgrade_tob_original~
 SUBCOMPONENT @2
-  
+
 // shared code between options
 INCLUDE ~itemupgrade/lib/tob.tpa~
 
-WITH_TRA ~%tra_location%/american/dlg_original.tra~ ~%tra_location%/%LANGUAGE%/dlg_original.tra~ BEGIN 
+WITH_TRA ~%tra_location%/american/dlg_original.tra~ ~%tra_location%/%LANGUAGE%/dlg_original.tra~ BEGIN
 
   // unconventional, but it works: the two R_Ts intercept all calls to state 4 and
   // send them to the new IU 'menu' state instead. The new states are all in the
@@ -235,59 +235,59 @@ REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
 LABEL ~c2_item_upgrade_tob_seamless~
 SUBCOMPONENT @2
-  
+
 // shared code between options
 INCLUDE ~itemupgrade/lib/tob.tpa~
 
-WITH_TRA ~%tra_location%/american/dlg_revised.tra~ ~%tra_location%/%LANGUAGE%/dlg_revised.tra~ BEGIN 
+WITH_TRA ~%tra_location%/american/dlg_revised.tra~ ~%tra_location%/%LANGUAGE%/dlg_revised.tra~ BEGIN
 
   // compile these serially, not all at once
   COMPILE ~itemupgrade/cespy/c2amul01.d~
-  COMPILE ~itemupgrade/cespy/c2anom01.d~	
-  COMPILE ~itemupgrade/cespy/c2ax1h01.d~	
-  COMPILE ~itemupgrade/cespy/c2belt01.d~	
+  COMPILE ~itemupgrade/cespy/c2anom01.d~
+  COMPILE ~itemupgrade/cespy/c2ax1h01.d~
+  COMPILE ~itemupgrade/cespy/c2belt01.d~
   COMPILE ~itemupgrade/cespy/c2blun01.d~
-  COMPILE ~itemupgrade/cespy/c2blun02.d~	
-  COMPILE ~itemupgrade/cespy/c2blun03.d~	
-  COMPILE ~itemupgrade/cespy/c2boot01.d~	
-  COMPILE ~itemupgrade/cespy/c2boot02.d~	
-  COMPILE ~itemupgrade/cespy/c2boot03.d~	
-  COMPILE ~itemupgrade/cespy/c2boot04.d~	
-  COMPILE ~itemupgrade/cespy/c2bow01.d~	
-  COMPILE ~itemupgrade/cespy/c2brac01.d~	
-  COMPILE ~itemupgrade/cespy/c2chan01.d~	
-  COMPILE ~itemupgrade/cespy/c2dagg01.d~	
-  COMPILE ~itemupgrade/cespy/c2hd1.d~	
-  COMPILE ~itemupgrade/cespy/c2helm01.d~	
-  COMPILE ~itemupgrade/cespy/c2helm02.d~	
-  COMPILE ~itemupgrade/cespy/c2hide01.d~	
-  COMPILE ~itemupgrade/cespy/c2keld01.d~	
-  COMPILE ~itemupgrade/cespy/c2keld02.d~	
-  COMPILE ~itemupgrade/cespy/c2kit.d~	
-  COMPILE ~itemupgrade/cespy/c2leat01.d~	
+  COMPILE ~itemupgrade/cespy/c2blun02.d~
+  COMPILE ~itemupgrade/cespy/c2blun03.d~
+  COMPILE ~itemupgrade/cespy/c2boot01.d~
+  COMPILE ~itemupgrade/cespy/c2boot02.d~
+  COMPILE ~itemupgrade/cespy/c2boot03.d~
+  COMPILE ~itemupgrade/cespy/c2boot04.d~
+  COMPILE ~itemupgrade/cespy/c2bow01.d~
+  COMPILE ~itemupgrade/cespy/c2brac01.d~
+  COMPILE ~itemupgrade/cespy/c2chan01.d~
+  COMPILE ~itemupgrade/cespy/c2dagg01.d~
+  COMPILE ~itemupgrade/cespy/c2hd1.d~
+  COMPILE ~itemupgrade/cespy/c2helm01.d~
+  COMPILE ~itemupgrade/cespy/c2helm02.d~
+  COMPILE ~itemupgrade/cespy/c2hide01.d~
+  COMPILE ~itemupgrade/cespy/c2keld01.d~
+  COMPILE ~itemupgrade/cespy/c2keld02.d~
+  COMPILE ~itemupgrade/cespy/c2kit.d~
+  COMPILE ~itemupgrade/cespy/c2leat01.d~
   COMPILE ~itemupgrade/cespy/c2mazz01.d~
-  COMPILE ~itemupgrade/cespy/c2plat01.d~	
-  COMPILE ~itemupgrade/cespy/c2quiv01.d~	
-  COMPILE ~itemupgrade/cespy/c2quiv02.d~	
-  COMPILE ~itemupgrade/cespy/c2quiv03.d~	
-  COMPILE ~itemupgrade/cespy/c2ring01.d~	
-  COMPILE ~itemupgrade/cespy/c2ring02.d~	
+  COMPILE ~itemupgrade/cespy/c2plat01.d~
+  COMPILE ~itemupgrade/cespy/c2quiv01.d~
+  COMPILE ~itemupgrade/cespy/c2quiv02.d~
+  COMPILE ~itemupgrade/cespy/c2quiv03.d~
+  COMPILE ~itemupgrade/cespy/c2ring01.d~
+  COMPILE ~itemupgrade/cespy/c2ring02.d~
   COMPILE ~itemupgrade/cespy/c2ring03.d~
-  COMPILE ~itemupgrade/cespy/c2ring04.d~	
-  COMPILE ~itemupgrade/cespy/c2robe01.d~	
-  COMPILE ~itemupgrade/cespy/c2robe02.d~	
-  COMPILE ~itemupgrade/cespy/c2robe03.d~	
-  COMPILE ~itemupgrade/cespy/c2shld01.d~	
-  COMPILE ~itemupgrade/cespy/c2shld02.d~	
-  COMPILE ~itemupgrade/cespy/c2sper01.d~	
-  COMPILE ~itemupgrade/cespy/c2sper02.d~	
-  COMPILE ~itemupgrade/cespy/c2sper03.d~	
-  COMPILE ~itemupgrade/cespy/c2staf01.d~	
-  COMPILE ~itemupgrade/cespy/c2staf02.d~	
-  COMPILE ~itemupgrade/cespy/c2sw1h01.d~	
-  COMPILE ~itemupgrade/cespy/c2sw1h02.d~	
-  COMPILE ~itemupgrade/cespy/c2sw1h03.d~	
-  COMPILE ~itemupgrade/cespy/c2sw2h01.d~	
+  COMPILE ~itemupgrade/cespy/c2ring04.d~
+  COMPILE ~itemupgrade/cespy/c2robe01.d~
+  COMPILE ~itemupgrade/cespy/c2robe02.d~
+  COMPILE ~itemupgrade/cespy/c2robe03.d~
+  COMPILE ~itemupgrade/cespy/c2shld01.d~
+  COMPILE ~itemupgrade/cespy/c2shld02.d~
+  COMPILE ~itemupgrade/cespy/c2sper01.d~
+  COMPILE ~itemupgrade/cespy/c2sper02.d~
+  COMPILE ~itemupgrade/cespy/c2sper03.d~
+  COMPILE ~itemupgrade/cespy/c2staf01.d~
+  COMPILE ~itemupgrade/cespy/c2staf02.d~
+  COMPILE ~itemupgrade/cespy/c2sw1h01.d~
+  COMPILE ~itemupgrade/cespy/c2sw1h02.d~
+  COMPILE ~itemupgrade/cespy/c2sw1h03.d~
+  COMPILE ~itemupgrade/cespy/c2sw2h01.d~
   COMPILE ~itemupgrade/cespy/c2sw2h02.d~
   COMPILE ~itemupgrade/cespy/c2valy01.d~
 
