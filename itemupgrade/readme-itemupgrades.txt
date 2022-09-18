@@ -870,6 +870,7 @@ Version 49 (updated by CamDawg)
         * A few minor adjustments to the immunity spellstate code for EE games
 Version 50 (updated by CamDawg)
         * Updated French translation, thanks Selphira!
+        * Miscellaneous typo corrections
         * Azuredge +4 had the wrong minimum STR/DEX requirements, usabilities;
           now uses the same throwing projectile as base weapon in case 1pp
           and/or EE has changed it. Azuredge +4 should also be usable by shamans. 
@@ -906,4 +907,7 @@ Version 50 (updated by CamDawg)
         * Quiver of Plenty +3 should be usable by shamans
         * The Quiver/Case/Bag of Plenty +3 will now use the same projectile as
           the underlying ammunition
+        * On the EEs, locked down the various NPC-specific item upgrades to the
+          NPCs, including the exclusion of UAI if it was enforced on the 
+          original item
         * Further prep for integration with the EE Fixpack

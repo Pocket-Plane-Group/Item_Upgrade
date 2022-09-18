@@ -119,8 +119,11 @@ COPY ~itemupgrade/bam/c2leat01.bam~ ~override~
      ~itemupgrade/bam/c2quiv02.bam~ ~override~
      ~itemupgrade/bam/c2quiv03.bam~ ~override~
      ~itemupgrade/bam/c2sw2h02.bam~ ~override~
-
-APPEND ~itemexcl.2da~ ~c2leat01 1~ // add to magic ring/magic armor exclusion list
+    
+COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+  REPLACE_TEXTUALLY CASE_INSENSITIVE ~^LEAT21\([ %TAB%].+\)$~ ~LEAT21\1
+c2leat01\1~
+  BUT_ONLY IF_EXISTS
 
 // prompts random StringHeads if Lil +5 is being used
 EXTEND_BOTTOM ~baldur25.bcs~ ~itemupgrade/bcs/lilarcor.baf~

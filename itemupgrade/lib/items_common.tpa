@@ -89,8 +89,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2amul01.itm THEN BEGIN
   COPY ~itemupgrade/bam/c2amul01.bam~ ~override~
 
   APPEND ~tooltip.2da~ ~c2amul01 8786 -1 -1~ // tooltip stuff
-
-  APPEND ~itemexcl.2da~ ~c2amul01 1~ // add to magic ring/magic armor exclusion list
+    
+  COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^AMUL14\([ %TAB%].+\)$~ ~AMUL14\1
+c2amul01\1~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -112,6 +115,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2anom01.itm THEN BEGIN
   COPY ~itemupgrade/bam/c2anom01.bam~ ~override~
 
   APPEND ~tooltip.2da~ ~c2anom01 12028 -1 -1~ // tooltip stuff
+    
+  COPY_EXISTING ~item_use.2da~ ~override~
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^NPSHLD\([ %TAB%].+\)$~ ~NPSHLD\1
+c2anom01\1~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -283,8 +291,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2chan01.itm THEN BEGIN
     SAY DESC      @198
 
   COPY ~itemupgrade/bam/c2chan01.bam~ ~override~
-
-  APPEND ~itemexcl.2da~ ~c2chan01 1~ // add to magic ring/magic armor exclusion list
+    
+  COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^PLAT18\([ %TAB%].+\)$~ ~PLAT18\1
+c2chan01\1~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -316,13 +327,18 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd1.itm THEN BEGIN
     SAY NAME2     @193
     SAY DESC      @194
     PATCH_IF enhanced_edition BEGIN
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END // use 319 to make it HD-only
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8330 END // use 319 to make it HD-only
       // add normal EE poison immunities
       LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
       LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
     END
 
   COPY ~itemupgrade/bam/c2hd1.bam~ ~override~
+  
+  COPY_EXISTING ~item_use.2da~ ~override~
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^NPSW05\([ %TAB%].+\)$~ ~NPSW05\1
+c2hd1\1~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -341,7 +357,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd2.itm THEN BEGIN
     END
     PATCH_IF enhanced_edition BEGIN
       WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END // use 319 to make it HD-only
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8330 END // use 319 to make it HD-only
     END
      
   COPY ~itemupgrade/spl/c2hd2con.spl~ ~override~ // confusion effect from creeping chaos        
@@ -351,6 +367,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd2.itm THEN BEGIN
   
   COPY_EXISTING ~#curecon.spl~ ~override~ // if using EEFP's cure spell setup, have it also cure confusion from teleomortis
     LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 2 timing = 1 parameter2 = 2 STR_VAR resource = c2hd2con END
+    BUT_ONLY IF_EXISTS
+  
+  COPY_EXISTING ~item_use.2da~ ~override~
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^NPSW06\([ %TAB%].+\)$~ ~NPSW06\1
+c2hd2\1~
     BUT_ONLY IF_EXISTS
 
 END
@@ -391,8 +412,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hide01.itm THEN BEGIN
     END  
 
   COPY ~itemupgrade/bam/c2hide01.bam~ ~override~
-  
-  APPEND ~itemexcl.2da~ ~c2hide01 1~ // add to magic ring/magic armor exclusion list
+    
+  COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^LEAT20\([ %TAB%].+\)$~ ~LEAT20\1
+c2hide01\1~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -441,7 +465,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld01.itm THEN BEGIN
 
   COPY ~itemupgrade/bam/c2keld01.bam~ ~override~
   
-  APPEND ~itemexcl.2da~ ~c2keld01 1~ // add to magic ring/magic armor exclusion list
+  COPY_EXISTING ~item_use.2da~ ~override~ // add to 319 exclusion list
+                ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^NPPLAT\([ %TAB%].+\)$~ ~NPPLAT\1
+c2keld01\1~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -480,6 +508,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld02.itm THEN BEGIN
     END
 
   COPY ~itemupgrade/bam/c2keld02.bam~ ~override~
+  
+  COPY_EXISTING ~item_use.2da~ ~override~
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^NPSW03\([ %TAB%].+\)$~ ~NPSW03\1
+c2keld02\1~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -567,7 +600,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2plat01.itm THEN BEGIN
 
   APPEND ~tooltip.2da~ ~c2plat01 12033 -1 -1~ // tooltip stuff
   
-  APPEND ~itemexcl.2da~ ~c2plat01 1~ // add to magic ring/magic armor exclusion list
+  APPEND ~itemexcl.2da~ ~c2plat01 1~ // add to magic ring/magic armor exclusion list (don't use plat06 replacement since it may not be on the list)
 
 END
 
@@ -579,7 +612,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring01.itm THEN BEGIN
 
   COPY ~itemupgrade/bam/c2ring01.bam~ ~override~
   
-  APPEND ~itemexcl.2da~ ~c2ring01 1~ // add to magic ring/magic armor exclusion list
+  COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^RING06\([ %TAB%].+\)$~ ~RING06\1
+c2ring01\1~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -591,7 +627,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring02.itm THEN BEGIN
 
   COPY ~itemupgrade/bam/c2ring02.bam~ ~override~
   
-  APPEND ~itemexcl.2da~ ~c2ring02 1~ // add to magic ring/magic armor exclusion list
+  COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^RING07\([ %TAB%].+\)$~ ~RING07\1
+c2ring02\1~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -615,6 +654,17 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring03.itm THEN BEGIN
     COPY ~itemupgrade/bam/sppr724b.bam~ ~override~
 
   END
+    
+  COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list, if the original rings are present
+    SET replace = 0 
+    REPLACE_EVALUATE ~^\([Rr][Ii][Nn][Gg]2[789]\)\([ %TAB%].+\)$~ BEGIN
+      PATCH_IF !replace BEGIN
+        SET replace = 1
+        SPRINT MATCH2 ~%MATCH2%
+c2ring03%MATCH2%~
+      END
+    END ~%MATCH1%%MATCH2%~
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -633,6 +683,11 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring04.itm THEN BEGIN
                 ~ring08a.itm~  ~override~ // origin fixpack dupe (v10)
                 ~ohringwi.itm~ ~override~ // ee/new fixpack dupe (v11+)
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 180 target = 1 parameter1 = 53012 timing = 2 resist_dispel = 2 STR_VAR resource = c2ring04 END
+    BUT_ONLY IF_EXISTS
+  
+  COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^RING06\([ %TAB%].+\)$~ ~RING06\1
+c2ring04\1~
     BUT_ONLY IF_EXISTS
 
 END
@@ -873,7 +928,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sw1h01.itm THEN BEGIN
   COPY ~itemupgrade/bam/c2sw1h01.bam~ ~override~
        ~itemupgrade/eff/c2sw1h1a.eff~ ~override~ // +4 thac0 vs. evil
        ~itemupgrade/eff/c2sw1h1b.eff~ ~override~ // +4 damage (slashing) vs. evil
-       ~itemupgrade/eff/c2sw1h1c.eff~ ~override~ // filter so that c2sw1hd gets applied appropriately
+       ~itemupgrade/eff/c2sw1h1c.eff~ ~override~ // filter so that c2sw1h1d gets applied appropriately
        ~itemupgrade/eff/c2sw1h1d.eff~ ~override~ // +4 damage (magic) vs. evil undead
        ~itemupgrade/eff/c2sw1h1e.eff~ ~override~ // 1d8+4 extra damage (magic) vs. undead
 
@@ -942,7 +997,16 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2valy01.itm THEN BEGIN
     END
 
   COPY ~itemupgrade/bam/c2valy01.bam~ ~override~
-  
-  APPEND ~itemexcl.2da~ ~c2valy01 1~ // add to magic ring/magic armor exclusion list
+    
+  COPY_EXISTING ~item_use.2da~ ~override~ // add to 319 exclusion list
+                ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^NPCHAN\([ %TAB%].+\)$~ ~NPCHAN\1
+c2valy01\1~
+    BUT_ONLY IF_EXISTS
 
 END
+
+COPY_EXISTING ~item_use.2da~ ~override~
+              ~itemexcl.2da~ ~override~
+  PRETTY_PRINT_2DA
+  BUT_ONLY IF_EXISTS
