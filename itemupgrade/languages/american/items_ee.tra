@@ -182,7 +182,7 @@ Requires:
 
 Weight: 3~
 @125 = ~Mace +5: Skullcrusher
-This mace is permanently bloodstained; a telltale trace of its many years spent bashing heads. The weapon would have been the bane of humanoids throughout its history, but those that wielded it seem to have been purposely left out of historic record. Recently Skullcrusher was reforged into an even more awesome weapon by <CHARNAME>.
+This mace is permanently bloodstained, a telltale trace of its many years spent bashing heads. The weapon would have been the bane of humanoids throughout its history, but those that wielded it seem to have been purposely left out of historic record. Recently Skullcrusher was reforged into an even more awesome weapon by <CHARNAME>.
 
 STATISTICS:
 
@@ -218,7 +218,7 @@ Requires:
 
 Weight: 7~
 @129 = ~Corthala Family Armor
-This armor, long in the Corthala bloodline, protects the user against all forms of attacks. The armor has been combined with the Shadow Dragon Armor and is now even better at protecting Valygar. The armor is enchanted so that it grants a +5 bonus to Valygar's armor class. It also adds a bonus to resisting acid, fire and magical damage. The armor also makes Valygar immune to charm while he wears it. Finally, the armor grants Valygar non-detection while equipped. As it is specially fitted for Valygar, few other than he may wear it.
+This armor, long in the Corthala bloodline, protects the user against all forms of attacks. The armor has been combined with the Shadow Dragon Armor and is now even better at protecting Valygar. The armor is enchanted so that it grants a +5 bonus to Valygar's Armor Class. It also adds a bonus to resisting acid, fire, and magical damage. The armor also makes Valygar immune to charm while he wears it. Finally, the armor grants Valygar non-detection while equipped. As it is specially fitted for Valygar, only he may wear it.
 
 STATISTICS:
 
@@ -238,7 +238,7 @@ Requires:
 Weight: 9~
 
 @131 = ~Enhanced Robe of the Good Archmagi
-This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of good alignment. This particular robe has been further enchanted by <CHARNAME>.
+This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's Magic Resistance and Saving Throws. Due to the nature of its enchantment, it can only be worn by wizards of good alignment. This particular robe has been further enchanted by <CHARNAME>.
 
 STATISTICS:
 
@@ -251,7 +251,7 @@ Equipped abilities:
 Weight: 6~
 
 @133 = ~Enhanced Robe of the Neutral Archmagi
-This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of neutral alignment. This particular robe has been further enchanted by <CHARNAME>.
+This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's Magic Resistance and Saving Throws. Due to the nature of its enchantment, it can only be worn by wizards of neutral alignment. This particular robe has been further enchanted by <CHARNAME>.
 
 STATISTICS:
 
@@ -264,7 +264,7 @@ Equipped abilities:
 Weight: 6~
 
 @135 = ~Enhanced Robe of the Evil Archmagi
-This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws. Due to the nature of its enchantment, it can only be worn by mages of evil alignment. This particular robe has been further enchanted by <CHARNAME>.
+This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's Magic Resistance and Saving Throws. Due to the nature of its enchantment, it can only be worn by wizards of evil alignment. This particular robe has been further enchanted by <CHARNAME>.
 
 STATISTICS:
 
@@ -305,7 +305,7 @@ Equipped abilities:
 Weight: 3~
 
 @141 = ~Aeger's Hide +5
-This heavy and thick bear hide is all that remains of the fabled Aeger. Several hundred years ago the Aeger, a giant bear, terrorized hundreds of small villages up and down the Sword Coast. The bear was invulnerable to fire, cold or acid. Finally the young men and women of several villages banded together, forming a militia almost two hundred people strong. The Aeger was surrounded and finally slain. Less than a dozen villagers survived, and they carved the Aeger's hide amongst themselves. Out of one of the pieces this armor was created.
+This heavy and thick bear hide is all that remains of the fabled Aeger. Several hundred years ago, the Aeger, a giant bear, terrorized hundreds of small villages up and down the Sword Coast. The bear was invulnerable to fire, cold, or acid. Finally the young men and women of several villages banded together, forming a militia almost two hundred people strong. The Aeger was surrounded and finally slain. Less than a dozen villagers survived, and they carved the Aeger's hide amongst themselves. Out of one of the pieces this armor was created.
 
 More recently, <CHARNAME> arranged for Aeger's Hide to be improved with additional enchantments. It now provides a greater resistance to physical blows and elemental attacks.
 
@@ -356,7 +356,7 @@ Armor Class: -2 (-6 vs. slashing, -5 vs. piercing and missile)
 
 Weight: 10~
 @147 = ~Improved Ankheg Plate Mail
-This plate mail has been expertly crafted. Sheathed in the chitinous scales of the ankheg, it provides a greater degree of protection than traditional plate mail and is not susceptible to rust. As any world-weary adventurer will tell you, however, the best appreciated aspect of ankheg mail is its light weight and low encumbrance. Monsters come and go but fatigue is a constant enemy.
+This plate mail has been expertly crafted. Sheathed in the chitinous scales of the ankheg, it provides a greater degree of protection than traditional plate mail and is not susceptible to rust. As any world-weary adventurer will tell you, however, the best appreciated aspect of ankheg mail is its light weight and low encumbrance. Monsters come and go, but fatigue is a constant enemy.
 
 This particular suit of Ankheg Plate Mail was reforged for <CHARNAME>. It now provides additional protection against melee and acid attacks and allows the wearer to mimic the acid-spitting attack of the Ankheg.
 
@@ -392,7 +392,7 @@ Requires:
 Weight: 2~
 
 @151 = ~Throwing Spear +3
-One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When man mastered metals, spearheads were made from iron and steel. This spear trembles from the powerful magic used in its creation.
+One of the earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When the civilized races mastered metals, spearheads were made from iron and steel. This spear trembles from the powerful magic used in its creation.
 
 Unlike almost every other spear you have encountered, this spear can be thrown. It was forged for <CHARNAME> with the help of a magical Rogue Stone. When thrown, the spear immediately returns to the hand of the wielder. (The spear may also be used as a melee weapon: select the second item ability to do so.)
 
@@ -490,7 +490,7 @@ Requires:
 Weight: 2~
 
 @159 = ~Sunblade: Daystar +4
-Whether created specifically for use in the service of Torm or appropriated at some point in the long history of the church, Paladins of the Loyal Fury have made good use of Daystar in their battles against evil undead. Through magic or blessing it is empowered with the Sunray, a force of pure life energy so potent that it slays both living and unliving.
+Whether created specifically for use in the service of Torm or appropriated at some point in the long history of the church, paladins of the Loyal Fury have made good use of Daystar in their battles against evil undead. Through magic or blessing it is empowered with the Sunray, a force of pure life energy so potent that it slays both living and unliving.
 
 <CHARNAME> appropriated this blade from a Lich near the city gates of Athkatla and has since reforged it into an even more powerful instrument of holy justice.
 
@@ -558,7 +558,7 @@ Requires:
 Weight: 3~
 
 @163 = ~Sword of Arvoreen +5
-Another gift to Mazzy Fentan from Arvoreen, this short sword may only be used by halflings. The enchantments that exist within this sword give it the ability to slow any opponent struck by it.
+Another gift to Mazzy from Arvoreen, this short sword may only be used by halflings. The enchantments that exist within this sword give it the ability to slow any opponent struck by it.
 
 With <CHARNAME>'s help and the blessing of Arvoreen, the sword was recently re-enchanted to become even more powerful.
 
@@ -583,7 +583,7 @@ Requires:
 Weight: 3~
 
 @165 = ~Hallowed Redeemer +5
-Keldorn distinguished himself early in his career as a paladin, and received this blade as a boon from Torm. It is exceptionally accurate, but also protects him in battle with a special Fireshield, and any that strike him while he wields it suffer Torm's wrath in the form of magical damage. None but Keldorn may use this sword.
+Keldorn distinguished himself early in his career as a paladin and received this blade as a boon from Torm. It is exceptionally accurate, but also protects him in battle with a special Fireshield, and any that strike him while he wields it suffer Torm's wrath in the form of magical damage. None but Keldorn may use this sword.
 
 With <CHARNAME>'s help and the blessing of Torm, the sword was recently re-enchanted to become even more powerful.
 
@@ -608,7 +608,7 @@ Requires:
 Weight: 8~
 
 @167 = ~Delryn Family Shield +4
-This is Anomen's family shield, given to him by his father. In addition to the magical protection the shield radiates an aura that grants the wielder fire and cold resistance. To protect against ranged attacks, Anomen can use the shield to erect a field of energy. This protection from normal missiles can be used three times per day.
+This is Anomen's family shield, given to him by his father. In addition to magical protection, the shield radiates an aura that grants the wielder fire and cold resistance. To protect against ranged attacks, Anomen can use the shield to erect a field of energy. This protection from normal missiles can be used three times per day.
 
 Recently <CHARNAME> had the shield strengthened with protective magics of the Saving Grace shield, recovered from the fading avatar of Amaunator, dramatically improving its raw defensive abilities.
 
@@ -856,7 +856,7 @@ Requires:
 
 Weight: 2~
 
-@196 = ~Creeping Chaos is a short sword usable only by tieflings. Every time it strikes an opponent, he or she loses 2 points of dexterity (for 30 seconds). Upgraded at the request of <CHARNAME>, this improved blade has a chance of bewildering any opponent struck by it.
+@196 = ~Creeping Chaos is a short sword usable only by tieflings. Every time it strikes an opponent, he or she loses 2 points of Dexterity for 5 rounds. Upgraded at the request of <CHARNAME>, this improved blade has a chance of bewildering any opponent struck by it.
 
 STATISTICS:
 
