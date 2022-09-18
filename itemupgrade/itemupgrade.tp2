@@ -294,7 +294,7 @@ EXTEND_BOTTOM ~BOTSMITH.BCS~ ~itemupgrade/cespy/BOTSMITH.baf~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN @7
+BEGIN @7 DESIGNATED 12
 REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) @6
 REQUIRE_PREDICATE ((MOD_IS_INSTALLED ~setup-itemupgrade.tp2~ ~1~) OR (MOD_IS_INSTALLED ~setup-itemupgrade.tp2~ ~11~)) @8
 LABEL ~c2_item_upgrade_cespenar_audio~

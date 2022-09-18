@@ -38,6 +38,7 @@ ACTION_IF NOT VARIABLE_IS_SET charm_immunity THEN BEGIN // ee fixpack immunity s
     OUTER_SET haste_immunity     = IDS_OF_SYMBOL (~splstate~ ~HASTE_IMMUNITY~)  
     OUTER_SET hold_immunity      = IDS_OF_SYMBOL (~splstate~ ~HOLD_IMMUNITY~)  
     OUTER_SET panic_immunity     = IDS_OF_SYMBOL (~splstate~ ~PANIC_IMMUNITY~)   
+    OUTER_SET silence_immunity   = IDS_OF_SYMBOL (~splstate~ ~SILENCE_IMMUNITY~)  
     OUTER_SET sleep_immunity     = IDS_OF_SYMBOL (~splstate~ ~SLEEP_IMMUNITY~)  
     OUTER_SET slow_immunity      = IDS_OF_SYMBOL (~splstate~ ~SLOW_IMMUNITY~)  
     OUTER_SET web_immunity       = IDS_OF_SYMBOL (~splstate~ ~WEB_IMMUNITY~)    
@@ -51,6 +52,7 @@ ACTION_IF NOT VARIABLE_IS_SET charm_immunity THEN BEGIN // ee fixpack immunity s
     OUTER_SET haste_immunity     = "-1"
     OUTER_SET hold_immunity      = "-1"
     OUTER_SET panic_immunity     = "-1"
+    OUTER_SET silence_immunity   = "-1"
     OUTER_SET sleep_immunity     = "-1"
     OUTER_SET slow_immunity      = "-1"
     OUTER_SET web_immunity       = "-1"
@@ -58,6 +60,20 @@ ACTION_IF NOT VARIABLE_IS_SET charm_immunity THEN BEGIN // ee fixpack immunity s
   END
 
 END
+
+// get throwing STR weapon flag from azuredge; grab azuredge throwing projectile while we're here
+COPY_EXISTING ~ax1h10.itm~ ~override~ // get axe projectile
+  READ_LONG  0x64 abil_off
+  READ_SHORT 0x68 abil_num
+  FOR (index = 0 ; index < abil_num ; ++index) BEGIN
+    READ_BYTE (abil_off + 0x00 + (index * 0x38)) type
+    PATCH_IF type = 2 BEGIN
+      READ_LONG  (abil_off + 0x26 + (index * 0x38)) throwing_flags
+      READ_SHORT (abil_off + 0x2a + (index * 0x38)) azure_proj
+      SET index = abil_num // kill loop
+    END
+  END 
+  BUT_ONLY
 
 // why wrap every one of these in an ACTION_IF? so SoA and ToB ones won't install them more than once
 ACTION_IF NOT FILE_EXISTS_IN_GAME c2amul01.itm THEN BEGIN
@@ -67,6 +83,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2amul01.itm THEN BEGIN
     SAY DESC      @181
     PATCH_IF enhanced_edition BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 318 target = 1 timing = 2 STR_VAR resource = wand13 END // ee protection from wand of cloudkill
+      LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 173 target = 1 timing = 2 parameter1 = 100 END // add 100% poison damage resistance
     END
 
   COPY ~itemupgrade/bam/c2amul01.bam~ ~override~
@@ -78,13 +95,19 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2amul01.itm THEN BEGIN
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME c2anom01.itm THEN BEGIN
+
+  COPY_EXISTING ~npshld.itm~ ~override~ // get shield paperdoll appearance from existing shield in case 1pp installed
+    READ_ASCII 0x22 app (2)
+    BUT_ONLY
   
   COPY ~itemupgrade/itm/c2anom01.itm~ ~override~
     SAY NAME2     @166
     SAY DESC      @167
     PATCH_IF enhanced_edition BEGIN
+      WRITE_ASCII 0x1e ~~ #22 // clear all minimums and class/kit usability flags since we have a 319 (*appearance restored below)
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9138 STR_VAR resource = ANOMEN END
     END
+    WRITE_ASCIIE 0x22 ~%app%~ #2
 
   COPY ~itemupgrade/bam/c2anom01.bam~ ~override~
 
@@ -97,6 +120,20 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2ax1h01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2ax1h01.itm~ ~override~
     SAY NAME2     @184
     SAY DESC      @185
+    READ_LONG  0x64 abil_off
+    READ_SHORT 0x68 abil_num
+    FOR (index = 0 ; index < abil_num ; ++index) BEGIN
+      READ_BYTE (abil_off + 0x00 + (index * 0x38)) type
+      PATCH_IF type = 2 BEGIN
+        WRITE_LONG  (abil_off + 0x26 + (index * 0x38)) throwing_flags
+        WRITE_SHORT (abil_off + 0x2a + (index * 0x38)) azure_proj
+        SET index = abil_num // kill loop
+      END
+    END 
+    PATCH_IF enhanced_edition BEGIN // make usable by shaman
+      WRITE_BYTE 0x21 (THIS BAND `BIT6) // removes druid flag
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 parameter1 = 11 parameter2 = 5 timing = 2 special = 1080 END
+    END  
 
   COPY ~itemupgrade/bam/c2ax1h01.bam~ ~override~
        ~itemupgrade/eff/c2ax1h1a.eff~ ~override~
@@ -127,10 +164,15 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2blun01.itm THEN BEGIN
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME c2blun02.itm THEN BEGIN
+
+  COPY_EXISTING ~blun18.itm~ ~override~ // get mace paperdoll appearance from existing mace in case 1pp installed
+    READ_ASCII 0x22 app (2)
+    BUT_ONLY
   
   COPY ~itemupgrade/itm/c2blun02.itm~ ~override~
     SAY NAME2     @124
     SAY DESC      @125
+    WRITE_ASCIIE 0x22 ~%app%~ #2
 
   COPY ~itemupgrade/bam/c2blun02.bam~ ~override~
        ~itemupgrade/eff/c2blun02.eff~ ~override~
@@ -153,6 +195,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2boot01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2boot01.itm~ ~override~
     SAY NAME2     @114
     SAY DESC      @115
+    PATCH_IF enhanced_edition BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode = 126 parameter2 =   5 END // use multiply % mode for EE
+      LPF ALTER_EFFECT INT_VAR match_opcode = 142 match_parameter2 = 38 parameter2 = 195 END // use 'increased movement rate' icon instead of haste
+    END
 
   COPY ~itemupgrade/bam/c2boot01.bam~ ~override~
 
@@ -163,6 +209,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2boot02.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2boot02.itm~ ~override~
     SAY NAME2     @116
     SAY DESC      @117
+    PATCH_IF enhanced_edition BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode = 126 parameter2 =   5 END // use multiply % mode for EE
+      LPF ALTER_EFFECT INT_VAR match_opcode = 142 match_parameter2 = 38 parameter2 = 195 END // use 'increased movement rate' icon instead of haste
+    END
 
   COPY ~itemupgrade/bam/c2boot02.bam~ ~override~
 
@@ -173,6 +223,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2boot03.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2boot03.itm~ ~override~
     SAY NAME2     @118
     SAY DESC      @119
+    PATCH_IF enhanced_edition BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode = 126 parameter2 =   5 END // use multiply % mode for EE
+      LPF ALTER_EFFECT INT_VAR match_opcode = 142 match_parameter2 = 38 parameter2 = 195 END // use 'increased movement rate' icon instead of haste
+    END
 
   COPY ~itemupgrade/bam/c2boot03.bam~ ~override~
 
@@ -183,6 +237,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2boot04.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2boot04.itm~ ~override~
     SAY NAME2     @120
     SAY DESC      @121
+    PATCH_IF enhanced_edition BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode = 126 parameter2 =   5 END // use multiply % mode for EE
+      LPF ALTER_EFFECT INT_VAR match_opcode = 142 match_parameter2 = 38 parameter2 = 195 END // use 'increased movement rate' icon instead of haste
+    END
 
   COPY ~itemupgrade/bam/c2boot04.bam~ ~override~
 
@@ -198,6 +256,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2bow01.itm THEN BEGIN
     END  
 
   COPY ~itemupgrade/bam/c2bow01.bam~ ~override~
+  
+  COPY_EXISTING ~#curecon.spl~ ~override~ // if using EEFP's cure spell setup, have it also cure confusion from teleomortis
+    LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 2 timing = 1 parameter2 = 2 STR_VAR resource = c2bow01 END
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -206,6 +268,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2brac01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2brac01.itm~ ~override~
     SAY NAME2     @178
     SAY DESC      @179
+    PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
+    END
 
   COPY ~itemupgrade/bam/c2brac01.bam~ ~override~
 
@@ -236,6 +301,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2dagg01.itm THEN BEGIN
       LPF DELETE_EFFECT INT_VAR match_opcode = 177 END // delete all of the oBG2 elven resistance effs
       LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 94 probability2 = 50 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
       LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 64 probability2 = 50 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      // sleep cleanup
+      LPF DELETE_EFFECT INT_VAR match_opcode = 142 match_parameter2 = 14 END // delete sleep icon as separate effect, add to sleep effect directly
+      LPF ALTER_EFFECT INT_VAR match_opcode = 39 parameter2 = 1 special = 14 END // don't wake on damage, add icon directly
     END  
 
   COPY ~itemupgrade/bam/c2dagg01.bam~ ~override~
@@ -259,16 +327,31 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd1.itm THEN BEGIN
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME c2hd2.itm THEN BEGIN
+
+  COPY_EXISTING ~npsw06.itm~ ~override~ // get mace paperdoll appearance from existing mace in case 1pp installed
+    READ_ASCII 0x22 app (2)
+    BUT_ONLY
   
   COPY ~itemupgrade/itm/c2hd2.itm~ ~override~
     SAY NAME2     @195
     SAY DESC      @196
-    PATCH_IF enhanced_edition BEGIN
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END // use 319 to make it HD-only
-      PATCH_IF (confusion_immunity > 0) BEGIN 
-        LPF CLONE_EFFECT INT_VAR match_opcode = 128 opcode = 324 parameter1 = confusion_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
-      END  
+    WRITE_ASCIIE 0x22 ~%app%~ #2
+    PATCH_IF ("%app%" STRING_COMPARE_CASE "f2" = 0) BEGIN // if flaming short sword, add glow
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 8 target = 1 parameter1 = 153 parameter1 = ((32 << 24) + (23 << 16) + (76 << 8)) parameter2 = 21 timing = 2 END // add glow to match original
     END
+    PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter1 = 153 parameter2 = 4 timing = 2 special = 8332 END // use 319 to make it HD-only
+    END
+     
+  COPY ~itemupgrade/spl/c2hd2con.spl~ ~override~ // confusion effect from creeping chaos        
+    PATCH_IF (confusion_immunity > 0) BEGIN 
+      LPF CLONE_EFFECT INT_VAR match_opcode = 128 opcode = 324 parameter1 = confusion_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+    END  
+  
+  COPY_EXISTING ~#curecon.spl~ ~override~ // if using EEFP's cure spell setup, have it also cure confusion from teleomortis
+    LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 2 timing = 1 parameter2 = 2 STR_VAR resource = c2hd2con END
+    BUT_ONLY IF_EXISTS
 
 END
 
@@ -326,6 +409,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld01.itm THEN BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14043 timing = 2 END // prevent 'stun' string
     END
     PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
       PATCH_IF (entangle_immunity > 0) BEGIN
         LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 154 opcode = 328 parameter2 = entangle_immunity special = 1 STR_VAR insert = first END // clone immunity to entangle into set spell state
       END  
@@ -344,6 +428,14 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld01.itm THEN BEGIN
       PATCH_IF (web_immunity > 0) BEGIN
         LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 157 opcode = 328 parameter2 = web_immunity special = 1 STR_VAR insert = first END // clone immunity to web into set spell state
       END  
+      PATCH_IF FILE_EXISTS_IN_GAME ~#curehol.spl~ BEGIN // ee fixpack
+        LPF ALTER_EFFECT INT_VAR match_opcode = 162 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curehol~ END   
+        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 13 END
+      END  
+      PATCH_IF FILE_EXISTS_IN_GAME ~#curestn.spl~ BEGIN
+        LPF ALTER_EFFECT INT_VAR match_opcode = 46 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curestn~ END  
+        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 55 END
+      END  
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9144 STR_VAR resource = KELDORN END
     END
 
@@ -358,19 +450,33 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld02.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2keld02.itm~ ~override~
     SAY NAME2     @164
     SAY DESC      @165
-    PATCH_IF FILE_EXISTS_IN_GAME ~cditmdm0.spl~ THEN BEGIN // if Fixpack's item dispel magic spell is installed
-      LPF ALTER_EFFECT INT_VAR match_opcode = 58 opcode = 146 parameter1 = 0 parameter2 = 1 STR_VAR resource = ~cditmdm0~ END // change dispel to cast spell
-      // delete associated dispel magic effects
-      LPF DELETE_EFFECT INT_VAR match_opcode =  77 END // cure feeblemind
-      LPF DELETE_EFFECT INT_VAR match_opcode =  81 END // cure deafness
-      LPF DELETE_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 14056 END // 'dispel effects' string
-      LPF DELETE_EFFECT INT_VAR match_opcode = 177 match_parameter1 = 7 match_parameter2 = 7 STR_VAR match_resource = destself END // destroy illusionary creatures
-      LPF DELETE_EFFECT INT_VAR match_opcode = 215 STR_VAR match_resource = spdispma END // DM visuals
-      LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 =  48 END // remove icon: feeblemind
-      LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 112 END // remove icon: deaf
-    END
     PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
+      PATCH_IF (silence_immunity > 0) BEGIN 
+        LPF CLONE_EFFECT INT_VAR match_opcode = 38 opcode = 324 parameter1 = silence_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      END  
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9144 STR_VAR resource = KELDORN END
+      PATCH_IF FILE_EXISTS_IN_GAME ~#curedef.spl~ BEGIN // ee fixpack
+        LPF ALTER_EFFECT INT_VAR match_opcode = 81 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curedef~ END   
+        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 122 END
+        LPF cd_apply_batch STR_VAR array_name = cd_cure_deafness END
+      END
+      PATCH_IF FILE_EXISTS_IN_GAME ~#curefbm.spl~ BEGIN // ee fixpack
+        LPF ALTER_EFFECT INT_VAR match_opcode = 77 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curefbm~ END   
+        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 48 END
+      END  
+    END ELSE BEGIN 
+      PATCH_IF FILE_EXISTS_IN_GAME ~cditmdm0.spl~ THEN BEGIN // if Fixpack's item dispel magic spell is installed
+        LPF ALTER_EFFECT INT_VAR match_opcode = 58 opcode = 146 parameter1 = 0 parameter2 = 1 STR_VAR resource = ~cditmdm0~ END // change dispel to cast spell
+        // delete associated dispel magic effects
+        LPF DELETE_EFFECT INT_VAR match_opcode =  77 END // cure feeblemind
+        LPF DELETE_EFFECT INT_VAR match_opcode =  81 END // cure deafness
+        LPF DELETE_EFFECT INT_VAR match_opcode = 139 match_parameter1 = 14056 END // 'dispel effects' string
+        LPF DELETE_EFFECT INT_VAR match_opcode = 177 match_parameter1 = 7 match_parameter2 = 7 STR_VAR match_resource = destself END // destroy illusionary creatures
+        LPF DELETE_EFFECT INT_VAR match_opcode = 215 STR_VAR match_resource = spdispma END // DM visuals
+        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 =  48 END // remove icon: feeblemind
+        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 112 END // remove icon: deaf
+      END
     END
 
   COPY ~itemupgrade/bam/c2keld02.bam~ ~override~
@@ -383,9 +489,12 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2kit.itm THEN BEGIN
     SAY NAME2     @190
     SAY DESC      @191
   
-  COPY ~itemupgrade/itm/c2kit.cre~ ~override~
+  COPY ~itemupgrade/cre/c2kit.cre~ ~override~
     SAY NAME1     @192
     SAY NAME2     @192
+    PATCH_IF enhanced_edition BEGIN
+      WRITE_ASCII 0x268 ~bdsum00~ #8 // assign generic summons script, replacing wtasight
+    END  
 
   COPY ~itemupgrade/itm/c2kita.itm~ ~override~
     PATCH_IF enhanced_edition BEGIN
@@ -415,21 +524,31 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2mazz01.itm THEN BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 =  1280 timing = 2 END // prevent 'stunned' string
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14043 timing = 2 END // prevent 'stun' string
     END
-    PATCH_IF (entangle_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 154 opcode = 328 parameter2 = entangle_immunity special = 1 STR_VAR insert = first END // clone immunity to entangle into set spell state
-    END  
-    PATCH_IF (haste_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 16 opcode = 328 parameter2 = haste_immunity special = 1 STR_VAR insert = first END // clone immunity to haste into set spell state
-    END  
-    PATCH_IF (hold_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
-    END  
-    PATCH_IF (slow_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 40 opcode = 328 parameter2 = slow_immunity special = 1 STR_VAR insert = first END // clone immunity to slow into set spell state
-      LPF CLONE_EFFECT INT_VAR match_opcode = 40 opcode = 324 parameter1 = slow_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
-    END  
-    PATCH_IF (web_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 157 opcode = 328 parameter2 = web_immunity special = 1 STR_VAR insert = first END // clone immunity to web into set spell state
+    PATCH_IF enhanced_edition BEGIN
+      PATCH_IF (entangle_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 154 opcode = 328 parameter2 = entangle_immunity special = 1 STR_VAR insert = first END // clone immunity to entangle into set spell state
+      END  
+      PATCH_IF (haste_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 16 opcode = 328 parameter2 = haste_immunity special = 1 STR_VAR insert = first END // clone immunity to haste into set spell state
+      END  
+      PATCH_IF (hold_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
+      END  
+      PATCH_IF (slow_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 40 opcode = 328 parameter2 = slow_immunity special = 1 STR_VAR insert = first END // clone immunity to slow into set spell state
+        LPF CLONE_EFFECT INT_VAR match_opcode = 40 opcode = 324 parameter1 = slow_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
+      END  
+      PATCH_IF (web_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 157 opcode = 328 parameter2 = web_immunity special = 1 STR_VAR insert = first END // clone immunity to web into set spell state
+      END  
+      PATCH_IF FILE_EXISTS_IN_GAME ~#curehol.spl~ BEGIN // ee fixpack
+        LPF ALTER_EFFECT INT_VAR match_opcode = 162 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curehol~ END   
+        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 13 END
+      END  
+      PATCH_IF FILE_EXISTS_IN_GAME ~#curestn.spl~ BEGIN
+        LPF ALTER_EFFECT INT_VAR match_opcode = 46 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curestn~ END  
+        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 55 END
+      END  
     END  
 
   COPY ~itemupgrade/bam/c2mazz01.bam~ ~override~
@@ -441,6 +560,10 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2plat01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2plat01.itm~ ~override~
     SAY NAME2     @146
     SAY DESC      @147
+    PATCH_IF enhanced_edition BEGIN // make usable by druid
+      WRITE_BYTE 0x21 (THIS BAND `BIT6) // removes druid flag
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 parameter1 = 21 parameter2 = 5 timing = 2 special = 103061 END
+    END  
 
   APPEND ~tooltip.2da~ ~c2plat01 12033 -1 -1~ // tooltip stuff
   
@@ -500,6 +623,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring04.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2ring04.itm~ ~override~
     SAY NAME2     @186
     SAY DESC      @187
+    PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
+    END  
 
   COPY ~itemupgrade/bam/c2ring04.bam~ ~override~
   
@@ -516,6 +642,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2robe01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2robe01.itm~ ~override~
     SAY NAME2     @130
     SAY DESC      @131
+    PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
+    END  
 
 END
 
@@ -524,6 +653,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2robe02.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2robe02.itm~ ~override~
     SAY NAME2     @132
     SAY DESC      @133
+    PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
+    END  
 
 END
 
@@ -532,6 +664,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2robe03.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2robe03.itm~ ~override~
     SAY NAME2     @134
     SAY DESC      @135
+    PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
+    END  
 
 END
 
@@ -540,14 +675,16 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2shld01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2shld01.itm~ ~override~
     SAY NAME2     @148
     SAY DESC      @149
-    PATCH_IF (charm_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
-    END  
-    PATCH_IF (confusion_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 128 opcode = 328 parameter2 = confusion_immunity special = 1 STR_VAR insert = first END // clone immunity to confusion into set spell state
-    END  
-    PATCH_IF (hold_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
+    PATCH_IF enhanced_edition BEGIN
+      PATCH_IF (charm_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
+      END  
+      PATCH_IF (confusion_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 128 opcode = 328 parameter2 = confusion_immunity special = 1 STR_VAR insert = first END // clone immunity to confusion into set spell state
+      END  
+      PATCH_IF (hold_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
+      END  
     END  
 
   COPY ~itemupgrade/bam/c2shld01.bam~ ~override~
@@ -571,6 +708,15 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sper01.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2sper01.itm~ ~override~
     SAY NAME2     @150
     SAY DESC      @151
+    READ_LONG  0x64 abil_off
+    READ_SHORT 0x68 abil_num
+    FOR (index = 0 ; index < abil_num ; ++index) BEGIN
+      READ_BYTE (abil_off + 0x00 + (index * 0x38)) type
+      PATCH_IF type = 2 BEGIN
+        WRITE_LONG  (abil_off + 0x26 + (index * 0x38)) throwing_flags
+        SET index = abil_num // kill loop
+      END
+    END 
 
   COPY ~itemupgrade/bam/c2sper01.bam~ ~override~
 
@@ -583,12 +729,23 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sper02.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2sper02.itm~ ~override~
     SAY NAME2     @152
     SAY DESC      @153
-    PATCH_IF (charm_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
-    END  
-    PATCH_IF (hold_immunity > 0) BEGIN
-      LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
-    END  
+    READ_LONG  0x64 abil_off
+    READ_SHORT 0x68 abil_num
+    FOR (index = 0 ; index < abil_num ; ++index) BEGIN
+      READ_BYTE (abil_off + 0x00 + (index * 0x38)) type
+      PATCH_IF type = 2 BEGIN
+        WRITE_LONG  (abil_off + 0x26 + (index * 0x38)) throwing_flags
+        SET index = abil_num // kill loop
+      END
+    END 
+    PATCH_IF enhanced_edition BEGIN
+      PATCH_IF (charm_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
+      END  
+      PATCH_IF (hold_immunity > 0) BEGIN
+        LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 175 opcode = 328 parameter2 = hold_immunity special = 1 STR_VAR insert = first END // clone immunity to hold into set spell state
+      END  
+    END
 
   COPY ~itemupgrade/bam/c2sper02.bam~ ~override~
 
@@ -601,6 +758,15 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sper03.itm THEN BEGIN
   COPY ~itemupgrade/itm/c2sper03.itm~ ~override~
     SAY NAME2     @154
     SAY DESC      @155
+    READ_LONG  0x64 abil_off
+    READ_SHORT 0x68 abil_num
+    FOR (index = 0 ; index < abil_num ; ++index) BEGIN
+      READ_BYTE (abil_off + 0x00 + (index * 0x38)) type
+      PATCH_IF type = 2 BEGIN
+        WRITE_LONG  (abil_off + 0x26 + (index * 0x38)) throwing_flags
+        SET index = abil_num // kill loop
+      END
+    END 
 
   COPY ~itemupgrade/bam/c2sper03.bam~ ~override~
 
@@ -609,10 +775,32 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sper03.itm THEN BEGIN
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf01.itm THEN BEGIN
+
+  // get sleep cloud projectile from staff of air (1pp/ee)
+  COPY_EXISTING ~staf15.itm~ ~override~ 
+    READ_LONG  0x64 abil_off
+    READ_SHORT 0x68 abil_num
+    FOR (index = 0 ; index < abil_num ; ++index) BEGIN
+      READ_ASCII (abil_off + 0x04 + (index * 0x38)) icon
+      PATCH_IF ("%icon%" STRING_COMPARE_CASE "spwi213b" = 0) BEGIN
+        READ_SHORT (abil_off + 0x2a + (index * 0x38)) air_proj
+        SET index = abil_num // kill loop
+      END
+    END 
+    BUT_ONLY
   
   COPY ~itemupgrade/itm/c2staf01.itm~ ~override~
     SAY NAME2     @106
     SAY DESC      @107  
+    READ_LONG  0x64 abil_off
+    READ_SHORT 0x68 abil_num
+    FOR (index = 0 ; index < abil_num ; ++index) BEGIN
+      READ_ASCII (abil_off + 0x04 + (index * 0x38)) icon
+      PATCH_IF ("%icon%" STRING_COMPARE_CASE "spwi213b" = 0) BEGIN
+        WRITE_SHORT (abil_off + 0x2a + (index * 0x38)) air_proj
+        SET index = abil_num // kill loop
+      END
+    END 
     PATCH_IF enhanced_edition BEGIN
       PATCH_IF (sleep_immunity > 0) BEGIN 
         LPF CLONE_EFFECT INT_VAR match_opcode = 39 opcode = 324 parameter1 = sleep_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
@@ -624,10 +812,20 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf01.itm THEN BEGIN
       PATCH_IF (death_immunity > 0) BEGIN 
         LPF CLONE_EFFECT INT_VAR match_opcode = 55 multi_match = 1 opcode = 324 parameter1 = death_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = first resource = EVAL ~%SOURCE_RES%~ END
       END
+      LPF ALTER_EFFECT INT_VAR match_opcode = 55 opcode = 326 parameter2 = 105 STR_VAR resource = c2staf01 END
+      LPF DELETE_EFFECT INT_VAR check_globals = 0 header_type = 1 match_opcode = 174 END // sound moved to subspell
+      LPF DELETE_EFFECT INT_VAR match_opcode = 142 match_parameter2 = 14 END // delete sleep icon as separate effect, add to sleep effect directly
+      LPF ALTER_EFFECT INT_VAR match_opcode = 39 parameter2 = 1 special = 14 END // don't wake on damage, add icon directly
     END  
 
   COPY ~itemupgrade/bam/c2staf01.bam~ ~override~
        ~itemupgrade/cre/elairpr3.cre~ ~override~
+  
+  ACTION_IF enhanced_edition BEGIN
+    
+    COPY ~itemupgrade/spl/c2staf01.spl~ ~override~
+    
+  END  
 
   APPEND ~tooltip.2da~ ~c2staf01 15529 63746 25880~ // tooltip stuff
 
@@ -640,16 +838,22 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf01.itm THEN BEGIN
 END
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME c2staf02.itm THEN BEGIN
+
+  COPY_EXISTING ~staf14.itm~ ~override~ // get staff paperdoll appearance from existing staff in case 1pp installed
+    READ_ASCII 0x22 app (2)
+    BUT_ONLY
   
   COPY ~itemupgrade/itm/c2staf02.itm~ ~override~
     SAY NAME2     @156
     SAY DESC      @157
+    WRITE_ASCIIE 0x22 ~%app%~ #2
     PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
       PATCH_IF (charm_immunity > 0) BEGIN 
         LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 parameter1 = charm_immunity parameter2 = 110 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
       END  
       // swap oBG2 elven charm resistance for ee method
-      LPF DELETE_EFFECT INT_VAR match_opcode = 177 END // delete all of the oBG2 elven resistance effs
+      LPF DELETE_EFFECT INT_VAR match_opcode = 177 header = 1 END // delete all of the oBG2 elven resistance effs, leave summoning eff
       LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 parameter1 = 0 parameter2 = 15 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 89 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
       LPF CLONE_EFFECT INT_VAR match_opcode = 5 opcode = 324 parameter1 = 0 parameter2 = 19 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 probability1 = 29 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END
     END  
@@ -695,6 +899,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2sw1h03.itm THEN BEGIN
     SAY NAME2     @182
     SAY DESC      @183
     PATCH_IF enhanced_edition BEGIN 
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 parameter1 = 21 parameter2 = 5 timing = 2 special = 103061 END // add shaman restriction
       // add normal EE poison immunities
       LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 55 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // golems/undead
       LPF CLONE_EFFECT INT_VAR match_opcode = 25 opcode = 324 parameter2 = 77 timing = 0 duration = 0 resist_dispel = 0 savingthrow = 0 STR_VAR insert = above resource = EVAL ~%SOURCE_RES%~ END // poison resist >= 100
@@ -729,6 +934,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2valy01.itm THEN BEGIN
     SAY NAME2     @128
     SAY DESC      @129
     PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x29 (THIS BOR  BIT6) // adds barbarian flag for EEs
       PATCH_IF (charm_immunity > 0) BEGIN 
         LPF CLONE_EFFECT INT_VAR multi_match = 1 match_opcode = 101 match_parameter2 = 5 opcode = 328 parameter2 = charm_immunity special = 1 STR_VAR insert = first END // clone immunity to charm into set spell state
       END  

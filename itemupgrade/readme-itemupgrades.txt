@@ -2,7 +2,7 @@
                             Item Upgrade Mod Pack
                             Author: Westley Weimer
                          Current Maintainer: CamDawg
-                               \/ Release 49 \/
+                               \/ Release 50 \/
 
              http://forums.pocketplane.net/index.php/board,43.0.html
 
@@ -868,3 +868,42 @@ Version 48: (updated by CamDawg)
 Version 49 (updated by CamDawg)
         * Updated Russian translation
         * A few minor adjustments to the immunity spellstate code for EE games
+Version 50 (updated by CamDawg)
+        * Updated French translation, thanks Selphira!
+        * Azuredge +4 had the wrong minimum STR/DEX requirements, usabilities;
+          now uses the same throwing projectile as base weapon in case 1pp
+          and/or EE has changed it. Azuredge +4 should also be usable by shamans. 
+        * Upgraded Delryn Shield will keep the same paperdoll appearance as the
+          original shield
+        * Club +5: Pitchwife was causing five points of acid damage instead of
+          the intended three        
+        * Skullcrusher +5 had the wrong weapon speed in its description (only 
+          occurred on EEs, in English)
+        * All of the upgraded boots now use the 'Increased Movement Speed'
+          portrait icons on EEs instead of 'Haste'
+        * On the EEs, several items were unusable by barbarians but the 
+          descriptions weren't properly mentioning this
+        * Incarnadine Elven Chain and Aeger's Hide +5 shouldn't be usable by 
+          Avengers
+        * The sleep effects from Quietus +4 and Staff of Elemental Mastery
+          will no longer be in wake-on-damage mode on EEs
+        * Creeping Chaos will keep the same paperdoll appearance as the
+          original Chaos
+        * Improved Kitthix was lacking a generic attack script  
+        * Improved Ankheg Plate Mail shhould be unusable by Shamans and Archers
+        * Ring of Elemental Mastery will charm any fire, earth, or air 
+          elementals; the EE description only listed earth
+        * The monetary value of the upgraded archmai robes were less than the 
+          original robes
+        * Cleaned up some duplicate effects in the Shield of Harmony +3
+        * Staff of Elemental Mastery now uses the same sleep cloud projectile as
+          the original Staff of Air on EEs/1pp
+        * Staff of the Woodlands +5 was setting AC to 0, not 3, and was not
+          summoning Shambling Mounds on EE games
+        * Daystar +4 provides Protection From Evil while equipped, but this was
+          missing from its description in EE games
+        * Water's Talon +4 was not protecting against Horrid Wilting via Wish  
+        * Quiver of Plenty +3 should be usable by shamans
+        * The Quiver/Case/Bag of Plenty +3 will now use the same projectile as
+          the underlying ammunition
+        * Further prep for integration with the EE Fixpack

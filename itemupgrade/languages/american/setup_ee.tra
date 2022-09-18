@@ -47,7 +47,7 @@ Charge abilities:
   Range: 20 ft.
   Duration: 1 hour
 
-– Charm Earth Elemental three times per day (no save)
+– Charm Air, Earth, or Fire Elemental three times per day (no save)
   Range: Touch
   Duration: 60 seconds
   Area of Effect: 1 elemental
@@ -192,7 +192,7 @@ Combat abilities:
 THAC0: +5
 Damage: 1d6+6, +6 extra vs. humanoids
 Damage type: Crushing
-Speed Factor: 4
+Speed Factor: 2
 Proficiency Type: Mace
 Type: One-handed
 Requires:
@@ -495,6 +495,9 @@ Whether created specifically for use in the service of Torm or appropriated at s
 <CHARNAME> appropriated this blade from a Lich near the city gates of Athkatla and has since reforged it into an even more powerful instrument of holy justice.
 
 STATISTICS:
+
+Equipped abilities:
+– Protection From Evil
 
 Charge abilities:
 – Sunray twice per day
@@ -809,7 +812,7 @@ This ring is undoubtedly the pinnacle of mnemonic lucubration. Crafted at <CHARN
 STATISTICS:
 
 Equipped abilities:
-– Can memorize one extra 1st-level spell, 2nd-level spell, 3rd-level spell, 4th-level spell, 5th-level spell, one extra 6th-level spell, and one extra 7th-level spell
+– Can memorize one extra 1st-level spell, 2nd-level spell, 3rd-level spell, 4th-level spell, 5th-level spell, 6th-level spell, and 7th-level spell
 – Armor Class: +1
 – Saving Throws: +1
 
