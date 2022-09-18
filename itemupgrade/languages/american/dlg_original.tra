@@ -64,14 +64,14 @@
   @123458 = ~Sure, upgrade this Robe of the Evil Archmagi.~
 @123459 = ~Certainly. I could combine the defensive powers of a Helm of Defense and a Helm of Charm Protection. I'd need four pearls as reagents and 10,000 gold for the job.~
 @123460 = ~Hmm. If you managed to procure two flasks of Mind Flayer birthing brine I could use them to enchant a Helm of Charm Protection against Psionics. I'd charge 10,000 for the job.~
-@123461 = ~With a Scroll of Protection from the Elements to use as a catalyst, I could make that old bear's hide even tougher and smellier than it already is. I'd charge 15,000 for me labour.~
+@123461 = ~With a Scroll of Protection from the Elements to use as a catalyst, I could make that old bear's hide even tougher and smellier than it already is. I'd charge 15,000 for me labor.~
 @123462 = ~With some choice plates from the Armor of the Hart I could reforge the Firecam Full-Plate. But quality doesn't come cheap: I'd ask 20,000 gold for the work.~
 @123463 = ~With two distinct kinds of scrolls of Protection from Acid to use for the rune-work, I could reforge a suit of Ankheg Plate Mail. It would cost you another 5,000 gold, though.~
 @123464 = ~Ah, the Shield of Harmony. She's a beaut, I'll admit. If you had two flasks worth of Mind Flayer birthing brine, a Mind Flayer control circlet and a Beljuril I could forge up a storm with her. I'd charge you 10,000 gold as well, but she'd be stronger and more protective in the end.~
 @123465 = ~Aye, with a Rogue Stone and 10,000 gold I could make a rapid throwing spear from your Spear +3.~
 @123466 = ~Aye, with a Rogue Stone and 10,000 gold I could make a throwing spear from your Spear of the Unicorn.~
 @123467 = ~Ah, the Impaler. If there's anything those Sahuagin can make, it's a harpoon. With a Rogue Stone and 15,000 gold I could make it into a rapid throwing spear for you.~
-@123468 = ~Harumph. These foresty staves have never been me favourites, but with rings of Protection and Animal friendship I could improve the Staff of the Woodlands. I'd charge 20,000 gold for the act.~
+@123468 = ~Harumph. These foresty staves have never been me favorites, but with rings of Protection and Animal friendship I could improve the Staff of the Woodlands. I'd charge 20,000 gold for the act.~
 @123469 = ~With four scrolls of Protection from Undead, two vials of Holy Water and two star sapphires I could turn Daystar into the underworld's worst nightmare. I'd charge 15,000 for the job.~
 @123470 = ~Celestial Fury? I'm nay from Kara-Tur, and enchanting a Katana is no easy task, but with a Demon Heart and a Wand of Lightning I could just about do it. I'd charge you 20,000 for me sweat.~
 @123471 = ~Aye, I could reforge the Sword of Arvoreen. But not without the blessing of the Goddess herself: I could only do the task for a party of the purest heart and highest reputation. I'd charge 15,000 for the job.~
@@ -215,7 +215,7 @@ version, I just added the tags, changed nothing.
 @5678951 = ~You gots a nice bow, but can make much better with recipe for Teleomortis. Arrows appear in your hand, amazes your friends and enemieses. Needs lots of important materials: Gesen String or Gond String, four Laeral's Tears and Potion of Power for brewing, though.~
 
 @567854 = ~Oooh! Very sharp suits. Careful, mister, Cespenar not dusted yet today... if you sneeze, face may freeze that way. Tee hee hee! You know, some people say that Valygar is a bad mother... shut Cespenar's mouth? Cespenar just talking about Valygar!~ [fwcesp12]
-@5678954 = ~Can do a lot with two good suits, can make one really good suit! Lots of protections from most bad things like fire and acid! No need for matching cufflinks, just give Cespenar 10,000 gold and Scroll of Protection from Magic.~
+@5678954 = ~Can do a lot with two good suits, can make one really good suit! Lots of protections from most bad things like fire and acid! No need for matching cuff links, just give Cespenar 10,000 gold and Scroll of Protection from Magic.~
 
 @567855 = ~Cespenar once have smoking jacket... was gift from very good friend, got lost at cleaners. You maybe have somethings to do with it? This lookings very familiar...~ [fwcesp13]
 // @5678955 = ~Oh, is just Robe of Archmage Peoples. Good recipe so name not be so silly. Cespenar needs Ring of Protection +1, Scrolls of Spirit Armor and Contingency and 20,000 gold. Cast more spells, be like REAL ARCHMAGE!~
@@ -293,7 +293,7 @@ version, I just added the tags, changed nothing.
 @5678985 = ~Anyway, can puts holy symbol into buckler. Add one Sunstone Gem for each finger and 10,000 gold, make shiny shield for scaring undead nasties. You want?~
 
 @567886 = ~Thiefy sneakings, I see. Youse going to pick Cespenar's pockets? Wait! Cespenar has no pockets. Ha! Don't feel bad. I'm sure there will be lots of baddies for you to loot later.~ [fwcesp35]
-@5678986 = ~In the mean-time, I have a recipe for thiefy accesories. Quite the fashion plate: gloveses of pick pocketing and defense, rings of danger senses and lock picking, two rings of protection. With 5,000 gold I can make one big shiny one.~
+@5678986 = ~In the mean-time, I have a recipe for thiefy accessories. Quite the fashion plate: gloveses of pick pocketing and defense, rings of danger senses and lock picking, two rings of protection. With 5,000 gold I can make one big shiny one.~
 
 @567887 = ~Ah, sparkly jewels you haves. Very poor color coordination, however.  Perhaps Cespenar can help you with that later. Some mauve would really bring out your eyes? No?~ [fwcesp36]
 @5678987 = ~Anyway, Cespenar can smash together two Amulets of Protection, a Periapt of Proof against Poison, a Necklace of Form Stability and an Amulet of Spell Warding. That's a lot of chains an jewels! Obtain minor blessing from good friend Ilmater (for some reason, Ilmater have soft-spot for poor Cespenar) and presto! Youse wants for 10,000 gold?~
@@ -305,7 +305,7 @@ version, I just added the tags, changed nothing.
 @5678989 = ~Anyway, pink not really your color. Could apply coating of illithium to Azuredge, make it a much more refined purple. Also grant some extra undead-smiting powers and protections. 20,000 gold. You like?~
 
 @567890 = ~I spy a ring clinking on your finger! Too many rings for youse fingers? Is big problem, Cespenar know. Soo many sparklies, so few claws.~ [fwcesp39]
-@5678990 = ~Tell you what. Cespenar can merge together your rings of Wizardy and Acuity, along with old-forgotten Metaspell Amulet and standard Ring of Protection to form Sorcerian Ring. Very nice for the mages. You like, for 20,000 gold?~
+@5678990 = ~Tell you what. Cespenar can merge together your rings of Wizardry and Acuity, along with old-forgotten Metaspell Amulet and standard Ring of Protection to form Sorcerian Ring. Very nice for the mages. You like, for 20,000 gold?~
 
 @567892 = ~Can you improve on this girdle?~
 
