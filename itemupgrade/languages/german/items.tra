@@ -1,0 +1,780 @@
+@100 = ~Ring der Bewahrung +1~
+@101 = ~Ring der Bewahrung +1: 'Ring des Trollprinzen'
+Dieser Ring wurde mit Hilfe von Magie für <CHARNAME> geschaffen. Er vereinigt in sich die schützenden Eigenschaften von König Castter De'wess' Schutzring mit der heilsamen Macht von Huhhus' trollgefülltem Regenerationsring. Außerdem ist der Ring schick.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: der Träger regeneriert alle sechs Sekunden einen Trefferpunkt
+
+-1 auf RK und alle Rettungswürfe~
+
+@102 = ~Ring der Bewahrung +2~
+@103 = ~Ring der Bewahrung +2: 'Ring des Trollwächters'
+Dieser Ring wurde mit Hilfe von Magie für <CHARNAME> geschaffen. Er vereinigt in sich die schützenden Eigenschaften von Prinzessin Akanals Schutzring mit der heilsamen Macht von Huhhus' trollgefülltem Regenerationsring. Außerdem ist er schick.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: der Träger regeneriert alle sechs Sekunden einen Trefferpunkt
+
+-2 auf RK und alle Rettungswürfe~
+
+@104 = ~Ring der Elemente~
+@105 = ~Ring der Elemente
+In diesem Ring ist die Macht von Erde, Luft und Feuer vereinigt. Dies gewährt dem Benutzer Macht über die Kreaturen dieser Elementarebenen. Dieser Ring wurde für <CHARNAME> gefertigt und wird mit <PRO_HIMHER> in die Geschichte eingehen. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: kann dreimal täglich einen Elementar für 60 Sekunden bezaubern (kein Rettungswurf für den Elementar)
+kann einmal täglich einen Erd-, einen Luft- und einen Feuerelementar für 5 Minuten beschwören (der Elementar ist immer freundlich)
+kann einmal täglich verbesserte Unsichtbarkeit für 60 Sekunden einsetzen
++50% auf Resistenz gegen Feuer und Elektrizität
+-1 auf RK und alle Rettungswürfe~
+
+@106 = ~Stab der Elemente~
+@107 = ~Stab der Elemente +5
+Der mit den drei Elementarebenen verbundene mächtige Kampfstab wurde auf das Geheiss von <CHARNAME> gefertigt. Er ist für sich allein schon eine mächtige Waffe, besitzt aber zusätzlich noch die Macht über Leben und Tod von Elementarwesen. Dieser Stab fühlt sich kalt an und ist mit Brandmalen und kleinen Löchern übersäht. Gerüchten zufolge ist das Geheimnis seiner Fertigung von Rakshasas entdeckt worden, als diese es benutzten, um den Flegel der Zeitalter zu schmieden. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: kann einmal täglich für 5 Minuten einen Erd-, einen Luft- und einen Feuerelementar beschwören (der Elementar ist immer freundlich)
+kann zweimal täglich für 6 Minuten Feuerschild: Rot einsetzen
+kann zweimal täglich Schlafwolke einsetzen (Reichweite 40), Rettungswurf gegen Gift oder Schlaf für 18 Sekunden
+
+ETW0: -5
+Schaden: 1W6+5 (Wuchtwaffe)
+wenn ein Erd-, Luft- oder Feuerelementar von dem Stab getroffen wird, wird er zerstört
+Gewicht: 3
+Initiativefaktor: 0
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihändig
+Mindeststärke: 5
+Kann nicht verwendet werden von: Mönchen~
+
+@108 = ~Immervoller Köcher +3~
+@109 = ~Immervoller Köcher +3
+Das Geld und die Gegenstände, die Ihr in den Immervollen Köcher investiert habt, ergaben einen Gegenstand mit beachtlichen magischen Eigenschaften. Mit diesen Pfeilen seid Ihr vielleicht sogar in der Lage, endlich auch mal einen Gegner zu treffen. 
+
+EIGENSCHAFTEN:
+
+Unbegrenzte Anzahl an Pfeilen +3~
+
+@110 = ~Immervolle Bolzenschachtel +3~
+@111 = ~Immervolle Bolzenschachtel +3
+Das Geld und die Gegenstände, die Ihr in die Immervolle Bolzenschachtel investiert habt, ergaben einen Gegenstand mit beachtlichen magischen Eigenschaften. 
+
+EIGENSCHAFTEN:
+
+Unbegrenzte Anzahl an Bolzen +3~
+
+@112 = ~Immervoller Beutel +3~
+@113 = ~Immervoller Beutel +3
+Das Geld und die Gegenstände, die Ihr in den Immervollen Beutel investiert habt, ergaben einen Gegenstand mit beachtlichen magischen Eigenschaften. Das überrascht Euch auch nicht weiter. Habt Ihr jemals Geld und Gegenstände in ein magisches Objekt investiert, nur um herauszufinden, dass es nutzlos ist? Mal abgesehen von dem Ausgleicher und der Welle, meine ich. Ich glaube nicht. 
+
+EIGENSCHAFTEN:
+ 
+Unbegrenzte Anzahl an Schleuderkugeln +3~
+
+@114 = ~Stiefel der Verschlagenheit~
+@115 = ~Stiefel der Verschlagenheit
+Sie eignen sich besonders für einen Kundschafter, der unentdeckt weite Strecken zurücklegen will. Die Stiefel der Verschlagenheit vereinen die Macht der Siebenmeilenstiefel mit derjenigen der Stiefel der Diebeskunst. Sie wurden von <CHARNAME> in Auftrag gegeben. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: erhöhen die Bewegungsrate
+Leise Bewegen: +20%
+Im Schatten verstecken: +15%
+Gewicht: 4~
+
+@116 = ~Eissturmstiefel~
+@117 = ~Eissturmstiefel
+Diese Stiefel sind perfekt für einen Abenteuerausflug in ein Eistrollhöhle und sonstige kühle Gegenden geeignet. Die Eissturmstiefel vereinen die Macht der Siebenmeilenstiefel mit den Fähigkeiten der Stiefel des Nordens. Sie wurden eigens für <CHARNAME> angefertigt. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: erhöhen die Bewegungsrate
++50% auf Kälteresistenz
+Gewicht: 4~
+
+@118 = ~Hornissenstiefel~
+@119 = ~Hornissenstiefel
+Die Hornissenstiefel erhöhen die Geschwindigkeit ihres Trägers und sind darin unerreicht. Sie vereinen die Fähigkeiten der Siebenmeilenstiefel und der Stiefel der Vermeidung, wodurch ihr Träger der Schrecken aller Fernkämpfer wird.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: erhöhen die Bewegungsrate
+-5 auf RK gegen Fernkampfwaffen
+Gewicht: 4~
+
+@120 = ~Stiefel des Sturmherrn~
+@121 = ~Stiefel des Sturmherrn
+Sie eignen sich besonders für einen gemütlichen Überfall auf einen Tempel des Talos und zum Kampf gegen Luftelementare. Die Blitzstiefel verfügen sowohl über die Eigenschaften der Siebenmeilenstiefel als auch über die der Stiefel der Bodenhaftung. Sie wurden von <CHARNAME> in Auftrag gegeben.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: erhöhen die Bewegungsrate
++50% auf Resistenz gegen Elektrizität
+Gewicht: 4~
+
+@122 = ~Keule +5: Schlägerbraut~
+@123 = ~Keule +5: Schlägerbraut
+Die Schlägerbraut wurde für <CHARNAME> aus der eichenen, giftigen Keule Schwarzblut und der splitternden Keule Beisser geschmiedet und pulsiert förmlich vor destruktiver Energie. Dadurch, dass sie mit einer teerarteigen Substanz überzogen ist, verbrennt das Fleisch des Gegners, sobald es mit ihr in Kontakt kommt. Außerdem bleiben noch Splitter und Dornen in der Wunde hängen und verursachen zusätzliche Schmerzen. 
+
+EIGENSCHAFTEN:
+
++25% Säureresitenz
+ETW0: -5
+Schaden: 1W6+5 (Wuchtwaffe), +5 durch Säure, Splitter verursachen 4 Runden lang in jeder Runde zusätzlich 3 Schadenspunkte
+Gewicht: 3
+Initiativefaktor: 1
+Waffenfertigkeit: Keule
+Waffentyp: einhändig
+Mindeststärke: 5 
+Kann nicht verwendet werden von: Magiern~
+
+@124 = ~Streitkolben +5: Schädelschmetterer~
+@125 = ~Streitkolben +5: Schädelschmetterer
+Da dieser Streitkolben seit vielen Jahren dazu benutzt wird, Schädel zu zerschmettern (daher sein Name), ist er mit Blutflecken übersät. Die Waffe hätte der Schrecken aller Menschen sein können, aber seine bisherigen Besitzer haben es aus unerfindlichen Gründen versäumt, in die Geschichtsbücher einzugehen. Zuletzt wurde der Schädelschmetterer von <CHARNAME> zu einer ehrfurchtgebietenden Waffe umgearbeitet. 
+
+EIGENSCHAFTEN:
+
+ETW0: -5 
+Schaden: 1W6+6 (Wuchtwaffe), +6 gegen humanoide Gegner, verringert die maximalen TP des Gegners für 10 Runden um 2
+Gewicht: 6
+Initiativefaktor: 2
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 10
+Kann nicht verwendet werden von:
+Druiden
+Magiern
+Dieben~
+
+@126 = ~Todbringer +4~
+@127 = ~Durch ein dunkles und grässliches Ritual gelang es <CHARNAME>, den Todbringer, einen Komposit-Langbogen von unvergleichlicher Macht, zusammenzufügen. Wenn die Geisterpfeile auf seiner Sehne liegen, flackern sie im Licht. Der Bogen braucht keine Munition (obwohl er natürlich auch diverse andere Pfeile versenden kann, falls dies gewünscht wird).
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: der Bogen erschafft Geisterpfeile +4. Wenn ein Gegner getroffen wird, wird er zu 5% für 30 Sekunden verwirrt
+ETW0: -4
+Schaden: 1W6+4
+Gewicht: 7
+Initiativefaktor: 1
+Waffenfertigkeit: Langbogen
+Waffentyp: zweihändig
+Mindeststärke: 18
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern
+Dieben
+Barden~
+
+@128 = ~Familienrüstung der Corthalas~
+@129 = ~Familienrüstung der Corthalas
+Diese Rüstung befindet sich schon lange im Besitz des Geschlechts der Corthalas. Sie schützt ihren Träger gegen alle Arten von Angriffen. Diese Rüstung wurde mit der Schattendrachenrüstung zusammengeschmiedet und kann Valygar nun noch besser schützen. Da diese Rüstung magischer Natur ist, gewährt sie Valygar einen Bonus von 5 auf seine Rüstungsklasse. Zusätzlich schützt sie auch noch gegen Säure, Feuer und magischen Schaden. Ferner ist Valygar, wenn er die Rüstung trägt, immun gegen Bezauberung. Zu guter letzt kann Valygar in dieser Rüstung nicht durch Erkenntniszauber entdeckt werden. Da diese Rüstung aussschliesslich für Valygar angefertigt wurde, kann sie von niemand anderem getragen werden.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: immun gegen Bezauberung
+auf dem Träger liegt der Zauber Unauffindbarkeit
++50% auf Resistenz gegen Feuer, Säure und Magie
+Rüstungsklasse: 0
+Gewicht: 9
+Kann nur verwendet werden von: 
+Valygar~
+
+@130 = ~Verbesserte Robe des Guten Erzmagiers~
+@131 = ~Verbesserte Robe des Guten Erzmagiers
+Diese mächtige magische Robe schützt vor allen Formen von körperlichen Angriffen und erhöht gleichzeitig sowohl den Widerstand gegen Magie als auch die Rettungswürfe. Aufgrund der ihr innewohnenden Magie, kann sie nur von guten Magiern getragen werden. Diese Robe wurde von <CHARNAME> mit einem zusätzlichen magischen Schutz versehen.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: ein zusätzlicher Zauberspruch für die Grade 1-4. 
+Rüstungsklasse: 3
++10% auf Magieresistenz
+-2 auf alle Rettungswürfe
+Gewicht: 6 
+Kann nur verwendet werden von:
+Magiern (Reine, Dual- oder Multiklassen)
+Charakteren mit guter Gesinnung~
+
+@132 = ~Verbesserte Robe des Neutralen Erzmagiers~
+@133 = ~Verbesserte Robe des Neutralen Erzmagiers
+Diese mächtige magische Robe schützt vor allen Formen von körperlichen Angriffen und erhöht gleichzeitig sowohl den Widerstand gegen Magie als auch die Rettungswürfe. Aufgrund der ihr innewohnenden Magie, kann sie nur von neutralen Magiern getragen werden. Diese Robe wurde von <CHARNAME> mit einem zusätzlichen magischen Schutz versehen.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: ein zusätzlicher Zauberspruch für die Grade 1-4
+Rüstungsklasse: 3
++10% auf Magieresistenz
+-2 auf alle Rettungswürfe
+Gewicht: 6 
+Kann nur verwendet werden von:
+Magiern (Reine, Dual- oder Multiklassen)
+Charakteren mit neutraler Gesinnung~
+
+@134 = ~Verbesserte Robe des Bösen Erzmagiers~
+@135 = ~Verbesserte Robe des Bösen Erzmagiers
+Diese mächtige magische Robe schützt vor allen Formen von körperlichen Angriffen und erhöht gleichzeitig sowohl den Widerstand gegen Magie als auch die Rettungswürfe. Aufgrund der ihr innewohnenden Magie, kann sie nur von bösen Magiern getragen werden. Diese Robe wurde von <CHARNAME> mit einem zusätzlichen magischen Schutz versehen.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: ein zusätzlicher Zauberspruch für die Grade 1-4
+Rüstungsklasse: 3
++10% auf Magieresistenz
+-2 auf alle Rettungswürfe
+Gewicht: 6 
+Kann nur verwendet werden von:
+Magiern (Reine, Dual- oder Multi-Klassen)
+Charakteren mit böser Gesinnung~
+
+@136 = ~Zitadellenhelm~
+@137 = ~Zitadellenhelm
+Der Zitadellenhelm wurde auf Anregung von <CHARNAME> geschmiedet. Er schützt seinen Träger vor körperlichen, magischen und geistigen Attacken. In ihm sind die schützenden Kräfte des Helms zum Schutz vor Bezauberung und des Abwehrhelms vereinigt. Er verschafft seinem Träger auch ein beeindruckendes Äusseres. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger ist immun gegen Bezauberung
+-1 auf alle Rettungswürfe
++20% auf Resistenz gegen Elektrizität, Kälte und Feuer
+Gewicht: 3
+Kann nicht verwendet werden von:
+Magiern
+Barden
+Dieben~
+
+@138 = ~Turm des Eisernen Willens~
+@139 = ~Turm des Eisernen Willens
+Der Turm des Eisernen Willens ist auf das Geheiss von <CHARNAME> hin geschmiedet worden. Er schützt seinen Träger vor mentalen Angriffen. Zusätzlich zu dem normalen Schutz eines Helms zum Schutz vor Bezauberung schützt er seinen Träger vor psionischen Angriffen. Man beachte allerdings, dass dieser Helm nicht vor dem Aussaugen des Gehirns durch Gedankenschinder schützt.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: immun gegen Bezauberung und psionische Angriffe
+
+Gewicht: 3
+Kann nicht verwendet werden von:
+Magiern
+Barden
+Dieben~
+
+@140 = ~Aegers Haut +5~
+@141 = ~Aegers Haut +5
+Diese schwere und dicke Bärenhaut ist das einzige Überbleibsel des legendären Aeger. Vor einigen hundert Jahren terrorisierte Aeger, ein wahrhaft riesiger Bär, die kleinen Siedlungen entlang der Schwertküste. Der Bär konnte nicht durch Feuer, Kälte oder Säure verletzt werden. Letztlich taten sich die jungen Männer und Frauen von mehreren kleinen Siedlungen zusammen und gründeten eine Miliz, der beinahe 200 Leute angehörten. Aeger wurde umstellt und am Ende auch besiegt. Aber nur ein paar Dutzend der Dorfbewohner hatten überlebt und sie teilten Aegers Pelz unter sich auf. Aus einem dieser Stücke wurde diese Rüstung gefertigt.
+
+Kürzlich gelang es <CHARNAME>, Aegers Haut mit zusätzlicher Magie zu verbessern. Sie schützt jetzt noch mehr gegen körperliche Angriffe und Schäden durch Elementarkräfte.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger ist immun gegen Verwirrung
++25% auf Resistenz gegen Feuer, Kälte und Säure
+Rüstungsklasse: 1
+Gewicht: 35
+Mindeststärke: 6 
+Kann nicht verwendet werden von:
+Magiern~
+
+@142 = ~Verbesserte Waffe des Fleisches~
+@143 = ~Verbesserte Waffe des Fleisches
+Aus menschlicher Haut gefertigt und mit dem Blut eines edlen Drachen und dem Seelenstein eines unschuldigen Mädchens verbunden, bringt diese Rüstung den Geruch von Tod mit sich. Dadurch kann diese Rüstung nur von einer wahrhaft bösen Person getragen werden. Die mächtige Magie, die für die Herstellung der Rüstung benötigt wurde, schützt den Träger zudem vor dem Einfluss feindlicher Magie. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: +1 auf Geschicklichkeit und Konstitution
+Träger ist immun gegen Gift
+auf dem Träger liegt Schutz vor Gutem
+
+Rüstungsklasse: 0
+-4 auf alle Rettungswürfe
++20% auf Magieresistenz
+Gewicht: 5
+Mindeststärke: 3
+Kann nicht verwendet werden von:
+Magiern
+Charakteren ohne böse Gesinnung~
+
+@144 = ~Verbesserter Prunkharnisch der Firecams~
+@145 = ~Verbesserter Prunkharnisch der Firecams
+Dieser Harnisch wurde für Keldorn angefertigt. Später wurde die Rüstung im Auftrag von <CHARNAME> mit mächtiger Magie ergänzt und gewährt nun Keldorn noch mehr Schutz. Obwohl die Rüstung sehr mächtig ist, wiegt sie fast gar nichts. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: 
+Bewegungfreiheit
+Träger ist immun gegen Furcht
+
+Rüstungsklasse: -2
+-2 auf alle Rettungswürfe
+Gewicht: 10
+Kann nur verwendet werden von: 
+Keldorn~
+
+@146 = ~Verbesserter Ankheg Plattenpanzer~
+@147 = ~Verbesserter Ankheg Plattenpanzer
+Dieser Plattenpanzer ist ein Meisterwerk. Er besteht aus dem Panzer eines Ankheg. Daruch schützt er seinen Träger stärker als ein gewöhnlicher Plattenpanzer es vermag und er kann auch nicht rosten. Wie schon einige Abenteurer berichten können, ist sein geringes Gewicht von unschätzbaren Wert. Monster kommen und gehen, aber die Müdigkeit ist ein ständiger Begleiter.
+
+Dieser Ankheg Plattenpanzer hier wurde durch <CHARNAME> erneuert. Mittels Magie schützt er jetzt seinen Träger auch vor Säureangriffen und imitiert die Säureangriffe eines Ankheg.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: kann dreimal täglich Melfs Säurepfeil einsetzen
++50% auf Säureresistenz
+Rüstungsklasse: -1
+Gewicht: 25
+Mindeststärke: 8
+Kann nicht verwendet werden von:
+Barden
+Druiden
+Magiern
+Dieben~
+
+@148 = ~Schild der Harmonie +3~
+@149 = ~Schild der Harmonie +3
+Audn vom Felde, der Champion des Zauberers Kekkim, trug diesen Schild die meiste Zeit. Er schützt seinen Träger vor den meisten Formen der Gedankenkontrolle, was für einen Magier, der einen loyalen und vertrauenswürdigen Kämpfer an seiner Seite benötigt, von grossem Vorteil ist. Kekkim und Audn weilen schon lange nicht mehr unter uns und überliessen das Schild demjenigen, der es in Kekkims Turm finden würde.
+
+Zuletzt wurde dieser Schild von <CHARNAME> mit zusätzlichen magischen Eigenschaften versehen. Es gewährt nun einen besseren Schutz gegen körperliche Angriffe und schützt vor psionischen Angriffen. Allerdings kann es seinen Träger nicht vor dem Gehirnsaugen der Illithiden bewahren. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger ist immun gegen Bezauberung, psionische Angriffe, Verwirrung, Beherrschung und Personen festhalten
+-4 auf RK
+Gewicht: 2
+Mindeststärke: 4
+Kann nicht verwendet werden von:
+Barden
+Druiden
+Magiern
+Dieben~
+
+@150 = ~Wurfspeer +3~
+@151 = ~Wurfspeer +3
+Schon zu primitiven Zeiten verfügten die Menschen über Speere. Diese waren zu Anfang aus einer einfachen Holzstange, die zugespitzt war. Nachdem die Metallverarbeitung entdeckt wurde, wurden Spitzen aus Metall auf die Stäbe aufgesetzt. Dieser Speer vibriert aufgrund der Magie, die bei seiner Fertigung eingesetzt wurde.
+
+Im Gegensatz zu gewöhnlichen Speeren, kann dieser Speer auch als Wurfspeer benutzt werden. Unter Benutztung eines Spitzbubensteins gelang es <CHARNAME> den Speer dafür herzurichten. Nachdem er geworfen wurde, kehrt dieser Speer in die Hand seines Besitzers zurück. Natürlich kann dieser Speer auch im Nahkampf verwendet werden.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: 1 zusätzlicher Angriff pro Runde
+ETW0: -3
+Schaden: 1W6+3 (Stichwaffe)
+Gewicht: 3
+Initiativefaktor: 3
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+Klerikern
+Magiern
+Dieben~
+
+@152 = ~Einhornspeer (Wurfspeer) +3~
+@153 = ~Einhornspeer (Wurfspeer) +3
+Dieser bewundernswerte Speer wurde aus dem Horn eines Einhorns geschnitzt. Der Träger dieses Speers ist wie ein Einhorn gegen so manchen Zauber immun. Ob das Horn wirklich von einem Einhorn stammt, ist schon oft diskutiert worden.
+
+Der ursprüngliche Einhornspeer wurde von <CHARNAME> bearbeitet, damit man ihn auch als Wurfspeer verwenden kann. Nach einem Wurf kehrt der Speer in die Hand seines Besitzers zurück. Dies ist keine natürliche Eigenschaft des Speers, sie wurde mittels Magie geschaffen. Natürlich kann dieser Speer auch im Nahkampf verwendet werden.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger ist immun gegen Bezauberung und Personen festhalten
+-3 auf ETW0 und Rettungswürfe gegen Tod
+Schaden: 1W6 +3 (Stichwaffe), +2 durch Feuer
+Gewicht: 3
+Initiativefaktor: 3
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+Klerikern
+Magiern
+Dieben~
+
+@154 = ~Aufspiesser (Wurfspeer) +4~
+@155 = ~Aufspiesser (Wurfspeer) +4
+Den Aufspiesser umgibt eine Aura der Magie, die die Gemeinheit dieser Waffe fühlbar werden lässt. Daher kann man auch verstehen, warum der Aufspiesser bei vielen Ork-Häuptlingen so begehrt war. Wenn das Opfer getroffen wird, wird es, wie der Name schon sagt, durch die mächtige Magie des Speers förmlich aufgespiesst, so dass das Opfer einen sehr grossen Schaden erleidet.
+
+Nachdem <CHARNAME> den Aufspiesser aus der Stadt der Sahuagin "gerettet" hatte, schmiedete <PRO_HESHE> diesen in einen Wurfspeer um. Nach einem Wurf kehrt der Speer in die Hand des Trägers zurück. Der Speer kann natürlich auch weiterhin als Nahkampfwaffe verwendet werden.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: ein zusätzlicher Angriff pro Runde
+ETW0: -4
+Schaden: 1W6+4 (Stichwaffe), +10 durch Stichwaffen
+Gewicht: 3
+Initiativefaktor: 2
+Waffenfertigkeit: Speer
+Waffentyp: zweihändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+Klerikern
+Magiern
+Dieben~
+
+@156 = ~Stecken der Waldländer +5~
+@157 = ~Stecken der Waldländer +5
+Der ursprüngliche Besitzer dieses Stecken war nur als der "Wilde Mann aus den Wäldern" bekannt. Bis zu seinem Tode zog er in der Nähe von Handelstreff umher und war dort schon zu Lebzeiten eine Legende. Diejenigen, die ihn einst getroffen haben, berichten von seiner dunklen, rindenartigen Haut; diese verschwand allerdings, wenn er den Stecken ablegte. Er war eine Geissel der Raubbau treibenden Holzfäller und der Wilderer. Einige der Älteren erzählen noch die Geschichte, als der "Wilde Mann" von einigen Händlern gejagt wurde. Deren Hunde setzten an, die Kehle des "Wilden Mannes" zu zerfleischen, als er Macht über sie gewann und sie auf ihre Herren hetzte. Als die Leibwachen der Händler den "Wilden Mann" angriffen, rief er durch die Magie des Steckens die Natur zu Hilfe. Ein Gemisch aus Erde, Würmern und Insekten türmte sich über den Leibwachen auf und begrub sie unter sich.
+
+Zuletzt wurde der Stecken von <CHARNAME> mit zusätzlichen Zaubern versehen, um seine Fähigkeiten im Nahkampf zu verbessern.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger erhält Rindenhaut (RK 3)
+wenn ein Gegner getroffen wird, wird zu 5% Kriechender Tod gewirkt
+kann sechsmal täglich Verbessertes Tiere bezaubern einsetzen (kein Rettungswurf für die Tiere)
+kann sechsmal täglich für 100 Sekunden einen watschelnden Komposthaufen beschwören
+-3 auf RK
+ETW0: -5
+Schaden: 1W6+5 (Wuchtwaffe)
+Gewicht: 2
+Initiativefaktor: 0
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihändig
+Mindeststärke: 5
+Kann nur verwendet werden von:
+Druiden
+Tiermeistern~
+
+@158 = ~Sonnenklinge: Tagesstern +4~
+@159 = ~Sonnenklinge: Tagesstern +4
+Ob die Klinge speziell für den Einsatz der treuesten Diener von Torm erschaffen wurde oder irgendwann in der langen Geschichter der Kirche diesem Zweck zugeführt wurde, ist im Nebel der Zeit verlorengegangen. Auf jeden Fall haben die Paladine vom Orden des Heiligen Zorns der Loyalen Streiter das Schwert Tagesstern in ihrem Kampf gegen böse Untote sehr effektiv eingesetzt. Magie oder ein mächtiger Segen haben der Waffe die Eigenschaft verliehen, den Zauber "Sonnenstrahl" einzusetzen. Dabei wird eine starke Energie der positiven Ebene kanalisiert, die sowohl lebende Wesen als auch Untote vernichten kann.
+
+<CHARNAME> errang diese Klinge im Kampf mit einem Leichnam nahe der Stadttore von Athkatla. Er schmiedetet es um zu einem noch mächtigeren Instrument der heiligen Gerechtigkeit. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: auf dem Träger liegt Schutz vor Bösem
+kann zweimal täglich Sonnenstrahl einsetzen
+ETW0: -4, -8 gegen böse Gegner
+Schaden: 1W8+4 (Klingenwaffe), +8 gegen böse Gegner, Untote erleiden doppelten Schaden
+Gewicht: 2
+Initiativefaktor: 3
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern~
+
+@160 = ~Göttliche Rage +5~
+@161 = ~Göttliche Rage +5
+Ein Katana mit einem Zauber zu belegen ist nicht einfach. Zumindest dachte das <CHARNAME> bevor <PRO_HESHE> eine Verbesserung in Auftrag gab. Der schwierigste Teil bei der Arbeit an dem mächtigen Katana, das als Göttlich Rage bekannt ist, war, die benötigten Ergänzungsteile zusammenzubringen. Die Göttliche Rage hatte <CHARNAME> schon gute Dienste geleistet, seit er sie im Tempelbezirk von Athkatla dem Kensai Koshi abgenommen hatte. Bis dahin war folgendes von dem Katana bekannt:
+
+Vor vielen Jahren suchten schwere Stürme und durch Blitze verursachte Feuersbrünste die Provinz heim, die von Daimyo Hoshi Katahiroi verwaltet wurde. Die Berater des Daimyos, alles erfahrene Magier, erkannten recht bald, dass nicht die Natur für die Verheerungen verantwortlich war, sondern ein mächtiger Drache von unbekannter Art. Einige der Berater vermuteten, dass diese Kreatur eine Missgeburt sei, andere waren der Auffassung, dass sie aus dem anfänglichen Chaos vor der Entstehung Kara-Turs geboren wurde. Aber alle Berater stimmten überein, die Kreatur als "Göttliche Rage" zu bezeichnen.
+
+Daimyo Hoshi war allerdings die Einordnung dieser Geissel weniger wichtig als ihre Vernichtung. Er beauftragte den berühmten Chigatta (einen bedeutenden Künstler und Meister der mystischen Künste), eine Waffe zu erschaffen, die sowohl den Geist des Drachen vertreiben, als auch seinen schuppenbewehrten Körper verletzen könnte. Chigattas Bemühungen fruchteten in dem edelsten Katana, das man sich vorstellen konnte. Dieses wurde nach der Bestie, für deren Vernichtung es bestimmt war, Göttliche Rage genannt und zudem mit der Eigenschaft zu fliegen versehen.
+
+Mit dieser Waffe trat Hoshi der Geissel seiner Provinz inmitten der Wolken des Sturms entgegen. Schreie und Grollen tönten tagelang aus dem Himmel. Zu guter letzt gelang es Hoshi, den Körper des Drachen zu zerstören und seinen Geist in das Katana zu bannen. Um ihren Sieg vollkommen zu gestalten, erschufen Hoshi und Chigatta eine Scheide aus der Haut des Drachen und setzten eine magische Perle an das Heft.
+
+Aber der Drache wurde gerächt. Hoshi war zwar ein fähiger Krieger aber willensschwach. Der Geist der Göttlichen Rage nahm von ihm Besitz, und zwang ihn, Chigatta zu töten und dann sich selbst. Danach verschwand das Katana und durchwanderte die Hände vieler in den kommenden Jahren.
+
+Die Göttliche Rage ist eine ausgezeichnete Arbeit -- eine biegsame jedoch unzerbrechliche Klinge von äusserster Schärfe, eine Heft aus weichen Leder mit einer grossen Perle am Ende. Die magischen Eigenschaften der Göttlichen Rage sind in die Klinge eingearbeitet, welche violett schimmert und Funken sprüht, wenn sie aus der Scheide gezogen wird. Die Scheide besteht aus Drachenhaut, gräulichen Schuppen mit silbrigen, blauen und violetten Sprengseln.
+
+EIGENSCHAFTEN: 
+
+Besondere Fähigkeiten: kann einmal täglich Blitzstrahl einsetzen
+kann einmal täglich Blindheit einsetzen
+Donnerschlag, wenn ein Gegner getroffen wird (der Gegner wird betäubt, wenn ihm ein Retttunswurf gegen Zauber misslingt)
+Schock, wenn ein Gegner getroffen wird (zu 5% zusätzlicher Schaden von 20 durch Elektrizität)
+ETW0: -5
+Schaden: 1W10+5 (Klingenwaffe)
+Gewicht: 3
+Initiativefaktor: 0
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern~
+
+@162 = ~Schwert von Arvoreen +5~
+@163 = ~Schwert von Arvoreen +5
+Dieses Kurzschwert stellt eine weitere Gabe von Arvoreen an Mazzy Fentan dar. Es kann nur von Halblingen verwendet werden. Die Magie, die diesem Schwert innewohnt, kann einen Gegner, der von ihm getroffen wird, verlangsamen.
+
+Durch den Segen von Arvoreen gelang es <CHARNAME>, das Schwert mit noch mächtigerer Magie zu versehen. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Bewegungsfreiheit
++1 auf Stärke, +75% für ausserordentliche Stärke
+wenn ein Gegner getroffen wird, wird er für 45 Sekunden verlangsamt, wenn ihm ein Rettungswurf gegen Zauberstäbe misslingt
+ETW0: -5 
+Schaden: 1W6+5 (Stichwaffe)
+Gewicht: 3
+Initiativefaktor: 0
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+Kann nur verwendet werden von:
+Halblingen~
+
+@164 = ~Geheiligter Rächer +5~
+@165 = ~Geheiligter Rächer +5
+Keldorn hatte sich schon früh in seiner Laufbahn als Paladin ausgezeichnet und zur Belohnung von Torm diese Klinge erhalten. Sie ist sehr sorgfältig geschmiedet und schützt ihn im Kampf zusätzlich noch mit einem speziellen Feuerschild. Dieses verursacht bei jedem, der ihn verletzt, während er das Schwert in der Hand hält, einen Schaden durch Magie. Niemand ausser Keldorn kann dieses Schwert benützen.
+
+Mit der Hilfe von <CHARNAME> und dem Segen von Torm, konnte dieses Schwert mittels Magie noch mächtiger gemacht werden. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Magie bannen wird bei jedem Treffer auf das Opfer gewirkt
+wird der Gegner getroffen, wird er für 2 Runden von Stille betroffen
+ein Gegner erleidet 5 Schadenspunkte durch Magie, wenn er den Träger trifft
+ETW0: -5
+Schaden: 1W12+5 (Klingenwaffe)
+Gewicht: 8
+Initiativefaktor: 5
+Waffenfertigkeit: Zweihänder
+Waffentyp: zweihändig
+Kann nur verwendet werden von: Keldorn~
+
+@166 = ~Familienschild der Delryns +4~
+@167 = ~Familienschild der Delryns +4
+Dies ist ein Schild, das sich schon seit Generationen im Besitz der Delryns befindet. Anomen wurde es von seinem Vater übergeben. Zusätzlich zu seinem magischen Schutz verströmt es noch eine Aura, die seinen Träger gegen Feuer und Kälte widerstandsfähiger macht. Zum Schutz gegen Angriffe mit Fernkampfwaffen, kann Anomen mit Hilfe des Schildes ein Energiefeld erschaffen, das gegen Fernkampfangriffe zusätzlichen Schutz gewährt. Die Magie des Schildes kann dieses Feld aber nur dreimal pro Tag erschaffen.
+
+<CHARNAME> verstärkte dieses Schild mit den Platten des Gnadenretters, welches <PRO_HESHE> vom Avatar Amaunators erbte. Nun strotzt dieses Schild nur so vor Magie und gewährt seinem Träger einen ausserordentlichen Schutz.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: kann dreimal täglich Schutz vor normalen Geschossen einsetzen
+-5 auf RK
++30% auf Feuer- und Kälteresistenz
+Kann nur verwendet werden von: Anomen~
+
+@168 = ~Lilarcor +5~
+@169 = ~Lilarcor +5
+Nachdem <CHARNAME> Lilarcor verbessert hat, ist es nicht mehr so sympathisch (oder nervig, je nachdem, welchen Standpunkt man vertritt). Nachdem das Gedankenschinderhalsband in sein Heft eingearbeitet wurde, hat Lilarcor seine Fähigkeit, mit Personen in seiner näheren Umgebung ein sinnvolles Gespräch zu führen, eingebüsst. Wie auch immer, nun erweist sich Lilarcors einzigartige Intelligenz (oder eben der Mangel daran) als Segen für seinen Träger: die Intelligenz desjenigen, der Lilarcor in seiner Hand führt, kann nicht mehr geändert werden. Dies schützt zum einen gegen die gehirnsaugenden Illithiden, andererseits kann die Intelligenz auch nicht mehr durch einen Trank erhöht werden. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger ist immun gegen Bezauberung, Verwirrung und Intelligenzveränderungen aller Art
+ETW0: *5
+Schaden: 1W12+5 (Klingenwaffe)
+Gewicht: 10
+Initiativefaktor: 6
+Waffenfertigkeit: Zweihänder
+Waffentyp: zweihändig
+Mindeststärke: 14
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern
+Dieben~
+
+@170 = ~Seelenschnitter +6~
+@171 = ~Seelenschnitter +6: Unheiliger Rächer
+Die mächtige Klinge des Seelenschnitters wurde unter der düsteren Anleitung von <CHARNAME> neu geschmiedet. Die heilige Kraft des Carsomyr wurde missbraucht, um diese abstossende Scheusslichkeit zu erschaffen. Der Seelenschnitter ist nun ein Instrument von unglaublicher Macht und genauso unglaublicher Bösartigkeit. Wer ihn einmal in die Hand genommen wird ihn kaum wieder ablegen, zumindest nicht solange er noch lebt. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Magie bannen bei jedem Treffer
+wird ein Gegner getroffen, erleidet er für 2 Minuten einen Malus von 2 auf seinen ETW0
++50% auf Magieresistenz
+ETW0: -6
+Schaden: 1W12+6 (Klingenwaffe), +1W6 durch Magie
+Gewicht: 10
+Initiativefaktor: 4
+Waffenfertigkeit: Zweihänder
+Waffentyp: zweihändig
+Mindeststärke: 14
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern
+Dieben
+Charakteren ohne böse Gesinnung~
+
+@172 = ~Keule +4: Der Bewahrer~
+@173 = ~Keule +4: Der Bewahrer
+<CHARNAME> erschuf den Bewahrer durch die Vereinigung der Knochenkeule mit dem Beisser. Seine Aufgabe ist die Bewahrung des Gleichgewichts. Die Geister verstorbener Krieger führen die Hand des Trägers mit unbeirrbarer Genauigkeit. Dazu verursacht ein Treffer mit dieser Keule einen nicht unbedeutenden Schaden beim Gegner, da sich die Knochensplitter in die Wunden bohren. Zur Bewahrung des Gleichgewichts verursacht der Bewahrer zusätzlichen Schaden bei nicht-neutralen Gegnern. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: der Träger kann den Bewahrer benutzen, als ob er Grossmeisterschaft im Umgang mit Keulen hätte
+ETW0: -4
+Schaden: 1W6+4 (Wuchtwaffe), +4 gegen gute, böse, rechtschaffene und chaotische Gegner (kumulativ), 4 Runden lang +2 Schaden durch Bluten
+Gewicht: 3
+Initiativefaktor: 1
+Waffenfertigkeit: Keule
+Waffentyp: einhändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+Magiern~
+
+@174 = ~Meucheldolch +4~
+@175 = ~Meucheldolch +4
+<CHARNAME> hat diese Verbindung des giftigen Feenkobolstichs mit der tödlichen Knochenklinge möglich gemacht. Das Ergebnis ist eine Waffe, würdig für einen grossen Meuchelmörder. Das sich erneuernde magische Gift des Feenkoboldstichs lässt das Opfer erblinden und die dunkle Magie der Knochenklinge macht einen hinterhältigen Angriff noch tödlicher.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: wird ein Gegner getroffen, erblindet er und schläft für 2 Runden, wenn ihm eine Rettungswurf -2 gegen Gift misslingt
+erhöht den Multiplikator für den Hinterhältigen Angriff um 1
+ETW0: -4
+Schaden: 2W3+4 (Stichwaffe)
+Gewicht: 3
+Initiativefaktor: 0
+Waffenfertigkeit: Dolch
+Waffentyp: einhändig
+Mindeststärke: 3
+Kann nicht verwendet werden von:
+Klerikern~
+
+@176 = ~Heilige Tartsche des Amaunator +2~
+@177 = ~Heilige Tartsche des Amaunator +2
+<CHARNAME> fand ein heiliges Symbol von Amaunator, dem längst vergangenen Sonnengott. Dieses liess <PRO_HESHE> in diese Tartsche einarbeiten. Das Symbol verschafft der Tartsche die Eigenschaft, ihren Träger gegen die Macht der nächtlichen Schrecken und ihre aussergewöhnlichen Fähigkeit, einem das Leben auszusaugen, zu schützen. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: kann zweimal täglich Falscher Sonnenaufgang einsetzen
+Träger ist immun gegen Lebenskraftentzug
+-3 auf RK
+Gewicht: 2
+Mindeststärke: 4
+Kann nicht verwendet werden von:
+Magiern~
+
+@178 = ~Handschuhe des Meisterdiebes~
+@179 = ~Handschuhe des Meisterdiebes: Zwölf Finger
+<CHARNAME> formte mittels Magie diese Handschuhe aus gewöhnlicheren Hilfsmitteln für Diebe. Wenn man diese Handschuhe trägt, erschafft ihre Magie an jeder Hand einen zusätzlichen Finger. Dies ist für die meisten Aktionen eines Glücksritters von nicht zu unterschätzender Bedeutung. Die Handschuhe sind auch in einem interessanten Design gefertigt. Es sieht ein bisschen nach ... gnomischer Arbeit aus. 
+
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+-1 auf alle Rettungswürfe
+Fallen finden und entschärfen: +25%
+Schlösser öffnen: +25%
+Taschendiebstahl: +20%
+Gewicht: 2
+Kann nur verwendet werden von: Dieben~
+
+@180 = ~Amulett des Ilmater~
+@181 = ~Amulett des Ilmater
+In diesem Amulett sind die schützenden Kräfte eines Schutzamuletts, des Schutzperidots gegen Gift, der Halskette der Gestaltwahrung und des Amuletts des Zauberschutzes, die seinen Träger vor seinen Feinden schützen. Zusätzlich wohnt dem Amulett ein geringer Segen des leidenden Ilmater inne. Dieses Amulett wurde von <CHARNAME> in Auftrag gegeben. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger ist immun gegen Gift
+kann einmal täglich Heilung einsetzen
+-1 auf RK, -3 auf alle Rettungswürfe~
+
+@182 = ~Wasserkralle +4~
+@183 = ~Wasserkralle +4
+Die Klinge dieser Waffe schimmert im Licht und scheint ein wallendes, rasiermesserscharfes etwas zu sein, das man am ehesten mit der Kralle eines Geiers vergleichen kann. Die Wasserkralle wurde von <CHARNAME> in Auftrag gegeben und ist vor allem im Kampf gegen Monster, die aus Flüssigkeiten bestehen, geeignet. Jeder Treffer entzieht dem Opfer Energie und überträgt diese auf den Träger der Waffe. Zusätzlich ist die aus Wasser bestehende Schneide der Klinge mit beständigem Gift versehen. Genau wie eines seiner Bestandteile gewährt die Wasserkralle Schutz vor Bezauberung. Zudem schützt ihre Verbundenheit mit dem Element Wasser den Träger vor den schrecklichen Auswirkungen von Abi-Dalzims Abscheulicher Austrocknung. Da diese einzigartige Klinge in gewisser Weise flüssig ist, kann sie während eines Kampfes ihre Länge verändern, so dass sie ohne Nachteil für den Träger auf die Länge und somit auch die Reichweite eines Zweihänders kommt.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger ist immun gegen Bezauberung, Beherrschung und Abi-Dalzims Abscheuliche Austrocknung
+jeder Treffer erhöht für 3 Minuten die maximalen TP des Trägers um 2
+erhöhte Reichweite
+ETW0: -4
+Schaden: 1W8+4 (Klingenwaffe), +2 Schaden durch Gift pro Sekunde
+Gewicht: 3
+Initiativefaktor: 1
+Waffenfertigkeit: Krummsäbel/Wakizashi/Ninja-To 
+Waffentyp: einhändig
+Mindeststärke: 8
+Kann nicht verwendet werden von:
+Klerikern
+Magiern
+Dieben~
+
+@184 = ~Azurklinge +4~
+@185 = ~Purpurklinge +4
+Die Azurklinge war schon eine Heimsuchung für die Untoten bevor sie <CHARNAME> in die Hände fiel. <PRO_HESHE> lies sie mit Illithium überziehen. Die Axt, die von Gulen Steinfeuer geschmiedet worden war, kehrt nach einem Wurf immer noch in die Hand des Trägers zurück. Ihre Fähigkeit, Untote mit einem einzigen Treffer zu vernichten ist erhalten geblieben. Zusätzlich schützt sie jetzt ihren Täger vor Lebenskraftentzug, dem Angriff der mächtigeren Bewohner der Friedhöfe. Eine Veränderung von eher ästhetischer Bedeutung ist die Farbänderung, die die Axt jetzt nicht mehr azurfarben sondern purpur aussehen lässt.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger ist immun gegen Lebenskraftentzug
+kehrt nach einem Wurf in die Hand des Trägers zurück
+Untote müssen einen Rettungswurf -4 gegen Tod bestehen oder sie werden unwiederruflich zerstört
+ETW0: -4
+Schaden: 1W6+4 (Nahkampf: Klingenwaffe, Fernkampf: Stichwaffe), +4 gegen Untote
+Gewicht: 2
+Initiativefaktor: 0
+Waffenfertigkeit: Axt
+Waffentyp: einhändig
+Mindeststärke: 4
+Kann nicht verwendet werden von:
+Charateren ohne gute Gesinnung
+Druiden
+Klerikern
+Magiern
+Dieben~
+
+@186 = ~Hexenmeisterring~
+@187 = ~Hexenmeisterring: Vereinte Macht
+Dieser Ring ist zweifellos die Krönung aller Versuche, die nächtlichen Studien zur Einprägung von Zaubern zu vervollkommnen. Auf Anregung von <CHARNAME> hin wurde dieser Ring aus dem Zauberring, dem Ring der Klugheit, dem Amulett des Metazaubereinflusses und einem Schutzring gerfertigt. Er gestattet seinem Träger, einen zusätzlichen Zauberspruch der Grade eins bis sieben zu memorieren. Zusätzlich gewährt der Ring noch einen leichten, aber nicht zu vernachlässigenden magischen Schutz.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger kann sich einen zusätzlichen Zauberspruch der Grade 1-7 einprägen
+-1 auf RK und alle Rettungswürfe
+Kann nur verwendet werden von:
+Magiern~
+
+@188 = ~Gürtel des Ruhms~
+@189 = ~Gürtel des Ruhms
+Von <CHARNAME> gefertigt, um den Träger gegen alle Arten von Waffen zusätzlich zu schützen. Die mächtige Magie sorgt dafür, dass dieser Gürtel die Bewegungsfähigkeit nicht einschränkt. Allein sein Design ist es schon wert, den Gürtel zu tragen. 
+
+EIGENSCHAFTEN:
+
+-3 auf RK
+Gewicht: 2~
+
+@190 = ~Verbesserte Kitthix-Statuette~
+@191 = ~Verbesserte Kitthix-Statuette
+<CHARNAME> hat die Kitthix Statuette durch Cromwell überarbeiten lassen, sodass nun eine wesentlich mächtigere Spinne beschworen werden kann. Kitthix ist somit nicht mehr länger eine Waffe der Verzweiflung, die nur eingesetzt wird um Zeit gegen einen übermächtigen Feind zu gewinnen, sondern ein mächtiger Verbündeter für den Kampf. Kitthix' Spinnennetz- und Giftstärke wurden um ein Vielfaches verbessert und auch die Spinne selbst ist nun stark genug um nicht gleich von jedem dahergelaufenen Feind vernichtet zu werden.
+
+EIGENSCHAFTEN:
+
+kann einmal täglich für 40 Minuten eine Phasenschwertspinne mit dem Namen Kitthix. Die Spinne kann sich zu Feinden in Sichtweite teleportieren. Kitthix' Angriff fesselt ihre Feinde im Spinnennetz und vergiftet sie, falls deren Rettungswürfe versagen.~
+
+@192 = ~Kitthix~
+
+@193 = ~Unabwendbare Entropie~
+@194 = ~Dieses aus Grühnstal gefertigte Kurzschwert aus der Abyss wurde auf Anordnung von <CHARNAME> verbessert. Wird ein Opfer durch das Schwert getroffen, so erleidet es nicht nur einen Giftschaden, sondern scheint auch auch eine verringerte Magieresistenz gegen schädliche Magie in Kauf nehmen zu müssen. Das Schwert kann jedoch nur von Tieflingen verwendet werden.
+
+EIGENSCHAFTEN:
+
+Wird ein Gegner von der Klinge getroffen, besteht eine Chance von 5%, dass der Zauberspruch Grösseres Unbehagen auf das Opfer gewirkt wird.
+
+ETW0: -3
+Schaden: 1W6+3 (Klingenwaffe), eine Runde lang jede Sekunde +1 Schaden durch Gift
+Gewicht: 2
+Initiativefaktor: 0
+Waffenfertigkeit: Kurzschwert
+Waffentyp: Einhändig
+
+Kann nur verwendet werden von: Tieflingen~
+
+@195 = ~Schleichendes Chaos~
+@196 = ~Schleichendes Chaos ist ein Kurzschwert, dass nur von Tieflingen verwendet werden kann. Jedes Mal wenn ein Gegner getroffen wird, verliert dieser für 30 Sekunden 2 Geschicklichkeitspunkte. Nachdem es durch <CHARNAME> verbessert worden ist, besteht ausserdem die Chance, dass ein getroffener Gegner in Verwirrung gestürzt wird.
+
+EIGENSCHAFTEN:
+
+Wird ein Gegner von der Klinge getroffen, verliert er für 30 Sekunden zwei Geschicklichkeitspunkte. Zusätzlich besteht eine Chance von 5%, dass das Opfer 8 Runden lang Verwirrung erleidet, falls ein Rettungswurf gegen Zaubersprüche -4 misslingt.
+
+ETW0: -3
+Schaden: 1W6+3 (Klingenwaffe)
+Gewicht: 2
+Initiativefaktor: 0
+Waffentyp: einhändig
+Kann nur verwendet werden von: Tieflingen~
+
+@197 = ~Fleischfarbenes Elfenkettenhemd~
+@198 = ~In Auftrag gegeben durch <CHARNAME> stellt das fleischfarbene Elfenkettenhemd, das durch die Verbindung eines magischen Elfenkettenhemdes und den Drachenschuppen eines roten Drachens hervorgegangen ist, die ultimative Kombination von Schutz und Bewegungsfreiheit dar. Die Rüstung ist so leicht, dass sie selbst Diebe und Magier in keinster Weise bei ihren Aktionen behindert.
+
+EIGENSCHAFTEN:
+
++25% auf Feuerresistenz
+Rüstungsklasse: 0
+Gewicht: 15
+Mindeststärke: 5
+
+Abzüge auf Diebesfähigkeiten:
+ Taschendiebstahl: -20%
+ Schlösser öffnen: -5%
+ Fallen finden/entschärfen: -5%
+ Leise bewegen: -10%
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern~

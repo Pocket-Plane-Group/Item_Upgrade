@@ -1,0 +1,405 @@
+@12340 = ~Alors allez-y.~
+@12341 = ~Très bien. Je vais juste regarder dans vos affaires...~
+@12342 = ~Vous pouvez faire quelque chose avec cet Anneau de Protection ?~
+@12343 = ~Pouvez-vous forger quelque chose à partir de ce puissant Anneau de Protection ?~
+@12344 = ~Pouvez-vous fabriquer quelque chose à l'aide de cet Anneau Élémentaire ?~
+@12345 = ~Est-ce que vous pouvez enchanter ce Bâton Élémentaire ?~
+@12346 = ~Pouvez-vous ajouter quelque chose à mes Bottes de Furtivité ?~
+@12347 = ~Est-ce qu'il est possible d'améliorer mes Bottes Nordiques ?~
+@12348 = ~Y a-t-il un moyen d'améliorer mes Bottes d'Atterrissage ?~
+@12349 = ~Qu'est-ce que vous pouvez faire avec ces Bottes d'Évitement ?~
+@123410 = ~Seriez-vous capable d'améliorer Noirsang, là ?~
+@123411 = ~Pouvez-vous rendre ce Gourdin d'Os plus puissant ?~
+@123412 = ~J'aimerais rendre Écrase-Crânes encore plus mortel. Vous pouvez m'aider ?~
+@123413 = ~Qu'est-ce que vous pouvez faire pour améliorer l'Arc Cherchecoeur ?~
+@123414 = ~Pouvez-vous forger à nouveau l'armure de famille de mon ami Valygar ?~
+@123415 = ~Est-ce que vous pouvez améliorer cette robe magique ?~
+@123416 = ~J'aimerais que mon Heaume de Défense me protège mieux. Qu'est-il possible de faire ?~
+@123417 = ~Est-ce qu'on peut rendre mon Casque Anti-Charmes plus polyvalent ?~
+@123418 = ~Vous seriez en mesure de retoucher la Cuirasse d'Aeger ?~
+@123419 = ~Pourriez-vous reforger l'armure de famille de Keldorn Firecam ?~
+@123420 = ~Pourriez-vous renforcer cette Armure de Plates d'Ankheg ?~
+@123421 = ~Le Bouclier de l'Harmonie ; peut-on augmenter ses pouvoirs ?~
+@123422 = ~Je cherche une lance que je puisse lancer comme un javelot. Pouvez-vous m'en fabriquer une ?~
+@123423 = ~Qu'est-ce qu'on peut faire avec ma Lance de la Licorne ?~
+@123424 = ~C'est possible d'augmenter encore les dégâts causés par l'Empaleur ?~
+@123425 = ~Pouvez-vous enchanter ce Bâton des Bois ?~
+@123426 = ~Étoile du Jour. Il faut la rendre plus puissante.~
+@123427 = ~Vous pouvez fabriquer un daikatana à partir de Furie Céleste  ?~
+@123428 = ~Pouvons-nous améliorer l'Épée d'Arvoreen ?~
+@123429 = ~Pouvons-nous bénir plus profondément le Rédempteur Sanctifié de Keldorn ?~
+@123430 = ~J'aimerais améliorer le Bouclier de la famille Delryn.~
+@123431 = ~Est-ce qu'on peut faire quelque chose pour que Lilarcor la ferme ?~
+@123432 = ~J'aimerais bien une dague vraiment mortelle. Vous pouvez améliorer une des miennes ?~
+@123433 = ~Qu'est-ce que vous pouvez faire avec cette targe abandonnée ?~
+@123434 = ~Un espoir d'améliorer ces gantelets fourbes ?~
+
+@123435 = ~Non, pas maintenant.~
+@123436 = ~D'accord, faisons ça !~
+
+@123437 = ~Qu'est-ce que vous pouvez faire avec cette amulette ?~
+@123438 = ~J'aimerais améliorer ce Cimeterre.~
+@123439 = ~Pouvez-vous rendre Bordazur plus puissante ?~
+
+@123440 = ~Je pourrais combiner un Anneau de Protection +1 avec un Anneau de Régénération. Il me faudrait ajouter un diamant à la préparation et cela vous coûterait 10.000 pièces d'or. Ça vous intéresse ?~
+@123441 = ~Je pourrais combiner un Anneau de Protection +2 avec un Anneau de Régénération. Il me faudrait ajouter un diamant à la préparation et cela vous coûterait 20.000 pièces d'or. Ça vous intéresse ?~
+@123442 = ~Je pourrais combiner les Anneaux de l'Air, du Feu et de la Terre pour en faire un Anneau de Maîtrise Élémentaire. Il me faudrait des parchemins défensifs de Protection contre la Pétrification, contre le Feu et contre l'Électricité comme réactifs. Cela vous coûterait aussi 20.000 pièces d'or.~
+@123443 = ~Je pourrais combiner les Bâtons de l'Air, de la Terre et du Feu pour en faire un Bâton de Maîtrise Élémentaire. Ça vous coûterait 20.000 pièces d'or, c'est vrai, mais je suis sûr que ce serait magnifique.~
+@123444 = ~Ha, je pourrais mêler les Bottes de Rapidité et de Furtivité. Il me faudrait une Esseulite comme réactif et 10.000 pièces d'or pour le boulot.~
+@123445 = ~Ha, je pourrais mêler les Bottes de Rapidité et des Bottes Nordiques. Il me faudrait une Esseulite comme réactif et 10.000 pièces d'or pour le boulot.~
+@123446 = ~Ha, je pourrais mêler les Bottes de Rapidité et d'Atterrissage. Il me faudrait une Esseulite comme réactif et 10.000 pièces d'or pour le boulot.~
+@123447 = ~Ha, je pourrais mêler les Bottes de Rapidité et d'Évitement. Vous serez plus rapide que l'éclair avec ces chaussures ! Il me faudrait une Esseulite comme réactif et 20.000 pièces d'or pour le boulot.~
+@123448 = ~Je pourrais combiner Noirsang et la Mâchouilleuse pour créer un puissant gourdin avec des piquants imprégnés d'acide. Ça vous coûterait 15.000 pièces d'or.~
+@123449 = ~Je pourrais combiner le Gourdin d'Os et la Mâchouilleuse pour créer un puissant gourdin... Parfaite pour les serviteurs de l'Équilibre. Ça vous coûterait 15.000 pièces d'or.~
+@123450 = ~Avec un parchemin de Doigt de Mort, une potion maudite de guérison et 15.000 pièces d'or, je pourrais reforger Écrase-Crânes pour vous. Ça vous intéresse ?~
+@123451 = ~On pourrait remplacer la corde de Cherchecoeur par une de celles de Gesen ou de Gond. Avec quatre Larmes de Laérale et une potion de Pouvoir comme réactifs, je pourrais vous faire un arc long qui ne fait pas appel à des flèches d'ici-bas.~
+  @123452 = ~Très bien, prenez la corde de Gesen~
+  @123453 = ~Très bien, prenez la corde de Gond.~
+@123454 = ~Ah, c'est une famille de mages. En prenant un parchemin de Protection contre la magie comme catalyseur, je pourrais forger ensemble l'armure de la famille Corthala et l'Écaille de Dragon Noir. Ça vous coûterait 10.000 pièces d'or.~
+//@123455 = ~Oui, je pourrais apporter des améliorations à ces Robes d'Archimage. Avec un Anneau de Protection +1 et des parchemins d'Armure Spirituelle et de Contingence comme réactifs, je pourrais fabriquer un vêtement digne d'Elminster. Cela vous coûterait 20.000 pièces d'or.~
+@12349955 = ~Oui, je pourrais apporter des améliorations à ces Robes d'Archimage. Avec une Cape de Protection +1 et des parchemins d'Armure Spirituelle et de Contingence comme réactifs, je pourrais fabriquer un vêtement digne d'Elminster. Cela vous coûterait 20.000 pièces d'or.~
+  @123456 = ~Très bien, améliorez la Robe du bon Archimage.~
+  @123457 = ~Très bien, améliorez la Robe de l'Archimage neutre.~
+  @123458 = ~Très bien, améliorez la Robe du mauvais Archimage.~
+@123459 = ~Certainement. Je pourrais combiner les pouvoirs défensifs d'un Heaume de Défense et d'un Casque Anti-Charmes. Il me faudrait quatre perles comme réactifs et 10.000 pièces d'or pour le boulot.~
+@123460 = ~Hmm. Si vous réussissez à vous procurer deux fioles de l'eau dans laquelle des jeunes Illithids ont grandi, je pourrais les utiliser pour enchanter contre les psioniques un Casque Anti-Charmes. Je vous facturerais ça 10.000 pièces d'or.~
+@123461 = ~Avec un parchemin de Protection contre les Éléments en guise de catalyseur, je pourrais rendre cette vieille peau d'ours encore plus coriace qu'elle ne l'est déjà. Je vous demanderais 15.000 pièces d'or pour le travail.~
+@123462 = ~Avec certaines parties de l'Armure du Cerf, je pourrais reforger l'Armure de Plates Complète Firecam. Mais la qualité n'est pas bon marché : je vous demanderais 20.000 pièces d'or pour la tâche.~
+@123463 = ~Grâce aux runes de deux sortes différentes de parchemins de Protection contre l'Acide, je pourrais reforger une Armure de Plates d'Ankheg. Mais cela vous coûterait 5.000 pièces d'or de plus.~
+@123464 = ~Ah, le Bouclier de l'Harmonie. Une beauté, je l'admets. Si vous aviez deux flacons de la potion salée des Flagelleurs mentaux, un de leurs Colliers de contrôle et une Beljuril, je pourrais vous en faire un bouclier du tonnerre. Ça vous coûterait aussi 10.000 pièces d'or, mais il deviendrait plus solide et il offrirait une meilleure protection.~
+@123465 = ~Ha, avec une Esseulite et 10.000 pièces d'or je pourrais faire un leste javelot de votre Lance +3.~
+@123466 = ~Ha, avec une Esseulite et 10.000 pièces d'or je pourrais faire un javelot de votre Lance de la Licorne.~
+@123467 = ~Ah, l'Empaleur. S'il y a quelque chose que ces Sahuagins savent faire, c'est un harpon. Avec une Esseulite et 10.000 pièces d'or je pourrais en faire un leste javelot.~
+@123468 = ~Humph. Ces bâtons sylvestres ne m'ont jamais dit grand chose, mais avec des Anneaux de Protection et d'Amitié avec les Animaux, je pourrais améliorer le Bâton des Bois. Je vous facturerais 20.000 pièces d'or pour la chose.~
+@123469 = ~Avec quatre parchemins de Protection contre les Morts-vivants, deux flacons d'eau bénite et deux saphirs étoilés je pourrais faire d'Étoile du Jour le pire cauchemar du monde d'en bas. Ça vous coûterait 15.000 pièces d'or.~
+@123470 = ~Furie Céleste ? Je ne suis pas de Kara-Tur, et enchanter un katana n'est pas chose facile, mais avec le coeur d'un démon et une baguette de Foudre, je pourrais faire quelque chose. Et je vous demanderais 20.000 pièces d'or.~
+@123471 = ~Ha, je pourrais reforger l'Épée d'Arvoreen. Mais pas sans la bénédiction du dieu lui-même : je ne pourrais accomplir cela que pour un groupe de gens au coeur le plus pur et d'excellente réputation. Je vous en demanderais 15.000 pièces d'or.~
+@123472 = ~Ah, le Rédempteur Sanctifié. Une lame sainte, bien que mineure selon les critères locaux. Avec le coeur d'un démon et cinq parchemins qui dissipent la magie, je pourrais la reforger en quelque chose d'un calme plus puissant. Mais il me faudrait la bénédiction de Torm, aussi je ne pourrais entreprendre le travail que pour un groupe de la plus haute vertu et de la plus excellente réputation. Je vous demanderais 15.000 pièces d'or.~
+@123473 = ~Oui. Je pourrais combiner les plaques du bouclier d'Anomen avec celles du célèbre bouclier Grâce Salvatrice. Je vous prendrais 15.000 pièces pour le travail.~
+@123474 = ~Ah, cette ferraille qui se dit "épée consciente". Je ne peux pas vous dire combien de fois des aventuriers sont venus ici et m'ont demandé de la faire taire pour de bon. Si vous aviez un collier de contrôle des Flagelleurs mentaux, je pourrais mettre un terme à son bavardage et la rendre en même temps plus utile. Je vous demanderais 20.000 pièces d'or pour la tâche.~
+@123475 = ~Oui, c'est un sacré couteau que vous avez là. Je pourrais mêler la Lame d'Os et l'Aiguillon de Pixie en utilisant quatre potions de Maître voleur comme réactifs et fabriquer ainsi une lame de voleur vraiment sournoise. Vous êtes prêt à dépenser 15.000 pièces d'or pour cela ?~
+
+@123476 = ~Oui. Je pourrais incruster le Symbole sacré d'Amaunator dans votre targe, cela vous accorderait la protection de cette déité oubliée depuis longtemps. Il me faudrait aussi cinq gemmes Pierres de soleil et 10.000 pièces d'or pour le travail. Ça vous intéresse ?~
+
+@123477 = ~Ah. Si vous réussissiez à mettre la main sur les Gants de Pickpocket, les Bracelets de Défense, les Anneaux de Perception du Danger et de Crochetage des Serrures, et sur deux Anneaux de Protection, je pourrais tous les combiner pour vous. 5.000 pièces d'or couvriraient mes frais.~
+
+@123478 = ~Avec deux Amulettes de Protection, un Fétiche Anti-Poison, un Collier de Stabilité de Forme et une Amulette de Protection contre les Sorts, je pourrais forger pour vous une Amulette d'Ilmater. Voudriez-vous cela contre 10.000 pièces d'or ?~
+
+@123479 = ~Ha, avec Bord de l'Eau, Adjatha la Buveuse et la Serre de Rashad, nous pourrions forger une lame incurvée qui ferait verdir d'envie le Seigneur des Tempêtes lui-même. Une telle lame aquatique vous coûterait 15.000 pièces d'or. Ça vous intéresse ?~
+
+@123480 = ~Ah. Je pourrais appliquer un revêtement d'illithium pur à Bordazur, ce qui vous accorderait des pouvoirs offensifs et défensifs supplémentaires contre les méfaits des morts-vivants. Pour 20.000 pièces d'or je ferai le travail pour vous.~
+
+@123481 = ~Ha, bien que la magie ne soit pas mon art, je pourrais forger ensemble un Anneau de Précision, un Anneau des Arcanes et une Amulette d'Influence sur les Méta-Sorts pour faire un puissant aide-mémoire pour les enchanteurs. Un Anneau de Protection et 20.000 pièces d'or termineraient le travail. Ça vous intéresse ?~
+
+@123482 = ~Pouvez-vous améliorer ce ceinturon ?~
+
+@123483 = ~Ha, si vous aviez un lot de ceinturons assortis, contondant, perçant et tranchant, je pourrais les assembler tous en un objet qui vous protègerait efficacement. J'aurais besoin de cinq gemmes héliotropes comme réactifs, et de 10.000 pièces d'or comme commission.~
+
+@123484 = ~J'aimerais avoir davantage d'enchantements sur mon Anneau des Arcanes.~
+
+@123495= ~Pourriez-vous améliorer cette Figurine d'Araignée Noire ?~
+@123496 = ~Vous feriez mieux de demander à un sorcier drow plutôt qu'à un nain de reforger une araignée pour vous, mais je peux le faire. Je n'y prendrai aucun plaisir, mais je peux le faire.~
+@1234996 = ~J'aurais besoin de quelques réactifs rares pour la reforger : parchemins de Progéniture d'Araignée et de Toile d'Araignée ; cinq dagues de jet empoisonnées ; et 5.000 pièces d'or. Ça vous intéresse toujours ?~
+
+
+@123497 = ~Est-ce que la Lame du Chaos et l'Entropie peuvent être améliorées ?~
+@123498 = ~Ha, vous voulez que j'améliore des armes d'un autre Plan. Un travail très dangereux, ça. Hmmm, voyons. Si vous ne voyez pas d'inconvénients à sacrifier les épées Ilbratha et Arabane, je pourrais reforger les épées courtes d'Haer'Dalis pour qu'elles infligent plus de dégâts et qu'elles gagnent quelques pouvoirs magiques. Cela coûtera 25.000 pièces d'or, ainsi qu'une Esseulite et des parchemins de Chaos et de Grande Malédiction. Ça vous intéresse ?~
+
+@123499 = ~Pouvez-vous forger une cotte de mailles elfique ?~
+@1234100 = ~Oui, je pourrais combiner une Cotte de Mailles Sylvestre avec les écailles d'une bête de flammes. Avec trois gemmes Andar, trois agates de feu pour contenir le brasier et 25.000 pièces d'or comme réactifs et pour la main d'oeuvre, je pourrais vous faire une puissante armure. Ça vous intéresse ?~
+
+
+
+
+
+@56780 = ~Au travail, Cespenar.~
+@56781 = ~Tu as d'abord des questions ? Ou je dois commencer à regarder ?~
+
+@56782 = ~Tu peux faire quelque chose avec cet Anneau de Protection ?~
+@56783 = ~Tu peux forger quelque chose à partir de ce puissant Anneau de Protection ?~
+@56784 = ~Tu peux fabriquer quelque chose à l'aide de cet Anneau Élémentaire ?~
+@56785 = ~Peux-tu enchanter ce Bâton Élémentaire ?~
+@56786 = ~Tu peux ajouter quelque chose à mes Bottes de Furtivité ?~
+@56787 = ~Tu peux retaper mes Bottes Nordiques ?~
+@56788 = ~T'as pas un moyen d'améliorer mes Bottes d'Atterrissage ?~
+@56789 = ~Qu'est-ce que tu peux faire avec ces Bottes d'Évitement ?~
+@567810 = ~Serais-tu capable d'améliorer Noirsang, là ?~
+@567811 = ~Peux-tu rendre ce Gourdin d'Os plus puissant ?~
+@567812 = ~J'aimerais rendre Écrase-Crânes encore plus mortel. Tu peux m'aider ?~
+@567813 = ~Qu'est-ce que tu peux faire pour améliorer l'Arc Cherchecoeur ?~
+@567814 = ~Peux-tu forger à nouveau l'armure de famille de mon ami Valygar ?~
+@567815 = ~Est-ce que tu peux améliorer cette robe magique ?~
+@567816 = ~J'aimerais que mon Heaume de Défense me protège mieux. Qu'est-ce que tu peux faire ?~
+@567817 = ~Est-ce que tu peux rendre mon Casque Anti-Charmes plus polyvalent ?~
+@567818 = ~Tu serais capable de retoucher la Cuirasse d'Aeger ?~
+@567819 = ~Peux-tu reforger l'armure de famille de Keldorn ?~
+@567820 = ~Peux-tu renforcer cette Armure de Plates d'Ankheg ?~
+@567821 = ~Le Bouclier de l'Harmonie ; peux-tu augmenter ses pouvoirs ?~
+@567822 = ~Je cherche une lance que je puisse utiliser comme un javelot. Tu peux m'en fabriquer une ?~
+@567823 = ~Qu'est-ce que tu peux faire avec ma Lance de la Licorne ?~
+@567824 = ~C'est possible d'augmenter encore les dégâts causés par l'Empaleur ?~
+@567825 = ~Peux-tu enchanter ce Bâton des Bois ?~
+@567826 = ~Étoile du Jour. Il faut la rendre plus puissante.~
+@567827 = ~Tu peux fabriquer un daikatana à partir de Furie Céleste ?~
+@567828 = ~Pouvons-nous améliorer l'Épée d'Arvoreen ?~
+@567829 = ~Pouvons-nous bénir plus profondément le Rédempteur Sanctifié de Keldorn ?~
+@567830 = ~J'aimerais améliorer le Bouclier de la famille Delryn.~
+@567831 = ~Tu peux faire quelque chose pour que Lilarcor la ferme ?~
+@567832 = ~J'aimerais bien une dague vraiment mortelle. Tu peux améliorer une des miennes ?~
+@567833 = ~Qu'est-ce que tu peux faire pour cette targe abandonnée ?~
+@567834 = ~Un espoir d'améliorer ces gantelets discrets ?~
+@567837 = ~Qu'est-ce que tu peux faire avec cette amulette ?~
+@567838 = ~J'aimerais améliorer ce Cimeterre.~
+@567839 = ~Peux-tu rendre Bordazur plus puissante ?~
+@567891 = ~J'aimerais que mon Anneau des Arcanes ait plus d'enchantements.~
+
+@567835 = ~Non, pas maintenant.~
+@567836 = ~D'accord, faisons comme ça !~
+
+
+
+// ....
+
+@567876 = ~Qu'est-ce que tu peux faire avec ces munitions ?~
+@567877 = ~As-tu une recette bien infâme pour cette Chair Humaine ?~
+@567878 = ~Peux-tu reforger cette Voleuse d'Âmes ?~
+
+// ....
+
+@567840 = ~Pourquoi tu as tellement d'anneaux ? Beaucoup d'épouses à t'attendre ? Honte, honte, Cespenar SAIT QUI TU ES !!!~
+@5678940 = ~Bon bon bon, on peut prendre un Anneau de Régénération et un Anneau de Protection +1 et faire un seul anneau. T'économises des doigts. Seulement besoin de 10.000 pièces d'or, et aussi un diamant ! Tu aimes ?~
+
+@567841 = ~Dis donc, tu en portes des choses brillantes sur tes doigts. Cespenar aime bien le look, entendu dire que c'était la mode en ce moment.~
+@5678941 = ~Bon bon bon, on peut prendre un Anneau de Régénération et un Anneau de Protection +2 et faire un seul anneau. T'économises des doigts. Seulement besoin de 20.000 pièces d'or, et aussi un diamant ! Tu aimes ?~
+
+@567842 = ~Tu n'as pas besoin d'un sac à bijoux, t'as besoin d'un coffre à bijoux ! Peut-être que ça te plairait d'en avoir un sur chaque gros orteil, hein ?!?~
+@5678942 = ~Et si Cespenar prenait ces Anneaux de l'Air, de la Terre et du Feu et fabriquait un gros anneau de Maîtrise Élementaire ? Plus facile pour négocier l'assurance qu'avec trois. Besoin de parchemins de Protection contre Visage-pierreux, Chaud-devant et Zip-zap, et 20.000 pièces d'or. Cespenar fait pas les prix, c'est la loi du marché, la mondialisation, tout ça.~
+
+@567843 = ~Tu as remarqué déjà que les élémentaux ne paient jamais l'addition ? Je jure, parfois je voudrais tellement avoir un de ces bouts de bois qui leur donnent un bon coup... Héhé ! Tu as les trois ?~
+@5678943 = ~Les bouts de bois qui donnent un bon coup aux élémentaux de Terre, d'Air et de Feu, c'est pas terrible pour toi maintenant, mais Cespenar te fait un gros Bâton de Maîtrise Élémentaire, et alors tous les élémentaires t'invitent à déjeuner, ou alors VLAAAN !!! Ça coûte 20.000 pièces d'or, aussi, mais Cespenar a des coûts fixes élevés. D'accord ?~
+
+@567844 = ~AAAAAHHHHH ! Tu as fais peur à Cespenar ! Ha ha, rien qu'une plaisanterie !~
+@5678944 = ~Okaaaay, Cespenar prend tes bottes furtives et tes Bottes de Rapidité et te fait des chaussons lestes de Furtivité. Presque sûr que c'est le bon mot, mais Bhaal a jamais laissé Cespenar lire des tas de livres. (sniff) Enfin bon, j'espère que t'as gardé des Esseulites, parce que t'auras besoin de 10.000 pièces d'or plus une de ces choses brillantes.~
+
+@567845 = ~Hmmm. Des bottes thermos ? Tu as besoin d'un endroit pour conserver des oeufs au frais, c'est ça ? Ou peut-être tu joues à Icewind Dale ?~
+@5678945 = ~Sauf si tu comptes te faire pousser de nouveaux pieds, Cespenar prend tes Bottes du Nord et de Rapidité et te fabrique des Bottes du Blizzard. Pareil que les deux paires séparées. Itce laïfe. Peut-être tu alignes 10.000 et une Esseulite ?~
+
+@567846 = ~Pfouuuuh ! Magie ou pas, les bottes en caoutchouc ça sent pas bon avec les pieds en sueur du Grand. Tu sais que le mieux pour éviter les éclairs c'est d'être ailleurs ? Incroyable, mais vrai.~
+@5678946 = ~Cespenar connaît un Prêtre de Talos qui peut te faire les Talons du Seigneur des Tempêtes avec des Bottes de Rapidité et d'Atterrissage. Te trompe pas sur le nom, ça va bien aussi aux hommes. Mais il lui faut 10.000 pièces d'or et une Esseulite.~
+
+@567847 = ~Cespenar a une idée de cadeau pour l'anniversaire du Grand : un lot de lacets assortis ! Tu es sûr que tu t'es pas trompé de métier ? Préférerais pas être cordonnier ou forgeron ou quelque chose ? Tu peux changer d'orientation professionnelle, tu es encore jeune !~
+@5678947 = ~Bon, tu as de l'expérience dans la chaussure. Très bonne recette pour Bottes du Frelon, je prends tes Bottes de Rapidité et d'Évitement et je te rends vraiment dur à toucher avec des flèches. Ça vaut mieux que se faire toucher à l'oeil avec un bâton pointu, ou un carreau, ou une bille, ou une fléchette... Tu vois le topo. La recette coûte 20.000 et une Esseulite, ca se trouve pas au supermarché. D'accord ?~
+
+@567848 = ~Ooooohhhh... T'as des bouts de bois qui font pas mal peur ! Hé hé hé ! Tu dois avoir un ami druide ou quelque chose. Faut toujours avoir des bouts de bois pour eux. Tu crois que les arbres sur lesquels on a pris les bouts de bois sont fous ?~
+@5678948 = ~Peut-être tu as le bout de bois acide Noirsang, et Mâchouilleuse, bout de bois que QUELQU'UN a oublié de polir. Recette pour Poisseuse et tu envoies des échardes aux vilains qui BRUUULENT. Pas cher, pas cher : 15.000 pièces. Sauf si tu prèfères que Cespenar t'apporte du papier de verre.~
+
+@567849 = ~Ouille ! Pourquoi tous tes gourdins sont tellement piquants ? Cespenar doit avoir de la gaze quelque part...~
+@5678949 = ~Ou peut-être tu veux meilleur gourdin ? Je prends Gourdin d'Os et Mâchouilleuse et je te donne Fulcrum. Fait mal à ceux qui aiment pas "l'équilibre". Cespenar essaye de pas faire de politique, cependant, alors il prend juste 15.000 pièces, et il oublie tout ça, d'accord ?~
+
+@567850 = ~Cespenar a jamais compris pourquoi les clercs ont le droit de te réduire la tête en purée sanglante alors qu'ils peuvent pas utiliser des couteaux à beurre. C'est diiiiinnngue.~
+@5678950 = ~Enfin, tu as bonne masse Casse-têtes. Cespenar fait très beaucoup mieux avec un parchemin de Doigt de Mort, une potion de guérison MAUDITE (bonne recette pour les cocktails !) et 15.000 pièces d'or. Et trois pinces à linge qui ont servi à accrocher les dessous de la Mère Matrone. Cespenar plaisante, là.~
+
+// newby
+
+@567851 = ~Hrrrrrruhhhh.... duuuurrrhhhh... hyyyyaaaaaahhhhh ! Pfouh, dur de bander cet arc ! Cepenar proposerait de tirer une flèche vers la tête du Grand, mais se souvient de ce qui s'est passé quand il a manqué la pomme et touché le nez de Bhaal. Impossible de s'asseoir pendant dix jours !~
+@5678951 = ~Tu as un bel arc, mais peut faire très beaucoup mieux avec recette pour Teleomortis. Les flèches apparaissent dans ta main, tu émerveilles amis et ennemis. Mais faut beaucoup de trucs importants : corde de Gesen ou de Gond, quatre Larmes de Laérale, et Potion de Pouvoir pour mélanger le tout.~
+
+@567854 = ~Oho ! Très classe, le costume ! Attention, monsieur, la poussière et les courants d'air... Si tu éternues, ton visage restera coincé. Héhéhé !~
+@5678954 = ~Possible de faire plein de choses avec deux bons costumes, possible de faire un costume vraiment bien ! Plein de protection contre un tas de trucs pas bien comme le feu et l'acide ! Pas besoin de chercher des boutons de manchettes, tu donnes juste 10.000 pièces à Cespenar et un parchemin de protection contre la magie.~
+
+@567855 = ~Avant, Cespenar avait un smoking... Un cadeau d'un très bon ami, perdu chez le teinturier. Tu as peut-être quelque chose à voir avec ça ? Celui-ci a l'air familier...~
+//@5678955 = ~Oh, c'est juste la robe pour les gens archimages. Bonne recette pour que le nom soit pas aussi idiot. Cespenar a besoin d'anneau de protection +1, parchemins d'Armure Spirituelle et Contingence et 20.000 pièces. Tu lances plus de sort, comme un VERITABLE ARCHIMAGE !~
+@56789955 = ~Oh, c'est juste la robe pour les gens archimages. Bonne recette pour que le nom soit pas aussi idiot. Cespenar a besoin Cape de Protection +1, parchemins d'Armure Spirituelle et Contingence et 20.000 pièces. Tu lances plus de sort, comme un VÉRITABLE ARCHIMAGE !~
+
+@567859 = ~Tu n'as pas de pot pour pisser ? Tu connais le proverbe ? Alors Cespenar pense que tu devrais utiliser un casque. Le casque de quelqu'un d'autre.~
+@5678959 = ~Si tu as des pots en trop, peut-être Cespenar peut combiner tes gros pots de chambre ! Bonne recette pour mélanger Heaume de Défense et Casque Anti-Charmes. Faut quatre perles et 10.000 pièces d'or. Ça a l'air bien, non ?~
+
+@567860 = ~Oooh ! Cespenar pourrait en faire un chaudron, si t'as plus besoin de ce casque.~
+@5678960 = ~Ou alors la recette de la Tour de la Volonté de Fer ? Je prends Casque Anti-Charmes, deux Potions salées des Flagelleurs Mentaux (raconte pas à Cespenar comment tu les as obtenues) et 10.000 pièces d'or. Avec ça, la tête des grands est encore plus en sécurité.~
+
+@567861 = ~Tu veux peut-être l'accrocher sur le mur ? Pas mal de gens veulent pas de cheminée en Enfer mais on peut en commander une et utiliser ça comme tapis.~
+@5678961 = ~Ou peut-être tu veux le rendre plus brillant. Prends la Cuirasse d'Aeger, parchemin de protection contre les éléments et 15.000 pièces, ça renforce et les trucs du climat te gênent moins. On laisse jamais Cespenar exprimer VRAIMENT sa créativité.~
+
+@567862 = ~Comment tu rends les armure de culs-bénits oranges ? Elle est restée trop longtemps au soleil ? Héhéhé...~
+@5678962 = ~Peut-être Cespenar peut faire mieux en ajoutant l'Armure du Cerf et en saupoudrant 20.000 pièces d'or. Ça pourrait être moins, mais Cespenar a pas les mêmes tarifs que les culs-bénits, trop mauvaise réputation.~
+
+@567863 = ~Tu portes toujours un gros cafard sur tes épaules ? Tu fais beaucoup de rencontres comme ça ?~
+@5678963 = ~Tu donnes à Cespenar les deux sortes de parchemin de protection contre l'Acide et 5.000 pièces et Cespenar fait travailler le cafard plus dur. Il tire même des flèches acides !~
+
+@567864 = ~Oooh, c'est le bouclier le plus charmant que Cespenar a jamais vu ! On peut peut-être en faire un plateau pour servir l'apéritif ?~
+@5678964 = ~Dur de rendre meilleures les choses bien, mais si tu as deux boissons à l'eau de mer des Flagelleurs mentaux, des bizarres colliers de contrôle des mêmes têtes de pieuvre et une gemme Beljuril et 10.000 pièces, Cespenar t'immunise aux psioniques.~
+
+@567865 = ~Ça rappelle à Cespenar un cure-dent très très très long. Ouvre grand, Cespenar est un bon serviteur, il nettoie même tes molaires. Héhéhé !~
+@5678965 = ~Pourquoi tu la gardes collée à ta main ? Peur qu'elle revienne jamais ? Recette simple : 10.000 pièces et Esseulite, et la lance revient toujours si tu la jettes loooooiiin.~
+
+@567866 = ~Qu'est-ce que c'est ? Une grosse sucette ? Pourquoi Cespenar n'a jamais pu lécher ?~
+@5678966 = ~Oh, une corne de licorne. Et pointue en plus. Pourquoi tu ne t'en sers pas comme d'un javelot ? Suffit de donner à Cespenar une Esseulite et 10.000 pièces d'or et t'as l'air d'un sauvage bandit lanceur de lances !~
+
+@567867 = ~Toi t'aimes pêcher ? Peut-être tu vas pêcher une grosse baleine avec ça. Alors tu as besoin d'un endroit pour l'attacher, mais c'est pas le problème de Cespenar.~
+@5678967 = ~Je fais attaquer l'Empaleur de très loin à distance. Juste besoin de 15.000 pièces et une Esseulite. J'utilise vraiment ces machins, je demande pas par plaisir. Gaffe quand la lance revient... Si tu la rates, ca va faire MAL ! Ouh !~
+
+@567868 = ~Pas mal ton bâton. Tu fais la majorette avec ça ? Héhéhé...~
+@5678968 = ~Cespenar a une grande nouvelle recette pour un nouveau Bâton des Bois. Tu donnes Anneau de Protection +1, Anneau d'Amitié avec les Animaux et 20.000 pièces, et on a un nouveau bâton qui se recharge et fait même des sales trucs quand tu attaques les gens !~
+
+@567869 = ~Ooooh ! Tu as la plus brillante de tous les épées longues brillantes ! Je parie que tu as tué un vampire ou deux avec ce bébé ! En garde, suceurs de sang ! Cespenar va vous pourfendre !~
+@5678969 = ~Peut-être tu aimes meilleure Étoile du Jour ? Il me faut plein de bons trucs comme quatre parchemins de protection contre les morts-vivants, deux flacons d'eau bénite des elfes, deux saphirs étoilés et 15.000 pièces d'or, mais Cespenar peut difficilement tromper le Grand ! Tu recois plus de Rayons de soleil et de Protection contre le mal. Je commence ?~
+
+@567870 = ~Oh, très honorable Grand-san ! Croirais-tu que la Furie Céleste n'est plus aussi bonne ?~
+@5678970 = ~Cespenar a une jolie rapide recette pour régler ça ! Bon, peut-être pas très rapide. Tu as baguette de foudre ? Et un coeur de démon ? Dégueulasse, je sais, mais ça sert à des machins super bizarres. Oh, et puis 20.000 pièces d'or, ça pourrait servir, aussi.~
+
+@567871 = ~Tu as le plus petit des paladins culs-bénits ? Cespenar a un livre d'histoire dans son grenier qui parle de quelque chose comme ça.~
+@5678971 = ~Possible de rendre l'épée beaucoup très mieux. Tarif spécial pour les pas si grandes gens, juste besoin de penser à des bonnes pensées et donner 15.000 pièces à Cespenar ! Tu trouveras pas meilleure affaire de ce côté-ci des Limbes !~
+
+@567872 = ~Cespenar très très impressionné de voir des culs-bénits avec le Grand ! Tu veux peut-être continuer à utiliser une arme personnalisée pour aider le Grand ?~
+@5678972 = ~Cespenar connaît un prêtre de Torm qui va re-sanctifier le Rédempteur et donner des bonus comme dissipation de la magie ou faire taire les gens. Faut un coeur de démon de plus, cinq parchemins de dissipation de la magie et 15.000 pièces, plus un coeur d'or. Ça pourrait être moins, mais Cespenar doit payer les avocats des culs-bénits pour utiliser leurs brevets. Ils rackettent pauvre Cespenar.~
+
+@567873 = ~Oh là là ! Encore des plateaux pour faire le service ! Et Cespenar qui manquait de vaisselle pour les banquets du Grand !~
+@5678973 = ~Attends... Je connais recette pour grands plateaux à service boucliers machins. Tu prends le bouclier de la famille Delryn et Grâce Salvatrice et tu utilises 15.000 pièces et le bouclier Delryn protège mieux ! Ou alors on garde les plateaux pour faire le service.~
+
+@567874 = ~Quoi ? Tu n'aimes pas épée parlante ? Et si tu te fais enterrer dans un trou sombre et profond, et que tu as qu'une épée pour la conversation ? Tu seras heureux, alors !~
+@5678974 = ~Mais, hmmm, Cespenar voit Collier de contrôle des Flagelleurs mentaux, on peut l'utiliser pour rendre Lilarcor plus fort, empêche les vilains flagelleurs de sucer tes cerveaux à la paille ! Et Lili ne peut plus te parler. Ça serait triste, et ça te coûterait aussi 20.000 pièces d'or.~
+
+@567875 = ~Tu n'as jamais penser à faire l'amour et pas la guerre ? Tous ces couteaux...~
+@5678975 = ~Ahhh, Cespenar a bonne idée ! Fabrique bonne dague pour les gens silencieux. Prends Lame d'Os et Aiguillon de Pixie et fabrique une dague très très bonne pour l'attaque sournois et l'ensommeillement ! Il faut ajouter quatre potions de Maître voleur et payer 15.000 pièces, mais les ennemis ne sauront jamais qui les a attaqués, PAN !~
+
+// ....
+
+@567879 = ~Oooh, quelqu'un t'as parlé des munitions d'Abondance ? Vraiment la guigne... Il va falloir que Cespenar jette encore ça dans la rivière, cette fois avec un poids plus lourd attaché !~
+@5678979 = ~Ou peut-être on essaye quelque chose de différent cette fois, nouvelle recette. Tu prends 40 missiles +3 et 40.000 pièces d'or et on fait des munitions d'Abondance +3. Pense à tout l'argent que tu économises sur les projectiles ! Sauf si tu a investi dans un contrat à long terme, alors là tu as sans doute trouvé mieux !~
+
+@567880 = ~Oui, améliore le Carquois.~
+@567881 = ~Oui, améliore l'Étui.~
+@567882 = ~Oui, améliore le Sac.~
+
+@567883 = ~On dirait des gens sur un porte-manteau. Salut, les gens ! Faites coucou à Cespenar, vous vous faites porter par le Grand !~
+@5678983 = ~Cespenar n'est pas taxidermiste mais il peut prendre la Chair Humaine et combiner avec Pierre d'Âme et Parchemin de protection contre la magie et 20.000 pièces d'or et ça la rend très plus brillante. Et toi tu es plus fort et plus robuste. Peux pas dire la même chose des gens que tu portes.~
+
+@567884 = ~Où tu trouves ça ? Bhaal l'a cherchée partout, jamais trouvé ! Lui voulait l'accrocher au-dessus de la porte pour décorer... Cespenar l'a convaincu de prendre des roses, mais ça a été duuuur...~
+@5678984 = ~Très très infâme recette pour Voleuse d'Âmes. Tu prends le Coeur du Damné et l'épée ultime de cul-bénéditude et 20.000 pièces, rend Voleuse d'Âmes super-super mortelle ! Quand les culs-bénits viennent te demander, tu dis pas que c'est Cespenar qui a eu l'idée !~
+
+@567885 = ~Ooh, symbole brillant du vieux Dieu du Soleil ! Amaunator et Bhaal ne se sont jamais vraiment bien entendus. Une vieille histoire à propos de démons, la lumière du soleil et une certaine chèvre consacrée. Une histoire très triste. Après la mort de la chèvre, Amau n'est plus jamais revenu prendre le thé.~
+@5678985 = ~Enfin bon, on peut mettre le symbole sacré sur la targe. Tu ajoutes une gemme Pierre de Soleil pour chaque doigt et 10.000 pièces, et tu fais un bouclier brillant pour effrayer les vilains morts-vivants. Tu veux ?~
+
+@567886 = ~Sournoiserie de voleur, je vois. Tu veux faire les poches à Cespenar ? Attends ! Cespenar n'a pas de poches. Ha ! C'est pas grave. Je suis sûr que tu auras plein de méchants à voler plus tard.~
+@5678986 = ~Maintenant, j'ai une recette pour les accessoires de voleur. Le dernier cri : Gants de Pickpocket et bracelets de Défense, Anneaux de Perception du Danger et de Crochetage, deux Anneaux de Protection. Avec 5.000 pièces, je te fabrique une grosse chose brillante.~
+
+@567887 = ~Ah, des joyaux étincelants tu as. Les couleurs vont très mal ensemble, par contre. Peut-être Cespenar peut t'aider plus tard. Un peu de mauve mettrait vraiment tes yeux en valeur. Non ?~
+@5678987 = ~Bien, Cespenar peut mélanger deux Amulettes de Protection, un Fétiche de Protection contre le Poison, un Collier de Stabilité de Forme et une Amulette de Protection contre les Sorts. Plein de colliers et de bijoux ! Obtient une bénédiction mineure de l'ami Ilmater (pour une raison ou un autre, Ilmater aime bien le pauvre Cespenar) et hop-là ! Tu veux pour 10.000 pièces ?~
+
+@567888 = ~Flic flac ! Une lame d'eau ça serait mieux que juste barboter. Tu es un escrimeur, peut-être ? Cespenar a recette qui marche très bien pour les assauts rapides.~
+@5678988 = ~Avec Bord de l'Eau, Serre de Rashad et Adjatha la Buveuse, on fait grosse épée sur le thème de l'eau. Pas si grosse en fait, mais quand même pas mal. Tu aimes le poison, hein ? Tu as 15.000 pièces pour le boulot ?~
+
+@567889 = ~Oooh, brillante hache qui tue toutes les choses mauvaises. Tu essaies tuer Cespenar ? Oh attends, ça marche que sur les morts-vivants, pas les démons. Très effrayant pendant un moment. Cespenar voit l'existence passer devant ses yeux : trop de courbettes, pas assez de révérences. Il faut changer cette vie.~
+@5678989 = ~En tout cas, le rose c'est vraiment pas ta couleur. On pourrait mettre un revêtement d'illithium à Bordazur, ça fait un violet beaucoup plus classe. Et puis aussi des pouvoirs et des protections supplémentaires avec les morts-vivants. 20.000 pièces. Tu aimes ?~
+
+@567890 = ~Y a un anneau qui fait "clink" à ton doigt ! Trop d'anneaux pour tes doigts ? Gros problème, Cespenar sait. Teeeeeellement d'étincelles, si peu de griffes.~
+@5678990 = ~Tu sais quoi ? Cespenar peut mélanger tes anneaux des Arcanes et de Précision avec la vieille Amulette d'Influence sur les Méta-sorts et un Anneau de Protection, et ça donne un Anneau Ensorceleur. Très bien pour les mages. Tu aimes, pour 20.000 ?~
+
+@567892 = ~Peux-tu améliorer ce ceinturon ?~
+
+@567893 = ~Ooh, les ceintures c'est vraiment la mode cette saison. Pourquoi elles sont toutes de cette espèce de beige ? Ça doit être ce sale éclairage du plan miniature. Donne toujours un air fatigué à Cespenar.~
+//@5678993 = ~Enfin bon, si tu as trois ceintures de protection, j'ai une recette pour les combiner en une ceinture vraiment épaisse. Si tu te caches derrière, les ennemis peuvent pas t'atteindre. Une sacrée affaire. Tu aimes, pour 10.000 pièces ?~
+@56789993 = ~Enfin bon, si tu as trois ceintures de protection, j'ai une recette pour les combiner en une ceinture vraiment épaisse. Si tu te caches derrière, les ennemis peuvent pas t'atteindre. Une sacrée affaire, mais j'ai besoin de trois gemmes héliotropes identiques. Tu aimes, pour 10.000 pièces ?~
+
+@567895= ~Pourrais-tu améliorer cette Figurine d'Araignée Noire ?~
+@567896= ~Ooh, sournois-sournois ! Tu veux que Cespenar rende les figurines d'araignée de ton amical entourage, encore plus surprenantes ?  Ajouter quelques tours de toile, peut-être ? Tu veux faire peur à un gobelin en particulier ?~
+@5678996 = ~Les sens de Cespenar frémissent rien qu'à l'idée. Cependant, il me faut des materiaux spéciaux pour améliorer ce marcheur aux murs. Il faut des parchemins de Progéniture d'Araignée et de Toile d'Araignée, ajoute aussi cinq dagues de jet empoisonnées. Et aussi 5.000 piéces. D'accord ?~
+
+@567897 = ~Est-ce que la Lame du Chaos et l'Entropie peuvent être améliorées ?~
+@567898 = ~Des épées courtes ? Il faut pas avoir un complexe d'infériorité pour utiliser des épées courtes, si tu vois ce que Cespenar veut dire. Mais, besoin de plus grands pouvoirs destructeurs, hé ? Okay, voilà ce que Cespenar peut faire. Ramène un parchemin de Chaos et un de Malédiction, mélange avec Ilbratha et Arabane, et les épées courtes seront enfin dignes d'être appelées des armes abyssales ! Oh, Cespenar a aussi besoin de 25.000 pièces d'or. Et une Esseulite, à moins que tu ne veuilles ramasser des petits morceaux de Cespenar un peu partout dans le plan miniature. Hum, ce n'est pas une option.~
+
+@567899 = ~Peux-tu forger une cotte de mailles elfique ?~
+@5678100 = ~Oooh oui ! Tu aimes ce qui est chaud et épicé ? Cespenar fait sauter ensemble une cotte de maille elfique et des écailles de dragon rouge. On ajoute des champignons, des épices d'Andar et du poivre d'agates de feu et ça y est : très léger, très chaud, très nourrissant. Cespenar est assez un chef du fer... ou peut être un forgeron culinaire. Malheureusement, la poêle spéciale et l'huile de cacahouète te coûteront 25.000 pièces d'or. Toujours d'accord ?~
+
+
+//WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "

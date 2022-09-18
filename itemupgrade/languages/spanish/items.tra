@@ -1,0 +1,813 @@
+@100     = ~Anillo de Conservación +1~
+@101     = ~Anillo de Conservación +1: 'Anillo del príncipe Troll'
+
+Este anillo fue forjado mágicamente para <CHARNAME>. Combina los poderes de abjuración de los anillos de protección del Rey Castter De'wess'con los poderes regenerativos de los anillos de regeneración basados en trolls. En suma, un anillo muy elegante.
+
+ESTADÍSTICAS:
+
+El portador regenera 1 punto de vida cada 6 segundos
+Clase de Armadura: Bonificador +1
+Tiradas de Salvación: Bonificador +1~ 
+@102     = ~Anillo de Conservación +2~
+@103     = ~Anillo de Conservación +2: 'Anillo del Troll Guardián'
+
+Este anillo fue mágicamente creado para <CHARNAME>. Combina los poderes de abjuración del anillo de protección del guardián de la Princesa Akanal con los poderes de regeneración de los anillos basados en los trolls. En suma, es un anillo muy elegante.
+
+ESTADÍSTICAS:
+
+El portador regenera 1 punto de vida cada 6 segundos
+Clase de Armadura: Bonificador +2
+Tiradas de Salvación: Bonificador +2~
+@104     = ~Anillo de Maestría Elemental~ 
+@105     = ~Anillo de Maestría Elemental
+
+Este anillo contiene la fuerza de los elementos de la Tierra, el Aire y el Fuego y garantiza al usuario el dominio de todas las criaturas que provengan de esos planos. Este anillo fue creado para <CHARNAME> y no hay duda de que su fama no tardará en crecer con <PRO_HIMHER>. 
+
+ESTADÍSTICAS:
+
+Dominar Elemental tres veces por día por 60 segundos (sin tirada de salvación).
+Convocar un elemental de Tierra, Aire y Fuego (una vez por día, 300 segundos, siempre aliado). 
+Invisibilidad Mejorada una vez por día por 60 segundos. 
+Resistencia al fuego: Bonificador de 50%
+Resistencia a la Electricidad: Bonificador de 50%
+Clase de Armadura: Bonificador +1
+Tiradas de Salvación: Bonificador +1~
+@106     = ~Bastón de Maestría Elemental~ 
+@107     = ~Bastón de Maestría Elemental +5
+
+Conectado a tres de los planos elementales, este poderoso bastón fue forjado a pedido de <CHARNAME>. Es un arma potente por sí misma, pero también posee el poder de la vida o la muerte sobre las criaturas elementales. Este bastón particular está frío al tacto y está cubierto con marcas incinerantes y pequeños trazos. Los rumores dicen que el secreto de este tipo de construcción fue originalmente descubierto por los Rakshasa, quienes fueron los primeros en usarlo para crear el Mayal de las Edades. 
+
+ESTADÍSTICAS:
+
+Habilidades de Combate: Si un elemental de Tierra, Fuego o Aire es golpeado será destruido.
+Convoca un elemental de Tierra, Aire o Fuego (una vez por día, 300 segundos, siempre aliado). 
+Lanza Escudo Ígneo: Rojo (Dos veces por día, 78 segundos).
+Nube de Sueño (dos veces por día, alcance 40, salvación contra veneno o duerme por 18 segundos).
+
+THAC0: Bonificador +5
+Daño: 1D6 +5
+Tipo de daño: Contundente
+Peso: 3
+Factor de Velocidad: 0
+Tipo de Talento: Bastón
+Clase: 2 manos
+Requerimientos: Fuerza 5~
+@108     = ~Carcaj de la Plenitud +3~
+@109     = ~Carcaj de la Plenitud +3
+
+El dinero y los recursos que invertisteis en el Carcaj de la Plenitud resultaron en un objeto con propiedades mágicas realmente asombrosas. 
+ 
+ESTADÍSTICAS:
+ 
+Flechas +3 ilimitadas~ 
+@110     = ~Estuche de la Plenitud +3~
+@111     = ~Estuche de la Plenitud +3
+
+El dinero y los recursos que invertisteis en el Estuche de la Plenitud resultaron en un objeto con propiedades mágicas realmente asombrosas. 
+ 
+ESTADÍSTICAS:
+ 
+Saetas +3 ilimitadas~ 
+@112     = ~Mochila de la Plenitud +3~
+@113     = ~Mochila de la Plenitud +3
+
+El dinero y los recursos que invertisteis en el Carcaj de la Plenitud resultaron en un objeto con propiedades mágicas realmente asombrosas. De algún modo, esto no es sorpresa. ¿Alguna vez habéis invertido dinero y recursos en un objeto mágico sólo para descubrir que no os sirve para nada? No lo creo. 
+
+ESTADÍSTICAS:
+ 
+Balas de honda +3 ilimitadas~
+@114     = ~Botas de Velocidad Sigilosa~
+@115     = ~Botas de Velocidad Sigilosa
+
+Perfectas para las personas que exploran grandes distancias y que desean permanecer sin ser detectados, las Botas del Velocidad Sigilosa combina todos los poderes de las Botas de Velocidad y las Botas del Sigilo. Fueron hechas a pedido para <CHARNAME>. 
+
+Habilidades equipadas: Incrementa el índice de movimiento
+Bonificador a moverse silenciosamente: +20%
+Bonificador a esconderse en las sombras: +15%
+Peso: 4~ 
+@116     = ~Botas de la Tormenta~
+@117     = ~Botas de la Tormenta
+
+Perfectas para un aventurero dispuesto a asaltar la guarida de trolls de hielo o algún otro lugar helado, las Botas de la Tormenta combina los poderes de las Botas de Velocidad y las Botas del Norte. Fueron encargadas por <CHARNAME>. 
+
+ESTADÍSTICAS:
+
+Habilidad equipada: Incrementa el índice de movimiento
+Resistencia al frió: +50%
+Peso: 4~ 
+@118     = ~Botas del Avispón~ 
+@119     = ~Botas del Avispón
+
+Las Botas del Avispón aún no han sido superadas en incrementar la velocidad de la persona que las usa. Combinando los poderes de las Botas de Evasión y las Botas de Velocidad, estas botas hacen my difícil acertarle a su afortunado portador.
+
+ESTADÍSTICAS:
+
+Bonificador a la Clase de Armadura: +5 contra Proyectiles
+Habilidad equipada: Incrementa el índice de movimiento
+Peso: 4~
+@120     = ~Talones del Señor de la Tormenta~ 
+@121     = ~Talones del Señor de la Tormenta
+
+Perfectos para un día de relajación asaltando un templo de Talos o luchando contra elementales de aire, los Talones del Señor de la Tormenta combinan los poderes de las Botas de Contacto con la Tierra y las Botas de Velocidad. Fueron encargadas por <CHARNAME>.
+
+ESTADÍSTICAS:
+
+Habilidad equipada: Incrementa el índice de movimiento
+Resistencia a la electricidad: +50%
+Peso: 4~
+@122     = ~Garrote +5: Pitchwife~
+@123     = ~Garrote +5: Pitchwife
+
+Forjada para <CHARNAME> con una aleación de amalgama, el garrote ácido Blackblood y el garrote espinoso Gnasher, Pitchwife vibra con un poder destructivo. Cubierto con una sustancia como alquitrán que quema la carne al contacto, Pitchwife también deja astillas o espinas venenosas en la herida. 
+
+Habilidades equipadas: 25% de resistencia al ácido
+THAC0: Bonificador +5
+Daño: 1D6 + 5, +5 por ácido, las astillas añaden 3 puntos de daño extra por asalto durante cuatro asaltos.
+Tipo de daño: Contundente
+Peso: 3
+Factor de Velocidad: 1 
+Tipo de Talento: Garrote
+Clase: 1 mano
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El mago~
+@124     = ~Maza +5: Aplastacráneos~
+@125     = ~Maza +5: Aplastacráneos
+
+Esta maza está permanentemente ensangrentada; un detalle por estar tantos años aplastando cabezas. El arma ha sido la maldición de varias personas a lo largo de su historia, pero aquellos que la portaron quedaron marcados en los récords históricos. Recientemente Aplastacráneos fue reforjada en un arma aún más aterradora por <CHARNAME>. 
+
+ESTADÍSTICAS:
+
+THAC0: Bonificador +5
+Daño: 1D6 + 6, +6 daño extra a humanoides, baja los puntos de golpe máximos del objetivo en 2 por 10 asaltos
+Tipo de daño: contundente
+Peso: 6
+Factor de Velocidad: 2
+Tipo de Talento: Maza
+Clase: 1 mano
+Requerimientos: Fuerza 10
+No lo puede usar:
+ El druida
+ El mago
+ El ladrón~
+@126     = ~Teleomortis +4~
+@127     = ~Teleomortis +4
+
+Armado en nombre de <CHARNAME> empleado en un oscuro y horrible ritual, Teleomortis es un arco largo compuesto con un poder incomparable. Cuando la cuerda es tensada, la fantasmal forma de una flecha, parecería parpadear y fondearse en la luz. Así este arco no necesita munición extra (aunque puede usar lo más bien las flechas mundanas). Las flechas fantasmales asociadas con Teleomortis desgarran la mente en una manera inescrutable, dando a entender los secretos que no han sido desenterrados en este plano. 
+
+ESTADÍSTICAS:
+
+Habilidades de combate: Crea sus propias fechas fantasmales +4. Un objetivo golpeado con una de estas tiene un 5% de probabilidades de confundir a su objetivo por 30 segundos. 
+THAC0: +4
+Daño: 1D6 +4
+Peso: 7
+Factor de Velocidad: 1
+Tipo de Talento: Arco largo
+Clase: 2 manos
+Requerimientos: Fuerza 18
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago
+ El ladón
+ El bardo~
+@128     = ~Armadura de la familia Corthala~
+@129     = ~Armadura de la familia Corthala
+
+Esta armadura, antigua en la descendencia Corthala, protege al usuario contra todas las formas de ataque. La armadura fue combinada con la Armadura de escamas de Dragón de las Sombras y ahora es aún mejor protegiendo a Valygar. Esta armadura está encantada para que le conceda a Valygar un bonificador de +5 en su Clase de Armadura. También añade un bonificador de resistencia al ácido, al fuego y al daño mágico. También hace a Valygar inmune al dominio o hechizar mientras la usa. Finalmente, la armadura da a Valygar la no-detección mientras está equipada. Como está especialmente diseñada para Valygar, pocos más pueden usarla.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Inmune a hechizar, No-detección
+Bonificadores: +50% de resistencia al fuego, ácido, y daño mágico
+Clase de Armadura: 0
+Peso: 9
+Sólo lo puede usar: 
+ Valygar~
+@130     = ~Manto encantado del Buen Archimago~
+@131     = ~Manto encantado del Buen Archimago
+
+Este poderoso manto de mago ofrece protección contra todas las formas de ataque psíquico mientras al mismo tiempo incrementa la resistencia mágica y las tiradas de salvación del que lo usa. Debido a la naturaleza de sus encantamientos, éste sólo puede ser usado por magos de alineamiento bueno. Este manto en particular fue encantado por <CHARNAME>.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Memorizar un conjuro extra de mago de primer, segundo, tercer y cuarto nivel. 
+Clase de Armadura: 3
+Resistencia mágica: 10%
+Tirada de salvación: Bonificador +2
+Peso: 6 
+Sólo lo puede usar:
+ El mago (simple, dual o multiclase)
+ Personajes de alineamiento bueno~
+@132     = ~Manto encantado del Archimago Neutral~
+@133     = ~Manto encantado del Archimago Neutral
+
+Este poderoso manto de mago ofrece protección contra todas las formas de ataque psíquico mientras al mismo tiempo incrementa la resistencia mágica y las tiradas de salvación del que lo usa. Debido a la naturaleza de sus encantamientos, éste sólo puede ser usado por magos de alineamiento neutral. Este manto en particular fue encantado por <CHARNAME>.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Memorizar un conjuro de mago extra de primer, segundo, tercer y cuarto nivel. 
+Clase de Armadura: 3
+Resistencia mágica: 10%
+Tirada de salvación: Bonificador +2
+Peso: 6 
+Sólo lo puede usar:
+ El mago (simple, dual o multiclase)
+ Personajes de alineamiento neutral~
+@134     = ~Manto encantado del Archimago Maligno~
+@135     = ~Manto encantado del Archimago Maligno
+
+Este poderoso manto de mago ofrece protección contra todas las formas de ataque psíquico mientras al mismo tiempo incrementa la resistencia mágica y las tiradas de salvación del que lo usa. Debido a la naturaleza de sus encantamientos, éste sólo puede ser usado por magos de alineamiento maligno. Este manto en particular fue encantado por <CHARNAME>.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Memorizar un conjuro de mago extra de primer, segundo, tercer y cuarto nivel. 
+Clase de Armadura: 3
+Resistencia mágica: 10%
+Tirada de salvación: Bonificador +2
+Peso: 6 
+Sólo lo puede usar:
+ El mago (simple, dual o multiclase)
+ Personajes de alineamiento maligno~
+@136     = ~Casco Citadino~
+@137     = ~Casco Citadino
+
+Forjado a pedido de <CHARNAME>, el Helmo Citadino protege a su portador contra asaltos psíquicos, mágicos y mentales. Combina los poderes defensivos del Yelmo de Protección contra Hechizar y del Yelmo de la Defensa. En suma, se ve vagamente imponente. 
+
+ESTADÍSTICAS:
+
+Bonificación a la clase de armadura: ninguna
+Especial: El portador es inmune al Dominio
+Tiradas de Salvación: Bonificador +1
+Resistencia a la Electricidad: +20%
+Resistencia al frío: +20%
+Resistencia al fuego: +20%
+Especial: Protege contra golpes críticos
+Peso: 3
+No lo puede usar:
+ El mago 
+ El bardo
+ El ladrón~
+@138     = ~Torre de la Voluntad de Hierro~
+@139     = ~Torre de la Voluntad de Hierro 
+
+Forjado a pedido de <CHARNAME>, la Torre de la Voluntad de Hierro protege a su portador contra ataques mentales. Este proporciona todas las defensas estándar asociadas con el Yelmo de Protección contra Hechizar y también hace al portador inmune a los ataques psíquicos. Nótese que el portador no está protegido contra los ataques que drenan la inteligencia de los Ilícidos.
+
+ESTADÍSTICAS:
+
+Especial: El portador es inmune a Dominar y ataques psíquicos
+Especial: Protege contra golpes críticos
+Peso: 3
+No lo puede usar:
+ El mago
+ El bardo
+ El ladrón~
+@140     = ~Piel de Aeger +5~
+@141     = ~Piel de Aeger +5
+
+Esta pesada y gruesa piel de oso es todo lo que quedó del legendario Aeger. Cientos de años atrás el Aeger, un oso gigante, aterrorizó cientos de pequeñas villas a lo largo de la Costa de la Espada. El oso era invulnerable al fuego, frío o ácido. Finalmente los jóvenes de muchas aldeas se agruparon, formando una milicia de casi doscientos jóvenes fuertes. El Aeger fue cercado y finalmente asesinado. Sobrevivieron menos de una docena de aldeanos, y cortaron la piel de Aegis ellos mismos. De una de esas piezas fue creada esta armadura.
+
+Más recientemente, <CHARNAME> dispuso de la piel de Aeger para ser mejorada con encantamientos adicionales. Esta ahora concede una gran resistencia a ataques psíquicos y elementales.
+
+ESTADÍSTICAS:
+
+Bonificadores: +25% de resistencia al fuego, frío y ácido
+Inmune a confusión
+Clase de Armadura: 1
+Peso: 35
+Requerimientos: Fuerza 6
+No lo puede usar:
+ El mago~
+@142     = ~Carne humana mejorada~
+@143     = ~Carne humana mejorada
+
+Hecha de piel humana y tratada con la sangre de un dragón noble y combinada con el alma de una chica inocente y poderosa magia protectora, esta armadura emite el hedor de una amarga muerte. Esta armadura malévola sólo puede ser usada por una persona verdaderamente maligna. Este es el pináculo de la protección vil. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 0 
+Tiradas de Salvación: Bonificador +4
+Resistencia mágica: Bonificador +20%
+Habilidades equipadas: Bonificador +1 a la destreza y constitución, inmunidad al veneno, protección contra el bien.
+Peso: 5 
+Requerimientos: Fuerza 3
+No lo puede usar:
+ El mago
+ Personajes sin alineamiento maligno~
+@144     = ~Armadura de Placas Completa Levafuego mejorada~
+@145     = ~Armadura de Placas Completa Levafuego mejorada
+
+Este equipo de armadura fue designada originalmente para Keldorn y pocos más pueden usarla. Luego fue encantada de nuevo a pedido de <CHARNAME> y ahora proporciona a Keldorn aún más protección. Mientras está equipada proporciona al portador un bonificador de +2 a todas las tiradas de salvación y le concede acción libre (puede pasar a través de la telaraña y otros efectos similares) e inmunidad al miedo. A pesar de ser increíblemente fuerte, esta armadura es casi eterea. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: -2
+Bonificador a las tiradas de salvación: +2
+Habilidades equipadas: Acción libre, inmunidad al miedo
+Peso: 10
+Sólo la puede usar:
+  Keldorn~
+@146     = ~Cota de láminas de Ankheng mejorada~
+@147     = ~Cota de láminas de Ankheng mejorada
+
+Esta armadura fue hecha por una mano experta. Enfundado en las duras escamas del Ankheng, proporciona una protección muy superior a la cota de láminas tradicional y no es vulnerable al óxido. Sin embargo, como cualquier aventurero que haya visto mundo os diría, el aspecto más apreciado de esta armadura es su peso liviano y que casi no estorba. Los monstruos vienen y van, pero la fatiga es un enemigo constante. 
+
+Esta armadura de Ankheng en particular fue reforjada para <CHARNAME>. Ahora proporciona protección adicional contra los ataques en refriega o de ácido y permite al portador copiar el ataque de escupir ácido del Ankheng.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: -1
+Habilidades equipadas: +50% de resistencia al ácido
+Habilidades de combate: Lanza Flecha ácida de Melf tres veces por día
+Peso: 25
+Requerimientos: Fuerza 8
+No lo puede usar:
+ El bardo
+ El druida
+ El mago
+ El ladrón~
+@148     = ~Escudo de la Armonía +3~
+@149     = ~Escudo de la Armonía +3
+
+Audn del Campo, Campeón del mago Kekkim, llevó este escudo la mayor parte de su vida. Este protege al que lo lleva de la mayoría de las formas de control mental, un beneficio para un mago quien necesita aliados guerreros para mantenerlos fielmente a su lado. Kekkim y Audn tuvieron desde entonces que regresar a la tierra, dejando el escudo en la torre de Kekkim.
+
+Más recientemente este escudo fue redescubierto por <CHARNAME>. Ahora proporciona defensas psíquicas extra y hace a su usuario inmune a los psiónicos (Pero no a la drenada de inteligencia de los Ilícidos). 
+
+ESTADÍSTICAS: 
+
+Habilidades: Inmunidad a dominar, paralizar, psiónicos y confusión
+Bonificador a la clase de armadura: 4
+Peso: 2
+Requerimientos: Fuerza 4
+No lo puede usar:
+ El bardo
+ El druida
+ El mago
+ El ladrón~
+@150     = ~Lanza arrojadiza +3~
+@151     = ~Lanza arrojadiza +3
+
+Una de las armas más antiguas del hombre, usada desde los tiempos primitivos. Las primeras lanzas fueron simples varas de madera afiladas en la punta. Cuando el hombre comenzó a trabajar el metal, las cabezas de la lanza fueron hechas de hierro y acero. Esta lanza vibra con la poderosa magia que fue usada en su creación.
+
+A diferencia de casi todas las otras lanzas que hayáis visto, esta lanza puede ser arrojada. Fue fraguada para <CHARNAME> con la ayuda de una Piedra del Bribón. Luego de arrojarla, la lanza inmediatamente regresa a las manos del portador. (La lanza también puede ser usada como un arma de refriega: para eso seleccionad la segunda habilidad del objeto.) 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: 1 ataque adicional por asalto (el mismo alcance que un arco largo)
+THAC0: Bonificador +3
+Daño: 1D6 +3
+Tipo de daño: Perforante
+Peso: 3
+Factor de Velocidad: 3
+Tipo de Talento: Lanza
+Clase: 2 manos
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El clérigo
+ El mago
+ El ladrón~
+@152     = ~Lanza arrojadiza +3 del unicornio~
+@153     = ~Lanza arrojadiza +3 del unicornio
+
+Esta graciosa lanza fue tallada para asemejarse al largo cuerno de un unicornio. Los portadores de esta lanza son inmunes a los conjuros de dominio o parálisis, justo como un unicornio debe serlo. Si el cuerno es o no es de un unicornio real es un tema muy discutido.
+
+La lanza del Unicornio original fue reconstruida por <CHARNAME> para servir como un arma de alcance. Cuando es arrojada, la lanza vuelve inmediatamente a la mano del usuario. La proximidad del retorno puede explicar como un arma arrojadiza puede tener efectos continuos en su portador. O quizás es sólo magia. (La lanza también puede ser usada como arma de refriega: para eso seleccionad la segunda habilidad del objeto.) 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Inmunidad a hechizar y paralizar, +3 a todas las tiradas de salvación contra la muerte
+THAC0: Bonificador +3
+Daño: 1D6 +3, +2 por daño de fuego
+Tipo de daño: Perforante
+Peso: 3
+Factor de Velocidad: 3
+Tipo de Talento: Lanza
+Clase: 2 manos
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El clérigo
+ El mago
+ El ladrón~
+@154     = ~Empaladora Arrojadiza +4~
+@155     = ~Empaladora Arrojadiza +4
+
+La Empaladora tiene un aura palpable de magia que sugiere la naturaleza cruel de esta arma y de por qué fue la favorita de numerosos caciques orcos muy poderosos en el pasado. Cuando la víctima es golpeada es, como suponéis, gravemente empalada, y una gran cantidad de encantamientos terminan de hacer el trabajo.
+
+Luego de que <CHARNAME> "liberó" la Empaladora de la ciudad Sahuagin, <PRO_HESHE> luego que rediseñarla en un arma arrojadiza. Cuando es arrojada, la lanza regresa inmediatamente a las manos del portador. (También puede ser usada como un arma de refriega: Para hacer eso, seleccionad la segunda habilidad del objeto.) 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: 1 ataque adicional por asalto (el mismo alcance que un arco largo)
+THAC0: Bonificador +4
+Daño: 1D6 +4, +10 por daño perforante
+Tipo de daño: Perforante
+Peso: 3
+Factor de Velocidad: 2
+Tipo de Talento: Lanza
+Clase: 2 manos
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El clérigo
+ El mago
+ El ladrón~
+@156     = ~Bastón de los Bosques +5~
+@157     = ~Bastón de los Bosques +5
+
+Conocido como el "salvaje hombre de los bosques", el hombre que llevó este bastón fue una figura legendaria cerca de Caravasar hasta el día que murió y regresó a la tierra. Aquellos que lo conocieron recuerdan su piel oscura y como un ladrillo, una característica que se desvanecería si el bastón lo abandonara. El acosaría a leñadores y cazadores irresponsables, y los veteranos cuentan de mercenarios que lo perseguían con más de una docena de perros de caza. Los animales parecían estar listos para reducir al pobre druida a pedazos, pero él rápidamente se volvió y los transformó en sus vasallos. Apresurándose y esperando que terminara su influencia, los hombres armados finalmente vieron el poder del bastón, y como la vegetación vibraba ante el llamado del "Salvaje hombre de los Bosques", allí formaron una verde y podrida mezcla de vida y muerte que se abalanzó sobre los aterrorizados soldados, matándolos a todos.
+
+Recientemente el bastón fue reencantado por <CHARNAME> para darle unas habilidades en refriega ligeramente mejoradas. 
+
+ESTADÍSTICAS:
+
+AC: Bonificador +3
+Habilidades equipadas: Piel de Corteza (AC 3)
+
+Habilidades de uso:
+Convocar Montículo Arrastrante (seis veces por día)
+Duración: 100 segundos
+
+Realiza Dominar Animal (seis veces por día)
+Duración: 5 minutos (sin tirada de salvación)
+
+Habilidades de combate: Cuando golpea a un objetico hay un 5% de probabilidades de que el objetivo (y sus aliados) sean infectados por la Maldición arrastrante. 
+
+THAC0: Bonificador +5
+Daño: 1D6 +5
+Tipo de daño: Contundente
+Peso: 2
+Factor de Velocidad: 0
+Tipo de Talento: Bastón
+Clase: 2 manos
+Requerimientos: Fuerza 5
+Sólo lo puede usar:
+ El druida
+ Amo de las Bestias~
+@158     = ~Espada solar: 'Estrella diurna +4'~
+@159     = ~Espada solar: 'Estrella diurna +4'
+
+Creado específicamente para el uso en servicio de Torm o asignado a algún punto en la larga historia de la iglesia, los Paladines de la Furia Noble hicieron buen uso de Estrella Diurna en sus batallas contra los muertos vivientes. A través de la magia o las bendiciones, esta espada fue concedida con el Rayo de Sol, una fuerza de pura energía de vida tan potente que mata tanto a vivos como a no-vivos.
+
+<CHARNAME> tomó esta espada de un liche cerca de las Alcantarillas de Athkatla y fue luego rediseñada en un aún más poderoso instrumento de justicia sagrada. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Protección contra el mal
+
+Habilidades especiales: (dos veces por día): Rayo de sol
+Daño: 3D6 (El objetivo debe superar una tirada de salvación contra conjuros o será cegada por 10 asaltos)
+Muertos vivientes: 10d6 de daño adicional (si no superan una tirada de salvación contra conjuros serán destruidos)
+Alcance: 20 pies
+Área: 20 radio de 20 pies
+
+THAC0: Bonificador +4, +8 contra criaturas malignas
+Daño: 1D8 +4, +8 contra criaturas malignas
+Habilidad de combate: Cualquier muerto viviente golpeado por Estrella diurna recibe el doble de daño. 
+Tipo de daño: Cortante
+Peso: 2
+Factor de Velocidad: 3
+Tipo de Talento: Espada larga
+Clase: 1 mano
+Requerimientos: Fuerza 6
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago~
+@160     = ~Furia Celestial +5~
+@161     = ~Furia Celestial +5
+
+Encantar una katana no es un proceso sencillo. Al menos, eso es lo que <CHARNAME> pensaba. En realidad, la parte más difícil de reforzar una katana ya muy buena como la Furia Celestial fue recoger el montón de ingredientes requeridos. Furia Celestial sirvió bien a <CHARNAME> desde que la tomó de Koshi el Kensai en el Distrito del Templo de Athkatla. Su procedencia es la siguiente:
+
+Muchos años atrás, feroces tormentas e incendios provocados por relámpagos devastaron la provincia administrada por el jefe Hoshi Katahiroi. Los consejeros del jefe, todos respetados magos, pronto adivinaron que la naturaleza no tenía la culpa, sino un poderoso dragón de orden desconocido. Algunos de los consejeros insinuaban que la criatura era una abominación; otros creían que había nacido del Caos Primordial antes que Kara-Tur hubiera sido construida. Pero todos coincidieron en llamarle Furia Celestial.
+
+A pesar de eso, Daimyo Hoshi no quería que el dragón azotara el pueblo; quería destruirlo. El comisionó al célebre Chigatta (un artesano solitario, maestro en las artes místicas), para construir una arma que pudiera tanto partir el alma del dragón como hendir su escamoso cuerpo. El trabajo de Chigatta resultó en la katana de mayor calidad imaginable, apodada Furia Celestial como la bestia que estaba forjada para destruir, y encantada con el poder del vuelo.
+
+Con esta arma, Hoshi buscó la maldición de su provincia en medio de las nubes de tormenta. Gritos y rugidos resonaron a través del cielo durante días, y fuego bifurcado iluminaba las noches. Al final, Hoshi destruyó el cuerpo del dragón y atrapó su espíritu dentro de la espada, fusionando las dos Furias Celestiales y marcando el Orden sobre el Caos. Para finalizar su victoria, Hoshi hizo que Chigatta hiciera una vaina en forma de la cabeza de un dragón e incrustara su perla mágica en la empuñadura.
+
+A pesar de eso el dragón tuvo su venganza. Hoshi era experto en la batalla pero débil de voluntad. El espíritu de Furia Celestial tomó control sobre Hoshi, forzándolo a matar a Chigatta y luego matarse a sí mismo. Posteriormente la katana desapareció (lo más probable es que la afligida familia de Hoshi descartara la traicionera arma) y quizás ha pasado por muchas manos en los años siguientes.
+
+Furia Celestial es una katana de excelente construcción -- una hoja flexible pero indestructible con un filo excelente, una empuñadura cubierta de un confortable cuero, y una gigantesca perla fijada en su terminación. Las características mágicas de la Furia Celestial están inscriptas en la hoja, en la cual resplandece un pálido violeta y estrepita con electricidad cuando la giráis. La espada está envainada en una vaina con forma de cabeza de dragón, las escamas que brillan constantemente con destellos de plata, azul y violeta.
+
+ESTADÍSTICAS: 
+
+Habilidades equipadas:
+ Golpe de Rayo: Una vez por día
+ Ceguera: Una vez por día
+Habilidades de combate:
+ Trueno tronante cada vez que golpea a un oponente
+ (Atontamiento, tirada de salvación contra conjuros) 
+ Probabilidad de Estallido electrizante cada vez que la espada golpea a un oponente
+ (5% de probabilidades de infringir 20 puntos de daño eléctrico adicionales)
+THAC0: Bonificador +5
+Daño: 1D10 +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de Velocidad: 0
+Tipo de Talento: Katana
+Clase: 1 mano
+Requerimientos: Fuerza 6
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago~
+@162     = ~Espada de Arvoreen +5~
+@163     = ~Espada de Arvoreen +5
+
+Otro regalo para Mazzy Fentan de Arvoreen, esta espada corta sólo puede ser usada por medianos. Los encantamientos que existen dentro de esta espada le dan la habilidad de enlentecer a cualquier oponente que sea golpeado.
+
+Con la ayuda de <CHARNAME> y la bendición de Arvoreen, la espada fue reencantada recientemente para ser aún más poderosa. 
+
+ESTADÍSTICAS:
+
+Habilidades de combate: El objetivo debe superar una tirada de salvación contra varitas o será ralentizado  (por 45 segundos). 
+Habilidades equipadas: Acción libre, Bonificador +1 a la fuerza, +75 de bonificador a la fuerza excepcional.
+THAC0: Bonificador +5
+Daño: 1D6 +5
+Tipo de daño: Perforante
+Peso: 3
+Factor de Velocidad: 0
+Tipo de Talento: Espada corta
+Clase: 1 mano
+Sólo lo puede usar:
+ Los medianos~
+@164     = ~Santo Redentor +5~
+@165     = ~Santo Redentor +5
+
+Keldorn se distingue muy bien en su carrera de paladín, y recibió esta espada como gracia de Torm. Es excepcionalmente certero, pero también lo protege en batalla con un escudo de fuego especial, y lo que le pegue mientras porta esta espada sufrirá la cólera de Torm en forma de daño mágico. Nadie sino Keldorn puede usar esta espada.
+
+Con la ayuda de <CHARNAME> y la bendición de Torm, la espada fue reencantada recientemente para volverla aún más poderosa. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: 5 puntos de daño mágico para cualquiera que haga daño a su portador.
+   
+THAC0: Bonificador +5
+Daño: 1D12 + 5
+Habilidades de combate: Disipar magia en cada golpe, el objetivo también es silenciado por 2 asaltos
+Tipo de daño: Cortante
+Peso: 8
+Factor de Velocidad: 5
+Tipo de Talento: Espada de dos puños
+Clase: 2 manos
+Sólo lo puede usar:
+ Keldorn~
+@166     = ~Escudo familiar Delryn +4~
+@167     = ~Escudo familiar Delryn +4
+
+Este es el escudo familiar de Anomen, que le fue obsequiado por su padre. En adición a la protección mágica el escudo irradia un aura que concede al portador resistencia al fuego y al frío. Para protegerse de los ataques a distancia, Anomen puede usar el escudo para erigir un campo de energía. Esta protección contra los proyectiles normales puede ser usada tres veces al día.
+
+Recientemente <CHARNAME> fortaleció el escudo con la magia protectora del escudo Gracia Salvadora, recuperado del mortecino avatar de Amaunator, mejorando dramáticamente sus capacidades defensivas naturales.
+
+ESTADÍSTICAS
+
+Bonificador a la Clase de Armadura: +5
+Resistencia al fuego: + 30%
+Resistencia al frío: + 30% 
+
+Habilidades: Puede lanzar protección contra misiles normales 3 veces al día en el portador
+
+Sólo lo puede usar: 
+ Anomen~
+@168     = ~Lilarcor +5~
+@169     = ~Lilarcor +5
+
+Lilarcor ya no es tan adorable (o enojosa, dependiendo de vuestro punto de vista) como lo fue antes de que <CHARNAME> la mejorara. Cuando el Anillo de Control de los Azotamentes fue incrustado en su empuñadura, Lilarcor pareció haber perdido la habilidad de hablar conscientemente con las personas cercanas y fue reducida a hacer comentarios ocasionales. Sin embargo, la peculiar inteligencia de Lilarcor (o algo así) ahora sirve como beneficio (o desgracia) para el portador: el que mantiene a Lilarcor no puede tener su afinada inteligencia por alguna razón. Protege contra la drenada de inteligencia asociada con los Ilícidos y los efectos benéficos de una poción de genio. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Inmunidad a Dominar, Confusión y Cambios en la inteligencia
+THAC0: Bonificador +5
+Daño: 1D12 +5
+Tipo de daño: Cortante
+Peso: 10
+Factor de Velocidad: 6
+Tipo de Talento: Espada de dos puños
+Clase: 2 manos
+Requerimientos: Fuerza 14
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago
+ El ladrón~
+@170     = ~Vengadora Perversa +6~
+@171     = ~Vengadora Perversa +6
+
+La poderosa Vengadora Perversa fue reforjada bajo la oscura guía de <CHARNAME>. La esencia sagrada de Carsomyr fue pervertida para ayudar a crear esta abominable atrocidad. Vengadora Perversa es una herramienta de increíble poder y maldad invencible. Aquellos que la tienen raramente la sueltan en toda su vida. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: 50% de resistencia mágica
+Habilidades de combate: Disipa magia con cada impacto. El objetivo sufre una penalización de -2 al THAC0 por 120 segundos. 
+THAC0: Bonificador +6
+Daño: 1D12 +6, +1D6 por daño mágico
+Tipo de daño: Cortante
+Peso: 10
+Factor de Velocidad: 4
+Tipo de Talento: Espada de dos puños
+Clase: 2 manos
+Requerimientos: Fuerza 14
+No lo puede usar:
+ El druida
+ El clérigo
+ El mago
+ El ladrón
+ Personajes no malignos~
+@172     = ~Garrote +4: 'El fulcro'~
+@173     = ~Garrote +4: 'El fulcro'
+
+Forjado para <CHARNAME> en una mezcla del Garrote de Hueso y el garrote astillado Gnasher, los poderes del Fulcro se basan en conservar el equilibrio. Los espíritus de los guerreros muertos guían la mano del portador con certeza y cada vez que golpea al objetivo libera una dolorosa astilla de hueso en la herida. En suma, el Garrote hace daño adicional contra los oponentes no neutrales. 
+
+Habilidades equipadas: El portador gana Gran Maestría con el garrote.
+THAC0: Bonificador +4
+Daño: 1D6 + 4, +4 si el objetivo es bueno, malvado, legal o caótico (acumulativo)
+Daño extra: Las astillas de hueso hacen 2 puntos de daño extra cada asalto durante 4 asaltos
+Tipo de daño: Contundente
+Peso: 3
+Factor de Velocidad: 1 
+Tipo de Talento: Garrote
+Clase: 1 mano
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El mago~
+@174     = ~Golpe de Gracia +4~
+@175     = ~Golpe de Gracia +4
+
+<CHARNAME> arregló tener esta daga construida con el Aguijón de Hada y la mortal Espada de Hueso. El resultado es un arma digna de cualquier asesino. El veneno recién refinado del Aguijón de Hada ahora ciega a la víctima y el conocimiento oscuro de la Espada de Hueso la hace mortal para el apuñalamiento por la espalda en manos de un asesino experto.
+
+Habilidades equipadas: El multiplicador de apuñalar por la espalda se incrementa en 1
+THAC0: Bonificador +4
+Daño: 2D3 + 4
+Habilidades de combate: El objetivo es cegado o puesto a dormir por 12 segundos. Una tirada de salvación contra veneno (-2 de penalización) niega el efecto. (Cegar a la criatura modifica en -10 su THAC0)
+Tipo de daño: Cortante
+Peso: 3
+Factor de Velocidad: 0 
+Tipo de Talento: Daga
+Clase: 1 mano
+Requerimientos: Fuerza 3
+No lo puede usar:
+ El clérigo~
+@176     = ~Escudo Sagrado de Amaunator +2~
+@177     = ~Escudo Sagrado de Amaunator +2
+
+<CHARNAME> tenía el símbolo sagrado de Amaunator, el dios del Sol, y lo introdujo en este escudo. Este es ahora una potente barrera contra aquellos que acechan en la noche y drenan la fuerza de la vida. 
+
+ESTADÍSTICAS:
+  
+Bonificador a la Clase de Armadura:  3
+Especial: Puede lanzar Falso Amanecer dos veces por día. El portador es inmune a la consunción de niveles.
+Peso:  2 
+Requerimientos: Fuerza 4
+No lo puede usar:
+ El mago~
+@178     = ~Guantes del Maestro Ladrón: 'Doce dedos'~
+@179     = ~Guantes del Maestro Ladrón: 'Doce dedos'
+
+<CHARNAME> tuvo que formar estos guantes a partir de unos cuantos objetos mundanos benéficos para el ladrón. Cuando estos guantes son usados por un ladrón, aparece un dedo mágico extra en cada guante que ayuda a los cazadores de fortunas a utilizar sus habilidades únicas. En suma, estos guantes tienen estilo. Se ven casi... como el diseño de un gnomo. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 3
+Tiradas de Salvación: Bonificador +1
+Encontrar y desactivar trampas: Bonificador +25%
+Abrir cerraduras: Bonificador +25%
+Robar bolsillos: Bonificador +20%
+Peso: 2
+Sólo lo puede usar:
+ El ladrón~
+@180     = ~Amuleto de Ilmater~
+@181     = ~Amuleto de Ilmater
+
+Este amuleto combina el poder defensivo de un amuleto de protección, un amuleto de resistencia al veneno, el amuleto de estabilidad de forma y el amuleto de guarda contra conjuros para proveer una potente protección a su portador. En suma, el amuleto tiene una bendición menor de Ilmater. El amuleto fue encargado por <CHARNAME>. 
+
+ESTADÍSTICAS:
+
+El portador es inmune al veneno
+Lanza Sanar una vez por día
+Bonificador a la Clase de Armadura:  1
+Bonificación a las tiradas de salvación:  3~
+@182     = ~Garra de agua +4~
+@183     = ~Garra de agua +4
+
+La hoja de esta arma parece brillar, revelando un fluido, el borde afilado se ve algo así como una garra de un ave de rapiña. La Garra de Agua fue encargada por <CHARNAME> y mantiene un vasto poder sobre los líquidos dañinos. Cada golpe aspira algo de la vida del objetivo y se la confiere a su portador. En adición, el filo como agua de la espada está siempre envenenada. Como uno de sus predecesores, la Garra de agua provee inmunidad a hechizar. Además, sin embargo, su maestría sobre el agua protege al usuario de los efectos horribles del Horrible marchitamiento de Abi-Dalzim. Aún más excepcionalmente, la naturaleza del líquido de la hoja le permite extenderse y salpicar en combate, mejorando el alcance del golpe y garantizando un alcance mayor que el de un mandoble. Esto permite al portador realizar ataques "imposibles" contra las líneas de atrás en una formación, o intentar atreverse a utilizar la táctica de golpear-y-correr, contando con el veneno del primer impacto para deshabilitar al enemigo.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: El portador es inmune a hechizar, dominación y el horrible marchitamiento
+Habilidades especiales: Cada golpe eleva los puntos de golpe máximos del portador en 2 por 3 minutos
+Propiedades especiales: Alcance del golpe extendido
+Daño:  1D8 +4, +2 puntos de daño por veneno por segundo (acumulativo)
+THAC0: +4
+Tipo de daño: Cortante
+Peso: 3
+Factor de Velocidad: 1
+Tipo de Talento: Cimitarra/Wakizashi/Ninja-To 
+Clase:  1 mano
+Requerimientos: Fuerza 8
+No lo puede usar:
+ El clérigo
+ El mago
+ El ladrón~
+@184     = ~Azuredge +4~
+@185     = ~Azuredge +4
+
+La ya potente maldición de los muertos vivientes, Azuredge, fue reencantada por <CHARNAME> cuando <PRO_HESHE> la recubrió con un enchapado de ilitio puro. El hacha forjada primero por Gulen Roca de Fuego aún regresa a las manos de su dueño cuando es arrojada y golpea a los muertos vivientes con sagrado fervor, pero ahora también protege al portador contra ataques que drenen niveles de hasta el más poderoso vampiro. En una nota decorativa, el ilitio parece cambiar ligeramente el color del arma a lo largo de su tocayo. 
+
+ESTADÍSTICAS:
+
+Habilidad de combate: +4 puntos de daño extra a los muertos vivientes, además deben salvar una tirada de salvación contra la muerte (penalización de -4) o ser destruidos
+Habilidad equipada: Inmune a la consunción de niveles
+Daño: 1D6+4
+THAC0: +4
+Tipo de daño (refriega): Cortante
+Tipo de daño (lanzando): Proyectil (perforante)
+Especial: Regresa a las manos del lanzador una vez arrojada
+Peso: 2
+Factor de Velocidad: 0
+Tipo de Talento: Hacha
+Clase:  1 mano
+Requerimientos: Fuerza 4
+No lo puede usar:
+ Cualquier personaje neutral o maligno
+ El druida
+ El clérigo
+ El mago
+ El ladrón~
+@186     = ~Anillo del Hechicero:  'Poder Codicioso'~
+@187     = ~Anillo del Hechicero:  'Poder Codicioso'
+
+Este anillo es sin duda el pináculo de los estudios en nemotécnica. Forjado a pedido de <CHARNAME> a partir el anillo de la hechicería, el de la agudeza y el Amuleto de influencia del metaconjuro, permite al portador cada día memorizar un conjuro extra de todos los niveles del uno hasta el siete. En adición, un anillo de protección fue fundido en la banda, suministrando defensas psíquicas y mágicas menores.
+
+ESTADÍSTICAS:
+
+Conjuros: Concede un conjuro extra de mago de nivel 1 al 7. 
+Clase de Armadura: Bonificador +1
+Tiradas de Salvación: Bonificador +1~
+@188     = ~Cinturón de la Gloria~
+@189     = ~Cinturón de la Gloria
+
+Creado por <CHARNAME> para proteger al portador contra los ataques de las armas cortantes, perforantes y contundentes, este cinturón le es muy útil a cualquiera implicado en una refriega. Su potente magia repele todos los tipos de ataque, y además su delgadez permite movilidad al usuario. En conclusión, es un cinturón genial.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: Bonificador +3
+Peso:  2~
+@190     = ~Figura de Kitthix mejorada~
+@191     = ~Figura de Kitthix mejorada
+
+Reforjada por <CHARNAME> para convocar una araña más poderosa que cuatro juntas. Pasados están ya los días en que Kitthix sería instruida para lanzarse por delante de un enemigo muy superior con la esperanza de distraerlo momentáneamente. Las habilidades venenosas y de telaraña de Kitthix han sido muy mejoradas, así como sus capacidades defensivas.
+
+ESTADÍSTICAS:
+
+Conjura una araña espada llamada Kitthix por 2400 segundos, una vez por día.~
+@192     = ~Kitthix mejorada~
+@193     = ~Entropía inevitable~
+@194     = ~Entropía inevitable
+
+Esta espada abismal de acero verde ha sido mejorada por requerimiento de <CHARNAME>. La espada reparte veneno y su víctima parece perder su habilidad de resistir la magia dañina mientras son rebanados por la espada. 
+
+ESTADÍSTICAS:
+
+Habilidades de combate: Un golpe con esta espada tiene 5% de probabilidades de lanzar Malison Mayor en su objetivo. 
+
+THAC0: Bonificador +3
+Daño: 1D6 +3 +1 de daño por veneno cada segundo durante un asalto. 
+Tipo de daño: Perforante
+Peso: 2
+Factor de Velocidad: 0
+Tipo de Talento: Espada corta
+Clase: 1 mano
+Sólo lo puede usar:
+ El ladrón~
+@195     = ~Caos Rastrero~
+@196     = ~Caos Rastrero es una espada corta utilizable solamente por los ladrones. Cada vez que golpea un oponente, él o ella pierde dos puntos de destreza (por 30 segundos). Rediseñada a pedido de <CHARNAME>, esta hoja mejorada tiene la posibilidad de aturdir a cualquier oponente golpeado con ella. 
+
+ESTADÍSTICAS:
+
+Habilidades de combate: Un golpe exitoso con esta espada tiene un 5% de probabilidades de confundir a la víctima por 48 segundos si falla una tirada de salvación con penalizador de -4. Además, cada golpe exitoso drena 2 puntos de destreza de la víctima por 30 segundos. 
+
+THAC0: Bonificador +3
+Daño: 1D6 +3 
+Tipo de daño: Perforante
+Peso: 2
+Factor de Velocidad: 0
+Tipo de Talento: Espada corta
+Clase: 1 mano
+Sólo lo puede usar:
+ El ladrón~
+@197     = ~Malla Élfica Roja~
+@198     = ~Malla Élfica Roja
+
+Forjada a pedido de <CHARNAME> con escamas de dragón rojo interbloqueadas con un equipo de malla élfica, La Malla Élfica Roja provee una combinación superior de protección y libertad de movimiento. Ladrones y magos aún pueden practicar sus habilidades mientras usan esta liviana armadura. 
+
+ESTADÍSTICAS:
+
+Resistencia al fuego: Bonificador de 25%
+Sigilo: Penalizador -10%
+Abrir cerraduras: Penalización -5%
+Encontrar y desactivar trampas: Penalización -5%
+Robar bolsillos: Penalización -20%
+Clase de Armadura: 0
+Peso: 15
+Requerimientos: Fuerza 5
+No lo puede usar:
+ El druida
+ El mago~

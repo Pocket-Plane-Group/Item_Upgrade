@@ -1,0 +1,313 @@
+@12340 = ~Schaut mal, ob Ihr etwas finden könnt.~
+@12341 = ~Nun gut, dann werde ich mal noch ein bisschen herumstöbern ...~
+@12342 = ~Könnt Ihr etwas mit diesem Schutzring anfangen?~
+@12343 = ~Könnt Ihr etwas aus diesem mächtigen Schutzring schmieden?~
+@12344 = ~Könnt Ihr etwas aus diesem Elementarbeherrschungsring machen?~
+@12345 = ~Könnt Ihr diesen Stab der Elemente verbessern?~
+@12346 = ~Könnt Ihr etwas aus diesen Stiefeln der List zusammenschustern?~
+@12347 = ~Könnt Ihr diese Stiefel des Hohen Nordens umarbeiten?~
+@12348 = ~Seht Ihr eine Möglichkeit, diese Stiefel der Bodenhaftung zu verbessern?~
+@12349 = ~Könnt Ihr etwas mit diesen Stiefeln der Vermeidung anfangen?~
+@123410 = ~Seid Ihr in der Lage, diese Keule Schwarzblut noch ein bisschen besser zu gestalten?~
+@123411 = ~Könnt Ihr dafür sorgen, dass diese Knochenkeule noch mächtiger wird?~ 
+@123412 = ~Ich möchte, dass der Schädelschmetterer noch tödlicher wird. Könnt Ihr mir dabei helfen?~
+@123413 = ~Gibt es etwas, mit dem Ihr den Herzsucher verbessern könnt?~
+@123414 = ~Könnt Ihr die Familienrüstung meine Freundes Valygar neu formen?~
+@123415 = ~Könnt Ihr diese magische Robe verbessern?~
+@123416 = ~Ich wünsche mir, dass mir mein Abwehrhelm mehr Schutz bietet. Könnt Ihr in dieser Sache etwas unternehmen?~
+@123417 = ~Könnt Ihr meinen Helm zum Schutz vor Bezauberung etwas vielseitiger gestalten?~
+@123418 = ~Seid Ihr in der Lage, Aegers Haut ein bisschen aufzupolieren?~
+@123419 = ~Könnt Ihr zur Familienrüstung von Sir Keldorn Firecam noch etwas dazuschmieden?~
+@123420 = ~Könnt Ihr diesen Ankheg Plattenpanzer noch etwas verstärken?~
+@123421 = ~Der Schild der Harmonie -- könnt Ihr seine Kräfte noch verstärken?~
+@123422 = ~Ich suche schon lange nach einem Wurfspeer. Könnt Ihr einen anfertigen?~
+@123423 = ~Was könnt Ihr aus meinem Einhornspeer fertigen?~
+@123424 = ~Gibt es eine Möglichkeit, den Aufspiesser so zu verändern, dass er noch mehr Schaden anrichtet?~
+@123425 = ~Könnt Ihr diesen Stecken der Waldländer noch magischer gestalten?~
+@123426 = ~Der Tagesstern. Seine Macht muss noch grösser werden.~
+@123427 = ~Könnt Ihr aus der Göttlichen Rage ein Daikatana schmieden?~
+@123428 = ~Können wir das Schwert von Arvoreen verbessern?~
+@123429 = ~Können wir auf den Geheilgten Rächer von Keldorn noch einen zusätzlichen Segen sprechen?~
+@123430 = ~Ich würde gerne den Delryn Familien Schild verbessern.~
+@123431 = ~Könnt Ihr dafür sorgen, dass Lilarcor in Zukunft den Mund hält?~
+@123432 = ~Ich hätte wirklich gerne einen Dolch, der meine Gegner hinwegrafft. Könnt Ihr aus einem von meinen einen solchen anfertigen?~
+@123433 = ~Können wir aus dieser lausigen Tartsche noch etwas vernünftiges machen?~
+@123434 = ~Gibt es noch eine Möglichkeit diese Handschuhe des Taschendiebstahls zu verbessern?~
+
+@123435 = ~Im Moment nicht.~
+@123436 = ~Oh ja, gerne!~
+
+@123437 = ~Könnt Ihr etwas aus diesem Amulett machen?~
+@123438 = ~Ich hätte gerne, dass Ihr diesen Krummsäbel verbessert.~
+@123439 = ~Könnt Ihr die Azurklinge noch mächtiger gestalten?~
+
+@123440 = ~Ich könnte diesen Schutzring +1 mit einem Ring der Regeneration verbinden. Ich bräuchte noch einen Diamanten, um die beiden zu verschmelzen. Das ganze würde Euch 10.000 Goldstücke kosten. Seid Ihr an dem Geschäft interessiert?~
+@123441 = ~Ich könnte diesen Schutzring +2 mit einem Ring der Regeneration verbinden. Ich bräuchte noch einen Diamanten, um die beiden zu verschmelzen. Das ganze würde Euch 10.000 Goldstücke kosten. Seid Ihr an dem Geschäft interessiert?~
+@123442 = ~Ich könnte die Ringe der Luft-, Erd- und Feuerbeherrschung zu einem Ring der Elementbeherrschung zusammenschmelzen. Dazu würde ich noch einige Schriftrollen benötigen und zwar diejenigen zum Schutz gegen Versteinerung, Feuer und Elektrizität. Meine Arbeit an diesem schwierigen Gegenstand würde Euch 20.000 Goldstücke kosten.~
+@123443 = ~Ich könnte die Luft-, Erd- und Feuerstecken zu einem Stab der Elementbeherrschung zusammenbringen. Dies würde Euch 20.000 Goldstücke kosten, aber ich bin mir sicher, dass das Ergebnis den Preis wert ist.~
+@123444 = ~Gut, ich könnte die Siebenmeilenstiefel mit den Stiefeln der List zusammenschustern. Um die beiden zu verbinden bräuchte ich einen Spitzbubenstein und, nicht zu vergessen, für meine Arbeit 10.000 Goldstücke.~
+@123445 = ~Gut, ich könnte die Siebenmeilenstiefel mit den Stiefeln des Hohen Nordens zusammenschustern. Um die beiden zu verbinden bräuchte ich einen Spitzbubenstein und nicht zu vergessen für meine Arbeit 10.000 Goldstücke.~
+@123446 = ~Gut, ich könnte die Siebenmeilenstiefel mit den Stiefeln der Bodenhaftung zusammenschustern. Um die beiden zu verbinden bräuchte ich einen Spitzbubenstein und nicht zu vergessen für meine Arbeit 10.000 Goldstücke.~
+@123447 = ~Gut, ich könnte die Siebenmeilenstiefel mit den Stiefeln der Vermeidung zusammenschustern. Um die beiden zu verbinden bräuchte ich einen Spitzbubenstein und nicht zu vergessen für meine Arbeit 20.000 Goldstücke.~
+@123448 = ~Ich könnte Schwarzblut mit dem Beisser zu einer mächtigen Keule, die Säure-Splitter verschleudert, verbinden. Dies würde Euch 15.000 Goldstücke kosten.~
+@123449 = ~Ich könnte die Knochenkeule mit dem Beisser zu einer mächtigen Keule verbinden... eine perfekte Waffe für die Diener des Gleichgewichts. Ihr müsstet dafür allerdings 15.000 Goldstücke aufbringen.~
+@123450 = ~Wenn Ihr eine Schriftrolle mit dem Zauberspruch "Finger des Todes", einen verfluchten Heiltrank und 15.000 Goldstücke habt, kann ich den Schädelschmetterer für Euch neu schmieden. Seid Ihr daran interessiert?~
+@123451 = ~Der Herzsucher bräuchte die Sehne von Gesen oder die von Gond, damit man ihn neu spannen könnte. Für die Magie bräuchte man 4 Tränen Laerals und einen Trank der Macht. Damit könnte ich einen Langbogen erschaffen, der keine Pfeile benötigt.~
+  @123452 = ~Einverstanden; nehmt die Sehne von Gesen.~
+  @123453 = ~Einverstanden; nehmt die Sehne von Gond.~
+@123454 = ~Ah, die berüchtigte Magierfamilie. Wenn ich eine Schriftrolle zum Schutz vor Magie zu Verfügung hätte, könnte ich die Familienrüstung der Corthalas mit der Schattendrachenrüstung zusammenschmieden. Dafür würde ich 10.000 Goldstücke verlangen.~
+@123455 = ~Ja, ich kann einige Veränderungen an einer Erzmagierrobe vorhnehmen. Zusammen mit einem Schutzring +1 und Schriftrollen mit den Zaubersprüchen Geisterrüstung und Kettenzauber könnte ich eine Robe erschaffen, die Elminster würdig wäre. Allerdings würde Euch das 20.000 Goldstücke kosten.~
+  @123456 = ~Na klar, verbessert diese Robe des Guten Erzmagiers.~
+  @123457 = ~Na klar, verbessert diese Robe des Neutralen Erzmagiers.~
+  @123458 = ~Na klar, verbessert diese Robe des Bösen Erzmagiers.~
+@123459 = ~Sicherlich. Ich kann die verteidigenden Kräfte des Abwehrhelmes mit denen des Helmes zum Schutz vor Bezauberung vereinen. Dafür bräuchte ich allerdings vier Perlen und 10.000 Goldstücke.~
+@123460 = ~Hmm. Wenn Ihr mir 2 Flaschen mit dem Wasser, in dem Gedankenschinder aufgezogen werden, zur Verfügung stellen könnt, würde ich mit ihnen den Helm zum Schutz vor Bezauberung mit einem Schutz gegen psionische Angriffe versehen. Ausserdem sollte Euch eine solche Arbeit 10.000 Goldstücke wert sein.~
+@123461 = ~Mit einer Schriftrolle zum Schutz vor Elementarschäden könnte ich die Haut von Aegar ein bisschen härter und wohlriechender gestalten. Eine solche Anstrengung meinerseits würde Euch 15.000 Goldstücke kosten.~
+@123462 = ~Zusammen mit den wertvollen Platten der Rüstung des Hirsches könnte ich den Prunkharnisch der Firecams neu schmieden. Aber eine solch qualitativ hohe Arbeit fordert ihren Preis: 20.000 Goldstücke müsstet Ihr dafür an mich übereignen.~
+@123463 = ~Wenn ihr zwei Schriftrollen zum Schutz gegen Säure zur Verfügung habt, könnte ich damit ein paar Runen auf dem Ankheg Plattenpanzer anbringen. Das würde Euch dann auch um 5.000 Goldstücke ärmer machen.~
+@123464 = ~Aah, der Schild der Harmonie. Er sieht schon wundervoll aus, das muss ich zugeben. Wenn Ihr 2 Flaschen mit dem Wasser, in dem Gedankenschinder aufgezogen werden, habt, ein Gedankenschinder Kontrollhalsband und einen Beljuril-Edelstein, könnte ich einen noch besseren Schild schmieden. Dafür müsste ich 10.000 Goldstücke verlangen, aber der Schild wäre um einiges stärker und schützender als zuvor.~
+@123465 = ~Nun ja, zusammen mit einem Spitzbubenstein und 10.000 Goldstücken könnte ich einen schnellen Wurfspeer aus Eurem Speer +3 machen.~
+@123466 = ~Nun ja, zusammen mit einem Spitzbubenstein und 10.000 Goldstücken könnte ich einen Wurfspeer aus Eurem Einhornspeer machen.~
+@123467 = ~Ah, der Aufspiesser. Wenn es etwas gibt, was diese Sahuagin können, dann sind es Harpunen. Mit einem Spitzbubenstein und 15.000 Golstücken könnte ich einen Wurfspeer daraus machen.~
+@123468 = ~Mmmh. Diese Stäbe des Waldes waren bei mir noch nie beliebt, aber zusammen mit einem Schutzring und einem Ring der Tierfreundschaft könnte ich den Stecken der Wälder verbessern. Ich müsste dafür allerdings 20.000 Goldstücke verlangen.~
+@123469 = ~Zusammen mit vier Schriftrollen zum Schutz vor Untoten, zwei Flaschen mit Weihwasser und zwei Sternsaphiren könnte ich den Tagesstern in den Schrecken der Unterwelt verwandeln. Ach ja, und noch 15.000 Goldstücke für mich.~
+@123470 = ~Die Göttliche Rage? Ich bin doch nicht aus Kara-Tur, und es ist alles andere als einfach, ein Katana mit Magie zu belegen. Falls Ihr aber das Herz eines Dämonen und einen Stab der Blitze zur Verfügung habt, könnte ich es einmal versuchen. Eine solche Anstrengung würde Euch aber 20.000 Goldstücke kosten.~
+@123471 = ~Ja, ich kann das Schwert von Arvoreen verbessern. Aber nicht ohne den Segen der Göttin selbst: Dazu muss Eure Gruppe von reinem Herzen und untadeligem Ruf sein. Und Ihr müsstet noch 15.000 Goldstücke erübrigen.~
+@123472 = ~Ah, der Geheiligte Rächer. Obschon eine heilige Klinge ist sie von eher minderer Qualität. Mit dem Herz eines Dämonen und fünf Schriftrollen mit dem Zauberspruch "Magie bannen" könnte ich sie zu einer stärkeren schmieden. Aber ich brauche dafür den Segen von Torm, so dass ich dieses Werk nur für eine Gruppe, die treu ergeben und von untadeligem Ruf ist, ausführen kann. Und noch für 15.000 Goldstücke zusätzlich.~
+@123473 = ~Ja, durchaus. Ich könnte die Schildplatte von Anomens Schild zu dem Schid Gnadenretter hinzufügen. Das würde Euch 15.000 Goldstücke kosten.~
+@123474 = ~Ah, das sogenannte Schwert mit Persönlichkeit. Ich kann gar nicht zählen, wie oft Abenteurer mich gebeten haben, es zum Schweigen zu bringen. Wenn Ihr ein Kontrollhalsband für Gedankenschinder besitzt, könnte ich es ein wenig dämpfen und gleichzeitig seine Fähigkeiten vermehren. Allerdings nur gegen eine kleine Aufmerksamkeit von 20.000 Goldstücken.~
+@123475 = ~Ja, Ihr habt da schon einige nette Messer. Ich könnte die Knochenklinge mit dem Feenkoboldstich zusammenbringen, wenn ich dafür 4 Tränke der Meisterdiebeskunst verwende. Das würde eine wirklich passende Klinge für einen Dieb ergeben. Wäre eine solche Euch 15.000 Goldstücke wert?~
+@123476 = ~Ja. Ich könnte das Heilige Symbol von Amaunator in die Tartsche einarbeiten, damit dieses den Schutz dieser längstvergessenen Gottheit geniesst. Dazu bräuchte ich noch fünf Sonnensteine und 10.000 Goldstücke. Na, reizt Euch der Gedanke an solch ein Schild?~
+
+@123477 = ~Ah. Ihr solltet über die Handschuhe des Taschendiebstahls, Abwehrarmreifen, den Ring der Dietriche, den Ring des Sechten Sinnes sowie zwei Schutzringe verfügen. Diese kann ich alle zusammenflicken, wenn Ihr mir noch 5.000 Goldstücke zukommen lassen würdet, um meine Ausgaben zu decken.~
+
+@123478 = ~Mit zwei Schutzamuletten, dem Schutzperidot gegen Gift, der Halskette der Gestaltwahrung und dem Amulett des Zauberschutzes kann ich für Euch das Amulett des Ilmater erschaffen. Würdet Ihr 10.000 Golstücke dafür bezahlen?~
+
+@123479 = ~Aye, mit der Wasserklinge, Adjatha dem Trinker und Rashad's Klaue können wir eine wohlgeformte Klinge schmieden, über die sogar der Herrscher der Stürme grün vor Neid werden würde. Diese auf Wasser basierende Klinge würde Euch 15.000 Golstücke kosten. Seid Ihr dabei?~
+
+@123480 = ~Ah. Ich könnte die Azurklinge mit Illithium überziehen, das würde ihren Widerstand gegen die Kräfte der Untoten verbessern. Für 20,000 Goldstücke könnte ich Euch diesen Gefallen erweisen.~
+
+@123481 = ~Aye, obwohl ich in der Kunst der Magie nicht so bewandt bin, könnte ich den Ring der Klugheit, den Zauberring und das Amulett des Metazaubereinflusses zu einem tollen Schmuckstück zusammenschmieden, das einem Zauberer helfen würde, sich seine Zaubersprüche zu merken. Ein Schutzring und 20.000 Goldstücke würden das Ganze abrunden. Soll ich mal?~
+
+@123482 = ~Könnt Ihr diesen Gürtel noch nutzbringender gestalten?~
+
+@123483 = ~Aye, wenn Ihr die passende Gürtelsammlung vorweisen könnt: den Gürtel der Wucht, den der Durchdringung und die Goldschärpe. Ich kann sie alle zu einem Gürtel schmieden, der Euch wahrhaft schützt. Dazu bräuchte ich allerdings noch drei Blutsteine und 10.000 Goldstücke. Hmm?~
+
+@123484 = ~Ich hätte gerne, dass mein Zauberring noch ein bisschen magischer wird.~
+
+@123495 = ~Könnt Ihr diese schwarze Spinnenfigur noch etwas verbessern?~
+@123496 = ~Mit einem Drow-Magier wäret Ihr da besser beraten als mit einem Zwerg. Aber ich werd's machen, wenn auch widerwillig.~
+@1234996 = ~Ich brauche allerdings noch ein paar andere magische Gegenstände: Schriftrollen mit Netz und Spinnenbrut, fünf vergiftete Wurfdolche sowie 5.000 Goldstücke. Seid Ihr immer noch interessiert?~
+
+@123497 = ~Können Chaos und Entropie noch verbessert werden?~
+@123498 = ~Ihr wollt also, dass ich Waffen von einer anderen Ebene umschmiede. Sehr riskant. Mhm, lasst mich mal sehen. Ja... Wenn es Euch egal ist, dass Arbane und Ilbratha Schaden davon nehmen, kann ich die Schwerter des Tieflings umschmieden. Sie würden dann mehr Schaden anrichten und hätten ähnliche Fähigkeiten wie Zaubersprüche. Es würde Euch 25.000 Goldstücke, einen Spitzbubenstein, eine Schriftrolle mit Chaos und eine mit Größerem Unbehagen. Seid Ihr interessiert?~
+
+@123499 = ~Könnt Ihr mir ein Elfenkettenhemd schmieden?~
+@1234100 = ~Ja, ich könnte das Elfenkettenhemd mit den Schuppen eines Flammenbiests zusammenschmieden. Dazu brauche ich drei Andare und drei Feuerachate, um das Inferno im Zaum zu halten. Außerdem noch 25.000 Goldstücke für meine Arbeit und all die anderen Zutaten. Es würde jedenfalls eine mächtige Rüstung werden. Interessiert?~
+
+
+
+
+
+
+
+@56780 = ~Macht Euch an die Arbeit, Cespenar.~
+@56781 = ~Habt Ihr noch irgendwelche Fragen? Oder soll ich einfach mal beginnen, Eure Sachen zu durchwühlen?~
+
+@56782 = ~Könnt Ihr etwas mit diesem Schutzring anfangen?~
+@56783 = ~Könnt Ihr etwas aus diesem mächtigen Schutzring schmieden?~
+@56784 = ~Könnt Ihr etwas aus diesem Elementarbeherrschungsring machen?~
+@56785 = ~Könnt Ihr die Stab der Elemente verbessern?~
+@56786 = ~Könnt Ihr etwas aus den Stiefeln der Diebeskunst zusammenschustern?~
+@56787 = ~Könnt Ihr die Stiefel des Hohen Nordens umarbeiten?~
+@56788 = ~Seht Ihr eine Möglichkeit, diese Stiefel der Bodenhaftung zu verbessern?~
+@56789 = ~Könnt Ihr etwas mit diesen Stiefeln der Vermeidung anfangen?~
+@567810 = ~Seid Ihr in der Lage, die Keule Schwarzblut noch ein bisschen besser zu gestalten?~
+@567811 = ~Könnt Ihr dafür sorgen, dass diese Knochenkeule noch mächtiger wird?~ 
+@567812 = ~Ich möchte, dass der Schädelschmetterer noch tödlicher wird. Könnt Ihr mir dabei helfen?~
+@567813 = ~Gibt es etwas, mit dem Ihr den Herzsucher verbessern könnt?~
+@567814 = ~Könnt Ihr die Familienrüstung meine Freundes Valygar neu formen?~
+@567815 = ~Könnt Ihr diese magische Robe verbessern?~
+@567816 = ~Ich wünsche mir, dass mir mein Abwehrhelm mehr Schutz bietet. Könnt Ihr in dieser Sache etwas unternehmen?~
+@567817 = ~Könnt Ihr meinen Helm zum Schutz vor Bezauberung etwas vielseitiger gestalten?~
+@567818 = ~Seid Ihr in der Lage, Aegers Haut ein bisschen aufzupolieren?~
+@567819 = ~Könnt Ihr zur Familienrüstung von Sir Keldorn Feuerkamm noch etwas dazuschmieden?~
+@567820 = ~Könnt Ihr diesen Ankheg Plattenpanzer noch etwas verstärken?~
+@567821 = ~Der Schild der Harmonie -- könnt Ihr seine Kräfte noch verstärken?~
+@567822 = ~Ich suche schon lange nach einem Wurfspeer. Könnt Ihr einen anfertigen?~
+@567823 = ~Was könnt Ihr aus meinem Einhornspeer fertigen?~
+@567824 = ~Gibt es eine Möglichkeit, den Aufspießer so zu verändern, dass er noch mehr Schaden anrichtet?~
+@567825 = ~Könnt Ihr den Stecken der Waldländer noch magischer gestalten?~
+@567826 = ~Der Tagesstern. Seine Macht muss noch größer werden!~
+@567827 = ~Könnt Ihr aus der Göttlichen Rage ein Daikatana schmieden?~
+@567828 = ~Können wir das Schwert von Arvoreen verbessern?~
+@567829 = ~Können wir auf den Geheilgten Rächer von Keldorn noch einen zusätzlichen Segen sprechen?~
+@567830 = ~Ich würde gerne den Familienschild der Delryns verbessern.~
+@567831 = ~Könnt Ihr dafür sorgen, dass Lilarcor endlich den Mund hält?~
+@567832 = ~Ich hätte wirklich gerne einen Dolch, der meine Gegner hinwegrafft. Könnt Ihr aus einem von meinen einen solchen anfertigen?~
+@567833 = ~Können wir aus dieser lausigen Tartsche noch etwas vernünftiges machen?~
+@567834 = ~Gibt es noch eine Möglichkeit die Handschuhe des Taschendiebstahls zu verbessern?~
+@567837 = ~Könnt Ihr etwas aus diesem Amulett machen?~
+@567838 = ~Ich hätte gerne, dass Ihr diesen Krummsäbel verbessert.~
+@567839 = ~Könnt Ihr Azurklinge noch mächtiger gestalten?~
+@567891 = ~Ich hätte gerne, dass mein Zauberring noch ein bisschen magischer wird.~
+
+@567835 = ~Im Moment nicht.~
+@567836 = ~Oh ja, gerne!~
+
+
+
+// ....
+
+@567876 = ~Seht Ihr eine Möglichkeit, an dieser Munition etwas zu verbessern?~
+@567877 = ~Kennt Ihr ein Rezept für die Waffe des Fleisches?~
+@567878 = ~Könnt Ihr den Seelenschnitter neu schmieden?~
+
+// ....
+
+@567840 = ~Was habt Ihr auch eine solch große Anzahl von Ringen? Ihr habt wohl viele Liebschaften so nebenbei? Schande, Schande über Euch, Cespenar KENNT EUREN NAMEN!!!~
+@5678940 = ~Naja, wie auch immer, wir könnten den Regenerationsring und diesen Schutzring +1 zusammenfügen. Das spart Platz an Euren Händen. Wir bräuchten dafür 10.000 Goldstücke und einen Diamanten, den wir mit einschmelzen müssten! Du wollen?~
+
+@567841 = ~Oh ja, Ihr tragt da eine Menge Glänzender an Euren Händen. Cespenar mag diesen Anblick, es sein ja gerade in Mode.~
+@5678941 = ~Naja, wie auch immer, wir könnten den Regenerationsring und diesen Schutzring +2 zusammenfügen. Das spart Platz an Euren Händen. Wir bräuchten dafür 10.000 Goldstücke und einen Diamanten, den wir mit einschmelzen müssten! Du wollen?~
+
+@567842 = ~Ihr braucht keine Kassette für Eure Edelsteine, Ihr braucht einen ganzen Koffer! Vielleicht wollt Ihr an jedem Zehen einen tragen, hmm?!?~
+@5678942 = ~Wie wäre es, wenn Cespenar diese Ringe der Luft-, Feuer- und Erdbeherrschung zu einem Ring der Elementbeherrschung formt? Ein Ring ist billiger zu versichern als drei. Für das Rezept bräuchte ich noch eine Zauberrolle zum Schutz vor steinernen Nasen, heißem Zeugs und Blitzen und 20.000 Goldstücke. He, ich legen die Preise nicht fest, das ist alles die Schuld der Gewerkschaft!~
+
+@567843 = ~Ist Euch jemals aufgefallen, dass die Elementare niemals einen Fehler begehen? Ich schwöre, manchmal wünschte ich mir dann einen dieser Stecken, die ihnen eine Tracht Prügel verpassen... hey! Ihr habt alle drei?~
+@5678943 = ~Die Stecken, mit denen man Erd-, Feuer- und Luftelementaren heimleuchten kann, sind momentan von minderer Bedeutung für Euch, aber Cespenar kann aus ihnen einen Stab der Elementbeherrschung machen, so dass alle Elementare Euch jeden Wunsch von den Lippen ablesen, und wenn nicht... BUMM!!!! Das würde Euch 20.000 Goldstücke kosten, aber Cespenar hat halt auch hohe Fixkosten. Jaa?~
+
+@567844 = ~AAAAAHHHHH! Ihr sein auf Cespenar getreten! Tehehe, war nur ein Scherz!~
+@5678944 = ~Hokay, Cespenar kann aus den Stiefeln der Diebeskunst und Siebenmeilenstiefeln die Stiefel der Verschlagenheit schustern. Das wird schon ein passender Name sein, obwohl Bhaal dafür gesorgt hat, dass Cespenar nicht viele Bücher zum Lesen bekommt. (schnüff) Egal, Ihr habt hoffentlich noch einen Spitzbubenstein aufgehoben, weil Euch das Ganze 10.000 und einen von diesen glänzenden kosten wird.~
+
+@567845 = ~Hmmm. Isolierte Stiefel? Wollt Ihr darin Eier ausbrüten? Oder spielt Ihr lieber Icewind Dale?~
+@5678945 = ~Solange Ihr nicht vorhabt, Euch zusätzliche Füße wachsen zu lassen, wird Cespenar die Stiefel des Nordens und die Siebenmeilenstiefel nehmen und daraus die Eissturmstiefel machen. Machen selbes Zeug wie einzelne Stiefel, c'est la vie. Habt Ihr vielleicht 10.000 Goldstücke und einen dieser Spitzbubensteine zur Verfügung?~
+
+@567846 = ~Pfuiiiii! Gummistiefel stinken wenn der Große sie an seinen schweißigen Füßen trägt, egal ob sie magisch sind oder nicht. Wisst Ihr, was die beste Methode ist, um Blitzstrahlen auszuweichen? Einfach woanders sein! Echt wahr.~
+@5678946 = ~Cespenar kennt einen Priester des Talos, der aus den Siebenmeilenstiefeln und den Stiefeln der Bodenhaftung die Stiefel des Sturmherrn schustern kann. Er benötigt dafür allerdings 10.000 Goldstücke und einen Spitzbubenstein.~
+
+@567847 = ~Cespenar weiß schon, was der Große zum Geburtstag bekommt: Schuhbäume! Seid Euch sicher, dass Ihr nicht woanders arbeiten wollt? Vielleicht wäret Ihr lieber ein Schuster oder ein Schmied oder so? Ihr könnt immer noch woanders Karriere machen, Ihr seid ja noch jung!~
+@5678947 = ~Ihr habt einen guten Geschmack, was Schuhe betrifft. Ich habe ein tolles Rezept für die Hornissenstiefel, man benötigt die Stiefel der Vermeidung und Siebenmeilenstiefel und ist dann schon gut gegen Pfeile geschützt. Das Rezept kostet 20.000 Goldstücke und einen Spitzbubenstein, der ja nicht auf Bäumen wächst, zumindest nicht auf allen. Einverstanden?~
+
+@567848 = ~Oooooohhhh... Ihr habt da aber einen furchterregenden Stecken! Hehehe! Einer Eurer Freunde muss wohl ein Druide sein. Ihr müsst für diese immer einen Stecken parat haben. Glaubt Ihr, dass die Bäume, aus denen diese Stecken gemacht werden, verrückt sind?~
+@5678948 = ~Vielleicht habt Ihr diese giftige Schwarzblutkeule und diesen Beißer, den wohl jemand vergessen hat zu polieren. Ich habe ein Rezept für die Schlägerbraut, damit könnt Ihr den Bösewichtern Splitter verpassen, die echt BRENNEN! Zum Sonderpreis von 15.000 Goldstücken. Zumindest wenn Ihr wollt, dass Cespenar sein Schleifpapier herauskramt.~
+
+@567849 = ~Autsch! Warum sind auch alle Keulen so spitz? Cespenar glaubt, dass er da noch irgendwo die passende Kleidung hat, die ihn vor solchen Unannehmlichkeiten schützt...~
+@5678949 = ~Oh, möchtet Ihr vielleicht eine bessere Keule? Aus der Knochenkeule und dem Beißer könnte ich den Bewahrer machen. Der richtet vor allem bei Leuten, die "das Gleichgewicht" nicht respektieren, enormen Schaden an. Cespenar versucht sich aus diesen politischen Dingen herauszuhalten. Deswegen wird er 15.000 Goldstücke nehmen, die Keule anfertigen und dann das Ganze vergessen, okay?~
+
+@567850 = ~Cespenar hat noch nie verstanden warum ein Kleriker dich blutig schlagen darf, aber es ihm nicht erlaubt ist, mal ein Buttermesser zu benutzen. Schon seltsam.~
+@5678950 = ~Naja egal, Ihr habt den vorzüglichen Streitkolben Schädelschmetterer. Cespenar kann ihn noch besser machen, wenn Ihr ihm dafür eine Schriftrolle mit dem Zauberspruch Finger des Todes, einen VERFLUCHTEN Heiltrank (übrigens guter Cocktail!) und 15.000 Goldstücke gebt. Und noch 3 Wäscheklammern aus der Unterwäschenschublade der Mutter Oberin. Cespenar benötigt diese letzte Zutat nicht unbedingt.~
+
+// newby
+
+@567851 = ~Hrrrrruuuhhh... hrrrruuuuhhh... hyyyyaaaaaaahhhhh! Oooh, echt schwer, diesen Bogen zu spannen! Cespenar könnte Euch anbieten, einen Apfel auf dem Kopf des Großen Einen mit einem Pfeil zu durchbohren, aber Ihr solltet bedenken, was passiert ist, als er den Apfel verfehlt und stattdessen die Nase von Bhaal getroffen hat. Cespenar konnte einen Zehntag lang nicht sitzen!~
+@5678951 = ~Ihr habt da einen netten Bogen, aber ich könnte einen besseren machen mit dem Rezept für den Todbringer. Die Pfeile würden in Eurer Hand erscheinen, und sowohl Freunde wie Feinde würden nur noch staunen. Das Rezept braucht eine Menge Zutaten: die Sehne von Gesen oder von Gond, vier Tränen Laerals und einen Trank der Macht.~
+
+@567854 = ~Oooh! Ein sehr scharfer Anzug. Vorsichtig sein, Cespenar hat heute noch nicht in Staub gebadet... wenn Ihr niest, könnte mein Gesicht gefrieren. Tehehe! Ihr wisst, dass einige Leute behaupten, dass Valygar eine schlechte Mutter ist... Ihr haltet Cespenars Mund zu? Cespenar hat doch nur über Valygar gelästert!~
+@5678954 = ~Mit zwei so netten Rüstungen kann man eine wirklich gute erstellen! Sie schützt vor den meisten schlechten Dingen wie zum Beispiel Feuer und Säure! Und ich nehme keine Manschettenknöpfe, ich brauche 10.000 Goldstücke und eine Schriftrolle zum Schutz vor Magie.~
+
+@567855 = ~Cespenar hatte einmal einen Smoking... war das Geschenk eines guten alten Freundes, haben ihn in der Reinigung verloren. Habt Ihr vielleicht etwas mit seinem Verschwinden zu tun? Das da sieht ihm sehr ähnlich...~
+@5678955 = ~Oh, es ist nur die Robe von diesen Erzmagiertypen. Cespenar hat ein gutes Rezept damit der Name auch einen Sinn ergibt. Er braucht einen Schutzring +1, jeweils eine Schriftrolle mit dem Zauberspruch Geisterrüstung und Kettenzauber, sowie 20.000 Goldstücke. Dann könnt Ihr mehr Zauber sprechen, wie ein RICHTIGER Erzmagier!~
+
+@567859 = ~Hattet Ihr gelegentlich einmal keinen Nachttopf zur Hand? Cespenar würde Euch vorschlagen, einen Helm dafür zu benutzen, natürlich den eines anderen.~
+@5678959 = ~Wenn Ihr noch ein paar zusätzliche Töpfe habt, kann Cespenar vielleicht einen netten Topf für Euren Kopf daraus machen! Ein gutes Rezept habe ich, vermischt den Abwehrhelm mit dem Helm zum Schutz vor Bezauberung. Dazu brauche ich noch 4 Perlen und 10.000 Goldstücke. Hört sich gut an, nicht wahr?~
+
+@567860 = ~Oooh! Cespenar kann diesen als Rührschüssel verwenden, wenn Ihr den Helm nicht mehr benötigt.~
+@5678960 = ~Wie wäre es mit dem Rezept für den Turm des eisernen Willens? Man benötigt den Helm zum Schutz vor Bezauberung, zwei Flaschen mit dem Wasser, in dem Gedankenschinder aufgezogen werden (erzählt mir bloß nicht, wie Ihr daran gekommen seid) und 10.000 Goldstücke. Das schützt dann einen solch großen Kopf besser.~
+
+@567861 = ~Wollt Ihr Euch das an die Wand hängen? Die meisten Leute wollen keine Feuerstelle in der Hölle, aber vielleicht können wir eine in den Teppich einbauen lassen.~
+@5678961 = ~Oder Ihr wollt vielleicht etwas Glänzendes daraus machen? Nehmt Aegers Haut, eine Schriftrolle zum Schutz vor den Elementen und 15.000 Goldstücke, damit werden Große widerstandsfähiger gegen Wetterzeugs. Cespenar darf halt nicht WIRKLICH kreativ sein.~
+
+@567862 = ~Wie bekommt Ihr eine orangefarbene Ganzkörperrüstung? Wenn Ihr zu lange in der Sonne liegt? Tehehe...~
+@5678962 = ~Vielleicht kann Cespenar eine bessere machen, wenn er die Rüstung des Hirsches einschmelzt und Ihr noch 20.000 Goldstücke dazu gebt.~
+
+@567863 = ~Tragt Ihr immer noch diesen Käfer auf Euren Schultern? Ihr müsst ja viele neue Leute kennen lernen, wenn Ihr so rumlauft?~
+@5678963 = ~Ihr gebt Cespenar einfach die beiden Schriftrollen zum Schutz gegen Säure und 5.000 Goldstücke und Cespenar macht diesen Käfer noch härter. Der verschießt dann sogar Säurepfeile!~
+
+@567864 = ~Awww, das ist das bewundernswertestete Schild, das Cespenar jemals zu Gesicht bekommen hat! Man könnte es als Serviertablett benutzen, wenn Ihr mal Gäste habt?~
+@5678964 = ~Es ist schwer, solch gute Arbeit noch besser zu machen, aber wenn Ihr zwei Flaschen mit dem Wasser, in dem Gedankenschinder aufgezogen werden, und so ein verrücktes Kontrollhalsband von diesen Krakenköpfen zusammen mit einem Beljuril und 10.000 Goldstücken habt, kann Cespenar die Immunität gegen psionische Angriffe hinzufügen.~
+
+@567865 = ~Das hier erinnert Cespenar an einen seeehr langen Zahnstocher. Weit aufmachen, Cespenar ist ein guter Diener seines Herrn, er putzt Euch sogar die Backenzähne! Tehehe!~
+@5678965 = ~Warum scheint es Euch an der Hand zu kleben? Habt Ihr Angst, dass Ihr ihn verlieren könntet? Dafür habe ich ein ganz einfaches Rezept: 10.000 Goldstücke und einen Spitzbubenstein, und Euer Speer wird stets zu Euch zurückfinden, egal wie weit Ihr ihn auch werft.~
+
+@567866 = ~Was ist denn das? Eis am Stiel? Warum hat Cespenar noch nie daran lutschen dürfen?~
+@5678966 = ~Oh, das Horn eines Einhorns. Und auch noch schön spitz. Warum benutzt Ihr diesen Speer nicht als Wurfspeer? Ihr braucht nur Cespenar einen Spitzbubenstein und 10.000 Goldstücke zu geben und Ihr lauft als speerwerfender Bandit durch die Gegend!~
+
+@567867 = ~Ihr angelt gerne? Mit dem Ding da könntet Ihr auf Walfang gehen. Ihr bräuchtet zwar noch eine Befestigung, aber das ist nicht Cespenars Problem.~
+@5678967 = ~Der Aufspießer könnte auch aus der Entfernung großen Schaden anrichten. Ihr benötigt nur 15.000 Goldstücke und einen Spitzbubenstein. Ich brauche diese Ingredenzien wirklich, ich frage nicht nur zum Spaß danach. Seid vor allem vorsichtig, wenn der Speer zurückkommt... wenn Ihr ihn nicht auffangt, wird er Euch WEHTUN!~
+
+@567868 = ~Netter großer Stab. Ist sein Gebell schlimmer als sein Biss? Tehehe...~
+@5678968 = ~Cespenar hat ein tolles brandneues Rezept für den Stecken der Waldländer gelernt. Ihr gebt Cespenar einen Schutzring +1, den Ring der Tierfreundschaft und 20.000 Goldstücke, und wir erhalten einen neuen Stab, der sich immer wieder auflädt und den Leuten, die von ihm getroffen werden, schlimme Dinge antut!~
+
+@567869 = ~Ooooh! Ihr habt das Glänzendste aller glänzenden Langschwerter! Ich wette Ihr habt schon ein oder zwei Vampire mit diesem süßen Ding getötet! En garde, Blutsauger! Cespenar wird Euch zerschmettern!~
+@5678969 = ~Wollt Ihr vielleicht noch einen besseren Tagesstern? Da müsst Ihr mir schon ein paar nette Zutaten liefern, zum Beispiel vier Schriftrollen zum Schutz vor Untoten, zwei Fläschchen mit elfischem Weihwasser, zwei Sternsaphire und 15.000 Goldstücke, aber Cespenar kann den Großen kaum in die falsche Richtung lenken! Ihr werdet mehr Sonnenstrahlen bekommen und zusätzlichen Schutz vor Bösem. Soll ich mal anfangen?~
+
+@567870 = ~Oh, hochverehrter Großer-San! Könnt Ihr Euch vorstellen, dass die Göttliche Rage nicht mehr so gut aussieht?~
+@5678970 = ~Cespenar hat ein nettes kleines Rezept, um das wieder in Ordnung zu bringen! Naja, vielleicht nicht ganz so klein. Habt Ihr einen Stab der Blitze? Könnt Ihr noch ein Dämonenherz erübrigen? Üüübelriechend, ich weiß, aber man benötigt sie für die seltsamsten Dinge. Oh, und 20.000 Goldstücke bräuchte ich auch noch.~
+
+@567871 = ~Ihr kennt den kleinsten Paladin, Zweibeiner? Cespenar hat ein Buch auf seinem Dachboden, in dem derselbige erwähnt wird.~
+@5678971 = ~Ich kann das Schwert noch stark verbessern. Ein spezielles Angebot für Leute, die nicht so groß sind. Ihr müsst nur ein reines Gewissen haben und Cespenar 15.000 Goldstücke geben! Ihr werdet kein besseres Angebot auf dieser Seite der Vorhölle finden!~
+
+@567872 = ~Cespenar ist sehr beeindruckt, dass gute Zweibeiner mit dem Großen reisen! Ihr wollt vielleicht diese charakteristische Waffe benutzen, um dem Großen zur Seite zu stehen?~
+@5678972 = ~Cespenar kennt einen Priester des Torm, der den Rächer erneut heilig sprechen wird und einige Nettigkeiten wie Magie bannen und andere zum Schweigen zu bringen hinzufügen wird. Dazu brauche ich noch ein Dämonenherz (mein eigenes ausgeschlossen), fünf Schriftrollen mit dem Zauberspruch Magie bannen und 15.000 Goldstücke, und ein Herz aus Gold. Es würde weniger kosten, wenn Cespenar nicht Lizenzgebühren an diese zweibeinigen Anwalttypen zahlen müsste. Und sie treiben diese Gebühren wahrlich ein.~
+
+@567873 = ~Oh Mann! Noch mehr Servierplatten! Cespenar hat nicht mehr genug Gedecke für das Bankett des Großen!~
+@5678973 = ~Wartet... ich kenne da noch ein Rezept für Schilde mit Servierplatten. Wir nehmen das Familienschild der Delryn und die Gnadenretter Servierplatte, benutzen noch 15.000 Goldstücke um das Schild der Delryns mit einem noch besseren Schutz zu versehen! Oder wir behalten es als Extratablett für Eure Gruppe.~
+
+@567874 = ~Was? Ihr wollt nicht mit dem Schwert sprechen? Was macht Ihr, wenn Ihr in einem tiefen schwarzen Loch gefangen seid und nur mit diesem Schwert sprechen könnt? Ihr wäret dankbar dafür!~
+@5678974 = ~Aber, hmmmm, Cespenar weiß, dass das Gedankenschinder-Kontrollhalsband benutzt werden kann, um Lilarcor noch stärker zu machen und dann auch noch diese lästigen Gedankenschinder davon abhält, euch das Hirn herauszusaugen (neben all dem Stroh, das der Große da drin hat)! Und Lily kann sich nicht mehr mit Euch unterhalten. Das wäre zwar betrüblich und es würde Euch auch 20.000 Goldstücke kosten.~
+
+@567875 = ~Habt Ihr schon einmal daran gedacht, zu lieben anstatt Krieg zu führen? Klar, Ihr erhaltet hierbei eine Menge Messer... ~
+@5678975 = ~Ahhhh, Cespenar hat eine tolle Idee! Ich mache einen tollen Dolch für einen hinterhältigen Typen. Mit der Knochenklinge und dem Feenkoboldstich mache ich einen Dolch, mit dem sich exzellent ein Hinterhältiger Angriff durchführen lässt und der die Leute schlafen legt! Ich benötige noch vier Flaschen mit dem Trank der Meisterdiebeskunst und 15.000 Goldstücke, aber dann werden Eure Feinde nicht mehr erkennen, was sie getroffen hat, BATSCH!~
+
+// ....
+
+@567879 = ~Oooh, jemand hat Euch von der unendlichen Munition erzählt? Tja, das ist wie mit Falschgeld... wahrscheinlich muss Cespenar das alles wieder im Fluss versenken, diesmal aber mehr Gewicht dranhängen!~
+@5678979 = ~Oder wir probieren diesmal etwas anderes aus und versuchen ein neues Rezept. Habt Ihr 40 +3 Geschoße und 40.000 Goldstücke und wir machen dann unendliche Munition +3. Denkt einfach daran, wie viel Geld Ihr spart, wenn Ihr keine Munition mehr kaufen müsst! Außer natürlich Ihr habt es in langlaufende festverzinsliche Wertpapiere angelegt, da könntet Ihr einen besseren Gewinn erzielen.~
+
+
+@567880 = ~Ja, verbessert den Köcher.~
+@567881 = ~Ja, verbessert die Schachtel.~
+@567882 = ~Ja, verbessert den Beutel.~
+
+@567883 = ~Sieht aus wie einer von den großen Leuten auf einem Kleiderbügel. Hallo, große Leute! Winkt Cespenar zu, Ihr werdet demnächst von dem Großen getragen!~
+@5678983 = ~Cespenar sein kein Hautarzt aber er kann aus der Waffe des Fleisches zusammen mit dem Seelenstein und einer Schriftrolle zum Schutz vor Magie und 20.000 Goldstücken, das ganze noch glänzender machen. Es wird Euch noch widerstandsfähiger und robuster machen. Was man von den Leuten, die Ihr tragen werdet, nicht behaupten kann.~
+
+@567884 = ~Wo habt Ihr das gefunden? Bhaal hat immer danach gesucht, es aber nie gefunden! Er wollte es zur Dekoration über den Eingang hängen... Cespenar hat ihn bekniet, aber das war schon schwierig...~
+@5678984 = ~Sehr sehr verschlagenes Rezept für den Seelenschnitter. Nehmt das Herz des Verdammten und das ultimative Schwert der guten Zweibeiner und 20.000 Goldstücke, dann wird der Seelenschnitter supersupertödlich! Wenn einer von den guten Zweibeinern Euch danach fragt, verratet ihm nicht, dass es Cespenars Idee war!~
+
+@567885 = ~Ooh, das glänzende Symbol des alten Sonnengottes! Amaunator und Bhaal sind nie gut miteinander ausgekommen. Ein alter Streit über Dämonen, Sonnenlicht und diese heilige Ziege. Ziemlich traurige Geschichte. Als die Ziege gestorben war ist Ammy nicht mehr zum Tee vorbei gekommen.~
+@5678985 = ~Egal, ich kann das heilige Symbol in eine Tartsche einarbeiten. Für jeden Finger einen Sonnenstein und insgesamt 10.000 Goldstücke, dann wird ein glänzendes Schild daraus, das die lästigen Untoten abhalten wird, euch anzugreifen. Ihr wollt?~
+
+@567886 = ~Diebeszeug, ich sehe schon. Wollt Ihr Cespenar beklauen? Wartet! Cespenar hat gar keine Taschen! Nicht böse sein. Ich bin mir sicher, Ihr werdet noch genug Bösewichte finden, die Ihr ausrauben könnt.~
+@5678986 = ~In der Zwischenzeit, habe ich ein Rezept für Diebeszubehör herausgesucht. Alles ganz modische Dinge: die Handschuhe des Taschendiebstahls, Abwehrarmreifen, den Ring der Dietriche und der des Sechsten Sinns, zwei Schutzringe. Zusammen mit 5.000 Goldstücken mache ich daraus einen großen glänzenden Ring.~
+
+@567887 = ~Ah, funkelnde Edelsteine Ihr habt. Obwohl sie sehr ungeschickt angeordnet sind. Vielleicht kann Cespenar Euch dabei später unter die Arme greifen. Ein bisschen violett würde Eure Augen besser zur Geltung bringen? Oder?~
+@5678987 = ~Schön, schön, Cespenar kann zwei Schutzamulette, das Schutzperidot gegen Gift, die Halskette der Gestaltwahrung und das Amulett des Zauberschutzes zusammenbiegen. Das wäre eine tolle Juwelenkette! Zusammen mit einem bisschen Segen von meinem Freund Ilmater (aus irgendeinem Grund hat Ilmater ein Schwäche für den armen Cespenar) und los geht's! Wollt Ihr die Kette für 10.000 Goldstücke?~
+
+@567888 = ~Plitsch-Platsch! Die Wasserklinge wäre schon spaßiger als nur so herumzuplanschen. Seid Ihr vielleicht ein Fechter? Cespenar hat ein Rezept, das für Leute mit guten Lungen geeignet ist.~
+@5678988 = ~Mit der Wasserklinge, Rashads Klaue und Adjatha dem Trinker, kann ich ein großes Wasserschwert machen. Naja, nicht wirklich groß, aber sehr nett anzuschauen. Ich hoffe, Ihr habt nichts gegen Gift einzuwenden! Ich bekomme 15.000 Goldstücke für den Job?~
+
+@567889 = ~Oooh, eine glänzende Axt die alles Böse tötet. Habt Ihr etwa vor, Cespenar zu töten? Oh wartet, es funktioniert nur gegen Untote, nicht gegen Dämonen. Habt Ihr mich gerade erschreckt! Cespenar hat noch mal sein Leben vor seinen Augen vorbeiziehen lassen: viel zu viele Verbeugungen und nicht genug Zerstörung. Muss korrigiert werden.~
+@5678989 = ~Naja, rosa steht Euch nicht wirklich gut. Ich könnte die Azurklinge mit Illithium überziehen, dann wäre sie eher purpurfarben. Sie würde dann auch noch ein bisschen besser Untote abmurksen. 20.000 Goldstücke. Ihr seid interessiert?~
+
+@567890 = ~Ich entdecke da einen Ring an Eurem Finger! Ihr habt viel zu viele Ringe für Eure Finger? Das ist schon ein großes Problem, Cespenar weiß bescheid. So viele Glänzende, so wenig Klauen.~
+@5678990 = ~Ich sag Euch was. Cespenar kann Euren Zauberring und den Ring der Klugheit zusammen mit dem Amulett des Metazaubereinflusses und einem normalen Schutzring zu einem Hexenmeisterring zusammenfügen. Für Magier ist das recht nett. Wollt Ihr, es würde Euch nur 20.000 Goldstücke kosten?~
+
+@567892 = ~Könnt Ihr diesen Gürtel verbessern?~
+
+@567893 = ~Ooh, Gürtel sind ja zur Zeit so in Mode. Ich frage mich, warum die alle diese beige Farbe haben? Muss wohl am Licht in diesem Einsprengsel liegen. Der Anblick ermüdet Cespenar.~
+@5678993 = ~Egal, wenn Ihr die drei Schutzgürtel habt, kenne ich ein Rezept, das sie zu einem richten fetten Gürtel macht. Wenn Ihr Euch dahinter versteckt, werden Euch Eure Feinde nicht verletzen können. Das wäre doch ein Geschäft, hm? Wollt Ihr, der Preis läge bei 10.000 Goldstücken und drei Blutsteinen?~
+
+@567895 = ~Was könnt Ihr mit dieser Schwarzen Spinnenfigur anfangen?~
+
+@567896 = ~Oh, raffiniert! Wollt Ihr, dass Cespenar diese Spinne verbessert? Mehr Netzspinner vielleicht? Wollt Ihr einen bestimmten Goblin terrorisieren?~ [fwcesp41]
+@5678996 = ~Cespenar hat prickelndes Gefühl bei diesem Gedanken. Wie auch immer, brauche spezielles Material, damit ich diesen Mauerkletterer verbessern kann. Muss haben Schriftrollen mit Netz und Spinnenbrut und außerdem fünf vergiftete Wurfdolche. Auch 5.000 Goldstücke. Du wollen?~
+
+@567897 = ~Können Chaos und Entropie verbessert werden?~
+
+@567898 = ~Kurzschwerter? Muss sicher sein, wenn man Kurzschwerter benutzt, wenn der Große versteht, was  Cespenar meint. Aber sie brauchen mehr Macht, eh? Okay, mal sehen, was Cespenar daraus machen kann... brauche Schriftrollen Größeres Unbehagen und Verwirrung, verschmelze sie mit Arbane und Ilbratha. Kurzschwerter dürfen sich dann wirklich Waffen der Abyss nennen. Oh, Cespenar braucht auch noch 25.000 Goldstücke. Und einen Spitzbubenstein, es sei den, Ihr wollt Stückchen von Cespenar über dem ganzen Einsprengsel verteilt haben. Nein, halt, sollte kein Vorschlag sein!~ [fwcesp42]
+
+@567899 = ~Könntest du mir ein Elfenkettenhemd schmieden?~
+
+@5678100 = ~Oooh ja! Du mögen Dinge heiß und würzig? Cespenar rühren und braten ein Elfenkettenhemd mit roten Drachenschuppen. Shiitake-Pilze hinzufügen, ein paar Andar-Gewürze und Feuerachatpfeffer und presto: sehr hell, sehr heiß und sättigend. Cespenar, der Eisenkoch... oder vielleicht der kulinarische Schmied. Aber unglücklicherweise kosten Euch ein spezieller Wok und Erdnussöl 25.000 Goldstücke. Ihr immer noch wollen?~

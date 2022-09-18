@@ -6,24 +6,32 @@ ALWAYS
   ACTION_IF NOT VARIABLE_IS_SET enhanced_edition THEN BEGIN // just do this once per install
 
     ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
-
-      ACTION_DEFINE_ARRAY cdnoconvert BEGIN setup_ee END
-      ACTION_DEFINE_ARRAY cdreload BEGIN setup END
-      LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR default_language = american tra_path = EVAL ~%MOD_FOLDER%/languages~ convert_array = cdreload reload_array = cdreload END
+      
+      LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/items_ee.tra~
+      
+      OUTER_SPRINT ~tra_location~ ~itemupgrade/languages~
 
       ACTION_IF ("%LANGUAGE%" STRING_COMPARE_CASE "korean" = 0) BEGIN
 
-        OUTER_SET enhanced_edition = 2 // ee game without actual setup_ee translation
+        OUTER_SET enhanced_edition = 2 // ee game without actual items_ee translation
 
       END ELSE BEGIN
 
-        OUTER_SET enhanced_edition = 1 // ee game with actual setup_ee translation
+        OUTER_SET enhanced_edition = 1 // ee game with actual items_ee translation
 
       END
 
     END ELSE BEGIN
 
       OUTER_SET enhanced_edition = 0
+    
+      OUTER_SPRINT ~tra_location~ ~weidu_external/itemupgrade/languages~
+
+      // convert strings from UTF-8 for originals  
+      ACTION_DEFINE_ARRAY cdnoconvert BEGIN weidu items_ee END
+      ACTION_DEFINE_ARRAY cdreload BEGIN items END
+      LAF HANDLE_CHARSETS INT_VAR from_utf8 = 1 infer_charsets = 1 
+                          STR_VAR default_language = ~american~ tra_path = ~itemupgrade/languages~ out_path = ~weidu_external/itemupgrade/languages~ noconvert_array = cdnoconvert reload_array = cdreload END
 
     END
   
@@ -37,37 +45,50 @@ README ~itemupgrade/readme-itemupgrades.%LANGUAGE%.txt~ ~itemupgrade/readme-item
 
 LANGUAGE ~American English~ 
   ~american~
-  ~itemupgrade/languages/american/setup.tra~
+  ~itemupgrade/languages/american/weidu.tra~
+  ~itemupgrade/languages/american/items.tra~
 
-LANGUAGE ~Francais (traduction de Artemidore et Cocobard et Sanctifer, (d'Oghmatiques))~
+LANGUAGE ~Francais (traduction de Artemidore et Cocobard et Sanctifer (d'Oghmatiques))~
   ~french~
-  ~itemupgrade/languages/american/setup.tra~
-  ~itemupgrade/languages/french/setup.tra~
+  ~itemupgrade/languages/american/weidu.tra~
+  ~itemupgrade/languages/american/items.tra~
+  ~itemupgrade/languages/french/weidu.tra~
+  ~itemupgrade/languages/french/items.tra~
 
 LANGUAGE ~Deutsche (Uebersetzung durch Maus & Norbert Frischauf & Patrick Lainer)~
   ~german~
-  ~itemupgrade/languages/american/setup.tra~
-  ~itemupgrade/languages/german/setup.tra~
+  ~itemupgrade/languages/american/weidu.tra~
+  ~itemupgrade/languages/american/items.tra~
+  ~itemupgrade/languages/german/weidu.tra~
+  ~itemupgrade/languages/german/items.tra~
 
 LANGUAGE ~Espanol (hecha por Clan DLAN, Bhasbuto & Immortality & Neil Sharp (FWP)~
   ~spanish~
-  ~itemupgrade/languages/american/setup.tra~
-  ~itemupgrade/languages/spanish/setup.tra~
+  ~itemupgrade/languages/american/weidu.tra~
+  ~itemupgrade/languages/american/items.tra~
+  ~itemupgrade/languages/spanish/weidu.tra~
+  ~itemupgrade/languages/spanish/items.tra~
 
 LANGUAGE ~Polish (by Nastian & SoM - part of CoB Clan; Cahir)~
   ~polski~
-  ~itemupgrade/languages/american/setup.tra~
-  ~itemupgrade/languages/polski/setup.tra~
+  ~itemupgrade/languages/american/weidu.tra~
+  ~itemupgrade/languages/american/items.tra~
+  ~itemupgrade/languages/polski/weidu.tra~
+  ~itemupgrade/languages/polski/items.tra~
 
 LANGUAGE ~Russian (Iogan, prowler, hawkmoon & AERIE.RU)~ 
   ~russian~
-  ~itemupgrade/languages/american/setup.tra~
-  ~itemupgrade/languages/russian/setup.tra~
+  ~itemupgrade/languages/american/weidu.tra~
+  ~itemupgrade/languages/american/items.tra~
+  ~itemupgrade/languages/russian/weidu.tra~
+  ~itemupgrade/languages/russian/items.tra~
 
 LANGUAGE ~Korean (web2air)~ 
   ~korean~
-  ~itemupgrade/languages/american/setup.tra~
-  ~itemupgrade/languages/korean/setup.tra~
+  ~itemupgrade/languages/american/weidu.tra~
+  ~itemupgrade/languages/american/items.tra~
+  ~itemupgrade/languages/korean/weidu.tra~
+  ~itemupgrade/languages/korean/items.tra~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -84,25 +105,23 @@ LANGUAGE ~Korean (web2air)~
 BEGIN @4 DESIGNATED 0
 LABEL ~c2_item_upgrade_soa_original~
 SUBCOMPONENT @1
-
-ACTION_IF enhanced_edition THEN BEGIN
-
-  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
-
-END
   
 // shared code between options
 INCLUDE ~itemupgrade/lib/soa.tpa~
 
-// unconventional, but it works: the two R_Ts intercept all calls to state 13 and
-// send them to the new IU 'menu' state instead. The new states are all in the
-// appended file
-COPY_EXISTING ~wsmith01.dlg~ ~override~
-  DECOMPILE_DLG_TO_D
-    REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)GOTO 13\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
-    REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)EXTERN ~WSMITH01~ 13\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
-    APPEND_FILE ~itemupgrade/dlg/crom.d~
-  COMPILE_D_TO_DLG
+WITH_TRA ~%tra_location%/american/dlg_original.tra~ ~%tra_location%/%LANGUAGE%/dlg_original.tra~ BEGIN 
+
+  // unconventional, but it works: the two R_Ts intercept all calls to state 13 and
+  // send them to the new IU 'menu' state instead. The new states are all in the
+  // appended file
+  COPY_EXISTING ~wsmith01.dlg~ ~override~
+    DECOMPILE_DLG_TO_D
+      REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)GOTO 13\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
+      REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)EXTERN ~WSMITH01~ 13\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
+      APPEND_FILE ~itemupgrade/dlg/crom.d~
+    COMPILE_D_TO_DLG
+
+END
 
 /////                                                  \\\\\
 ///// like other upgrades                              \\\\\
@@ -117,61 +136,57 @@ REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
 SUBCOMPONENT @1
 
-LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/lolwot.tra~
-
-ACTION_IF enhanced_edition THEN BEGIN
-
-  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
-
-END
-
 // shared code between options
 INCLUDE ~itemupgrade/lib/soa.tpa~
 
-// compile these serially, not all at once
-COMPILE ~itemupgrade/crom/c2amul01.d~
-COMPILE ~itemupgrade/crom/c2anom01.d~ 
-COMPILE ~itemupgrade/crom/c2ax1h01.d~ 
-COMPILE ~itemupgrade/crom/c2belt01.d~ 
-COMPILE ~itemupgrade/crom/c2blun01.d~ 
-COMPILE ~itemupgrade/crom/c2blun02.d~ 
-COMPILE ~itemupgrade/crom/c2blun03.d~ 
-COMPILE ~itemupgrade/crom/c2boot01.d~ 
-COMPILE ~itemupgrade/crom/c2boot02.d~
-COMPILE ~itemupgrade/crom/c2boot03.d~ 
-COMPILE ~itemupgrade/crom/c2boot04.d~ 
-COMPILE ~itemupgrade/crom/c2bow01.d~  
-COMPILE ~itemupgrade/crom/c2brac01.d~ 
-COMPILE ~itemupgrade/crom/c2chan01.d~ 
-COMPILE ~itemupgrade/crom/c2dagg01.d~ 
-COMPILE ~itemupgrade/crom/c2hd1.d~    
-COMPILE ~itemupgrade/crom/c2helm01.d~ 
-COMPILE ~itemupgrade/crom/c2helm02.d~ 
-COMPILE ~itemupgrade/crom/c2hide01.d~ 
-COMPILE ~itemupgrade/crom/c2keld01.d~ 
-COMPILE ~itemupgrade/crom/c2keld02.d~ 
-COMPILE ~itemupgrade/crom/c2kit.d~    
-COMPILE ~itemupgrade/crom/c2mazz01.d~ 
-COMPILE ~itemupgrade/crom/c2plat01.d~ 
-COMPILE ~itemupgrade/crom/c2ring01.d~ 
-COMPILE ~itemupgrade/crom/c2ring02.d~ 
-COMPILE ~itemupgrade/crom/c2ring03.d~ 
-COMPILE ~itemupgrade/crom/c2ring04.d~ 
-COMPILE ~itemupgrade/crom/c2robe01.d~ 
-COMPILE ~itemupgrade/crom/c2robe02.d~ 
-COMPILE ~itemupgrade/crom/c2robe03.d~ 
-COMPILE ~itemupgrade/crom/c2shld01.d~ 
-COMPILE ~itemupgrade/crom/c2shld02.d~ 
-COMPILE ~itemupgrade/crom/c2sper01.d~
-COMPILE ~itemupgrade/crom/c2sper02.d~ 
-COMPILE ~itemupgrade/crom/c2sper03.d~ 
-COMPILE ~itemupgrade/crom/c2staf01.d~ 
-COMPILE ~itemupgrade/crom/c2staf02.d~ 
-COMPILE ~itemupgrade/crom/c2sw1h01.d~ 
-COMPILE ~itemupgrade/crom/c2sw1h02.d~ 
-COMPILE ~itemupgrade/crom/c2sw1h03.d~ 
-COMPILE ~itemupgrade/crom/c2sw2h01.d~
-COMPILE ~itemupgrade/crom/c2valy01.d~
+WITH_TRA ~%tra_location%/american/dlg_revised.tra~ ~%tra_location%/%LANGUAGE%/dlg_revised.tra~ BEGIN 
+
+  // compile these serially, not all at once
+  COMPILE ~itemupgrade/crom/c2amul01.d~
+  COMPILE ~itemupgrade/crom/c2anom01.d~ 
+  COMPILE ~itemupgrade/crom/c2ax1h01.d~ 
+  COMPILE ~itemupgrade/crom/c2belt01.d~ 
+  COMPILE ~itemupgrade/crom/c2blun01.d~ 
+  COMPILE ~itemupgrade/crom/c2blun02.d~ 
+  COMPILE ~itemupgrade/crom/c2blun03.d~ 
+  COMPILE ~itemupgrade/crom/c2boot01.d~ 
+  COMPILE ~itemupgrade/crom/c2boot02.d~
+  COMPILE ~itemupgrade/crom/c2boot03.d~ 
+  COMPILE ~itemupgrade/crom/c2boot04.d~ 
+  COMPILE ~itemupgrade/crom/c2bow01.d~  
+  COMPILE ~itemupgrade/crom/c2brac01.d~ 
+  COMPILE ~itemupgrade/crom/c2chan01.d~ 
+  COMPILE ~itemupgrade/crom/c2dagg01.d~ 
+  COMPILE ~itemupgrade/crom/c2hd1.d~    
+  COMPILE ~itemupgrade/crom/c2helm01.d~ 
+  COMPILE ~itemupgrade/crom/c2helm02.d~ 
+  COMPILE ~itemupgrade/crom/c2hide01.d~ 
+  COMPILE ~itemupgrade/crom/c2keld01.d~ 
+  COMPILE ~itemupgrade/crom/c2keld02.d~ 
+  COMPILE ~itemupgrade/crom/c2kit.d~    
+  COMPILE ~itemupgrade/crom/c2mazz01.d~ 
+  COMPILE ~itemupgrade/crom/c2plat01.d~ 
+  COMPILE ~itemupgrade/crom/c2ring01.d~ 
+  COMPILE ~itemupgrade/crom/c2ring02.d~ 
+  COMPILE ~itemupgrade/crom/c2ring03.d~ 
+  COMPILE ~itemupgrade/crom/c2ring04.d~ 
+  COMPILE ~itemupgrade/crom/c2robe01.d~ 
+  COMPILE ~itemupgrade/crom/c2robe02.d~ 
+  COMPILE ~itemupgrade/crom/c2robe03.d~ 
+  COMPILE ~itemupgrade/crom/c2shld01.d~ 
+  COMPILE ~itemupgrade/crom/c2shld02.d~ 
+  COMPILE ~itemupgrade/crom/c2sper01.d~
+  COMPILE ~itemupgrade/crom/c2sper02.d~ 
+  COMPILE ~itemupgrade/crom/c2sper03.d~ 
+  COMPILE ~itemupgrade/crom/c2staf01.d~ 
+  COMPILE ~itemupgrade/crom/c2staf02.d~ 
+  COMPILE ~itemupgrade/crom/c2sw1h01.d~ 
+  COMPILE ~itemupgrade/crom/c2sw1h02.d~ 
+  COMPILE ~itemupgrade/crom/c2sw1h03.d~ 
+  COMPILE ~itemupgrade/crom/c2sw2h01.d~
+  COMPILE ~itemupgrade/crom/c2valy01.d~
+
+END
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -189,25 +204,23 @@ BEGIN @4 DESIGNATED 1
 REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @3 // ToB
 LABEL ~c2_item_upgrade_tob_original~
 SUBCOMPONENT @2
-
-ACTION_IF enhanced_edition THEN BEGIN
-
-  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
-
-END
   
 // shared code between options
 INCLUDE ~itemupgrade/lib/tob.tpa~
 
-// unconventional, but it works: the two R_Ts intercept all calls to state 4 and
-// send them to the new IU 'menu' state instead. The new states are all in the
-// appended file
-COPY_EXISTING ~botsmith.dlg~ ~override~
-  DECOMPILE_DLG_TO_D
-    REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)GOTO 4\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
-    REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)EXTERN ~BOTSMITH~ 4\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
-    APPEND_FILE ~itemupgrade/dlg/cespy.d~
-  COMPILE_D_TO_DLG
+WITH_TRA ~%tra_location%/american/dlg_original.tra~ ~%tra_location%/%LANGUAGE%/dlg_original.tra~ BEGIN 
+
+  // unconventional, but it works: the two R_Ts intercept all calls to state 4 and
+  // send them to the new IU 'menu' state instead. The new states are all in the
+  // appended file
+  COPY_EXISTING ~botsmith.dlg~ ~override~
+    DECOMPILE_DLG_TO_D
+      REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)GOTO 4\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
+      REPLACE_TEXTUALLY "\([%TAB%%LNL%%WNL%%MNL% ]\)EXTERN ~BOTSMITH~ 4\([%TAB%%LNL%%WNL%%MNL% ]\)" "\1 GOTO c2itemupgrade \2"
+      APPEND_FILE ~itemupgrade/dlg/cespy.d~
+    COMPILE_D_TO_DLG
+
+END
 
 /////                                                  \\\\\
 ///// like other upgrades                              \\\\\
@@ -222,69 +235,65 @@ REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
 LABEL ~c2_item_upgrade_tob_seamless~
 SUBCOMPONENT @2
-
-LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/lolwot.tra~
-
-ACTION_IF enhanced_edition THEN BEGIN
-
-  LOAD_TRA ~itemupgrade/languages/%LANGUAGE%/setup_ee.tra~
-
-END
   
 // shared code between options
 INCLUDE ~itemupgrade/lib/tob.tpa~
 
-// compile these serially, not all at once
-COMPILE ~itemupgrade/cespy/c2amul01.d~
-COMPILE ~itemupgrade/cespy/c2anom01.d~	
-COMPILE ~itemupgrade/cespy/c2ax1h01.d~	
-COMPILE ~itemupgrade/cespy/c2belt01.d~	
-COMPILE ~itemupgrade/cespy/c2blun01.d~
-COMPILE ~itemupgrade/cespy/c2blun02.d~	
-COMPILE ~itemupgrade/cespy/c2blun03.d~	
-COMPILE ~itemupgrade/cespy/c2boot01.d~	
-COMPILE ~itemupgrade/cespy/c2boot02.d~	
-COMPILE ~itemupgrade/cespy/c2boot03.d~	
-COMPILE ~itemupgrade/cespy/c2boot04.d~	
-COMPILE ~itemupgrade/cespy/c2bow01.d~	
-COMPILE ~itemupgrade/cespy/c2brac01.d~	
-COMPILE ~itemupgrade/cespy/c2chan01.d~	
-COMPILE ~itemupgrade/cespy/c2dagg01.d~	
-COMPILE ~itemupgrade/cespy/c2hd1.d~	
-COMPILE ~itemupgrade/cespy/c2helm01.d~	
-COMPILE ~itemupgrade/cespy/c2helm02.d~	
-COMPILE ~itemupgrade/cespy/c2hide01.d~	
-COMPILE ~itemupgrade/cespy/c2keld01.d~	
-COMPILE ~itemupgrade/cespy/c2keld02.d~	
-COMPILE ~itemupgrade/cespy/c2kit.d~	
-COMPILE ~itemupgrade/cespy/c2leat01.d~	
-COMPILE ~itemupgrade/cespy/c2mazz01.d~
-COMPILE ~itemupgrade/cespy/c2plat01.d~	
-COMPILE ~itemupgrade/cespy/c2quiv01.d~	
-COMPILE ~itemupgrade/cespy/c2quiv02.d~	
-COMPILE ~itemupgrade/cespy/c2quiv03.d~	
-COMPILE ~itemupgrade/cespy/c2ring01.d~	
-COMPILE ~itemupgrade/cespy/c2ring02.d~	
-COMPILE ~itemupgrade/cespy/c2ring03.d~
-COMPILE ~itemupgrade/cespy/c2ring04.d~	
-COMPILE ~itemupgrade/cespy/c2robe01.d~	
-COMPILE ~itemupgrade/cespy/c2robe02.d~	
-COMPILE ~itemupgrade/cespy/c2robe03.d~	
-COMPILE ~itemupgrade/cespy/c2shld01.d~	
-COMPILE ~itemupgrade/cespy/c2shld02.d~	
-COMPILE ~itemupgrade/cespy/c2sper01.d~	
-COMPILE ~itemupgrade/cespy/c2sper02.d~	
-COMPILE ~itemupgrade/cespy/c2sper03.d~	
-COMPILE ~itemupgrade/cespy/c2staf01.d~	
-COMPILE ~itemupgrade/cespy/c2staf02.d~	
-COMPILE ~itemupgrade/cespy/c2sw1h01.d~	
-COMPILE ~itemupgrade/cespy/c2sw1h02.d~	
-COMPILE ~itemupgrade/cespy/c2sw1h03.d~	
-COMPILE ~itemupgrade/cespy/c2sw2h01.d~	
-COMPILE ~itemupgrade/cespy/c2sw2h02.d~
-COMPILE ~itemupgrade/cespy/c2valy01.d~
+WITH_TRA ~%tra_location%/american/dlg_revised.tra~ ~%tra_location%/%LANGUAGE%/dlg_revised.tra~ BEGIN 
 
-EXTEND_BOTTOM ~BOTSMITH.BCS~ ~itemupgrade/cespy/BOTSMITH.baf~
+  // compile these serially, not all at once
+  COMPILE ~itemupgrade/cespy/c2amul01.d~
+  COMPILE ~itemupgrade/cespy/c2anom01.d~	
+  COMPILE ~itemupgrade/cespy/c2ax1h01.d~	
+  COMPILE ~itemupgrade/cespy/c2belt01.d~	
+  COMPILE ~itemupgrade/cespy/c2blun01.d~
+  COMPILE ~itemupgrade/cespy/c2blun02.d~	
+  COMPILE ~itemupgrade/cespy/c2blun03.d~	
+  COMPILE ~itemupgrade/cespy/c2boot01.d~	
+  COMPILE ~itemupgrade/cespy/c2boot02.d~	
+  COMPILE ~itemupgrade/cespy/c2boot03.d~	
+  COMPILE ~itemupgrade/cespy/c2boot04.d~	
+  COMPILE ~itemupgrade/cespy/c2bow01.d~	
+  COMPILE ~itemupgrade/cespy/c2brac01.d~	
+  COMPILE ~itemupgrade/cespy/c2chan01.d~	
+  COMPILE ~itemupgrade/cespy/c2dagg01.d~	
+  COMPILE ~itemupgrade/cespy/c2hd1.d~	
+  COMPILE ~itemupgrade/cespy/c2helm01.d~	
+  COMPILE ~itemupgrade/cespy/c2helm02.d~	
+  COMPILE ~itemupgrade/cespy/c2hide01.d~	
+  COMPILE ~itemupgrade/cespy/c2keld01.d~	
+  COMPILE ~itemupgrade/cespy/c2keld02.d~	
+  COMPILE ~itemupgrade/cespy/c2kit.d~	
+  COMPILE ~itemupgrade/cespy/c2leat01.d~	
+  COMPILE ~itemupgrade/cespy/c2mazz01.d~
+  COMPILE ~itemupgrade/cespy/c2plat01.d~	
+  COMPILE ~itemupgrade/cespy/c2quiv01.d~	
+  COMPILE ~itemupgrade/cespy/c2quiv02.d~	
+  COMPILE ~itemupgrade/cespy/c2quiv03.d~	
+  COMPILE ~itemupgrade/cespy/c2ring01.d~	
+  COMPILE ~itemupgrade/cespy/c2ring02.d~	
+  COMPILE ~itemupgrade/cespy/c2ring03.d~
+  COMPILE ~itemupgrade/cespy/c2ring04.d~	
+  COMPILE ~itemupgrade/cespy/c2robe01.d~	
+  COMPILE ~itemupgrade/cespy/c2robe02.d~	
+  COMPILE ~itemupgrade/cespy/c2robe03.d~	
+  COMPILE ~itemupgrade/cespy/c2shld01.d~	
+  COMPILE ~itemupgrade/cespy/c2shld02.d~	
+  COMPILE ~itemupgrade/cespy/c2sper01.d~	
+  COMPILE ~itemupgrade/cespy/c2sper02.d~	
+  COMPILE ~itemupgrade/cespy/c2sper03.d~	
+  COMPILE ~itemupgrade/cespy/c2staf01.d~	
+  COMPILE ~itemupgrade/cespy/c2staf02.d~	
+  COMPILE ~itemupgrade/cespy/c2sw1h01.d~	
+  COMPILE ~itemupgrade/cespy/c2sw1h02.d~	
+  COMPILE ~itemupgrade/cespy/c2sw1h03.d~	
+  COMPILE ~itemupgrade/cespy/c2sw2h01.d~	
+  COMPILE ~itemupgrade/cespy/c2sw2h02.d~
+  COMPILE ~itemupgrade/cespy/c2valy01.d~
+
+  EXTEND_BOTTOM ~BOTSMITH.BCS~ ~itemupgrade/cespy/BOTSMITH.baf~
+
+END
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
