@@ -486,8 +486,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME c2keld02.itm THEN BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = 9144 STR_VAR resource = KELDORN END
       PATCH_IF FILE_EXISTS_IN_GAME ~#curedef.spl~ BEGIN // ee fixpack
         LPF ALTER_EFFECT INT_VAR match_opcode = 81 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curedef~ END
-        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 122 END
-        LPF cd_apply_batch STR_VAR array_name = cd_cure_deafness END
+        LPF DELETE_EFFECT INT_VAR match_opcode = 240 match_parameter2 = 112 END
       END
       PATCH_IF FILE_EXISTS_IN_GAME ~#curefbm.spl~ BEGIN // ee fixpack
         LPF ALTER_EFFECT INT_VAR match_opcode = 77 opcode = 146 parameter1 = 0 parameter2 = 2 STR_VAR resource = ~#curefbm~ END
