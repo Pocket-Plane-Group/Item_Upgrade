@@ -2,7 +2,7 @@
                             Item Upgrade Mod Pack
                             Author: Westley Weimer
                          Current Maintainer: CamDawg
-                               \/ Release 50 \/
+                               \/ Release 51 \/
 
              http://forums.pocketplane.net/index.php/board,43.0.html
 
@@ -11,13 +11,14 @@ Polski? Read "itemupgrade\readme-itemupgrades.polski.html"!
 
     Table of Contents
     ~~~~~~~~~~~~~~~~~
-I.   About
-II.  Installation
-III. Items
-IV.  Known Bugs
-V.   Thanks
-VI.  FAQ (Spoilers)
-VII. Changes
+I.    About
+II.   Installation
+III.  Options
+IV.   Items
+V.    Known Bugs
+VI.   Thanks
+VII.  FAQ (Spoilers)
+VIII. Changes
 
 
     Section I. About
@@ -30,19 +31,75 @@ See Section III for an item list.
 
 
     Section II. Installation
-    ~~~~~~~~~~~~~~~~~~~~~~~~
-BGII is required. ToB is optional but recommended. The Item Upgrade Mod
-will install correctly over (or without) the Ascension Mod. It should work
-fine with any WeiDU mod. See the webpage for details. This mod also works
-on Baldur's Gate Trilogy or the Enhanced Edition of Baldur's Gate II or
-Enhanced Edition Trilogy.
+    ~~~~~~~~~~~~~~~~~~~~~~~~    
+Item Upgrade is a mod for Baldur's Gate II, with or without the Throne of Bhaal 
+expansion. The Enhanced Edition, along with the conversion projects Baldur's 
+Gate Trilogy and Enhanced Edition Trilogy, are also supported. 
 
-Unzip the main ZIP file into your BGII main directory. This is normally:
-        C:\Program Files\Black Isle\BGII - SoA\
+First time installing a mod? Check out G3's comprehensive tutorial: A New 
+Player's Guide to Installing and Playing Mods:
 
-Run (click on) "setup-itemupgrade.exe".
+https://www.gibberlings3.net/forums/topic/33164-install
 
-First, pick your favorite language. Currently available:
+Enhanced Editions Note
+
+The Enhanced Editions are actively supported games. Please note that every 
+patch update will wipe your current mod setup! If in the middle of a modded 
+game you might want to delay the patch update (if possible) as even after 
+reinstalling the mods, you might not be able to continue with your old 
+savegames. Alternatively, copy the whole game's folder into a new one that can 
+be modded and will stay untouched by game patches. It is important that you 
+install the mod to the language version you are playing the game in. Otherwise, 
+the dialogues of the mod will not show but give error messages.
+
+Windows
+
+Item Upgrade for Windows is distributed as a self-extracting archive and 
+includes a WeiDU installer. To install, simply double-click the archive and 
+follow the instructions on screen.
+
+Alternatively, the files can be extracted into your game directory using 7zip 
+or WinRAR. When properly extracted, your game directory will contain 
+setup-itemupgrade.exe and the folder itemupgrade. To install, double-click 
+setup-itemupgrade.exe and follow the instructions on screen.
+
+You can run setup-itemupgrade.exe in your game folder to reinstall, uninstall 
+or otherwise change components.
+
+macOS
+
+Item Upgrade for macOS is distributed as a compressed tarball and includes a 
+WeiDU installer.
+
+First, extract the files from the tarball into your game directory. When 
+properly extracted, your game directory will contain setup-itemupgrade, 
+setup-itemupgrade.command, and the folder itemupgrade. To install, double-click 
+setup-itemupgrade.command and follow the instructions on screen.
+
+You can run setup-itemupgrade.command in your game folder to reinstall, 
+uninstall or otherwise change components.
+
+Linux
+
+Item Upgrade for Linux is distributed as a compressed tarball and does not 
+include a WeiDU installer. Linux users will need to do a one-time install of 
+WeiDU (and a few other adjustments) as described in this great writeup:
+
+https://moebiusproject.gitlab.io/mods_on_linux
+
+To install, run 'WeInstall itemupgrade in your game folder.
+
+Note for Complete Uninstallation
+
+In addition to the methods above for removing individual components, you can 
+completely uninstall the mod using setup-itemupgrade --uninstall at the command 
+line to remove all components without wading through prompts.
+    
+
+    Section III. Options
+    ~~~~~~~~~~~~~~~~~~~~
+Item Upgrade is currently available in seven languages:
+
   American English
   French Translation by Artemidore
                      &  Cocobard
@@ -64,20 +121,14 @@ First, pick your favorite language. Currently available:
                      & AERIE.RU
   Korean Translation by web2air
 
-Then choose which components you would like to install. You may always
-uninstall them later by re-running "setup-itemupgrade.exe".
-
 You will have the opportunity to install the SoA and ToB upgrades separately.
 Each will have two options as well: the ability for the upgrades to be presented
-in a long list, for convenience (the original) and a second option for the
+in a long list for convenience (the original) and a second option for the
 upgrades to be in the normal 'rummaging' process so that they don't stand out as
 modded content.
 
 You do *not* need to start a new game to take advantage of anything you
 installed.
-
-The components should install correctly for international players who have
-both DIALOG.TLK and DIALOGF.TLK.
 
 As of v42, Jason Compton's Cespenar audio is available in the main mod for
 English-speaking players instead of a separate download. From the original
@@ -92,8 +143,8 @@ Cepsenar Audio readme:
   of IU v42, are here.
 
 
-    Section III. Items
-    ~~~~~~~~~~~~~~~~~~
+    Section IV. Items
+    ~~~~~~~~~~~~~~~~~    
 The items are listed here with the components on the left and the result on
 the right. For example, the first group means that you can forge a Ring of
 Protection +1, a Ring of Regeneration, a Diamond and 10,000 gold into a Ring
@@ -464,14 +515,13 @@ one (and it is easy to do since they have the same name) you won't be able
 to do the upgrade.
 
 
-    Section IV. Known Bugs
-    ~~~~~~~~~~~~~~~~~~~~~~
-
+    Section V. Known Bugs
+    ~~~~~~~~~~~~~~~~~~~~~
 None at present.
 
 
-    Section V. Thanks
-    ~~~~~~~~~~~~~~~~~
+    Section VI. Thanks
+    ~~~~~~~~~~~~~~~~~~
 Special thanks to Jason Compton for the Cespenar dialogue. Thanks to GB for
 testing the ITM files.
 
@@ -484,8 +534,8 @@ answered my survey. The items were balanced according to your
 specifications.
 
 
-    Section V. FAQ (Spoilers)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    Section VII. FAQ (Spoilers)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Q: Why can't I talk to Lilarcor?
 
 A: Lilarcor +5 is controlled by the mind flayer circlet and thus prevented
@@ -538,13 +588,13 @@ A: It belongs to a noble drow in the city of Ust Natha. Do all of the
 side-quests there.
 
 
-    Section VI. Changes
-    ~~~~~~~~~~~~~~~~~~~
-Version 3 BETA:
+    Section VIII. Changes
+    ~~~~~~~~~~~~~~~~~~~~~
+Version 3 BETA
         * Initial public release.
-Version 4 BETA:
+Version 4 BETA
         * Quiver typo fixed. Thanks Jason Whittaker.
-Version 5:
+Version 5
         * Big Cespy dialogue from Jason Compton, master of BGII humor.
         * Require Contingency scrolls instead of Chain Contingency (forum
           suggestion).
@@ -559,57 +609,57 @@ Version 5:
         * Cromwell spelling fixes by Necardan.
         * The lovely CF description from Homunculus has been included.
         * Hallowed Redeemer +5 is now +5 (not +2). Thanks, Kreese.
-Version 6:
+Version 6
         * Celestial Fury demon heart requirement can now be satisfied by
           those demon hearts from the Watcher's Keep.
         * Ammo of Plenty +3 - Arrows. Fixed a typo that would prevent you
           from ever getting it. Thanks to Reiella Darksythe for identifying
           this problem.
-Version 7:
+Version 7
         * Added the Holy Buckler and Thief Glove upgrades based on user
           suggestions.
-Version 8:
+Version 8
         * Fixed a typo in the Cespy dialogue that was preventing ToB
           installation. Thanks, John Aprile.
         * Jason Compton Deity fix.
-Version 9:
+Version 9
         * Pitchwife now actually gives 25% MR. Thanks, Bengtson.
-Version 10:
+Version 10
         * Added Amulet of Ilmater. Thanks, Mike Barnes.
         * Fixed a bug with the thief gauntlets.
-Version 11:
+Version 11
         * Added Water's Talon, Azuredge +4.
         * Also included: Fix to the monster weapon "P3-12M4" to make it +4
           (as it should be, see other ?X-YM4.ITM files) instead of +1.
           This might actually make it worthwhile to cast the Gate spell,
           for instance.
-Version 12:
+Version 12
         * Changed the throwing spear animation.
         * Added Sorcerian Ring, Girdle of Glory.
-Version 13:
+Version 13
         * Amaunator Avatar now gives 3 Sunstone gems as well as Saving
           Grace. :-)
         * Fixed Girdle-Cromwell bug and Cespy typo. Thanks, Kish.
-Version 14:
+Version 14
         * Fixed Girdle bug (again!?).
-Version 15:
+Version 15
         * Upgraded to the newer WeiDU.
-Version 16:
+Version 16
         * Fixed typo in README about Girdle of Glory!
         * Upgraded Corthala Family armor now disables spellcasting.
-Version 17:
+Version 17
         * Fixed a bug where Cespy would talk about flaming swords even if
           you didn't have them. Thanks, Reiella.
-Version 18:
+Version 18
         * Fixed "recity" typo, thanks Artemidore.
         * Folk README fixes.
         * Fixed more typos, thanks to Azaelus.
-Version 19:
+Version 19
         * French translation of the README, etc. No new items.
-Version 20:
+Version 20
         * Fixed a bug with the French installation (caused by missing
           translations).
-Version 21:
+Version 21
         * Fixed a bug with Upgraded Firecam Armor usability. Thanks to
           Andrew Wong.
         * Added a German Translation by Maus. Thanks!
@@ -620,20 +670,20 @@ Version 21:
           normal offerings.
         * Fixed some typos mentioned by Michel. Thanks!
         * Added some missing information to item descriptions. Thanks Maus!
-Version 22:
+Version 22
         * Fixed some typos. Thanks, Tyrus.
         * Fixed some more typos. Thanks, forum members.
         * Fixed a typo in a setup file that was causing the items to appear
           in French when you picked the German translation. Thanks to
           Rebecca for pointing this out.
         * Updated German translation. Thanks, Maus!
-Version 23:
+Version 23
         * Minor typos fixed, thanks forum members.
         * Azuredge icon fix for second ability.
         * Daystar no-charge bug fixed. Thanks Gorrister.
         * Added Haer'Dalis upgrades. Special thanks to Jeanne Burch.
         * Added Incarnadine Chain. Thanks to Renmauzo and Renegade.
-Version 24:
+Version 24
         * Installing the mod now changes the Mace of Disruption +2 icon so
           that it looks like the MoD+1 icon. Thanks, Moonfruit.
         * Fixed a bug in the Ilmater Amulet's heal power. Thanks, Dashael.
@@ -641,22 +691,22 @@ Version 24:
           things. Now it behaves just like the wizard spell (except only 5%
           of the time).
         * Added Cocobard's French translation.
-Version 25:
+Version 25
         * More French translations from Cocobard.
         * More German translations from Norbert Frischauf.
         * Azuredge now really does have different icons for ranged and
           melee modes. Also, this includes the Carso "add 50% MR" fix.
           Thanks, Mike Barnes.
-Version 26:
+Version 26
         * More German translations from Norbert Frischauf.
         * Fulcrum: fixed a bug where the extra damage wasn't actually
           working correctly.
         * Arvoreen: No longer blocks Haste.
         * Upgrade to a newer WeiDU. Hopefully this will help out Mac users.
-Version 27:
+Version 27
         * Fixed that Azuredge icon (really this time).
         * Included Spanish Translation by Clan DLAN & friends. Thanks!
-Version 28:
+Version 28
         * Updated Spanish Translation.
         * Rassadihn fixes:
           * Woodlands saving throw fix.
@@ -666,15 +716,17 @@ Version 28:
             though.
           * Archmagi robes now require a *cloak* or protection not a *ring*
             of protection.
-Version 29:
+Version 29
         * Fixed a bug in the Holy Buckler involving magic resistance.
           Thanks, SixofSpades.
-Version 30:
+Version 30
         * Quietus inflicts piercing damage. Thanks, Dawid Piotrowski.
         * Polish Translation by Damian Staniszewski. Thanks!
-Version 31:
+Version 31
         * Russian Translation by Iogan & AERIE.RU. Thanks!
         * Updated German translation by Patrick Lainer. Thanks!
+Version 32
+        * No information available
 Version 33 (updated by CamDawg):
         * Cromwell and Cespenar dialogues no longer replace critical states,
           making it much easier for other mods to interact with IU
@@ -692,17 +744,17 @@ Version 33 (updated by CamDawg):
         * Closed usability loopholes on Entropy, Chaos, Hallowed Redeemer +5
           and Sword of Arvoreen +5
         * Upgraded Corthala Family Armor now displays Mind Shield icon
-Version 34 (updated by CamDawg):
+Version 34 - September 15, 2006 (updated by CamDawg):
         * Fixed broken index for c2staf01.itm. On OS X, a bad index causes
           BG2 to crash to desktop. Additionally, the indexing error can
           cause other mod installations (i.e. Quest Pack) to fail.
-Version 35 (updated by CamDawg):
+Version 35 - January 28, 2007 (updated by CamDawg):
         * Added Korean translation, courtesy of web2air.
-Version 36:
+Version 36
         * Updated Spanish translation. Immortality and her gang etc.
-Version 37:
+Version 37
         * Ditto.
-Version 38:  (updated by Lollorian)
+Version 38 - August 12, 2010 (updated by Lollorian)
         * IU can now also use standard BGII-ToB upgrading methods as separate
           components (translations by:
          - Ancalagon el Negro (Spanish)
@@ -718,13 +770,13 @@ Version 38:  (updated by Lollorian)
           Flesh +5)
         * Smiths no longer take Poisoned Throwing Daggers when doing the upgrade
           for Haer'Dalis
-Version 39: (updated by Lollorian)
+Version 39 - December 29, 2011 (updated by Lollorian)
         * repairs (
     http://forums.pocketplane.net/index.php/topic,27176.msg327010.html#msg327010
     http://forums.pocketplane.net/index.php/topic,27541.msg326886.html#msg326886
         * French translation repairs from Sanctifer of the d'Oghmatiques
         * WeiDU update to v231
-Version 40: (updated by CamDawg)
+Version 40 - July 31, 2013 (updated by CamDawg)
         * Items were run through the immunity effect batch fixes from the BG2
           Fixpack since most provided incomplete protections: Amulet of Ilmater,
           Tower of Iron Will, Citadel Helmet, Improved Firecam Plate, Sword of
@@ -786,7 +838,7 @@ Version 40: (updated by CamDawg)
           usability flags
         * Minor description fixes, such as multiple THACO > THAC0 typos
         * Future-proofed descriptions for BG2EE
-Version 41: (updated by CamDawg)
+Version 41 - June 5, 2017 (updated by CamDawg)
         * Added French translation - thanks to Sanctifer, of the d'Oghmatiques
         * Added EE-specific Polish translation - thanks to Cahir
         * Character sets will now be converted as appropriate for EE games
@@ -809,7 +861,7 @@ Version 41: (updated by CamDawg)
         * Fixed power levels on Water's Talon +4
         * Ring of Wizardry upgrade now accounts for the alternate introduced by
           EE/BG2 Fixpack v11
-Version 42: (updated by CamDawg)
+Version 42 - June 18, 2017 (updated by CamDawg)
         * The mod now accounts for EET games
         * v41 was using an outdated version of the Polish translation (Cam's
           fault) which was causing text issues (at best) or crashes (at worst)
@@ -819,7 +871,7 @@ Version 42: (updated by CamDawg)
           now integrated into the mainline mod. The audio is English-only.
         * The English item descriptions for EE games have been revised to better
           fit in with the EE style
-Version 43: (updated by CamDawg)
+Version 43 - December 9, 2017 (updated by CamDawg)
         * Polish translation should no longer crash EE games, for real this time
         * argent77 had made a macro to help EE-ify item descriptions from
           vanilla item descriptions; this is now used for the Korean and Russian
@@ -829,14 +881,14 @@ Version 43: (updated by CamDawg)
         * Fixed a bug where the some install options were not available for
           Polish players
         * Items which provide immunity to poison now also block Cloudkill
-Version 44: (updated by CamDawg)
+Version 44 - February 14, 2019 (updated by CamDawg)
         * Fixed bug where the Incarnadine Elven Chain upgrade asked for three
           fire agate gems, but actually checked and used Dispel Magic scrolls.
         * Updated the Sorcerian Ring to account for the alternate Rings of
           Wizardry (aka Reaching Ring) in EE/newer Fixpack games.
         * Lowercased all sound references in dialogue to fix audio issues on
           case-sensitive file systems.
-Version 45: (updated by CamDawg)
+Version 45 - March 22, 2020 (updated by CamDawg)
         * Fixed bug where the Sorcerian Ring formula was not accounting for the
           alternate Reaching Ring in BG2EE.
         * Resolved compatibility issue with the SCS component "Make spell
@@ -845,14 +897,14 @@ Version 45: (updated by CamDawg)
           that case, you will need a scroll of Globe of Invulnerability instead
           of Contingency for the archmagi robe formulas. However, this requires
           SCS of version > v32.8.
-Version 46: (updated by CamDawg)
+Version 46 - December 1, 2021 (updated by CamDawg)
         * The compatibility fix with SCS introduced in v45 would fail if SCS was
           installed first due to a bad path. SCS should be installed after Item
           Upgrade regardless
-Version 47: (updated by CamDawg)
+Version 47 - December 2, 2021 (updated by CamDawg)
         * Fixed a bug where Cromwell, in the original component, would fail to
           make the Sorcerian Ring due to a bad trigger.
-Version 48: (updated by CamDawg)
+Version 48 - May 20, 2022 (updated by CamDawg)
         * Fixed a bug where the occasional dialogue line from the 'Revised'
           variants of the upgrades would replace lines in the 'Original'
           variant components.
@@ -865,10 +917,10 @@ Version 48: (updated by CamDawg)
           items to the upgrade formulas.
         * Future-proofed the mod for the EE Fixpack by incorporating the new
           spellstate immunities.
-Version 49 (updated by CamDawg)
+Version 49 - May 21, 2022 (updated by CamDawg)
         * Updated Russian translation
         * A few minor adjustments to the immunity spellstate code for EE games
-Version 50 (updated by CamDawg)
+Version 50 - September 18, 2022 (updated by CamDawg)
         * Updated French translation, thanks Selphira!
         * Miscellaneous typo corrections
         * Azuredge +4 had the wrong minimum STR/DEX requirements, usabilities;
@@ -891,10 +943,10 @@ Version 50 (updated by CamDawg)
         * Creeping Chaos will keep the same paperdoll appearance as the
           original Chaos
         * Improved Kitthix was lacking a generic attack script
-        * Improved Ankheg Plate Mail shhould be unusable by Shamans and Archers
+        * Improved Ankheg Plate Mail should be unusable by Shamans and Archers
         * Ring of Elemental Mastery will charm any fire, earth, or air
           elementals; the EE description only listed earth
-        * The monetary value of the upgraded archmai robes were less than the
+        * The monetary value of the upgraded archmagi robes were less than the
           original robes
         * Cleaned up some duplicate effects in the Shield of Harmony +3
         * Staff of Elemental Mastery now uses the same sleep cloud projectile as
@@ -911,3 +963,7 @@ Version 50 (updated by CamDawg)
           NPCs, including the exclusion of UAI if it was enforced on the
           original item
         * Further prep for integration with the EE Fixpack
+Version 51 - October 18, 2022 (updated by CamDawg)
+        * Fixed install issues if EE Fixpack was installed
+        * Fixed bug where the items that cure deafness could remove the wrong
+          portrait icon
