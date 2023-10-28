@@ -806,3 +806,12 @@ Weight: 15
 Requires: 5 Strength
 Not Usable By:
 Druid~
+@199 = ~Ring of Preservation +3~
+@200 = ~Ring of Preservation +3: 'The Warder's Signet'
+This ring was magically forged for <CHARNAME>. It combines the abjurative powers of The Warder's Signet ring of protection with the recuperative powers of Huhhus' troll-fueled rings of regeneration. In addition, the ring is stylish.
+
+STATISTICS:
+
+Wearer regenerates 1 hit point every 6 seconds
+Armor Class: +3 bonus
+Saving Throws: +3 bonus~

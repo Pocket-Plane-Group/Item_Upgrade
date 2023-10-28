@@ -168,6 +168,7 @@ WITH_TRA ~%tra_location%/american/dlg_revised.tra~ ~%tra_location%/%LANGUAGE%/dl
   COMPILE ~itemupgrade/crom/c2plat01.d~
   COMPILE ~itemupgrade/crom/c2ring01.d~
   COMPILE ~itemupgrade/crom/c2ring02.d~
+  COMPILE ~itemupgrade/crom/c2ring05.d~ // keep RoP upgrades together
   COMPILE ~itemupgrade/crom/c2ring03.d~
   COMPILE ~itemupgrade/crom/c2ring04.d~
   COMPILE ~itemupgrade/crom/c2robe01.d~
@@ -272,6 +273,7 @@ WITH_TRA ~%tra_location%/american/dlg_revised.tra~ ~%tra_location%/%LANGUAGE%/dl
   COMPILE ~itemupgrade/cespy/c2quiv03.d~
   COMPILE ~itemupgrade/cespy/c2ring01.d~
   COMPILE ~itemupgrade/cespy/c2ring02.d~
+  COMPILE ~itemupgrade/cespy/c2ring05.d~ // keep RoP upgrades together
   COMPILE ~itemupgrade/cespy/c2ring03.d~
   COMPILE ~itemupgrade/cespy/c2ring04.d~
   COMPILE ~itemupgrade/cespy/c2robe01.d~

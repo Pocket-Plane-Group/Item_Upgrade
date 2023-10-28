@@ -471,3 +471,14 @@ THEN
     GiveItemCreate("c2hd2",Player1,1,1,1)
     ActionOverride("wsmith01",StartDialogueNoSet([PC]))
 END
+
+IF
+  Global("XO#ItemUp","ar0334",44)
+  Global("ForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ForgeStuff","GLOBAL",0)
+	SetGlobal("XO#Craft","ar0334",1)
+    GiveItemCreate("c2ring05",Player1,1,1,1)
+    ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END

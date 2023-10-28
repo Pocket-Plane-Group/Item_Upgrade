@@ -691,6 +691,21 @@ c2ring04\1~
 
 END
 
+ACTION_IF NOT FILE_EXISTS_IN_GAME c2ring05.itm THEN BEGIN
+
+  COPY ~itemupgrade/itm/c2ring05.itm~ ~override~
+    SAY NAME2     @199
+    SAY DESC      @200
+
+  COPY ~itemupgrade/bam/c2ring05.bam~ ~override~
+
+  COPY_EXISTING ~itemexcl.2da~ ~override~ // add to magic ring/magic armor exclusion list
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~^RING41\([ %TAB%].+\)$~ ~RING41\1
+c2ring05\1~
+    BUT_ONLY IF_EXISTS
+
+END
+
 ACTION_IF NOT FILE_EXISTS_IN_GAME c2robe01.itm THEN BEGIN
 
   COPY ~itemupgrade/itm/c2robe01.itm~ ~override~

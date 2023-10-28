@@ -891,3 +891,14 @@ Requires:
  5 Strength
 
 Weight: 15~
+@200 = ~Ring of Preservation +3: 'The Warder's Signet'
+This ring was magically forged for <CHARNAME>. It combines the abjurative powers of The Warder's Signet ring of protection with the recuperative powers of Huhhus' troll-fueled rings of regeneration. In addition, the ring is stylish.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +3
+– Saving Throws: +3
+– Regenerate 1 Hit Point per round
+
+Weight: 0~

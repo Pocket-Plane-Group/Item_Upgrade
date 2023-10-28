@@ -176,6 +176,10 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @12348100 = ~I might forge together a suit of Sylvan Chain with the scales of a beast of the dread flame. With three gems of Andar and 3 Fire Agates to contain the inferno and 25,000 for reagents and labor, I could make ye a mighty powerful suit.~
 @12349100 = ~I might forge together a suit of Sylvan Chain with the scales of a beast of the dread flame. With three gems of Andar and 3 Fire Agates to contain the inferno and 25,000 for reagents and labor, I could make ye a mighty powerful suit. Interested?~
 
+@123484 = ~Good lookin' ring ye got there. Lemme have a look...~
+@1234884 = ~I could combine a Ring of Protection +3 with a Ring of Regeneration. I'd need to melt a diamond into the mixture and it would cost you 30,000 gold.~
+@1234984 = ~I could combine a Ring of Protection +3 with a Ring of Regeneration. I'd need to melt a diamond into the mixture and it would cost you 30,000 gold. Interested?~
+
 // Cespy
 
 @567840 = ~Why you gots so many rings? You have lots of spouseses on the side? Shame, shame, Cespenar KNOWS YOUR NAME!!!~ [fwcesp00]
@@ -361,3 +365,9 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @5678100 = ~Ooh, Sylvan Chain? You suddenly gots urge to wear leaves and starts protest against 'global-warming' and whatnot? Sheesh... <PRO_RACE>ses~
 @56788100 = ~Oooh Yes! Maybe you likes things hot and spicy? Cespenar stir-fry together some elven chain with some red dragon scales. Add shiitake mushrooms, some andar spices and fire agate peppers and presto: very light, very hot, very filling. Cespenar quite the iron chef ... or perhaps the culinary forger. Unfortunately, special wok and peanut oil will set you back 25,000 gold.~
 @56789100 = ~Oooh Yes! You likes things hot and spicy? Cespenar stir-fry together some elven chain with some red dragon scales. Add shiitake mushrooms, some andar spices and fire agate peppers and presto: very light, very hot, very filling. Cespenar quite the iron chef ... or perhaps the culinary forger. Unfortunately, special wok and peanut oil will set you back 25,000 gold. You still want?~ [fwcesp43]
+
+
+
+@567853 = ~Why you gots so many rings? You be adding gold to your teeth next, Cepsenar thinks.~ 
+@5678853 = ~Ring of Protection +3 cans be combined with Ring of Regeneration. But will need 30,000 gold and diamond too for recipe to works.~
+@5678953 = ~Anyhow, we can take Ring of Regeneration and Ring of Protection +3 and do both in one. Saves room on hand. Only need 30,000 gold and melt a diamond in, too! You like?~

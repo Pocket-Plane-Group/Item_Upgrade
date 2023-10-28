@@ -1,7 +1,7 @@
 @12340 = ~Get on with it, then.~
 @12341 = ~Very well. I'll just get to rummagin' ...~
 @12342 = ~Can you do anything with this Ring of Protection?~
-@12343 = ~Can forge anything from this powerful Ring of Protection?~
+@12343 = ~Can you forge anything from this powerful Ring of Protection?~
 @12344 = ~Can you make something with this Elemental Ring?~
 @12345 = ~Can you enchant this Elemental Staff?~
 @12346 = ~Can you cobble something together with these Boots of Stealth?~
@@ -33,6 +33,7 @@
 @123432 = ~I'd love a truly deadly dagger. Can you improve one of mine?~
 @123433 = ~What can we do for this forlorn buckler?~
 @123434 = ~Any chance of improving these stealthy gauntlets?~
+@12350 = ~Can you forge anything from this exceptionally powerful Ring of Protection?~
 
 @123435 = ~Not right now.~
 @123436 = ~Yes, let's do it!~
@@ -109,6 +110,7 @@
 @1234100 = ~Yes, I might forge together a suit of Sylvan Chain with the scales of a beast of the dread flame. With three gems of Andar and 3 Fire Agates to contain the inferno and 25,000 for reagents and labor, I could make ye a mighty powerful suit. Interested?~
 
 
+@12351 = ~I could combine a Ring of Protection +3 with a Ring of Regeneration. I'd need to melt a diamond into the mixture and it would cost you 30,000 gold. Interested?~
 
 /* From kelseynpc@5678attbi.com Sat Jan 11 17:19:18 2003
 Date: Sun, 05 Jan 2003 02:49:10 -0600
@@ -162,6 +164,7 @@ version, I just added the tags, changed nothing.
 @567838 = ~I'd like to improve this Scimitar.~
 @567839 = ~Can you make Azuredge more powerful?~
 @567891 = ~I'd like more enchantments on my Ring of Wizardry.~
+@56790  = ~Can you forge anything from this exceptionally powerful Ring of Protection?~
 
 @567835 = ~Not right now.~
 @567836 = ~Yes, let's do it!~
@@ -181,6 +184,9 @@ version, I just added the tags, changed nothing.
 
 @567841 = ~Oh boy, you sure wears a lot of shinies on your fingers. Cespenar likes the look, heard it was in this season.~ [fwcesp01]
 @5678941 = ~Anyhow, we can take Ring of Regeneration and Ring of Protection +2 and do both in one. Saves room on hand. Only need 20,000 gold and melt a diamond in, too! You like?~
+
+@56791 = ~Oh boy, you sure wears a lot of shinies on your fingers. You be adding gold to your teeth next, Cepsenar thinks.~ 
+@56792 = ~Anyhow, we can take Ring of Regeneration and Ring of Protection +3 and do both in one. Saves room on hand. Only need 30,000 gold and melt a diamond in, too! You like?~
 
 @567842 = ~You don't needs jewelry box, you needs jewelry trunk! You maybe like having one on each big toe, too?!?~ [fwcesp02]
 @5678942 = ~How about Cespenar take these Rings of Air, Earth, and Fire and make one big Ring of Elemental Mastery? Cheaper to insure one ring than three. Recipe needs scrolls of Protection from Stonyface, Hot Stuff, and Zappings, and 20,000 gold. Cespenar no set the prices, just union rules.~

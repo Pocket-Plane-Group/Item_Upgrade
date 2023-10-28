@@ -478,3 +478,13 @@ THEN
 	GiveItemCreate("c2sw2h02",Player1,1,1,1)
 	StartDialogueNoSet(Player1)
 END
+
+IF
+  Global("XO#TOBItemUp","GLOBAL",49)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("c2ring05",Player1,1,1,1)
+    StartDialogueNoSet(Player1)
+END
