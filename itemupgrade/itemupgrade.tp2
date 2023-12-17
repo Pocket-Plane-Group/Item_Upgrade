@@ -90,6 +90,11 @@ LANGUAGE ~Korean (web2air)~
   ~itemupgrade/languages/korean/weidu.tra~
   ~itemupgrade/languages/korean/items.tra~
 
+LANGUAGE ~Simplified Chinese~
+  ~schinese~
+  ~itemupgrade/languages/schinese/weidu.tra~
+  ~itemupgrade/languages/schinese/items.tra~
+
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -133,7 +138,8 @@ REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "french" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "polski" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "russian" = 0) OR
-                   ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "schinese" = 0)) @6
 SUBCOMPONENT @1
 
 // shared code between options
@@ -233,7 +239,8 @@ REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "french" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "polski" = 0) OR
                    ("%LANGUAGE%" STRING_COMPARE_CASE "russian" = 0) OR
-                   ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0)) @6
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "spanish" = 0) OR
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "schinese" = 0)) @6
 LABEL ~c2_item_upgrade_tob_seamless~
 SUBCOMPONENT @2
 
@@ -306,7 +313,8 @@ END
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN @7 DESIGNATED 12
-REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) @6
+REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) OR
+                  ("%LANGUAGE%" STRING_COMPARE_CASE "schinese" = 0))@6
 REQUIRE_PREDICATE ((MOD_IS_INSTALLED ~setup-itemupgrade.tp2~ ~1~) OR (MOD_IS_INSTALLED ~setup-itemupgrade.tp2~ ~11~)) @8
 LABEL ~c2_item_upgrade_cespenar_audio~
 
