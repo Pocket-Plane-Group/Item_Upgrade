@@ -14,7 +14,7 @@ The Item Upgrade Mod Pack allows Cromwell and Cespenar to upgrade more items for
 
 ## More Information
 
-:page_facing_up: [Readme](https://raw.githubusercontent.com/Pocket-Plane-Group/Item_Upgrade/master/itemupgrade/readme-itemupgrades.txt)
+:page_facing_up: [Readme](https://pocket-plane-group.github.io/readmes/readme-itemupgrade.html) 
 :page_facing_up: [Forum](http://forums.pocketplane.net/index.php/board,43.0.html) 
 
 ## 
