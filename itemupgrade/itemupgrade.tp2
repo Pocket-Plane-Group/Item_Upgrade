@@ -39,11 +39,11 @@ ALWAYS
 
 END
 
-VERSION ~v51~
+VERSION ~v52~
 
 README ~itemupgrade/readme-itemupgrade.%LANGUAGE%.txt~ 
        ~itemupgrade/readme-itemupgrade.%LANGUAGE%.html~ 
-       ~itemupgrade/readme-itemupgrade.txt~ // use English if language-specific readme doesn't exist
+       ~itemupgrade/readme-itemupgrade.html~ // use English if language-specific readme doesn't exist
 
 LANGUAGE ~American English~
   ~american~
@@ -94,6 +94,8 @@ LANGUAGE ~Korean (web2air)~
 
 LANGUAGE ~Simplified Chinese~
   ~schinese~
+  ~itemupgrade/languages/american/weidu.tra~
+  ~itemupgrade/languages/american/items.tra~
   ~itemupgrade/languages/schinese/weidu.tra~
   ~itemupgrade/languages/schinese/items.tra~
 

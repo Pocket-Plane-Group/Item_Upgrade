@@ -10,7 +10,7 @@ call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 set "mod_name=Item Upgrade"
-set mod_version=v51
+set mod_version=v52
 set mod_folder=itemupgrade
 
 REM /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
@@ -28,7 +28,7 @@ set audio_folder=%mod_folder%\audio
 set tispack_folder=%mod_folder%\tiz
 set tile2ee_folder=%mod_folder%\tools\tile2ee
 set iconv_folder=%mod_folder%\languages\iconv
-set mod_readme=https://raw.githubusercontent.com/Pocket-Plane-Group/Item_Upgrade/master/itemupgrade/readme-itemupgrades.txt
+set mod_readme=https://pocket-plane-group.github.io/readmes/readme-itemupgrade.html
 
 REM /* MODIFY: if you don't need to build a specific package, you can disable it by setting the appropriate variable below to 0 */
 set build_windows=1
