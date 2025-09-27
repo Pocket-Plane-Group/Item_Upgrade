@@ -5,7 +5,7 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 //Naysayers
 
 @1234 = ~Nun, lasst uns sehen sehen, was Ihr noch habt.~
-@5678 = ~Okay, was habt Ihr sonst noch dabei? Mal sehen …~
+@5678 = ~Okay, was habt Ihr noch dabei? Mal sehen …~
 
 //Crom
 
@@ -112,9 +112,9 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @1234869 = ~Zusammen mit vier Schutzformeln gegen Untote, zwei Flaschen mit Weihwasser und zwei Sternsaphiren könnte ich den Tagesstern in den Schrecken der Unterwelt verwandeln. Ach ja, und noch 15.000 Goldmünzen für mich.~
 @1234969 = ~Zusammen mit vier Schutzformeln gegen Untote, zwei Flaschen mit Weihwasser und zwei Sternsaphiren könnte ich den Tagesstern in den Schrecken der Unterwelt verwandeln. Ach ja, und noch 15.000 Goldmünzen für mich.~
 
-@123470 = ~Ein Katana? Anscheinend Handwerkskunst aus Kara-Tur …~
-@1234870 = ~Göttliche Rage? Ich bin doch nicht aus Kara-Tur, und es ist alles andere als einfach, ein Katana mit Magie zu belegen. Falls Ihr aber das Herz eines Dämonen und einen Stab der Blitze zur Verfügung habt, könnte ich es einmal versuchen. Eine solche Anstrengung würde Euch aber 20.000 Goldmünzen kosten.~
-@1234970 = ~Göttliche Rage? Ich bin doch nicht aus Kara-Tur, und es ist alles andere als einfach, ein Katana mit Magie zu belegen. Falls Ihr aber das Herz eines Dämonen und einen Stab der Blitze zur Verfügung habt, könnte ich es einmal versuchen. Eine solche Anstrengung würde Euch aber 20.000 Goldmünzen kosten. Interessiert?~
+@123470 = ~Ein Katana? Fernöstliche Handwerkskunst …~
+@1234870 = ~Göttliche Rage? Aber ich bin doch nicht aus Kara-Tur! Solch ein Katana zu verbessern, ist nicht einfach. Falls Ihr aber das Herz eines Dämonen und einen Stab der Blitze zur Verfügung habt, könnte ich es einmal versuchen. Eine solche Anstrengung würde Euch aber 20.000 Goldmünzen kosten.~
+@1234970 = ~Göttliche Rage? Aber ich bin doch nicht aus Kara-Tur! Solch ein Katana zu verbessern, ist nicht einfach. Falls Ihr aber das Herz eines Dämonen und einen Stab der Blitze zur Verfügung habt, könnte ich es einmal versuchen. Eine solche Anstrengung würde Euch aber 20.000 Goldmünzen kosten. Interessiert?~
 
 @123471 = ~Einen Halblingspaladin sehen wir ja nicht allzu oft. Aber ihr Schwert ist vielversprechend …~
 @1234871 = ~Genau, das Schwert von Arvoreen kann ich verbessern. Aber nicht ohne den Segen der Göttin selbst: Dazu muss Eure Gruppe von reinem Herzen und untadeligem Ruf sein. Außerdem müsstet Ihr noch 15.000 Goldmünzen erübrigen.~
@@ -149,8 +149,8 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @1234978 = ~Mit zwei Schutzamuletten, dem Schutzamulett gegen Gift, der Halskette der Gestaltwahrung und dem Amulett des Zauberschutzes kann ich das Amulett von Ilmater herstellen. Würdet Ihr 10.000 Goldmünzen dafür bezahlen?~
 
 @123479 = ~Ein schönes Schwert habt Ihr da. Es gibt da einen Weg, wie man es noch stärker machen könnte …~
-@1234879 = ~Aus der Wasserklinge, Adjatha dem Trinker und Rashad's Klaue können wir eine wohlgeformte Klinge schmieden, über die sogar der Herrscher der Stürme grün vor Neid werden würde. Diese auf Wasser basierende Klinge würde Euch 15.000 Goldmünzen kosten.~
-@1234979 = ~Aus der Wasserklinge, Adjatha dem Trinker und Rashad's Klaue können wir eine wohlgeformte Klinge schmieden, über die sogar der Herrscher der Stürme grün vor Neid werden würde. Diese auf Wasser basierende Klinge würde Euch 15.000 Goldmünzen kosten. Interessiert?~
+@1234879 = ~Aus der Wasserklinge, Adjatha dem Trinker und Rashad's Klaue können wir eine wohlgeformte Klinge schmieden, über die sogar der Herrscher der Stürme grün vor Neid werden würde. Diese Wasserkralle würde Euch 15.000 Goldmünzen kosten.~
+@1234979 = ~Aus der Wasserklinge, Adjatha dem Trinker und Rashad's Klaue können wir eine wohlgeformte Klinge schmieden, über die sogar der Herrscher der Stürme grün vor Neid werden würde. Diese Wasserkralle würde Euch 15.000 Goldmünzen kosten. Interessiert?~
 
 @123480 = ~Das sieht interessant aus …~
 @1234880 = ~Ah, die Azurklinge könnte ich mit Illithium überziehen. Das würde ihren Widerstand gegen Untote verbessern. Für 20.000 Goldmünzen könnte ich Euch diesen Gefallen erweisen.~
@@ -206,7 +206,7 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @5678845 = ~Ooooh, die Stiefel des hohen Nordens! Cespenar kennt ein tolles Rezept für die Eissturmstiefel! Brauche die Siebenmeilenstiefel, einen Spitzbubenstein und 10.000 Goldmünzen.~
 @5678945 = ~Solange Ihr nicht vorhabt, Euch zusätzliche Füße wachsen zu lassen, wird Cespenar die Stiefel des Nordens und die Siebenmeilenstiefel nehmen und daraus die Eissturmstiefel machen. Machen selbes Zeug wie einzelne Stiefel, c'est la vie. Habt Ihr vielleicht 10.000 Goldmünzen und einen dieser Spitzbubensteine zur Verfügung?~
 
-@567846 = ~Pfuiiiii! Gummistiefel stinken wenn der Große sie an seinen schweißigen Füßen trägt, egal ob sie magisch sind oder nicht. Wisst Ihr, was die beste Methode ist, um Blitzstrahlen auszuweichen? Einfach woanders sein! Echt wahr.~
+@567846 = ~Pfuiiiii! Stiefel der Bodenhaftung stinken wenn der Große sie an seinen schweißigen Füßen trägt, egal ob sie magisch sind oder nicht. Wisst Ihr, was die beste Methode ist, um Blitzstrahlen auszuweichen? Einfach woanders sein! Echt wahr.~
 @5678846 = ~Jedenfalls, die Stiefel der Bodenhaftung sind nützlich aber langsam. Cespenar kann sie schneller machen. Brauche die Siebenmeilenstiefel, einen Spitzbubenstein und 10.000 Goldmünzen.~
 @5678946 = ~Cespenar kennt einen Priester des Talos, der aus den Siebenmeilenstiefeln und den Stiefeln der Bodenhaftung die Stiefel des Sturmherrn schustern kann. Er benötigt dafür allerdings 10.000 Goldmünzen und einen Spitzbubenstein.~
 
@@ -227,9 +227,9 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @5678950 = ~Ihr habt den Schädelschmetterer, eine Schriftrolle mit „Finger des Todes“ und einen verfluchten Heiltrank. Wenn Ihr jetzt noch 15.000 Goldmünzen habt, bekommt Ihr einen glänzenden neuen Streitkolben. Wollt Ihr?~
 
 @567851 = ~Hrrrrruuuhhh … hrrrruuuuhhh … hyyyyaaaaaaahhhhh! Oooh, echt schwer, diesen Bogen zu spannen! Cespenar könnte Euch anbieten, einen Apfel auf dem Kopf des Großen Einen mit einem Pfeil zu durchbohren, aber Ihr solltet bedenken, was passiert ist, als er den Apfel verfehlt und stattdessen die Nase von Bhaal getroffen hat. Cespenar konnte einen Zehntag lang nicht sitzen!~
-@5678851 = ~Ihr habt da einen netten Bogen, aber ich könnte einen besseren machen mit dem Rezept für den Todbringer. Die Pfeile würden in Eurer Hand erscheinen, und sowohl Freunde wie Feinde würden nur noch staunen. Das Rezept braucht eine Menge Zutaten: die Sehne von Gesen oder von Gond, vier Tränen Laerals und einen Trank der Macht.~
-@5678951 = ~Cespenar kann aus dem Herzsucher, der Sehne von Gesen, vier Tränen Laerals und einem Trank der Macht den fantastischen Todbringer erzeugen. Und das Beste daran? Es ist absolut kostenlos! Wollt Ihr?~
-@5678751 = ~Cespenar kann aus dem Herzsucher, der Sehne von Gond, vier Tränen Laerals und einem Trank der Macht den fantastischen Todbringer erzeugen. Und das Beste daran? Es ist absolut kostenlos! Wollt Ihr?~
+@5678851 = ~Ihr da habt netten Bogen, aber ich könnte einen besseren machen mit Rezept für Teleomortis. Die Pfeile würden in Eurer Hand erscheinen, und sowohl Freunde wie Feinde würden nur noch staunen. Das Rezept braucht eine Menge Zutaten: die Sehne von Gesen oder von Gond, vier Tränen Laerals und einen Trank der Macht.~
+@5678951 = ~Cespenar kann aus dem Herzsucher, der Sehne von Gesen, vier Tränen Laerals und einem Trank der Macht fantastischen Teleomortis erzeugen. Und das Beste daran? Es ist absolut kostenlos! Wollt Ihr?~
+@5678751 = ~Cespenar kann aus dem Herzsucher, der Sehne von Gond, vier Tränen Laerals und einem Trank der Macht fantastischen Teleomortis erzeugen. Und das Beste daran? Es ist absolut kostenlos! Wollt Ihr?~
 
 @567854 = ~Oooh! Was für eine ansehnliche Rüstung. Vorsichtig sein, Cespenar hat heute noch nicht in Staub gebadet … wenn Ihr niest, könnte mein Gesicht gefrieren. Tehehe!~
 @5678854 = ~Mit zwei so netten Rüstungen kann man eine wirklich gute erstellen! Sie schützt vor den meisten schlechten Dingen wie zum Beispiel Feuer und Säure! Ich brauche aber 10.000 Goldmünzen und eine Schriftrolle mit „Schutz vor Magie“.~
@@ -241,7 +241,7 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @5678955 = ~Oh, es ist nur die Robe von diesen Erzmagiertypen. Ihr scheint auf dem richtigen Weg zu sein. Hier ist ein Schutzumhang +1, jeweils eine Schriftrolle mit „Geisterrüstung“ und „Kettenzauber“, sowie 20.000 Goldmünzen. Damit könnt Ihr mehr Zauber sprechen, so wie ein RICHTIGER Erzmagier!~
 @5678956 = ~Oh, es ist nur die Robe von diesen Erzmagiertypen. Ihr scheint auf dem richtigen Weg zu sein. Hier ist ein Schutzumhang +1, jeweils eine Schriftrolle mit „Geisterrüstung“ und „Kugel der Unverwundbarkeit“, sowie 20.000 Goldmünzen. Damit könnt Ihr mehr Zauber sprechen, so wie ein RICHTIGER Erzmagier!~
 
-@567859 = ~Hattet Ihr gelegentlich einmal keinen Nachttopf zur Hand? Cespenar würde Euch vorschlagen, einen Helm dafür zu benutzen, natürlich den eines anderen.~
+@567859 = ~Hattet Ihr mal keinen Nachttopf zur Hand? Cespenar könnte Euch da einen Helm vorschlagen, natürlich den Helm eines anderen.~
 @5678859 = ~Wenn Ihr noch ein paar zusätzliche Töpfe habt, kann Cespenar vielleicht einen netten Topf für Euren Kopf daraus machen! Ein gutes Rezept habe ich, vermischt den Abwehrhelm mit dem Helm zum Schutz vor Bezauberung. Dazu brauche ich noch 4 Perlen und 10.000 Goldmünzen.~
 @5678959 = ~Wenn Ihr noch ein paar zusätzliche Töpfe habt, kann Cespenar vielleicht einen netten Topf für Euren Kopf daraus machen! Ein gutes Rezept habe ich, vermischt den Abwehrhelm mit dem Helm zum Schutz vor Bezauberung. Dazu brauche ich noch diese 4 Perlen und 10.000 Goldmünzen. Hört sich gut an, nicht wahr?~
 
@@ -323,8 +323,8 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @5678983 = ~Cespenar sein kein Hautarzt aber er kann aus der Waffe des Fleisches zusammen mit dem Seelenstein und einer Schriftrolle mit „Schutz vor Magie“ und 20.000 Goldmünzen, das ganze noch glänzender machen. Es wird Euch noch widerstandsfähiger und robuster machen. Was man von den Leuten, die Ihr tragen werdet, nicht behaupten kann.~
 
 @567884 = ~Wo habt Ihr das gefunden? Bhaal hat immer danach gesucht, es aber nie gefunden! Er wollte es zur Dekoration hier über den Eingang hängen …~
-@5678884 = ~Sehr sehr verschlagenes Rezept für den Seelenschnitter. Nehmt das Herz des Verdammten und das ultimative Schwert der guten Zweibeiner und 20.000 Goldmünzen, dann wird der Seelenschnitter supersupertödlich! Wenn einer von den guten Zweibeinern Euch danach fragt, verratet ihm nicht, dass es Cespenars Idee war!~
-@5678984 = ~Sehr sehr verschlagenes Rezept für den Seelenschnitter. Nehmt das Herz des Verdammten und das ultimative Schwert der guten Zweibeiner und 20.000 Goldmünzen, dann wird der Seelenschnitter supersupertödlich! Wenn einer von den guten Zweibeinern Euch danach fragt, verratet ihm nicht, dass es Cespenars Idee war!~
+@5678884 = ~Cespenar haben uraltes Rezept für den Seelenschnitter. Nehmt das Herz des Verdammten und das ultimative Schwert der rechtschaffenen Zweibeiner und 20.000 Goldmünzen, dann wird der Seelenschnitter supertödlich! Wenn einer von den rechtschaffenen Zweibeinern Euch danach fragt, verratet ihm nicht, dass es Cespenars Idee war!~
+@5678984 = ~Cespenar haben uraltes Rezept für den Seelenschnitter. Nehmt das Herz des Verdammten und das ultimative Schwert der rechtschaffenen Zweibeiner und 20.000 Goldmünzen, dann wird der Seelenschnitter supertödlich! Wenn einer von den rechtschaffenen Zweibeinern Euch danach fragt, verratet ihm nicht, dass es Cespenars Idee war!~
 
 @567885 = ~Ooh, das glänzende Symbol des alten Sonnengottes! Amaunator und Bhaal sind nie gut miteinander ausgekommen. Ein alter Streit über Dämonen, Sonnenlicht und diese heilige Ziege. Ziemlich traurige Geschichte. Als die Ziege gestorben war ist Ammy nicht mehr zum Tee vorbei gekommen.~
 @5678885 = ~Egal, kann das Symbol Amaunators in eine Tartsche einarbeiten. Für jeden Finger einen Sonnenstein und insgesamt 10.000 Goldmünzen, dann wird ein glänzendes Schild daraus, das die lästigen Untoten abhalten wird, euch anzugreifen.~
@@ -334,7 +334,7 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @5678886 = ~In der Zwischenzeit, habe ich ein Rezept für Diebeszubehör herausgesucht. Alles ganz modische Dinge: die Handschuhe des Taschendiebstahls, Abwehrarmreifen, den Ring der Dietriche und der des Sechsten Sinns, zwei Schutzringe. Zusammen mit 5.000 Goldmünzen mache ich daraus einen großen glänzenden Ring.~
 @5678986 = ~In der Zwischenzeit, habe ich ein Rezept für Diebeszubehör herausgesucht. Alles ganz modische Dinge: die Handschuhe des Taschendiebstahls, Abwehrarmreifen, den Ring der Dietriche und der des Sechsten Sinns, zwei Schutzringe. Zusammen mit 5.000 Goldmünzen mache ich daraus einen großen glänzenden Ring.~
 
-@567887 = ~Ah, funkelnde Schmuckstücke Ihr habt. Obwohl ungeschickt angeordnet sie sind. Vielleicht kann Cespenar Euch dabei später unter die Arme greifen. Ein bisschen violett würde Eure Augen besser zur Geltung bringen? Oder?~
+@567887 = ~Ah, funkelnde Schmuckstücke Ihr da habt. Ungeschickt angeordnet sie sind. Vielleicht kann Cespenar Euch dabei später unter die Arme greifen. Ein bisschen violett würde Eure Augen besser zur Geltung bringen? Oder?~
 @5678887 = ~Schön, schön, Cespenar kann zwei Schutzamulette, das Schutzamulett gegen Gift, die Halskette der Gestaltwahrung und das Amulett des Zauberschutzes zusammenbiegen. Das wäre eine tolle Juwelenkette! Zusammen mit einem bisschen Segen von meinem Freund Ilmater (aus irgendeinem Grund hat Ilmater eine Schwäche für den armen Cespenar) und los geht's! Somit sind 10.000 Goldmünzen angemessen.~
 @5678987 = ~Schön, schön, Cespenar kann zwei Schutzamulette, das Schutzamulett gegen Gift, die Halskette der Gestaltwahrung und das Amulett des Zauberschutzes zusammenbiegen. Das wäre eine tolle Juwelenkette! Zusammen mit einem bisschen Segen von meinem Freund Ilmater (aus irgendeinem Grund hat Ilmater eine Schwäche für den armen Cespenar) und los geht's! Wollt Ihr die Kette für 10.000 Goldmünzen?~
 
@@ -346,7 +346,7 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @5678889 = ~Naja, rosa steht Euch nicht wirklich gut. Ich könnte die Azurklinge mit Illithium überziehen, dann wäre sie eher purpurfarben. Sie würde dann auch noch ein bisschen besser Untote abmurksen. Allerdings 20.000 Goldmünzen.~
 @5678989 = ~Naja, rosa steht Euch nicht wirklich gut. Ich könnte die Azurklinge mit Illithium überziehen, dann wäre sie eher purpurfarben. Sie würde dann auch noch ein bisschen besser Untote abmurksen. 20.000 Goldmünzen. Seid Ihr interessiert?~
 
-@567890 = ~Ich entdecke da einen Ring an Eurem Finger! Ihr habt viel zu viele Ringe für Eure Finger? Das ist schon ein großes Problem, Cespenar weiß bescheid. So viele Glänzende, so wenig Klauen.~
+@567890 = ~Ich sehe da einen Ring an Eurem Finger! Ihr habt viel zu viele Ringe für Eure Finger? Das ein kleines Problem, Cespenar weiß Bescheid. So viele Glänzende, so wenig Klauen.~
 @5678890 = ~Ich sag Euch was. Cespenar kann Euren Ring der Vielfalt und den Ring der Klugheit zusammen mit dem Amulett des Metazaubereinflusses und einem normalen Schutzring zu einem Hexenmeisterring zusammenfügen. Für Magier ist das recht nett. Es würde Euch nur 20.000 Goldmünzen kosten.~
 @5678990 = ~Ich sag Euch was. Cespenar kann den Ring der Vielfalt und den Ring der Klugheit zusammen mit dem Amulett des Metazaubereinflusses und einem normalen Schutzring zu einem Hexenmeisterring zusammenfügen. Für Magier ist das recht nett. Wollt Ihr, es würde Euch nur 20.000 Goldmünzen kosten?~
 
@@ -354,17 +354,17 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @5678893 = ~Egal, wenn Ihr alle drei Schutzgürtel habt, kenne ich ein Rezept, das sie zu einem richten starken Gürtel macht. Wenn Ihr Euch dahinter versteckt, werden Euch Eure Feinde nicht verletzen können. Das wäre doch ein Geschäft, hm? Der Preis läge bei 10.000 Goldmünzen und drei Blutsteinen.~
 @5678993 = ~Egal, wenn Ihr die drei Schutzgürtel habt, kenne ich ein Rezept, das sie zu einem richten starken Gürtel macht. Wenn Ihr Euch dahinter versteckt, werden Euch Eure Feinde nicht verletzen können. Das wäre doch ein Geschäft, hm? Wollt Ihr, der Preis läge bei 10.000 Goldmünzen und drei Blutsteinen?~
 
-@567896 = ~Oh, raffiniert! Wollt Ihr, dass Cespenar diese Spinne verbessert? Mehr Netzspinner vielleicht? Wollt Ihr einen bestimmten Goblin terrorisieren?~
-@5678896 = ~Cespenar hat prickelndes Gefühl bei diesem Gedanken. Wie auch immer, brauche spezielles Material, damit ich diesen Mauerkletterer verbessern kann. Muss haben Schriftrollen mit „Netz“ und „Spinnenbrut“ und außerdem fünf vergiftete Wurfdolche. Auch 5.000 Goldmünzen.~
-@5678996 = ~Cespenar hat prickelndes Gefühl bei diesem Gedanken. Wie auch immer, brauche spezielles Material, damit ich diesen Mauerkletterer verbessern kann. Muss haben Schriftrollen mit „Netz“ und „Spinnenbrut“ und außerdem fünf vergiftete Wurfdolche. Auch 5.000 Goldmünzen. Wollt Ihr?~
+@567896 = ~Oh, raffiniert! Wollt Ihr, dass Cespenar diese Spinne verbessert? Mehr Netzspinner vielleicht? Oder einen bestimmten Goblin terrorisieren?~
+@5678896 = ~Cespenar hat prickelndes Gefühl bei diesem Gedanken. Brauche spezielles Material, um diesen Mauerkletterer zu verbessern. Muss haben Schriftrollen mit „Netz“ und „Spinnenbrut“ und außerdem fünf vergiftete Wurfdolche. Auch 5.000 Goldmünzen.~
+@5678996 = ~Cespenar hat prickelndes Gefühl bei diesem Gedanken. Brauche spezielles Material, um diesen Mauerkletterer zu verbessern. Muss haben Schriftrollen mit „Netz“ und „Spinnenbrut“ und außerdem fünf vergiftete Wurfdolche. Auch 5.000 Goldmünzen. Wollt Ihr?~
 
 @567898 = ~Hmm, der Jüngling hier soll kämpfen können? Wie das? Langweilt er alle zu Tode?~
 @5678898 = ~Kurzschwerter? Cespenar meint, sie brauchen mehr Schlagkraft, was? Okay, mal sehen, was Cespenar daraus machen kann … brauche Schriftrollen mit „Chaos“ und „Größeres Unbehagen“, verschmelze sie mit Arbane und Ilbratha. Kurzschwerter dürfen sich dann wirklich Waffen der Abyss nennen. Oh, Cespenar braucht auch noch 25.000 Goldmünzen. Und einen Spitzbubenstein, es sei den, Ihr wollt Stückchen von Cespenar über dem ganzen Einsprengsel verteilt haben. Nein, halt, sollte kein Vorschlag sein!~
 @5678998 = ~Kurzschwerter? Cespenar meint, sie brauchen mehr Schlagkraft, was? Okay, mal sehen, was Cespenar daraus machen kann … brauche Schriftrollen mit „Chaos“ und „Größeres Unbehagen“, verschmelze sie mit Arbane und Ilbratha. Kurzschwerter dürfen sich dann wirklich Waffen der Abyss nennen. Oh, Cespenar braucht auch noch 25.000 Goldmünzen. Und einen Spitzbubenstein, es sei den, Ihr wollt Stückchen von Cespenar über dem ganzen Einsprengsel verteilt haben. Nein, halt, sollte kein Vorschlag sein!~
 
 @5678100 = ~Ooh, das Waldelfen-Kettenhemd? Ihr müsst lange im Wald gewesen sein …~
-@56788100 = ~Ihr mögen Dinge heiß und würzig? Cespenar rühren und braten Waldelfen-Kettenhemd mit roten Drachenschuppen. Noch ein paar Andar-Gewürze und etwas Feuerachatpfeffer … voilà: sehr hell, sehr heiß und sättigend. Cespenar, der Eisenkoch … oder vielleicht der kulinarische Schmied. Aber unglücklicherweise kosten Euch ein spezieller Wok und das Erdnussöl 25.000 Goldmünzen.~
-@56789100 = ~Ihr mögen Dinge heiß und würzig? Cespenar rühren und braten Waldelfen-Kettenhemd mit roten Drachenschuppen. Noch ein paar Andar-Gewürze und etwas Feuerachatpfeffer … voilà: sehr hell, sehr heiß und sättigend. Cespenar, der Eisenkoch … oder vielleicht der kulinarische Schmied. Aber unglücklicherweise kosten Euch ein spezieller Wok und das Erdnussöl 25.000 Goldmünzen. Wollt Ihr immer noch?~
+@56788100 = ~Ihr mögen Dinge heiß und würzig? Cespenar zaubert Waldelfen-Kettenhemd angerührt mit roten Drachenschuppen. Noch ein paar Andar-Gewürze und etwas Feuerachatpfeffer … voilà: sehr hell, sehr heiß und sättigend. Cespenar, der Eisenkoch … oder vielleicht der kulinarische Schmied. Aber unglücklicherweise kosten Euch ein spezieller Wok und das Erdnussöl 25.000 Goldmünzen.~
+@56789100 = ~Ihr mögen Dinge heiß und würzig? Cespenar zaubert Waldelfen-Kettenhemd angerührt mit roten Drachenschuppen. Noch ein paar Andar-Gewürze und etwas Feuerachatpfeffer … voilà: sehr hell, sehr heiß und sättigend. Cespenar, der Eisenkoch … oder vielleicht der kulinarische Schmied. Aber unglücklicherweise kosten Euch ein spezieller Wok und das Erdnussöl 25.000 Goldmünzen. Wollt Ihr immer noch?~
 
 
 

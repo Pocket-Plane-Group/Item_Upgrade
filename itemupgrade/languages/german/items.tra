@@ -1,6 +1,6 @@
 @100 = ~Ring der Bewahrung +1~
 @101 = ~Ring der Bewahrung +1: 'Ring des Trollprinzen'
-Dieser Ring wurde mit Hilfe von Magie für <CHARNAME> geschaffen. Er vereinigt in sich die schützenden Eigenschaften von König Castter De'wess' Schutzring mit der heilsamen Macht von Huhhus' trollgefülltem Regenerationsring.
+Dieser Ring wurde im Auftrag von <CHARNAME> erschaffen. Er vereinigt in sich die schützenden Eigenschaften von König Castter De'wess' Schutzring mit der heilsamen Macht von Huhhus' trollgefülltem Regenerationsring.
 
 EIGENSCHAFTEN:
 
@@ -10,7 +10,7 @@ Besondere Fähigkeiten: der Träger regeneriert alle sechs Sekunden einen Treffe
 
 @102 = ~Ring der Bewahrung +2~
 @103 = ~Ring der Bewahrung +2: 'Ring des Trollwächters'
-Dieser Ring wurde mit Hilfe von Magie für <CHARNAME> geschaffen. Er vereinigt in sich die schützenden Eigenschaften von Prinzessin Akanals Schutzring mit der heilsamen Macht von Huhhus' trollgefülltem Regenerationsring.
+Dieser Ring wurde im Auftrag von <CHARNAME> erschaffen. Er vereinigt in sich die schützenden Eigenschaften von Prinzessin Akanals Schutzring mit der heilsamen Macht von Huhhus' trollgefülltem Regenerationsring.
 
 EIGENSCHAFTEN:
 
@@ -117,7 +117,7 @@ Gewicht: 4~
 
 @122 = ~Schlägerbraut +5~
 @123 = ~Keule +5: Schlägerbraut
-Die Schlägerbraut wurde für <CHARNAME> aus der eichenen, giftigen Keule Schwarzblut und der splitternden Keule Beißer geschmiedet. Sie pulsiert förmlich vor zerstörerischer Energie. Dadurch, dass sie mit einer teerarteigen Substanz überzogen ist, verbrennt förmlich das Fleisch des Gegners. Außerdem bleiben noch Splitter und Dornen in der Wunde hängen und verursachen zusätzliche Schmerzen.
+Die Schlägerbraut wurde durch die Verschmelzung der giftigen Keule Schwarzblut und der splitternden Keule Beißer geschmiedet. Sie pulsiert förmlich vor zerstörerischer Energie. Dadurch, dass sie mit einer teerarteigen Substanz überzogen ist, verbrennt förmlich das Fleisch des Gegners. Außerdem bleiben noch Splitter und Dornen in der Wunde hängen und verursachen zusätzliche Schmerzen.
 
 EIGENSCHAFTEN:
 
@@ -149,8 +149,8 @@ Druiden
 Magiern
 Dieben~
 
-@126 = ~Todbringer +4~
-@127 = ~Durch ein abscheuliches Ritual gelang es <CHARNAME>, den Todbringer, einen Komposit-Langbogen von unvergleichlicher Macht, zusammenzufügen. Wenn die Geisterpfeile auf seiner Sehne liegen, flackern sie im Licht. Der Bogen braucht keine Munition (obwohl er natürlich auch diverse andere Pfeile versenden kann, falls dies gewünscht wird).
+@126 = ~Teleomortis +4~
+@127 = ~Durch ein dunkles Ritual wurde der Komposit-Langbogen Teleomortis erschaffen. Wenn die Geisterpfeile auf seiner Sehne liegen, flackern sie im Licht. Der Bogen braucht keine Munition (obwohl er natürlich auch diverse andere Pfeile versenden kann, falls dies gewünscht wird).
 
 EIGENSCHAFTEN:
 
@@ -185,7 +185,7 @@ Valygar~
 
 @130 = ~Verbesserte Robe des Guten Erzmagiers~
 @131 = ~Verbesserte Robe des Guten Erzmagiers
-Diese mächtige Zauberrobe bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig den eigenen Magiewiderstand und die Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit guter Gesinnung getragen werden. Diese Robe wurde von <CHARNAME> mit zusätzlichem magischen Schutz versehen.
+Diese mächtige Zauberrobe bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig den eigenen Magiewiderstand und die Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit guter Gesinnung getragen werden. Diese Robe wurde mit zusätzlichem magischen Schutz versehen.
 
 EIGENSCHAFTEN:
 
@@ -200,7 +200,7 @@ Charakteren mit guter Gesinnung~
 
 @132 = ~Verbesserte Robe des Neutralen Erzmagiers~
 @133 = ~Verbesserte Robe des Neutralen Erzmagiers
-Diese mächtige Zauberrobe bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig den eigenen Magiewiderstand und die Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit neutraler Gesinnung getragen werden. Diese Robe wurde von <CHARNAME> mit zusätzlichem magischen Schutz versehen.
+Diese mächtige Zauberrobe bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig den eigenen Magiewiderstand und die Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit neutraler Gesinnung getragen werden. Diese Robe wurde mit zusätzlichem magischen Schutz versehen.
 
 EIGENSCHAFTEN:
 
@@ -215,7 +215,7 @@ Charakteren mit neutraler Gesinnung~
 
 @134 = ~Verbesserte Robe des Bösen Erzmagiers~
 @135 = ~Verbesserte Robe des Bösen Erzmagiers
-Diese mächtige Zauberrobe bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig den eigenen Magiewiderstand und die Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit böser Gesinnung getragen werden. Diese Robe wurde von <CHARNAME> mit zusätzlichem magischen Schutz versehen.
+Diese mächtige Zauberrobe bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig den eigenen Magiewiderstand und die Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit böser Gesinnung getragen werden. Diese Robe wurde mit zusätzlichem magischen Schutz versehen.
 
 EIGENSCHAFTEN:
 
@@ -245,7 +245,7 @@ Dieben~
 
 @138 = ~Turm des Eisernen Willens~
 @139 = ~Turm des Eisernen Willens
-Der Turm des Eisernen Willens wurde auf Geheiß von <CHARNAME> geschmiedet. Er schützt seinen Träger vor mentalen Angriffen. Zusätzlich zu dem normalen Schutz eines Helms zum Schutz vor Bezauberung schützt er seinen Träger vor psionischen Angriffen. Man beachte allerdings, dass dieser Helm nicht vor dem Aussaugen des Gehirns durch Gedankenschinder schützt.
+Der Turm des Eisernen Willens wurde auf Geheiß von <CHARNAME> geschmiedet. Er schützt seinen Träger vor mentalen Angriffen. Zusätzlich zu dem normalen Schutz eines Helms zum Schutz vor Bezauberung schützt er seinen Träger vor psionischen Angriffen. Man beachte allerdings, dass dieser Helm nicht vor dem Gehirn verzehren der Illithiden schützt.
 
 EIGENSCHAFTEN:
 
@@ -261,7 +261,7 @@ Dieben~
 @141 = ~Aegers Haut +5
 Die schwere, feste Bärenhaut ist das einzige Überbleibsel des legendären Aegers. Vor mehreren hundert Jahren terrorisierte der Aeger, ein riesenhafter Bär, Hunderte kleiner Dörfer entlang der ganzen Schwertküste. Der Bär konnte weder durch Feuer noch durch Kälte oder Säure verwundet werden. In ihrer Verzweiflung schlossen sich die jungen Männer und Frauen mehrerer Dörfer zusammen und bildeten eine Miliz von beinahe zweihundert Leuten. Sie umringten den Aeger und konnten ihn schließlich zu Fall bringen. Weniger als ein Dutzend Dorfbewohner überlebten das Massaker. Sie teilten die Haut des Aegers unter sich auf. Aus einem der Hautstücke wurde diese Rüstung gefertigt.
 
-Kürzlich gelang es <CHARNAME>, Aegers Haut mit zusätzlicher Magie zu verbessern. Sie schützt jetzt noch mehr gegen körperliche Angriffe und Schäden durch Elementarkräfte.
+Kürzlich wurde Aegers Haut mit zusätzlicher Magie verbessert. Sie schützt jetzt besser gegen körperliche Angriffe und Schäden durch Elementarkräfte.
 
 EIGENSCHAFTEN:
 
@@ -312,7 +312,7 @@ Keldorn~
 @147 = ~Ankheg Plattenpanzer +2
 Dieser Plattenpanzer ist ein Meisterwerk. Er besteht aus dem Panzer eines Ankheg. Daruch schützt er seinen Träger stärker als ein gewöhnlicher Plattenpanzer es vermag und er kann auch nicht rosten. Wie schon einige Abenteurer berichten können, ist sein geringes Gewicht von unschätzbaren Wert. Monster kommen und gehen, aber die Müdigkeit ist ein ständiger Begleiter.
 
-Dieser Ankheg Plattenpanzer wurde von <CHARNAME> erneuert. Er schützt jetzt seinen Träger vor Säureangriffen und imitiert die Säureangriffe eines Ankheg.
+Dieser Ankheg Plattenpanzer wurde verbessert. Er schützt jetzt seinen Träger vor Säureangriffen und imitiert die Säureangriffe eines Ankheg.
 
 EIGENSCHAFTEN:
 
@@ -331,7 +331,7 @@ Dieben~
 @149 = ~Schild der Harmonie +3
 Audn vom Schlachtfeld, der Ritter und Kämpe des Magiers Kekkim, trug diesen Schild den Großteil seines Lebens. Er schützte vor allen Arten der geistigen Beeinflussung. Das ist natürlich für einen Magier, der sich darauf verlassen muss, dass die mit ihm verbündeten Krieger treu an seiner Seite kämpfen, von enormem Vorteil. Sowohl Kekkim als auch Audn sind schon vor langer Zeit in den Schoß der Mutter Erde zurückgekehrt und haben den Schild sozusagen jenen hinterlassen, die es schaffen, ihn aus Kekkims Turm zu holen.
 
-Zuletzt wurde dieser Schild von <CHARNAME> mit zusätzlichen magischen Eigenschaften versehen. Es gewährt nun einen besseren Schutz gegen körperliche Angriffe und schützt vor psionischen Angriffen. Allerdings kann es seinen Träger nicht vor dem Gehirnsaugen der Illithiden bewahren.
+Zuletzt wurde dieser Schild mit zusätzlichen magischen Eigenschaften versehen. Es gewährt nun einen besseren Schutz gegen körperliche Angriffe und schützt vor psionischen Angriffen. Allerdings kann es seinen Träger nicht vor dem Gehirn verzehren der Illithiden bewahren.
 
 EIGENSCHAFTEN:
 
@@ -349,7 +349,7 @@ Dieben~
 @151 = ~Wurfspeer +3
 Der Speer war eine der ersten Waffen, die von Menschenhand gefertigt wurde. Die ersten Speere waren nicht viel mehr als Holzstangen, die an einem Ende zugespitzt waren. Als die Menschheit lernte, mit Metall zu arbeiten, wurden die Speerspitzen aus Eisen oder Stahl gefertigt. Dieser Speer vibriert förmlich, weil die mächtige Magie, die bei seiner Erschaffung verwendet wurde, nach einem Ventil sucht.
 
-Im Gegensatz zu gewöhnlichen Speeren, kann dieser Speer auch als Wurfspeer benutzt werden. Unter Benutztung eines Spitzbubensteins gelang es <CHARNAME> den Speer dafür herzurichten. Nachdem er geworfen wurde, kehrt dieser Speer in die Hand seines Besitzers zurück. Natürlich kann dieser Speer auch im Nahkampf verwendet werden.
+Im Gegensatz zu gewöhnlichen Speeren, kann dieser Speer auch als Wurfspeer benutzt werden. Nach jedem Wurf kehrt der Speer in die Hand des Trägers zurück. Natürlich kann dieser Speer auch weiterhin als Nahkampfwaffe verwendet werden.
 
 EIGENSCHAFTEN:
 
@@ -370,7 +370,7 @@ Dieben~
 @153 = ~Einhornspeer (Wurfspeer) +3
 Der anmutig wirkende Speer wurde so gefertigt, dass er an das Horn eines Einhorns erinnert. Der Träger des Speers ist ebenso wie ein Einhorn gegen Bezauberung und Festhalten immun. Es wurde schon häufig darüber diskutiert, ob es sich bei dem Speer tatsächlich um das Horn eines Einhorns handelt, oder ob er nur dessen Aussehen hat.
 
-Der ursprüngliche Einhornspeer wurde von <CHARNAME> bearbeitet, damit man ihn auch als Wurfspeer verwenden kann. Nach einem Wurf kehrt der Speer in die Hand seines Besitzers zurück. Dies ist keine natürliche Eigenschaft des Speers, sie wurde mittels Magie geschaffen. Natürlich kann dieser Speer auch im Nahkampf verwendet werden.
+Der ursprüngliche Einhornspeer wurde bearbeitet, sodass man ihn auch als Wurfspeer verwenden kann. Nach jedem Wurf kehrt der Speer in die Hand des Trägers zurück. Dies ist keine natürliche Eigenschaft des Speers, sie wurde mittels Magie geschaffen. Natürlich kann dieser Speer auch weiterhin als Nahkampfwaffe verwendet werden.
 
 EIGENSCHAFTEN:
 
@@ -391,7 +391,7 @@ Dieben~
 @155 = ~Aufspießer (Wurfspeer) +4
 Der Aufspießer ist von einer fühlbaren Aura der Magie umgeben, die eindeutig bösartig wirkt. Das liefert einen Hinweis darauf, warum die Waffe in der Vergangenheit ein beliebtes Werkzeug von mehreren mächtigen Orkhäuptlingen war. Wenn der Speer auf ein Opfer trifft, beginnt die enorm starke Verzauberung des Speers zu wirken und drückt ihn mit solcher Wucht gegen das Opfer, dass es förmlich aufgespießt wird.
 
-Nachdem <CHARNAME> den Aufspießer aus der Stadt der Sahuagin mitnahm, schmiedete <PRO_HESHE> diesen in einen Wurfspeer um. Nach einem Wurf kehrt der Speer in die Hand des Trägers zurück. Der Speer kann natürlich auch weiterhin als Nahkampfwaffe verwendet werden.
+Nachdem <CHARNAME> den Aufspießer aus der Stadt der Sahuagin mitnahm, ließ <PRO_HESHE> diesen in einen Wurfspeer umschmieden. Nach jedem Wurf kehrt der Speer in die Hand des Trägers zurück. Natürlich kann dieser Speer auch weiterhin als Nahkampfwaffe verwendet werden.
 
 EIGENSCHAFTEN:
 
@@ -412,7 +412,7 @@ Dieben~
 @157 = ~Stecken der Waldländer +5
 Der ursprüngliche Träger des Steckens war nur als 'Der Mann des Waldes' bekannt. Diese legendäre Gestalt lebte in der Nähe von Handelstreff. Er starb eines natürlichen Todes und kehrte in den Schoß der Mutter Natur zurück. Jene, die ihn gesehen haben, erinnern sich daran, dass er eine dunkle, rindenartige Haut hatte. Wenn er jedoch seinen Stecken zur Seite stellte, normalisierte sich seine Haut. Er machte Holzfällern und Wilderern, die ohne Rücksicht auf das Gleichgewicht in der Natur ihrem Handwerk nachgingen, das Leben schwer. Alte Leute können noch davon erzählen, wie er einmal von Söldnern gejagt wurde, die mehrere Dutzend Jagdhunde einsetzten. Als es so schien, als ob die Tiere den alten Druiden zerfetzen würden, wandten sie sich plötzlich gegen ihre eigenen Herren. Die Söldner hofften, den Einfluss des Mannes zu brechen, indem sie ihn verzweifelt angriffen. Doch das Letzte, was die panischen Sölnder sahen, war, wie der Mann des Waldes die Vegetation selbst entfesselte und sich eine Mischung aus lebender und toter Vegetation vor ihnen erhob und sie unter sich begrub. Keiner der Söldner überlebte diese Begegnung.
 
-Zuletzt wurde der Stecken von <CHARNAME> mit zusätzlichen Zaubern versehen, um seine Fähigkeiten im Nahkampf zu verbessern.
+Zuletzt wurde der Stecken mit zusätzlichen Zaubern versehen, um seine Fähigkeiten im Nahkampf zu verbessern.
 
 EIGENSCHAFTEN:
 
@@ -436,7 +436,7 @@ Tiermeistern~
 @159 = ~Tagesstern +4: Sonnenklinge
 Ob die Klinge speziell für den Einsatz der treusten Diener Torms erschaffen wurde oder irgendwann in der langen Geschichte der Kirche diesem Zweck zugeführt wurde, ist im Nebel der Zeit verloren gegangen. Auf jeden Fall haben die Paladine vom Orden des Heiligen Zorns der Loyalen Streiter das Schwert Tagesstern in ihrem Kampf gegen böse Untote oft sehr effektiv eingesetzt. Magie oder ein mächtiger Segen haben der Waffe die Fertigkeit verliehen, den Zauber 'Sonnenstrahl' einzusetzen. Dabei wird eine starke Energie von der Positiven Ebene kanalisiert, die sowohl lebende Wesen als auch Untote vernichten kann.
 
-<CHARNAME> errang diese Klinge im Kampf mit einem Leichnam nahe der Stadttore von Athkatla. Er schmiedetet es um zu einem noch mächtigeren Instrument der heiligen Gerechtigkeit.
+<CHARNAME> errang diese Klinge im Kampf mit einem Leichnam nahe der Stadttore von Athkatla. Es wurde zu einem noch mächtigeren Instrument der heiligen Gerechtigkeit umgeschmiedet.
 
 EIGENSCHAFTEN:
 
@@ -490,7 +490,7 @@ Magiern~
 @163 = ~Schwert von Arvoreen +5
 Das Kurzschwert ist ein Geschenk von Arvoreen an Mazzy. Es kann nur von Halblingen eingesetzt werden. Die besondere magische Kraft des Schwerts kann Gegner in ihren Bewegungen verlangsamen.
 
-Mit dem Segen von Arvoreen gelang es <CHARNAME>, das Schwert mit noch mächtigerer Magie zu versehen.
+Mit dem Segen von Arvoreen gelang es, das Schwert mit noch mächtigerer Magie zu versehen.
 
 EIGENSCHAFTEN:
 
@@ -510,7 +510,7 @@ Halblingen~
 @165 = ~Geheiligter Rächer +5
 Keldorn hat sich bereits früh in seiner Laufbahn als würdiger Paladin erwiesen und von Torm eine außergewöhnliche Waffe erhalten. Der Geheiligte Rächer trifft nicht nur sehr präzise, sondern schützt Keldorn auch durch ein besonderes Feuerschild. Jeder, der ihn trifft, während er die Waffe einsetzt, erleidet Torms Zorn in Form von magischem Schaden. Das Schwert kann nur von Keldorn geführt werden.
 
-Mit der Hilfe von <CHARNAME> und dem Segen von Torm, konnte dieses Schwert mittels Magie noch mächtiger gemacht werden.
+Mit dem Segen von Torm wurde dieses magische Schwert noch mächtiger.
 
 EIGENSCHAFTEN:
 
@@ -529,7 +529,7 @@ Kann nur verwendet werden von: Keldorn~
 @167 = ~Familienschild der Delryns +4
 Das ist das Erbschild von Anomens Familie. Es wurde Anomen von seinem Vater übergeben. Abgesehen von dem erhöhten Schutz gegen normale Angriffe, die das Schild bietet, strahlt es eine Aura aus, die den Träger teilweise gegen Angriffe schützt, die auf Kälte oder Hitze basieren. Anomen kann das Schild verwenden, um ein Energiefeld zu erzeugen, das ihn vor Angriffen mit Fernkampfwaffen schützt. Diese Fähigkeit kann dreimal täglich eingesetzt werden.
 
-<CHARNAME> verstärkte dieses Schild mit den Platten des Gnadenretters, welches <PRO_HESHE> von Amaunators Avatar erlangte. Nun strotzt dieses Schild vor Magie und gewährt seinem Träger einen ausserordentlichen Schutz.
+Verstärkt wurde dieses Schild mit dem Gnadenretter, welches <CHARNAME> von Amaunators Avatar erlangte. Nun strotzt dieses Schild vor Magie und gewährt seinem Träger einen ausserordentlichen Schutz.
 
 EIGENSCHAFTEN:
 
@@ -540,7 +540,7 @@ Kann nur verwendet werden von: Anomen~
 
 @168 = ~Lilarcor +5~
 @169 = ~Lilarcor +5
-Nachdem <CHARNAME> Lilarcor verbessert hat, ist es nicht mehr so sympathisch (oder nervig, je nachdem, welchen Standpunkt man vertritt). Nachdem der Kontrollstirnreif in sein Heft eingearbeitet wurde, hat Lilarcor die Fähigkeit verloren, mit Personen in seiner näheren Umgebung ein sinnvolles Gespräch zu führen. Nun erweist sich Lilarcors einzigartige Intelligenz als Segen für seinen Träger: die Intelligenz desjenigen, der Lilarcor in seiner Hand führt, kann nicht mehr geändert werden. Dies schützt nun gegen die gehirnsaugenden Illithiden, aber die Intelligenz kann nicht mehr durch einen Trank erhöht werden.
+Nachdem <CHARNAME> Lilarcor verbessern ließ, ist das Schwert nicht mehr so sympathisch (oder nervig, je nachdem, welchen Standpunkt man vertritt). Nachdem der Kontrollstirnreif in sein Heft eingearbeitet wurde, hat Lilarcor die Fähigkeit verloren, mit Personen in seiner näheren Umgebung ein sinnvolles Gespräch zu führen. Nun erweist sich Lilarcors einzigartige Intelligenz als Segen für seinen Träger: die Intelligenz desjenigen, der Lilarcor in seiner Hand führt, kann nicht mehr geändert werden. Dies schützt nun gegen das Gehirn verzehren der Illithiden. Allerdings kann die Intelligenz nicht mehr durch einen Trank erhöht werden.
 
 EIGENSCHAFTEN:
 
@@ -583,7 +583,7 @@ Charakteren ohne böse Gesinnung~
 
 @172 = ~Keule +4: Der Bewahrer~
 @173 = ~Keule +4: Der Bewahrer
-<CHARNAME> erschuf den Bewahrer durch die Vereinigung der Knochenkeule mit dem Beißer. Seine Aufgabe ist die Bewahrung des Gleichgewichts. Die Geister verstorbener Krieger führen die Hand des Trägers mit unbeirrbarer Genauigkeit. Dazu verursacht ein Treffer mit dieser Keule einen nicht unbedeutenden Schaden beim Gegner, da sich die Knochensplitter in die Wunden bohren. Zur Bewahrung des Gleichgewichts verursacht der Bewahrer zusätzlichen Schaden bei nicht-neutralen Gegnern.
+Der Bewahrer wurde durch die Vereinigung der Knochenkeule mit dem Beißer erschaffen. Seine Aufgabe ist die Bewahrung des Gleichgewichts. Die Geister verstorbener Krieger führen die Hand des Trägers mit unbeirrbarer Genauigkeit. Dazu verursacht ein Treffer mit dieser Keule einen nicht unbedeutenden Schaden beim Gegner, da sich die Knochensplitter in die Wunden bohren. Zur Bewahrung des Gleichgewichts verursacht der Bewahrer zusätzlichen Schaden bei nicht-neutralen Gegnern.
 
 EIGENSCHAFTEN:
 
@@ -700,7 +700,7 @@ Dieben~
 
 @186 = ~Ring des Hexenmeisters~
 @187 = ~Magierring: 'Ring des Hexenmeisters'
-Dieser Ring ist zweifellos die Krönung aller Versuche, die nächtlichen Studien zur Einprägung von Zaubern zu vervollkommnen. Auf Anregung von <CHARNAME> hin wurde dieser Ring aus dem Zauberring, dem Ring der Klugheit, dem Amulett des Metazaubereinflusses und einem Schutzring gerfertigt. Er gestattet seinem Träger, einen zusätzlichen Zauberspruch der Grade eins bis sieben zu memorieren. Zusätzlich gewährt der Ring noch einen leichten magischen Schutz.
+Dieser Ring ist zweifellos die Krönung aller Versuche, die nächtlichen Studien zur Einprägung von Zaubern zu vervollkommnen. Im Auftrag von <CHARNAME> hin wurde dieser Ring aus dem Zauberring, dem Ring der Klugheit, dem Amulett des Metazaubereinflusses und einem Schutzring gerfertigt. Er gestattet seinem Träger, einen zusätzlichen Zauberspruch der Grade eins bis sieben zu memorieren. Zusätzlich gewährt der Ring noch einen leichten magischen Schutz.
 
 EIGENSCHAFTEN:
 
@@ -720,7 +720,7 @@ Gewicht: 2~
 
 @190 = ~Verbesserte Schwarze Spinnenstatuette~
 @191 = ~Verbesserte Schwarze Spinne
-Die Kitthix Statuette wurde von Cromwell überarbeitet, sodass nun eine wesentlich mächtigere Spinne beschworen werden kann. Kitthix ist somit nicht mehr länger eine Waffe der Verzweiflung, die nur eingesetzt wird um Zeit gegen einen übermächtigen Feind zu gewinnen, sondern ein mächtiger Verbündeter für den Kampf. Kitthix' Spinnennetz- und Giftstärke wurden um ein Vielfaches verbessert und auch die Spinne selbst ist nun stark genug um nicht gleich von jedem dahergelaufenen Feind vernichtet zu werden.
+Die Kitthix Statuette wurde überarbeitet, sodass nun eine wesentlich mächtigere Spinne beschworen wird. Kitthix ist somit nicht mehr länger eine Waffe der Verzweiflung, die nur eingesetzt wird um Zeit gegen einen übermächtigen Feind zu gewinnen, sondern ein mächtiger Verbündeter für den Kampf. Kitthix' Spinnennetz- und Giftstärke wurden um ein Vielfaches verbessert und auch die Spinne selbst ist nun stark genug um nicht gleich von jedem dahergelaufenen Feind vernichtet zu werden.
 
 EIGENSCHAFTEN:
 
@@ -782,7 +782,7 @@ Kann nicht verwendet werden von:
 
 @199 = ~Ring der Bewahrung +3~
 @200 = ~Ring der Bewahrung +3: 'Der Siegelring des Hüters'
-Dieser Ring wurde mit Hilfe von Magie für <CHARNAME> geschaffen. Er vereinigt in sich die schützenden Eigenschaften vom Siegelring des Hüters mit der heilsamen Macht von Huhhus' trollgefülltem Regenerationsring.
+Dieser Ring wurde im Auftrag von <CHARNAME> erschaffen. Er vereinigt in sich die schützenden Eigenschaften vom Siegelring des Hüters mit der heilsamen Macht von Huhhus' trollgefülltem Regenerationsring.
 
 EIGENSCHAFTEN:
 
