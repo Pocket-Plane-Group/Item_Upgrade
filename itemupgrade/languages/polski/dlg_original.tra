@@ -19,7 +19,7 @@
 @123418 = ~Jesteś w stanie uzyskać coś z tej Skóry Aegera?~
 @123419 = ~Czy możesz przekuć rodową zbroję Sir Keldorna Firecama?~
 @123420 = ~Czy możesz wzmocnić tę Zbroję płytową z ankhega?~
-@123421 = ~Tarcza Harmonii -- czy możesz ulepszyć jej właściwości?~
+@123421 = ~Tarcza Harmonii – czy możesz ulepszyć jej właściwości?~
 @123422 = ~Szukam rzucanej włóczni. Mógłbyś wykonać jakąś?~
 @123423 = ~Co możesz zrobić z tą Włócznią jednorożca?~
 @123424 = ~Jest jakaś szansa, aby Przebijacz zadawał większe obrażenia?~
@@ -33,6 +33,7 @@
 @123432 = ~Naprawdę kocham zabójcze sztylety. Czy mógłbyś ulepszyć któryś z moich?~
 @123433 = ~Co można zrobić z tym puklerzem?~
 @123434 = ~Jest jakaś szansa na ulepszenie Rękawic kieszonkowca?~
+@12350 = ~Czy możesz wykuć coś z tego wyjątkowo potężnego Pierścienia ochrony?~
 
 @123435 = ~Nie teraz.~
 @123436 = ~Tak, zróbmy to!~
@@ -43,7 +44,7 @@
 
 @123440 = ~Mogę połączyć Pierścień ochrony +1 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 10000 sztuk złota. Zainteresowany?~ ~Mogę połączyć Pierścień ochrony +1 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 10000 sztuk złota. Zainteresowana?~
 @123441 = ~Mogę połączyć Pierścień ochrony +2 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 20000 sztuk złota. Zainteresowany?~ ~Mogę połączyć Pierścień ochrony +2 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 20000 sztuk złota. Zainteresowana?~
-@123442 = ~Mogę połączyć pierścienie kontroli nad powietrzem, ziemią i ogniem w Pierścień kontroli nad żywiołami. Potrzebuję zwojów ochronnych ochrony przed petryfikacją, ogniem oraz elektrycznością jako reagenty. To będzie także kosztować 20000 sztuk złota.~
+@123442 = ~Mogę połączyć pierścienie kontroli nad powietrzem, ziemią i ogniem w Pierścień kontroli nad żywiołami. Potrzebuję zwojów ochronnych ochrony przed petryfikacją, ogniem oraz elektrycznością jako reagentów. To będzie także kosztować 20000 sztuk złota.~
 @123443 = ~Mogę połączyć kostury powietrza, ziemi oraz ognia w Kostur władzy nad żywiołami. To będzie też kosztowało cię 20000 sztuk złota, ale jestem pewien, że się opłaci.~
 @123444 = ~Jakżeby inaczej, mogę złączyć razem Buty szybkości i ukrycia. Potrzebuję kamienia łotrzyków jako reagenta i 10000 sztuk złota jako zapłatę za pracę.~
 @123445 = ~Jakżeby inaczej, mogę złączyć razem Buty szybkości i Północy. Potrzebuję kamienia łotrzyków jako reagenta i 10000 sztuk złota jako zapłatę za pracę.~
@@ -51,22 +52,23 @@
 @123447 = ~Jakżeby inaczej, mogę złączyć razem Buty szybkości i uników. W nowych butach będziesz szybki jak błyskawica! Potrzebuję kamienia łotrzyków jako reagenta i 20000 sztuk złota jako zapłatę za pracę.~
 @123448 = ~Mogę połączyć Czarną krew i Zgniatacza w potężną maczugę. To będzie kosztowało 15000 sztuk złota. Co ty na to?~
 @123449 = ~Mogę połączyć Kościaną maczugę i Zgniatacza w potężną maczugę ... perfekcyjną dla służby równowagi. To będzie kosztować 15000 sztuk złota.~
-@123450 = ~Razem ze zwojem palca śmierci, przeklętą miksturą uzdrawiania i 15000 sztukami złota mogę przekuć Rozłupywacza czaszek dla ciebie. Zainteresowany?~ ~Razem ze zwojem palca śmierci, przeklętą miksturą uzdrawiania i 15000 sztukami złota mogę przekuć Rozłupywacza czaszek dla ciebie. Zainteresowana?~
+@123450 = ~Razem ze zwojem Palca śmierci, przeklętą miksturą uzdrawiania i 15000 sztukami złota mogę przekuć Rozłupywacza czaszek dla ciebie. Zainteresowany?~ ~Razem ze zwojem palca śmierci, przeklętą miksturą uzdrawiania i 15000 sztukami złota mogę przekuć Rozłupywacza czaszek dla ciebie. Zainteresowana?~
 @123451 = ~Poszukiwacz serc może być połączony z cięciwą Gesena lub z cięciwą Gonda. Wraz z czterema Łzami Laeral i miksturą mocy mogę stworzyć dla ciebie długi łuk nie wymagający żadnych strzał.~
   @123452 = ~Pewnie, użyj cięciwy Gesena.~
   @123453 = ~Pewnie, użyj cięciwy Gonda.~
 @123454 = ~Ach, znać ród magów. Używając zwoju ochrony przed magią jako katalizatora mogę skuć razem Rodową zbroję Corthalów i Łuskę Smoka Cieni. To jednak będzie kosztować 10000 sztuk złota.~
-// @123455 = ~Tak, mogę dokonać kilku ulepszeń Szaty arcymaga. Wraz z Płaszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentów mogę zrobić szatę godną Elminstera. To będzie kosztować 20000 sztuk złota.~
-@12349955 = ~Tak, mogę dokonać kilku ulepszeń Szaty arcymaga. Wraz z Płaszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentów mogę zrobić szatę godną Elminstera. To będzie kosztować 20000 sztuk złota.~
+// @123455 = ~Tak, mogę dokonać kilku ulepszeń Szaty arcymaga. Wraz z Płaszczem ochrony +1 i zwojami eteralnego pancerza i Warunkowania jako reagenty mogę zrobić szatę godną Elminstera. To będzie kosztować 20000 sztuk złota.~
+@12349955 = ~Tak, mogę dokonać kilku ulepszeń Szaty arcymaga. Wraz z Płaszczem ochrony +1 i zwojami eteralnego pancerza i Warunkowania jako reagenty mogę zrobić szatę godną Elminstera. To będzie kosztować 20000 sztuk złota.~
+@12349956 = ~Tak, mogę dokonać kilku ulepszeń Szaty arcymaga. Wraz z Płaszczem ochrony +1 i zwojami duchowego pancerza i klosza niewrażliwości jako reagenty mogę zrobić szatę godną Elminstera. To będzie kosztować 20000 sztuk złota.~
   @123456 = ~Pewnie, ulepsz tę Szatę dobrego arcymaga.~
   @123457 = ~Pewnie, ulepsz tę Szatę neutralnego arcymaga.~
   @123458 = ~Pewnie, ulepsz tę Szatę złego arcymaga.~
-@123459 = ~Jak najbardziej. Mogę połączyć defensywne moce Hełmu ochrony i Hełmu ochrony przed urokami. Potrzebuję 4 perły jako reagenty i 10000 sztuk złota za pracę.~
+@123459 = ~Jak najbardziej. Mogę połączyć defensywne moce Hełmu ochrony i Hełmu ochrony przed urokami. Potrzebuję 4 perły jako reagentów i 10000 sztuk złota za pracę.~
 @123460 = ~Hmm. Jeśli uda ci się zdobyć dwie butelki Solnej mikstury i dostarczyć je mi, mogę wtedy użyć ich do umagicznienia Hełmu ochrony przed urokami przeciw psionice. Muszę też otrzymać 10000 sztuk złota za pracę.~
 @123461 = ~Wraz ze zwojem ochrony przed żywiołami użytym jako katalizator, mógłbym sprawić, że ta stara niedźwiedzia skóra byłaby mocniejsza, ale i bardziej cuchnąca niż jest obecnie. Muszę też otrzymać 15000 sztuk złota za pracę.~
 @123462 = ~Razem z wybranymi elementami Zbroi Jelenia mogę przekuć Pełną zbroję płytową Firecama. Ale za jakość trzeba słono płacić: muszę otrzymać 20000 sztuk złota za pracę.~
 @123463 = ~Z dwoma różnymi zwojami ochrony przed kwasem, mogę przekuć Zbroję płytową z ankhega. To będzie kosztować cię kolejne 5000 sztuk złota.~
-@123464 = ~Ach, Tarcza Harmonii. Jest piękna, muszę przyznać. Jeśli będziesz mieć dwie butelki Solnej mikstury, Obrożę niewolnika i Beljuryl będę mógł przekuć je ze sobą. Potrzebuję również 10000 sztuk złota, będzie za to zapewniała silniejszą i pełniejszą ochronę.~
+@123464 = ~Ach, Tarcza Harmonii. Jest piękna, muszę przyznać. Jeśli będziesz mieć dwie butelki Solnej mikstury, Obrożę niewolnika i beljuryl będę mógł przekuć je ze sobą. Potrzebuję również 10000 sztuk złota, będzie za to zapewniała silniejszą i pełniejszą ochronę.~
 @123465 = ~Jasne, z kamieniem łotrzyków i 10000 sztuk złota mogę przekuć twoją Włócznię +3 w rzucaną.~
 @123466 = ~Jasne, z kamieniem łotrzyków i 10000 sztuk złota mogę przekuć twoją Włócznię jednorożca w rzucaną.~
 @123467 = ~Ach, to Przebijacz. Jeśli jest coś, co Sahuagini mogą dobrze zrobić, to jest to harpun. Wraz z kamieniem łotrzyków i 15000 sztuk złota mogę zrobić z tego rzucaną włócznię.~
@@ -99,22 +101,15 @@
 
 @123495 = ~Czy możesz ulepszyć tę Figurkę Czarnego Pająka?~
 @123496 = ~Lepiej by było, gdybyś zapytał o to maga drowów niż krasnoluda, ale mogę to zrobić.~ ~Lepiej by było, gdybyś zapytała o to maga drowów niż krasnoluda, ale mogę to zrobić.~
-@1234996 = ~Będę potrzebował kilku specjalnych reagentów: zwojów pajęczego pomiotu i pajęczyny, pięciu zatrutych rzucanych sztyletów, no i oczywiście 5000 sztuk złota.~
+@1234996 = ~Będę potrzebował kilku specjalnych reagentów: zwojów Pajęczego pomiotu i Pajęczyny, pięciu zatrutych rzucanych sztyletów, no i oczywiście 5000 sztuk złota.~
 
 @123497 = ~Czy Chaos i Entropia mogą zostać ulepszone?~
-@123498 = ~Ach, nigdym jeszcze nie próbował ulepszać planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. Jeśli nie będziesz miał nic przeciwko poświęceniu mieczy Ilbratha i Arbane'a, mogę przekuć krótkie miecze Haer'dalisa, aby zadawały więcej obrażeń i uzyskają podobne do zaklęć moce. To będzie kosztowało cię 25000 sztuk złota, dodatkowo kamień łotrzyków i zwoje chaosu oraz wielkiego osłabienia. Jesteś zainteresowany?~ ~Ach, nigdym jeszcze nie próbował ulepszać planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. Jeśli nie będziesz miał nic przeciwko poświęceniu mieczy Ilbratha i Arbane'a, mogę przekuć krótkie miecze Haer'dalisa, aby zadawały więcej obrażeń i uzyskają podobne do zaklęć moce. To będzie kosztowało cię 25000 sztuk złota, dodatkowo kamień łotrzyków i zwoje chaosu oraz wielkiego osłabienia. Jesteś zainteresowana?~
+@123498 = ~Ach, nigdym jeszcze nie próbował ulepszać planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. Jeśli nie będziesz miał nic przeciwko poświęceniu mieczy Ilbratha i Arbane'a, mogę przekuć krótkie miecze Haer'dalisa, aby zadawały więcej obrażeń i uzyskają podobne do zaklęć moce. To będzie kosztowało cię 25000 sztuk złota, dodatkowo kamień łotrzyków i zwoje Chaosu oraz Wielkiego osłabienia. Jesteś zainteresowany?~ ~Ach, nigdym jeszcze nie próbował ulepszać planarnych broni. To bardzo niebezpieczna praca. Hmmm, zobaczmy. Jeśli nie będziesz miał nic przeciwko poświęceniu mieczy Ilbratha i Arbane'a, mogę przekuć krótkie miecze Haer'dalisa, aby zadawały więcej obrażeń i uzyskają podobne do zaklęć moce. To będzie kosztowało cię 25000 sztuk złota, dodatkowo kamień łotrzyków i zwoje Chaosu oraz Wielkiego osłabienia. Jesteś zainteresowana?~
 
 @123499 = ~Czy możesz przekuć dla mnie elfią zbroję?~
 @1234100 = ~Tak, mogę skuć Sylvańską kolczugę wraz z Łuską czerwonego smoka. Z trzema andradytami i trzema agatami ognistymi, i co najważniejsze za 25000 sztuk złota, mogę stworzyć potężną zbroję. Zainteresowany?~ ~Tak, mogę skuć Sylvańską kolczugę wraz z Łuską czerwonego smoka. Z trzema andradytami i trzema agatami ognistymi, i co najważniejsze za 25000 sztuk złota, mogę stworzyć potężną zbroję. Zainteresowana?~
 
-
-
-
-
-
-
-
-
+@12351 = ~Mogę połączyć Pierścień ochrony +3 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 30000 sztuk złota. Zainteresowany?~ ~Mogę połączyć Pierścień ochrony +3 i Pierścień regeneracji. Muszę też zanurzyć diament według tego przepisu, a poza tym będzie to kosztowało 30000 sztuk złota. Zainteresowana?~
 
 /* From kelseynpc@5678attbi.com Sat Jan 11 17:19:18 2003
 Date: Sun, 05 Jan 2003 02:49:10 -0600
@@ -150,7 +145,7 @@ version, I just added the tags, changed nothing.
 @567818 = ~Jesteś w stanie uzyskać coś z tej Skóry Aegera?~
 @567819 = ~Czy możesz przekuć rodową zbroję Sir Keldorna Firecama?~
 @567820 = ~Czy możesz wzmocnić tę Zbroję płytową z ankhega?~
-@567821 = ~Tarcza Harmonii -- czy możesz ulepszyć jej właściwości?~
+@567821 = ~Tarcza Harmonii – czy możesz ulepszyć jej właściwości?~
 @567822 = ~Szukam rzucanej włóczni. Mógłbyś wykonać jakąś?~
 @567823 = ~Co możesz zrobić z tą Włócznią jednorożca?~
 @567824 = ~Jest jakaś szansa, aby Przebijacz zadawał większe obrażenia?~
@@ -168,6 +163,7 @@ version, I just added the tags, changed nothing.
 @567838 = ~Chciałbym ulepszyć ten sejmitar.~ ~Chciałabym ulepszyć ten sejmitar.~
 @567839 = ~Czy możesz sprawić, by Lazurowe Ostrze było potężniejsze?~
 @567891 = ~Chciałbym zwiększyć umagicznienie mojego Pierścienia czarów.~
+@56790  = ~Czy możesz wykuć coś z tego wyjątkowo potężnego Pierścienia ochrony?~
 
 @567835 = ~Nie teraz.~
 @567836 = ~Tak, zróbmy to!~
@@ -183,37 +179,40 @@ version, I just added the tags, changed nothing.
 // ....
 
 @567840 = ~Dlaczego masz tak wiele pierścieni? Zbyt dużo zaobrączkowanych na boku? Wstydź się, Cespenar ZNA TWE IMIĘ!!!~ [fwcesp00]
-@5678940 = ~Jakkolwiek, możemy wziąć Pierścień regeneracji i Pierścień ochrony +1 i zrobić z nich jeden. Oszczędzisz dzięki temu trochę miejsca. Potrzebują tylko zatopić w nie 10 000 sztuk złota i diament! Podoba ci się?~
+@5678940 = ~Jakkolwiek, możemy wziąć Pierścień regeneracji i Pierścień ochrony +1 i zrobić z nich jeden. Oszczędzisz dzięki temu trochę miejsca. Potrzebują tylko zatopić w nie 10000 sztuk złota i diament! Podoba ci się?~
 
 @567841 = ~Och, chłopcze, nosisz wiele świecuszków na palcach. Cespenar lubi takie coś, słyszał, że to jest w modzie.~ [fwcesp01]
-@5678941 = ~Jakkolwiek, możemy wziąć Pierścień regeneracji i Pierścień ochrony +2 i zrobić z nich jeden. Oszczędzisz dzięki temu trochę miejsca. Potrzebują tylko zatopić w nie 20 000 sztuk złota i diament! Podoba ci się?~
+@5678941 = ~Jakkolwiek, możemy wziąć Pierścień regeneracji i Pierścień ochrony +2 i zrobić z nich jeden. Oszczędzisz dzięki temu trochę miejsca. Potrzebują tylko zatopić w nie 20000 sztuk złota i diament! Podoba ci się?~
+
+@56791 = ~Och, chłopcze, nosisz wiele świecuszków na palcach. Cespenar myśli, że następne w kolejności będą złote zęby.~
+@56792 = ~Jakkolwiek, możemy wziąć Pierścień regeneracji i Pierścień ochrony +3 i zrobić z nich jeden. Oszczędzisz dzięki temu trochę miejsca. Potrzebują tylko zatopić w nie 30000 sztuk złota i diament! Podoba ci się?~
 
 @567842 = ~Ty nie potrzebujesz pudełka na biżuterię, ty potrzebujesz cały kufer! A może chcesz mieć jeden wielki pierścień na jednym palcu zamiast kilku, co?!?~ [fwcesp02]
-@5678942 = ~Co ty na to, że Cespenar weźmie pierścienie kontroli nad powietrzem, ziemią i ogniem aby zrobić jeden duży Pierścień kontroli nad żywiołami? Łatwiej jest zachować jeden pierścień niż trzy. Przepis mówi, że potrzebne są zwoje ochrony przed petryfikacją, ogniem i elektrycznością, no i 20 000 sztuk złota. Cespenar nie ustala cen, takie już są zasady.~
+@5678942 = ~Co ty na to, że Cespenar weźmie pierścienie kontroli nad powietrzem, ziemią i ogniem aby zrobić jeden duży Pierścień kontroli nad żywiołami? Łatwiej jest zachować jeden pierścień niż trzy. Przepis mówi, że potrzebne są zwoje ochrony przed petryfikacją, ogniem i elektrycznością, no i 20000 sztuk złota. Cespenar nie ustala cen, takie już są zasady.~
 
 @567843 = ~Czy kiedykolwiek zauważyłeś, że żywiołaki nigdy się nie kontrolują? Przysięgam, czasami chciałbym mieć jeden z tych kijów, które im na to pozwalają ... hej! Ty masz wszystkie trzy?~ [fwcesp03] ~Czy kiedykolwiek zauważyłaś, że żywiołaki nigdy się nie kontrolują? Przysięgam, czasami chciałbym mieć jeden z tych kijów, które im na to pozwalają ... hej! Ty masz wszystkie trzy?~ [fwcesp03]
-@5678943 = ~Kostury ziemi, ognia i powietrza nie są dla ciebie niczym szczególnym, ale Cespenar może zrobić z nich jeden wielki Kostur władzy nad żywiołami, a wtedy wszystkie żywiołaki będą chciały ci kupić śniadanie, albo same cię zjedzą!!!! Kosztuje także 20 000 sztuk złota, ale Cespenar musi opłacić rachunki. Tak?~
+@5678943 = ~Kostury ziemi, ognia i powietrza nie są dla ciebie niczym szczególnym, ale Cespenar może zrobić z nich jeden wielki Kostur władzy nad żywiołami, a wtedy wszystkie żywiołaki będą chciały ci kupić śniadanie, albo same cię zjedzą!!!! Kosztuje także 20000 sztuk złota, ale Cespenar musi opłacić rachunki. Tak?~
 
 @567844 = ~AAAAAAAAAAA! Podszedłeś Cespenara! Na pomoc! He he he, Cespenar tylko żartował!~ [fwcesp04] ~AAAAAAAAAAA! Podeszłaś Cespenara! Na pomoc! He he he, Cespenar tylko żartował!~ [fwcesp04]
-@5678944 = ~Dobra, Cespenar weźmie Buty ukrycia i szybkości i sprawi ci z nich Buty przyspieszonego ukrycia. Prawda, że nie są to odpowiednie słowa na określenie tego przedmiotu, ale Bhaal nigdy nie pozwalał Cespenarowi czytać zbyt dużo książek. (westchnienie) Jakkolwiek, mam nadzieję, że oszczędzałeś kamienie łotrzyków, bo to będzie kosztować 10 000 plus jeden z tych kamyczków.~
+@5678944 = ~Dobra, Cespenar weźmie Buty ukrycia i szybkości i sprawi ci z nich Buty przyspieszonego ukrycia. Prawda, że nie są to odpowiednie słowa na określenie tego przedmiotu, ale Bhaal nigdy nie pozwalał Cespenarowi czytać zbyt dużo książek. (westchnienie) Jakkolwiek, mam nadzieję, że oszczędzałeś kamienie łotrzyków, bo to będzie kosztować 10000 plus jeden z tych kamyczków.~
 
 @567845 = ~Hmmm. Buty Zamieci? Chcesz w nich przechowywać jajka czy coś innego? A może wolisz grać w Icewind Dale?~ [fwcesp05]
-@5678945 = ~Jeśli nie planujesz wyhodować sobie więcej nóg, Cespenar weźmie Buty Północy oraz Buty szybkości i zrobi ci Buty zamieci. Daje to samo, co te buty, ale w jednym. C'est la vie. Dasz mi może 10 000 sztuk złota i kamień łotrzyków?~
+@5678945 = ~Jeśli nie planujesz wyhodować sobie więcej nóg, Cespenar weźmie Buty Północy oraz Buty szybkości i zrobi ci Buty zamieci. Daje to samo, co te buty, ale w jednym. C'est la vie. Dasz mi może 10000 sztuk złota i kamień łotrzyków?~
 
 @567846 = ~Fuuuuj! Magiczne czy nie, kalosze zazwyczaj śmierdzą spoconymi stopami. Wiesz, że najlepszym sposobem ominięcia błyskawicy jest, być gdzie indziej, kiedy piorun uderzy? Dokładnie tak.~ [fwcesp06]
-@5678946 = ~Cespenar zna kapłana Talosa, który może zrobić Pięty Pana Burz z Butów szybkości i uziemienia. Nie bądź głupcem, na śmiertelniku też będą dobrze wyglądać. On potrzebuje 10 000 sztuk złota i kamienia łotrzyków za zapłatę.~
+@5678946 = ~Cespenar zna kapłana Talosa, który może zrobić Pięty Pana Burz z Butów szybkości i uziemienia. Nie bądź głupcem, na śmiertelniku też będą dobrze wyglądać. On potrzebuje 10000 sztuk złota i kamienia łotrzyków za zapłatę.~
 
 @567847 = ~Cespenar wie, co dać swemu panu na urodziny: chodaki! Jesteś pewien, że nie chcesz być kimś innym? Na przykład szewcem czy kowalem? Nie ma nic złego w zmianie zajęcia, pókiś młody!~ [fwcesp07] ~Cespenar wie, co dać swej pani na urodziny: chodaki! Jesteś pewna, że nie chcesz być kimś innym? Na przykład krawcową czy gospodynią domową? Nie ma nic złego w zmianie zajęcia, pókiś młoda!~ [fwcesp07]
-@5678947 = ~Masz dobry gust jeśli chodzi o buty. Bardzo dobry przepis na Buty szerszenia: weź Buty szybkości i uników, co sprawi, że bardzo trudno będzie cię trafić z dystansu. Lepsze to niż dać się pchnąć w oko za pomocą strzały, bełtu lub kamienia czy strzałki... łapiesz o co chodzi. Przepis kosztuje 20 000 sztuk złota i kamień łotrzyków, które nie rosną na drzewach. Tak?~
+@5678947 = ~Masz dobry gust jeśli chodzi o buty. Bardzo dobry przepis na Buty szerszenia: weź Buty szybkości i uników, co sprawi, że bardzo trudno będzie cię trafić z dystansu. Lepsze to niż dać się pchnąć w oko za pomocą strzały, bełtu lub kamienia czy strzałki... łapiesz o co chodzi. Przepis kosztuje 20000 sztuk złota i kamień łotrzyków, które nie rosną na drzewach. Tak?~
 
 @567848 = ~Ooooooccchhhh... ty masz naprawdę przerażające maczugi! Hi hi hi! Musisz mieć przyjaciela druida czy coś. Zawsze lepiej mieć dla nich jakiegoś drąga. Myślisz, że drzewa, z których robi się pałki, mogą być szalone?~ [fwcesp08]
-@5678948 = ~Masz może kwasem przepełnioną Czarną Krew lub Zgniatacza, którego KTOŚ zapomniał wypolerować. Mam przepis na Niewierną żonę, byś mógł wypłacać niegrzecznym chłopcom plaskacze, które PAAAALĄ! Niska, niska cena 15 000 sztuk złota. Chyba, że chcesz by Cespenar przerobił je na papier ścierny.~
+@5678948 = ~Masz może kwasem przepełnioną Czarną Krew lub Zgniatacza, którego KTOŚ zapomniał wypolerować. Mam przepis na Niewierną żonę, byś mógł wypłacać niegrzecznym chłopcom plaskacze, które PAAAALĄ! Niska, niska cena 15000 sztuk złota. Chyba, że chcesz by Cespenar przerobił je na papier ścierny.~
 
 @567849 = ~Uch! Dlaczego wszystkie maczugi muszą być takie kłujące? Cespenar myśli, że ma coś, co może na to poradzić...~ [fwcesp09]
-@5678949 = ~A może po prostu chcesz mieć lepszą maczugę? Mogę wziąć Kościaną maczugę i Zgniatacza i stworzyć Punkt podparcia. Krzywdzi ludzi, którzy nie lubią "równowagi" Cespenar stara się nie wtrącać do polityki, dlatego weźmie tylko 15 000 sztuk złota, zrobi maczugę i zapomni o tym, dobrze?~
+@5678949 = ~A może po prostu chcesz mieć lepszą maczugę? Mogę wziąć Kościaną maczugę i Zgniatacza i stworzyć Punkt podparcia. Krzywdzi ludzi, którzy nie lubią „równowagi” Cespenar stara się nie wtrącać do polityki, dlatego weźmie tylko 15000 sztuk złota, zrobi maczugę i zapomni o tym, dobrze?~
 
 @567850 = ~Cespenar nigdy nie rozumiał, dlaczego kapłanom pozwala się na zrobienie z twojej głowy krwawej miazgi, a nie mogą użyć noża do masła. Dziiiiiiiiwne.~ [fwcesp10]
-@5678950 = ~Ooochhh, masz Rozłupywacza czaszek i zwój palca śmierci. Teraz wszystkim czego potrzebujemy jest... ach, przeklęta mikstura lecznicza. Aha, jeśli chcesz tę błyszczącą nową wekierę, musisz mieć jeszcze 15 000 sztuk złota. Chcesz ją?~
+@5678950 = ~Ooochhh, masz Rozłupywacza czaszek i zwój Palca śmierci. Teraz wszystkim czego potrzebujemy jest... ach, przeklęta mikstura lecznicza. Aha, jeśli chcesz tę błyszczącą nową wekierę, musisz mieć jeszcze 15000 sztuk złota. Chcesz ją?~
 
 // newby
 
@@ -221,107 +220,109 @@ version, I just added the tags, changed nothing.
 @5678951 = ~Masz niezły łuk, ale może stać się jeszcze lepszy, dzięki przepisowi na Teleomortis. Strzały pojawiają się w twej dłoni, zadziwiając twych przyjaciół i wrogów. Potrzeba wiele ważnych materiałów: Cięciwę Gesena lub Gonda, cztery Łzy Laeral i Miksturę mocy do wyparzenia.~
 
 @567854 = ~Oooch! Bardzo szykowne wdzianko. Ostrożnie, panie, Cespenar dziś go jeszcze nie odkurzał ... jeśli zdarzy ci się kichnąć, twarz może ci przymarznąć. Hi hi hi! Wiesz, niektórzy ludzie mówią, że Valygar jest wrednym suk... zamknąć buzię ma Cespenar? Cespenar po prostu mówił o Valygarze!~ [fwcesp12]
-@5678954 = ~Mogę wiele zrobić z tymi dwoma dobrymi wdziankami, mogę na przykład zrobić jedno naprawdę dobre! Wiele różnych ochron od złych rzeczy jak ogień i kwas! Spinek do mankietów nie trzeba, daj tylko Cespenarowi 10 000 sztuk złota i zwój ochrony przed magią. No i nie zapomnij o Łusce Smoka Cieni...~
+@5678954 = ~Mogę wiele zrobić z tymi dwoma dobrymi wdziankami, mogę na przykład zrobić jedno naprawdę dobre! Wiele różnych ochron od złych rzeczy jak ogień i kwas! Spinek do mankietów nie trzeba, daj tylko Cespenarowi 10000 sztuk złota i zwój ochrony przed magią. No i nie zapomnij o Łusce Smoka Cieni...~
 
 @567855 = ~Cespenar miał raz dymiącą kamizelkę ... to był prezent od bardzo dobrego przyjaciela, zgubił się w pralni. Może ty masz coś z tym wspólnego? To wygląda bardzo znajomo...~ [fwcesp13]
-@5678955 = ~Och, to tylko Szata arcymaga. Dobry przepis mam na to. Cespenar potrzebuje Płaszcza ochrony +1, zwojów eteralnego pancerza i warunkowania oraz 20 000 sztuk złota. Można rzucać więcej zaklęć, być jak PRAWDZIWY ARCYMAG!~
+// @5678955 = ~Och, to tylko Szata arcymaga. Dobry przepis mam na to. Cespenar potrzebuje Płaszcza ochrony +1, zwojów eteralnego pancerza i warunkowania oraz 20000 sztuk złota. Można rzucać więcej zaklęć, być jak PRAWDZIWY ARCYMAG!~
+@56789955 = ~Och, to tylko Szata arcymaga. Dobry przepis mam na to. Cespenar potrzebuje Płaszcza ochrony +1, zwojów duchowego pancerza i warunkowania oraz 20000 sztuk złota. Można rzucać więcej zaklęć, być jak PRAWDZIWY ARCYMAG!~
+@56789956 = ~Och, to tylko Szata arcymaga. Dobry przepis mam na to. Cespenar potrzebuje Płaszcza ochrony +1, zwojów duchowego pancerza i klosza niewrażliwości oraz 20000 sztuk złota. Można rzucać więcej zaklęć, być jak PRAWDZIWY ARCYMAG!~
 
 @567859 = ~Nigdy nie miałeś dzbanka, by doń sikać? Nie wiedziałeś, co wtedy zrobić? Cespenar sugeruje użyć wtedy hełmu. Kogoś innego.~ [fwcesp14] ~Nigdy nie miałaś dzbanka, by doń sikać? Nie wiedziałaś, co wtedy zrobić? Cespenar sugeruje użyć wtedy hełmu. Kogoś innego.~ [fwcesp14]
-@5678959 = ~Jeśli masz jakieś zbędne dzbanki, może Cespenar połączy je dla ciebie! Dobry przepis łączący Hełm ochrony i Hełm ochrony przed urokami. Potrzebuję 4 pereł i 10 000 sztuk złota. Brzmi nieźle, no nie?~
+@5678959 = ~Jeśli masz jakieś zbędne dzbanki, może Cespenar połączy je dla ciebie! Dobry przepis łączący Hełm ochrony i Hełm ochrony przed urokami. Potrzebuję 4 pereł i 10000 sztuk złota. Brzmi nieźle, no nie?~
 
 @567860 = ~Oooch! Cespenar może użyć tego hełmu jako miski, jeśli już więcej go nie potrzebujesz.~ [fwcesp15]
-@5678960 = ~Co byś powiedział na przepis o Wieży żelaznej woli? Użyć Hełmu ochrony przed urokami, dwóch Solnych mikstur (nie mów Cespenarowi, jak je zdobyłeś) i 10 000 sztuk złota. To utwardza głowę, hi hi hi..~
+@5678960 = ~Co byś powiedział na przepis o Wieży żelaznej woli? Użyć Hełmu ochrony przed urokami, dwóch Solnych mikstur (nie mów Cespenarowi, jak je zdobyłeś) i 10000 sztuk złota. To utwardza głowę, hi hi hi..~
 
 @567861 = ~Może chcesz powiesić to na ścianę? Wielu ludzi nie chce kominków w piekle, ale może sprawimy sobie jakiś i położymy to przed nim.~ [fwcesp16]
-@5678961 = ~A może chcesz, by bardziej błyszczała. Weź Skórę Aegera, zwój ochrony przed żywiołami i 15 000 sztuk złota, co sprawi, że będzie ona o wiele silniejsza niż jest. Cespenarowi nigdy nie pozwolono być NAPRAWDĘ kreatywnym.~
+@5678961 = ~A może chcesz, by bardziej błyszczała. Weź Skórę Aegera, zwój ochrony przed żywiołami i 15000 sztuk złota, co sprawi, że będzie ona o wiele silniejsza niż jest. Cespenarowi nigdy nie pozwolono być NAPRAWDĘ kreatywnym.~
 
 @567862 = ~Jak zdobyłeś tę pomarańczową dobroczynną zbroję? Była zbyt długo na słońcu? Hi hi hi...~ [fwcesp17]
-@5678962 = ~Może Cespenar mógłby ją uczynić lepszą przez połączenie Pełnej zbroi płytowej Firecama ze Zbroją Jelenia i dołożenie do tego 20 000 sztuk złota. Mogłoby być mniej, ale Cespenar nie ma zamiaru rujnować swej reputacji, zajmując się działalnością dobroczynną.~
+@5678962 = ~Może Cespenar mógłby ją uczynić lepszą przez połączenie Pełnej zbroi płytowej Firecama ze Zbroją Jelenia i dołożenie do tego 20000 sztuk złota. Mogłoby być mniej, ale Cespenar nie ma zamiaru rujnować swej reputacji, zajmując się działalnością dobroczynną.~
 
 @567863 = ~Wciąż nosisz zbroję z tego wielkiego robaka na sobie? Poznajesz przez to więcej ludzi, czy co?~ [fwcesp18]
 @5678963 = ~Dasz Cespenarowi oba rodzaje zwoju ochrony przed kwasem i 5 000 sztuk złota, a Cespenar uczyni Zbroję płytową z ankhega mocniejszą. Będzie nawet strzelać kwasowymi strzałami w ludzi!~
 
 @567864 = ~Ach, to najbardziej zachwycająca tarcza, jaką Cespenar kiedykolwiek widział! Może użyje jej jako tacy, kiedy drużyna się rozpadnie?~ [fwcesp19]
-@5678964 = ~Trudno jest zrobić dobrą rzecz lepszą, ale jeśli będziesz mieć dwie Solne mikstury, Obręcz kontrolną z siedziby ośmiornicołbych i beljuryl oraz 10 000 sztuk złota, Cespenar może sprawić by Tarcza harmonii chroniła także przed psioniką.~
+@5678964 = ~Trudno jest zrobić dobrą rzecz lepszą, ale jeśli będziesz mieć dwie Solne mikstury, Obręcz kontrolną z siedziby ośmiornicołbych i beljuryl oraz 10000 sztuk złota, Cespenar może sprawić by Tarcza harmonii chroniła także przed psioniką.~
 
 @567865 = ~To przypomina Cespenarowi baaaaaardzo długi ząb. Cespenar jest dobrym sługą, on nawet może czyścić ci zęby! Hi hi hi!~ [fwcesp20]
-@5678965 = ~Jak sprawić by przytwierdzić Włócznię +3 do dłoni? Boisz się, że nigdy nie wróci? Prosty przepis: 10 000 sztuk złota i kamień łotrzyków, a włócznia zawsze wróci, kiedy rzucisz nią daaaaaleko.~
+@5678965 = ~Jak sprawić by przytwierdzić Włócznię +3 do dłoni? Boisz się, że nigdy nie wróci? Prosty przepis: 10000 sztuk złota i kamień łotrzyków, a włócznia zawsze wróci, kiedy rzucisz nią daaaaaleko.~
 
 @567866 = ~Co to jest? Wielki lizak na patyku? Dlaczego Cespenar nigdy takiego nie dostanie?~ [fwcesp21]
-@5678966 = ~Och, to jest Włócznia jednorożca. Dlaczego nie zaczniesz rzucać tą włócznią? Daj tylko Cespenarowi kamień łotrzyków i 10 000 sztuk złota, a będziesz jak dziki rzucający włócznią bandyta!~
+@5678966 = ~Och, to jest Włócznia jednorożca. Dlaczego nie zaczniesz rzucać tą włócznią? Daj tylko Cespenarowi kamień łotrzyków i 10000 sztuk złota, a będziesz jak dziki rzucający włócznią bandyta!~
 
 @567867 = ~Lubisz łowić ryby? Może pójdziesz łowić z wielką przynętą na tym. Wtedy musiałbyś ją mocno przywiązać, ale to nie Cespenara problem.~ [fwcesp22] ~Lubisz łowić ryby? Może pójdziesz łowić z wielką przynętą na tym. Wtedy musiałabyś ją mocno przywiązać, ale to nie Cespenara problem.~ [fwcesp22]
-@5678967 = ~Sprawię, by Przebijacz krzywdził równie dobrze z bardzo, bardzo daleka. Potrzebujesz 15 000 sztuk złota i kamienia łotrzyków. Nie mówię o tym dla rozrywki, naprawdę zużywam te rzeczy. Ostrożnie, kiedy włócznia powróci ... jeśli spudłujesz będzie BOLAŁO! Au!!~
+@5678967 = ~Sprawię, by Przebijacz krzywdził równie dobrze z bardzo, bardzo daleka. Potrzebujesz 15000 sztuk złota i kamienia łotrzyków. Nie mówię o tym dla rozrywki, naprawdę zużywam te rzeczy. Ostrożnie, kiedy włócznia powróci ... jeśli spudłujesz będzie BOLAŁO! Au!!~
 
 @567868 = ~Miły, duży kij. Czy szczeka więcej niż gryzie? Hi hi hi...~ [fwcesp23]
-@5678968 = ~Cespenar może użyć wspaniałego nowego przepisu na nowy Kostur lasów. Dajesz Cespenarowi Pierścień ochrony +1, Pierścień druida i 20 000 sztuk złota, a dostajesz nowy o wiele lepszy kijaszek!~
+@5678968 = ~Cespenar może użyć wspaniałego nowego przepisu na nowy Kostur lasów. Dajesz Cespenarowi Pierścień ochrony +1, Pierścień druida i 20000 sztuk złota, a dostajesz nowy o wiele lepszy kijaszek!~
 
 @567869 = ~Ooooch! Masz najbardziej świecący ze wszystkich świecących długich mieczy! Założę się, że zabiłeś wampira lub dwóch tą dziecinką! En garde, krwiopijco! Cespenar cię zmiażdży!~ [fwcesp24]
-@5678969 = ~Może chciałbyś ulepszyć Dzienną Gwiazdę? Dasz mi dobry towar, taki jak cztery zwoje ochrony przed nieumarłymi, dwie fiolki Święconej wody elfów, dwa szafiry gwiaździste oraz 15 000 sztuk złota, ale Cespenar nieomal wprowadził pana w błąd! Otrzymasz więcej Promieni słońca oraz ochronę przed złem. Mam zaczynać?~ ~Może chciałabyś ulepszyć Dzienną Gwiazdę? Dasz mi dobry towar, taki jak cztery zwoje ochrony przed nieumarłymi, dwie fiolki Święconej wody elfów, dwa szafiry gwiaździste oraz 15 000 sztuk złota, ale Cespenar nieomal wprowadził panią w błąd! Otrzymasz więcej Promieni słońca oraz ochronę przed złem. Mam zaczynać?~
+@5678969 = ~Może chciałbyś ulepszyć Dzienną Gwiazdę? Dasz mi dobry towar, taki jak cztery zwoje ochrony przed nieumarłymi, dwie fiolki Święconej wody elfów, dwa szafiry gwiaździste oraz 15000 sztuk złota, ale Cespenar nieomal wprowadził pana w błąd! Otrzymasz więcej Promieni słońca oraz ochronę przed złem. Mam zaczynać?~ ~Może chciałabyś ulepszyć Dzienną Gwiazdę? Dasz mi dobry towar, taki jak cztery zwoje ochrony przed nieumarłymi, dwie fiolki Święconej wody elfów, dwa szafiry gwiaździste oraz 15000 sztuk złota, ale Cespenar nieomal wprowadził panią w błąd! Otrzymasz więcej Promieni słońca oraz ochronę przed złem. Mam zaczynać?~
 
 @567870 = ~Och, honorowy <CHARNAME>-san! Możesz uwierzyć, że Furia Niebios nie wygląda już tak wspaniale?~ [fwcesp25]
-@5678970 = ~Cespenar ma miły, szybki przepis aby naprawić to! No, może nie tak szybki. Masz Różdżkę błyskawic? Co sądzisz o pozbyciu się Serca demona? Cuuuchnąca rzecz, wiem, ale są przydatne do najdziwniejszych rzeczy. Aha, i 20 000 sztuk złota, które będą potrzebne.~
+@5678970 = ~Cespenar ma miły, szybki przepis aby naprawić to! No, może nie tak szybki. Masz Różdżkę błyskawic? Co sądzisz o pozbyciu się Serca demona? Cuuuchnąca rzecz, wiem, ale są przydatne do najdziwniejszych rzeczy. Aha, i 20000 sztuk złota, które będą potrzebne.~
 
 @567871 = ~Masz najmniejsze paladyńskie dobrodziejstwo pod słońcem? Cespenar ma książkę z historyjkami na strychu, w której jest coś o tym napisane.~ [fwcesp26]
-@5678971 = ~Można zrobić o wiele lepszy miecz Arvoreen. Specjalna wyprzedaż dla nie tak dużego ludu, musisz tylko dobrze myśleć i dać Cespenarowi 15 000 sztuk złota! Nie znajdziesz lepszego sposobu po tej stronie Otchłani!~
+@5678971 = ~Można zrobić o wiele lepszy miecz Arvoreen. Specjalna wyprzedaż dla nie tak dużego ludu, musisz tylko dobrze myśleć i dać Cespenarowi 15000 sztuk złota! Nie znajdziesz lepszego sposobu po tej stronie Otchłani!~
 
 @567872 = ~Cespenar jest pod wielkim, wielkim wrażeniem, że z panem są bardzo porządni ludzie! Może chcesz użyć jakiejś oznaczonej broni, by pomóc panu?~ [fwcesp27] ~Cespenar jest pod wielkim, wielkim wrażeniem, że z panią są bardzo porządni ludzie! Może chcesz użyć jakiejś oznaczonej broni, by pomóc pani?~ [fwcesp27]
-@5678972 = ~Cespenar zna Kapłana Torma, który może pobłogosławić Uświęconego odkupiciela i dać mu możliwość rozpraszania magii i uciszania innych ludzi. Potrzebuje dodatkowo Serca demona, pięciu zwojów rozproszenia magii i 15 000 sztuk złota, oraz złotego serca. Mogłoby być mniej, ale Cespenar musi zapłacić za licencję użytkowania przepisu.~
+@5678972 = ~Cespenar zna Kapłana Torma, który może pobłogosławić Uświęconego odkupiciela i dać mu możliwość rozpraszania magii i uciszania innych ludzi. Potrzebuje dodatkowo Serca demona, pięciu zwojów rozproszenia magii i 15000 sztuk złota, oraz złotego serca. Mogłoby być mniej, ale Cespenar musi zapłacić za licencję użytkowania przepisu.~
 
 @567873 = ~Och, chłopie! Więcej tac! Cespenarowi już zaczynały się one wyczerpywać, a chciał on zrobić bankiet!~ [fwcesp28]
-@5678973 = ~Chwila ... znam przepis na wielką tacę, czy tam tarczę, czy takie tam rzeczy. Weź Rodową tarczę Delrynów i Łaskę ocalenia, użyj też 15 000 sztuk złota, a otrzymasz nową, lepiej chroniącą Tarczę Delrynów! Ale chyba lepiej będzie jak zachowamy je na ten bankiet.~
+@5678973 = ~Chwila ... znam przepis na wielką tacę, czy tam tarczę, czy takie tam rzeczy. Weź Rodową tarczę Delrynów i Łaskę ocalenia, użyj też 15000 sztuk złota, a otrzymasz nową, lepiej chroniącą Tarczę Delrynów! Ale chyba lepiej będzie jak zachowamy je na ten bankiet.~
 
 @567874 = ~Co? Nie lubisz gadających mieczy? A co jeśli zostaniesz pogrzebany żywcem w ciemnej głębokiej dziurze i będziesz mógł rozmawiać tylko z mieczem? Wtedy będziesz dziękował za taki miecz!~ [fwcesp29]
-@5678974 = ~Ale, hmmmm, Cespenar widzi Obręcz kontrolną, czym może uczynić Lilarcora silniejszym, a i utrzyma z dala tych obrzydliwych łupieżców umysłów, którzy wsysają się w twój mózg! A Larry już nie będzie mógł z tobą rozmawiać. To będzie smutne i to będzie kosztowało także 20 000 sztuk złota.~
+@5678974 = ~Ale, hmmmm, Cespenar widzi Obręcz kontrolną, czym może uczynić Lilarcora silniejszym, a i utrzyma z dala tych obrzydliwych łupieżców umysłów, którzy wsysają się w twój mózg! A Larry już nie będzie mógł z tobą rozmawiać. To będzie smutne i to będzie kosztowało także 20000 sztuk złota.~
 
 @567875 = ~Myślałeś kiedyś o miłości, a nie o wojnie? Z pewnością masz tu dużo noży...~ [fwcesp30] ~Myślałaś kiedyś o miłości, a nie o wojnie? Z pewnością masz tu dużo noży...~ [fwcesp30]
-@5678975 = ~Achhhh, Cespenar ma świetny pomysł! Zrobić dobry sztylet dla skradających się ludzi. Weź Kościaną klingę i Kolec chochlika i zrób sztylet, który potrafi bardzo dobrze zadawać cios w plecy! Potrzebuję jednak czterech Mikstur złodziejskiego mistrzostwa i zapłaty 15 000 sztuk złota, ale wtedy wrogowie nie będą nawet wiedzieć, co ich trafiło!~
+@5678975 = ~Achhhh, Cespenar ma świetny pomysł! Zrobić dobry sztylet dla skradających się ludzi. Weź Kościaną klingę i Kolec chochlika i zrób sztylet, który potrafi bardzo dobrze zadawać cios w plecy! Potrzebuję jednak czterech Mikstur złodziejskiego mistrzostwa i zapłaty 15000 sztuk złota, ale wtedy wrogowie nie będą nawet wiedzieć, co ich trafiło!~
 
 // ....
 
 @567879 = ~Oooch, ktoś mówił ci o Pojemniku obfitości? Jest jak zły szeląg... chyba Cespenar musi znów wrzucić to do rzeki, ale tym razem z dopiętym cięższym balastem!~ [fwcesp31]
-@5678979 = ~A może spróbujemy czegoś innego tym razem i użyjemy nowego przepisu. Jeśli masz 40 sztuk danej amunicji +3 i 40 000 sztuk złota, możemy ulepszyć posiadany przez ciebie pojemnik do +3. Pomyśl o tych wszystkich pieniądzach, które oszczędzisz na amunicji! Chyba, że nie używasz broni dystansowej.~
+@5678979 = ~A może spróbujemy czegoś innego tym razem i użyjemy nowego przepisu. Jeśli masz 40 sztuk danej amunicji +3 i 40000 sztuk złota, możemy ulepszyć posiadany przez ciebie pojemnik do +3. Pomyśl o tych wszystkich pieniądzach, które oszczędzisz na amunicji! Chyba, że nie używasz broni dystansowej.~
 
 @567880 = ~Tak, ulepsz Kołczan.~
 @567881 = ~Tak, ulepsz Futerał.~
 @567882 = ~Tak, ulepsz Torbę.~
 
 @567883 = ~Wygląda to jak duzi ludzie noszeni jako ubranie. Witajcie duzi ludzie! Pomachajcie Cespenarowi, jesteście bowiem teraz noszeni przez mojego pana!~ [fwcesp32] ~Wygląda to jak duzi ludzie noszeni jako ubranie. Witajcie duzi ludzie! Pomachajcie Cespenarowi, jesteście bowiem teraz noszeni przez moją panią!~ [fwcesp32]
-@5678983 = ~Cespenar nie jest co prawda preparatorem, ale może połączyć Ludzką skórę z Kamieniem z duszą Malii i zwojem ochrony przed magią oraz 20 000 sztukami złota dla połysku. Co sprawi, że będziesz silniejszy i zdrowszy, czego nie można będzie powiedzieć o tych dużych ludziach, których będziesz nosił.~ ~Cespenar nie jest co prawda preparatorem, ale może połączyć Ludzką skórę z Kamieniem z duszą Malii i zwojem ochrony przed magią oraz 20 000 sztukami złota dla połysku. Co sprawi, że będziesz silniejsza i zdrowsza, czego nie można będzie powiedzieć o tych dużych ludziach, których będziesz nosiła.~
+@5678983 = ~Cespenar nie jest co prawda preparatorem, ale może połączyć Ludzką skórę z Kamieniem z duszą Malii i zwojem ochrony przed magią oraz 20000 sztukami złota dla połysku. Co sprawi, że będziesz silniejszy i zdrowszy, czego nie można będzie powiedzieć o tych dużych ludziach, których będziesz nosił.~ ~Cespenar nie jest co prawda preparatorem, ale może połączyć Ludzką skórę z Kamieniem z duszą Malii i zwojem ochrony przed magią oraz 20000 sztukami złota dla połysku. Co sprawi, że będziesz silniejsza i zdrowsza, czego nie można będzie powiedzieć o tych dużych ludziach, których będziesz nosiła.~
 
 @567884 = ~Gdzie to znalazłeś? Bhaal szukał tego wszędzie, ale nigdy nie znalazł! Chciał on powiesić to nad drzwiami jako dekorację... Cespenar przekonał go wtedy do róż, ale było z tym troooochę zachodu...~ [fwcesp33]
-@5678984 = ~Bardzo, bardzo dobry przepis na Rozpruwacza Dusz. Weź Serce Potępieńca i przepotężny święty miecz Karsomirem zwany oraz 20 000 sztuk złota, co uczyni Rozpruwacza Dusz niezwykle zabójczym! Kiedy ktoś będzie pytał, nie mów, że to był pomysł Cespenara!~
+@5678984 = ~Bardzo, bardzo dobry przepis na Rozpruwacza Dusz. Weź Serce Potępieńca i przepotężny święty miecz Karsomirem zwany oraz 20000 sztuk złota, co uczyni Rozpruwacza Dusz niezwykle zabójczym! Kiedy ktoś będzie pytał, nie mów, że to był pomysł Cespenara!~
 
 @567885 = ~Ooch, świecący symbol starego Boga Słońca! Amaunator i Bhaal nigdy się zbytnio nie lubili. Stary spór, w który wplątane były demony, światło słoneczne i błogosławiona koza. Bardzo smutna historia. Po śmierci kozy, Ammy nigdy już nie przyszedł na herbatkę.~ [fwcesp34]
-@5678985 = ~To bez znaczenia, za to mogę umieścić ten święty symbol na twoim puklerzu. Dodaj jeden kamień słoneczny za każdy palec i 10 000 sztuk złota, za straszenie nieumarłych. Chcesz?~
+@5678985 = ~To bez znaczenia, za to mogę umieścić ten święty symbol na twoim puklerzu. Dodaj jeden kamień słoneczny za każdy palec i 10000 sztuk złota, za straszenie nieumarłych. Chcesz?~
 
 @567886 = ~Złodziejskie zacięcie, jak widzę. Chcesz opróżnić kieszenie Cespenara? Czekaj! Cespenar nie ma kieszeni. Ha! Nie bądź zły. Jestem pewien, że później spotkasz wielu bandziorów, których będziesz mógł okraść.~ [fwcesp35]
 @5678986 = ~W międzyczasie, mam przepis na złodziejskie akcesoria. Całkiem modny zestaw: Rękawice kieszonkowca i Bransolety ochrony, pierścienie wyczucia zagrożenia i wytrychów oraz dwa pierścienie ochrony. Za 5 000 sztuk złota mogę zrobić jedno wielkie świecuszko.~
 
 @567887 = ~Ach, świecącą biżuterię tam masz. Aczkolwiek bardzo zły dobór kolorów. Być może Cespenar będzie mógł później coś na to pomóc. Niektóre naprawdę pasowałyby do koloru twoich oczu? Nie?~ [fwcesp36]
-@5678987 = ~W każdym razie, Cespenar może ugnieść razem dwa amulety ochrony, po amulecie ochrony przed trucizną i blokowania czarów oraz Naszyjnik stabilności kształtu. To całkiem sporo łańcuszków z klejnotami! Wymaga też pobłogosławienia dobrego przyjaciela Ilmatera (z jakiegoś powodu, Ilmater ma miękkie serce dla biednego Cespenara)! Może z 10 000 sztuk złota za usługę będzie najwłaściwsze, co?~
+@5678987 = ~W każdym razie, Cespenar może ugnieść razem dwa amulety ochrony, po amulecie ochrony przed trucizną i blokowania czarów oraz Naszyjnik stabilności kształtu. To całkiem sporo łańcuszków z klejnotami! Wymaga też pobłogosławienia dobrego przyjaciela Ilmatera (z jakiegoś powodu, Ilmater ma miękkie serce dla biednego Cespenara)! Może z 10000 sztuk złota za usługę będzie najwłaściwsze, co?~
 
 @567888 = ~Plusk-Plask! Ostrze wody mogłoby dostarczać więcej rozrywki niż tylko poprzez rozbryzgiwanie tu i tam. Cespenar ma przepis, który doskonale sprawdzi się w tym przypadku~ [fwcesp37]
-@5678988 = ~Z Ostrzem Wody, Szponem Rashada i Adjathą Wysysaczem można zrobić naprawdę wodny miecz. Może nie tak duży, ale naprawdę wciąż bardzo miły. Mam nadzieję, że lubisz trucizny! Masz 15 000 sztuk złota za robotę?~
+@5678988 = ~Z Ostrzem Wody, Szponem Rashada i Adjathą Wysysaczem można zrobić naprawdę wodny miecz. Może nie tak duży, ale naprawdę wciąż bardzo miły. Mam nadzieję, że lubisz trucizny! Masz 15000 sztuk złota za robotę?~
 
 @567889 = ~Oooch, świecący topór, który zabija złe rzeczy. Próbujesz zabić Cespenara? Ale zaczekaj, to działa tylko na nieumarłych, nie na demony. Ale w pierwszej chwili bardzo się przestraszyłem. Cespenar widzi swoje życie przesuwające się przed oczyma: za dużo kłaniania się, za mało wycierania. Trzeba to poprawić.~ [fwcesp38]
-@5678989 = ~W każdym razie, różowy to nie jest naprawdę twój kolor. Można by dodać grudkę ilitu do Lazurowego ostrza, sprawiając, że będzie bardziej purpurowe. Doda to także jakieś dodatkowe moce niszczące nieumarłych oraz ochronę przed nimi. Aha, 20 000 sztuk złota. Chciałbyś?~ ~W każdym razie, różowy to nie jest naprawdę twój kolor. Można by dodać grudkę ilitu do Lazurowego ostrza, sprawiając, że będzie bardziej purpurowe. Doda to także jakieś dodatkowe moce niszczące nieumarłych oraz ochronę przed nimi. Aha, 20 000 sztuk złota. Chciałabyś?~
+@5678989 = ~W każdym razie, różowy to nie jest naprawdę twój kolor. Można by dodać grudkę ilitu do Lazurowego ostrza, sprawiając, że będzie bardziej purpurowe. Doda to także jakieś dodatkowe moce niszczące nieumarłych oraz ochronę przed nimi. Aha, 20000 sztuk złota. Chciałbyś?~ ~W każdym razie, różowy to nie jest naprawdę twój kolor. Można by dodać grudkę ilitu do Lazurowego ostrza, sprawiając, że będzie bardziej purpurowe. Doda to także jakieś dodatkowe moce niszczące nieumarłych oraz ochronę przed nimi. Aha, 20000 sztuk złota. Chciałabyś?~
 
 @567890 = ~Właśnie obserwowałem pierścień na twoim palcu! Za dużo pierścieni na twoich palcach? To wielki problem, Cespenar wie. Tak dużo świecuszków, a tak mało pazurków.~ [fwcesp39]
-@5678990 = ~Ale powiem ci coś. Cespenar może złączyć razem twoje pierścienie czarów i ostrości razem z dawno zapomnianym Amuletem metaczarów i standardowym Pierścieniem ochrony, by uformować Pierścień czarownika. Bardzo miły dla magów. Chcesz taki za 20 000 sztuk złota?~
+@5678990 = ~Ale powiem ci coś. Cespenar może złączyć razem twoje pierścienie czarów i ostrości razem z dawno zapomnianym Amuletem metaczarów i standardowym Pierścieniem ochrony, by uformować Pierścień czarownika. Bardzo miły dla magów. Chcesz taki za 20000 sztuk złota?~
 
 @567892 = ~Możesz ulepszyć ten pas?~
 
 @567893 = ~Ooch, pasy są całkiem modne w tym sezonie. Zastanawiam się dlaczego wszystkie one mają odcień beżowy? To musi być przez to okropne światło sfery kieszeniowej. Zawsze sprawia, że Cespenar wygląda na zmęczonego.~ [fwcesp40]
-// @5678993 = ~W każdym razie, jeśli masz trzy pasy ochrony, mam przepis na połączenie ich w naprawdę fajny pas. Jeśli schowasz się za niego, wrogowie nie będą mogli cię zranić. Taka jest umowa. Chcesz więc za 10 000 sztuk złota?~
-@5678993 = ~W każdym razie, jeśli masz trzy pasy ochrony, mam przepis na połączenie ich w naprawdę fajny pas. Jeśli schowasz się za niego, wrogowie nie będą mogli cię zranić. Taka jest umowa, ale potrzebuję trzy krwawniki tego samego typu. Chcesz więc za 10 000 sztuk złota?~
+// @5678993 = ~W każdym razie, jeśli masz trzy pasy ochrony, mam przepis na połączenie ich w naprawdę fajny pas. Jeśli schowasz się za niego, wrogowie nie będą mogli cię zranić. Taka jest umowa. Chcesz więc za 10000 sztuk złota?~
+@56789993 = ~W każdym razie, jeśli masz trzy pasy ochrony, mam przepis na połączenie ich w naprawdę fajny pas. Jeśli schowasz się za niego, wrogowie nie będą mogli cię zranić. Taka jest umowa, ale potrzebuję trzy krwawniki tego samego typu. Chcesz więc za 10000 sztuk złota?~
 
 @567895 = ~Możesz ulepszyć tę Figurkę czarnego pająka?~
 @567896 = ~Ooch, oj, ty skradaczysko! Chcesz, by Cespenar zrobił tę figurkę zaprzyjaźnionego z tobą pająka bardziej zadziwiającą? Dodać jakieś nowe pajęczyny, może? Chcesz terroryzować jakiegoś szczególnego goblina?~ [fwcesp41]
 @5678996 = ~Cespenar wyczuwa łaskotanie myśli. Aczkolwiek potrzebuje specjalnych materiałów, aby ulepszyć tego ściennego pełzacza. Musisz mieć zwoje pajęczego pomiotu i pajęczyny, plus pięć zatrutych rzucanych sztyletów. A także 5 000 sztuk złota. Chcesz?~
 
 @567897 = ~Czy Chaos i Entropia mogą być ulepszone?~
-@5678898 = ~Krótkie miecze? Weź pewniejszego gościa do ich obsługi, jeśli łapiesz Cespenarową aluzję. Ale potrzebujesz bardziej uderzającej potęgi, co? Dobra, oto co Cespenar może zrobić. Zdobądź zwoje chaosu i wielkiego osłabienia, zmieszaj z Ilbrathą i Arbanem, a nawet te krótkie miecze będą bardziej wartościowe niż te dotychczas zwane broniami Otchłani! Och, Cespenar także potrzebuje 25 000 sztuk złota. I kamienia łotrzyków, chyba, że chcesz zbierać cząstki Cespenara po całej sferze kieszonkowej. Aha, to nie była sugestia.~ [fwcesp42]
+@567898 = ~Krótkie miecze? Weź pewniejszego gościa do ich obsługi, jeśli łapiesz Cespenarową aluzję. Ale potrzebujesz bardziej uderzającej potęgi, co? Dobra, oto co Cespenar może zrobić. Zdobądź zwoje chaosu i wielkiego osłabienia, zmieszaj z Ilbrathą i Arbanem, a nawet te krótkie miecze będą bardziej wartościowe niż te dotychczas zwane broniami Otchłani! Och, Cespenar także potrzebuje 25000 sztuk złota. I kamienia łotrzyków, chyba, że chcesz zbierać cząstki Cespenara po całej sferze kieszonkowej. Aha, to nie była sugestia.~ [fwcesp42]
 
 @567899 = ~Możesz wykuć dla mnie jakąś elfią zbroję?~
-@56789100 = ~Oooch! Tak! Lubisz rzeczy gorące i pikantne? Cespenar może złączyć elfią zbroję razem z Łuską czerwonego smoka. A także dodać muchomory, andradytowe przyprawy i pieprz z agatu ognistego (oba po trzy): bardzo jasne, bardzo gorące, bardzo tuczące. Cespenar jest całkiem niezłym kowalem ... ale czekaj, to jest przepis kulinarny. Niestety, specjalna patelnia i olej z orzeszków będzie kosztował cię 25 000 sztuk złota. Chcesz tego?~ [fwcesp43]
+@5678100 = ~Oooch! Tak! Lubisz rzeczy gorące i pikantne? Cespenar może złączyć elfią zbroję razem z Łuską czerwonego smoka. A także dodać muchomory, andradytowe przyprawy i pieprz z agatu ognistego (oba po trzy): bardzo jasne, bardzo gorące, bardzo tuczące. Cespenar jest całkiem niezłym kowalem ... ale czekaj, to jest przepis kulinarny. Niestety, specjalna patelnia i olej z orzeszków będzie kosztował cię 25000 sztuk złota. Chcesz tego?~ [fwcesp43]
