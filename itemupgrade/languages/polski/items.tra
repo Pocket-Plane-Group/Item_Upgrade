@@ -39,7 +39,6 @@ Specjalne:
 
 PARAMETRY:
 
-
 Obrażenia: 1K6 +5
 Trak0: +5
 Typ obrażeń: obuchowe
@@ -134,7 +133,7 @@ Nie może używać:
  Mag~
 
 @124 = ~Rozłupywacz czaszek +5~
-@125 = ~Wekiera +5: Rozłupywacz czaszek
+@125 = ~Wekiera +5: 'Rozłupywacz czaszek'
 Ta wekiera jest na stałe splamiona krwią, znak wielu lat poświęconych na rozłupywanie głów. Broń ta mogła w przeszłości przynosić zagładę humanoidom, ale jej właściciele zostali prawdopodobnie celowo usunięci ze źródeł historycznych. Ostatnio za twoim pośrednictwem została przemieniona w jeszcze bardziej budzącą grozę broń.
 
 PARAMETRY:
@@ -370,7 +369,7 @@ Nie może używać:
  Mag
  Złodziej~
 
-@152 = ~Rzucana Włócznia jednorożca +3~
+@152 = ~Rzucana włócznia jednorożca +3~
 @153 = ~Ta zgrabna włócznia kształtem przypomina róg jednorożca. Władający ta bronią jest niewrażliwy na czary Unieruchomienie i Zauroczenie, tak samo jak jednorożec. Nie wiadomo czy ten róg jest prawdziwym rogiem jednorożca.
 Oryginalna Włócznia jednorożca została przekuta tak, by można jej używać jako broni dystansowej. Kiedy jest rzucana, włócznia natychmiast wraca do rąk właściciela. (Włócznia może być wykorzystywana jako broń ręczna: wybierz wtedy drugą zdolność broni, aby tak zrobić.)
 
@@ -393,8 +392,8 @@ Nie może używać:
  Mag
  Złodziej~
 
-@154 = ~Rzucana Włócznia +4, Przebijacz~
-@155 = ~Rzucana Włócznia +4, Przebijacz
+@154 = ~Rzucana włócznia +4, Przebijacz~
+@155 = ~Rzucana włócznia +4: 'Przebijacz'
 Przebijacz posiada namacalną aurę magiczną wskazującą na złośliwą naturę tej broni i dlatego była ona w przeszłości ulubioną bronią wielu potężnych wodzów orków. Trafiona ofiara zostaje, jak można się domyślać, prawie przebita, gdy magiczna zdolność broni dokonuje dzieła zniszczenia.
 Po tym jak <CHARNAME> uzyskał<PRO_HESHE> Przebijacza w mieście Sahuaginów, przekuł<PRO_HESHE> ją później na broń dystansową. Kiedy jest rzucana, włócznia natychmiast wraca do rąk właściciela. (Włócznia może być wykorzystywana jako broń ręczna: wybierz wtedy drugą zdolność broni, aby tak zrobić.
 
@@ -442,7 +441,7 @@ Może używać
  Władca Zwierząt~
 
 @158 = ~Dzienna Gwiazda +4~
-@159 = ~Słoneczne ostrze: Dzienna Gwiazda +4
+@159 = ~Słoneczne ostrze +4: 'Dzienna Gwiazda'
 Niezależnie od tego czy miecz został stworzony specjalnie by służyć Tormowi, czy też zaczęto wykorzystywać go w tym celu później, to Paladyni Lojalnej Furii dobrze używali go w swej walce z nieumarłymi. Dzięki magii, bądź błogosławieństwu obdarzony jest Promieniem słońca, energią czystej siły życiowej tak potężną, że niszczy zarówno żywych jak i nieumarłych.
 <CHARNAME> odzyskał<PRO_HESHE> ten miecz z rąk lisza niedaleko bram miasta Athkatli i zlecił<PRO_HESHE> jego przekucie tworząc jeszcze bardziej potężną broń w rękach sprawiedliwości.
 
@@ -465,7 +464,7 @@ Nie może używać:
  Mag~
 
 @160 = ~Furia Niebios +5~
-@161 = ~Katana +5: Furia Niebios
+@161 = ~Katana +5: 'Furia Niebios'
 Umagicznienie katany nie jest proste, a przynajmniej nie tak, jak <CHARNAME> sądził<PRO_HESHE>, nim zlecił<PRO_HESHE> innym to zadanie. Okazało się, że najtrudniejszą rzeczą w całym procesie przekuwania posiadającej niemal boskie moce katany, zwanej Furią Niebios, było zebranie niezliczonej ilości niezbędnych do tego składników. Odkąd <CHARNAME> zabrał<PRO_HESHE> ją z martwych rąk Koshiego w Dzielnicy Świątynnej, w Athkatli, Furia Niebios nie raz sprawdziła się w boju. Nim to jednak nastąpiło, jej historia przedstawiała się następująco:
 Wiele lat temu, prowincję zarządzaną przez daimyo Hoshiego Katahiroi nawiedziły gwałtowne burze i pożary, wywołane przez błyskawice. Doradcy daimyo, będąc szanowanymi czarodziejami, wkrótce wywróżyli, iż katastrofa nie była dziełem Natury, lecz potężnego smoka o nieznanym pochodzeniu. Niektórzy z owych mędrców spekulowali, że istota ta była wynaturzeniem, inni zaś wierzyli, iż narodziła się z Pierwotnego Chaosu, jeszcze przed narodzinami Kara-Tur. Wszyscy zgodzili się, by nazywać ją Furią Niebios.
 Daimyo Hoshi nie chciał jednak klasyfikować plagi nękającej jego prowincję, chciał ją zniszczyć. Zlecił więc osławionemu Chigaccie (mieszkającemu na odludziu rzemieślnikowi i mistrzowi sztuk mistycznych) stworzenie broni mogącej strzaskać duszę i łuskowate cielsko smoka. Wysiłki Chigatty zaowocowały powstaniem najwspanialszej z katan, nazwanej Furią Niebios od imienia bestii, którą miała zniszczyć. Broń nasycono mocą obdarzającą jej właściciela zdolnością latania.
@@ -481,7 +480,7 @@ Typ obrażeń: sieczne
 Specjalne:
  Raz dziennie pozwala rzucać Błyskawicę
  Raz dziennie pozwala rzucać Ociemniałość
- ofiara musi wykonać rzut obronny przeciwko czarom albo zostanie ogłuszona
+ Ofiara musi wykonać rzut obronny przeciwko czarom albo zostanie ogłuszona
  Przy każdym trafieniu istnieje 5% szansa na Porażający cios (dodatkowe 20 pkt. obrażeń od elektryczności)
 Waga: 3
 Opóźnienie: 1
@@ -535,7 +534,7 @@ Może używać:
  Keldorn~
 
 @166 = ~Tarcza rodziny Delrynów +4~
-@167 = ~Tarcza Rodziny Delrynów +4
+@167 = ~Tarcza rodziny Delrynów +4
 To jest rodzinna tarcza Anomena, podarowana mu przez jego ojca. Oprócz magicznej ochrony tarcza promieniuje aurą, którą zapewnia osobie, która jej używa, odporność na ogień i zimno. W celu ochrony przed atakami z dystansu, Anomen może użyć tej tarczy, żeby wznieść pole energetyczne. Taka ochrona przed pociskami może być użyta 3 razy na dzień.
 Dość niedawno <CHARNAME> wzmocnił<PRO_HESHE> tarczę ochronną magią płynącą z Łaski ocalenia, uzyskanej podczas spotkania z awatarem Amaunatora, co spowodowało, że stała się ona jeszcze potężniejsza.
 
@@ -571,7 +570,7 @@ Nie może używać:
  Złodziej~
 
 @170 = ~Rozpruwacz Dusz +6~
-@171 = ~Przeklęty Mściciel: Rozpruwacz Dusz +6
+@171 = ~Przeklęty Mściciel +6: 'Rozpruwacz Dusz'
 Potężne ostrze Rozpruwacza Dusz zostało przekute pod twoim mrocznym przewodnictwem. Święta esencja Karsomira została wchłonięta by pomóc stworzyć tę odrażającą potworność. Rozpruwacz Dusz jest narzędziem niewyobrażalnej potęgi i niewyobrażalnego zła. Ci, którzy go dzierżą, rzadko kiedy odkładają go za życia.
 
 PARAMETRY:
@@ -596,7 +595,7 @@ Nie może używać:
  Postać o dobrym lub neutralnym charakterze~
 
 @172 = ~Punkt podparcia +4~
-@173 = ~Maczuga +4: Punkt podparcia
+@173 = ~Maczuga +4: 'Punkt podparcia'
 Wykuta na twoją prośbę, stanowi połączenie Kościanej maczugi i Zgniatacza. Duchy zmarłych wojowników prowadzą rękę tego, kto ją dzierży zwiększając celność, a każde trafienie zsyła ból w kościach. W dodatku maczuga zadaje dodatkowe obrażenia, dla nie-neutralnych istot.
 
 Obrażenia: 1K6 + 4, +4 jeśli cel jest dobry lub zły, a przy tym praworządny lub chaotyczny
@@ -646,7 +645,7 @@ Nie może używać:
  Mag~
 
 @178 = ~Rękawice mistrza złodziei~
-@179 = ~Rękawice mistrza złodziei: Dwunastopalcy
+@179 = ~Rękawice mistrza złodziei: 'Dwunastopalcy'
 <CHARNAME> uformował<PRO_HESHE> te rękawice z rozlicznych przydających rozmaitych premii złodziejom i rozsianych po całym świecie przedmiotów. Kiedy założy je złodziej, na każdej rękawicy pojawia się dodatkowy magiczny palec wspierający tego kochanka fortuny w jego unikalnych zdolnościach. W dodatku są bardzo gustowne, aczkolwiek ich deseń wygląda niemal na ... gnomi.
 
 PARAMETRY:
@@ -807,3 +806,16 @@ Wymagana siła: 5
 Nie może używa:
  Druid
  Mag~
+
+@199 = ~Pierścień zachowywania +3~
+@200 = ~Pierścień zachowywania +3: 'Sygnet Strażnika'
+Ten pierścień został magicznie wykuty dla ciebie. Zawiera w sobie połączone moce pierścienia ochronnego 'Sygnet Strażnika' i pieścienia regeneracji Huhhusa. W dodatku pierścień jest bardzo gustowny.
+
+PARAMETRY:
+
+Klasa Pancerza: +3
+Rzuty obronne: +3
+Specjalne:
+ Regeneruje 1 pkt. życia co 6 sekund~
+
+// @200 - @216 are reserved for EE-exclusive strings for compatibility with ZS Tweaks
