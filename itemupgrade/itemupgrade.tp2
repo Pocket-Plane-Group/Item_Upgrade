@@ -37,7 +37,7 @@ ALWAYS
 
 END
 
-VERSION ~v55~
+VERSION ~v56~
 
 README ~itemupgrade/readme-itemupgrade.%LANGUAGE%.txt~
        ~itemupgrade/readme-itemupgrade.%LANGUAGE%.html~
@@ -69,7 +69,7 @@ LANGUAGE ~Espanol (hecha por Clan DLAN, Bhasbuto & Immortality & Neil Sharp (FWP
   ~itemupgrade/languages/spanish/weidu.tra~
   ~itemupgrade/languages/spanish/items.tra~
 
-LANGUAGE ~Polish (by Nastian & SoM - part of CoB Clan; Cahir)~
+LANGUAGE ~Polish (by Nastian & SoM - part of CoB Clan; Cahir; Aristo)~
   ~polski~
   ~itemupgrade/languages/american/weidu.tra~
   ~itemupgrade/languages/american/items.tra~

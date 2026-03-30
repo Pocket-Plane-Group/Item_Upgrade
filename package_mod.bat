@@ -2,7 +2,7 @@ REM Please note this uses a modified conf file and batch file (not on Github) fr
 REM excellent packaging tool since this is a WeiDU.org mod, not a G3 one.
 
 
-@echo off
+REM @echo off
 setlocal
 
 REM /* this initializes the values for the different variables referenced in compatible_games */
@@ -10,7 +10,7 @@ call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 set "mod_name=Item Upgrade"
-set mod_version=v55
+set mod_version=v56
 set mod_folder=itemupgrade
 
 REM /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
@@ -27,6 +27,7 @@ set ico_folder=%mod_folder%\style
 set audio_folder=%mod_folder%\audio
 set tispack_folder=%mod_folder%\tiz
 set tile2ee_folder=%mod_folder%\tools\tile2ee
+set tileconv_folder=%mod_folder%\tools\tileconv
 set iconv_folder=%mod_folder%\languages\iconv
 set mod_readme=https://pocket-plane-group.github.io/readmes/readme-itemupgrade.html
 
