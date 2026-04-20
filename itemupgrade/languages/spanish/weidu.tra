@@ -1,3 +1,8 @@
-@1       = ~Item Upgrade para Shadows of Amn~
-@2       = ~Item Upgrade para Throne of Bhaal~
+@1       = ~Mejora de objetos para Shadows of Amn~
+@2       = ~Mejora de objetos para Throne of Bhaal~
 @3       = ~No se pudo encontrar [Data\25Dialog.bif], lo cual lleva a suponer que actualmente no tienes instalado Throne of Bhaal. ¡Lo siento!~
+@4 = ~Versión original (nuevas actualizaciones en una lista)~
+@5 = ~Versión revisada (las nuevas actualizaciones se presentan con el mismo formato que las ya existentes)~
+@6 = ~Esto aún no está disponible en tu idioma~
+@7 = ~Instala el audio adicional de Cespenar para la mejora del objeto~
+@8 = ~Para su instalación, se necesita el componente Mejoras de objetos del Trono de Bhaal~

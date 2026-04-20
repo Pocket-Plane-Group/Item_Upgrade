@@ -32,6 +32,7 @@ Resistencia al fuego: Bonificador de 50%
 Resistencia a la Electricidad: Bonificador de 50%
 Clase de Armadura: Bonificador +1
 Tiradas de Salvación: Bonificador +1~
+
 @106     = ~Bastón de Maestría Elemental~
 @107     = ~Bastón de Maestría Elemental +5
 
@@ -44,7 +45,7 @@ Convoca un elemental de Tierra, Aire o Fuego (una vez por día, 300 segundos, si
 Lanza Escudo Ígneo: Rojo (Dos veces por día, 78 segundos).
 Nube de Sueño (dos veces por día, alcance 40, salvación contra veneno o duerme por 18 segundos).
 
-THAC0: Bonificador +5
+GAC0: Bonificador +5
 Daño: 1D6 +5
 Tipo de daño: Contundente
 Peso: 3
@@ -68,6 +69,7 @@ El dinero y los recursos que invertisteis en el Estuche de la Plenitud resultaro
 ESTADÍSTICAS:
 
 Saetas +3 ilimitadas~
+
 @112     = ~Mochila de la Plenitud +3~
 @113     = ~Mochila de la Plenitud +3
 
@@ -76,6 +78,7 @@ El dinero y los recursos que invertisteis en el Carcaj de la Plenitud resultaron
 ESTADÍSTICAS:
 
 Balas de honda +3 ilimitadas~
+
 @114     = ~Botas de Velocidad Sigilosa~
 @115     = ~Botas de Velocidad Sigilosa
 
@@ -84,7 +87,9 @@ Perfectas para las personas que exploran grandes distancias y que desean permane
 Habilidades equipadas: Incrementa el índice de movimiento
 Bonificador a moverse silenciosamente: +20%
 Bonificador a esconderse en las sombras: +15%
+
 Peso: 4~
+
 @116     = ~Botas de la Tormenta~
 @117     = ~Botas de la Tormenta
 
@@ -95,6 +100,7 @@ ESTADÍSTICAS:
 Habilidad equipada: Incrementa el índice de movimiento
 Resistencia al frió: +50%
 Peso: 4~
+
 @118     = ~Botas del Avispón~
 @119     = ~Botas del Avispón
 
@@ -105,6 +111,7 @@ ESTADÍSTICAS:
 Bonificador a la Clase de Armadura: +5 contra Proyectiles
 Habilidad equipada: Incrementa el índice de movimiento
 Peso: 4~
+
 @120     = ~Talones del Señor de la Tormenta~
 @121     = ~Talones del Señor de la Tormenta
 
@@ -115,6 +122,7 @@ ESTADÍSTICAS:
 Habilidad equipada: Incrementa el índice de movimiento
 Resistencia a la electricidad: +50%
 Peso: 4~
+
 @122     = ~Garrote +5: Pitchwife~
 @123     = ~Garrote +5: Pitchwife
 
@@ -138,7 +146,7 @@ Esta maza está permanentemente ensangrentada; un detalle por estar tantos años
 
 ESTADÍSTICAS:
 
-THAC0: Bonificador +5
+GAC0: Bonificador +5
 Daño: 1D6 + 6, +6 daño extra a humanoides, baja los puntos de golpe máximos del objetivo en 2 por 10 asaltos
 Tipo de daño: contundente
 Peso: 6
@@ -150,6 +158,7 @@ No lo puede usar:
  El druida
  El mago
  El ladrón~
+ 
 @126     = ~Teleomortis +4~
 @127     = ~Teleomortis +4
 
@@ -158,7 +167,7 @@ Armado en nombre de <CHARNAME> empleado en un oscuro y horrible ritual, Teleomor
 ESTADÍSTICAS:
 
 Habilidades de combate: Crea sus propias fechas fantasmales +4. Un objetivo golpeado con una de estas tiene un 5% de probabilidades de confundir a su objetivo por 30 segundos.
-THAC0: +4
+GAC0: +4
 Daño: 1D6 +4
 Peso: 7
 Factor de Velocidad: 1
@@ -171,6 +180,7 @@ No lo puede usar:
  El mago
  El ladón
  El bardo~
+ 
 @128     = ~Armadura de la familia Corthala~
 @129     = ~Armadura de la familia Corthala
 
@@ -184,6 +194,7 @@ Clase de Armadura: 0
 Peso: 9
 Sólo lo puede usar:
  Valygar~
+ 
 @130     = ~Manto encantado del Buen Archimago~
 @131     = ~Manto encantado del Buen Archimago
 
@@ -199,6 +210,7 @@ Peso: 6
 Sólo lo puede usar:
  El mago (simple, dual o multiclase)
  Personajes de alineamiento bueno~
+ 
 @132     = ~Manto encantado del Archimago Neutral~
 @133     = ~Manto encantado del Archimago Neutral
 
@@ -248,6 +260,7 @@ No lo puede usar:
  El mago
  El bardo
  El ladrón~
+ 
 @138     = ~Torre de la Voluntad de Hierro~
 @139     = ~Torre de la Voluntad de Hierro
 
@@ -262,6 +275,7 @@ No lo puede usar:
  El mago
  El bardo
  El ladrón~
+ 
 @140     = ~Piel de Aeger +5~
 @141     = ~Piel de Aeger +5
 
@@ -277,7 +291,8 @@ Clase de Armadura: 1
 Peso: 35
 Requerimientos: Fuerza 6
 No lo puede usar:
- El mago~
+El Mago~
+ 
 @142     = ~Carne humana mejorada~
 @143     = ~Carne humana mejorada
 
@@ -294,6 +309,7 @@ Requerimientos: Fuerza 3
 No lo puede usar:
  El mago
  Personajes sin alineamiento maligno~
+ 
 @144     = ~Armadura de Placas Completa Levafuego mejorada~
 @145     = ~Armadura de Placas Completa Levafuego mejorada
 
@@ -307,6 +323,7 @@ Habilidades equipadas: Acción libre, inmunidad al miedo
 Peso: 10
 Sólo la puede usar:
   Keldorn~
+  
 @146     = ~Cota de láminas de Ankheng mejorada~
 @147     = ~Cota de láminas de Ankheng mejorada
 
@@ -326,6 +343,7 @@ No lo puede usar:
  El druida
  El mago
  El ladrón~
+ 
 @148     = ~Escudo de la Armonía +3~
 @149     = ~Escudo de la Armonía +3
 
@@ -344,6 +362,7 @@ No lo puede usar:
  El druida
  El mago
  El ladrón~
+ 
 @150     = ~Lanza arrojadiza +3~
 @151     = ~Lanza arrojadiza +3
 
@@ -354,7 +373,7 @@ A diferencia de casi todas las otras lanzas que hayáis visto, esta lanza puede 
 ESTADÍSTICAS:
 
 Habilidades equipadas: 1 ataque adicional por asalto (el mismo alcance que un arco largo)
-THAC0: Bonificador +3
+GAC0: Bonificador +3
 Daño: 1D6 +3
 Tipo de daño: Perforante
 Peso: 3
@@ -366,6 +385,7 @@ No lo puede usar:
  El clérigo
  El mago
  El ladrón~
+ 
 @152     = ~Lanza arrojadiza +3 del unicornio~
 @153     = ~Lanza arrojadiza +3 del unicornio
 
@@ -376,7 +396,7 @@ La lanza del Unicornio original fue reconstruida por <CHARNAME> para servir como
 ESTADÍSTICAS:
 
 Habilidades equipadas: Inmunidad a hechizar y paralizar, +3 a todas las tiradas de salvación contra la muerte
-THAC0: Bonificador +3
+GAC0: Bonificador +3
 Daño: 1D6 +3, +2 por daño de fuego
 Tipo de daño: Perforante
 Peso: 3
@@ -388,17 +408,18 @@ No lo puede usar:
  El clérigo
  El mago
  El ladrón~
+ 
 @154     = ~Empaladora Arrojadiza +4~
 @155     = ~Empaladora Arrojadiza +4
 
 La Empaladora tiene un aura palpable de magia que sugiere la naturaleza cruel de esta arma y de por qué fue la favorita de numerosos caciques orcos muy poderosos en el pasado. Cuando la víctima es golpeada es, como suponéis, gravemente empalada, y una gran cantidad de encantamientos terminan de hacer el trabajo.
 
-Luego de que <CHARNAME> "liberó" la Empaladora de la ciudad Sahuagin, <PRO_HESHE> luego que rediseñarla en un arma arrojadiza. Cuando es arrojada, la lanza regresa inmediatamente a las manos del portador. (También puede ser usada como un arma de refriega: Para hacer eso, seleccionad la segunda habilidad del objeto.)
+Luego de que <CHARNAME> "liberó" la Empaladora de la ciudad Sahuagin,luego de que se rediseñara en un arma arrojadiza. Cuando es arrojada, la lanza regresa inmediatamente a las manos del portador. (También puede ser usada como un arma de refriega: Para hacer eso, seleccionad la segunda habilidad del objeto.)
 
 ESTADÍSTICAS:
 
 Habilidades equipadas: 1 ataque adicional por asalto (el mismo alcance que un arco largo)
-THAC0: Bonificador +4
+GAC0: Bonificador +4
 Daño: 1D6 +4, +10 por daño perforante
 Tipo de daño: Perforante
 Peso: 3
@@ -410,6 +431,7 @@ No lo puede usar:
  El clérigo
  El mago
  El ladrón~
+ 
 @156     = ~Bastón de los Bosques +5~
 @157     = ~Bastón de los Bosques +5
 
@@ -441,7 +463,8 @@ Clase: 2 manos
 Requerimientos: Fuerza 5
 Sólo lo puede usar:
  El druida
- Amo de las Bestias~
+ Señor de las Bestias~
+ 
 @158     = ~Espada solar: 'Estrella diurna +4'~
 @159     = ~Espada solar: 'Estrella diurna +4'
 
@@ -472,6 +495,7 @@ No lo puede usar:
  El druida
  El clérigo
  El mago~
+ 
 @160     = ~Furia Celestial +5~
 @161     = ~Furia Celestial +5
 
@@ -497,7 +521,7 @@ Habilidades de combate:
  (Atontamiento, tirada de salvación contra conjuros)
  Probabilidad de Estallido electrizante cada vez que la espada golpea a un oponente
  (5% de probabilidades de infringir 20 puntos de daño eléctrico adicionales)
-THAC0: Bonificador +5
+GAC0: Bonificador +5
 Daño: 1D10 +5
 Tipo de daño: Cortante
 Peso: 3
@@ -509,6 +533,7 @@ No lo puede usar:
  El druida
  El clérigo
  El mago~
+ 
 @162     = ~Espada de Arvoreen +5~
 @163     = ~Espada de Arvoreen +5
 
@@ -529,6 +554,7 @@ Tipo de Talento: Espada corta
 Clase: 1 mano
 Sólo lo puede usar:
  Los medianos~
+ 
 @164     = ~Santo Redentor +5~
 @165     = ~Santo Redentor +5
 
@@ -540,7 +566,7 @@ ESTADÍSTICAS:
 
 Habilidades equipadas: 5 puntos de daño mágico para cualquiera que haga daño a su portador.
 
-THAC0: Bonificador +5
+GAC0: Bonificador +5
 Daño: 1D12 + 5
 Habilidades de combate: Disipar magia en cada golpe, el objetivo también es silenciado por 2 asaltos
 Tipo de daño: Cortante
@@ -550,6 +576,7 @@ Tipo de Talento: Espada de dos puños
 Clase: 2 manos
 Sólo lo puede usar:
  Keldorn~
+ 
 @166     = ~Escudo familiar Delryn +4~
 @167     = ~Escudo familiar Delryn +4
 
@@ -567,6 +594,7 @@ Habilidades: Puede lanzar protección contra misiles normales 3 veces al día en
 
 Sólo lo puede usar:
  Anomen~
+ 
 @168     = ~Lilarcor +5~
 @169     = ~Lilarcor +5
 
@@ -575,7 +603,7 @@ Lilarcor ya no es tan adorable (o enojosa, dependiendo de vuestro punto de vista
 ESTADÍSTICAS:
 
 Habilidades equipadas: Inmunidad a Dominar, Confusión y Cambios en la inteligencia
-THAC0: Bonificador +5
+GAC0: Bonificador +5
 Daño: 1D12 +5
 Tipo de daño: Cortante
 Peso: 10
@@ -588,6 +616,7 @@ No lo puede usar:
  El clérigo
  El mago
  El ladrón~
+ 
 @170     = ~Vengadora Perversa +6~
 @171     = ~Vengadora Perversa +6
 
@@ -597,7 +626,7 @@ ESTADÍSTICAS:
 
 Habilidades equipadas: 50% de resistencia mágica
 Habilidades de combate: Disipa magia con cada impacto. El objetivo sufre una penalización de -2 al THAC0 por 120 segundos.
-THAC0: Bonificador +6
+GAC0: Bonificador +6
 Daño: 1D12 +6, +1D6 por daño mágico
 Tipo de daño: Cortante
 Peso: 10
@@ -611,6 +640,7 @@ No lo puede usar:
  El mago
  El ladrón
  Personajes no malignos~
+ 
 @172     = ~Garrote +4: 'El fulcro'~
 @173     = ~Garrote +4: 'El fulcro'
 
@@ -628,13 +658,14 @@ Clase: 1 mano
 Requerimientos: Fuerza 5
 No lo puede usar:
  El mago~
+ 
 @174     = ~Golpe de Gracia +4~
 @175     = ~Golpe de Gracia +4
 
 <CHARNAME> arregló tener esta daga construida con el Aguijón de Hada y la mortal Espada de Hueso. El resultado es un arma digna de cualquier asesino. El veneno recién refinado del Aguijón de Hada ahora ciega a la víctima y el conocimiento oscuro de la Espada de Hueso la hace mortal para el apuñalamiento por la espalda en manos de un asesino experto.
 
 Habilidades equipadas: El multiplicador de apuñalar por la espalda se incrementa en 1
-THAC0: Bonificador +4
+GAC0: Bonificador +4
 Daño: 2D3 + 4
 Habilidades de combate: El objetivo es cegado o puesto a dormir por 12 segundos. Una tirada de salvación contra veneno (-2 de penalización) niega el efecto. (Cegar a la criatura modifica en -10 su THAC0)
 Tipo de daño: Cortante
@@ -645,6 +676,7 @@ Clase: 1 mano
 Requerimientos: Fuerza 3
 No lo puede usar:
  El clérigo~
+ 
 @176     = ~Escudo Sagrado de Amaunator +2~
 @177     = ~Escudo Sagrado de Amaunator +2
 
@@ -658,6 +690,7 @@ Peso: 2
 Requerimientos: Fuerza 4
 No lo puede usar:
  El mago~
+ 
 @178     = ~Guantes del Maestro Ladrón: 'Doce dedos'~
 @179     = ~Guantes del Maestro Ladrón: 'Doce dedos'
 
@@ -672,6 +705,7 @@ Abrir cerraduras: Bonificador +25%
 Robar bolsillos: Bonificador +20%
 Peso: 2
 Sólo lo puede usar:
+
  El ladrón~
 @180     = ~Amuleto de Ilmater~
 @181     = ~Amuleto de Ilmater
@@ -684,6 +718,7 @@ El portador es inmune al veneno
 Lanza Sanar una vez por día
 Bonificador a la Clase de Armadura: 1
 Bonificación a las tiradas de salvación: 3~
+
 @182     = ~Garra de agua +4~
 @183     = ~Garra de agua +4
 
@@ -695,7 +730,7 @@ Habilidades equipadas: El portador es inmune a hechizar, dominación y el horrib
 Habilidades especiales: Cada golpe eleva los puntos de golpe máximos del portador en 2 por 3 minutos
 Propiedades especiales: Alcance del golpe extendido
 Daño: 1D8 +4, +2 puntos de daño por veneno por segundo (acumulativo)
-THAC0: +4
+GAC0: +4
 Tipo de daño: Cortante
 Peso: 3
 Factor de Velocidad: 1
@@ -706,6 +741,7 @@ No lo puede usar:
  El clérigo
  El mago
  El ladrón~
+ 
 @184     = ~Azuredge +4~
 @185     = ~Azuredge +4
 
@@ -716,7 +752,7 @@ ESTADÍSTICAS:
 Habilidad de combate: +4 puntos de daño extra a los muertos vivientes, además deben salvar una tirada de salvación contra la muerte (penalización de -4) o ser destruidos
 Habilidad equipada: Inmune a la consunción de niveles
 Daño: 1D6+4
-THAC0: +4
+GAC0: +4
 Tipo de daño (refriega): Cortante
 Tipo de daño (lanzando): Proyectil (perforante)
 Especial: Regresa a las manos del lanzador una vez arrojada
@@ -731,6 +767,7 @@ No lo puede usar:
  El clérigo
  El mago
  El ladrón~
+ 
 @186     = ~Anillo del Hechicero: 'Poder Codicioso'~
 @187     = ~Anillo del Hechicero: 'Poder Codicioso'
 
@@ -741,6 +778,7 @@ ESTADÍSTICAS:
 Conjuros: Concede un conjuro extra de mago de nivel 1 al 7.
 Clase de Armadura: Bonificador +1
 Tiradas de Salvación: Bonificador +1~
+
 @188     = ~Cinturón de la Gloria~
 @189     = ~Cinturón de la Gloria
 
@@ -750,6 +788,7 @@ ESTADÍSTICAS:
 
 Clase de Armadura: Bonificador +3
 Peso: 2~
+
 @190     = ~Figura de Kitthix mejorada~
 @191     = ~Figura de Kitthix mejorada
 
@@ -759,16 +798,15 @@ ESTADÍSTICAS:
 
 Conjura una araña espada llamada Kitthix por 2400 segundos, una vez por día.~
 @192     = ~Kitthix mejorada~
-@193     = ~Entropía inevitable~
-@194     = ~Entropía inevitable
 
-Esta espada abismal de acero verde ha sido mejorada por requerimiento de <CHARNAME>. La espada reparte veneno y su víctima parece perder su habilidad de resistir la magia dañina mientras son rebanados por la espada.
+@193     = ~Entropía inevitable~
+@194     = ~Esta espada abismal de acero verde ha sido mejorada por requerimiento de <CHARNAME>. La espada reparte veneno y su víctima parece perder su habilidad de resistir la magia dañina mientras son rebanados por la espada.
 
 ESTADÍSTICAS:
 
 Habilidades de combate: Un golpe con esta espada tiene 5% de probabilidades de lanzar Malison Mayor en su objetivo.
 
-THAC0: Bonificador +3
+GAC0: Bonificador +3
 Daño: 1D6 +3 +1 de daño por veneno cada segundo durante un asalto.
 Tipo de daño: Perforante
 Peso: 2
@@ -777,6 +815,7 @@ Tipo de Talento: Espada corta
 Clase: 1 mano
 Sólo lo puede usar:
  El ladrón~
+ 
 @195     = ~Caos Rastrero~
 @196     = ~Caos Rastrero es una espada corta utilizable solamente por los ladrones. Cada vez que golpea un oponente, él o ella pierde dos puntos de destreza (por 30 segundos). Rediseñada a pedido de <CHARNAME>, esta hoja mejorada tiene la posibilidad de aturdir a cualquier oponente golpeado con ella.
 
@@ -784,7 +823,7 @@ ESTADÍSTICAS:
 
 Habilidades de combate: Un golpe exitoso con esta espada tiene un 5% de probabilidades de confundir a la víctima por 48 segundos si falla una tirada de salvación con penalizador de -4. Además, cada golpe exitoso drena 2 puntos de destreza de la víctima por 30 segundos.
 
-THAC0: Bonificador +3
+GAC0: Bonificador +3
 Daño: 1D6 +3
 Tipo de daño: Perforante
 Peso: 2
@@ -793,6 +832,7 @@ Tipo de Talento: Espada corta
 Clase: 1 mano
 Sólo lo puede usar:
  El ladrón~
+ 
 @197     = ~Malla Élfica Roja~
 @198     = ~Malla Élfica Roja
 
@@ -811,3 +851,14 @@ Requerimientos: Fuerza 5
 No lo puede usar:
  El druida
  El mago~
+ @199 = ~Anillo de preservación +3~
+@200 = ~Anillo de preservación +3: 'Sello del guardián'
+Este anillo fue forjado mágicamente para <CHARNAME>. Combina los poderes de protección del anillo «Sello del Guardián» con los poderes regeneradores de los anillos de regeneración de Huhhus, alimentados por trolls. Además, el anillo es muy elegante.
+
+ESTADÍSTICAS:
+
+El portador regenera 1 punto de vida cada 6 segundos
+Clase de armadura: Bonificación +3
+Tiradas de salvación: Bonificación +3~
+
+// @200 - @216 are reserved for EE-exclusive strings for compatibility with ZS Tweaks

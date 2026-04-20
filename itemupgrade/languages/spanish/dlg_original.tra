@@ -33,11 +33,15 @@
 @123432  = ~Me encantaría una daga verdaderamente mortal. ¿Podéis hacerme una?.~
 @123433  = ~¿Qué podemos hacer con este lastimoso escudo?.~
 @123434  = ~¿Hay alguna posibilidad de mejorar estos guanteletes de sigilo?.~
+@12350 = ~¿Se puede forjar algo con este Anillo de Protección tan poderoso?~
+
 @123435  = ~Ahora no.~
 @123436  = ~Sí. ¡Hagámoslo!.~
+
 @123437  = ~¿Podéis hacer algo con este amuleto?.~
 @123438  = ~Me gustaría perfeccionar esta cimitarra.~
 @123439  = ~¿Podéis hacer a Azuredge aún más poderoso?.~
+
 @123440  = ~Podría combinar el Anillo de Protección + 1 con el Anillo de Regeneración. Necesitaría disolver un diamante en la mezcla. Os costará 10.000 monedas de oro. ¿Interesado?.~ ~Podría combinar el Anillo de Protección + 1 con el Anillo de Regeneración. Necesitaría disolver un diamante en la mezcla. Os costará 10.000 monedas de oro. ¿Interesada?.~
 @123441  = ~Podría combinar el Anillo de Protección +2 con el Anillo de Regeneración. Necesitaría disolver un diamante en la mezcla. Os costará 20.000 monedas de oro. ¿Interesado?.~ ~Podría combinar el Anillo de Protección +2 con el Anillo de Regeneración. Necesitaría disolver un diamante en la mezcla. Os costará 20.000 monedas de oro. ¿Interesada?.~
 @123442  = ~Podría combinar los Anillos del Aire, Tierra y Fuego en un Anillo de Maestría Elemental. Necesitaría pergaminos de Protección contra la Petrificación, Fuego y Electricidad como reactivos. Os costará 20.000 piezas de oro.~
@@ -74,6 +78,7 @@
 @123473  = ~Sí. Podría combinar el revestimiento del escudo de Anomen con el escudo de la Gracia Salvadora. Os cobraría 15.000 monedas de oro por el trabajo.~
 @123474  = ~Ah, el desperdicio así llamado: Lilarcor  'La espada que siente'. No podría deciros cuantas veces he tenido aventureros que han venido aquí a pedirme que lo haga. Si tenéis un Anillo de Control de los Azotamentes podría colocarle un amortiguador a su charla y hacérosla más útil al mismo tiempo. Os costaría 20.000 monedas de oro por la tarea.~
 @123475  = ~Sí, eso que tenéis ahí sí que es un cuchillo. Podría forjar una Espada de Hueso y una Picadura de Hada al mismo tiempo usando cuatro pociones de robo maestro como reactivos y hacer una espada verdaderamente malvada para un ladrón. Para vos serían 15.000 monedas de oro.~
+
 @123476  = ~Sí, podría forjar ese símbolo sagrado de Amaunator en vuestro escudo, concediéndole la protección de la deidad olvidada hace tiempo. Necesitaría también 5 gemas 'Piedra solar' y 10.000 monedas de oro para este trabajo. ¿Interesado?.~ ~Sí, podría forjar ese símbolo sagrado de Amaunator en vuestro escudo, concediéndole la protección de la deidad olvidada hace tiempo. Necesitaría también 5 gemas 'Piedra solar' y 10.000 monedas de oro para este trabajo. ¿Interesada?.~
 @123477  = ~Ah. Debéis conseguir los Guantes de Robar Bolsillos, Brazales de Defensa, Anillos de Detectar Peligro y Abrir Cerraduras, y dos anillos de protección, podría empedrar ambos para vos. 5,000 monedas de oro cubrirían bien los costos.~
 @123478  = ~Con dos Amuletos de Protección, un Amuleto de Resistencia al Veneno, un Amuleto de Estabilidad de Forma y un Amuleto de Guarda contra Conjuros, podría forjaros un Amuleto de Ilmater. ¿Os gustaría pagar 10.000 monedas de oro por él?.~
@@ -90,6 +95,7 @@
 @123498  = ~Ah queréis mejorar armas Planares. Ese es un trabajo muy peligroso. Hmmm, veamos. Si no os importa sacrificar las espadas de Ilbratha y Arbane, puedo reconstruir las espadas cortas de Haer'Dalis para que infrinjan mayor daño y gane algunos poderes de conjuros. Os costará 25.000 monedas de oro, más una Piedra de Bribón y pergaminos de Caos y de Malison Mayor. ~ ~~
 @123499  = ~¿Podéis construirme una cota élfica?.~
 @1234100 = ~Sí, quizás forje conjuntamente un equipo de Cota Silvana con Escamas de Bestia con Temor a las Llamas. Con tres gemas de Ándar y 3 ágatas ígneas  que contengan el infierno y 25.000 monedas de oro como reactivo y labor, podría construirle un equipo muy poderoso. ¿Os interesa?.~
+@12351 = ~Podría combinar un Anillo de Protección +3 con un Anillo de Regeneración. Tendría que fundir un diamante en la mezcla y te costaría 30 000 piezas de oro. ¿Te interesa?~
 @56780   = ~Vamos a trabajar, Cespenar.~
 @56781   = ~¿Tenéis alguna pregunta primero? ¿o puedo empezar a buscar?.~
 @56782   = ~¿Podéis hacer algo con este Anillo de Protección?.~
@@ -129,6 +135,7 @@
 @567838  = ~Me gustaría mejorar esta Cimitarra.~
 @567839  = ~¿Podéis hacer más poderosa a Azuredge?.~
 @567891  = ~Me gustarían más encantamientos para mi Anillo de la Hechicería.~
+@56790  = ~¿Se puede forjar algo con este Anillo de Protección tan poderoso?~
 @567835  = ~Ahora no.~
 @567836  = ~¡Sí, hagámoslo!.~
 @567876  = ~¿Qué podéis hacer con esta munición?.~
@@ -199,7 +206,7 @@
 @567879  = ~¿Oooh, Alguien os habló de la Munición de la Abundancia? Es como un penique sin importancia... supongo que Cespenar tendrá que tirarla al río de nuevo, ¡esta vez con un gran peso atado!.~ [fwcesp31]
 @5678979 = ~O quizás podamos intentar algo diferente esta vez y usar una nueva receta. Vos conseguís 40 misiles +3 y 40.000 monedas de oro y luego haremos la Munición de la Abundancia +3. ¡Pensad en todo el dinero que estaréis ahorrando en proyectiles!.~
 @567880  = ~Sí, hacedme un Carcaj (Flechas).~
-@567881  = ~Sí, hacedme un Estuche (Saetas).~
+@567881  = ~Sí, hacedme un Estuche (Virotes).~
 @567882  = ~Sí, hacedme una Mochila (Balas).~
 @567883  = ~Se ve como gente grande en una percha. ¡Hola gente grande! Saluden a Cespenar.~ [fwcesp32]
 @5678983 = ~Cespenar no es un taxidermista pero puede tomar la Carne Humana y combinarla con una Piedra del alma y un Pergamino de protección contra la Magia y 20.000 monedas de oro y sacar mucho brillo. Haceros más saludable y fuerte.~

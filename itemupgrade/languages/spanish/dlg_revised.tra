@@ -190,6 +190,10 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @12348100 = ~Podría forjar juntas una armadura de Mallas del bosque con unas escamas de una bestia de llamas terroríficas. Con tres gemas de Ándar y tres Ágatas ígneas que contengan el infierno, y 25.000 piezas de oco para reactivos y por la labos, podría construiros una armadura muy poderoso.~
 @12349100 = ~Podría forjar juntas una armadura de Mallas del bosque con unas escamas de una bestia de llamas terroríficas. Con tres gemas de Ándar y tres Ágatas ígneas que contengan el infierno, y 25.000 piezas de oco para reactivos y por la labos, podría construiros una armadura muy poderoso. ¿Os interesa?~
 
+@123484 = ~Qué bonito anillo tienes ahí. Déjame echarle un vistazo...~
+@1234884 = ~Podría combinar un Anillo de Protección +3 con un Anillo de Regeneración. Tendría que fundir un diamante en la mezcla y te costaría 30 000 piezas de oro.~
+@1234984 = ~Podría combinar un Anillo de Protección +3 con un Anillo de Regeneración. Tendría que fundir un diamante en la mezcla y te costaría 30 000 piezas de oro. ¿Te interesa?~
+
 // Cespy
 
 @567840 = ~¿Por qué tenéis tantos anillos? ¿Tenéis montones de esposas en otro lado? ¡¡¡Vergüenza, vergüenza, Cespenar CONOCE VUESTRO NOMBRE!!!.~ [fwcesp00]
@@ -387,3 +391,9 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @5678100 = ~Ooh, ¿una Malla del Bosque? ¿De repente os urge vestiros con hojas y empezar a protestar contra el "calentamiento global" o lo que sea? Sheeshh... <PRO_RACE>s~
 @56788100 = ~¡Oooh sí! ¿Tal vez ss gusten las cosas bien cocinadas? Cespenar batirá algunas cadenas élficas con escamas de dragón rojo. Añadirá hongos shiitake, algunas especias ándar y pimienta de ágatas de fuego y presto: muy liviana, muy picante, muy hartante. Cespenar es el verdadero chef del hierro... o quizás un fraguador culinario. Desafortunadamente, la sartén especial y el aceite de cacahuate os costarán 25.000 piezas de oro.~
 @56789100 = ~¡Oooh sí! ¿Os gusten las cosas bien cocinadas? Cespenar batirá algunas cadenas élficas con escamas de dragón rojo. Añadirá hongos shiitake, algunas especias ándar y pimienta de ágatas de fuego y presto: muy liviana, muy picante, muy hartante. Cespenar es el verdadero chef del hierro... o quizás un fraguador culinario. Desafortunadamente, la sartén especial y el aceite de cacahuate os costarán 25.000 piezas de oro.~ [fwcesp43]
+
+
+
+@567853 = ~¿Por qué tienes tantos anillos? Lo siguiente será ponerte oro en los dientes», piensa Cespenar.~
+@5678853 = ~El Anillo de Protección +3 se puede combinar con el Anillo de Regeneración. Pero se necesitarán 30 000 monedas de oro y un diamante para que la receta funcione.~
+@5678953 = ~De todos modos, podemos coger el Anillo de Regeneración y el Anillo de Protección +3 y combinarlos en uno solo. Así ahorramos espacio en el inventario. ¡Solo hacen falta 30 000 monedas de oro y fundir un diamante! ¿Te parece bien?~
