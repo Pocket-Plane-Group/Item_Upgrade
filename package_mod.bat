@@ -1,8 +1,6 @@
-REM Please note this uses a modified conf file and batch file (not on Github) from Mike1072's
-REM excellent packaging tool since this is a WeiDU.org mod, not a G3 one.
+REM Please note this uses a modified conf file and batch file (not on Github) from Mike1072's excellent packaging tool since this is a WeiDU.org mod, not a G3 one.
 
-
-REM @echo off
+@echo off
 setlocal
 
 REM /* this initializes the values for the different variables referenced in compatible_games */
@@ -10,7 +8,7 @@ call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 set "mod_name=Item Upgrade"
-set mod_version=v56
+set mod_version=v57
 set mod_folder=itemupgrade
 
 REM /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
